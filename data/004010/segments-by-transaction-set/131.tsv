@@ -1,0 +1,7 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	2	2
+REF	Reference Information	H	M	0	2	3
+QTY	Quantity Information	H	M	0	2	4
+SUM	Academic Summary	H	O	0	1	5
+IN2	Individual Name Structure Components	H	M	0	1	6

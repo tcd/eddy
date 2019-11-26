@@ -1,0 +1,41 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+REF	Reference Information	H	O	0	999999	2
+FGS	Form Group	H	M	999999	1	3
+CDS	Case Description	H	O	0	1	4
+DTM	Date/Time Reference	H	O	0	999999	5
+SPI	Specification Identifier	H	O	0	1	6
+REF	Reference Information	H	O	0	999999	7
+CRC	Conditions Indicator	H	O	0	999999	8
+PAM	Period Amount	H	O	0	999999	9
+BCU	Legal Claim Updates	H	O	0	1	10
+MSG	Message Text	H	O	0	999999	11
+QTY	Quantity Information	H	O	0	999999	12
+CED	Administration Of Justice Event Description	H	O	0	1	13
+LM	Code Source Information	H	O	999999	1	14
+LQ	Industry Code Identification	H	M	0	999999	15
+CED	Administration Of Justice Event Description	H	O	0	1	16
+MSG	Message Text	H	O	0	999999	17
+AMT	Monetary Amount Information	H	O	999999	1	18
+DTM	Date/Time Reference	H	O	0	999999	19
+QTY	Quantity Information	H	O	0	999999	20
+REF	Reference Information	H	O	0	999999	21
+MSG	Message Text	H	O	0	999999	22
+BBC	Legal Claims	H	O	999999	1	23
+AMT	Monetary Amount Information	H	O	0	1	24
+NM1	Individual Or Organizational Name	H	O	999999	1	25
+N2	Additional Name Information	H	O	0	999999	26
+N3	Party Location	H	O	0	999999	27
+N4	Geographic Location	H	O	0	1	28
+REF	Reference Information	H	O	0	999999	29
+QTY	Quantity Information	H	O	0	999999	30
+PER	Administrative Communications Contact	H	O	0	999999	31
+AMT	Monetary Amount Information	H	O	0	999999	32
+PCT	Percent Amounts	H	O	0	1	33
+MSG	Message Text	H	O	0	999999	34
+BBC	Legal Claims	H	O	999999	1	35
+AMT	Monetary Amount Information	H	O	0	999999	36
+DTM	Date/Time Reference	H	O	999999	1	37
+CRC	Conditions Indicator	H	O	0	999999	38
+EFI	Electronic Format Identification	H	O	999999	1	39
+BIN	Binary Data Segment	H	M	0	1	40

@@ -1,0 +1,10 @@
+id	definition
+01	Number of Vehicles Tightly Spaced - Available
+02	Number of Vehicles Tightly Spaced - Used
+03	Number of Vehicles Standard Spaced - Available
+04	Number of Vehicles Standard Spaced - Used
+05	Percentage Filled Tightly Spaced
+06	Percentage Filled Standard Spaced
+07	Percentage Empty Tightly Spaced
+08	Percentage Empty Standard Spaced
+AA	Acreage

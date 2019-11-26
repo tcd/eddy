@@ -1,0 +1,163 @@
+id	definition
+A	Missing or Invalid Report Type Code
+B	Missing or Invalid Physical Inventory Code
+C	Missing or Invalid Consignee
+D	Missing or Invalid Fund Code
+E	Missing or Invalid Material Condition Code
+F	Missing or Invalid Management Code
+G	Missing or Invalid Processing (Count) Date Code
+H	Missing or Invalid Unit of Measure Code
+I	Missing or Invalid Source of Supply Code
+J	Missing or Invalid Purpose Code
+K	Missing or Invalid Ownership Code
+L	Missing or Invalid Support Request Code
+M	Missing or Invalid Supply Condition Code
+N	Missing or Invalid Payer Identification
+O	Missing or Invalid Issuer Identification
+P	Missing or Invalid Item Quantity
+Q	Missing or Invalid Item Identification
+R	Missing or Invalid Support Date
+S	Missing or Unauthorized Transportation Mode/Method Code
+T	Unauthorized Transaction Set Purpose Code
+U	Missing or Unauthorized Transaction Type Code
+V	Missing or Unauthorized Action Code
+MA	Missing or Invalid Store Number
+MB	Missing or Invalid Purchase Order Number
+MC	Missing or Invalid Bill of Lading Number
+MD	Missing or Invalid Invoice Date
+ME	Missing or Invalid Department Number
+MF	Missing or Invalid Internal Vendor Number
+MG	Missing or Invalid U.P.C. Code
+MH	Missing or Invalid DUNS Number
+MI	Missing or Invalid SCAC
+MJ	Missing or Invalid Terms
+MK	Missing or Invalid Ship Date Location
+ML	Missing or Invalid Sell to Location
+MM	Missing or Invalid Bill to Location
+MN	Missing or Invalid Unit Cost
+MP	Missing or Invalid Non-merchandise Code
+MQ	Missing or Invalid Non-merchandise Cost
+RU	Rate Unverifiable
+001	Car Not in Umler
+002	Car Not in Correct Status for Billing
+003	Duplicate Billing
+004	Invalid Commodity Code
+005	Route Error
+006	Duplicate
+007	Missing Data
+008	Out of Range
+009	Invalid Date
+010	Total Out of Balance
+011	Not Matching
+012	Invalid Combination
+024	Other Unlisted Reason
+026	Customer Identification Number is Invalid
+027	Customer Identification Number Does not Exist
+028	Customer Identification Number and Entity Name Do not Match
+029	Customer Identification Number Is Missing
+036	Invalid Serial Number
+500	Misrouted Freight Bill
+801	Missing or Invalid Transaction Handling Code
+802	Invalid Debit or Credit Flag Code
+803	Missing or Invalid Payment Method Code
+804	Missing or Invalid Payment Format
+805	Missing Depository Financial Institution (DFI) Qualifier
+806	Missing or Invalid Financial Institution Transit Routing Number
+807	Missing or Invalid Originating Account Number
+808	Missing or Invalid Receiving Account Number
+809	Missing Effective Entry Date
+810	Effective Payment Date is Past
+811	Payment Received Too Far in Advance
+812	Missing Transaction Reference or Trace Number
+813	Missing or Invalid Payee Name and Address
+814	Received After Cutoff Date or Time
+815	Duplicate Batch
+817	Duplicate Trace Number
+818	Missing Control Totals
+819	Control Totals Amount Error
+820	Control Totals Count Error
+821	Control Totals Out of Sequence
+822	Transaction Set Payment Amount Error
+823	Payment Pending Credit Approval
+824	Payment Passed Credit Approval
+825	Payment Amount Exceeds Approved Credit Limit; Refused
+826	Non-Sufficient Funds in Account; Refused
+827	Account Frozen
+828	Account Transferred
+829	Payee Deceased
+830	Refused by Payee
+831	Missing or Invalid Cancellation Type Code
+832	Invalid Request or Cancellation Flag
+833	Invalid Cancellation Request (Item Not in Financial Warehouse to Cancel)
+834	Missing or Invalid Effective Payment Date
+847	Closed/Non-Existent Account Number
+848	Incorrect Data
+849	Corrected Data
+ASA	Associated Authorization
+ASV	Associated Vehicle Identification Number(s) Unknown
+AVE	Associated Vehicle Identification Number(s) Invalid
+CAL	Currency Calculation
+CHK	Check Being Returned
+COV	Conflicting Authorizations
+CUR	Invalid Currency Code
+DBL	Duplicate Bill of Lading Number
+DDT	Departure Date Invalid
+DRC	Duplicate Railcar Departure
+DTE	Incorrect Date
+DUP	Duplicate Transaction
+HUG	Quantity of Handling Units Shipped Greater Than the Quantity Specified
+HUL	Quantity of Handling Units Shipped Less Than the Quantity Specified
+ICA	Invalid Claim Amount
+ICG	Invalid Charge Allowance Qualifier
+IDC	Invalid Decline/Amend Reason Code
+IDN	Invalid Department Number
+IID	Invalid Identification Code
+IMD	Invalid Railcar Type
+INC	Incomplete Transaction
+INF	Invalid Status Code
+IPR	Status Code Previously Reported
+IQT	Invalid Quantity
+IWT	Invalid Weight
+LOC	Invalid Damage Area Code
+MBL	Multiple Bills of Lading
+MDN	Missing Department Number
+MID	Missing Identification Code
+MQT	Missing Quantity
+MWT	Missing Weight
+NAU	Not Authorized
+NCL	No Clearance Authorization
+NCR	No Clearance Reported
+NDP	No Departure Reported
+NDT	No Termination Date
+NIF	Invalid Status Location
+NOC	Automated Clearinghouse (ACH) Notification of Change
+NOD	Not on Departure
+NRA	No Railcar Arrival
+OTH	Other
+PND	Pending Payment
+POI	Purchase Order Number Invalid
+PPD	Previously Paid
+PRM	Primary Inspection Not Received
+QTY	Quantity
+RAT	No Rate Available
+RTE	Invalid Shipper's Route Code
+RTN	Automated Clearinghouse (ACH) Return Items
+SCA	Invalid SCAC
+SCD	Invalid Vehicle Service Code
+SEV	Invalid Damage Severity Code
+SPL	Invalid SPLC Code
+STA	Shipment Picked Up After the Date Specified by the Ship Window
+STP	Shipment Picked Up Prior to the Date Specified by the Ship Window
+STR	Invalid Storage Days Calculation
+TRN	Turnover
+TYP	Invalid Damage Type Code
+UAU	Used Authorization
+UCN	Unknown Claim Number
+UKN	Unknown Move/Service
+UNP	Invalid Unit Price
+UNV	Unknown Vehicle Identification Number
+VIN	Invalid Vehicle Identification Number
+VND	Vehicle Not Departed
+VOS	Offsite Storage
+ZDS	Zero Storage Days
+ZZZ	Mutually Defined

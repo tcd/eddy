@@ -1,0 +1,21 @@
+id	description	section	req	max_loop	max_usage	pos
+BSW	Beginning Segment For Carrier S Services Settlement	H	M	0	1	1
+CUR	Currency	H	M	0	1	2
+N1	Party Identification	H	O	5	1	3
+N2	Additional Name Information	H	O	0	1	4
+N3	Party Location	H	O	0	1	5
+N4	Geographic Location	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	2	7
+CI	Carrier Interchange Agreement	H	O	20	1	8
+DTM	Date/Time Reference	H	O	0	1	9
+AMT	Monetary Amount Information	H	O	0	1	10
+MEA	Measurements	H	O	0	2	11
+SWC	Switching Conditions	H	O	999	1	12
+ED	Equipment Description	H	O	9999	1	13
+DTM	Date/Time Reference	H	O	0	5	14
+SWD	Switching Details	H	O	0	1	15
+SWR	Switching Rates	H	O	0	2	16
+NM1	Individual Or Organizational Name	H	O	0	1	17
+F9	Origin Station	H	O	0	1	18
+D9	Destination Station	H	O	0	1	19
+NTE	Note/Special Instruction	H	O	0	1	20

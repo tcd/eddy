@@ -1,0 +1,41 @@
+id	definition
+1	New Business Account
+2	Group Number
+3	Policy Number
+Z	Mutually Defined
+01	Time Deposit
+03	Checking Account
+05	Stock
+06	Bond
+07	Life Insurance Face Value
+08	Retirement Account - Vested Interest
+10	Business Account
+11	Trust Fund Account
+12	Stocks and Bonds Account
+13	Life Insurance Account - Net Cash Value
+14	Employee Retirement Account (401K)
+AG	Agency
+AP	Application
+BA	Brokerage Account
+CB	Charge Back Account for Returns
+CC	Credit Card
+CM	Cash Management
+DA	Demand Deposit
+DC	Debit Card
+EC	Existing Carrier
+RD	Return Items on Demand Deposit Account
+RS	Return Items on Savings Account
+SG	Savings
+ALC	Agency Location Code (ALC)
+ANN	Annuity
+CDM	Controlled Disbursement Master Account
+CDS	Controlled Disbursement Sub Account
+CRU	Credit Union
+EPC	Enriched Plan Contract Number
+LTD	Long-term Disability Policy Number
+MUT	Mutual Fund
+PRI	Primary Bank
+REL	Relationship Summary Account
+SKA	Safekeeping (Custody) Account
+ZB1	Zero Balance Master Account
+ZB2	Zero Balance Affiliate Account

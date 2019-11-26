@@ -1,0 +1,20 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+Q5	Status Details	H	M	0	1	2
+W2	Equipment Identification	H	M	1000	1	3
+NA	Cross-Reference Equipment	H	O	0	30	4
+N9	Extended Reference Information	H	O	0	10	5
+M7	Seal Numbers	H	O	0	5	6
+N1	Party Identification	H	O	10	1	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+EQD	Eqd  Equipment Damage Information	H	M	1000	1	10
+MEA	Measurements	H	O	0	3	11
+NTE	Note/Special Instruction	H	O	0	5	12
+DTM	Date/Time Reference	H	O	0	1	13
+M7	Seal Numbers	H	O	0	5	14
+L11	Business Instructions And Reference Number	H	O	0	5	15
+NM1	Individual Or Organizational Name	H	O	10	1	16
+N3	Party Location	H	O	0	2	17
+N4	Geographic Location	H	O	0	1	18
+PER	Administrative Communications Contact	H	O	0	3	19

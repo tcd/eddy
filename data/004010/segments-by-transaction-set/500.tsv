@@ -1,0 +1,48 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+DTM	Date/Time Reference	H	O	0	999999	8
+QTY	Quantity Information	H	O	0	999999	9
+TRN	Trace	H	O	0	999999	10
+LM	Code Source Information	H	O	999999	1	11
+LQ	Industry Code Identification	H	M	0	999999	12
+HL	Hierarchical Level	D	O	999999	1	13
+LM	Code Source Information	D	O	999999	1	14
+LQ	Industry Code Identification	D	M	999999	1	15
+DTM	Date/Time Reference	D	O	0	999999	16
+REF	Reference Information	D	O	0	999999	17
+QTY	Quantity Information	D	O	0	999999	18
+MTX	Text	D	O	0	999999	19
+LIN	Item Identification	D	O	999999	1	20
+PID	Product/Item Description	D	O	0	999999	21
+QTY	Quantity Information	D	O	0	999999	22
+DTM	Date/Time Reference	D	O	0	999999	23
+REF	Reference Information	D	O	0	999999	24
+MEA	Measurements	D	O	0	999999	25
+TRN	Trace	D	O	0	999999	26
+MTX	Text	D	O	0	999999	27
+NM1	Individual Or Organizational Name	D	O	999999	1	28
+N2	Additional Name Information	D	O	0	2	29
+N3	Party Location	D	O	0	2	30
+N4	Geographic Location	D	O	0	1	31
+REF	Reference Information	D	O	0	999999	32
+PER	Administrative Communications Contact	D	O	0	999999	33
+DTM	Date/Time Reference	D	O	0	999999	34
+DMG	Demographic Information	D	O	0	999999	35
+MEA	Measurements	D	O	0	999999	36
+PWK	Paperwork	D	O	0	999999	37
+TRN	Trace	D	O	0	999999	38
+QTY	Quantity Information	D	O	999999	1	39
+LM	Code Source Information	D	O	999999	1	40
+LQ	Industry Code Identification	D	M	0	999999	41
+PID	Product/Item Description	D	O	999999	1	42
+DTM	Date/Time Reference	D	O	0	999999	43
+QTY	Quantity Information	D	O	0	999999	44
+MTX	Text	D	O	999999	1	45
+DTM	Date/Time Reference	D	O	0	999999	46
+CTT	Transaction Totals	D	O	0	1	47

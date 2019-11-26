@@ -1,0 +1,79 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+UD	Underwriting Status	H	O	0	1	3
+NM1	Individual Or Organizational Name	H	O	2	1	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	9	7
+PER	Administrative Communications Contact	H	O	0	3	8
+ACT	Account Identification	D	M	999999	1	9
+PER	Administrative Communications Contact	D	O	0	3	10
+UD	Underwriting Status	D	O	0	1	11
+DTP	Date Or Time Or Period	D	O	0	19	12
+BLI	Basic Baseline Item Data	D	O	0	1	13
+AMT	Monetary Amount Information	D	O	0	9	14
+LIN	Item Identification	D	O	0	1	15
+REF	Reference Information	D	O	0	9	16
+K3	File Information	D	O	0	3	17
+LX	Transaction Set Line Number	D	M	999999	1	18
+BLI	Basic Baseline Item Data	D	O	0	1	19
+INV	Investment Vehicle Selection	D	O	0	9	20
+UD	Underwriting Status	D	O	0	1	21
+M1	Insurance	D	O	0	1	22
+DTP	Date Or Time Or Period	D	O	0	9	23
+RPA	Rate Amounts Or Percents	D	O	0	1	24
+K3	File Information	D	O	0	3	25
+BEN	Beneficiary Or Owner Information	D	O	999999	1	26
+NM1	Individual Or Organizational Name	D	O	0	1	27
+N2	Additional Name Information	D	O	0	1	28
+N3	Party Location	D	O	0	1	29
+N4	Geographic Location	D	O	0	1	30
+DTP	Date Or Time Or Period	D	O	0	1	31
+ENT	Entity	D	O	999999	1	32
+NM1	Individual Or Organizational Name	D	O	0	1	33
+N2	Additional Name Information	D	O	0	2	34
+REF	Reference Information	D	O	0	9	35
+N3	Party Location	D	O	0	3	36
+N4	Geographic Location	D	O	0	1	37
+PER	Administrative Communications Contact	D	O	0	3	38
+DMG	Demographic Information	D	O	0	1	39
+DMA	Additional Demographic Information	D	O	0	1	40
+REL	Relationship	D	O	0	1	41
+UD	Underwriting Status	D	O	0	1	42
+DTP	Date Or Time Or Period	D	O	0	9	43
+QTY	Quantity Information	D	O	0	9	44
+K3	File Information	D	O	0	3	45
+LQ	Industry Code Identification	D	O	999999	1	46
+V9	Event Detail	D	O	0	1	47
+SPA	Status Of Product Or Activity	D	O	0	999999	48
+DTP	Date Or Time Or Period	D	O	0	9	49
+K3	File Information	D	O	0	3	50
+NM1	Individual Or Organizational Name	D	O	999999	1	51
+N3	Party Location	D	O	0	3	52
+N4	Geographic Location	D	O	0	1	53
+G61	Contact	D	O	0	9	54
+BEN	Beneficiary Or Owner Information	D	O	999999	1	55
+NM1	Individual Or Organizational Name	D	O	0	1	56
+N2	Additional Name Information	D	O	0	1	57
+N3	Party Location	D	O	0	1	58
+N4	Geographic Location	D	O	0	1	59
+DTP	Date Or Time Or Period	D	O	0	1	60
+BLI	Basic Baseline Item Data	D	O	999999	1	61
+INV	Investment Vehicle Selection	D	O	0	9	62
+UD	Underwriting Status	D	O	0	1	63
+UDA	Underwriting Condition	D	O	0	999999	64
+M1	Insurance	D	O	0	1	65
+DTP	Date Or Time Or Period	D	O	0	9	66
+QTY	Quantity Information	D	O	0	999999	67
+RPA	Rate Amounts Or Percents	D	O	0	999999	68
+K3	File Information	D	O	0	3	69
+BEN	Beneficiary Or Owner Information	D	O	999999	1	70
+NM1	Individual Or Organizational Name	D	O	0	1	71
+N2	Additional Name Information	D	O	0	1	72
+N3	Party Location	D	O	0	1	73
+N4	Geographic Location	D	O	0	1	74
+DTP	Date Or Time Or Period	D	O	0	1	75
+MSG	Message Text	D	O	999999	1	76
+DTP	Date Or Time Or Period	D	O	0	1	77
+NM1	Individual Or Organizational Name	D	O	0	1	78

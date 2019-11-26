@@ -1,0 +1,31 @@
+id	definition
+AQ	Alternate Quantity and Unit of Measure
+BB	Balancing Quantity
+BD	Blueprint Deviation
+C1	Transportation Limitations
+C2	Source Limitations
+C3	Contract Limitations
+C4	Destination Limitations
+C5	Confirmation Limitations
+C6	Other Limitations
+DC	Date Change
+EV	Estimated Quantity
+FE	Feasibility Issue
+GU	Gross Volume per Pack and Unit of Measure
+GW	Gross Weight per Pack
+LD	Length Difference
+MC	Pack/Size Measure Difference
+MP	Minimum Order
+PC	Pack Difference
+PQ	Pack Qualifier
+PS	Product/Services ID Change
+QH	Quantity on Hand
+QO	Quantity Ordered
+QP	Quantity Based on Price Qualifier
+QT	Quantity Price Break
+SC	Size Difference
+UM	Unit of Measure Difference
+UP	Unit Price
+WD	Width Difference
+WO	Weight Qualifier/Gross Weight per Package
+ZZ	Mutually Defined

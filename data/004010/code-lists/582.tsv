@@ -1,0 +1,14 @@
+id	definition
+00	Neither Space Charter nor Master In-bond
+01	Space Charter
+10	Master In-Bond
+11	Both Space Charter and Master In-Bond
+12	Empty Equipment
+13	Section 321 Tariff Act (TA) 1930 (Shipments Valued at $200.00 or Less)
+14	Intangible goods
+15	Returned goods
+16	Gifts
+17	Monthly Manifest
+18	Returned American Goods
+19	New Equipment First Transborder Movement
+20	Track 4 Release Eligible

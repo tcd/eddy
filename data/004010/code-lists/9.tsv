@@ -1,0 +1,24 @@
+id	definition
+C1	Coverage Lack of Information
+D1	Dispute Concerning Coverage
+D2	Dispute Concerning Compensability in Whole
+D3	Dispute Concerning Compensability in Part
+D4	Dispute Concerning Disability in Whole
+D5	Dispute Concerning Disability in Part
+D6	Dispute Concerning Impairment
+E1	Wrongful Determination of No Coverage
+E2	Error(s) from Employer
+E3	Error(s) from Employee
+E4	Error(s) from State
+E5	Error(s) from Health Care Provider
+E6	Error(s) from Other Claim Administrator, Independent Adjuster or Third Party Administrator
+L1	Late No Excuse
+L2	Late Notification, Employer
+L3	Late Notification, Employee
+L4	Late Notification, State
+L5	Late Notification, Health Care Provider
+L6	Late Notification, Assigned Risk
+L7	Late Investigation
+L8	Technical Processing Delay or Computer Failure
+L9	Manual Processing Delay
+LA	Intermittent Lost Time Prior to First Payment

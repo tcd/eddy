@@ -1,0 +1,55 @@
+id	definition
+BB	Demand Information Only
+BC	Issue - Other Agency
+BD	Issue - Other Department
+BE	Grant Aid
+BF	Foreign Military Sale
+BG	Test and Evaluation
+BH	Furnished Goods and Services
+BI	Reutilization and Marketing
+BJ	Relocation
+BK	Modification
+BL	Repair or Nondestructive Testing
+BM	Loan
+BN	Return
+BO	Designated Items
+BP	Broken Price
+BQ	Other
+BR	Exchange
+BS	Bailment Stock Withdrawal
+CC	Transfer for Charitable Contribution
+CO	Replacement Due to Complaint
+CS	Contract Sale
+DL	Oil Deliveries
+DS	Drop Ship Sale
+FG	Flowing Gas Information
+GD	Gas Disposition
+GP	Gas Plant Liquids Summary
+GR	Gas Receipts
+IA	Inventory adjustment
+IB	Interbranch
+OF	Offshore Movement/Sale
+ON	Onshore Movement/Sale
+OT	Oil Transfer and Storage
+PA	Price adjustment
+PB	Price Book
+PL	Property Level Movement/Sale
+PM	Physical Meter Information
+PO	Production Origin
+PP	Pool Level Movement and/or Sale
+RA	Reapplication of Order
+RB	Return of Broken Price
+RC	Received From Vendor
+RP	Return of List Price
+RT	Oil Receipts
+RU	Return to Usable Inventory
+RV	Return to Vendor
+SA	Stocking adjustment
+SC	Scrap
+SD	Ship and Debit Sale
+SH	Ship and Debit
+SM	Sample
+SS	Stock Sale
+SU	Summary
+TD	Transfer for Disposal
+WL	Well Level Movement/Sale

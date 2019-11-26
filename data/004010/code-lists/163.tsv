@@ -1,0 +1,20 @@
+id	definition
+AL	Advance Loading
+CL	Complete
+CN	Consolidate
+CU	Complete Unload
+DR	Deramp and Ramp for Subsequent Loading
+DT	Drop Trailer
+HT	Heat the Shipment
+IN	Inspection
+LD	Load
+LE	Spot for Load Exchange (Export)
+PA	Pick-up Pre-loaded Equipment
+PL	Part Load
+PU	Part Unload
+RT	Retrieval of Trailer
+SL	Spot for Load
+SU	Spot for Unload
+TL	Transload
+UL	Unload
+WL	Weigh Loaded

@@ -1,0 +1,7 @@
+id	description	section	req	max_loop	max_usage	pos
+AK1	Functional Group Response Header	H	M	0	1	1
+AK2	Transaction Set Response Header	H	O	999999	1	2
+AK3	Data Segment Note	H	O	999999	1	3
+AK4	Data Element Note	H	O	0	99	4
+AK5	Transaction Set Response Trailer	H	M	0	1	5
+AK9	Functional Group Response Trailer	H	M	0	1	6

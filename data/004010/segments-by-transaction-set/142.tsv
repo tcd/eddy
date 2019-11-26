@@ -1,0 +1,73 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	999999	2
+N1	Party Identification	H	M	4	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	2	7
+PER	Administrative Communications Contact	H	O	0	2	8
+LX	Transaction Set Line Number	D	M	999999	1	9
+N9	Extended Reference Information	D	M	999999	1	10
+MSG	Message Text	D	O	0	999999	11
+LIN	Item Identification	D	M	999999	1	12
+PID	Product/Item Description	D	O	0	999999	13
+LOC	Location	D	O	0	1	14
+QTY	Quantity Information	D	O	0	999999	15
+DTM	Date/Time Reference	D	O	0	999999	16
+REF	Reference Information	D	O	0	999999	17
+PER	Administrative Communications Contact	D	O	0	1	18
+PSC	Product Service Contract	D	O	0	999999	19
+SSS	Product Special Services	D	O	0	999999	20
+LM	Code Source Information	D	O	3	1	21
+LQ	Industry Code Identification	D	M	0	999999	22
+N1	Party Identification	D	O	999999	1	23
+N2	Additional Name Information	D	O	0	2	24
+N3	Party Location	D	O	0	3	25
+N4	Geographic Location	D	O	0	1	26
+N9	Extended Reference Information	D	O	0	2	27
+PER	Administrative Communications Contact	D	O	0	2	28
+PRR	Problem Report	D	M	999999	1	29
+LIN	Item Identification	D	O	0	1	30
+LOC	Location	D	O	0	1	31
+QTY	Quantity Information	D	O	0	1	32
+DTM	Date/Time Reference	D	O	0	999999	33
+MSG	Message Text	D	O	0	999999	34
+RC	Root Cause	D	O	0	1	35
+PER	Administrative Communications Contact	D	O	0	1	36
+PSC	Product Service Contract	D	O	0	999999	37
+SSS	Product Special Services	D	O	0	999999	38
+CID	Characteristic/Class Id	D	O	999999	1	39
+TMD	Test Method	D	O	0	999999	40
+MEA	Measurements	D	O	999999	1	41
+DTM	Date/Time Reference	D	O	0	1	42
+LIN	Item Identification	D	O	0	999999	43
+REP	Repair Action	D	M	999999	1	44
+REF	Reference Information	D	O	0	999999	45
+N1	Party Identification	D	O	0	2	46
+PER	Administrative Communications Contact	D	O	0	1	47
+RC	Root Cause	D	O	0	1	48
+DTM	Date/Time Reference	D	O	0	999999	49
+LIN	Item Identification	D	O	0	999999	50
+ITA	Allowance, Charge Or Service	D	O	0	999999	51
+MSG	Message Text	D	O	0	999999	52
+PRT	Part Disposition	D	O	0	1	53
+LM	Code Source Information	D	O	3	1	54
+LQ	Industry Code Identification	D	M	0	999999	55
+MEA	Measurements	D	O	999999	1	56
+DTM	Date/Time Reference	D	O	0	1	57
+LIN	Item Identification	D	O	0	999999	58
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	59
+LIN	Item Identification	D	O	0	999999	60
+N1	Party Identification	D	O	0	999999	61
+N9	Extended Reference Information	D	O	0	999999	62
+PRT	Part Disposition	D	O	0	1	63
+DTM	Date/Time Reference	D	O	0	1	64
+ITA	Allowance, Charge Or Service	D	O	0	999999	65
+CUR	Currency	D	O	0	1	66
+AMT	Monetary Amount Information	D	O	1	1	67
+TXI	Tax Information	D	O	0	999999	68
+CUR	Currency	D	O	0	1	69
+TDS	Total Monetary Value Summary	S	O	1	1	70
+TXI	Tax Information	S	O	0	999999	71
+CUR	Currency	S	O	0	1	72

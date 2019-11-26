@@ -1,0 +1,45 @@
+id	definition
+01	Casing Type
+10	Shipping Package Labeling
+11	Shipping Package Sealing
+12	Primary Marking
+13	Secondary Marking
+34	Product Marking
+35	Type of Package
+36	Package Specifications
+37	Package Protection
+38	Tarping
+39	Platform/Skid Location
+40	Bearing Piece Location
+42	Placement on Carrier
+43	Spacing Directions
+44	Unloading Device
+45	Unloading Equipment
+60	Product Marking Pattern
+61	Product Marking Location
+62	Package/Container Mark Location
+63	Marking Method
+65	Core Characteristics
+66	Receiving Facility Limitations
+67	Tagging/Bar Code Instructions
+68	Skid/Pallet Type
+CB	Container Type
+CC	Container Characteristics
+CD	Cleaning or Drying Procedure
+CS	Container Shape
+CT	Cushioning Thickness
+HM	Hazardous Material
+IC	Intermediate Container
+IP	Intermediate Pack
+LP	Level Of Preservation
+PK	Packing
+PM	Preservation Method
+PN	Promotional Marking
+UC	Unit Container
+UP	Unit Pack
+WM	Wrapping Material
+CUD	Cushioning and Dunnage
+OPI	Optional Procedure Indicator
+PML	Preservation Material
+SMK	Special Marking
+UCL	Unit Container Level

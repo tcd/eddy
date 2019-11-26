@@ -1,0 +1,102 @@
+id	definition
+1S	Side One
+2S	Side Two
+A1	Single
+AL	All
+AO	Single End Overhang
+AS	Siding
+B1	Bolster
+BC	Back of Cab
+BI	Bilateral
+BK	Rear
+BL	Block
+BR	Brick
+BS	Both Sides
+BT	Bottom
+CH	Casing Head Flange
+CT	Center
+DO	Double End Overhang
+DT	Downstream Tap
+DU	Dual Fuel Tank Position
+EX	Exterior
+FR	Front
+FS	Front Spare
+GF	Rig Floor
+IN	Inside
+IT	Interior
+KB	Kelly Bushing
+LC	Less Critical Surface
+LO	Lower
+LT	Left
+M1	Multiple
+MC	More Critical Surface
+MD	Middle
+NS	Not Specified
+NT	Next Relative Position
+OA	Overall
+OS	One Side
+OT	Outside
+R0	Relative Position 10
+R1	Relative Position 1
+R2	Relative Position 2
+R3	Relative Position 3
+R4	Relative Position 4
+R5	Relative Position 5
+R6	Relative Position 6
+R7	Relative Position 7
+R8	Relative Position 8
+R9	Relative Position 9
+RA	Relative Position 11
+RB	Relative Position 12
+RC	Relative Position 13
+RD	Relative Position 14
+RE	Relative Position 15
+RF	Relative Position 16
+RG	Relative Position 17
+RH	Relative Position 18
+RI	Relative Position 19
+RJ	Relative Position 20
+RK	Relative Position 21
+RL	Relative Position 22
+RM	Relative Position 23
+RN	Relative Position 24
+RO	Relative Position 25
+RP	Relative Position 26
+RQ	Relative Position 27
+RR	Relative Position 28
+RS	Relative Position 29
+RT	Relative Position 30
+RU	Relative Position 31
+RV	Relative Position 32
+RW	Relative Position 33
+RX	Relative Position 34
+RY	Relative Position 35
+RZ	Relative Position 36
+S1	Relative Position 37
+S2	Relative Position 38
+S3	Relative Position 39
+S4	Relative Position 40
+S5	Relative Position 41
+S6	Relative Position 42
+S7	Relative Position 43
+S8	Relative Position 44
+S9	Relative Position 45
+SA	Relative Position 46
+SB	Right
+SC	Relative Position 47
+SD	Relative Position 48
+SE	Relative Position 49
+SF	Relative Position 50
+SN	Stone
+SP	Spare Tire Position
+SS	Rear Spare
+ST	Stucco
+SU	Sub-sea
+TB	Tank Bottom
+TP	Top
+TS	Two Sides
+UC	Under Cab
+UN	Unilateral
+UP	Upper
+UT	Upstream Tap
+WF	Wood

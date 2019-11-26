@@ -1,0 +1,32 @@
+id	definition
+CA	Carrier Initiated Revenue Waybill Cancel
+CC	System Initiated Cancelled and Fully Concurred
+CD	System Initiated Cancelled Disputed Status
+CH	Carrier Initiated Challenge
+CO	Carrier Initiated Concurrence Without Opinion
+CP	Carrier Initiated Concurrence With Opinion
+CT	Carrier Initiated Concurrence to Date Change Only
+DA	System Initiated Settlement, Active Road on Silent Concurrence, Divisions Generated
+DG	System Initiated Settlement, Silent Road on Silent Concurrence, Divisions Generated
+DO	System Initiated Deletion From Route by Another Carrier
+DR	Carrier Initiated Deletion from Route (Not in Interline Movement)
+DT	Carrier Initiated Settlement Date Change
+GD	System Initiated Government Dispute
+LT	Delay Shipment Dispute
+NP	Null Settled Due to AAR Rule 11 Parent Null Settled
+NR	New Road, Route Dispute
+OP	Carrier Initiated Waybill Opinion
+OR	Carrier Initiated Revenue Waybill
+PS	System Initiated Postponement to Settlement Due to AAR Rule 11 Notify Party
+PT	Prepaid or Collect Dispute
+RT	Route Dispute
+SA	System Initiated Settlement, Active Road on Silent Concurrence
+SC	System Initiated Settlement, Composite Version Due to Forced Settlement
+SF	System Initiated Settlement, Force Settled on Dispute
+SN	System Initiated Settlement, Null Value
+SS	System Initiated Settlement, Silent Road on Silent Concurrence
+ST	System Initiated Settlement, Fully Concurred
+T1	System Initiated Trace for Concurrence to AAR Rule 11 Notify
+TD	Transit Dispute
+TR	System Initiated Trace for Concurrence to Revenue Waybill
+UT	AAR Rule 11 Dispute

@@ -1,0 +1,8 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	3	2
+DTM	Date/Time Reference	H	M	0	1	3
+ENT	Entity	D	M	999999	1	4
+LIN	Item Identification	D	M	999999	1	5
+G28	Line Item Numbers	D	O	999999	1	6
+G69	Line Item Detail - Description	D	O	0	1	7

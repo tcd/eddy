@@ -1,0 +1,61 @@
+id	definition
+AF	Authorized Field Change
+CA	Campaign
+CB	Call Back
+CC	Customer Courtesy
+CG	Customer Goodwill Parts Adjustment
+CP	Customer Goodwill Policy Adjustment
+CR	Credit for In-house Repair - Labor and Material
+CS	Customer Goodwill Sales Adjustment
+CW	Customer Warranty
+DD	Dealer Demonstration Warranty
+DW	Dealer Warranty
+EC	Engineering Change Activity
+ED	Extended Dealer Warranty
+EE	Extended Equipment Coverage
+EF	Engineering Field Test
+EM	Emissions Warranty
+EW	Extended Vendor Warranty
+FC	Fleet Contract
+FW	Full Warranty
+GC	Government Contract
+GM	Government Mandated
+GR	Government Recall
+IO	Information Only
+LF	Lifetime Warranty
+LL	Lifetime Limited Warranty
+LO	Labor Only
+LP	Life Percentage
+LW	Limited Warranty
+MB	Money Back Guarantee
+MC	Military Contract
+MG	Maintenance Cost Guarantee/Warranty
+MI	Material Inspection
+MR	Manufacturer Recall
+MS	Manufacturer Standard
+NE	New Equipment Warranty
+OW	Option Warranty
+PD	Prior to Delivery
+PG	Performance Guarantee/Warranty
+PL	Parts and Labor
+PO	Parts Only
+PW	Purchase Warranty
+QP	Quality Problem Referral
+RC	Return for Warranty Claim
+RD	Received Damage
+RN	Recall Notice
+RP	Replacement Part Warranty
+RR	Return for Warranty Repair
+RS	Repeat Service
+RT	Return Warranty Replacement
+SB	Service Bulletin
+SC	Service Contract
+SD	Shipment Damage
+SP	Special Program
+SS	Special Sales Allowance
+ST	Standard Warranty
+SW	Software Warranty
+TC	Transportation Claim
+TP	Third Party Repair
+UE	Used Equipment Warranty
+WC	Warranty Concession

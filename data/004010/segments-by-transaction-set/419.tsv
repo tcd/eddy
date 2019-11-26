@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+E6	Advance Car Disposition	H	M	150	1	1
+W3	Consignee Information	H	O	0	1	2
+W5	Carrier And Route Information	H	O	0	4	3

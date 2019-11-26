@@ -1,0 +1,16 @@
+id	definition
+AC	Acknowledge - With Detail and Change
+AD	Acknowledge - With Detail, No Change
+AE	Acknowledge - With Exception Detail Only
+AH	Acknowledge - Hold Status
+AK	Acknowledge - No Detail or Change
+AP	Acknowledge - Product Replenishment
+AT	Accepted
+NA	No Acknowledgment Needed
+RD	Reject with Detail
+RF	Reject with Exception Detail Only
+RJ	Rejected - No Detail
+RN	Rejected - Not as Agreed
+RO	Rejected With Counter Offer
+RV	Rejected - Violates Industry Practices
+ZZ	Mutually Defined

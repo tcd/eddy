@@ -1,0 +1,153 @@
+id	definition
+9L	Ninth Layer
+AA	Meter reading-beginning actual/ending actual
+AB	Average Balance
+AC	Maximum Balance
+AE	Meter reading-beginning actual/ending estimated
+AF	Actual Total
+AG	Compliance Total
+AH	Gross Compliance Total
+AI	Net Compliance Total
+AJ	Effectiveness
+AK	Penetration
+AM	Capacity
+AN	Work
+AO	Account Opened Period
+AP	Apartments
+AQ	Amount Owes
+AR	Annual Result
+AV	Average Reading
+BA	Base Point
+BB	Bank Balance
+BC	Billed Actual
+BD	Billed Dimensions
+BL	Bundle Limitation
+BM	Base Metal
+BN	Billed Minimum
+BO	Meter Reading as Billed
+BP	Bearing Piece Limitation
+BR	Billed History
+BT	Batch Limits
+BZ	Batten Size
+C1	Conformance Property Status
+CA	Coating
+CB	Condominium
+CC	Cooperative
+CF	Conversion Factor
+CG	Average Owing
+CH	Chemistry
+CJ	Current Balance
+CK	Discounted Checks
+CL	Drafts
+CM	Commercial
+CN	Core Notch Dimensions
+CO	Concentration
+CP	Letter of Credit Size
+CQ	Payment Orders
+CS	Core Size
+CT	Counts
+CU	Pledge Size
+CV	Cumulative Test Period
+CW	Promissory Notes in Force
+CY	Secured Amount
+DE	Defects
+DN	Dunnage Dimension
+DT	Dimensional Tolerance
+EA	Meter reading-beginning estimated/ending actual
+EE	Meter reading-beginning estimated/ending estimated
+EF	Evaluation Factors
+EL	Electrical Characteristics
+EN	Environmental Conditions
+FC	First of Campaign Result
+FD	Finished Dimensions
+FH	Radio Operations
+FJ	Antenna Characteristics
+FV	Firing Values
+FZ	File Size
+GC	Contractor Delivery Limitations
+GL	Guidelines
+GO	Government Ordering Limitations
+GP	Ordering Period Limitations
+HC	High Credit Average
+HR	Historical Result
+ID	Industrial
+IN	Incrustation
+IR	Interpolated Result
+LC	Limited Weight/Size Coils
+LD	Load Planning Dimensions
+LG	Loans Granted
+LL	Lift Limitation
+LM	Layer of Multiple Layered Product
+LP	Last Sold Period
+LS	Lot Status
+LT	Lot Limits
+MP	Maturity Period
+MR	Base Material Result
+NC	Net Change
+NE	Neighborhood
+NX	Net Explosive Weight
+OD	Ordered Dimensions
+OG	Original
+OL	Order Limits
+OP	Other Property
+P1	Platform Limitation
+PA	Pallet Dimensions
+PB	Receivership Period
+PC	Parting Cut (Sawcut)
+PD	Physical Dimensions
+PI	Project Incomplete
+PJ	Project Complete
+PK	Package Dimensions
+PL	Package Limitations
+PM	Permitted
+PO	Position
+PR	Product Dimension Range Price Bracket
+PS	Product Characteristic Specification
+PT	Pretest Period
+PU	Planned Urban Development
+PY	Property
+QR	Quarterly Result
+QV	Quantity Variation
+R1	Opening Reading
+R2	Closing Reading
+RA	Reject Amount
+RG	Regulatory Limit
+RL	Receiving Facility Limitations
+RN	Lengths Limitation
+RO	Roll Limits
+RP	Relative Position
+RQ	Requested
+RS	Response Time
+RT	Replacement
+SA	Spacing/Margin
+SB	Single Family
+SC	Standard Industrial Classification (SIC) Code Size Standards
+SD	Shipped Dimensions
+SE	Property Specifications
+SF	Shelf Life
+SH	Shipping Tolerance
+SJ	Subject Phase
+SK	Skid Dimensions
+SL	Skid Limitations
+SM	Shade
+SP	Splices
+SR	Surface Roughness
+ST	Surface Treatment
+SU	Surface
+SZ	Subject Property
+TA	Two to Four Family
+TD	Splice Tape Dimensions
+TE	Temperature
+TI	Time
+TL	Transportation Equipment Limitations
+TO	Total Dimensions
+TP	Test Period
+TR	Test Results
+TS	Single Test Limits
+TT	This Type Property
+VT	Vacant
+WA	Waste Amount
+WR	Warranty
+WT	Weights
+ZA	Multi - Family
+ZP	Log Zero Point of Reference

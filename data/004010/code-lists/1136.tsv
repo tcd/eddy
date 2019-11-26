@@ -1,0 +1,342 @@
+id	definition
+01	Pre-existing Conditions
+02	Diagnosis
+03	Condition
+04	Occurrence
+05	Occurrence Span
+06	Value
+07	Ambulance Certification
+08	Chiropractic Certification
+09	Durable Medical Equipment Certification
+10	Enteral or Parenteral Therapy Certification
+11	Oxygen Therapy Certification
+12	Admitting Diagnosis
+13	Principal Diagnosis
+14	Pre-Existing Physical Condition
+15	Pre-Existing Mental Condition
+16	Routine Foot Care Class Finding
+17	Systemic Condition for Routine Foot Care
+18	Co-op Advertising
+19	Commercial Advertising
+20	Specimen Kit Type Code
+21	Laboratory Test Condition Code
+22	Automobile Loss
+23	Laboratory Results Identification Code
+24	Line of Business Code
+25	United States Department of Vital Statistics E-Code
+26	Employment Status Information
+27	Income
+28	Loan Information
+29	Injury or Illness
+30	Benefit Adjustment
+31	Claimant
+32	Contractholder Branch
+33	Contractholder
+34	Secondary Claim Administrator
+35	Primary Claim Administrator
+36	Reporting Agency
+37	Process
+38	Hazardous Material
+39	Activity
+40	Accident
+41	Initial Treatment
+42	Cause of Injury
+43	Part of Body
+44	Nature of Injury
+45	Source of Injury
+46	Job
+47	Loss Prevention
+48	Managed Care
+49	Risk Management
+50	Claim Handling
+51	Event or Exposure
+52	Equipment or Materials or Chemicals
+53	Coverage
+54	Overbite
+55	Overjet
+56	Profile
+57	Crossbite
+58	Arch Asymmetry
+59	Dentition Midline
+60	Crowding
+61	Molars
+62	Cuspids
+63	Interviewee
+64	Verification of Deposit
+65	Verification of Mortgage
+66	Verification of Income or Employment or Both
+67	Verification of Rent
+68	Verification of Loan or Installment Debt or Both
+69	Anti-fungal Therapy
+70	Hospice
+71	Primary Diagnosis
+72	Secondary Diagnosis
+73	Tertiary Diagnosis
+74	Procedure Code
+75	Functional Limitations
+76	Activities Permitted
+77	Mental Status
+78	Manner Property Title Held
+79	Property Improvements
+80	Complete Appraisal
+81	Limited Appraisal
+82	Restricted Appraisal Report Limiting Conditions
+83	Route of Administration
+84	Borrower Information
+85	Contract Information
+86	Fannie Mae (Federal National Mortgage Association)
+87	Freddie Mac (Federal Home Loan Mortgage Corporation)
+88	Deductible
+89	Advertising Copy
+90	Private Remarks
+91	Compensation Notes
+92	Open House Notes
+93	Tour Notes
+94	Terms of Sale
+95	Restrictions
+96	Disclosures
+97	Exceptions
+98	Inclusions
+99	Lease Type
+A1	Mortgage Record Change
+A2	Mortgage Insurance Termination
+A3	Mortgage Insurance Cancellation
+A4	Mortgage Servicing Transfer
+A5	Appraisal
+A7	Source of Data
+A8	Endorsement
+A9	Notification
+AA	All
+AB	Agent's Questions
+AC	Agent's Share
+AD	Benefits
+AE	Contact or Reference Information
+AF	Cost Basis
+AG	Driving Infractions
+AH	Excess Dividend Use
+AI	Home Health Aide
+AJ	Existing Coverage Information
+AK	Hospitalization
+AL	Activity Limitations
+AM	Juvenile Information
+AN	Occupation Information
+AO	Personal Finance and Business Information
+AP	Appearance
+AQ	Rating Information
+AR	Arrest
+AS	Replaced Amount
+AT	Authority
+AU	Automated Underwriting Information
+AV	Aviation
+AW	Surgery
+AX	Travel Information
+AY	Age Remark
+AZ	Property Remark
+B1	Audit Data
+B2	Declaration Sheet Indicator
+B3	Servicing Data
+B4	Single Family
+B5	Multifamily
+B6	Payment Handling
+B7	Ginnie Mae 1
+B8	Ginnie Mae 2
+B9	Ginnie Mae 2 Custom
+BA	Bankruptcy
+BB	Business Beneficiary
+BC	Building Condition
+BD	Buydown
+BE	Beneficiary
+BF	Tax Agency Parcel Identifier
+BG	Historical Performance
+BH	Product Rules
+BI	Commercial Property
+BJ	Unimproved Land
+BK	Banking
+BL	New Contract
+BM	Original Contract
+BN	Access
+BP	Bankruptcy Petition
+BQ	Agent Sales Trend
+BR	Broker's Price Opinion
+BS	Bankruptcy Statement of Financial Affairs
+BT	Billings Trend
+BU	Assets
+BV	Cash Flow
+BW	Competition
+BX	Credit Line
+BY	Creditors Arrangement
+BZ	Creditors Meeting
+CA	Citizenship
+CB	Continuing Education
+CC	Compensation Calculation
+CD	Cause of Death
+CE	Condominium
+CF	Cooperative
+CG	Conviction
+CH	Direct Sales Trend
+CI	Export Trend
+CJ	Financial Embarrassment
+CK	Indebtedness
+CL	Cancellation
+CM	Claim Amounts
+CN	Comparison
+CO	County
+CP	Complications
+CQ	Initial Capital
+CR	Current Ratio
+CS	Common Stock
+CT	Commission Trend
+CU	Stockholders
+CV	Damage
+CW	Working Capital
+CX	Compensation Allocation
+CY	Dividend Use
+CZ	Excess Premium Use
+DA	Drug Adjudication Information
+DB	Liquidation Proceedings
+DC	Location
+DD	Discharge Diagnosis
+DE	Departmental
+DF	Profit Margin
+DG	Proposal
+DH	Receivership
+DI	Driver Identification Information
+DP	Directions to Property
+DR	Driving
+DV	Driver Record Information
+E1	Spectacle Lenses
+E2	Contact Lenses
+E3	Spectacle Frames
+E4	Employment
+E5	Examiner's Comments
+EB	Intercompany Relations
+EC	Judgments
+ED	Liens
+EE	Operating Surplus Trend
+EF	Participating Interest
+EG	Protested Bills
+EH	Subcontracting Details
+EI	Suits
+EJ	Uniform Commercial Code (UCC) Filings
+FA	Financial
+FC	Family Coverage
+FH	Family History
+FI	Financing
+FP	Franchise Tax Payments
+FR	Financial Remarks
+FT	Foreign Travel
+GD	Demonstrations
+GS	Shelf Format
+GU	Guarantees
+HA	Fixed
+HB	Adjustable
+HC	Rate Adjustment
+HD	Payment Adjustment
+HE	Life of Loan
+HF	Periodic Interest Rate
+HG	Principal and Interest
+HH	Health or Medical
+HI	Late Charge
+HJ	Default Note Holder's Cost
+HK	Prepayment
+HL	Limited Payment
+HM	Rate Lookback
+HN	Payment Lookback
+HO	Index
+HP	Mortgage Margin
+HQ	Single Family 2-4 Units
+HR	Amortization
+HS	Rate Conversion
+HT	Interest Only
+HY	History
+HZ	Hazardous Sports
+IC	Issued Capital
+ID	Identification
+IH	Insurance History or Other Coverage
+IM	Impairment
+IN	Insurance
+LA	License Revocation
+LE	Level Remarks
+LL	Local Language Description
+LR	Listing Remarks
+LS	Life Style
+LT	Legal Type
+LZ	Loss Trend
+MA	Marital Status
+MI	Miscellaneous
+MN	Management
+MO	Modification
+MP	Medication or Prescription
+MS	Medical Social Worker
+MT	Military Status
+NC	Nominal Capital
+NS	Nature of Suit
+NW	Not Work Related
+OA	Owner Pays Notes
+OC	Occupation Class
+OF	Outside Financing
+ON	Operations Trend
+OP	Operations
+OT	Occupational Therapy
+OU	Operations Outlook
+PA	Performance
+PB	Profitability
+PC	Paid in Capital
+PD	Public Records
+PE	Penalty
+PF	Profit Trend
+PG	Possession Notes
+PI	Photo Instructions
+PN	Parking Notes
+PO	Profit Outlook
+PR	Property
+PS	Preferred Stock
+PT	Physical Therapy
+R1	Reason for Weight Loss
+R2	Association of American Railroads Special Proper Shipping Name Flag
+R3	Association of American Railroads Intermodal Indicator
+R4	Association of American Railroads U.S. to Canada Flag
+R5	Residential Status
+RC	Revocation
+RE	Recovery
+RI	Real Estate Property Information
+RL	Radio License Application
+RM	Remedy
+RN	Related Entities
+RR	Reinstatement
+RS	Reason Last Seen
+RT	Registration Type
+RU	Results
+RV	Revenue Trend
+SA	Source Fund
+SD	Starting Details
+SE	Summary and Evaluation
+SI	Showing Instructions
+SJ	Suits, Judgments & Liens
+SL	Supplement Note or Line
+SN	Skilled Nursing
+SP	Statement Preparation
+SR	Sales Trend
+SS	Suspension
+ST	Speech Therapy
+SU	Substance Use
+SW	Reported Statement of Witness
+SZ	Size
+TB	Tobacco
+TE	Tests
+TF	Target Fund
+TH	Therapy
+TI	Action
+TM	Terms
+TN	Trend
+TP	Tenant Pays Notes
+TR	Treatment
+TW	Two to Four Units
+UP	Update
+VA	Voter Registration Application
+VC	Conviction
+VD	Voter Registration Application Disposition
+VO	Violation
+WA	Warning
+WM	Willful Misconduct
+ZZ	Mutually Defined

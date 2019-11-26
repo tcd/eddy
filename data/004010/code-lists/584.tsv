@@ -1,0 +1,70 @@
+id	definition
+AA	Leave of Absence with Pay
+AB	Leave of Absence without Pay
+AC	Active
+AD	Apprenticeship Full-time
+AE	Active Reserve
+AF	Flexible Work Plan
+AG	Alerted
+AH	Assigned
+AO	Active Military - Overseas
+AP	Apprenticeship Part-time
+AU	Active Military - USA
+CA	Non-applicable Employment Status Category
+CO	Consolidated Omnibus Budget Reconciliation Act (COBRA)
+CT	Continued
+DC	Discharged or Terminated for Cause
+DD	Dishonorably Discharged
+DI	Deceased
+DQ	Disqualified: Medical or Physical Condition
+DR	Disqualified: Other
+DS	Disabled
+FA	Furloughed: Job Abolished, Force Reduction
+FB	Furloughed: Bumped or Displaced
+FC	Furloughed: Facility Closed
+FO	Furloughed: Other
+FT	Full-time
+HD	Honorably Discharged
+IA	Inactive
+IR	Inactive Reserves
+L1	Leave of Absence
+LA	Leave of Absence: Personal
+LE	Leave of Absence: Education
+LF	Leave of Absence: Family Medical Leave Act (FMLA)
+LM	Leave of Absence: Maternity
+LS	Leave of Absence: Sickness
+LU	Leave of Absence: Union
+LW	Leave of Absence: Without Permission, Unauthorized
+LX	Leave of Absence: Military
+NE	Not Employed
+OS	On Strike
+OT	Other
+PA	Promoted
+PE	Plan to Enlist
+PT	Part-time
+PV	Previous
+PW	Piece Worker
+RA	Resigned: Retired
+RB	Relocated
+RC	Reassigned
+RD	Resigned: Moved
+RE	Recommissioned
+RI	Resigned: Injury
+RM	Retired Military - Overseas
+RP	Resigned: Personal Reasons
+RT	Retired
+RU	Retired Military - USA
+RW	Dual Retired Status
+SA	Resigned: Accepted Separation Allowance
+SB	Separated
+SE	Self-Employed
+SL	Seasonal
+SU	Suspended
+TE	Terminated
+TF	Temporary Full-Time
+TM	Temporary
+TP	Temporary Part-Time
+TR	Transferred
+UK	Unknown
+VO	Volunteer
+ZZ	Mutually Defined

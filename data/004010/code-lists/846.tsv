@@ -1,0 +1,40 @@
+id	definition
+AC	Address Change
+AN	Annuitized
+AW	Awaiting Initial Premium
+CA	Contract Award
+CB	Cancelled by IRS
+CC	Contract Cancelled
+CL	Closed contract - all quantities taken
+CM	Contract Modified
+CR	Contract Renewed
+CX	Contract Cancelled - Refund Due
+DA	Disabled
+DE	Death
+DL	Deleted Contract
+EX	Expired Contract
+FL	Free Look Period
+GS	General Suspension
+HO	Hold
+IA	Inactive
+IE	Internal Exchange
+IN	Invalid Contract Due To Terms
+MA	Matured
+NB	Contract Provider No Longer in Business
+NT	Not Taken
+OC	Original Contract
+PA	Paid Up
+PB	Pending
+PC	Pending Death Notification
+PD	Pending Exchange Transfer
+PP	Prepaid Service Authorization
+PR	Proposed Contract
+RA	Reissue
+RB	Rescinded
+RC	Restricted
+RO	Reopened Contract
+SC	Standard Contract
+SU	Surrendered
+TA	Terminated
+TR	Contract Transferred
+VA	Valid Open Contract

@@ -1,0 +1,30 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTP	Date Or Time Or Period	H	M	0	1	2
+REF	Reference Information	H	M	0	1	3
+N1	Party Identification	H	O	5	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	2	8
+LX	Transaction Set Line Number	D	M	999999	1	9
+REF	Reference Information	D	O	0	4	10
+MPP	Mortgage Pool Program	D	O	0	1	11
+AMT	Monetary Amount Information	D	O	0	10	12
+INT	Interest	D	O	0	2	13
+QTY	Quantity Information	D	O	0	5	14
+DTM	Date/Time Reference	D	O	0	5	15
+RLT	Real Estate Loan Type	D	O	999999	1	16
+DTP	Date Or Time Or Period	D	M	0	3	17
+AMT	Monetary Amount Information	D	M	0	8	18
+IRA	Investor Reporting Action	D	O	0	1	19
+INT	Interest	D	O	0	2	20
+PRC	Payment Rate Change	D	O	0	3	21
+NX2	Location Id Component	D	O	0	10	22
+LQ	Industry Code Identification	D	O	0	5	23
+N1	Party Identification	D	O	1	1	24
+N2	Additional Name Information	D	O	0	1	25
+DTP	Date Or Time Or Period	D	O	0	2	26
+YNQ	Yes/No Question	D	O	0	999999	27
+AMT	Monetary Amount Information	D	O	999999	1	28
+DTP	Date Or Time Or Period	D	O	0	1	29

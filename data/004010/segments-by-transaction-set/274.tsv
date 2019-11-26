@@ -1,0 +1,41 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	1	2
+PER	Administrative Communications Contact	H	O	0	1	3
+HL	Hierarchical Level	D	M	999999	1	4
+TRN	Trace	D	O	0	1	5
+NM1	Individual Or Organizational Name	D	M	999999	1	6
+N2	Additional Name Information	D	O	0	999999	7
+PER	Administrative Communications Contact	D	O	0	999999	8
+DMG	Demographic Information	D	O	0	1	9
+AMT	Monetary Amount Information	D	O	0	20	10
+API	Activity Or Process Information	D	O	0	999999	11
+DEG	Degree Record	D	O	0	9	12
+IND	Additional Individual Demographic Information	D	O	0	1	13
+LUI	Language Use	D	O	0	9	14
+DTP	Date Or Time Or Period	D	O	0	9	15
+MTX	Text	D	O	0	999999	16
+QTY	Quantity Information	D	O	0	99	17
+WS	Work Schedule	D	O	0	99	18
+CRC	Conditions Indicator	D	O	0	9	19
+HSD	Health Care Services Delivery	D	O	0	99	20
+BCI	Basic Claim Information	D	O	0	9	21
+PDI	Practice Detail Information	D	O	0	1	22
+HAD	Hospital Affiliation Detail	D	O	0	1	23
+NX1	Property Or Entity Identification	D	O	999999	1	24
+N2	Additional Name Information	D	O	0	1	25
+N3	Party Location	D	O	0	2	26
+N4	Geographic Location	D	O	0	1	27
+PER	Administrative Communications Contact	D	O	0	1	28
+LQ	Industry Code Identification	D	O	999999	1	29
+N1	Party Identification	D	O	0	2	30
+TPB	Business Professional Title	D	O	0	999999	31
+DTP	Date Or Time Or Period	D	O	0	9	32
+QTY	Quantity Information	D	O	0	1	33
+YNQ	Yes/No Question	D	O	0	999999	34
+HPL	Health Care Provider License	D	O	99	1	35
+DTP	Date Or Time Or Period	D	O	0	999999	36
+REF	Reference Information	D	O	999999	1	37
+DTP	Date Or Time Or Period	D	O	0	9	38
+EMS	Employment Position	D	O	9	1	39
+DTP	Date Or Time Or Period	D	O	0	9	40

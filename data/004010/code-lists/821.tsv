@@ -1,0 +1,154 @@
+id	definition
+ACT	Acute Toxicity Data
+AM2	Analytical Methods
+AP2	Approvals
+CAR	Carcinogenicity
+CI2	Chemical Product and Company Information
+CO2	Composition or Information on Ingredients
+CON	Conditions to Avoid
+CTD	Chronic Toxicity Data
+DCL	Disclaimer
+DEC	Decomposition, Decomposition Products
+DEH	Hazardous Decomposition Products
+DI2	Disposal Considerations
+DIS	Distribution of Chemical in Environment
+DM2	Detection Methods
+EDD	Sensitive to Static Charge
+EFA	Emergency and First Aid Procedures
+EFB	Emergency Procedures
+EFX	Effects of Overexposure
+EIM	Explosion Impact Sensitive Material
+EN2	Ecological Information
+ENA	Environmental - Acute Aquatic Effects
+ENB	Environmental - Bioconcentration Material
+ENG	Engineering Controls
+ENO	Environmental - Oxygen Demand
+ENS	Environmental - Summary
+EO2	Emergency Overview
+EP2	Exposure Controls or Personal Protection
+EPA	Employee Protection
+ESD	Static Sensitive Material
+EVP	Environmental Protection
+EXC	Ecotoxicological Information
+EXG	Exposure Guidelines
+EXI	Exposure Information
+EXL	Exposure Limits, Occupational Exposure Limits
+EYA	Eye Contact: Acute Exposure
+EYC	Eye Contact: Chronic Exposure
+EYF	Eye Contact
+EYZ	Eye
+FA2	First Aid Measures
+FAA	Extinguishing Media: All Fires
+FAL	Extinguishing Media: Large Fires
+FAS	Extinguishing Media: Small Fires
+FAT	Environmental Fate (i.e., Oxidized, Photodegraded, etc.)
+FAZ	Extinguishing Media
+FE2	Fire Fighting Measures
+FEH	Fire and Explosion Hazards
+FEZ	Fire and Explosion Data
+FLC	Flammability Conditions
+FLP	Flammable Properties
+GCA	General Controls
+GMA	General Measures
+GPI	General Safe Handling Procedures or Information
+HAI	Handling Information
+HCA	Hazardous Component or Ingredient
+HCP	Hazardous Product of Combustion
+HH2	Hazards Identification
+HHA	Health Hazard Information
+HI2	Potential Health Effects
+HZC	Hazard Class
+HZR	Hazard Rating System
+IA2	Other Information
+IGA	Ingestion: Acute Exposure
+IGC	Ingestion: Chronic Exposure
+IGZ	Ingestion
+IHA	Inhalation: Acute Exposure
+IHC	Inhalation: Chronic Exposure
+IHZ	Inhalation
+INC	Incompatibility
+INS	Instability
+INX	Incompatibility Conditions
+IRR	Irritancy
+KY2	Key or Legend
+LAB	Label Text
+LKI	Leak Avoidance, Remediation, or Hazards
+MAT	Material to Avoid
+MCE	Medical Conditions Aggravated by Exposure
+MUT	Mutagenicity
+NOT	Notification of Chemical Storage Amount, Spill or Release to the Environment
+NTE	Note to Physician: Eyes
+NTR	Note to Physician: Respiratory
+NTS	Note to Physician: Skin
+NTZ	Note to Physician
+OPH	Other Physical Hazards
+OPR	Other Precautions
+ORC	Other Regulatory Controls
+PD2	Physical and Chemical Properties
+PM2	Preventive Measures
+POL	Hazardous Polymerization
+PPA	Personal Protection: Additional Equipment
+PPB	Personal Protection: Boots
+PPC	Personal Protection: Clothing
+PPD	Personal Protection: Eye/Face
+PPE	Personal Protection: Eye
+PPF	Personal Protection: Face
+PPG	Personal Protection: Gloves
+PPR	Personal Protection: Respiratory
+PPS	Personal Protection: Skin
+PPZ	Personal Protection Equipment
+PR2	Preparation and Revision Information
+PRE	Primary Route(s) of Entry: Eye Contact
+PRF	Primary Route(s) of Entry: Eye, Inhalation
+PRG	Primary Route(s) of Entry: Eye, Oral
+PRH	Primary Route(s) of Entry: Eye, Oral, Skin
+PRI	Primary Route(s) of Entry: Inhalation
+PRJ	Primary Route(s) of Entry: Inhalation, Oral
+PRK	Primary Route(s) of Entry: Inhalation, Oral, Skin
+PRL	Primary Route(s) of Entry: Inhalation, Skin
+PRM	Primary Route(s) of Entry: Inhalation, Eye, Oral
+PRO	Primary Route(s) of Entry: Oral
+PRQ	Primary Route(s) of Entry: Oral, Skin
+PRS	Primary Route(s) of Entry: Skin Contact
+PRT	Primary Route(s) of Entry: Eye and Skin Contact
+PRU	Primary Route(s) of Entry: Eye, Skin, Inhalation
+PRZ	Primary Route(s) of Entry
+RE2	Stability and Reactivity Information
+REA	Reactivity
+REC	Reactivity Conditions
+REP	Reproduction
+RG2	Regulatory Information
+RLI	Release Information
+RTK	Right to Know Statement of Hazard Code/Information
+SAP	Safety Precautions
+SBY	Stability
+SCE	Sub-chronic Effects
+SGW	Signal Word
+SH2	Transport Information
+SHI	Shipping Information, Transportation Requirements
+SKA	Skin Contact: Acute Exposure
+SKC	Skin Contact: Chronic Exposure
+SKS	Skin Sensitization
+SKT	Skin Contact
+SKZ	Skin
+SL2	Accidental Release Measures
+SNS	Sensitization
+SPF	Special Fire Fighting Instructions
+SPI	Special Information
+SPJ	Spill Information
+SPL	Spill and Leak Information
+SPP	Special Precautions
+ST2	Handling and Storage
+STA	Storage Conditions
+SUB	Subchronic
+SYP	Synergistic Products
+SYS	Systematic Effects
+TER	Teratogenicity
+TOC	Toxicity of Other Components
+TOG	Target Organ
+TRH	Transportation Hazard
+TS2	Trade Secret Exemptions
+TX2	Toxicological Information
+VRZ	Ventilation Requirements
+WAR	Warning
+WDI	Waste Disposal Information

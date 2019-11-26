@@ -1,0 +1,24 @@
+id	description	section	req	max_loop	max_usage	pos
+BR	Beginning Segment For Material Management	H	M	0	1	1
+G62	Date/Time	H	O	0	10	2
+LM	Code Source Information	H	O	10	1	3
+LQ	Industry Code Identification	H	M	0	100	4
+N1	Party Identification	H	O	999999	1	5
+N2	Additional Name Information	H	O	0	2	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+G61	Contact	H	O	0	5	9
+QTY	Quantity Information	D	O	999999	1	10
+N9	Extended Reference Information	D	O	0	30	11
+G62	Date/Time	D	O	0	30	12
+DD	Demand Detail	D	O	0	100	13
+GF	Furnished Goods And Services	D	O	0	1	14
+LM	Code Source Information	D	O	10	1	15
+LQ	Industry Code Identification	D	M	0	100	16
+N1	Party Identification	D	O	999999	1	17
+N2	Additional Name Information	D	O	0	2	18
+N3	Party Location	D	O	0	2	19
+N4	Geographic Location	D	O	0	1	20
+G61	Contact	D	O	0	5	21
+FA1	Type Of Financial Accounting Data	D	O	999999	1	22
+FA2	Accounting Data	D	M	0	999999	23

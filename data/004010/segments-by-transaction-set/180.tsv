@@ -1,0 +1,56 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+RDR	Return Disposition Reason	H	O	0	1	2
+PRF	Purchase Order Reference	H	O	0	1	3
+DTM	Date/Time Reference	H	O	0	10	4
+N9	Extended Reference Information	H	O	0	10	5
+PER	Administrative Communications Contact	H	O	0	2	6
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	0	10	7
+G38	Claim Payment Information	H	O	0	1	8
+PKG	Marking, Packaging, Loading	H	O	0	5	9
+TD1	Carrier Details (Quantity And Weight)	H	O	0	10	10
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	10	11
+NTE	Note/Special Instruction	H	O	0	5	12
+N1	Party Identification	H	O	200	1	13
+N2	Additional Name Information	H	O	0	2	14
+N3	Party Location	H	O	0	2	15
+N4	Geographic Location	H	O	0	1	16
+PER	Administrative Communications Contact	H	O	0	5	17
+LM	Code Source Information	H	O	10	1	18
+LQ	Industry Code Identification	H	M	0	100	19
+BLI	Basic Baseline Item Data	D	O	999999	1	20
+N9	Extended Reference Information	D	O	0	20	21
+PID	Product/Item Description	D	O	0	5	22
+RDR	Return Disposition Reason	D	O	0	1	23
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	10	24
+AMT	Monetary Amount Information	D	O	0	999999	25
+MEA	Measurements	D	O	0	999999	26
+CRC	Conditions Indicator	D	O	0	999999	27
+NTE	Note/Special Instruction	D	O	0	999999	28
+PRF	Purchase Order Reference	D	O	0	1	29
+DTM	Date/Time Reference	D	O	0	15	30
+DD	Demand Detail	D	O	0	100	31
+GF	Furnished Goods And Services	D	O	0	1	32
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	5	33
+SDQ	Destination Quantity	D	O	0	100	34
+LM	Code Source Information	D	O	10	1	35
+LQ	Industry Code Identification	D	M	0	100	36
+N1	Party Identification	D	O	200	1	37
+N2	Additional Name Information	D	O	0	2	38
+N3	Party Location	D	O	0	2	39
+N4	Geographic Location	D	O	0	1	40
+PER	Administrative Communications Contact	D	O	0	5	41
+QTY	Quantity Information	D	O	999999	1	42
+AMT	Monetary Amount Information	D	O	0	5	43
+DTM	Date/Time Reference	D	O	0	10	44
+N1	Party Identification	D	O	0	1	45
+LM	Code Source Information	D	O	10	1	46
+LQ	Industry Code Identification	D	M	0	100	47
+LX	Transaction Set Line Number	D	O	999999	1	48
+N9	Extended Reference Information	D	O	0	999999	49
+DTM	Date/Time Reference	D	O	0	10	50
+N1	Party Identification	D	O	0	1	51
+LM	Code Source Information	D	O	10	1	52
+LQ	Industry Code Identification	D	M	0	100	53
+FA1	Type Of Financial Accounting Data	D	O	999999	1	54
+FA2	Accounting Data	D	M	0	999999	55

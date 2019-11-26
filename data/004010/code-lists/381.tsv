@@ -1,0 +1,18 @@
+id	definition
+A	Bid
+B	Back Order
+C	Cents Off Label
+D	Distress Merchandise
+E	Reorder
+F	Intro Offering
+G	Grand Opening
+H	Unmatched Manufacturer ID
+I	Unmatched Coupon Family Code
+J	Purchase Requirement Not Satisfied
+K	Consumer Presented More Coupons Than Allowed
+L	Coupon Value Exceeds Retail Price
+P	Provision Sales to Non-Provision Account
+Q	Price Quote
+S	Temporary Shipping Interruption
+T	Price Protection
+X	Miscellaneous

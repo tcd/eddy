@@ -1,0 +1,7 @@
+id	definition
+1	ANSI X9.9 Authentication, Binary Data
+2	ANSI X9.9 Authentication, "Coded Character Set, Entire Message, No Editing" (Standard Value for X9.17 Authentication)
+3	MD4 Hash
+4	MD5 Hash
+5	SHA Hash
+Z	Mutually Defined

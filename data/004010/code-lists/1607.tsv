@@ -1,0 +1,21 @@
+id	definition
+01	Body Weight
+02	Food Consumption
+03	Liquid Consumption
+04	Inhalation Concentration
+05	Organ Weight
+06	Clinical Chemistry
+07	Hematology
+08	Urinalysis
+09	Urine Appearance
+10	C-Section Parameters
+11	Postpartum Parameters
+12	Offspring Collective Litter Weight
+13	Offspring Collective Male Weight(s)
+14	Offspring Collective Female Weight(s)
+15	Offspring Collective Unknown Weight(s)
+16	Offspring Individual Male Weight
+17	Offspring Individual Female Weight
+18	Offspring Individual Unknown Weight
+19	Behavior/Developmental Milestone
+ZZ	Mutually Defined

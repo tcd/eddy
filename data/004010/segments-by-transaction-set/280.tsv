@@ -1,0 +1,26 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+DTM	Date/Time Reference	H	O	0	999999	8
+PWK	Paperwork	D	O	999999	1	9
+REF	Reference Information	D	O	0	999999	10
+CRC	Conditions Indicator	D	O	0	999999	11
+MEA	Measurements	D	O	0	999999	12
+DTM	Date/Time Reference	D	O	0	999999	13
+PER	Administrative Communications Contact	D	O	0	999999	14
+IN1	Individual Identification	D	O	999999	1	15
+IN2	Individual Name Structure Components	D	O	0	999999	16
+ICH	Individual Characteristics	D	O	0	999999	17
+DTM	Date/Time Reference	D	O	0	999999	18
+NX1	Property Or Entity Identification	D	O	999999	1	19
+NX2	Location Id Component	D	O	0	999999	20
+N4	Geographic Location	D	O	0	999999	21
+REF	Reference Information	D	O	0	999999	22
+DTM	Date/Time Reference	D	O	0	999999	23
+EFI	Electronic Format Identification	D	O	999999	1	24
+BIN	Binary Data Segment	D	O	0	1	25

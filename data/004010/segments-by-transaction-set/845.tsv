@@ -1,0 +1,58 @@
+id	description	section	req	max_loop	max_usage	pos
+BPA	Beginning Segment For Price Authorization Acknowledgment/Status	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+NTE	Note/Special Instruction	H	O	0	10	3
+REF	Reference Information	H	O	0	12	4
+PER	Administrative Communications Contact	H	O	0	3	5
+DTM	Date/Time Reference	H	O	0	10	6
+N1	Party Identification	H	O	10000	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10
+REF	Reference Information	H	O	0	12	11
+PER	Administrative Communications Contact	H	O	0	3	12
+DTM	Date/Time Reference	H	O	0	10	13
+CON	Contract Number Detail	D	M	10000	1	14
+REF	Reference Information	D	O	0	999999	15
+PER	Administrative Communications Contact	D	O	0	3	16
+DTM	Date/Time Reference	D	O	0	10	17
+CTB	Restrictions/Conditions	D	O	0	10	18
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	2	19
+N1	Party Identification	D	O	999999	1	20
+N2	Additional Name Information	D	O	0	2	21
+N3	Party Location	D	O	0	2	22
+N4	Geographic Location	D	O	0	1	23
+REF	Reference Information	D	O	0	12	24
+PER	Administrative Communications Contact	D	O	0	3	25
+DTM	Date/Time Reference	D	O	0	2	26
+CTB	Restrictions/Conditions	D	O	0	25	27
+PAD	Product Adjustment Detail	D	O	999999	1	28
+CTB	Restrictions/Conditions	D	O	0	10	29
+PID	Product/Item Description	D	O	0	200	30
+MEA	Measurements	D	O	0	40	31
+UIT	Unit Detail	D	O	0	20	32
+QTY	Quantity Information	D	O	0	5	33
+AMT	Monetary Amount Information	D	O	0	5	34
+CUR	Currency	D	O	0	1	35
+SSS	Product Special Services	D	O	0	1	36
+SHP	Shipped/Received Information	D	O	0	1	37
+DTM	Date/Time Reference	D	O	0	2	38
+LIN	Item Identification	D	O	1	1	39
+G53	Maintenance Type	D	O	0	1	40
+SLN	Subline Item Detail	D	O	0	100	41
+N1	Party Identification	D	O	10000	1	42
+N2	Additional Name Information	D	O	0	2	43
+N3	Party Location	D	O	0	2	44
+N4	Geographic Location	D	O	0	1	45
+DTM	Date/Time Reference	D	O	0	10	46
+CTB	Restrictions/Conditions	D	O	0	25	47
+CTP	Pricing Information	D	O	999999	1	48
+DTM	Date/Time Reference	D	O	0	10	49
+CTB	Restrictions/Conditions	D	O	0	25	50
+N1	Party Identification	D	O	10000	1	51
+N2	Additional Name Information	D	O	0	2	52
+N3	Party Location	D	O	0	2	53
+N4	Geographic Location	D	O	0	1	54
+DTM	Date/Time Reference	D	O	0	10	55
+CTB	Restrictions/Conditions	D	O	0	25	56
+CTT	Transaction Totals	S	M	0	1	57

@@ -1,0 +1,10 @@
+id	definition
+A	1st Shift (Normal Working Hours)
+B	2nd Shift
+C	3rd Shift
+D	A.M.
+E	P.M.
+F	As Directed
+G	Any Shift
+Y	None (Also Used to Cancel or Override a Previous Pattern)
+Z	Mutually Defined

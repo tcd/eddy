@@ -1,0 +1,62 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+COM	Communication Contact Information	H	O	0	999999	7
+HL	Hierarchical Level	D	M	999999	1	8
+REF	Reference Information	D	O	0	999999	9
+YNQ	Yes/No Question	D	O	0	999999	10
+DMG	Demographic Information	D	O	0	1	11
+III	Information	D	O	0	999999	12
+LUI	Language Use	D	O	0	999999	13
+QTY	Quantity Information	D	O	0	999999	14
+PCT	Percent Amounts	D	O	0	999999	15
+NM1	Individual Or Organizational Name	D	M	999999	1	16
+N2	Additional Name Information	D	O	0	2	17
+N3	Party Location	D	O	5	1	18
+N4	Geographic Location	D	O	0	1	19
+COM	Communication Contact Information	D	O	0	999999	20
+CQ	Credentials And Qualifications	D	O	999999	1	21
+FOS	Field Of Study	D	O	0	999999	22
+DTP	Date Or Time Or Period	D	O	0	999999	23
+REF	Reference Information	D	O	0	10	24
+ISI	Institutional Staff Information	D	O	0	999999	25
+YNQ	Yes/No Question	D	O	0	999999	26
+DEG	Degree Record	D	O	5	1	27
+FOS	Field Of Study	D	O	0	10	28
+QTY	Quantity Information	D	O	0	999999	29
+CRS	Course Record	D	O	999999	1	30
+CSU	Supplemental Course Data	D	O	0	1	31
+N1	Party Identification	D	O	10	1	32
+N2	Additional Name Information	D	O	0	2	33
+N3	Party Location	D	O	0	2	34
+N4	Geographic Location	D	O	0	1	35
+COM	Communication Contact Information	D	O	0	999999	36
+EMS	Employment Position	D	O	999999	1	37
+ISI	Institutional Staff Information	D	O	0	999999	38
+ESI	Employment Status Information	D	O	0	1	39
+LQ	Industry Code Identification	D	O	0	999999	40
+DTP	Date Or Time Or Period	D	O	0	999999	41
+QTY	Quantity Information	D	O	0	999999	42
+YNQ	Yes/No Question	D	O	0	999999	43
+REF	Reference Information	D	O	0	999999	44
+ELV	Employee Leave Summary	D	O	0	15	45
+AIN	Income	D	O	0	25	46
+CN1	Contract Information	D	O	0	1	47
+CON	Contract Number Detail	D	O	0	1	48
+N9	Extended Reference Information	D	O	999999	1	49
+PCT	Percent Amounts	D	O	999999	1	50
+N1	Party Identification	D	O	1	1	51
+N4	Geographic Location	D	O	0	1	52
+SES	Academic Session Header	D	O	999999	1	53
+DTP	Date Or Time Or Period	D	O	0	999999	54
+WLD	Workload Detail	D	O	999999	1	55
+N1	Party Identification	D	O	0	1	56
+QTY	Quantity Information	D	O	0	999999	57
+DTP	Date Or Time Or Period	D	O	0	999999	58
+REF	Reference Information	D	O	0	999999	59
+PCT	Percent Amounts	D	O	0	999999	60
+YNQ	Yes/No Question	D	O	0	999999	61

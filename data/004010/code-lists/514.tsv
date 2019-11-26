@@ -1,0 +1,14 @@
+id	definition
+A	Inventory Adjustment, Full Detail
+B	Book Transfer of Inventory, Full Detail
+C	Customer Return - Full Detail
+F	Full Detail
+J	Original Transaction
+K	Simulation Exercise
+N	No Exceptions
+O	Physical Inventory Overage, Full Detail
+P	Production Receipt, Full Detail
+R	Replacement and Charge
+S	Physical Inventory Shortage, Full Detail
+X	Exceptions Only
+Y	Automated Manifest System (AMS) Master-In-Bond Participant

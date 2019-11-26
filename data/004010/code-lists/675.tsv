@@ -1,0 +1,12 @@
+id	definition
+AD	Authorized Delivery Based
+AS	Authorized Shipment Based
+BB	Customer Production (Consumption) Based
+DL	Delivery Based
+JS	Buyer Production Sequence Schedule
+KB	Kanban Signal
+PD	Planned Delivery Based
+PR	Planned Requirement Based
+PS	Planned Shipment Based
+SH	Shipment Based
+ZZ	Mutually Defined

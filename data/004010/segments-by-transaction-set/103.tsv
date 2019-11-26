@@ -1,0 +1,48 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+BPR	Beginning Segment For Payment Order/Remittance Advice	H	O	0	1	2
+NTE	Note/Special Instruction	H	O	0	999999	3
+TRN	Trace	H	O	0	1	4
+CUR	Currency	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+DTM	Date/Time Reference	H	O	0	999999	7
+AMT	Monetary Amount Information	H	O	0	1	8
+NM1	Individual Or Organizational Name	H	O	999999	1	9
+N2	Additional Name Information	H	O	0	999999	10
+N3	Party Location	H	O	0	999999	11
+N4	Geographic Location	H	O	0	1	12
+REF	Reference Information	H	O	0	999999	13
+PER	Administrative Communications Contact	H	O	0	999999	14
+N1	Party Identification	D	M	999999	1	15
+N2	Additional Name Information	D	O	0	999999	16
+N3	Party Location	D	O	0	999999	17
+N4	Geographic Location	D	O	0	1	18
+INI	Incorporation Information	D	O	0	1	19
+TC2	Commodity	D	O	0	1	20
+AMT	Monetary Amount Information	D	O	0	999999	21
+QTY	Quantity Information	D	O	0	999999	22
+NM1	Individual Or Organizational Name	D	O	0	999999	23
+REF	Reference Information	D	O	0	999999	24
+DTM	Date/Time Reference	D	O	0	999999	25
+YNQ	Yes/No Question	D	O	0	999999	26
+PER	Administrative Communications Contact	D	O	999999	1	27
+N3	Party Location	D	O	0	999999	28
+N4	Geographic Location	D	O	0	1	29
+REF	Reference Information	D	O	0	999999	30
+LX	Transaction Set Line Number	D	M	999999	1	31
+BLN	Balance Information	D	M	0	999999	32
+DTP	Date Or Time Or Period	D	O	0	999999	33
+INT	Interest	D	O	0	999999	34
+PDS	Property Description/Legal Description	D	O	0	1	35
+REF	Reference Information	D	O	0	999999	36
+SHI	Security Holding Information	D	O	1	1	37
+DTM	Date/Time Reference	D	O	0	999999	38
+AMT	Monetary Amount Information	D	O	0	999999	39
+QTY	Quantity Information	D	O	0	999999	40
+PCT	Percent Amounts	D	O	0	999999	41
+NM1	Individual Or Organizational Name	D	O	999999	1	42
+N2	Additional Name Information	D	O	0	1	43
+N3	Party Location	D	O	0	999999	44
+N4	Geographic Location	D	O	0	1	45
+DTM	Date/Time Reference	D	O	0	999999	46
+REF	Reference Information	D	O	0	999999	47

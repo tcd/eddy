@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+B13	Beginning Segment For Appointment Schedule	H	M	0	1	1
+B2A	Set Purpose	H	M	0	1	2
+H6	Special Services	H	O	0	5	3
+N7	Equipment Details	H	O	0	3	4
+G62	Date/Time	H	O	0	10	5
+L11	Business Instructions And Reference Number	H	O	0	999	6
+H3	Special Handling Instructions	H	O	0	10	7
+G05	Total Shipment Information	H	O	0	1	8
+N1	Party Identification	H	O	3	1	9
+N2	Additional Name Information	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+L11	Business Instructions And Reference Number	H	O	0	10	13
+G61	Contact	H	O	0	5	14
+G62	Date/Time	H	O	0	10	15
+OID	Order Information Detail	H	O	99999	1	16
+SDQ	Destination Quantity	H	O	0	10	17
+S5	Stop-Off Details	H	O	999	1	18
+N1	Party Identification	H	O	0	1	19
+N2	Additional Name Information	H	O	0	1	20
+N3	Party Location	H	O	0	2	21
+N4	Geographic Location	H	O	0	1	22
+L11	Business Instructions And Reference Number	H	O	0	10	23
+H6	Special Services	H	O	0	5	24
+G61	Contact	H	O	0	5	25
+G62	Date/Time	H	O	0	10	26
+OID	Order Information Detail	H	O	99999	1	27
+SDQ	Destination Quantity	H	O	0	10	28

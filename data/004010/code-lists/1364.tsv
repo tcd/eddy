@@ -1,0 +1,9 @@
+id	definition
+A	Case Turned Over to a Consultant
+B	Pre-Admission Testing
+C	X-ray or Lab Procedure Related to a Covered Surgery
+D	Provider/Supplier determined the service is not covered, but the patient is requesting a formal review by the payor
+E	Beneficiary was notified that the item might not be considered medically necessary and has agreed in writing to pay for the item; A signed waiver is on file with the provider
+F	Beneficiary was notified that the item might not be considered medically necessary and has not agreed to pay for the item; No signed waiver is on file with the provider
+L	Reserved for Local Assignment
+N	Reserved for National Assignment

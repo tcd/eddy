@@ -1,0 +1,19 @@
+id	definition
+00	Original
+01	Cancellation
+02	Corrected and Verified Original Claim
+03	Corrected and Verified Final Claim
+05	Replace
+07	Duplicate
+08	Pre-Determination
+09	Encounter
+15	Resubmission
+16	Proposed
+17	Cancel to be Reissued
+18	Reissue
+20	Final Transmission
+22	Information Copy
+27	Verify
+28	Late Charges
+29	Adjustment
+PB	Predetermination of Dental Benefits

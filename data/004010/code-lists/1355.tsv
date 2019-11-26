@@ -1,0 +1,9 @@
+id	definition
+00	Not specified
+01	No override
+02	Other override
+03	Vacation Supply
+04	Lost Prescription
+05	Therapy Change
+06	Starter Dose
+07	Medically Necessary

@@ -1,0 +1,82 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+C3	Currency Identifier	H	O	0	1	2
+DTP	Date Or Time Or Period	H	O	0	9	3
+NM1	Individual Or Organizational Name	H	O	2	1	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	9	7
+PER	Administrative Communications Contact	H	O	0	3	8
+N1	Party Identification	D	M	999999	1	9
+N2	Additional Name Information	D	O	0	3	10
+N3	Party Location	D	O	0	3	11
+N4	Geographic Location	D	O	0	1	12
+REF	Reference Information	D	O	0	9	13
+DTP	Date Or Time Or Period	D	O	0	999999	14
+PID	Product/Item Description	D	O	999999	1	15
+SPA	Status Of Product Or Activity	D	O	0	3	16
+LIN	Item Identification	D	O	0	9	17
+III	Information	D	O	0	9	18
+PO1	Baseline Item Data	D	O	999999	1	19
+SPA	Status Of Product Or Activity	D	O	0	3	20
+AMT	Monetary Amount Information	D	O	0	3	21
+III	Information	D	O	0	9	22
+ACT	Account Identification	D	O	999999	1	23
+N3	Party Location	D	O	0	3	24
+N4	Geographic Location	D	O	0	1	25
+SPA	Status Of Product Or Activity	D	O	0	3	26
+DTP	Date Or Time Or Period	D	O	0	9	27
+LIN	Item Identification	D	O	0	9	28
+PAM	Period Amount	D	O	0	9	29
+III	Information	D	O	0	9	30
+CON	Contract Number Detail	D	O	999999	1	31
+REF	Reference Information	D	O	0	9	32
+LIN	Item Identification	D	O	0	9	33
+DTP	Date Or Time Or Period	D	O	0	9	34
+SPA	Status Of Product Or Activity	D	O	0	3	35
+AMT	Monetary Amount Information	D	O	0	999999	36
+PAM	Period Amount	D	O	0	9	37
+NM1	Individual Or Organizational Name	D	O	999999	1	38
+N2	Additional Name Information	D	O	0	3	39
+N3	Party Location	D	O	0	3	40
+N4	Geographic Location	D	O	0	1	41
+REF	Reference Information	D	O	0	9	42
+DMG	Demographic Information	D	O	0	1	43
+BEN	Beneficiary Or Owner Information	D	O	0	9	44
+DTP	Date Or Time Or Period	D	O	0	9	45
+ASI	Action Or Status Indicator	D	O	0	1	46
+BLI	Basic Baseline Item Data	D	O	999999	1	47
+LIN	Item Identification	D	O	0	3	48
+SPA	Status Of Product Or Activity	D	O	0	3	49
+DTP	Date Or Time Or Period	D	O	0	9	50
+AM1	Informational Values	D	O	0	9	51
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	52
+REF	Reference Information	D	O	0	1	53
+DTP	Date Or Time Or Period	D	O	0	9	54
+AM1	Informational Values	D	O	0	99	55
+SPA	Status Of Product Or Activity	D	O	0	3	56
+MSG	Message Text	D	O	0	9	57
+ACT	Account Identification	D	O	999999	1	58
+LIN	Item Identification	D	O	0	9	59
+SPA	Status Of Product Or Activity	D	O	0	3	60
+AM1	Informational Values	D	O	0	999999	61
+DTP	Date Or Time Or Period	D	O	0	9	62
+MSG	Message Text	D	O	0	9	63
+NM1	Individual Or Organizational Name	D	O	999999	1	64
+N2	Additional Name Information	D	O	0	3	65
+N3	Party Location	D	O	0	3	66
+N4	Geographic Location	D	O	0	1	67
+SPA	Status Of Product Or Activity	D	O	0	3	68
+PDL	Payment Details	D	O	0	1	69
+AMT	Monetary Amount Information	D	O	0	999999	70
+DTM	Date/Time Reference	D	O	0	999999	71
+G86	Signature Identification	D	O	0	1	72
+EFI	Electronic Format Identification	D	M	999999	1	73
+BIN	Binary Data Segment	D	O	0	1	74
+LX	Transaction Set Line Number	D	O	999999	1	75
+AM1	Informational Values	D	M	0	1	76
+DTP	Date Or Time Or Period	D	O	0	9	77
+RPA	Rate Amounts Or Percents	D	O	999999	1	78
+DTP	Date Or Time Or Period	D	O	0	3	79
+AMT	Monetary Amount Information	D	O	999999	1	80
+REF	Reference Information	D	O	0	9	81

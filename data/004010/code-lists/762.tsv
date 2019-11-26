@@ -1,0 +1,14 @@
+id	definition
+A	Full Waybill
+C	Concur
+D	Revenue Data Not Available
+E	Road Not Entitled to Data
+H	No Record of Haulage
+M	Already Mailed
+N	No Record of Waybill
+O	Non-Concurrence, New Opinion
+R	Rule 11 Shipment
+S	Waybill Already Settled
+T	Destination Road Transition Waybill
+U	Other than Destination Road Transition Waybill
+W	Nonrevenue Waybill

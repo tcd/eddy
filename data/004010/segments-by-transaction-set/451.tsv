@@ -1,0 +1,8 @@
+id	description	section	req	max_loop	max_usage	pos
+ER	Rail Event Reporting	H	O	0	2	1
+ED	Equipment Description	H	M	999	1	2
+ER	Rail Event Reporting	H	O	0	2	3
+NA	Cross-Reference Equipment	H	O	0	1	4
+IC	Intermodal Chassis Equipment	H	O	0	3	5
+CLR	Car Location Routing Request	H	O	0	10	6
+ES	Equipment Status	H	O	0	1	7

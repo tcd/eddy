@@ -1,0 +1,42 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	5	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	12	6
+PER	Administrative Communications Contact	H	O	0	3	7
+PID	Product/Item Description	D	M	999999	1	8
+REF	Reference Information	D	M	0	12	9
+DTP	Date Or Time Or Period	D	O	0	1	10
+MSG	Message Text	D	O	0	999999	11
+NM1	Individual Or Organizational Name	D	O	5	1	12
+N2	Additional Name Information	D	O	0	1	13
+N3	Party Location	D	O	0	1	14
+N4	Geographic Location	D	O	0	1	15
+EFI	Electronic Format Identification	D	O	999999	1	16
+BIN	Binary Data Segment	D	O	0	1	17
+NX1	Property Or Entity Identification	D	O	999999	1	18
+NX2	Location Id Component	D	O	0	999999	19
+PDS	Property Description/Legal Description	D	O	0	20	20
+PDE	Property Metes And Bounds Description	D	O	0	999999	21
+FGS	Form Group	D	M	10	1	22
+DTP	Date Or Time Or Period	D	O	0	2	23
+FPT	Financial Participation	D	O	0	1	24
+MSG	Message Text	D	O	0	999999	25
+N9	Extended Reference Information	D	O	0	999999	26
+IN1	Individual Identification	D	O	999999	1	27
+IN2	Individual Name Structure Components	D	O	0	30	28
+AMT	Monetary Amount Information	D	O	0	2	29
+M1	Insurance	D	O	0	1	30
+MSG	Message Text	D	O	0	10	31
+LQ	Industry Code Identification	D	O	999999	1	32
+DTP	Date Or Time Or Period	D	O	0	3	33
+REF	Reference Information	D	O	0	999999	34
+MSG	Message Text	D	O	0	999999	35
+IN1	Individual Identification	D	O	999999	1	36
+IN2	Individual Name Structure Components	D	O	0	30	37
+M1	Insurance	D	O	0	20	38
+MSG	Message Text	D	O	0	4	39
+LX	Transaction Set Line Number	D	O	1	1	40
+G86	Signature Identification	D	O	0	1	41

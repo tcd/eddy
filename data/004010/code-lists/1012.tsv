@@ -1,0 +1,27 @@
+id	definition
+A	Appearance
+C	Case Status
+D	Disposition
+H	Hearing
+I	Incident
+M	Marriage
+N	Notice
+O	Offense
+P	Pleading
+S	Judge Sentence
+W	Warrant
+AC	Accident
+AS	Asset Status
+CL	Claim Status
+DO	Document
+OP	Opinion
+OR	Order
+OT	Other Unlisted Event Type
+PA	Plea
+PD	Payment
+PE	Petition
+PY	Party Status
+SJ	Jury Sentence
+SU	Summons
+TR	Trial
+ZZZ	Mutually Defined

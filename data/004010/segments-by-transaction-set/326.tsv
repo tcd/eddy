@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+V1	Vessel Identification	H	M	999	1	1
+MBL	Bill Of Lading	H	O	0	1	2
+G1	Shipment Type Information	H	O	0	1	3
+N9	Extended Reference Information	H	O	0	999	4
+VC	Motor Vehicle Control	H	O	0	9999	5
+N7	Equipment Details	H	O	999	1	6
+VC	Motor Vehicle Control	H	O	0	9	7
+R4	Port Or Terminal	H	M	4	1	8
+DTM	Date/Time Reference	H	O	0	1	9

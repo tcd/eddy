@@ -1,0 +1,28 @@
+id	definition
+1	Checking Account
+2	Investment Account
+3	Liquid Assets Account
+4	Master Account
+5	Open Line of Credit
+6	Special Account
+A	Borrowing Account
+B	Borrowing Account with Established Credit Line
+C	Certificate of Deposit
+D	Checking
+E	Commercial Loan
+F	Credit Line
+G	Demand Loan
+H	Discount Note
+I	Floor Plan
+J	Installment Loan
+L	Mortgage
+M	Negotiable Order on Withdrawal (NOW) Account
+N	Savings
+O	Time Deposit
+P	Time Loan
+Q	Various
+R	Account Maintained
+S	Non-Borrowing Account
+T	Not Primary Account
+U	Primary Account
+Z	Mutually Defined

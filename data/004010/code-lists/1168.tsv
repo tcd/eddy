@@ -1,0 +1,17 @@
+id	definition
+A1	(Boxcar) Sliding Door, Less than 9 Ft.
+A2	(Boxcar) Sliding Door, Equal to 9 Ft. or Less than 11 Ft.
+A3	(Boxcar) Sliding Door, Equal to or Greater than 11 Ft.
+A4	(Boxcar) Plug Door Less than 9 Ft.
+A5	(Boxcar) Plug Door Equal to 9 Ft. or Less than 11 Ft.
+A6	(Boxcar) Plug Door Equal to 11 Ft. or Over 11 Ft.
+A7	(Boxcar) Sliding and Plug
+AO	(Boxcar) Any Other Type Door
+B1	(Unequipped Boxcar) Door Less than 8 Ft.
+B2	(Unequipped Boxcar) Door Equal to 8 Ft. and Less than 9 Ft.
+B3	(Unequipped Boxcar) Door Equal to 9 Ft. and Less than 10 Ft.
+B4	(Unequipped Boxcar) Door Equal to 10 Ft. and Less than 11 Ft.
+B5	(Unequipped Boxcar) Door Equal to 11 Ft. and Less than 13 Ft.
+B6	(Unequipped Boxcar) Door Equal to 13 Ft. and Less than 15 Ft.
+B7	(Unequipped Boxcar) Door Equal to 1 Square Foot and Greater
+BO	(Unequipped Boxcar) Door Any Other Door Type

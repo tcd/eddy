@@ -1,0 +1,204 @@
+id	definition
+AMM	Ammo Pack
+AMP	Ampoule
+ATH	Attachment
+BAG	Bag
+BAL	Bale
+BBL	Barrel
+BDG	Banding
+BDL	Bundle
+BEM	Beam
+BIC	Bing Chest
+BIN	Bin
+BLK	Bulk
+BLT	Belting
+BOB	Bobbin
+BOT	Bottle
+BOX	Box
+BRC	Bracing
+BRG	Barge
+BSK	Basket or hamper
+BXI	Box, with inner container
+BXT	Bucket
+CAB	Cabinet
+CAG	Cage
+CAN	Can
+CAR	Carrier
+CAS	Case
+CBC	Containers of Bulk Cargo
+CBY	Carboy
+CCS	Can Case
+CHE	Cheeses
+CHS	Chest
+CLD	Car Load, Rail
+CNA	Household Goods Container, Wood
+CNB	Container, MAC-ISO, LT. WGT. 8x8x20 Foot Air
+CNC	Container, Navy Cargo Transporter
+CND	Container, Commercial Highway Lift
+CNE	Container, Engine
+CNF	Container, Multi-walled, Secured to Warehouse Pallet
+CNT	Container
+COL	Coil
+CON	Cones
+COR	Core
+CRD	Cradle
+CRF	Corner Reinforcement
+CRT	Crate
+CSK	Cask
+CTN	Carton
+CX2	CONEX
+CYL	Cylinder
+DBK	Dry Bulk
+DRK	Double-length Rack
+DRM	Drum
+DSK	Double-length Skid
+DTB	Double-length Tote Bin
+DUF	Duffelbag
+EGG	Egg Crating
+ENV	Envelope
+EPR	Edge Protection
+FIR	Firkin
+FLO	Flo-bin
+FRM	Frame
+FSK	Flask
+FWR	Forward Reel
+HED	Heads of Beef
+HGH	Hogshead
+HPR	Hamper
+HPT	Hopper Truck
+HRB	On Hanger or Rack in Boxes
+HRK	Half-Standard Rack
+HTB	Half-Standard Tote Bin
+INT	Intermediate Container
+JAR	Jar
+KEG	Keg
+KIT	Kit
+KRK	Knockdown Rack
+KTB	Knockdown Tote Bin
+LBK	Liquid Bulk
+LID	Lip/Top
+LIF	Lifts
+LNR	Liners
+LOG	Log
+LSE	Loose
+LUG	Lug
+LVN	Lift Van
+MIX	Mixed Container Types
+ML2	MILVAN
+MRP	Multi-Roll Pack
+MS2	MSCVAN
+MXD	Mixed
+NOL	Noil
+PAF	Pallet - 4 Way
+PAL	Pail
+PAT	Pallet - 2 Way
+PCK	Packed - not otherwise specified
+PCS	Pieces
+PIR	Pirns
+PKG	Package
+PLC	Primary Lift Container
+PLF	Platform
+PLN	Pipeline
+PLT	Pallet
+POV	Private Vehicle
+PRK	Pipe Rack
+PRT	Partitioning
+PWT	Plastic-Wrapped Tray
+QTR	Quarter of Beef
+RAL	Rail (Semiconductor)
+RCK	Rack
+REL	Reel
+RFT	Reinforcement
+ROL	Roll
+RVR	Reverse Reel
+SAK	Sack
+SCS	Suitcase
+SHK	Shook
+SHT	Sheet
+SID	Side of Beef
+SKD	Skid
+SKE	Skid, elevating or lift truck
+SLP	Slip Sheet
+SLV	Sleeve
+SPI	Spin Cylinders
+SPL	Spool
+SPR	Separator/Divider
+SRW	Shrink Wrap
+STW	Stretch Wrap
+SV2	SEAVAN
+TBE	Tube
+TBN	Tote Bin
+TKR	Tank Car
+TKT	Tank Truck
+TLD	Intermodal Trailer/Container Load (Rail)
+TNK	Tank
+TRC	Tierce
+TRK	Trunk and Chest
+TRU	Truck
+TRY	Tray
+TSS	Trunk, Salesmen Sample
+TUB	Tub
+UNP	Unpacked
+UNT	Unit
+VEH	Vehicles
+VIL	Vial
+VOC	Vehicle in Operating Condition
+VPK	Van Pack
+WHE	On Own Wheel
+WLC	Wheeled Carrier
+WRP	Wrapped
+01	Aluminum
+04	As Specified by the DOT
+07	Burlap
+10	Chemically Hardened Fibre
+13	Cloth
+16	Cloth Top
+19	Cloth or Fabric
+22	Compressed
+25	Corrugated or Solid
+28	Double-wall Paper
+31	Fibre
+34	Fibre (Paperboard)
+37	Fiberboard
+40	Fiberboard Metal
+43	Glass
+46	In Inner Containers
+48	Wire/Cord
+49	Insulated
+50	Steel - Vinyl Coated
+51	Wire Mesh
+52	Iron or Steel
+53	Jumbo
+54	Special Jumbo
+55	Lead
+58	Metal
+59	Metal Cans
+61	Moisture Resistant
+64	Molded Plastic
+67	Multiple-wall Paper (2 or more walls)
+70	Multiple-wall Paper (3 or more walls)
+71	Not Otherwise Specified
+72	Paper - VCI
+73	Other than Glass
+74	Other than Metal or Plastic Tubes, or Glass
+75	Plastic - Vacuum Formed
+76	Paper
+77	Plastic - Structural Foam
+78	Plastic - Injection Molded
+79	Plastic
+80	Polyethylene Lined
+81	Plastic - Virgin
+82	Pulpboard
+83	Plastic - Regrind
+84	Polystyrene
+85	Rubber
+86	Foam
+88	Rubber and Fabric
+89	Special
+90	Standard
+91	Stainless Steel
+92	Tubes, Metal or Plastic
+94	Wood
+95	Single Wall Corrugated Board
+96	Double Wall Corrugated Board
+97	Triple Wall Corrugated Board

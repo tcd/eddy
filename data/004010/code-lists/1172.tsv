@@ -1,0 +1,28 @@
+id	definition
+DC	Duplicate Charge
+EW	Expired Warranty
+UR	Unauthorized Repair
+CDR	Customer Damage or Responsibility
+CMP	Customer Must Pay Deductible
+ELH	Excessive Labor Hours
+ELR	Excessive Labor Rate
+EPC	Excessive Part Cost
+FRS	Factory Required Service
+FWC	Full Warranty Credit
+IIS	Insufficient Information Supplied
+IRS	Item Reported as Stolen
+IWS	Insufficient Warranty Information Supplied
+MAP	Manufacturer's Agreed Price
+NCR	No Charge Repair
+NEW	Not Eligible for Warranty
+NOP	Not Our Product
+NRI	Not a Recall Item
+NSB	Not a Service Bulletin Item
+NWR	No Warranty Record
+PNP	Part not Proper for Specified Repair
+PWA	Partial Warranty Approved
+RDP	Repair Description Does Not Agree With Product
+SUB	Submitted Too Late
+UPR	Unrelated To Previous Repair
+URF	Unauthorized Repair Facility
+WBS	Warranted By Seller

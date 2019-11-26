@@ -1,0 +1,13 @@
+id	definition
+20	ANSI X9.23 Cipher Block Chaining (CBC), No Filter (Binary Cipher Text)
+21	ANSI X9.23 Cipher Block Chaining (CBC), Hexadecimal Filter
+22	ANSI X9.23 Cipher Block Chaining (CBC), ASCII Filter
+23	ANSI X9.23 Cipher Block Chaining (CBC), ASCII/BAUDOT Filter
+2Z	ANSI X9.23 Cipher Block Chaining (CBC), Mutually Defined Filter
+40	ANSI X9.23 CFB-8 (Cipher Feedback); No Filter (Binary Cipher Text)
+41	ANSI X9.23 CFB-8 (Cipher Feedback), Hexadecimal Filter
+42	ANSI X9.23 CFB-8 (Cipher Feedback), ASCII Filter
+43	ANSI X9.23 CFB-8 (Cipher Feedback), BAUDOT Filter
+4Z	ANSI X9.23 CFB-8 (Cipher Feedback), Mutually Defined Filter
+AA	Parameters Defined Individually
+ZZ	Mutually Defined

@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	1	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	1	7
+HL	Hierarchical Level	D	M	999999	1	8
+LN	Loan Information	D	O	0	1	9
+MLA	Mortgage Loan Audit Information	D	O	0	1	10
+ASM	Amount And Settlement Method	D	O	0	1	11
+TA	Tax Authority	D	O	0	1	12
+PTS	Property Tax Status	D	O	0	1	13
+TII	Tax Installment Information	D	O	0	1	14
+INC	Installment Information	D	O	0	1	15
+REF	Reference Information	D	O	0	999999	16
+DTP	Date Or Time Or Period	D	O	0	999999	17
+NM1	Individual Or Organizational Name	D	O	999999	1	18
+N2	Additional Name Information	D	O	0	1	19
+N3	Party Location	D	O	0	1	20
+N4	Geographic Location	D	O	0	1	21
+REF	Reference Information	D	O	0	1	22
+PER	Administrative Communications Contact	D	O	0	1	23
+NX1	Property Or Entity Identification	D	O	999999	1	24
+NX2	Location Id Component	D	O	0	999999	25
+PDS	Property Description/Legal Description	D	O	0	999999	26
+PDE	Property Metes And Bounds Description	D	O	0	1	27
+TIA	Tax Information And Amount	D	O	0	999999	28
+REF	Reference Information	D	O	0	999999	29
+TDT	Tax Delinquency Status	D	O	999999	1	30
+REF	Reference Information	D	O	999999	1	31
+DTP	Date Or Time Or Period	D	O	0	1	32
+AMT	Monetary Amount Information	D	O	999999	1	33
+REF	Reference Information	D	O	0	1	34
+DTP	Date Or Time Or Period	D	O	0	1	35

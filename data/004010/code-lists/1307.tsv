@@ -1,0 +1,152 @@
+id	definition
+1	Guaranteed
+2	Guaranteed with Changes
+3	Denied
+4	Rejected
+5	Pending
+6	Disbursed
+7	Grace
+8	Deferred
+9	Forbearance
+10	Preclaim
+11	Claim
+12	Repayment
+13	Paid in Full
+14	Current
+15	Preforeclosure Acceptance Plan Available
+16	Preforeclosure Acceptance Plan Not Available
+17	Preforeclosure Sale Closing Plan Accepted
+18	Preforeclosure Sale Closing Plan Rejected
+19	Partial Reinstatement
+1A	Foreclosure Sale Held
+1B	Foreclosure Sale Confirmed
+1C	Certificate of Title Issued
+1D	Eviction Referral Received
+1E	Eviction Started
+1F	Eviction Scheduled
+1G	Eviction Completed
+1H	Title Package Submitted
+1J	Attorney File Closed
+1K	Bankruptcy Referral Received
+1L	Proof Claim Filing Expires
+1M	Proof of Claim Filed
+1N	Petition Sent
+1P	Creditors Meeting
+1Q	Motion to Lift Bankruptcy Stay Filed
+1R	Preliminary Hearing for Motion to Lift Bankruptcy Stay
+1S	Final Hearing for Motion to Lift Bankruptcy Stay
+1T	Bankruptcy Discharge Hearing
+1U	Bankruptcy Discharge Entered
+1V	Adequate Protection Granted
+1W	Trustee's No Asset Report Filed
+1X	Trustee's Abandonment Requested
+1Y	Court File Closed
+1Z	Case Dismissed
+20	Reinstated by Mortgagor Who Retains Ownership
+21	Reinstated by Assumptor
+22	Servicing Transferred or Sold to Another Mortgagee
+23	Sold
+24	Government Seizure
+25	Cancel
+26	Refinance
+27	Assumption
+28	Modification
+29	Charge-off
+2A	Reaffirmation Hearing
+2B	Reaffirmation Agreement Approved
+2C	Bankruptcy Schedules Reviewed
+2D	Bankruptcy Schedules Sent
+2E	Bankruptcy Confirmation Hearing
+2F	Bankruptcy Objection Filed
+2G	Hearing on Bankruptcy Objection to Confirmation
+2H	Plan and Disclosure Statement Filed
+2I	Hearing on Disclosure Statement
+2J	Ballot Expires
+2K	Motion to Dismiss Bankruptcy Filed
+2L	Contested Bankruptcy
+2M	Deed in Lieu Referral Received
+2N	Deed in Lieu Documents Sent to Borrower
+2P	Deed in Lieu Documents Executed by Borrower
+2Q	Deed in Lieu Documents Received from Borrower
+2R	Deed in Lieu Documents Sent for Recording
+2S	Deed in Lieu Title Package Sent
+2U	Veterans Affairs Notice of Default Sent (VA 6850)
+2V	Veterans Affairs Intention to Foreclose Sent (VA 6851)
+2W	Veterans Affairs Notice of Election to Convey Sent
+2X	Sale of Converted Adjustable Rate Mortgage
+2Y	Resale of Converted Adjustable Rate Mortgage
+2Z	Foreclosure Status Reset
+30	Third Party Sale
+31	Probate
+32	Military Indulgence
+33	Contested Foreclosure
+34	Natural Disaster
+35	Expiration of Redemption
+36	Preclaim - Skip
+37	Preclaim - Past Due Repayment
+38	Preclaim - Failure to Pay Interest
+39	Preclaim - Enrolled
+3A	Reinstated or Modified - Not Reassigned to Mortgage Registrar
+40	Preclaim - Ineligible Borrower
+41	Supplemental Preclaim
+42	Delinquent
+43	Foreclosure Started
+44	Deed-in-Lieu Started
+45	Foreclosure Completed
+46	Property Conveyed to Insurer
+47	Deed-in-Lieu Completed
+48	Claims without Conveyance of Title
+49	Assignment Completed
+50	Claim Paid
+51	Claim - Closed School
+52	Claim - False Certification
+53	Claim - Non-payment
+54	Claim - Ineligible Borrower
+55	Claim - Death
+56	Claim - Disability
+57	Foreclosure Pending - Assigned to Servicer
+58	Foreclosure Pending - Retained by Mortgage Registrar
+59	Chapter 12 Bankruptcy
+60	Reinstated or Modified - Reassigned to Mortgage Registrar
+61	Second Lien Considerations
+62	Veterans Affairs -- No Bid
+63	Veterans Affairs -- Refund
+64	Veterans Affairs -- Buydown
+65	Chapter 7 Bankruptcy
+66	Chapter 11 Bankruptcy
+67	Chapter 13 Bankruptcy
+68	First Legal Action to Commence Foreclosure
+69	Bankruptcy Plan Confirmed
+70	Order Lifting Bankruptcy Stay Entered
+71	Foreclosure Sale Scheduled
+72	Redemption or Confirmation Post Sale Ended
+73	Property Redeemed
+74	Broker's Price Opinion or Appraisal Obtained
+75	No Delinquencies to Report
+76	Bankruptcy Court Clearance Obtained
+77	Deed Recorded
+78	State Housing Assistance Program
+79	Foreclosure File Received by Attorney
+80	Breach Letter Sent
+81	Breach Letter Expired
+82	Service By Publication
+83	Service Completed
+84	Hearing Scheduled
+85	Department of Housing and Urban Development Occupancy Letter Sent
+86	Title Search Ordered
+87	Power of Attorney or Substitute of Trustee Recorded
+88	Appraisal Ordered
+89	Veterans Affairs Holder's Statement of Account Sent (VA 567)
+90	Notice of Election and Demand Recorded
+91	Default Entered
+92	Hearing Held
+93	Writ of Seizure Issued
+94	Judgment or Decree Entered
+95	Foreclosure Sale Continued
+96	Foreclosure Publication Commenced
+97	Redemption Pre-sale Expired
+98	Reinstatement Funds Received
+99	Payoff Funds Received by Attorney
+AA	Conversion
+ZA	Title Search Received
+ZZ	Mutually Defined

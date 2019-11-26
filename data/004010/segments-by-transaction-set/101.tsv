@@ -1,0 +1,11 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	M	999999	1	2
+N1	Party Identification	H	M	0	999999	3
+N9	Extended Reference Information	H	O	999999	1	4
+LX	Transaction Set Line Number	H	M	999999	1	5
+IN2	Individual Name Structure Components	H	O	0	999999	6
+NX2	Location Id Component	H	O	0	999999	7
+REF	Reference Information	H	O	0	999999	8
+SPA	Status Of Product Or Activity	H	O	0	1	9
+COM	Communication Contact Information	H	O	0	999999	10

@@ -1,0 +1,32 @@
+id	description	section	req	max_loop	max_usage	pos
+BCQ	Beginning Segment For Shipper's Car Order	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	10	2
+PI	Price Authority Identification	H	O	0	3	3
+LQ	Industry Code Identification	H	O	0	3	4
+QTY	Quantity Information	H	O	0	3	5
+NTE	Note/Special Instruction	H	O	0	3	6
+N1	Party Identification	H	M	5	1	7
+N3	Party Location	H	O	0	1	8
+N4	Geographic Location	H	O	0	1	9
+PER	Administrative Communications Contact	H	O	0	2	10
+N9	Extended Reference Information	H	O	0	20	11
+LX	Transaction Set Line Number	H	M	31	1	12
+D9	Destination Station	H	O	0	1	13
+F9	Origin Station	H	M	31	1	14
+PER	Administrative Communications Contact	H	O	0	5	15
+R2	Route Information	H	O	0	13	16
+SCR	Shipper's Car Ordered Rail	H	M	9999	1	17
+GA	Canadian Grain Information	H	O	0	15	18
+DTM	Date/Time Reference	H	M	0	10	19
+QTY	Quantity Information	H	O	0	3	20
+YNQ	Yes/No Question	H	O	0	20	21
+N9	Extended Reference Information	H	O	0	20	22
+PI	Price Authority Identification	H	O	0	3	23
+LQ	Industry Code Identification	H	O	99	1	24
+N9	Extended Reference Information	H	O	0	20	25
+LS	Loop Header	H	O	0	1	26
+N7	Equipment Details	H	O	9999	1	27
+SCR	Shipper's Car Ordered Rail	H	O	0	1	28
+PI	Price Authority Identification	H	O	0	5	29
+DTM	Date/Time Reference	H	O	0	1	30
+LE	Loop Trailer	H	O	0	1	31

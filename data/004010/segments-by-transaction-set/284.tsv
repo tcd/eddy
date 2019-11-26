@@ -1,0 +1,47 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+N9	Extended Reference Information	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+DTM	Date/Time Reference	H	O	0	999999	8
+HL	Hierarchical Level	D	M	999999	1	9
+PWK	Paperwork	D	O	0	1	10
+N9	Extended Reference Information	D	O	0	999999	11
+DTM	Date/Time Reference	D	O	0	999999	12
+YNQ	Yes/No Question	D	O	0	999999	13
+TC2	Commodity	D	O	0	1	14
+H1	Hazardous Material	D	O	0	1	15
+LH2	Hazardous Classification Information	D	O	0	1	16
+LH3	Hazardous Material Shipping Name Information	D	O	0	1	17
+PO4	Item Physical Details	D	O	0	1	18
+MAN	Marks And Numbers Information	D	O	0	999999	19
+LQ	Industry Code Identification	D	O	999999	1	20
+N9	Extended Reference Information	D	O	0	999999	21
+YNQ	Yes/No Question	D	O	0	999999	22
+MEA	Measurements	D	O	0	999999	23
+III	Information	D	O	0	999999	24
+QTY	Quantity Information	D	O	0	1	25
+LOD	Location Description	D	O	0	1	26
+SRE	Test Scores	D	O	0	1	27
+VEH	Vehicle Information	D	O	0	1	28
+DVI	Dynamic Vehicle Information	D	O	0	999999	29
+AMT	Monetary Amount Information	D	O	999999	1	30
+DTM	Date/Time Reference	D	O	0	999999	31
+NM1	Individual Or Organizational Name	D	O	999999	1	32
+N2	Additional Name Information	D	O	0	2	33
+N3	Party Location	D	O	0	2	34
+N4	Geographic Location	D	O	0	1	35
+N9	Extended Reference Information	D	O	0	999999	36
+PER	Administrative Communications Contact	D	O	0	999999	37
+EMS	Employment Position	D	O	0	1	38
+DMG	Demographic Information	D	O	0	999999	39
+DMA	Additional Demographic Information	D	O	0	1	40
+DTM	Date/Time Reference	D	O	0	999999	41
+YNQ	Yes/No Question	D	O	0	999999	42
+LIE	Individual Or Event Location	D	O	999999	1	43
+MEA	Measurements	D	O	0	1	44
+MTX	Text	D	O	999999	1	45
+REF	Reference Information	D	O	0	999999	46

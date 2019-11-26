@@ -1,0 +1,13 @@
+id	definition
+01	Palletized
+02	Floor Stack/Hand Pile
+03	Mixed
+04	Slip Sheet
+05	Module
+06	Clampable
+07	Bop Sheet
+08	Airbag/Slipsheet Combination
+09	Thermal Blanket (Cargo Quilt)
+10	Shrink-wrap
+11	Loadlock
+ZZ	Mutually Defined

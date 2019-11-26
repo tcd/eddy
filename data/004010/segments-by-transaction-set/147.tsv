@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+AAA	Request Validation	H	M	0	1	2
+REF	Reference Information	H	M	0	10	3
+PWK	Paperwork	H	O	0	1	4
+NTE	Note/Special Instruction	H	O	0	15	5
+N1	Party Identification	H	M	2	1	6
+N2	Additional Name Information	H	O	0	1	7
+N3	Party Location	H	O	0	1	8
+N4	Geographic Location	H	O	0	1	9
+PER	Administrative Communications Contact	H	O	0	1	10
+IN1	Individual Identification	H	M	15	1	11
+IN2	Individual Name Structure Components	H	M	0	10	12

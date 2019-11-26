@@ -1,0 +1,21 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	10	2
+REF	Reference Information	H	O	0	12	3
+N1	Party Identification	H	M	999999	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	3	8
+REF	Reference Information	H	O	0	12	9
+HL	Hierarchical Level	D	M	999999	1	10
+N1	Party Identification	D	M	999999	1	11
+N2	Additional Name Information	D	O	0	2	12
+N3	Party Location	D	O	0	2	13
+N4	Geographic Location	D	O	0	1	14
+PER	Administrative Communications Contact	D	O	0	999999	15
+REF	Reference Information	D	O	0	12	16
+QTY	Quantity Information	D	O	0	5	17
+DTM	Date/Time Reference	D	O	0	10	18
+LQ	Industry Code Identification	D	O	0	999999	19
+ASI	Action Or Status Indicator	D	O	0	1	20

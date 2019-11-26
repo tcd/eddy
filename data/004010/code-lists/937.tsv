@@ -1,0 +1,21 @@
+id	definition
+01	Dermal
+02	Inhalation
+03	Oral
+04	Impulse Current
+05	Impulse Surge Life
+06	Impulse
+07	Insulation Resistance
+08	Inter-Electrode Capacitance
+09	Direct Current
+11	Contact
+12	Immersion
+AG	Auger
+CT	Car Top Sample
+FL	Flow Sample
+MA	Manual Sample
+ME	Mechanical Sample
+PC	Closed Cup
+PO	Open Cup
+SB	Stop Belt Sample
+SP	Stockpile

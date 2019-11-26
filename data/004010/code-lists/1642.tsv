@@ -1,0 +1,9 @@
+id	definition
+CCP	X509 Certificate Compromised
+CER	X509 Certification Request
+CEX	X509 Certificate Extension
+CRQ	X509 Certificate Request
+CRT	X509 Certificate
+CRV	X509 Certificate Revocation
+CSR	X509 Certificate Status Request
+PUB	Public Key

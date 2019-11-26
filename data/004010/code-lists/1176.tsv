@@ -1,0 +1,59 @@
+id	definition
+01	Union
+02	Non-Union
+03	Executive
+04	Non-Executive
+05	Management
+06	Non-Management
+07	Hourly
+08	Salaried
+09	Administrative
+10	Non-Administrative
+11	Exempt
+12	Non-Exempt
+13	Seasonal
+14	Commissioned
+15	Collective Bargaining
+16	Officer
+17	Highly Compensated
+18	Key-Employee
+19	Bargaining
+20	Non-Bargaining
+21	Owner
+22	President
+23	Vice President
+24	Physician
+25	Retiree
+26	Treasurer
+27	Attorney
+28	Partner
+29	Controller
+30	Engineer
+31	Associate
+32	Principal
+33	Consultant
+34	Excluded From Top Paid
+35	Owner in Prior Plan Year
+36	Officer in Prior Plan Year
+37	Corporate Officer or Owner
+38	Open End Contract
+39	Partnership
+40	Regular Company Employee
+41	Self Employed
+42	Closed End Contract
+43	Professional
+44	Semi-Professional
+45	Skilled
+46	Unskilled
+47	Contractor
+48	Part Time
+49	Temporary
+50	Unemployed
+51	Board of Directors
+53	Driving
+54	Keyboard
+55	Manual or Physical
+56	Sales
+57	Supervisory
+58	Travel
+ZZ	Mutually Defined

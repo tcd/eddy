@@ -1,0 +1,114 @@
+id	definition
+1	Free Goods
+2	Shrink Allowance
+3	Count and Recount
+4	Fuel Allowance
+5	Allowance Non-Performance
+6	Pallet Charge
+10	Drayage
+11	Blast Freezing
+12	Communication Expense
+13	Handling In
+14	Handling Out
+15	Labor
+16	Minimum Charge
+17	Physical Inventory
+18	Pick Rate
+19	Postage
+20	Slow Freezing
+21	Storage
+22	Supplies
+23	Taking Weights
+24	Telephone, Telex, Fax
+25	United States Department of Agriculture (USDA) Inspection
+26	Unloading
+27	Withdrawal Line Item Rate
+28	Direct Product Handling (DPC)
+29	Price Adjustment Percent (PCT)
+30	Post Damaged Handling (PDC)
+31	Reclamation Center Handling (Chute)
+32	Reclamation Shared Responsibility (SRS)
+33	Maximum Price Percent (MAX)
+34	Minimum Price Percent (MIN)
+40	Slip Sheet Unloading Allowance
+41	Terms Allowance
+42	Central Buy
+43	Display Allowance
+44	Early Buy Allowance
+45	New Discount
+46	New Warehouse
+47	Price and Marketing Allowance
+48	Special Buy
+50	Lump Sum
+51	Trade Discount
+52	Quantity Discount
+53	Freight Allowance
+54	Pick-up Allowance
+55	Warehouse Allowance
+57	Vehicle Load Allowance
+58	Unsaleable Merchandise Allowance
+60	Label Allowance
+61	Handling Allowance
+62	Freshness/Leaker Allowance
+63	Floor Stock Protection
+64	Full Truckload Allowance
+65	New Item Allowance
+66	Slotting Allowance
+67	New Distribution Allowance
+68	Scanner Allowance
+70	Allowance for Consignment Merchandise
+80	Combination Performance and Non-performance
+81	Direct Plant Ship Allowance
+88	Mutually Defined
+90	Performance Allowance
+91	Glaze Allowance
+92	In Transit Price Protection
+93	COOP Credit
+94	Cigarette Stamping
+95	Swell
+96	Grouped Items
+97	Cents Off
+100	Advertising Allowance
+101	Voluntary Price Reduction
+105	Pallet Allowance
+106	Show Allowance
+107	Indirect Customer Allowance
+490	Goods and Services Credit Allowance
+491	Tax Credit Allowance
+499	Other Allowance
+501	Taxes
+502	Carrier
+503	Special Handling
+504	Freight
+505	Insurance
+506	Car Loading
+507	Switch Charge
+508	USDA Inspected, Stamping Certification
+509	Labeling
+510	Koshering
+511	Warehouse
+512	Palletizing
+513	Enclosure
+514	Surcharge
+515	Stopcharge
+516	Delivery Charge
+517	Demurrage
+518	Service Charge
+519	Less Than Truckload Charge
+520	Cut
+521	Paralleling
+522	Broken Lot
+523	Special Packaging
+524	Reel
+525	Deposit Charge - Resale Item
+526	Beverage Tax
+527	Environmental Handling Charge
+537	State or Province Tax
+550	Deposit Charge - Non-Resale Item
+560	Equipment Rental Charge
+561	Equipment Service Charge
+562	Inter-warehouse Freight Charge
+565	Inbound Postage
+566	Outbound Postage
+990	Goods and Services Charge
+999	Other Charges

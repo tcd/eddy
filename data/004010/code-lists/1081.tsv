@@ -1,0 +1,46 @@
+id	definition
+01	Purchase Existing Home Previously Occupied
+02	Purchase Existing Home Not Previously Occupied
+03	Finance Improvement to Existing Property
+04	Construct Home
+05	Refinance
+06	Purchase New Condominium Unit
+07	Purchase Existing Condominium Unit
+08	Finance Co-Operative Purchase
+09	Manufactured Home
+10	Manufactured Home and Lot
+11	Manufactured Home and To Buy Lot
+12	Manufactured Home and Lot Loan Refinanced
+13	Construct New Home and Convert to Permanent
+14	Purchase Unimproved Land
+15	Other Loan Purpose
+16	Purchase, Purpose Unidentified
+17	Single Family
+18	Multifamily Construction
+19	Multifamily Project
+20	Single Family Serial Note
+21	All Terrain Vehicle
+22	Dirt Bike
+23	Farm Equipment
+24	Jet Ski
+25	Truck
+26	Motorcycle
+27	Snowmobile
+28	Home Equity
+30	Purchase Money Mortgage
+31	Additional Financing
+AL	Auto Lease
+AR	Airplane
+AU	Automobile
+BO	Boat
+CC	Charge Cards
+CO	Charged Off
+CT	Camper or Trailer
+FM	First Mortgage Real Estate
+MH	Mobile Home
+PE	Personal
+RE	Real Estate
+RV	Recreation Vehicle
+SL	Student Loan
+SM	Second Mortgage Real Estate
+SO	Sharedraft Overdraft

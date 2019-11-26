@@ -1,0 +1,37 @@
+id	definition
+1	Remedial
+2	Basic
+3	Teacher's Aide
+4	General
+5	Applied
+6	Survey
+7	Regular
+8	Specialized Topics
+9	Advanced
+A	Summary of all courses taken at all institutions
+B	Summary of all courses taken at sending institution
+D	Dual Level (Upper Division and Graduate)
+E	Summary of All Courses Taken at All Institutions, Excluding Repeated and/or Forgiven Courses
+F	Summary of All Courses Taken at the Sending Institution, Excluding Repeated and/or Forgiven Courses
+G	Graduate (postsecondary)
+H	Higher or Upper division (postsecondary)
+I	Institutional Credit
+L	Lower division (postsecondary)
+M	Work in the Major or Program
+P	Professional
+R	Remedial (postsecondary)
+T	Summary of Transfer Work Only
+U	Undergraduate (postsecondary)
+V	Summary of Transfer Work Only, Excluding Repeated and/or Forgiven Courses
+10	Honors
+11	Gifted and Talented
+12	Advanced Placement
+13	Special Education
+14	Vocational Education
+15	Independent Study
+16	Work Experience
+17	Adult Basic
+18	Adult Secondary
+19	International Baccalaureate
+AR	Academic Renewal
+DL	Dual Level (Graduate and Professional)

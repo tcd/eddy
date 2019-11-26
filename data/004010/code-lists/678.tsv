@@ -1,0 +1,45 @@
+id	definition
+1	1st Week of the Month
+2	2nd Week of the Month
+3	3rd Week of the Month
+4	4th Week of the Month
+5	5th Week of the Month
+6	1st & 3rd Weeks of the Month
+7	2nd & 4th Weeks of the Month
+8	1st Working Day of Period
+9	Last Working Day of Period
+A	Monday through Friday
+B	Monday through Saturday
+C	Monday through Sunday
+D	Monday
+E	Tuesday
+F	Wednesday
+G	Thursday
+H	Friday
+J	Saturday
+K	Sunday
+L	Monday through Thursday
+M	Immediately
+N	As Directed
+O	Daily Mon. through Fri.
+P	1/2 Mon. & 1/2 Thurs.
+Q	1/2 Tues. & 1/2 Thurs.
+R	1/2 Wed. & 1/2 Fri.
+S	Once Anytime Mon. through Fri.
+T	1/2 Tue. & 1/2 Fri.
+U	1/2 Mon. & 1/2 Wed.
+V	1/3 Mon., 1/3 Wed., 1/3 Fri.
+W	Whenever Necessary
+X	1/2 By Wed., Bal. By Fri.
+Y	None (Also Used to Cancel or Override a Previous Pattern)
+Z	Mutually Defined
+SA	Sunday, Monday, Thursday, Friday, Saturday
+SB	Tuesday through Saturday
+SC	Sunday, Wednesday, Thursday, Friday, Saturday
+SD	Monday, Wednesday, Thursday, Friday, Saturday
+SG	Tuesday through Friday
+SL	Monday, Tuesday and Thursday
+SP	Monday, Tuesday and Friday
+SX	Wednesday and Thursday
+SY	Monday, Wednesday and Thursday
+SZ	Tuesday, Thursday and Friday

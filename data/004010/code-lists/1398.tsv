@@ -1,0 +1,34 @@
+id	definition
+1	Exclude Sublocation
+2	Exclude All Synonyms
+3	Include All Synonyms
+4	Stop Processing after Look-up
+5	Stop Processing after Machine Match
+6	Stop Processing after Merge/Purge
+7	Include Asset Details
+8	Include Breakdown of Capital
+9	Include Liability Details
+A	Include Capital
+B	Include Comparatives
+C	Include Current Assets
+D	Include Current Liabilities
+E	Include Facility Description
+F	Include Income Statement
+G	Include Insurance
+H	Include Loan Details
+I	Include Location Description
+J	Include Long Time Liabilities
+K	Include Net Worth Reconciliation
+L	Include Starting Capital
+M	Include Non-current Assets
+N	Include Percentages
+O	Include Ratios
+P	Include Sales and Net Worth
+Q	Include Statement Explanation
+R	Include Trends
+S	Include Updated Figures
+T	Include Tax Details
+U	Include Financing
+V	Include Term Detail
+W	Include Net Worth and Equity Details
+X	Include Credit Amounts

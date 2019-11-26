@@ -1,0 +1,37 @@
+id	description	section	req	max_loop	max_usage	pos
+DK	Docket Header	H	M	0	1	1
+PRI	External Reference Identifier	H	O	0	12	2
+SS	Docket Control Status	H	O	0	1	3
+SA	Status Action	H	O	0	5	4
+NTE	Note/Special Instruction	H	O	0	5	5
+CD	Shipment Conditions	H	O	0	20	6
+N1	Party Identification	H	O	200	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10
+N9	Extended Reference Information	H	O	0	12	11
+PER	Administrative Communications Contact	H	O	0	200	12
+PR	Product (Commodity)	H	O	100	1	13
+NTE	Note/Special Instruction	H	O	0	10	14
+CD	Shipment Conditions	H	O	0	10	15
+SB	Docket Level	D	O	99	1	16
+GY	Geography	D	O	0	999	17
+SC	Docket Sub-Level	D	O	400	1	18
+GY	Geography	D	O	0	9999	19
+CD	Shipment Conditions	D	O	0	100	20
+RA	Rate Header	D	O	10	1	21
+RB	Rate/Minimum Detail	D	O	0	8	22
+FK	Factor	D	O	0	15	23
+RH	Personal Property Rate	D	O	20	1	24
+N9	Extended Reference Information	D	O	0	30	25
+SRT	Scale Rate Header	D	O	999	1	26
+MIN	Minimum Detail	D	O	0	100	27
+SRD	Scale Rate Detail	D	O	0	200	28
+SRM	Scale Rates	D	O	0	999	29
+N9	Extended Reference Information	D	O	0	10	30
+LX	Transaction Set Line Number	D	O	200	1	31
+SRD	Scale Rate Detail	D	O	0	1	32
+SRM	Scale Rates	D	O	100	1	33
+SRA	Traffic Evaluation Factors	D	O	0	5	34
+MS	Miscellaneous Services	S	O	0	200	35
+DM	Demurrage/Detention/ Storage Rate	S	O	0	5	36

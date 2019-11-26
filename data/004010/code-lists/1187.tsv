@@ -1,0 +1,34 @@
+id	definition
+01	Sole (Individual)
+02	Joint Ownership or Obligation in Severalty
+03	Joint Owner or Obligation with the Right of Survivorship
+04	Trust
+05	Custodial
+06	Corporate
+07	Partnership
+08	Authorized User
+09	On Behalf Of
+10	Terminated
+11	Shared
+12	Undesignated
+13	Lessee
+14	Contract for Deed Purchaser
+15	Life Estate
+16	Joint Contractual Liability
+17	Joint Ownership
+18	Nonapplicant Spouse
+19	Participant
+20	Maker (With Co-maker)
+21	Co-maker
+22	Borrower
+23	Co-borrower
+24	Borrower and Co-borrower
+25	Joint with Spouse
+26	Joint with Non-Spouse
+27	Fee Simple
+28	Leasehold
+29	Charitable Institution
+30	Estate
+31	Export Account
+32	Import Account
+33	Local Account

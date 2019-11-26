@@ -1,0 +1,6 @@
+id	definition
+A	Round Per Car Rates To the Nearest Whole Dollar. All Other Rates To Nearest Whole Cent
+B	Round All Rates To Nearest Whole Dollar
+C	Round All Rates To Nearest Whole Cent
+M	Nickel (Nearest)
+N	Nearest Eighth

@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BCS	Beginning Segment For Project Cost Reporting	H	M	0	1	1
+REF	Reference Information	H	O	0	999999	2
+DLV	Deliverable Information	H	O	0	999999	3
+AMT	Monetary Amount Information	H	O	0	999999	4
+PCT	Percent Amounts	H	O	0	999999	5
+DTM	Date/Time Reference	H	O	0	999999	6
+N1	Party Identification	H	M	999999	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10
+PER	Administrative Communications Contact	H	O	0	999999	11
+REF	Reference Information	H	O	0	999999	12
+DTM	Date/Time Reference	H	O	0	999999	13
+CFT	Cost Reporting Format Type	D	M	999999	1	14
+CAL	Calendar	D	O	0	999999	15
+REF	Reference Information	D	O	0	999999	16
+BSD	Breakdown Structure Description	D	O	999999	1	17
+REF	Reference Information	D	O	0	999999	18
+DTM	Date/Time Reference	D	O	0	999999	19
+AMT	Monetary Amount Information	D	O	0	999999	20
+QTY	Quantity Information	D	O	0	999999	21
+PAM	Period Amount	D	O	0	999999	22
+PCT	Percent Amounts	D	O	0	999999	23
+RPA	Rate Amounts Or Percents	D	O	0	999999	24
+PER	Administrative Communications Contact	D	O	0	999999	25
+MSG	Message Text	D	O	0	999999	26
+CLI	Cost Line Item	D	O	999999	1	27
+REF	Reference Information	D	O	0	999999	28
+DTM	Date/Time Reference	D	O	0	999999	29
+AMT	Monetary Amount Information	D	O	0	999999	30
+QTY	Quantity Information	D	O	0	999999	31
+PAM	Period Amount	D	O	0	999999	32
+PCT	Percent Amounts	D	O	0	999999	33
+RPA	Rate Amounts Or Percents	D	O	0	999999	34
+PER	Administrative Communications Contact	D	O	0	999999	35

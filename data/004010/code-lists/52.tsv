@@ -1,0 +1,20 @@
+id	definition
+1	G-Dest - Shipments of Commodities to Destination Not Requiring a Validated License
+2	GLV - Shipments of Limited Value
+3	GIT - In-transit Shipments
+4	GUS - Shipments to Personnel and Agencies of the U.S. Government
+5	GLC - Exports of Commercial Vehicles by Certain Civil Airlines and by Private Common Carrier
+6	GTF-US - Goods Imported for Display at U.S. Exhibitions or Trade Fairs
+7	GLR - Return or Replacement of Certain Commodities
+8	GIFT - Shipment of Gift Parcels
+9	GATS - Aircraft on Temporary Sojourn
+G	General Export License Required
+V	Validated Export License Required
+10	GMS - Shipments Under the Mutual Security Act
+11	GTD & GTDR - Technical Data
+12	State
+13	General License Non-naval Reserve (G-NNR)
+14	General License Cooperating Governments (GCG)
+15	Registered Carrier Stores (RCS)
+16	General License - Temporary (G-Temp)
+17	General License Free World (GFW)

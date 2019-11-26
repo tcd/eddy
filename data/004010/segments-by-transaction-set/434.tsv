@@ -1,0 +1,8 @@
+id	description	section	req	max_loop	max_usage	pos
+BRR	Beginning Segment For Railroad Mark Register Update Activity	H	M	0	1	1
+DTM	Date/Time Reference	H	M	0	10	2
+N1	Party Identification	H	M	25	1	3
+N2	Additional Name Information	H	O	0	1	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	1	7

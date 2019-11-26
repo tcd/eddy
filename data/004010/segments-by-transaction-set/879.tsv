@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+G91	Price Change Status	H	M	0	1	1
+N1	Party Identification	H	M	999	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+N9	Extended Reference Information	H	O	0	10	6
+G61	Contact	H	O	0	999999	7
+NTE	Note/Special Instruction	H	O	0	20	8
+G36	Price List Reference	H	O	0	1	9
+G26	Pricing Conditions	H	O	0	99	10
+G43	Promotion/Price List Area	H	O	0	9999	11
+G62	Date/Time	H	M	0	10	12
+G46	Promotion Allowance/Charge	H	O	0	100	13
+G93	Price Bracket Identification	H	O	50	1	14
+N1	Party Identification	H	O	0	1	15
+G46	Promotion Allowance/Charge	H	O	0	1	16
+G26	Pricing Conditions	H	O	0	999999	17
+G28	Line Item Numbers	D	M	999999	1	18
+G20	Item Packing Detail	D	O	0	1	19
+G69	Line Item Detail - Description	D	O	0	5	20
+G26	Pricing Conditions	D	O	0	99	21
+G43	Promotion/Price List Area	D	O	0	9999	22
+G62	Date/Time	D	O	0	4	23
+G46	Promotion Allowance/Charge	D	O	0	100	24
+G22	Pre-Pricing Information	D	O	0	1	25
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	10	26
+G40	Bracket Price	D	O	100	1	27
+G46	Promotion Allowance/Charge	D	O	0	100	28

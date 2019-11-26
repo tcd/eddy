@@ -1,0 +1,25 @@
+id	definition
+A	Released From Bad Order
+B	Bad Order Setback
+C	Car Not Weighed
+D	Empty Received as a Load
+E	Embargoed Shipment
+G	Refused by Customer - Unneeded
+I	Interchanged in Error
+L	Not in Compliance With Special Car Order 90 or Special Car Order 100 Empty
+M	Empty - No Handling Required by Interstate Commerce Commission Car Service Rate
+N	No Record Rights
+O	Overweight Shipment
+P	Intermediate Switch Carrier
+R	Refused by Customer - Unfit
+S	Car Applied to Shipper Car Order - Place for Loading
+T	Transfer or Adjustment of Lading Car Service Rate 10, Sections 1 & 2
+W	No Waybill
+X	Association of American Railroads Restriction
+DS	Destination Switch Move
+HM	Haulage Movement
+NC	No Clearance
+NU	Not on Universal Machine Language Equipment Register
+OA	Old Age (Over-age)
+OS	Origin Switch Move
+RB	RBOX or RGON Exception

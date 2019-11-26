@@ -1,0 +1,66 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+HL	Hierarchical Level	H	M	999999	1	2
+G05	Total Shipment Information	H	O	1	1	3
+TD1	Carrier Details (Quantity And Weight)	H	O	0	5	4
+TD3	Carrier Details (Equipment)	H	O	0	5	5
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	5	6
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	10	7
+FOB	F.O.B. Related Instructions	H	O	0	1	8
+DTM	Date/Time Reference	H	O	0	5	9
+N9	Extended Reference Information	H	O	0	20	10
+PER	Administrative Communications Contact	H	O	0	5	11
+CUR	Currency	H	O	0	1	12
+N1	Party Identification	H	O	10	1	13
+N2	Additional Name Information	H	O	0	2	14
+N3	Party Location	H	O	0	2	15
+N4	Geographic Location	H	O	0	1	16
+LM	Code Source Information	H	O	999999	1	17
+LQ	Industry Code Identification	H	M	0	999999	18
+TDS	Total Monetary Value Summary	H	O	1	1	19
+PRF	Purchase Order Reference	H	O	0	1	20
+N9	Extended Reference Information	H	O	0	999999	21
+DTM	Date/Time Reference	H	O	0	10	22
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	5	23
+TXI	Tax Information	H	O	0	10	24
+SN1	Item Detail (Shipment)	H	O	0	1	25
+ISS	Invoice Shipment Summary	H	O	0	1	26
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	25	1	27
+TXI	Tax Information	H	O	0	10	28
+N1	Party Identification	H	O	10	1	29
+N2	Additional Name Information	H	O	0	2	30
+N3	Party Location	H	O	0	2	31
+N4	Geographic Location	H	O	0	1	32
+FA1	Type Of Financial Accounting Data	H	O	999999	1	33
+FA2	Accounting Data	H	M	0	999999	34
+PAL	Pallet Type And Load Characteristics	H	O	1	1	35
+SN1	Item Detail (Shipment)	H	O	0	1	36
+MAN	Marks And Numbers Information	H	O	0	10	37
+LX	Transaction Set Line Number	H	O	1	1	38
+N9	Extended Reference Information	H	O	0	15	39
+SN1	Item Detail (Shipment)	H	O	0	1	40
+PO4	Item Physical Details	H	O	0	1	41
+MEA	Measurements	H	O	0	10	42
+PKG	Marking, Packaging, Loading	H	O	0	10	43
+MAN	Marks And Numbers Information	H	O	0	10	44
+IT1	Baseline Item Data (Invoice)	H	O	1	1	45
+IT3	Additional Item Data	H	O	0	1	46
+PO4	Item Physical Details	H	O	0	1	47
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	999999	48
+TC2	Commodity	H	O	0	5	49
+TXI	Tax Information	H	O	0	10	50
+CTP	Pricing Information	H	O	0	10	51
+N9	Extended Reference Information	H	O	0	10	52
+MEA	Measurements	H	O	0	10	53
+DTM	Date/Time Reference	H	O	0	10	54
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	999999	55
+PID	Product/Item Description	H	O	25	1	56
+MEA	Measurements	H	O	0	10	57
+SLN	Subline Item Detail	H	O	1000	1	58
+PID	Product/Item Description	H	O	0	25	59
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	25	1	60
+TXI	Tax Information	H	O	0	10	61
+LM	Code Source Information	H	O	999999	1	62
+LQ	Industry Code Identification	H	M	0	999999	63
+FA1	Type Of Financial Accounting Data	H	O	999999	1	64
+FA2	Accounting Data	H	M	0	999999	65

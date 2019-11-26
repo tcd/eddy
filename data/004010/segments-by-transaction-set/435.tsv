@@ -1,0 +1,14 @@
+id	description	section	req	max_loop	max_usage	pos
+SID	Standard Transportation Commodity Code Identification	H	M	9999	1	1
+N9	Extended Reference Information	H	O	0	30	2
+DTM	Date/Time Reference	H	O	0	10	3
+LQ	Industry Code Identification	H	O	100	1	4
+MSG	Message Text	H	O	0	100	5
+LX	Transaction Set Line Number	H	O	4	1	6
+N9	Extended Reference Information	H	O	0	50	7
+LH3	Hazardous Material Shipping Name Information	H	O	0	100	8
+LH2	Hazardous Classification Information	H	O	0	8	9
+LFH	Free-Form Hazardous Material Information	H	O	0	20	10
+LEP	Epa Required Data	H	O	0	3	11
+LH4	Canadian Dangerous Requirements	H	O	0	4	12
+CRC	Conditions Indicator	H	O	0	5	13

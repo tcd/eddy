@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BLR	Transportation Carrier Identification	H	M	0	1	1
+N1	Party Identification	H	M	999999	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+G61	Contact	H	O	0	3	6
+NTE	Note/Special Instruction	H	O	0	3	7
+N7	Equipment Details	H	O	999999	1	8
+M7	Seal Numbers	H	O	0	2	9
+G62	Date/Time	H	O	0	1	10
+TRL	Equipment Usage Information	H	O	0	1	11
+L11	Business Instructions And Reference Number	H	O	0	3	12

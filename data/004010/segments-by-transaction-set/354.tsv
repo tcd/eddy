@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	M	0	1	1
+P4	Port Information	H	M	20	1	2
+X01	Automated Manifest Archive Status Details	H	M	0	1	3
+X02	Automated Manifest Bills Eligible/Overdue Archive Details	H	O	0	9999	4

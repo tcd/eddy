@@ -1,0 +1,14 @@
+id	definition
+01	DUNS (Dun and Bradstreet)
+02	SCAC (Standard Carrier Alpha Code)
+03	FMC (Federal Maritime Commission)
+04	IATA (International Air Transport)
+08	UCC EDI Communications ID (Comm ID)
+09	X.121 (CCITT)
+11	DEA (Drug Enforcement Administration)
+12	Phone (Telephone Companies)
+13	UCS Code (The UCS Code is the Only Code Used for UCS Transmissions; It Includes the Area Code and Telephone Number of a Modem; It Does Not Include Punctuation, Blanks or Access Code)
+14	DUNS Plus Suffix
+15	Petroleum Accounting Society of Canada
+NR	National Retail Merchants Association (NRMA) - Assigned
+ZZ	Mutually Defined

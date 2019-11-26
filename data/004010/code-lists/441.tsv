@@ -1,0 +1,35 @@
+id	definition
+0	Exempt (For Export)
+1	Yes (Tax Exempt)
+2	No (Not Tax Exempt)
+3	Exempt (For Resale)
+4	Not Exempt/For Resale
+5	Exempt (Not For Resale)
+6	Not Exempt, Not For Resale
+7	Direct Pay ID
+8	Exempt (Sale to U.S. Government)
+9	Exempt (Per State Law)
+A	Labor Taxable, Material Exempt
+B	Material Taxable, Labor Exempt
+C	Not Taxable
+D	Disabled
+E	Exempt Toll Service
+F	Exempt (Goods and Services Tax)
+G	Exempt (Provincial Sales Tax)
+H	Homestead
+I	Agriculture
+J	Working Farm
+K	Open Space
+L	Exempt Local Service
+M	Disabled Veteran
+N	Non-Homestead
+O	Over 65
+P	Exempt from School Property Tax
+Q	Exempt from Local Property Tax
+R	Recurring Exempt
+S	Exempt from County Property Tax
+T	Totally Exempt
+U	Usage Exempt
+V	Exempt from State Property Tax
+W	Other Property Tax Exemption
+X	Exempt - Letter on file

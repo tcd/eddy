@@ -1,0 +1,52 @@
+id	definition
+1	Summary Electronic Invoice
+2	Full Electronic Invoice
+3	Printed Invoice Sent by Mail
+4	Summary Electronic Invoice and Printed Invoice Sent by Mail
+5	Full Electronic Invoice and Printed Invoice Sent by Mail
+6	No paper Invoice
+7	Summary Electronic Invoice and No paper Invoice
+8	Full Electronic Invoice and No Paper Invoice
+9	Electronic Mail
+AA	Available on Request at Provider Site
+AC	American College of Radiology/National Electronic Manufacturers Association (ACR/NEMA DICOM) Format
+AE	Electronically After Shipping
+AM	By Mail After Shipping
+AS	American Society for Testing and Materials Format (ASTM E1238)
+AT	American Society for Testing and Materials Format (ASTM E1384)
+AU	By Data Pattern
+BE	By Mail and Electronically
+BM	By Mail
+BW	Best Way (Sender's Option)
+CD	Courier Diskette
+CF	Courier
+CP	Courier Paper
+CT	Courier Tape
+DA	Data
+EL	Electronically Only
+EM	E-Mail
+FT	File Transfer
+FX	By Fax
+GS	On General Services Administration (GSA) Form 10050
+HL	Health Industry Level 7 Interface Standards (HL/7) Format
+IA	Electronic Image
+IE	Electronically with Invoice
+IM	By Mail with Invoice
+MB	Binary Image
+MD	Mail Diskette
+MN	Magnetic Media
+MP	Mail Paper
+MT	Mail Tape
+NS	Not Specified
+OL	On-Line
+PO	Printed Original Required
+SE	Electronically Before Shipping
+SM	By Mail Before Shipping
+SN	With Ship Notice
+SW	Society for Worldwide Interbank Financial Telecommunication (SWIFT)
+TA	Telex
+TE	Separately, Electronically at Time of Shipping
+TM	Separately, by Mail at Time of Shipping
+TX	Text
+VO	Voice
+WS	With Shipment (With Package)

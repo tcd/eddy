@@ -1,0 +1,7 @@
+id	definition
+AQ	Add Quantity to Meet Minimum Weight Requirement
+BO	Back Order if Not Available
+BX	Back Order Not Allowed
+NS	Notify Prior to Shipment if Quantity Specified is Not Available
+SA	Substitution Allowed
+SX	Substitution Not Allowed

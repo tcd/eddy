@@ -1,0 +1,37 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+HL	Hierarchical Level	D	M	999999	1	2
+TRN	Trace	D	O	0	9	3
+AAA	Request Validation	D	O	0	9	4
+UM	Health Care Services Review Information	D	O	0	1	5
+HCR	Health Care Services Review	D	O	0	1	6
+REF	Reference Information	D	O	0	9	7
+DTP	Date Or Time Or Period	D	O	0	9	8
+HI	Health Care Information Codes	D	O	0	1	9
+SV1	Professional Service	D	O	0	1	10
+SV2	Institutional Service	D	O	0	1	11
+SV3	Dental Service	D	O	0	1	12
+TOO	Tooth Identification	D	O	0	32	13
+HSD	Health Care Services Delivery	D	O	0	1	14
+CRC	Conditions Indicator	D	O	0	9	15
+CL1	Claim Codes	D	O	0	1	16
+CR1	Ambulance Certification	D	O	0	1	17
+CR2	Chiropractic Certification	D	O	0	1	18
+CR4	Enteral Or Parenteral Therapy Certification	D	O	0	1	19
+CR5	Oxygen Therapy Certification	D	O	0	1	20
+CR6	Home Health Care Certification	D	O	0	1	21
+CR7	Home Health Treatment Plan Certification	D	O	0	1	22
+CR8	Pacemaker Certification	D	O	0	1	23
+PWK	Paperwork	D	O	0	999999	24
+MSG	Message Text	D	O	0	1	25
+NM1	Individual Or Organizational Name	D	O	999999	1	26
+REF	Reference Information	D	O	0	9	27
+N2	Additional Name Information	D	O	0	1	28
+N3	Party Location	D	O	0	1	29
+N4	Geographic Location	D	O	0	1	30
+PER	Administrative Communications Contact	D	O	0	3	31
+AAA	Request Validation	D	O	0	9	32
+PRV	Provider Information	D	O	0	1	33
+DMG	Demographic Information	D	O	0	1	34
+INS	Insured Benefit	D	O	0	1	35
+DTP	Date Or Time Or Period	D	O	0	9	36

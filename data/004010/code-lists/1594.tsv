@@ -1,0 +1,43 @@
+id	definition
+A1	Alcohol
+A2	Amphetamines
+B1	Beer
+B2	Barbiturates
+B3	Benzedrine
+C1	Cocktail
+C2	Cannabis Sativa
+C3	Cocaine
+C4	Codeine
+C5	Crack
+C6	Chewing Tobacco
+C7	Cigar
+C8	Cigarette
+D1	Dexedrine
+H1	Hard Liquor
+H2	Hallucinogens
+H3	Hashish
+H4	Heroin
+H5	Hypnotics
+L1	Lysergic Acid Diethylamide (LSD)
+M1	Marijuana
+M2	Mescaline
+M3	Methadone
+N1	Narcotics
+N2	Nicotine Gum
+N3	Nicotine Patch
+O1	Opiates
+O2	Other
+P1	Phencyclidine (PCP)
+P2	Peyote
+P3	Phenobarb
+P4	Potent Non-opiate Analgesics
+P5	Pipe
+S1	Seconal
+S2	Sedatives
+S3	Shot
+S4	Stimulants
+S5	Smokeless Tobacco
+S6	Snuff
+T1	Tranquilizers
+T2	Tuinal
+W1	Wine

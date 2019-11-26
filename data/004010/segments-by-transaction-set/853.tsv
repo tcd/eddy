@@ -1,0 +1,25 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	100	2
+G62	Date/Time	H	O	0	10	3
+N1	Party Identification	H	M	200	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	12	8
+PER	Administrative Communications Contact	H	O	0	3	9
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	M	200000	1	10
+TD3	Carrier Details (Equipment)	D	O	0	12	11
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	12
+NTE	Note/Special Instruction	D	O	0	100	13
+REF	Reference Information	D	O	0	200	14
+MEA	Measurements	D	O	0	40	15
+FK	Factor	D	O	0	1	16
+G62	Date/Time	D	O	0	10	17
+N1	Party Identification	D	O	200	1	18
+N2	Additional Name Information	D	O	0	2	19
+N3	Party Location	D	O	0	2	20
+N4	Geographic Location	D	O	0	1	21
+REF	Reference Information	D	O	0	12	22
+PER	Administrative Communications Contact	D	O	0	3	23
+CTT	Transaction Totals	S	M	0	1	24

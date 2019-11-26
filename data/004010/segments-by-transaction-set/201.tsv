@@ -1,0 +1,97 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	5	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	5	7
+LRQ	Mortgage Characteristics Requested	D	M	999999	1	8
+REF	Reference Information	D	M	0	999999	9
+YNQ	Yes/No Question	D	M	0	999999	10
+N1	Party Identification	D	M	0	1	11
+N2	Additional Name Information	D	O	0	2	12
+III	Information	D	O	0	999999	13
+DTP	Date Or Time Or Period	D	O	0	1	14
+RES	Real Estate Sales Price Change	D	O	0	999999	15
+MCD	Mortgage Closing Data	D	O	0	1	16
+SOM	Status Of Mortgage	D	O	0	1	17
+NTE	Note/Special Instruction	D	O	0	999999	18
+LIN	Item Identification	D	O	0	999999	19
+BEP	Borrower Education Program	D	O	0	1	20
+NX1	Property Or Entity Identification	D	O	10	1	21
+NX2	Location Id Component	D	M	0	30	22
+REA	Real Estate Property Information	D	O	0	1	23
+PDS	Property Description/Legal Description	D	O	0	10	24
+PDE	Property Metes And Bounds Description	D	O	0	50	25
+QTY	Quantity Information	D	O	0	999999	26
+YNQ	Yes/No Question	D	O	0	999999	27
+PEX	Property Or Housing Expense	D	M	20	1	28
+MSG	Message Text	D	O	0	1	29
+AMT	Monetary Amount Information	D	O	999999	1	30
+MSG	Message Text	D	O	0	1	31
+PCT	Percent Amounts	D	O	0	999999	32
+IN1	Individual Identification	D	M	15	1	33
+IN2	Individual Name Structure Components	D	M	0	10	34
+YNQ	Yes/No Question	D	M	0	19	35
+DTP	Date Or Time Or Period	D	O	0	3	36
+REF	Reference Information	D	O	0	999999	37
+AMT	Monetary Amount Information	D	O	0	999999	38
+DMG	Demographic Information	D	O	0	1	39
+N10	Quantity And Description	D	O	0	1	40
+MSG	Message Text	D	O	0	1	41
+PER	Administrative Communications Contact	D	O	0	1	42
+QTY	Quantity Information	D	O	0	999999	43
+FTH	First Time Home Buyer	D	O	0	1	44
+PPY	Personal Property Description	D	O	0	20	45
+AIN	Income	D	O	999999	1	46
+YNQ	Yes/No Question	D	O	0	999999	47
+PEX	Property Or Housing Expense	D	O	20	1	48
+MSG	Message Text	D	O	0	1	49
+NX1	Property Or Entity Identification	D	O	10	1	50
+NX2	Location Id Component	D	M	0	30	51
+N10	Quantity And Description	D	O	0	1	52
+ARS	Applicant Residence Specifics	D	O	0	1	53
+N1	Party Identification	D	O	20	1	54
+N2	Additional Name Information	D	O	0	2	55
+N3	Party Location	D	O	0	2	56
+N4	Geographic Location	D	O	0	1	57
+PER	Administrative Communications Contact	D	O	0	1	58
+YNQ	Yes/No Question	D	O	0	1	59
+EMS	Employment Position	D	O	0	1	60
+QTY	Quantity Information	D	O	0	999999	61
+AMT	Monetary Amount Information	D	O	0	1	62
+REA	Real Estate Property Information	D	O	20	1	63
+AMT	Monetary Amount Information	D	M	0	6	64
+NX1	Property Or Entity Identification	D	M	0	1	65
+NX2	Location Id Component	D	M	0	30	66
+NM1	Individual Or Organizational Name	D	O	20	1	67
+ACT	Account Identification	D	O	0	10	68
+CDA	Consumer Credit Account	D	O	100	1	69
+YNQ	Yes/No Question	D	O	0	999999	70
+N1	Party Identification	D	O	0	1	71
+N2	Additional Name Information	D	O	0	2	72
+N3	Party Location	D	O	0	2	73
+N4	Geographic Location	D	O	0	1	74
+PER	Administrative Communications Contact	D	O	0	1	75
+CRC	Conditions Indicator	D	O	0	999999	76
+FAA	Financial Asset Account	D	O	100	1	77
+N1	Party Identification	D	O	0	1	78
+N2	Additional Name Information	D	O	0	2	79
+N3	Party Location	D	O	0	2	80
+N4	Geographic Location	D	O	0	1	81
+PER	Administrative Communications Contact	D	O	0	1	82
+MSG	Message Text	D	O	0	1	83
+LS	Loop Header	D	O	0	1	84
+AMT	Monetary Amount Information	D	O	10	1	85
+MSG	Message Text	D	O	0	1	86
+QTY	Quantity Information	D	O	0	1	87
+YNQ	Yes/No Question	D	O	0	1	88
+LE	Loop Trailer	D	O	0	1	89
+LX	Transaction Set Line Number	D	M	999999	1	90
+N1	Party Identification	D	O	0	1	91
+N2	Additional Name Information	D	O	0	2	92
+N3	Party Location	D	O	0	2	93
+N4	Geographic Location	D	O	0	1	94
+PER	Administrative Communications Contact	D	O	0	999999	95
+DTP	Date Or Time Or Period	D	O	0	1	96

@@ -1,0 +1,3 @@
+id	description	section	req	max_loop	max_usage	pos
+BGF	Beginning Segment For File Transfer Information	H	M	0	1	1
+K3	File Information	H	M	0	999999	2

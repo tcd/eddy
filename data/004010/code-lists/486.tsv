@@ -1,0 +1,9 @@
+id	definition
+AI	Adjustment In
+AO	Adjustment Out
+CD	Customer to Distributor
+DC	Distributor to Customer
+DM	Distributor to Manufacturer
+MD	Manufacturer to Distributor
+TI	Transfer In
+TO	Transfer Out

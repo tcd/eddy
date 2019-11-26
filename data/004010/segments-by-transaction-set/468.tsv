@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+DK	Docket Header	H	M	0	1	1
+JL	Journal Identification	H	M	7	1	2
+K1	Remarks	H	M	0	100	3

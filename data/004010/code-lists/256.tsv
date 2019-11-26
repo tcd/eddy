@@ -1,0 +1,22 @@
+id	definition
+A	Original Manifest From Carrier To Port of Discharge
+B	Updating Manifest Prior To Vessel Arrival From Carrier To Port of Discharge
+C	Amendment To Manifest From Carrier To Port of Discharge
+D	Updating Export Manifest Prior to Vessel Departure From Carrier to U.S. Customs
+E	Original Export Manifest from Carrier to U.S. Customs
+F	Amendment to Export Manifest From Carrier to U.S. Customs
+G	General Order Items from Carriers to US Customs
+H	Arrival Notification from Carrier to U.S. Customs
+I	Supplementary In-bond Information from Carrier to U.S. Customs
+J	Sent from U.S. Customs (Export) to Carriers
+K	Departure Notification from Carrier to U.S. Customs
+L	Transfer of Liability
+M	Driver Information Update
+P	Preliminary Manifest from Carrier to U.S. Customs
+S	Consist Manifest from Carrier to U.S. Customs
+T	Transit
+V	Amendment to Manifest Required by US Customs
+W	Original Manifest from Carriers to US Customs
+X	Updating Manifest Prior to Vessel Arrival from Carriers to US Customs
+Y	Amendment to Manifest from Carrier to US Customs
+Z	Sent from US Customs to Carriers

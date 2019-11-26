@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+B3	Beginning Segment For Carrier's Invoice	H	M	0	1	1
+B3A	Invoice Type	H	O	0	1	2
+C2	Bank Id	H	O	0	1	3
+C3	Currency Identifier	H	O	0	1	4
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	1	5
+N1	Party Identification	H	O	3	1	6
+N2	Additional Name Information	H	O	0	1	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+N9	Extended Reference Information	H	O	0	30	10
+PER	Administrative Communications Contact	H	O	0	1	11
+LX	Transaction Set Line Number	D	M	999999	1	12
+N1	Party Identification	D	O	2	1	13
+N2	Additional Name Information	D	O	0	1	14
+N3	Party Location	D	O	0	2	15
+N4	Geographic Location	D	O	0	1	16
+N9	Extended Reference Information	D	O	0	30	17
+PER	Administrative Communications Contact	D	O	0	1	18
+P1	Pickup	D	O	0	1	19
+R1	Route Information (Air)	D	O	0	1	20
+POD	Proof Of Delivery	D	O	0	1	21
+V9	Event Detail	D	O	0	1	22
+RMT	Remittance Advice	D	O	0	10	23
+G47	Statement Identification	D	O	0	1	24
+NTE	Note/Special Instruction	D	O	0	10	25
+L5	Description, Marks And Numbers	D	M	4	1	26
+L0	Line Item - Quantity And Weight	D	O	0	1	27
+L4	Measurement	D	O	0	4	28
+L10	Weight Information	D	O	0	4	29
+SL1	Tariff Details	D	O	0	1	30
+L1	Rate And Charges	D	O	30	1	31
+C3	Currency Identifier	D	O	0	1	32
+L3	Total Weight And Charges	S	M	0	1	33
+ACS	Ancillary Charges	S	O	0	1	34
+NTE	Note/Special Instruction	S	O	0	5	35

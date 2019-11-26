@@ -1,0 +1,17 @@
+id	definition
+AD	Inventory Adjustment - Decrease
+AJ	Inventory Adjustments
+BO	Bonded Inventory
+CM	Commitment
+DM	Damaged
+DP	Dumped or Destroyed
+DU	Inventory Adjustment - Dual
+IT	In-Transit
+PA	Physical Inventory Adjustments
+QU	Hold/Quarantined Inventory
+RC	Receipts
+RD	Reconditioned On Hand
+RE	Recoup
+RT	Retail Inventory
+SA	Saleable Inventory
+WH	Wholesale Inventory

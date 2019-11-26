@@ -1,0 +1,21 @@
+id	definition
+BC	Barge Carrying Vessels (Lash & Seabee)
+BD	Bulk-Dry
+BI	Barge-Inland
+BK	Bulk-Undetermined
+BL	Bulk-Liquid
+BO	Barge-Oceangoing
+CB	Conbulk
+CT	Container
+DG	Dredge
+DP	Display Vessels
+FH	Fishing
+GC	General Cargo
+GT	Government-Non-Military
+MT	Military
+PC	Partial Container
+PS	Passenger
+RR	Roll on/Roll off
+SP	Supply Ship
+TG	Tug
+VH	Vehicle Carrier

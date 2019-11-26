@@ -1,0 +1,43 @@
+id	definition
+A3	Shipment Returned to Shipper
+A7	Refused by Consignee
+A9	Shipment Damaged
+AF	Carrier Departed Pick-up Location with Shipment
+AG	Estimated Delivery
+AH	Attempted Delivery
+AI	Shipment has been Reconsigned
+AJ	Tendered for Delivery
+AM	Loaded on Truck
+AN	Diverted to Air Carrier
+AP	Delivery Not Completed
+AR	Rail Arrival at Destination Intermodal Ramp
+AV	Available for Delivery
+B6	Estimated to Arrive at Carrier Terminal
+BA	Connecting Line or Cartage Pick-up
+BC	Storage in Transit
+C1	Estimated to Depart Terminal Location
+CA	Shipment Cancelled
+CD	Carrier Departed Delivery Location
+CL	Trailer Closed Out
+CP	Completed Loading at Pick-up Location
+D1	Completed Unloading at Delivery Location
+I1	In-Gate
+J1	Delivered to Connecting Line
+K1	Arrived at Customs
+L1	Loading
+OA	Out-Gate
+OO	Paperwork Received - Did not Receive Shipment or Equipment
+P1	Departed Terminal Location
+PR	U.S. Customs Hold at In-Bond Location
+R1	Received from Prior Carrier
+RL	Rail Departure from Origin Intermodal Ramp
+S1	Trailer Spotted at Consignee's Location
+SD	Shipment Delayed
+X1	Arrived at Delivery Location
+X2	Estimated Date and/or Time of Arrival at Consignee's Location
+X3	Arrived at Pick-up Location
+X4	Arrived at Terminal Location
+X5	Arrived at Delivery Location Loading Dock
+X6	En Route to Delivery Location
+X8	Arrived at Pick-up Location Loading Dock
+XB	Shipment Acknowledged

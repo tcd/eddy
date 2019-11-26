@@ -1,0 +1,28 @@
+id	definition
+1	Package Express
+2	Groups
+A	Bus
+B	Truck
+C	Truck - Rail - Truck
+D	Applies to deregulated (US ICC) carload rail, other than piggyback
+E	Rail
+F	Rail Trailer on Flat Car/Container on Flat Car (TOFC/COFC) Door-to-Door
+G	Rail Trailer on Flat Car/Container on Flat Car (TOFC/COFC) Plan 3
+H	Rail Trailer on Flat Car/Container on Flat Car (TOFC/COFC) Plan 4
+I	Applies to regulated intermodal traffic
+J	Air Freight
+K	Air Freight Forwarder
+L	Air Taxi
+M	Multimodal
+N	Surface Freight Forwarder
+O	Water
+P	Applied To Deregulated (US ICC) Piggyback
+Q	Shipper Agent
+R	Applies to regulated carload rail other than piggyback.
+S	Driveaway Service
+T	Towaway Service
+U	Driveaway and Towaway Service
+V	Water/Pipeline Intermodal Movements
+W	Shipper Agent (Truck/Rail/Truck)
+Y	Pipeline
+Z	Shipper Association

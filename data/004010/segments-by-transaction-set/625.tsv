@@ -1,0 +1,21 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+HL	Hierarchical Level	H	M	999999	1	2
+PID	Product/Item Description	H	O	0	1	3
+DTP	Date Or Time Or Period	H	O	0	999999	4
+REF	Reference Information	H	O	0	999999	5
+YNQ	Yes/No Question	H	O	0	999999	6
+MTX	Text	H	O	0	999999	7
+LIE	Individual Or Event Location	H	O	999999	1	8
+PPA	Property Location	H	M	0	999999	9
+MEA	Measurements	H	O	0	999999	10
+CID	Characteristic/Class Id	H	O	999999	1	11
+QTY	Quantity Information	H	O	0	999999	12
+MEA	Measurements	H	O	0	999999	13
+N1	Party Identification	H	O	999999	1	14
+N2	Additional Name Information	H	O	0	1	15
+N3	Party Location	H	O	0	1	16
+N4	Geographic Location	H	O	0	1	17
+PER	Administrative Communications Contact	H	O	0	999999	18
+LM	Code Source Information	H	O	999999	1	19
+LQ	Industry Code Identification	H	M	0	999999	20

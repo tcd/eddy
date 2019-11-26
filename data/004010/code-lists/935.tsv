@@ -1,0 +1,97 @@
+id	definition
+01	Where Air = 1
+02	Where Butyl Acetate = 1
+03	Approximately
+04	Equal to
+05	Greater than or equal to
+06	Greater than
+07	Less than
+08	Less than or equal to
+09	Where H2O = 1 or Water = 1
+10	Not equal to
+11	Corrected to 60 Degrees Fahrenheit
+12	Where Toluene = 1
+13	Vapor in Air
+14	Vapor in Other Than Air
+15	Standard Temperature and Pressure
+16	Conditions Other Than Standard Temperature and Pressure
+17	In Ethyl Alcohol
+18	In Ethyl Ether
+19	In Water
+20	At 1 Atmosphere Pressure
+21	Where Ether = 1
+22	Actual
+23	Predicted
+24	Air-dried Basis
+25	As-received Basis
+26	Dry Basis
+27	Equilibrium Basis
+28	Moisture and Ash-Free Basis
+29	Oxidizing Atmosphere
+30	Reducing Atmosphere
+31	Calculated
+32	Scaled Weight
+34	Ratchet
+35	Saturated Vapor
+36	Unconditional
+37	Short-term
+38	Time-weighted
+39	Corrected
+40	Uncorrected
+41	Off Peak
+42	On Peak
+43	Intermediate
+44	Average
+45	Per Gallon
+46	Estimated
+47	Minimum
+49	Mist
+50	Predominant
+51	Total
+52	Cost
+53	Tenant
+54	Owner
+55	For Sale
+56	Real Estate Owned or Corporate Owned
+57	Boarded or Blocked Up
+58	Planned
+59	Completed
+60	Sold
+61	Rented
+62	Current
+63	Current List
+64	Effective
+65	List When Sold
+66	Sales
+67	Final List
+68	As Is
+69	As Repaired or Improved
+70	Instantaneous
+71	Low
+72	Low to Good
+73	Low to High
+74	Low to Medium
+75	Low to Moderate
+76	Medium
+77	Medium to Good
+78	Medium to High
+79	Moderate
+80	Moderate to Good
+81	Moderate to High
+82	Moderate to Medium
+83	Good
+84	Good to High
+85	High
+86	Budgeted
+87	Forecast
+88	Adjusted
+89	Allocated
+90	Increasing
+91	Stable
+92	Declining
+93	Previous
+94	Potential
+95	Modeled
+96	Measured
+97	Maximum
+ZZ	Mutually Defined

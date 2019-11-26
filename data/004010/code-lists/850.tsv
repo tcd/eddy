@@ -1,0 +1,13 @@
+id	definition
+1	Response to an Order Status Inquiry (869)
+2	Prearranged Schedule or Agreement
+3	Unsolicited Report
+4	Response to Requisition
+5	Notice of Response to Direct Vendor Delivery
+6	Notice of Response to Supply Assistance
+7	Response to Material Returns
+8	Response to Notice of Availability
+9	Response to a Requirement Forecast
+10	Revised Delivery Forecast - Stock Number
+11	Revised Delivery Forecast - Transaction Number
+12	Revised Delivery Forecast - Response

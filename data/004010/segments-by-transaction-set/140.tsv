@@ -1,0 +1,58 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	999999	2
+N1	Party Identification	H	M	3	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	2	7
+PER	Administrative Communications Contact	H	O	0	2	8
+LX	Transaction Set Line Number	D	M	999999	1	9
+REF	Reference Information	D	O	0	999999	10
+N1	Party Identification	D	M	999999	1	11
+N2	Additional Name Information	D	O	0	2	12
+N3	Party Location	D	O	0	3	13
+N4	Geographic Location	D	O	0	1	14
+PER	Administrative Communications Contact	D	O	0	999999	15
+DTM	Date/Time Reference	D	O	0	1	16
+REF	Reference Information	D	O	0	999999	17
+LM	Code Source Information	D	O	999999	1	18
+LQ	Industry Code Identification	D	M	0	100	19
+LIN	Item Identification	D	M	999999	1	20
+PID	Product/Item Description	D	O	0	999999	21
+QTY	Quantity Information	D	O	0	1	22
+DTM	Date/Time Reference	D	O	0	999999	23
+REF	Reference Information	D	O	0	999999	24
+N1	Party Identification	D	O	999999	1	25
+N2	Additional Name Information	D	O	0	2	26
+N3	Party Location	D	O	0	3	27
+N4	Geographic Location	D	O	0	1	28
+PER	Administrative Communications Contact	D	O	0	999999	29
+PSC	Product Service Contract	D	O	999999	1	30
+SSS	Product Special Services	D	O	0	999999	31
+AMT	Monetary Amount Information	D	O	0	999999	32
+CUR	Currency	D	O	0	1	33
+ITA	Allowance, Charge Or Service	D	O	0	1	34
+TXI	Tax Information	D	O	0	1	35
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	1	36
+N9	Extended Reference Information	D	O	0	999999	37
+SLN	Subline Item Detail	D	O	999999	1	38
+PID	Product/Item Description	D	O	0	999999	39
+QTY	Quantity Information	D	O	0	1	40
+DTM	Date/Time Reference	D	O	0	999999	41
+REF	Reference Information	D	O	0	999999	42
+N1	Party Identification	D	O	999999	1	43
+N2	Additional Name Information	D	O	0	2	44
+N3	Party Location	D	O	0	3	45
+N4	Geographic Location	D	O	0	1	46
+PER	Administrative Communications Contact	D	O	0	999999	47
+PSC	Product Service Contract	D	O	999999	1	48
+SSS	Product Special Services	D	O	0	999999	49
+AMT	Monetary Amount Information	D	O	0	999999	50
+CUR	Currency	D	O	0	1	51
+ITA	Allowance, Charge Or Service	D	O	0	1	52
+TXI	Tax Information	D	O	0	1	53
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	1	54
+N9	Extended Reference Information	D	O	0	999999	55
+LM	Code Source Information	D	O	999999	1	56
+LQ	Industry Code Identification	D	M	0	100	57

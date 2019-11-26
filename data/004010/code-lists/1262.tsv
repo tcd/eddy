@@ -1,0 +1,72 @@
+id	definition
+1	Subsidized Federal Stafford
+2	Federal Supplemental Loans for Students (SLS)
+3	Federal PLUS Loan to Parents
+4	Unsubsidized Federal Stafford
+5	Federal Consolidated Loan
+6	Residential Loan
+7	Personal Loan
+8	Automobile
+9	Unsecured
+10	Secured
+11	Partially Secured
+12	Home Improvement
+13	FHA Home Improvement
+14	Installment Sales Contract
+15	Charge Account
+16	Real Estate, Specific Type Unknown
+17	Secured by Co-signer
+18	Business
+19	Recreational
+20	Educational
+21	Lease
+22	Co-maker
+23	Check Credit or Line of Credit
+24	FHA Co-maker (Not Borrower)
+25	Mobile Home
+26	Credit Card
+27	FHA Real Estate Mortgage
+28	Note Loan
+29	Note Loan with Co-maker
+30	Household Good (Secured)
+31	Household Goods and Other Collateral Auto
+32	Veterans Administration Real Estate Mortgage
+33	Conventional Real Estate Mortgage
+34	Real Estate Mortgage without Other Collateral
+35	Rental Agreement
+36	Summary of Accounts with Same Status
+37	Unknown Loan Type
+38	Debt Counseling Service
+39	Employment
+40	Combined Credit Plan
+41	Debit Card
+42	Credit Line - Secured
+43	Collection Attorney
+44	Insurance Claims
+45	Child Support
+46	Government Unsecured Guarantee Loan
+47	Government Secured Guarantee Loan
+48	Government Secured Direct Loan
+49	Government Grant
+50	Government Overpayment
+51	Government Fine
+52	Government Fee for Service
+53	Government Employee Advance
+54	Government Miscellaneous Debt
+55	Government Benefit
+56	Returned Check
+57	Installment Loan
+58	Fully Amortized First
+59	Balloon First
+60	Subordinate Mortgage
+61	Home Equity Line of Credit
+62	Wrap Around
+63	Tax
+64	Mortgage
+65	Rehabilitation
+66	One to Four Servicing
+67	Special Service
+90	Other
+91	Refinance
+92	Sale
+93	Wholesale

@@ -1,0 +1,11 @@
+id	definition
+1	Mandatory data element missing
+2	Conditional required data element missing.
+3	Too many data elements.
+4	Data element too short.
+5	Data element too long.
+6	Invalid character in data element.
+7	Invalid code value.
+8	Invalid Date
+9	Invalid Time
+10	Exclusion Condition Violated

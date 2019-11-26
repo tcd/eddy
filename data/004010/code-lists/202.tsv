@@ -1,0 +1,37 @@
+id	definition
+AD	Adjustment of Previous Freight Bill Charges
+AI	Supply Additional Information
+AR	Adding Revenue
+B1	Bad Order Car
+BA	Bi-lateral Agreement Date not Met
+BD	Balance Due Billing
+BE	Billing Error
+BO	Bad Order Setback/Bill Cancelled
+CA	Cancelled Bill
+CM	Cancelled Due to Multicars Being Covered on One Waybill
+CO	Correction
+CP	Correct Container or Consolidation Contents
+CS	Consolidation
+CT	Cancel Waybill
+CU	Covered Under Another Universal Railroad Revenue Waybill Identification
+D1	Diversion or Reconsignment
+DC	Dispute Over Collect/Prepaid
+DE	Delete Event
+DP	Delete Container or Consolidation Contents
+DS	Delayed Shipment
+EM	Error Move
+MB	Miscellaneous Billing
+MD	Change Settlement Date
+MR	Misroute
+NC	No Car (Have Not Received Car)
+ND	No Division Available
+PD	Past Due Billing
+RB	Rebilling (Ignore Previous Bill)
+RC	Revenue Correction
+RD	Route Dispute
+RE	Reassignment/Transfer
+RL	Rule 11 Domain Dispute
+SC	Switch Carrier
+SP	Separated Car From Multicar Shipment
+TL	Transload
+WC	Wrecked Car

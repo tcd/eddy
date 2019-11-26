@@ -1,0 +1,17 @@
+id	definition
+01	Declined Shipment
+02	Unacceptable Equipment
+03	Missed Appointment
+04	No Pallets
+05	Depositor Request
+06	Continuous Movement
+07	Shipping Location Change
+08	Spotted Trailer
+09	Rail Car Not Available
+10	Load Consolidation
+11	Invalid SCAC
+12	Missing SCAC
+13	Not Picked Up
+14	Private Fleet
+15	Inadequate Lead Time
+ZZ	Mutually Defined

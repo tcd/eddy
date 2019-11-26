@@ -1,0 +1,12 @@
+id	description	section	req	max_loop	max_usage	pos
+B11	Beginning Segment For Shipment Status Inquiry	H	M	0	1	1
+C3	Currency Identifier	H	O	0	1	2
+REF	Reference Information	H	O	0	10	3
+L10	Weight Information	H	O	0	5	4
+N1	Party Identification	H	O	5	1	5
+N2	Additional Name Information	H	O	0	1	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+G61	Contact	H	O	0	2	9
+REF	Reference Information	H	O	0	10	10
+K2	Administrative Message	H	O	0	2	11

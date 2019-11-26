@@ -1,0 +1,40 @@
+id	description	section	req	max_loop	max_usage	pos
+BRC	Beginning Segment For Response To Product Transfer Account Adjust	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+AAA	Request Validation	H	O	0	10	3
+NTE	Note/Special Instruction	H	O	0	10	4
+REF	Reference Information	H	O	0	12	5
+PER	Administrative Communications Contact	H	O	0	3	6
+DTM	Date/Time Reference	H	O	0	10	7
+N1	Party Identification	H	O	50	1	8
+N2	Additional Name Information	H	O	0	2	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+REF	Reference Information	H	O	0	12	12
+PER	Administrative Communications Contact	H	O	0	3	13
+CON	Contract Number Detail	D	O	10000	1	14
+AAA	Request Validation	D	O	0	10	15
+REF	Reference Information	D	O	0	12	16
+PER	Administrative Communications Contact	D	O	0	3	17
+DTM	Date/Time Reference	D	O	0	10	18
+N1	Party Identification	D	O	50	1	19
+N2	Additional Name Information	D	O	0	2	20
+N3	Party Location	D	O	0	2	21
+N4	Geographic Location	D	O	0	1	22
+REF	Reference Information	D	O	0	12	23
+PER	Administrative Communications Contact	D	O	0	3	24
+PAD	Product Adjustment Detail	D	O	999999	1	25
+LIN	Item Identification	D	O	0	1	26
+AAA	Request Validation	D	O	0	10	27
+PID	Product/Item Description	D	O	0	200	28
+MEA	Measurements	D	O	0	40	29
+UIT	Unit Detail	D	O	0	5	30
+QTY	Quantity Information	D	O	0	5	31
+AMT	Monetary Amount Information	D	O	0	2	32
+RCD	Receiving Conditions	D	O	0	1	33
+REF	Reference Information	D	O	0	12	34
+DTM	Date/Time Reference	D	O	0	10	35
+CUR	Currency	D	O	0	1	36
+SSS	Product Special Services	D	O	0	1	37
+CTT	Transaction Totals	S	M	0	1	38
+AMT	Monetary Amount Information	S	O	0	5	39

@@ -1,0 +1,67 @@
+id	description	section	req	max_loop	max_usage	pos
+B9	Beginning Segment For Logistics Services	H	M	0	1	1
+B9A	Service Request	H	M	0	7	2
+AT5	Bill Of Lading Handling Requirements	H	O	0	6	3
+L11	Business Instructions And Reference Number	H	O	0	999999	4
+MS3	Interline Information	H	O	0	99	5
+ITA	Allowance, Charge Or Service	H	O	0	20	6
+NTE	Note/Special Instruction	H	O	0	10	7
+N7	Equipment Details	H	O	99	1	8
+N7A	Accessorial Equipment Details	H	O	0	1	9
+N7B	Additional Equipment Details	H	O	0	1	10
+MEA	Measurements	H	O	0	1	11
+S5	Stop-Off Details	D	O	99	1	12
+G62	Date/Time	D	O	0	3	13
+L11	Business Instructions And Reference Number	D	O	0	999999	14
+ITA	Allowance, Charge Or Service	D	O	0	20	15
+N1	Party Identification	D	O	1	1	16
+N2	Additional Name Information	D	O	0	1	17
+N3	Party Location	D	O	0	2	18
+N4	Geographic Location	D	O	0	1	19
+PER	Administrative Communications Contact	D	O	0	3	20
+G61	Contact	D	O	99	1	21
+L11	Business Instructions And Reference Number	D	O	0	10	22
+LH6	Hazardous Certification	D	O	0	10	23
+LH1	Hazardous Identification Information	D	O	25	1	24
+LH2	Hazardous Classification Information	D	O	0	5	25
+LH3	Hazardous Material Shipping Name Information	D	O	0	6	26
+LFH	Free-Form Hazardous Material Information	D	O	0	20	27
+LEP	Epa Required Data	D	O	0	3	28
+LH4	Canadian Dangerous Requirements	D	O	0	1	29
+LHT	Transborder Hazardous Requirements	D	O	0	3	30
+LX	Transaction Set Line Number	D	O	999999	1	31
+LCT	Logistics Container Tracking Information	D	O	0	1	32
+MAN	Marks And Numbers Information	D	O	0	10	33
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	34
+AMT	Monetary Amount Information	D	O	0	1	35
+CUR	Currency	D	O	0	1	36
+L11	Business Instructions And Reference Number	D	O	0	999999	37
+G61	Contact	D	O	99	1	38
+L11	Business Instructions And Reference Number	D	O	0	5	39
+LH6	Hazardous Certification	D	O	0	6	40
+LH1	Hazardous Identification Information	D	O	25	1	41
+LH2	Hazardous Classification Information	D	O	0	4	42
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	43
+LFH	Free-Form Hazardous Material Information	D	O	0	20	44
+LEP	Epa Required Data	D	O	0	3	45
+LH4	Canadian Dangerous Requirements	D	O	0	1	46
+LHT	Transborder Hazardous Requirements	D	O	0	3	47
+LAD	Lading Detail	D	O	999999	1	48
+PO4	Item Physical Details	D	O	0	1	49
+G69	Line Item Detail - Description	D	O	0	99	50
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	51
+AMT	Monetary Amount Information	D	O	0	1	52
+CUR	Currency	D	O	0	1	53
+L11	Business Instructions And Reference Number	D	O	0	999999	54
+PER	Administrative Communications Contact	D	O	0	1	55
+G61	Contact	D	O	99	1	56
+L11	Business Instructions And Reference Number	D	O	0	5	57
+LH6	Hazardous Certification	D	O	0	6	58
+LH1	Hazardous Identification Information	D	O	25	1	59
+LH2	Hazardous Classification Information	D	O	0	4	60
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	61
+LFH	Free-Form Hazardous Material Information	D	O	0	20	62
+LEP	Epa Required Data	D	O	0	3	63
+LH4	Canadian Dangerous Requirements	D	O	0	1	64
+LHT	Transborder Hazardous Requirements	D	O	0	3	65
+L3	Total Weight And Charges	S	M	0	1	66

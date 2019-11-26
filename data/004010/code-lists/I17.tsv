@@ -1,0 +1,4 @@
+id	definition
+A	The Transmitted Interchange Control Structure Header and Trailer Have Been Received and Have No Errors.
+E	The Transmitted Interchange Control Structure Header and Trailer Have Been Received and Are Accepted But Errors Are Noted. This Means the Sender Must Not Resend This Data.
+R	The Transmitted Interchange Control Structure Header and Trailer are Rejected Because of Errors.

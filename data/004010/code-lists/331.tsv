@@ -1,0 +1,23 @@
+id	definition
+01	Bill Back
+02	Off Invoice
+03	Vendor Check to Customer
+04	Credit Customer Account
+05	Charge to be Paid by Vendor
+06	Charge to be Paid by Customer
+07	Optional
+08	Off Gross Quantity Invoiced
+09	Allowance To Be Issued by Vendor
+10	Allowance To Be Issued by Reseller
+11	Charge Denied by Vendor
+12	Cancel Allowance
+13	Provide Amount
+15	Information Only
+18	Non-Payable Tax
+20	Accrual Fund
+21	Flat Fund
+25	Cash in Advance
+CA	Calculate and Add to Invoice
+CC	Collect
+PP	Prepaid
+ZZ	Mutually Defined

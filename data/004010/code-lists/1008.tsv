@@ -1,0 +1,27 @@
+id	definition
+6	Magistrate
+7	Bankruptcy Chapter 7
+9	Bankruptcy Chapter 9
+11	Bankruptcy Chapter 11
+12	Bankruptcy Chapter 12
+13	Bankruptcy Chapter 13
+30	Bankruptcy Section 304
+AA	Suspension of Payments
+AG	Administrative Agency Appeal
+AP	Bankruptcy Adversary Proceeding
+AR	Cases for Other Courts
+CR	Criminal
+CV	Civil
+DO	Domestic
+FB	Foreign Bankruptcy
+JV	Juvenile
+LC	License
+MS	Miscellaneous
+NT	Non-Traffic
+OT	Other Unlisted Case Type
+PC	Private Complaint
+SR	Sealed Criminal
+SV	Sealed Civil
+TR	Traffic
+XX	Cross Complaint
+ZZ	Mutually Defined

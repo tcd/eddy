@@ -1,0 +1,36 @@
+id	definition
+1	Master Bill for Empty Non-Revenue Equipment
+2	Sea Waybill
+3	Intermodal/Combined Transport Bill of Lading
+4	Household Goods Bill of Lading
+5	Load Handled as Empty
+6	First Bill for Split Shipment
+7	Subordinate Bill for Split Shipment
+8	Master Bill, Revenue Empty
+9	Reload
+A	Sub for Assembly
+B	Bill of Lading for Individual Shipment
+C	Consolidated Shipment
+D	Sub for Distribution
+E	Empty Equipment Billing (Non-Revenue)
+F	Stop-off Shipment
+G	Switch Waybill
+H	Company Business (Non-revenue)
+I	Intermodal
+J	Charity Load (Non-revenue)
+K	Free Astray (Non-revenue)
+L	Single Load (Blind Memo) Memo--Incomplete Documentation
+M	Master Bill of Lading for Assembly, Distribution and Volume Shipment
+N	Multiple Loads (Blind Memo) Memo--Incomplete Documentation
+O	Memo Bill (Not Used for Rail)
+P	PTF Bill of Lading
+Q	Continuous Movement
+R	Supplemental Billing
+S	Submaster Bill of Lading for Volume Shipment
+T	Freight Claim Rule 93-B (Free Return)
+U	Roundtrip Movement
+V	Void Bill
+W	Revenue Empty
+X	Empty Switch Waybill
+Y	Advance/Prepaid Only Waybill
+Z	Commercial Zone Pick-up

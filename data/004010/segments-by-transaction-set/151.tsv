@@ -1,0 +1,19 @@
+id	description	section	req	max_loop	max_usage	pos
+BTA	Beginning Tax Acknowledgment	H	M	0	1	1
+BTI	Beginning Tax Information	H	M	0	1	2
+DTM	Date/Time Reference	H	O	0	10	3
+REF	Reference Information	H	O	0	10	4
+AMT	Monetary Amount Information	H	O	0	10	5
+QTY	Quantity Information	H	O	0	10	6
+PBI	Problem Identification	H	O	1000	1	7
+TIA	Tax Information And Amount	H	O	0	2	8
+TFS	Tax Form	D	O	100000	1	9
+REF	Reference Information	D	O	0	10	10
+DTM	Date/Time Reference	D	O	0	10	11
+PBI	Problem Identification	D	O	1000	1	12
+TIA	Tax Information And Amount	D	O	0	2	13
+FGS	Form Group	D	O	100000	1	14
+REF	Reference Information	D	O	0	10	15
+DTM	Date/Time Reference	D	O	0	10	16
+PBI	Problem Identification	D	O	1000	1	17
+TIA	Tax Information And Amount	D	O	0	2	18

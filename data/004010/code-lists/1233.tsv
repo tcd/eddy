@@ -1,0 +1,23 @@
+id	definition
+A	Design Defect
+B	New Feature - Change in Functionality
+D	New Feature - No Change in Functionality
+E	Safety Problem
+F	Safety and Reliability Improvement
+G	Performance Improvement
+H	Reliability Improvement
+AC	Conditional Design Defect
+CHR	Change of Requirements
+CRD	Cost Reduction
+CUR	Customer Request
+CUS	Customer Reported Condition
+DOC	Documentation Error
+EXP	Expense
+FIR	Fire
+LER	Legal Requirement
+LOR	Loss of Revenue
+MAA	Material or Component Availability
+PAI	Packaging Improvement
+SEI	Serviceability Improvement
+STR	Standards Requirements
+UIRA	Unscheduled or Unplanned Incident or Repair Action

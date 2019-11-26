@@ -1,0 +1,12 @@
+id	definition
+ASG	Authorization Signature Appropriate to this Document
+ASP	Authorization to Service Provider
+CSG	Authorization Co-signature Appropriate to this Document
+EPA	Approval Certification of Environmental Protection Agency
+EXP	Export Approval Certification
+MRR	Medical Record Release Certification
+PPS	Paid Preparer's Signature
+PRP	Preparer's Signature
+TAX	Authorization Signature Appropriate to Submitter of Filing of Taxation Return (TS 813 and others) and under Penalties Prescribed by the Relevant Laws
+TSO	Time Stamp Only (No Responsibility for Contents)
+ZZZ	Mutually Defined

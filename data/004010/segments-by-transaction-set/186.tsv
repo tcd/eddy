@@ -1,0 +1,86 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+LTR	Laboratory Test Results	H	O	0	99	3
+NM1	Individual Or Organizational Name	H	O	2	1	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	9	7
+PER	Administrative Communications Contact	H	O	0	3	8
+ACT	Account Identification	D	M	999999	1	9
+LX	Transaction Set Line Number	D	M	999999	1	10
+NM1	Individual Or Organizational Name	D	M	999999	1	11
+REF	Reference Information	D	O	0	999999	12
+N3	Party Location	D	O	0	1	13
+N4	Geographic Location	D	O	0	1	14
+DMG	Demographic Information	D	O	0	1	15
+DTP	Date Or Time Or Period	D	O	0	5	16
+AM1	Informational Values	D	O	0	9	17
+PWK	Paperwork	D	O	0	1	18
+MSG	Message Text	D	O	0	999999	19
+DMA	Additional Demographic Information	D	O	0	1	20
+QTY	Quantity Information	D	O	0	999999	21
+BOR	Beginning Of Report	D	M	999999	1	22
+DTP	Date Or Time Or Period	D	O	0	999999	23
+MSG	Message Text	D	O	0	999999	24
+NM1	Individual Or Organizational Name	D	O	999999	1	25
+REF	Reference Information	D	O	0	999999	26
+PER	Administrative Communications Contact	D	O	0	1	27
+N3	Party Location	D	O	0	1	28
+N4	Geographic Location	D	O	0	1	29
+DMA	Additional Demographic Information	D	O	0	1	30
+REL	Relationship	D	O	0	1	31
+SPK	Specimen Kit Information	D	O	999999	1	32
+CD2	Multi-Valued Characteristics	D	O	0	9	33
+DTP	Date Or Time Or Period	D	O	0	9	34
+REF	Reference Information	D	O	0	1	35
+MSG	Message Text	D	O	0	999999	36
+NM1	Individual Or Organizational Name	D	O	999999	1	37
+N4	Geographic Location	D	O	0	1	38
+LTR	Laboratory Test Results	D	O	999999	1	39
+CD2	Multi-Valued Characteristics	D	O	0	9	40
+DTP	Date Or Time Or Period	D	O	0	9	41
+NM1	Individual Or Organizational Name	D	O	0	9	42
+MSG	Message Text	D	O	0	999999	43
+UC	Underwriting Category	D	O	999999	1	44
+HL	Hierarchical Level	D	O	999999	1	45
+UQS	Underwriting Question	D	O	0	1	46
+NM1	Individual Or Organizational Name	D	O	0	1	47
+N1	Party Identification	D	O	0	1	48
+N3	Party Location	D	O	0	1	49
+N4	Geographic Location	D	O	0	1	50
+DTP	Date Or Time Or Period	D	O	0	999999	51
+QTY	Quantity Information	D	O	0	999999	52
+MSG	Message Text	D	O	0	999999	53
+DMA	Additional Demographic Information	D	O	0	1	54
+AM1	Informational Values	D	O	0	1	55
+DMG	Demographic Information	D	O	0	1	56
+AMT	Monetary Amount Information	D	O	0	1	57
+EC	Employment Class	D	O	0	1	58
+PER	Administrative Communications Contact	D	O	0	1	59
+REF	Reference Information	D	O	0	1	60
+IN1	Individual Identification	D	O	0	1	61
+EMS	Employment Position	D	O	0	1	62
+ASL	Asset Liability	D	O	0	999999	63
+TOA	Type Of Activity	D	O	0	1	64
+TOV	Vehicle Use Information	D	O	0	1	65
+III	Information	D	O	0	999999	66
+SIN	Substance Use	D	O	0	1	67
+UCS	Underwriting Considerations	D	O	0	1	68
+FH	Family History	D	O	0	1	69
+UD	Underwriting Status	D	O	0	1	70
+CDS	Case Description	D	O	0	1	71
+CED	Administration Of Justice Event Description	D	O	0	1	72
+YNQ	Yes/No Question	D	O	0	1	73
+MPI	Military Personnel Information	D	O	0	1	74
+EFI	Electronic Format Identification	D	O	999999	1	75
+BIN	Binary Data Segment	D	M	0	1	76
+LS	Loop Header	D	O	0	1	77
+UD	Underwriting Status	D	O	999999	1	78
+NM1	Individual Or Organizational Name	D	O	0	1	79
+N4	Geographic Location	D	O	0	1	80
+REL	Relationship	D	O	0	1	81
+DTP	Date Or Time Or Period	D	O	0	1	82
+EFI	Electronic Format Identification	D	O	999999	1	83
+BIN	Binary Data Segment	D	M	0	1	84
+LE	Loop Trailer	D	O	0	1	85

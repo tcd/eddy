@@ -1,0 +1,55 @@
+id	definition
+ACH	Automated Clearing House (ACH)
+BKW	Book Entry
+BOP	Financial Institution Option
+CAS	Cash
+CCC	Credit Card
+CCF	Collect Payment by Certified Funds
+CCH	Cashier's Check
+CDA	Credit/Debit Account
+CHK	Check
+CLH	Clearinghouse
+CPC	Collect Payment by Company Check
+CWT	Clearing House Interbank Payment System (CHIPS) Funds/Wire Transfer
+DCC	ACH Demand Cash Concentration/Disbursement (CCD) Credit
+DCD	ACH Demand Cash Concentration/Disbursement (CCD) Debit
+DDP	Direct Deposit
+DEB	Debit Card
+DLC	Pre-Arranged Payment or Deposit Plus Addendum (PPD+) Credit to a Demand Deposit Account
+DLD	Pre-Arranged Payment or Deposit Plus Addendum (PPD+) Debit to a Demand Deposit Account
+DPC	ACH Demand Corporate Trade Payment (CTP) Credit
+DPD	ACH Demand Corporate Trade Payment (CTP) Debit
+DXC	ACH Demand Corporate Trade Exchange (CTX) Credit
+DXD	ACH Demand Corporate Trade Exchange (CTX) Debit
+DYC	Pre-Arranged Payment or Deposit (PPD) Credit to a Demand Deposit Account
+DYD	Pre-Arranged Payment or Deposit (PPD) Debit to a Demand Deposit Account
+DZC	ACH Demand Cash Concentration/Disbursement Plus (CCD+) Credit
+DZD	ACH Demand Cash Concentration/Disbursement Plus (CCD+) Debit
+EBX	EDIBANX Clearing Network
+EXC	1035 Exchange
+FEW	Federal Reserve Funds/Wire Transfer - Repetitive
+FWT	Federal Reserve Funds/Wire Transfer - Nonrepetitive
+NON	Non-Payment Data
+PAC	Preauthorized Check (Draft)
+PBD	Draft
+PDC	ACH Savings Cash Concentration/Disbursement (PPD) Credit
+PDD	ACH Savings Cash Concentration/Disbursement (PDD) Debit
+PDE	Payroll Deduction
+PRO	Proprietary Network
+REV	ACH Reversal
+SCC	ACH Savings Cash Concentration/Disbursement (CCD) Credit
+SCD	ACH Savings Cash Concentration/Disbursement (CCD) Debit
+SDC	ACH Savings Cash Concentration/Disbursement (PPD+) Credit
+SDD	ACH Savings Cash Concentration/Disbursement (PPD+) Debit
+SPC	ACH Savings Corporate Trade Payment (CTP) Credit
+SPD	ACH Savings Corporate Trade Payment (CTP) Debit
+SWT	Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)
+SXC	ACH Savings Corporate Trade Exchange (CTX) Credit
+SXD	ACH Savings Corporate Trade Exchange (CTX) Debit
+SYC	Pre-Arranged Payment or Deposit (PPD) Credit to Savings
+SZC	ACH Savings Cash Concentration/Disbursement Plus (CCD+) Credit
+SZD	ACH Savings Cash Concentration/Disbursement Plus (CCD+) Debit
+TRA	Traveler's Check
+VIS	VISA Special Electronic Funds Transfer Network
+X12	X12
+ZZZ	Mutually Defined

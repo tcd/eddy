@@ -1,0 +1,58 @@
+id	description	section	req	max_loop	max_usage	pos
+BRA	Beginning Segment For Receiving Advice Or Acceptance Certificate	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+REF	Reference Information	H	O	0	999999	3
+PER	Administrative Communications Contact	H	O	0	3	4
+DTM	Date/Time Reference	H	M	0	10	5
+PRF	Purchase Order Reference	H	O	0	25	6
+TD1	Carrier Details (Quantity And Weight)	H	O	0	2	7
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	12	8
+TD3	Carrier Details (Equipment)	H	O	0	12	9
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	5	10
+MEA	Measurements	H	O	0	40	11
+N1	Party Identification	H	O	200	1	12
+N2	Additional Name Information	H	O	0	2	13
+N3	Party Location	H	O	0	2	14
+N4	Geographic Location	H	O	0	1	15
+REF	Reference Information	H	O	0	100	16
+PER	Administrative Communications Contact	H	O	0	3	17
+FOB	F.O.B. Related Instructions	H	O	0	1	18
+LM	Code Source Information	H	O	10	1	19
+LQ	Industry Code Identification	H	M	0	100	20
+FA1	Type Of Financial Accounting Data	H	O	999999	1	21
+FA2	Accounting Data	H	M	0	999999	22
+RCD	Receiving Conditions	D	O	200000	1	23
+SN1	Item Detail (Shipment)	D	O	0	1	24
+CUR	Currency	D	O	0	1	25
+LIN	Item Identification	D	O	0	100	26
+PID	Product/Item Description	D	O	0	1000	27
+PO4	Item Physical Details	D	O	0	100	28
+REF	Reference Information	D	O	0	12	29
+PER	Administrative Communications Contact	D	O	0	3	30
+DTM	Date/Time Reference	D	O	0	10	31
+PRF	Purchase Order Reference	D	O	0	25	32
+MEA	Measurements	D	O	0	999999	33
+FOB	F.O.B. Related Instructions	D	O	0	1	34
+TD1	Carrier Details (Quantity And Weight)	D	O	0	20	35
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	36
+TD3	Carrier Details (Equipment)	D	O	0	12	37
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	38
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	10	39
+MAN	Marks And Numbers Information	D	O	0	999999	40
+LM	Code Source Information	D	O	10	1	41
+LQ	Industry Code Identification	D	M	0	100	42
+SLN	Subline Item Detail	D	O	100	1	43
+PID	Product/Item Description	D	O	0	1000	44
+NM1	Individual Or Organizational Name	D	O	0	1	45
+LM	Code Source Information	D	O	10	1	46
+LQ	Industry Code Identification	D	M	0	100	47
+N1	Party Identification	D	O	200	1	48
+N2	Additional Name Information	D	O	0	2	49
+N3	Party Location	D	O	0	2	50
+N4	Geographic Location	D	O	0	1	51
+REF	Reference Information	D	O	0	100	52
+PER	Administrative Communications Contact	D	O	0	3	53
+FOB	F.O.B. Related Instructions	D	O	0	1	54
+FA1	Type Of Financial Accounting Data	D	O	999999	1	55
+FA2	Accounting Data	D	M	0	999999	56
+CTT	Transaction Totals	S	O	0	1	57

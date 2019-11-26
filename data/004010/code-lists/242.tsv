@@ -1,0 +1,9 @@
+id	definition
+VC	Vents Closed to Destination
+VO	Vents Open to Destination
+VS	Standard Ventilation at 32 Degrees
+V40	Standard Ventilation at "--" Degrees (Other than 32 Degrees)
+VOI	Vents on Irons
+VD40	Diagonal Ventilation at "--" Degrees (Other than 32 Degrees) - Open Vent Each End of Car
+VDOI	Diagonal Vents on Irons
+VS10	Standard Ventilation - Substitute Carrier's Protective Service at First Terminal Train Yard where Heaters Are Available and Outside Temperature is 10 Degrees Above Zero or Lower (PPT #619 Rules 385 and 515)

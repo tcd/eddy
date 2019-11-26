@@ -1,0 +1,53 @@
+id	description	section	req	max_loop	max_usage	pos
+ZR	Waybill Reference Identification	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	30	2
+DTM	Date/Time Reference	H	M	0	5	3
+CUR	Currency	H	O	0	1	4
+NTE	Note/Special Instruction	H	O	0	2	5
+PER	Administrative Communications Contact	H	O	0	20	6
+BX	General Shipment Information	H	O	0	1	7
+BNX	Rail Shipment Information	H	O	1	1	8
+N9	Extended Reference Information	H	O	0	30	9
+DTM	Date/Time Reference	H	O	0	5	10
+N7	Equipment Details	H	M	500	1	11
+VC	Motor Vehicle Control	H	O	0	36	12
+IC	Intermodal Chassis Equipment	H	O	0	1	13
+G4	Scale Identification	H	O	0	1	14
+M7	Seal Numbers	H	O	0	5	15
+N5	Equipment Ordered	H	O	0	1	16
+GA	Canadian Grain Information	H	O	0	15	17
+N8	Waybill Reference	H	M	0	499	18
+N8A	Additional Reference Information	H	O	0	499	19
+V9	Event Detail	H	O	0	1	20
+F9	Origin Station	H	M	0	1	21
+D9	Destination Station	H	M	0	1	22
+N1	Party Identification	H	M	15	1	23
+N2	Additional Name Information	H	O	0	2	24
+N3	Party Location	H	O	0	2	25
+N4	Geographic Location	H	O	0	1	26
+PER	Administrative Communications Contact	H	O	0	3	27
+BL	Billing Information	H	O	0	12	28
+S1	Stop-Off Name	H	O	12	1	29
+S9	Stop-Off Station	H	O	0	1	30
+PI	Price Authority Identification	H	O	0	12	31
+R2	Route Information	H	M	13	1	32
+R2B	Junctions And Proportions	H	O	4	1	33
+R2C	Division Basis	H	O	0	20	34
+R2D	Miscellaneous Charge	H	O	0	5	35
+R9	Route Code Identification	H	O	0	1	36
+H3	Special Handling Instructions	H	O	0	20	37
+PS	Protective Service Instructions	H	O	0	5	38
+LX	Transaction Set Line Number	H	O	25	1	39
+L5	Description, Marks And Numbers	H	O	0	15	40
+L0	Line Item - Quantity And Weight	H	O	25	1	41
+MEA	Measurements	H	O	0	3	42
+L1	Rate And Charges	H	O	0	10	43
+DTM	Date/Time Reference	H	O	0	2	44
+PI	Price Authority Identification	H	O	0	1	45
+T1	Transit Inbound Origin	H	O	64	1	46
+T2	Transit Inbound Lading	H	O	0	30	47
+T3	Transit Inbound Route	H	O	0	12	48
+T6	Transit Inbound Rates	H	O	0	1	49
+T8	Free-Form Transit Data	H	O	0	99	50
+L3	Total Weight And Charges	H	O	0	1	51
+L1A	Billing Identification	H	O	0	13	52

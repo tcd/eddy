@@ -1,0 +1,48 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+HL	Hierarchical Level	D	M	999999	1	2
+TRN	Trace	D	O	0	9	3
+AAA	Request Validation	D	O	0	9	4
+NM1	Individual Or Organizational Name	D	O	999999	1	5
+REF	Reference Information	D	O	0	9	6
+N2	Additional Name Information	D	O	0	1	7
+N3	Party Location	D	O	0	1	8
+N4	Geographic Location	D	O	0	1	9
+PER	Administrative Communications Contact	D	O	0	3	10
+AAA	Request Validation	D	O	0	9	11
+PRV	Provider Information	D	O	0	1	12
+DMG	Demographic Information	D	O	0	1	13
+INS	Insured Benefit	D	O	0	1	14
+HI	Health Care Information Codes	D	O	0	1	15
+DTP	Date Or Time Or Period	D	O	0	9	16
+LUI	Language Use	D	O	0	9	17
+MPI	Military Personnel Information	D	O	0	9	18
+EB	Eligibility Or Benefit Information	D	O	999999	1	19
+HSD	Health Care Services Delivery	D	O	0	9	20
+REF	Reference Information	D	O	0	9	21
+DTP	Date Or Time Or Period	D	O	0	20	22
+AAA	Request Validation	D	O	0	9	23
+VEH	Vehicle Information	D	O	0	1	24
+PID	Product/Item Description	D	O	0	1	25
+PDR	Property Description - Real	D	O	0	1	26
+PDP	Property Description - Personal	D	O	0	1	27
+LIN	Item Identification	D	O	0	1	28
+EM	Equipment Characteristics	D	O	0	1	29
+SD1	Safety Data	D	O	0	1	30
+PKD	Packaging Description	D	O	0	1	31
+MSG	Message Text	D	O	0	10	32
+III	Information	D	O	999999	1	33
+DTP	Date Or Time Or Period	D	O	0	5	34
+AMT	Monetary Amount Information	D	O	0	5	35
+PCT	Percent Amounts	D	O	0	5	36
+LQ	Industry Code Identification	D	O	999999	1	37
+AMT	Monetary Amount Information	D	O	0	5	38
+PCT	Percent Amounts	D	O	0	5	39
+LS	Loop Header	D	O	0	1	40
+NM1	Individual Or Organizational Name	D	O	999999	1	41
+N2	Additional Name Information	D	O	0	1	42
+N3	Party Location	D	O	0	1	43
+N4	Geographic Location	D	O	0	1	44
+PER	Administrative Communications Contact	D	O	0	3	45
+PRV	Provider Information	D	O	0	1	46
+LE	Loop Trailer	D	O	0	1	47

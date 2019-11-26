@@ -1,0 +1,37 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+STP	Study Parameters	H	M	0	1	2
+N1	Party Identification	H	M	999999	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+G61	Contact	H	O	0	1	7
+GID	Group Identification	D	M	999999	1	8
+GRP	Group Dosage Parameters	D	M	0	1	9
+MSG	Message Text	D	M	0	999999	10
+GDP	General Dosing Parameters	D	M	0	999999	11
+REF	Reference Information	D	M	0	999999	12
+N1	Party Identification	D	M	999999	1	13
+N2	Additional Name Information	D	O	0	2	14
+N3	Party Location	D	O	0	2	15
+N4	Geographic Location	D	O	0	1	16
+ANI	Animal Identification	D	M	999999	1	17
+ARC	Animal Results Counts	D	M	0	999999	18
+GDP	General Dosing Parameters	D	O	0	999999	19
+ADI	Animal Disposition	D	O	0	1	20
+ATR	Animal Test Result	D	O	0	999999	21
+AOL	Animal Observation Location	D	O	999999	1	22
+MSG	Message Text	D	O	0	999999	23
+AOR	Animal Observation Result	D	O	999999	1	24
+NTE	Note/Special Instruction	D	M	0	999999	25
+MSG	Message Text	D	O	0	999999	26
+AST	Animal Reproductive Status	D	O	999999	1	27
+ADT	Animal Parturition Status	D	O	0	1	28
+AOC	Animal Offspring Counts	D	O	0	999999	29
+AOI	Animal Offspring/Fetus Identification	D	O	999999	1	30
+ATR	Animal Test Result	D	O	0	999999	31
+AOL	Animal Observation Location	D	O	999999	1	32
+MSG	Message Text	D	O	0	999999	33
+AOR	Animal Observation Result	D	O	999999	1	34
+NTE	Note/Special Instruction	D	M	0	999999	35
+MSG	Message Text	D	O	0	999999	36

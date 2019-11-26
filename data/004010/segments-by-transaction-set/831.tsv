@@ -1,0 +1,8 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	2	2
+N9	Extended Reference Information	H	O	0	999999	3
+TRN	Trace	H	O	0	999999	4
+QTY	Quantity Information	H	O	0	10	5
+AMT	Monetary Amount Information	H	O	999999	1	6
+QTY	Quantity Information	H	O	0	1	7

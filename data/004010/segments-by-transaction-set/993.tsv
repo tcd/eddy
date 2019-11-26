@@ -1,0 +1,7 @@
+id	description	section	req	max_loop	max_usage	pos
+AK1	Functional Group Response Header	H	M	0	1	1
+AK2	Transaction Set Response Header	H	O	0	1	2
+SPE	Security Protocol Error	H	O	0	1	3
+APE	Assurance Protocol Error	H	O	0	1	4
+S4A	Assurance Header Level 2	H	O	2	1	5
+SVA	Security Value	H	O	0	1	6

@@ -1,0 +1,371 @@
+id	definition
+01	Pricing Error
+02	Allowance/Charge Error
+03	Extension Error
+04	Item Not Accepted - Damaged
+05	Item Not Accepted - Quality
+06	Quantity Contested
+07	Incorrect Product
+08	Substitute Product
+09	Terms of Sale Error
+10	Pallet/Container Charge Error
+11	Returns - Damage
+12	Returns - Quality
+13	Returns - Dating
+14	Returns - Promotion
+15	Returns - Recall
+16	Non-Invoice Related Allowance/Charge
+17	Required Data Missing
+18	Not Company Bill
+19	Duplicate Billing
+20	Balance Due Declined
+21	Shipment Method of Payment Incorrect
+22	Weight Error
+23	Special Charge Not Authorized
+24	Incorrect Discount
+25	Item Not Accepted
+26	Invoice Cancelled
+27	Product Transfers Subject to Charge Back
+28	Rebated Shipments
+29	Fee Incorrect
+30	Delivery Charge Incorrect
+31	Pickup Charge Incorrect
+32	Oversize Premium Invalid
+33	Currency Exchange Incorrect
+34	Declared Value Incorrect
+35	Commodity Code Incorrect
+36	Scale Number Incorrect
+37	Dimensions Incorrect
+38	Service Incorrect
+39	Shipper/Consignee Ref. Number Missing
+40	Address Incorrect
+41	Item Not Accepted-Delay
+42	Item Not Accepted - Loss
+43	Missing Discount
+44	Required Documents Missing
+45	Stale Bill Over 180 Days Old
+46	Transportation Charge Incorrect
+47	Advanced Charge Incorrect
+48	Service Charge
+49	Processing Charge
+50	Late Charge
+51	Interest Penalty Charge
+52	Credit for Previous Overpayment
+53	Remittance for Previous Underpayment
+54	Freight Deducted
+55	Tax Deducted
+56	Advertising Allowance Taken
+57	Volume Discount Taken
+58	Invoice billing received after final billing
+59	Item not received
+60	No open item on file
+61	No open order on file
+62	Material/Item Description Error
+63	Customer Paid Invoice Which Was Previously Disputed
+64	Sale of Property
+65	Claim Paid on Appraisal
+66	Disability Insurance or Income
+68	Death Benefit Reduction
+69	Employer Provided Pension
+70	Advanced Ship Notice Not Received
+71	Advertising Allowance
+72	Authorized Return
+73	Bill of Lading Not Received
+74	Cancel or Adjust Prior Credit/Debit Adjustment
+75	Total Order Not Received
+76	Cash Discount
+77	Competitive Allowance
+78	Competitive Price
+79	Cooperative Advertising
+80	Overpayment
+81	Credit as Agreed
+82	Defective Allowance
+83	Delivery Charge
+84	Deviation from Order Date
+85	Distribution Discount/Allowance
+86	Duplicate Payment
+87	Duplicate Shipment
+88	Duty Charge Variance
+89	Early Buy Allowance
+90	Early Payment Allowance
+91	Engraving Charge
+92	Entire Shipment Not Ordered
+93	Field Destroy
+94	Fixtures Charge
+95	Floor Stock Protection
+96	Goods to Follow
+97	Handling Charge
+98	Labor Charges
+99	Late Shipment of Goods
+A1	Layout/Design Charge
+A2	Misshipped (Wrong Product Received)
+A3	New Store Allowance
+A4	Nonreceipt of Goods
+A5	Overage
+A6	Packing Violations
+A7	Payment on Account
+A8	Promotional Allowance
+A9	Proof of Delivery Not Received
+AA	Prepaid Benefit or Advances
+AB	Partial Wage Continuation
+AC	Apportionment or Contribution
+AE	Unemployment Compensation
+AF	Guarantee Fee
+AG	Guaranteed Amount
+AH	Origination Fee
+AL	Released to Borrower
+AM	Applied to Borrower's Account
+AN	Auto No Fault
+AO	Returned to Lender
+AP	Acceleration of Benefits
+AQ	Returns - Overstock
+AR	Acceleration of Reimbursement of Attorney Fees
+AS	Returns - Discontinued
+AT	Account Closed
+AU	Accessory Payment
+AV	Advertising Contribution
+AW	Student Card Payment
+AX	Person No Longer Employed
+AY	Employee on Leave
+AZ	Employee on Strike
+B1	Proof of Shipment Not Received
+B2	Rebate
+B3	Recovery Allowance
+B4	Refurbishing Charge
+B5	Repair of Goods
+B6	Repay Discount
+B7	Restocking Charge
+B8	Routing Violation
+B9	Samples Not Received
+BA	Canadian Goods and Services Tax
+BB	Quebec Goods and Services Tax
+BC	Canadian Harmonized Goods and Services Tax
+BD	Bad Debt Adjustment
+BE	Fixture Allowance
+BF	Return Allowance
+BG	Bag Charge
+BH	Opportunity Buy
+BI	Hanger Charge
+BJ	Insurance Charge
+BK	Postage Charge
+BL	Net Check Returned
+BM	Net Collection Expense (Factor)
+BN	Bonus
+BO	Change to Box Office Gross
+BP	Net Chargeback of Client Risk (Factor)
+BR	Benefit Rate
+BS	Paid During Period
+C1	Settlement of Account
+C2	Special Allowance
+C3	Special Finish
+C4	Stock Balance
+C5	Temporary Allowance
+C6	Testing Charge
+C7	Third Party Allowance
+C8	Ticketing Error
+C9	Ticketing Service
+CB	Collected Balance Adjustment Incorrect
+CE	Employer's Legal Expenses Paid to Date
+CK	Valuation As Of
+CM	Covered by Credit Memo
+CO	Adjusted Compensation Rate
+CP	Employer Paid Benefits due
+CQ	Change
+CR	Capitation Interest
+CS	Adjustment
+CT	Capitation Payment
+CU	Charge for Unrequested Service
+CV	Capital Passthru
+CW	Certified Registered Nurse Anesthetist Passthru
+D1	Transfer Between Accounts
+D2	Transportation Direct Billing
+D3	Unauthorized Deduction
+D4	Unauthorized Product
+D5	Volume Discount
+D6	Recovery of Standard Allowances
+D7	Cost Associated with Reworked Material
+D8	Count and Recount Allowance
+D9	Store Stock Price Protection
+DA	Daylight Overdraft Charge Reversed
+DB	Pension or Retirement Plan Disability Benefits
+DC	Canadian Pension Plan
+DD	Railroad Disability
+DE	Deposited Item Price Incorrect
+DF	Family Social Security
+DG	Deduction Film Rental
+DH	District Advance
+DI	Social Security Supplemental Income
+DJ	Jones Act (Merchant Seaman Injured on the Job)
+DK	Damaged Film
+DL	Deposited Item Volume Error
+DM	Direct Medical Education Passthru
+DO	Other Group Insurance
+DP	Pension or Retirement Benefits
+DR	Social Security Retirements
+DS	Social Security Disability
+DT	Railroad Retirement
+DV	Civil Servants Plan
+DW	Subrogation
+DX	Royalty Deduction Type
+E1	Recoupment
+E2	Covered By Debit Memo
+E3	Withholding
+E4	Warehouse Stock Price Protection
+E5	Invoice Price Protection
+E6	Goods and Services Tax 0% Rate, International Documentation Will Follow
+E7	Goods and Services Tax Decreased Due to Billing Error
+E8	Goods and Services Tax Increased Due to Billing Error
+E9	Order Cancelled
+EE	Encoding Error
+ER	Employer Reimbursement
+EX	Expenses
+F1	Defective
+F3	Social Security
+F4	No-Fault
+F5	Other Long-term Disability Offset
+F6	Indirect Offset Excess
+F7	Black Lung Disease
+F8	Rehabilitation
+F9	Educational Benefit
+FA	Anticipation Taken
+FB	Forwarding Balance
+FC	Fund Allocation
+FI	Late Interest Paid
+FR	Film Rental
+FT	Change to Film Rental Terms
+G1	Profit Sharing
+G2	Workmen's Compensation
+G3	Pension
+G4	Other Disability Plan
+G5	Other Income
+G6	Salary Continuance
+G7	Short-term Disability
+G8	Permanent and Total Disability
+G9	State Disability Plan
+GA	Free Goods
+GB	Coupon Related
+GC	Market Development Fund Deduction
+GD	Samples
+GE	Slotting Charge
+GF	Invalid
+GG	Unsalable Merchandise
+GH	Billback Allowance Deduction
+GJ	Unsalable Payments Deduction
+GK	Split Commission Deduction - Basis Amount
+GL	Unresolved Customer Deduction
+GM	Split Commissions Deduction - Commission Amount
+GN	General Advance
+GO	Graduate Medical Education Passthru
+GR	Guarantee
+H1	Information Forthcoming
+H2	Payment Previously Sent
+H3	Loan Paid in Full
+H4	Bill Insured
+H5	Loan Service Released
+H6	Partial Payment Remitted
+H7	Payment Forthcoming
+H8	Bill Mortgagee
+H9	Coverage Summary Needed
+HA	Change to House Allowance
+HB	Medical Payment
+HC	Indemnity Payment
+HD	Expense Payment
+HE	Comprehensive Payment
+HF	Collision Payment
+HG	Bodily Injury Payment
+HI	Property Damage Payment
+IA	Invoice Amount Does Not Match Account Analysis Statement
+IC	Interest Charge-Rate Reduced to New York Prime Rate
+IE	Interest Charge - Rate Reduced to Earnings Credit Rate
+IF	Insufficient Funds
+IL	Interest Charge-Rate Reduced to London Inter-bank Offer Rate (LIBOR)
+IP	Incentive Premium Payment
+IR	Internal Revenue Service Withholding
+IS	Interim Settlement
+J1	Nonreimbursable
+J2	Transportation Discrepancy Report (TDR) Submitted
+J3	Promised Adjustment Not Received
+J4	Deficiency Report Authorized Adjustment
+J5	Duplicate Summary Billing (Same Bill Number)
+J6	Duplicate Summary Billing (Different Bill Number)
+J7	Duplicate Summary Billing (Second Billing)
+J8	Unable to Process
+J9	Noninterfund Bill
+JE	Journal Entry
+K1	Other Coverage Placed
+K2	Invalid Policy Number
+K3	Renewal Not Received
+L1	Audit
+L2	Discount
+L3	Penalty
+L4	Administrative Fees
+L5	Interest Due
+L6	Interest Owed
+L7	Miscellaneous Deductions
+L8	Miscellaneous Credits
+L9	Military Distribution Adjustment
+LA	Loans against Future Compensations
+LE	Levy
+LF	Lawyer or Claimant Attorney Fees
+LO	Ledger Overdraft Charge Reversed
+LP	Late Payment
+LS	Lump Sum
+M1	Advertising - Unidentified
+M2	Commissions Deductions
+M3	Gift Certificates
+M4	Salary Deduction
+MA	Marketing Allowance
+MC	Miscellaneous Costs
+ML	Maximum Allowable Levy Exceeded
+NA	Cash Receipt
+NB	Non-Billable
+NC	Negative Charge
+ND	Royalty
+NR	Negative Repayment
+OA	Organ Acquisition Passthru
+OB	Offset for Affiliated Providers
+OL	Court Ordered Lien
+PA	Picture Advance
+PD	Paid to Date
+PF	Payment First
+PI	Periodic Interim Payment
+PL	Payment Final
+PM	Previous Month's Earnings Credit Carried Forward
+PO	Federal Deposit Insurance Corporation (FDIC) Premium Overcharge
+PP	Quebec Pension Plan
+PR	Prior Film Rental Payment
+PT	Payment
+R1	Returned Deposited Item Price Incorrect
+R2	Returned Deposited Item Volume Error
+R3	Returned Deposited Item Notification Volume Error
+RA	Retro-activity Adjustment
+RD	Receiving Discrepancy
+RE	Return on Equity
+RM	Returned Material
+SC	Service Cancelled
+SD	Screening Deduction
+SF	Shipping and Freight Charge
+SL	Student Loan Repayment
+SP	Sales Promotion
+TA	Theatre Advance
+TD	Total Deductions
+TL	Third Party Liability
+UB	Uncollected Balance Charge Reversed
+UL	Unable to Locate Account
+VC	Value Date Incorrect for Credit
+VD	Value Date Incorrect for Debit
+VO	Void
+W6	Safety Violations
+W8	Intoxication
+W9	Noncooperation: Rehabilitation, Training, Education, Medical
+WA	Actual Reduced Earnings
+WB	Regular Wage Minus Disability Benefit
+WC	Subrogation Recovery
+WH	Payment Partial
+WO	Overpayment Recovery
+WR	Deemed Reduced Earnings
+WS	Special Fund Recovery
+WT	Deductibles Recovery
+WU	Unspecified Recovery
+WW	Overpayment Credit
+ZZ	Mutually Defined

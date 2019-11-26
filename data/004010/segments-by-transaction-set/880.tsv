@@ -1,0 +1,37 @@
+id	description	section	req	max_loop	max_usage	pos
+G01	Invoice Identification	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	10	2
+G61	Contact	H	O	0	3	3
+G62	Date/Time	H	O	0	5	4
+NTE	Note/Special Instruction	H	O	0	20	5
+CAD	Carrier Details	H	O	0	5	6
+G23	Terms Of Sale	H	O	0	20	7
+G25	F.O.B. Information	H	O	0	1	8
+N1	Party Identification	H	M	10	1	9
+N2	Additional Name Information	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+G72	Allowance Or Charge	H	O	100	1	13
+G73	Allowance Or Charge Description	H	O	0	10	14
+G17	Item Detail - Invoice	D	O	9999	1	15
+G69	Line Item Detail - Description	D	O	0	5	16
+G19	Line Item Detail - Quantity/Unit Of Measure/Price Differences	D	O	0	10	17
+G20	Item Packing Detail	D	O	0	1	18
+N9	Extended Reference Information	D	O	0	5	19
+G23	Terms Of Sale	D	O	0	20	20
+G25	F.O.B. Information	D	O	0	1	21
+G72	Allowance Or Charge	D	O	100	1	22
+G73	Allowance Or Charge Description	D	O	0	10	23
+ENT	Entity	D	O	500	1	24
+N2	Additional Name Information	D	O	0	1	25
+N3	Party Location	D	O	0	1	26
+N4	Geographic Location	D	O	0	1	27
+N9	Extended Reference Information	D	O	0	5	28
+REF	Reference Information	D	O	999999	1	29
+QTY	Quantity Information	D	O	0	1	30
+AMT	Monetary Amount Information	D	O	0	2	31
+G72	Allowance Or Charge	D	O	0	1	32
+G17	Item Detail - Invoice	D	O	999999	1	33
+G19	Line Item Detail - Quantity/Unit Of Measure/Price Differences	D	O	0	10	34
+G31	Total Invoice Quantity	S	M	0	1	35
+G33	Total Dollars Summary	S	M	0	1	36

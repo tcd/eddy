@@ -1,0 +1,20 @@
+id	definition
+01	Consumable
+02	Recurring
+03	One of
+EA	Travel and Living Expenses, Actual
+EF	Equipment Founded
+EP	Travel and Living Expenses, Per Diem
+EU	Equipment Unfounded
+FR	Flat Rate
+LA	Labor
+LD	Labor Double Time
+LE	Lease
+LO	Labor Overtime (Time and a Half)
+LP	Labor Premium
+LS	Labor Straight Time
+MA	Material
+MC	Material, Consumable
+MN	Material, Nonconsumable
+OT	Other
+SC	Subcontract

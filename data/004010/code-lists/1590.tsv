@@ -1,0 +1,125 @@
+id	definition
+A1	Accounting Services
+A2	Accounts Payable
+A3	Accounts Receivable
+A4	After-tax Net Earnings or Losses
+A5	Alimony
+A6	Annuities
+A7	Auto
+A8	Automobile
+B1	Before-tax Pension Plan Cash Contributions
+B2	Before-tax Profit Sharing Cash Contributions
+B3	Bonds
+B4	Bonus
+B5	Building
+C1	Capital Gains
+C2	Car Loan
+C3	Cars
+C4	Cash
+C5	Casualty Insurance Premiums
+C6	Certificate of Deposit
+C7	Child Support
+C8	Collectibles
+C9	Commissions
+CA	Company Assets
+CB	Company Capital
+CC	Company Liability
+CD	Corporate Bonds
+CE	Cost of Goods Sold
+CF	Credit Card Debt
+D1	Deferred Compensation
+D2	Dental Insurance Premiums
+D3	Depreciation
+D4	Depreciation or Principle on Business Loans
+D5	Disability Insurance Premiums
+D6	Dividends
+E1	Earned Income
+E2	Electricity
+E3	Employee Benefits
+E4	Equipment Payments
+E5	Equities
+E6	Expenses
+F1	Federal Unemployment Tax (FUTA)
+G1	Gain or Loss from Sale of Fixed Assets
+G2	Gift
+G3	Government Bonds
+G4	Gross Profit
+G5	Gross Receipts
+G6	Gross Sales
+H1	Health Insurance Premiums
+H2	Heat
+H3	Home
+I1	Inheritance
+I2	Insurance Premiums
+I3	Intangible Assets
+I4	Interest
+I5	Interest on Loans
+I6	Inventory
+I7	Investment
+J1	Janitorial Services
+L1	Licenses and Fees
+L2	Life Insurance Cash Value
+L3	Limited Partnership Income
+L4	Loans
+M1	Maintenance
+M2	Malpractice or Liability Insurance Premiums
+M3	Money Market
+M4	Mortgage
+M5	Municipal Bonds
+M6	Mutual Funds
+N1	Net Profit or Loss After Taxes
+N2	Net Profit or Loss Before Taxes
+N3	Net Rental Income
+N4	Net Worth
+N5	Non-owner or Employees Compensation
+O1	Other
+O2	Other Taxes
+O3	Owner or Employees Compensation
+P1	Pension
+P2	Periodicals
+P3	Personal Liability
+P4	Personal Assets
+P5	Personal Property
+P6	Professional Dues
+P7	Professional Fees
+P8	Profit Sharing
+P9	Property Taxes
+PA	Publications
+R1	Real Estate
+R2	Rent
+R3	Rental Property
+R4	Retirement Plan
+R5	Royalties
+S1	Salary
+S2	Sales
+S3	Savings
+S4	Savings Bonds
+S5	Scheduled Principal Payments on Debt
+S6	Security Service
+S7	Self Employment Income
+S8	Share of After-tax C Corporation Net Income or Loss
+S9	Share of After-tax Corporation Earnings or Losses
+SA	Share of Partnership Net Profit or Loss
+SB	Share of Partnership Ordinary Income
+SC	Share of S Corporation Net Income or Loss
+SD	Social Security (FICA)
+SE	Sole Proprietorship Net Profit or Loss
+SF	State Unemployment Tax (SUTA)
+SG	Stocks
+T1	Tangible Assets - Non-current
+T2	Tangible Assets - Current
+T3	Taxes
+T4	Telephone
+T5	Telephone Answering Services
+T6	Total Assets
+T7	Total Earned Income
+T8	Total Income
+T9	Total Liability
+TA	Total Unearned Income
+TB	Treasury Bills
+TC	Trust
+U1	Unearned Income
+U2	Unemployment Compensation
+U3	Utilities
+W1	Workers Compensation
+ZZ	Mutually Defined

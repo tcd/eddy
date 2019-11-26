@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	O	0	1	1
+P4	Port Information	H	O	0	1	2
+M15	Customs Events Advisory Details	H	M	9999	1	3
+K1	Remarks	H	O	0	4	4

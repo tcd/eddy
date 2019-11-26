@@ -1,0 +1,20 @@
+id	definition
+01	Beginning Activity
+02	Ending Activity
+03	Activity
+04	Interface Activity (when 2 or more separate networks are combined to create 1 network)
+05	Summary Activity
+06	Milestone
+07	Event
+08	Constraint - Finish to Start
+09	Constraint - Start to Finish
+10	Constraint - Finish to Finish
+11	Constraint - Start to Start
+12	Constraint - Dummy
+20	Cost Account Activity
+21	Work Package Activity
+22	Data Item
+PI	Maintenance Period Identifier
+PM	Proposed Maintenance Action
+SM	Scheduled Maintenance Action
+ZZ	Mutually Defined

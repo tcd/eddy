@@ -1,0 +1,38 @@
+id	description	section	req	max_loop	max_usage	pos
+BCD	Beginning Credit/Debit Adjustment	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+N9	Extended Reference Information	H	O	0	999999	3
+PER	Administrative Communications Contact	H	O	0	999999	4
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	999999	5
+DTM	Date/Time Reference	H	O	0	999999	6
+FOB	F.O.B. Related Instructions	H	O	0	1	7
+SHD	Shipment Detail	H	O	0	999999	8
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	0	25	9
+N1	Party Identification	H	M	200	1	10
+N2	Additional Name Information	H	O	0	2	11
+N3	Party Location	H	O	0	2	12
+N4	Geographic Location	H	O	0	1	13
+N9	Extended Reference Information	H	O	0	12	14
+PER	Administrative Communications Contact	H	O	0	3	15
+AMT	Monetary Amount Information	H	O	0	10	16
+LM	Code Source Information	H	O	10	1	17
+LQ	Industry Code Identification	H	M	0	100	18
+FA1	Type Of Financial Accounting Data	H	O	999999	1	19
+FA2	Accounting Data	H	M	0	999999	20
+CDD	Credit/Debit Adjustment Detail	D	O	999999	1	21
+LIN	Item Identification	D	O	0	1	22
+PO4	Item Physical Details	D	O	0	1	23
+N9	Extended Reference Information	D	O	0	999999	24
+DTM	Date/Time Reference	D	O	0	5	25
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	25	1	26
+DTM	Date/Time Reference	D	O	0	5	27
+LM	Code Source Information	D	O	10	1	28
+LQ	Industry Code Identification	D	M	0	100	29
+N11	Store Location	D	O	999999	1	30
+AMT	Monetary Amount Information	D	O	0	10	31
+PCT	Percent Amounts	D	O	0	2	32
+N1	Party Identification	D	O	999999	1	33
+AMT	Monetary Amount Information	D	O	0	10	34
+PCT	Percent Amounts	D	O	0	2	35
+FA1	Type Of Financial Accounting Data	D	O	999999	1	36
+FA2	Accounting Data	D	M	0	999999	37

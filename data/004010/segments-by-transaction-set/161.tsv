@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+BTS	Beginning Segment For Train Sheets	H	M	0	1	1
+V9	Event Detail	H	M	0	100	2
+N9	Extended Reference Information	H	O	0	3	3
+H3	Special Handling Instructions	H	O	0	5	4
+FAC	Facing Direction	H	O	0	10	5
+PWK	Paperwork	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	5	7
+NM1	Individual Or Organizational Name	H	O	10	1	8
+DTM	Date/Time Reference	H	O	0	3	9

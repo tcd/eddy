@@ -1,0 +1,33 @@
+id	definition
+ADF	Advance Fee
+ADV	Advance Amount
+BLK	Blocking and Bracing Charge
+COD	Cash on Delivery
+COL	Fee for Collecting COD
+DEL	Delivery Charge
+DEP	Detention of Power Unit
+DET	Detention of Trailer
+DIB	Diversion and Reconsignment
+DSC	Discount
+EIC	Export and/or Import Charge
+EXC	Exclusive Use Charge
+FLT	Flat Charge
+FSC	Fuel Surcharge
+IDL	Inside Delivery
+IPU	Inside Pick-up
+LDA	Loading Allowance
+LDL	Unloading Allowance
+MIL	Mileage Charge
+MIN	Minimum Charge
+MRK	Marking or Tagging Charge
+MSG	Miscellaneous Charge
+ONC	Order Notify Charge
+PLA	Placement Charge
+PWH	Pier Charges - Wharfage
+REP	Residential Pick-up
+RES	Residential Delivery
+SOC	Stop Charge
+SPU	Single Pick-up
+SRG	Storage
+SUF	Sufferance Warehouse
+ZZZ	Mutually Defined

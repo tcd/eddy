@@ -1,0 +1,49 @@
+id	definition
+01	Cusum Delta
+02	Cusum - H
+03	Cusum - K
+04	Capability Ratio
+05	F-Test
+06	Control Limit Lower - Individual
+07	Control Limit Upper - Individual
+08	T-Test
+09	Grand Average (Double X Bar)
+10	Kurtosis
+11	Mean Average
+12	Median
+13	Minimum Average
+14	Median Range
+15	Maximum Average
+16	Process Capability Upper
+17	Process Capability Lower
+18	Process Capability CPK
+19	Range Average (R Bar)
+20	Control Limit Lower R-Bar
+21	Control Limit Upper R-Bar
+22	Range Value
+23	Standard Deviation
+24	Standard Error
+25	Skewness
+26	Control Limit Lower X-Bar
+27	Control Limit Upper X-Bar
+28	Failure Rate in Time
+29	Mode
+30	Average
+31	Mean
+32	Minimum Value
+33	Maximum Value
+34	Calculated
+40	Scalar
+41	Percentile
+42	Decile
+43	Quartile
+44	Quintile
+53	Probabililty
+AD	Anderson Darling Test
+CF	Cochran's Procedure
+CS	Chi-Square Test
+HG	Histogram
+KS	Kolmogrov-Smirnov Test
+SK	Moment Tests, Skewness and Kurtosis (Weighted Average)
+SW	Shapiro-Wilk Test
+ZZ	Mutually Defined

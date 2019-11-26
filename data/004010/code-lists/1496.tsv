@@ -1,0 +1,55 @@
+id	definition
+01	Map Cover & Sublot Number
+02	Metes & Bounds
+03	Section, Lot, and Block
+04	Tax Identification
+05	Parcel Identification Number
+06	Lot or Unit Number
+07	Block or Building
+08	Subdivision
+09	Section
+10	Arbitrary Number
+11	Book (Liber)
+12	Page (Folio)
+13	Outlot
+14	Baseline
+15	Survey Description
+16	Torrens Property Number
+17	Legal
+18	Appraisal Description
+19	Neighborhood or Project Name
+20	Multiple Listing Service Area or District
+21	Multiple Listing Service Sub-Area or Sub-District
+22	Property Identification
+23	Mobile Home Park
+26	Tract Number
+27	Square
+28	City
+29	Range
+30	Lot
+31	Unit Number
+32	Land Lot
+33	County
+34	Township
+35	Acreage
+36	Record of Survey
+37	Plat Map
+38	Parcel Map
+39	Licensed Survey
+40	Subdivision Map
+41	Official Record
+42	Deed
+43	Miscellaneous Map
+44	Miscellaneous Record
+45	State
+46	Country
+47	Block
+48	Building
+49	Real Estate Development Project
+50	Master Real Estate Development Project
+51	Phase
+52	Ward
+53	District
+54	Borough
+55	Village
+56	Parish

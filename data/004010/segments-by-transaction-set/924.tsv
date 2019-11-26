@@ -1,0 +1,6 @@
+id	description	section	req	max_loop	max_usage	pos
+F01	Identification Of Claim (Claimant Originated)	H	M	0	1	1
+F6X	Identification (Automotive)	H	M	0	1	2
+F02	Identification Of Shipment	H	O	0	1	3
+F12	Basic Claim Information - Automotive	H	O	0	1	4
+F07	Auto Claim Detail	H	M	0	99	5

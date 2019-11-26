@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	M	0	1	1
+P4	Port Information	H	M	20	1	2
+M20	Permit To Transfer Request Details	H	M	0	9999	3

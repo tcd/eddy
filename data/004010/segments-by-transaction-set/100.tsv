@@ -1,0 +1,44 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+C3	Currency Identifier	H	O	0	1	2
+DTP	Date Or Time Or Period	H	O	0	999999	3
+NM1	Individual Or Organizational Name	H	M	999999	1	4
+N3	Party Location	H	O	0	3	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	9	7
+PER	Administrative Communications Contact	H	O	0	3	8
+N1	Party Identification	D	M	999999	1	9
+N2	Additional Name Information	D	O	0	999999	10
+N3	Party Location	D	O	0	3	11
+N4	Geographic Location	D	O	0	1	12
+COM	Communication Contact Information	D	O	0	9	13
+III	Information	D	O	0	9	14
+MSG	Message Text	D	O	0	999999	15
+PER	Administrative Communications Contact	D	O	999999	1	16
+N3	Party Location	D	O	0	3	17
+N4	Geographic Location	D	O	0	1	18
+PID	Product/Item Description	D	O	999999	1	19
+LIN	Item Identification	D	O	0	9	20
+DTP	Date Or Time Or Period	D	O	0	999999	21
+NM1	Individual Or Organizational Name	D	O	0	999999	22
+BLI	Basic Baseline Item Data	D	O	999999	1	23
+DTP	Date Or Time Or Period	D	O	0	999999	24
+III	Information	D	O	0	999999	25
+AMT	Monetary Amount Information	D	O	0	999999	26
+QTY	Quantity Information	D	O	0	999999	27
+SI	Service Characteristic Identification	D	O	999999	1	28
+AMT	Monetary Amount Information	D	O	0	999999	29
+QTY	Quantity Information	D	O	0	999999	30
+AM1	Informational Values	D	O	999999	1	31
+MSG	Message Text	D	O	0	999999	32
+PO1	Baseline Item Data	D	O	999999	1	33
+LIN	Item Identification	D	O	0	9	34
+SPA	Status Of Product Or Activity	D	O	0	3	35
+III	Information	D	O	0	999999	36
+N4	Geographic Location	D	O	999999	1	37
+SPA	Status Of Product Or Activity	D	O	0	3	38
+AM1	Informational Values	D	O	999999	1	39
+MSG	Message Text	D	O	0	999999	40
+PO1	Baseline Item Data	D	O	999999	1	41
+SPA	Status Of Product Or Activity	D	O	0	3	42
+III	Information	D	O	0	999999	43

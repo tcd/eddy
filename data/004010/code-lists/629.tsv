@@ -1,0 +1,7 @@
+id	definition
+A	Indicates Alternation between all Lower Levels
+B	Price Application Hierarchy Rules Apply - Do Not Alternate between Levels
+L	A rate with this element indicating an "L" value will be applied only in the absence of rate application by any with this element indicating "N" or "S"
+N	A rate with this element indicating an "N" value will be applied to the exclusion of all other rates with this data element indicating other values
+P	Only Applicable for Contracts - Indicates that Alternation between Levels applies to Contracts and Customer Specific Prices ("CT" and "PR") Only
+S	A rate with this element indicating an "S" value will be applied to the exclusion of all other rates except those indicated as "N"

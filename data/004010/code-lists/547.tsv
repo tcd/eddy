@@ -1,0 +1,19 @@
+id	definition
+A	Default Interest Rate
+B	Default Note Holder's Rate
+C	Current Note Rate
+D	Debenture
+E	Current Pass Through Rate
+F	Security or Pass Through Rate
+G	Security or Pass Through Rate Floor
+H	Security or Pass Through Rate Ceiling
+J	Weighted Average Note Rate
+K	Servicing Fee
+L	Lender Paid Mortgage Insurance Portion
+M	Mortgage Note
+N	Guarantee Fee Per Contract
+P	Original Annual Interest Rate
+Q	Original Index Value
+S	Security or Pass Through Margin
+W	Weighted Average Interest Rate
+X	Accounting Net Yield Rate

@@ -1,0 +1,3 @@
+id	description	section	req	max_loop	max_usage	pos
+BA2	Beginning Segment For Cargo Terminal Information	H	M	0	1	1
+CD1	Cargo Detail	H	M	0	999	2

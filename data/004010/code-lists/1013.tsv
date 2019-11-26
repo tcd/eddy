@@ -1,0 +1,87 @@
+id	definition
+1	Case Information Statement
+2	Sheriff Return of Service
+3	Intent to File Pleading
+4	Appearance
+5	Opinion
+25	Generic Dismissal of Bankruptcy Case
+26	Order of Bifurcation and Dismissal of Joint Bankruptcy
+27	Generic Conversion, Refile Claims in New Case
+28	Generic Conversion, Do Not Refile Claims in New Case
+70	Trustee's Notice of Filing of Final Account
+9A	Section 341 Notice, Chapter 7, Individual (Joint), No Asset
+9B	Section 341 Notice, Chapter 7, Corporation (Partnership), No Asset
+9C	Section 341 Notice, Chapter 7, Individual (Joint), Asset
+9D	Section 341 Notice, Chapter 7, Corporation (Partnership), Asset
+9E	Section 341 Notice, Chapter 11, Individual (Joint)
+9F	Section 341 Notice, Chapter 11, Corporation (Partnership)
+9G	Section 341 Notice, Chapter 12, Individual (Joint)
+9H	Section 341 Notice, Chapter 12, Corporation (Partnership)
+9I	Section 341 Notice, Chapter 13, Individual (Joint)
+AB	Proposed Abandonment
+CJ	Consent Judgment
+CP	Notice to Debtor and Debtor's Counsel to Commence Payments
+DJ	Default Judgment
+FJ	Foreign Judgment
+JC	Judgment Confession
+JN	Judgment Note
+SJ	Summary Judgment
+YJ	Declaratory Judgment
+101	New Claims Bar Date
+11B	Postconversion 341, Chapter 11, Business
+11I	Postconversion 341, Chapter 11, Individual
+12B	Postconversion 341, Chapter 12, Business
+12I	Postconversion 341, Chapter 12, Individual
+12N	Hardship Discharge of Chapter 12 Debtor, Plan Not Completed
+12Y	Discharge of Chapter 12 Debtor After Completion of Plan
+13B	Discharge of Chapter 13 Debtor in a Pre-11/5/90 Case
+13I	Postconversion 341, Chapter 13, Individual
+13N	Hardship Discharge of Chapter 13 Debtor, Plan Not Completed
+13P	Summary of Chapter 13 Plan
+13Y	Discharge of Chapter 13 Debtor After Completion of Plan
+18J	Discharge of Joint Chapter 7, Both Debtors Discharged
+18O	Discharge of Joint Chapter 7, One Debtor Discharged
+23A	Conversion of Chapter 13 to Chapter 7, by Debtor
+23B	Conversion Chapter 13 to Chapter 7, by Trustee (Creditor)
+24B	Dismissal of Chapter 13 Case
+305	Order of Execution
+306	Levy
+308	Civil Action Hearing
+309	Execution Sale
+310	Recovery of Real Property Hearing
+311	Order for Possession
+315	Judgment
+417	Warrant of Arrest
+603	Summary Conviction
+610	Guardian Notice to Represent Minor Party
+611	Trial Summary Case
+612	Hearing
+616	Continuance
+619	Fugitive
+621	Conviction
+623	Intent to Defend
+625	Transfer
+628	Bail Hearing
+629	Preliminary Hearing
+630	Preliminary Arraignment
+631	Indigency Hearing
+638	Withdrawal of Suspension
+642	Determination of Property Claims
+700	Disposition
+701	Trustee Report of Surplus
+7BA	Postconversion 341, Chapter 7, Business, Asset
+7IA	Postconversion 341, Chapter 7, Individual, Asset
+DEF	Deficiency Notice
+DIS	Discharge of Debtor, Chapter 7 (11), Individual
+DOT	Order Approving Account, Discharging Trustee and Closing Estate
+FAM	Order of Dismissal for Failure to Appear at the Section 341 First Meeting of Creditors
+FCL	File Claims in Lead Case
+FFS	Order of Dismissal for Failure to Timely File Schedules
+ITB	Notice of Appointment of Interim Trustee and Approval of Blanket Bond
+NOA	Notice of Assets
+OCP	Order Confirming Plan
+ODC	Order Dismissing Case
+OFR	Order for Relief
+POC	Proof of Claim
+SCH	Notice of Deadline for Filing Schedules
+ZZZ	Mutually Defined

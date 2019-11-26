@@ -1,0 +1,72 @@
+id	definition
+01	Treasury Bill - 1 Year
+02	Treasury Bill - 3 Year
+03	Treasury Bill - 6 Months
+04	Treasury Bill - 5 Year
+05	Treasury Bill: 3 Month Index (Weekly Auction)
+06	Treasury Bill: 6 Month Index (Weekly Auction)
+07	Treasury Bill: 6 Month Index (Monthly Auction)
+08	Treasury Bill: 6 Month (Invest) (Weekly)
+09	Treasury Bill: 6 Month (Invest) (Monthly)
+10	Cumulative Average Previous 4 Weeks of 6 Month T Bills
+11	Cumulative Average Previous 26 Weeks of 6 Month T Bills
+12	Cumulative Average Previous 12 Months of 6 Month T Bills
+13	Treasury Sec.: 1 Year (Weekly Average)
+14	Treasury Sec.: 2 Year (Weekly Average)
+15	Treasury Sec.: 3 Year (Weekly Average)
+16	Treasury Sec.: 5 Year (Weekly Average)
+17	Treasury Sec.: 7 year (Weekly Average)
+18	Treasury Sec.: 10 Year (Weekly Average)
+19	Treasury Sec.: 1 Year (Monthly Average)
+20	Treasury Sec.: 3 Year (Monthly Average)
+21	Treasury Sec.: 5 Year (Monthly Average)
+22	Cumulative Average Previous 12 Months of 1 Year Treasury Secretary
+23	Federal Home Loan Bank District 11 Index
+24	OTS: Average Contract Rate
+25	OTS: Series of Closed Loan Index
+26	OTS: Fixed Rate, Closed Loan All Lenders
+27	OTS: S & L Average Quarterly Cost of Funds
+28	OTS: S & L Median Monthly Cost of Funds
+29	OTS: 11th Dist. Cost of Funds (Monthly)
+30	OTS: 4th Dist. Cost of Funds (Monthly)
+31	OTS: 7th Dist. Cost of Funds (Monthly)
+32	OTS: 1 Year 1st Dist. Advance Rate (Daily)
+33	OTS: 11th Dist. Daily Guarantee 30 Day Comm 5 Year
+34	Federal Home Loan Bank Index
+35	OTS: 4 Year 2nd Dist. Advance Rate (Daily)
+36	OTS: 5 Year 2nd Dist. Advance Rate (Daily)
+37	OTS: Average Previous 12 Month Series Closed Loans
+38	OTS: Average Previous 12 Month 11th Dist. Cost of Funds
+39	OTS: Semi-Annual Cost of Funds for CA Members
+40	OTS: Nat. Mon. Median Cost of Funds Ratio
+41	OTS: Federal Cost of Funds
+42	OTS: Quarterly National Average Cost of Funds
+43	OTS: Semi-annual National Average Cost of Funds
+44	London Interbank Offered Rate (LIBOR)
+45	Libor: 1 Month Rate
+46	Libor.: 3 Month Rate
+47	Libor.: 6 Month Rate
+48	Libor.: 1 Year Rate
+49	Libor.: 1 Month Fannie Mae Index (Monthly)
+50	Libor: 3 Month Fannie Mae Index (Monthly)
+51	Libor.: 6 Month Fannie Mae Index (Monthly)
+52	Libor: 12 Month Fannie Mae Index (Monthly)
+53	Libor: 1 Month Wall Street Journal Rate
+54	Libor: 6 Month Wall Street Journal Rate
+56	National Cost of Funds
+57	Prime
+58	National Average Contract Rate on Previous Occ. Homes
+59	Wall Street Journal Prime Rate
+60	6 Month Certificate of Deposit Rate
+61	NY Federal Res. 6 Month Jumbo CD Rate (Daily)
+62	6 Month Money Market-Comml. Bank (Weekly)
+63	6 Month Treasury Bill Secondary Market
+64	6 Month CDS-Secondary Market (Weekly)
+65	6 Month CDS-Secondary Market (Monthly)
+66	Fannie Mae: Blend 50% Frm./50% 1 Year Treas.
+67	Fannie Mae: Blend 75% Frm./25% 1 Year Treas.
+68	Fannie Mae: 30 Day Frm. Yield Actual/Actl.
+69	Fannie Mae: 30 Day Frm. Yield Schl./Actual
+70	Fannie Mae: 60 Day Frm. Yield Actual/Actl.
+71	Fannie Mae: 60 Day Frm. Yield Schl./Actual
+ZZ	Mutually Defined

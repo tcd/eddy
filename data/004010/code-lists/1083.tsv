@@ -1,0 +1,31 @@
+id	definition
+01	Cash-Borrowed
+02	Cash
+03	Equity from Pending Sale of Property
+04	Cash-Gift
+05	Non-Cash
+06	Sweat Equity
+07	Trade Equity
+09	Secondary Financing Secured by Same Property
+10	Lot Equity
+11	Lease Payments
+12	Pledged Collateral
+13	Other Source
+14	Sale of Chattel
+27	Grant
+28	Proceeds of Loan Fully Secured by Borrower's Own Assets
+29	Grant From Non-Profit Organization
+30	Grant From Federal Government
+31	Grant From State Government Organization
+32	Grant From Local Government
+33	Grant From Employer
+34	Borrower's Own Funds
+35	Unsecured Loan
+36	Property Seller Contribution
+37	Builder
+38	Lender
+41	Gift From Relative
+42	Other Financial Institution
+43	Not Applicable
+44	Premium Pricing
+ZZ	Mutually Defined

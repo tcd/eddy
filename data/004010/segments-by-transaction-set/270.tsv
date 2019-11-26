@@ -1,0 +1,24 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+HL	Hierarchical Level	D	M	999999	1	2
+TRN	Trace	D	O	0	9	3
+NM1	Individual Or Organizational Name	D	M	999999	1	4
+REF	Reference Information	D	O	0	9	5
+N2	Additional Name Information	D	O	0	1	6
+N3	Party Location	D	O	0	1	7
+N4	Geographic Location	D	O	0	1	8
+PER	Administrative Communications Contact	D	O	0	3	9
+PRV	Provider Information	D	O	0	1	10
+DMG	Demographic Information	D	O	0	1	11
+INS	Insured Benefit	D	O	0	1	12
+HI	Health Care Information Codes	D	O	0	1	13
+DTP	Date Or Time Or Period	D	O	0	9	14
+MPI	Military Personnel Information	D	O	0	9	15
+EQ	Eligibility Or Benefit Inquiry	D	O	99	1	16
+AMT	Monetary Amount Information	D	O	0	2	17
+VEH	Vehicle Information	D	O	0	1	18
+PDR	Property Description - Real	D	O	0	1	19
+PDP	Property Description - Personal	D	O	0	1	20
+III	Information	D	O	0	10	21
+REF	Reference Information	D	O	0	1	22
+DTP	Date Or Time Or Period	D	O	0	9	23

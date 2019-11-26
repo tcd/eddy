@@ -1,0 +1,26 @@
+id	description	section	req	max_loop	max_usage	pos
+REN	Rate Request Information	H	M	0	1	1
+DK	Docket Header	H	M	0	1	2
+PI	Price Authority Identification	H	O	0	8	3
+PR	Product (Commodity)	H	O	0	200	4
+SS	Docket Control Status	H	O	0	1	5
+SA	Status Action	H	O	0	1	6
+CD	Shipment Conditions	H	O	0	150	7
+RAB	Rate Or Minimum Qualifiers	H	O	0	48	8
+PT	Patron	H	O	50	1	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+PER	Administrative Communications Contact	H	O	0	2	12
+SB	Docket Level	H	M	50	1	13
+GY	Geography	H	O	0	150	14
+SC	Docket Sub-Level	H	M	300	1	15
+GY	Geography	H	O	0	150	16
+CD	Shipment Conditions	H	O	0	150	17
+RAB	Rate Or Minimum Qualifiers	H	O	0	48	18
+LX	Transaction Set Line Number	H	M	60	1	19
+RS	Rate Subset	H	M	0	2	20
+RD	Rate Data	H	O	0	25	21
+R9	Route Code Identification	H	O	2	1	22
+FK	Factor	H	O	0	13	23
+R2B	Junctions And Proportions	H	O	13	1	24
+R2C	Division Basis	H	O	0	25	25

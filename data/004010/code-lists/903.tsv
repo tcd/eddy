@@ -1,0 +1,4 @@
+id	definition
+H	Header for the Envelope
+N	Not Header or Trailer
+T	Trailer for the Envelope

@@ -1,0 +1,44 @@
+id	description	section	req	max_loop	max_usage	pos
+B3B	Beginning Segment For Rail Carrier's Invoice	H	M	0	1	1
+C4	Alternate Amount Due	H	O	0	1	2
+N9	Extended Reference Information	H	O	0	30	3
+CM	Cargo Manifest	H	O	0	2	4
+NTE	Note/Special Instruction	H	O	0	2	5
+N7	Equipment Details	H	M	500	1	6
+VC	Motor Vehicle Control	H	O	0	36	7
+G4	Scale Identification	H	O	0	1	8
+M7	Seal Numbers	H	O	0	5	9
+N5	Equipment Ordered	H	O	0	1	10
+IC	Intermodal Chassis Equipment	H	O	0	1	11
+IM	Intermodal Movement Information	H	O	0	1	12
+M12	In-Bond Identifying Information	H	O	0	1	13
+GA	Canadian Grain Information	H	O	0	15	14
+N8	Waybill Reference	H	M	0	499	15
+F9	Origin Station	H	M	0	1	16
+D9	Destination Station	H	M	0	1	17
+N1	Party Identification	H	O	15	1	18
+N2	Additional Name Information	H	O	0	2	19
+N3	Party Location	H	O	0	2	20
+N4	Geographic Location	H	O	0	1	21
+PER	Administrative Communications Contact	H	O	0	2	22
+BL	Billing Information	H	O	0	12	23
+S1	Stop-Off Name	H	O	12	1	24
+S2	Stop-Off Address	H	O	0	1	25
+S9	Stop-Off Station	H	O	0	1	26
+R2	Route Information	H	O	0	13	27
+R9	Route Code Identification	H	O	0	1	28
+PS	Protective Service Instructions	H	O	0	5	29
+LX	Transaction Set Line Number	H	M	25	1	30
+L5	Description, Marks And Numbers	H	M	0	15	31
+L0	Line Item - Quantity And Weight	H	M	25	1	32
+MEA	Measurements	H	O	0	3	33
+L1	Rate And Charges	H	M	0	10	34
+DTM	Date/Time Reference	H	O	0	2	35
+PI	Price Authority Identification	H	O	0	30	36
+T1	Transit Inbound Origin	H	O	64	1	37
+T2	Transit Inbound Lading	H	O	0	30	38
+T3	Transit Inbound Route	H	O	0	12	39
+T6	Transit Inbound Rates	H	O	0	1	40
+T8	Free-Form Transit Data	H	O	0	99	41
+L3	Total Weight And Charges	H	M	0	1	42
+X7	Customs Information	H	O	0	2	43

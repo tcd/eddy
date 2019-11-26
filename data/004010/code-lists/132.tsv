@@ -1,0 +1,7 @@
+id	definition
+B	Not Released - Billing Data Only
+H	Hold previously released shipment
+R	Released with Billing Data
+S	Scheduled future release
+T	Released with shipment information/billing data
+U	Unscheduled release

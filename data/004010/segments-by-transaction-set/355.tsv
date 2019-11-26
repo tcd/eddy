@@ -1,0 +1,47 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	M	0	1	1
+K1	Remarks	H	O	0	10	2
+P4	Port Information	H	M	20	1	3
+K1	Remarks	H	O	0	10	4
+LX	Transaction Set Line Number	H	O	9999	1	5
+M13	Manifest Amendment Details	H	O	1	1	6
+K1	Remarks	H	O	0	10	7
+M11	Manifest Bill Of Lading Details	H	O	1	1	8
+K1	Remarks	H	O	0	10	9
+N9	Extended Reference Information	H	O	999	1	10
+K1	Remarks	H	O	0	10	11
+N1	Party Identification	H	O	5	1	12
+K1	Remarks	H	O	0	10	13
+N3	Party Location	H	O	2	1	14
+K1	Remarks	H	O	0	10	15
+N4	Geographic Location	H	O	1	1	16
+K1	Remarks	H	O	0	10	17
+PER	Administrative Communications Contact	H	O	1	1	18
+K1	Remarks	H	O	0	10	19
+M12	In-Bond Identifying Information	H	O	9999	1	20
+K1	Remarks	H	O	0	10	21
+P5	Port Function	H	O	5	1	22
+K1	Remarks	H	O	0	10	23
+M21	Supplementary In-Bond Information	H	O	1	1	24
+K1	Remarks	H	O	0	10	25
+M14	General Order Status Information	H	O	9999	1	26
+K1	Remarks	H	O	0	10	27
+M15	Customs Events Advisory Details	H	O	9999	1	28
+K1	Remarks	H	O	0	10	29
+M20	Permit To Transfer Request Details	H	O	9999	1	30
+K1	Remarks	H	O	0	10	31
+VID	Conveyance Identification	H	O	999	1	32
+K1	Remarks	H	O	0	10	33
+MBL	Bill Of Lading	H	O	9999	1	34
+K1	Remarks	H	O	0	10	35
+M13	Manifest Amendment Details	H	O	999	1	36
+K1	Remarks	H	O	0	10	37
+VC	Motor Vehicle Control	H	O	36	1	38
+K1	Remarks	H	O	0	10	39
+N10	Quantity And Description	H	O	999	1	40
+K1	Remarks	H	O	0	10	41
+H1	Hazardous Material	H	O	10	1	42
+K1	Remarks	H	O	0	10	43
+H2	Additional Hazardous Material Description	H	O	99	1	44
+K1	Remarks	H	O	0	10	45
+K3	File Information	D	M	0	1	46

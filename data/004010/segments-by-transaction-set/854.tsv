@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+BDD	Beginning Segment For Shipment Delivery Discrepancy Information	H	M	0	1	1
+G62	Date/Time	H	O	0	1	2
+L11	Business Instructions And Reference Number	H	O	0	20	3
+K1	Remarks	H	O	0	10	4
+N1	Party Identification	H	O	10	1	5
+N2	Additional Name Information	H	O	0	2	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+G61	Contact	H	O	0	1	9
+L11	Business Instructions And Reference Number	H	O	0	20	10
+LX	Transaction Set Line Number	D	M	999	1	11
+L11	Business Instructions And Reference Number	D	O	0	5	12
+G62	Date/Time	D	O	0	1	13
+G07	Carrier Information	D	O	0	999999	14
+N1	Party Identification	D	O	10	1	15
+N2	Additional Name Information	D	O	0	2	16
+N3	Party Location	D	O	0	2	17
+N4	Geographic Location	D	O	0	1	18
+G61	Contact	D	O	0	1	19
+Q8	Detail Delivery Exception Information	D	M	999	1	20
+G62	Date/Time	D	O	0	1	21
+K1	Remarks	D	O	0	1	22
+LS	Loop Header	D	O	0	1	23
+N1	Party Identification	D	O	10	1	24
+N2	Additional Name Information	D	O	0	2	25
+N3	Party Location	D	O	0	2	26
+N4	Geographic Location	D	O	0	1	27
+LE	Loop Trailer	D	O	0	1	28

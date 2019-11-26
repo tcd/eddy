@@ -1,0 +1,22 @@
+id	definition
+01	No Special Accounting Action
+02	Action Code Reset
+03	Relief Provisions
+04	Bankruptcy or Litigation
+05	Referred for Deed in Lieu of Foreclosure
+06	Referred for Foreclosure
+07	Loan Inactive for Accounting
+08	Loan Reinstated for Accounting
+09	Payoff
+10	Payoff - Repurchased
+1A	Payoff - Alternative Conversion Adjustable Rate Mortgage to Fixed Rate Mortgage
+1B	Real Estate Owned Property
+1C	Third-party Foreclosure Sale
+1D	Federal Housing Administration or Veterans Administration/Real Estate Owned or Conveyance
+1E	Short Payoff
+1F	Principal Balance Correction
+1G	Delinquency
+1H	Third Party Sale, Pre-Foreclosure Sale and Short Payoff
+1J	Payoff - Prepaid
+1K	Payoff - Matured
+IL	Substitution

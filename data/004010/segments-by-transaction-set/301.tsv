@@ -1,0 +1,40 @@
+id	description	section	req	max_loop	max_usage	pos
+B1	Beginning Segment For Booking Or Pickup/Delivery	H	M	0	1	1
+G61	Contact	H	O	0	3	2
+Y6	Authentication	H	O	0	2	3
+Y3	Space Confirmation	H	M	0	1	4
+Y4	Container Release	H	O	10	1	5
+W09	Equipment And Temperature	H	O	0	1	6
+N9	Extended Reference Information	H	O	0	100	7
+R2A	Route Information With Preference	H	O	0	25	8
+N1	Party Identification	H	O	4	1	9
+N2	Additional Name Information	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+G61	Contact	H	O	0	3	13
+R4	Port Or Terminal	H	M	20	1	14
+DTM	Date/Time Reference	H	O	0	15	15
+W09	Equipment And Temperature	H	O	0	1	16
+H3	Special Handling Instructions	H	O	0	6	17
+EA	Equipment Attributes	H	O	0	5	18
+LX	Transaction Set Line Number	D	M	999	1	19
+N7	Equipment Details	D	O	0	1	20
+W09	Equipment And Temperature	D	O	0	1	21
+K1	Remarks	D	O	0	10	22
+L0	Line Item - Quantity And Weight	D	O	0	1	23
+L5	Description, Marks And Numbers	D	O	0	1	24
+L4	Measurement	D	O	0	1	25
+L1	Rate And Charges	D	O	0	1	26
+H1	Hazardous Material	D	O	10	1	27
+H2	Additional Hazardous Material Description	D	O	0	10	28
+LH1	Hazardous Identification Information	D	O	100	1	29
+LH2	Hazardous Classification Information	D	O	0	4	30
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	31
+LFH	Free-Form Hazardous Material Information	D	O	0	25	32
+LEP	Epa Required Data	D	O	0	3	33
+LH4	Canadian Dangerous Requirements	D	O	0	1	34
+LHT	Transborder Hazardous Requirements	D	O	0	3	35
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	36
+PER	Administrative Communications Contact	D	O	0	5	37
+V1	Vessel Identification	D	O	0	2	38
+V9	Event Detail	D	O	0	10	39

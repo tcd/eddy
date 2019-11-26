@@ -1,0 +1,24 @@
+id	definition
+A	Antenna Warning
+B	Antenna Fatal
+C	Communication Warning
+D	Communication Fatal
+E	Intertrack Communication Failure Warning
+F	Intertrack Communication Failure Fatal
+G	Good
+H	Power Supply Failure
+I	Power Supply Fatal
+J	Power Supply Off
+K	Software Set-up Failure
+L	Available
+M	Multiple Processor
+O	Presence Loop Off
+Q	Presence Loop On
+R	Reader or Radio Frequency Warning
+S	Reader or Radio Frequency Fatal
+T	Transducer Warning
+U	Transducer Fatal
+V	Transducer Off
+X	External Detector Warning
+Y	External Detector Fatal
+Z	Security

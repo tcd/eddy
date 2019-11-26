@@ -1,0 +1,21 @@
+id	definition
+AI	Assigned Identification
+AN	Due to Number
+DT	Date of Transaction
+EI	Entity Identification (Primary)
+ES	Entity Identification (Secondary)
+IN	Invoice Number
+LI	Location Identification
+MA	Monetary Amount
+MV	Measurement Value
+PO	Purchase Order Number
+PR	Pricing Specification
+PS	Product or Service Identification
+QY	Quantity
+RP	Reference Identification (Primary)
+RS	Reference Identification (Secondary)
+RT	Rate
+TT	Time of Transaction
+TX	Tax Identification
+UP	Unit Price
+DFI	Depository Financial Institution (DFI) Identification Number

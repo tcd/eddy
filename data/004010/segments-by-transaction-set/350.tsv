@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	O	0	1	1
+P4	Port Information	H	O	20	1	2
+V9	Event Detail	H	O	0	20	3
+VID	Conveyance Identification	H	O	0	9999	4
+K1	Remarks	H	O	0	4	5
+X4	Customs Release Information	H	O	9999	1	6
+K1	Remarks	H	O	0	4	7
+N9	Extended Reference Information	H	O	0	999	8
+N7	Equipment Details	H	O	0	999	9
+BA1	Export Shipment Identifying Information	H	O	999	1	10
+X4	Customs Release Information	H	O	9999	1	11
+K1	Remarks	H	O	0	4	12

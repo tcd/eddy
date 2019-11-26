@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+CF1	Beginning Segment For Summary Freight Bill Manifest	H	M	0	1	1
+CF2	Summary Freight Bill Detail	H	M	9999	1	2
+L11	Business Instructions And Reference Number	H	O	0	99	3

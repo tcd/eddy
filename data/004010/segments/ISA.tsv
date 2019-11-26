@@ -1,0 +1,17 @@
+Ref	Id	Req	Type	Min	Max	ElementName	Note
+ISA01	I01	M	ID	2	2	Authorization Information Qualifier	
+ISA02	I02	M	AN	10	10	Information	Defaults to 10 blank spaces
+ISA03	I03	M	ID	2	2	Security Information Qualifier	
+ISA04	I04	M	AN	10	10	Information	Defaults to 10 blank spaces
+ISA05	I05	M	ID	2	2	Interchange ID Qualifier	
+ISA06	I06	M	AN	15	15	Interchange Sender ID	
+ISA07	I05	M	ID	2	2	Interchange ID Qualifier	
+ISA08	I07	M	AN	15	15	Interchange Receiver ID	
+ISA09	I08	M	DT	6	6	Interchange Date	
+ISA10	I09	M	TM	4	4	Interchange Time	
+ISA11	I10	M	ID	1	1	Interchange Control Standards Identifier	
+ISA12	I11	M	ID	5	5	Interchange Control Version Number	
+ISA13	I12	M	N0	9	9	Interchange Control Number	
+ISA14	I13	M	ID	1	1	Acknowledgment Requested	
+ISA15	I14	M	ID	1	1	Usage Indicator	
+ISA16	I15	M	N/A	1	1	Component Element Separator	

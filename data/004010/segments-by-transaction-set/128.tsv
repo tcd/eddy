@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	1	1
+N2	Additional Name Information	H	O	0	99	2
+N3	Party Location	H	O	0	2	3
+N4	Geographic Location	H	O	0	1	4
+DN	Dealer Effectivity	H	O	0	7	5
+R9	Route Code Identification	H	O	0	50	6
+DH	Dealer Hours	H	O	0	28	7
+PER	Administrative Communications Contact	H	O	0	1	8
+K1	Remarks	H	O	0	1	9

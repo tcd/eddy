@@ -1,0 +1,17 @@
+id	definition
+B	Binary
+R	Decimal
+AN	String
+DT	Date
+ID	Identifier
+N0	Numeric With No Decimal Positions
+N1	Numeric With One Decimal Position
+N2	Numeric With Two Decimal Positions
+N3	Numeric With Three Decimal Positions
+N4	Numeric With Four Decimal Positions
+N5	Numeric With Five Decimal Positions
+N6	Numeric With Six Decimal Positions
+N7	Numeric With Seven Decimal Positions
+N8	Numeric With Eight Decimal Positions
+N9	Numeric With Nine Decimal Positions
+TM	Time

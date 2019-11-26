@@ -1,0 +1,1405 @@
+id	name	type	min	max	description
+1	Route Code	AN	1	13	Mutually defined route code
+2	Number of Accepted Transaction Sets	N0	1	6	Number of accepted Transaction Sets in a Functional Group
+3	Free Form Message	AN	1	60	Free-form text
+4	Air Carrier Code	ID	3	3	Code (IATA) for the air carrier
+5	Airport Code	ID	3	5	Code (IATA) for airport
+7	Bank Account Number	AN	6	17	ID number assigned by bank to its client
+8	Bank Client Code	ID	1	1	Code identifying payee or payer
+9	Late Reason Code	ID	2	2	Identifies the reason for tardiness
+11	Billing Code	ID	1	1	Code indicating type of Bill
+12	Payment Pattern	AN	1	84	To identify a monthly payment pattern over time
+13	Booking Number	AN	1	17	Number assigned by the carrier for space reservation
+14	Carriage Value	N0	2	8	Carriage value expressed in whole units of the standard monetary denomination for the currency specified
+16	Charge Method of Payment	ID	1	1	Code defining method of payment
+19	City Name	AN	2	30	Free-form text for city name
+20	Client Bank Number	AN	3	9	Federal Reserve Routing Code
+21	Number of Shipments	N0	1	5	Total number of shipments on this transaction
+22	Commodity Code	AN	1	30	Code describing a commodity or group of commodities
+23	Commodity Code Qualifier	ID	1	1	Code identifying the commodity coding system used for Commodity Code
+24	Equipment Type	ID	4	4	Code identifying equipment type
+26	Country Code	ID	2	3	Code identifying the country
+28	Group Control Number	N0	1	9	Assigned number originated and maintained by the sender
+31	Adjustment Number	AN	1	22	Identification assigned to an inventory level or status adjustment
+32	Delivery Date	DT	8	8	Date for delivery of cargo to final consignee or to next mode expressed in format CCYYMMDD
+33	Lading Exception Code	ID	1	1	Code indicating the condition of the shipment
+34	Service Standard	N1	1	4	To report the time period of carrier's standard service for the shipment
+35	Disposition Code	ID	2	2	Code advising the carrier or port authority about postings to a bill of lading
+39	Entitlement Code	ID	1	1	Code identifying entitlement party
+40	Equipment Description Code	ID	2	2	Code identifying type of equipment used for shipment
+41	Interchange Train Identification	AN	1	10	Train identification (free-form)
+42	Block Identification	AN	1	12	Identifier for a block of cars
+46	Ex Parte	AN	4	4	Level of rates as published in the tariff
+47	Export Filing Key Code	ID	1	1	Code indicating the type of communications with customs
+48	Export License Control Code	ID	1	1	Code indicating the type of control applicable to the export license
+50	Export License Number	AN	6	12	Government assigned identification number for exporter
+51	Export License Status Code	ID	1	1	Code defining whether the shipment completes the terms of the license, or the shipment is only a partial delivery relative to the license terms
+52	Export License Symbol Code	ID	1	2	Code which specifies the export symbol marked on a shipment
+54	Risk of Loss Code	ID	2	2	Code specifying where responsibility for risk of loss passes
+55	Flight/Voyage Number	AN	2	10	Identifying designator for the particular flight or voyage on which the cargo travels
+56	Type of Service Code	ID	2	2	Code specifying extent of transportation service requested
+58	Charge	N2	1	12	For a line item: freight or special charge; for the total invoice: the total charges -- expressed in the standard monetary denomination for the currency specified
+59	Freight Class Code	AN	2	5	Code indicating generalized classification that applies to one or more items in the shipment, i.e., class 70, 77.5, etc.
+60	Freight Rate	R	1	9	Rate that applies to the specific commodity
+61	Free-Form Message	AN	1	30	Free-form information
+62	Hazardous Material Code	AN	4	10	Code relating to hazardous material code qualifier for regulated hazardous materials
+63	Hazardous Material Contact	AN	1	24	Phone number and name of person or department to contact in case of emergency
+64	Hazardous Material Description	AN	2	30	Material name, special instructions, and phone number if any
+65	Height	R	1	8	Vertical dimension of an object measured when the object is in the upright position
+66	Identification Code Qualifier	ID	1	2	Code designating the system/method of code structure used for Identification Code (67)
+67	Identification Code	AN	2	80	Code identifying a party or other code
+68	Import License Expiration Date	DT	6	6	Date import license expires
+69	Import License Issue Date	DT	6	6	Date the import license was issued
+70	Import License Number	AN	6	30	Government assigned identification number for importer of foreign shipments
+71	Inquiry Request Number	N0	1	3	Identifying number assigned by inquirer
+72	Type of Service Offered Code	ID	1	1	Code indicating type of service offered by carrier
+73	Compensation Qualifier	ID	1	1	Code indicating type of compensation
+74	Declared Value	N2	2	12	Monetary assigned value expressed in the standard monetary denomination for the currency specified
+76	Invoice Number	AN	1	22	Identifying number assigned by issuer
+77	Flashpoint Temperature	N	1	3	The flashpoint temperature for hazardous material
+78	Container Type Request Code	ID	1	1	Code indicating type of container equipment requested
+79	Lading Description	AN	1	50	Description of an item as required for rating and billing purposes
+80	Lading Quantity	N0	1	7	Number of units (pieces) of the lading commodity
+81	Weight	R	1	10	Numeric value of weight
+82	Length	R	1	8	Largest horizontal dimension of an object measured when the object is in the upright position
+83	Licensing Agency Code	ID	1	1	Code for licensing agency
+86	Total Equipment	N0	1	3	Total pieces of equipment
+87	Marks and Numbers	AN	1	48	Marks and numbers used to identify a shipment or parts of a shipment
+88	Marks and Numbers Qualifier	ID	1	2	Code specifying the application or source of Marks and Numbers (87)
+90	Measurement Unit Qualifier	ID	1	1	Code specifying the linear dimensional unit
+91	Transportation Method/Type Code	ID	1	2	Code specifying the method or type of transportation for the shipment
+92	Purchase Order Type Code	ID	2	2	Code specifying the type of Purchase Order
+93	Name	AN	1	60	Free-form name
+95	Number of Containers	N0	1	4	Number of shipping containers
+96	Number of Included Segments	N0	1	10	Total number of segments included in a transaction set including ST and SE segments
+97	Number of Transaction Sets Included	N0	1	6	Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element
+98	Entity Identifier Code	ID	2	3	Code identifying an organizational entity, a physical location, property or an individual
+100	Currency Code	ID	3	3	Code (Standard ISO) for country in whose currency the charges are specified
+102	Ownership Code	ID	1	1	Code indicating the relationship of equipment to carrier or ownership of equipment
+103	Packaging Code	AN	3	5	Code identifying the type of packaging; Part 1: Packaging Form, Part 2: Packaging Material; if the Data Element is used, then Part 1 is always required
+104	Type of Bankruptcy Code	ID	1	1	Code indicating list of bankruptcy types
+106	Event	AN	1	25	Free-form description of event
+107	Payment Method Code	ID	1	2	Code identifying type of payment procedures
+108	Pick-up or Delivery Code	ID	1	2	Specifies the location or type of pickup or delivery
+109	Pick-up Date	DT	8	8	Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
+110	Application Acknowledgment Code	ID	1	2	Code indicating the application system edit results of the business data
+111	Pick-up Time	TM	4	4	Time (HHMM) that the carrier is to pick up the shipment
+112	Pier Name	AN	2	14	Free-form name of the pier
+113	Pier Number	AN	1	4	Identifying number for the pier
+114	Port Name	AN	2	24	Free-form name for the place at which an offshore carrier originates or terminates (by transshipment or otherwise) its actual ocean carriage of property
+115	Port or Terminal Function Code	ID	1	1	Code defining function performed at the port or terminal with respect to a shipment
+116	Postal Code	ID	3	15	Code defining international postal zone code excluding punctuation and blanks (zip code for United States)
+117	Prepaid Amount	N2	1	9	Money paid at point of origin (usually by shipper) expressed in the standard monetary denomination for the currency specified
+118	Rate	R	1	9	Rate expressed in the standard monetary denomination for the currency specified
+119	Rate Basis Number	AN	1	6	The (mileage) factor published for rating purposes in the appropriate tariff
+120	Rate Combination Point Code	AN	3	9	The code denoting the connecting station for a joint rate obtained by combining two or more published rates which are used for the calculation of transportation charges
+121	Rate Class Code	ID	1	3	Code identifying specifically designated class of goods; Note: For international air shipments, see IATA Resolution 600k
+122	Rate/Value Qualifier	ID	2	2	Code qualifying how to extend charges or interpret value
+123	Number of Received Transaction Sets	N0	1	6	Number of Transaction Sets received
+124	Application Receiver's Code	AN	2	15	Code identifying party receiving transmission. Codes agreed to by trading partners
+127	Reference Identification	AN	1	30	Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier
+128	Reference Identification Qualifier	ID	2	3	Code qualifying the Reference Identification
+129	Referenced Pattern Identifier	AN	1	13	Identification of a repetitive pattern that is to be used as a basis for creating a shipment record or a new pattern; or identification of a pattern requiring change or deletion
+132	Release Code	ID	1	1	Code signifying whether or not the shipment information transaction set includes instructions for pick-up and movement of the shipment; (This code provides a means for the shipper to transmit billing data along with the movement instructions, transmit billing data ahead of the movement instructions, or follow movement instructions with complete billing data at a later date)
+133	Routing Sequence Code	ID	1	2	Code describing the relationship of a carrier to a specific shipment movement
+135	Sailing/Flight Date Estimated	DT	8	8	Date for reservation expressed in format CCYYMMDD
+136	Sales Comment	AN	2	30	Free-form text used to clarify sales/delivery terms
+137	Sales Reference Date	DT	8	8	Date of letter or account number source expressed in format CCYYMMDD
+138	Sales Reference Number	AN	4	6	Letter or account number referring to a sales document
+139	Sales Terms Code	ID	2	2	Code identifying terms of sale
+140	Standard Carrier Alpha Code	ID	2	4	Standard Carrier Alpha Code
+141	Schedule B Code	ID	7	10	Code identifying commodity number established for international statistical purposes
+142	Application Sender's Code	AN	2	15	Code identifying party sending transmission; codes agreed to by trading partners
+143	Transaction Set Identifier Code	ID	3	3	Code uniquely identifying a Transaction Set
+145	Shipment Identification Number	AN	1	30	Identification number assigned to the shipment by the shipper that uniquely identifies the shipment from origin to ultimate destination and is not subject to modification; (Does not contain blanks or special characters)
+146	Shipment Method of Payment	ID	2	2	Code identifying payment terms for transportation charges
+147	Shipment Qualifier	ID	1	1	Code defining relationship of this shipment with respect to other shipments given to the carrier at the same time
+148	Lading Value	R	2	9	Value of shipment for export, expressed in the standard monetary denomination for the currency specified
+150	Special Charge or Allowance Code	ID	3	3	Code identifying type of special charge or allowance
+151	Authority	AN	1	20	Name or code of authority for authorizing action or reservation
+152	Special Handling Code	ID	2	3	Code specifying special transportation handling instructions
+153	Special Handling Description	AN	2	30	Free-form additional description of special handling instructions to appear on printed bill if special handling code is not adequate
+154	Standard Point Location Code	ID	6	9	Code (Standard Point Location) defined by NMFTA point development group as the official code assigned to a city or point (for ratemaking purposes) within a city
+156	State or Province Code	ID	2	2	Code (Standard State/Province) as defined by appropriate government agency
+157	Shipment Status Code	ID	1	2	Code indicating the status of a shipment
+158	Status Date	DT	6	6	Date of last reported status of cargo
+159	Status Location	AN	3	5	Air shipment: Airport code for last reported status for a shipment; (Note: If the shipment is in-flight, the status location is the origin airport for this flight) Ground transportation: Code of carrier's terminal
+160	Status Report Request Code	ID	1	1	Code used by the shipper to specify that an automatic status report is requested when the shipment is delivered
+161	Status Time	TM	4	4	Time (HHMM) of last reported status of cargo
+163	Stop Reason Code	ID	2	2	Code specifying the reason for the stop
+165	Stop Sequence Number	N0	1	3	Identifying number for the specific stop and the sequence in which the stop is to be performed
+166	Address Information	AN	1	55	Address information
+167	Tare Weight				View more information
+168	Tariff Agency Code	ID	1	4	Code defining the tariff bureau or tariff publishing agent that governs the rates applied to this shipment
+169	Tariff Item Number	AN	1	16	Number assigned in the tariff to specific rate or group of rates that applies to one or more items in the shipment
+170	Tariff Item Part	N0	1	2	Number assigned to subsection of a specific tariff item (arbitrary)
+171	Tariff Number	AN	1	7	Standard tariff number for the tariff which governs the rates applied to the commodity item(s)
+172	Tariff Section	AN	1	2	Number used as an extension of the basic tariff number to identify the rates published within specific sections of the tariff
+173	Tariff Supplement Identifier	AN	1	4	Identifier for the tariff supplement which contains the rate used
+174	Terminal Name	AN	2	30	Free-form field for terminal name
+176	Time Qualifier	ID	1	2	Code specifying the reported time
+177	Intermodal Service Code	ID	1	2	Code identifying the Intermodal Service Plan
+181	Quantity or Status Adjustment Reason Code	ID	2	2	Code indicating reason for change in level or status of inventory
+182	Vessel Name	AN	2	28	Name of ship as documented in Lloyd's Register of Ships
+183	Volume	R	1	8	Value of volumetric measure
+184	Volume Unit Qualifier	ID	1	1	Code identifying the volume unit
+186	Waybill Number	N0	1	6	Carrier accounting number of the waybill for the inbound movement
+187	Weight Qualifier	ID	1	2	Code defining the type of weight
+188	Weight Unit Code	ID	1	1	Code specifying the weight unit
+189	Width	R	1	8	Shorter measurement of the two horizontal dimensions measured with the object in the upright position
+190	Accomplish Code	ID	1	1	Code indicating the status of a specified stop
+191	Advances	N2	1	9	Incidental charges occurring during transportation which are not generally considered to be freight charges (examples - stop charges, diversion and reconsignment, icing) expressed in the standard monetary denomination for the currency specified
+192	Agent/Shipper Routing Code	ID	1	1	Code identifying source of routing specification
+193	Net Amount Due	N2	1	12	Total charges to be paid by the receiver of this transaction set expressed in the standard monetary denomination for the currency specified
+195	Capacity Load Code	ID	1	1	Code specifying type of capacity load
+196	Mortgagor Response Code	ID	1	1	Code indicating borrower's attitude toward mortgage default
+197	Mortgagee Information Status Code	ID	2	2	Code indicating mortgagee name and address information status
+199	Confidential Billing Request Code	ID	1	1	Code used by the shipper to request that the carrier inhibit origin identification information from the invoice transaction sets and/or rate and charges from waybill documents and transaction sets when shipment moves under confidential contract rates
+200	Hazardous Materials Page	AN	1	6	The United Nations page number as required for the international transport of hazardous materials
+201	Business Transaction Status	ID	1	3	Code indicating the status of an ocean business transaction as it relates to the processing of ocean bills of lading
+202	Correction Indicator	ID	2	2	Code used to indicate that the transaction set contains information which corrects previous information
+203	Cubic Capacity	N0	2	4	Capacity of car ordered (cubic feet unless otherwise specified)
+204	Direct Store Delivery Sequence Number	N0	1	4	Direct Store Delivery sequential number of the line item detail or a new line item detail
+205	Dunnage	N0	1	6	Weight of material used to protect lading (even bracings, false floors, etc.)
+206	Equipment Initial	AN	1	4	Prefix or alphabetic part of an equipment unit's identifying number
+207	Equipment Number	AN	1	10	Sequencing or serial part of an equipment unit's identifying number (pure numeric form for equipment number is preferred)
+208	Hazardous Material Code Qualifier	ID	1	1	Code which qualifies the Hazardous Material Class Code (209)
+209	Hazardous Material Class Code	AN	1	4	Code specifying the kind of hazard for a material
+210	International/Domestic Code	ID	1	1	Code indicating international or domestic shipment
+211	Packaging Form Code	ID	3	3	Code for packaging form of the lading quantity
+212	Unit Price	R	1	17	Price per unit of product, service, commodity, etc.
+213	Lading Line Item Number	N0	1	3	Sequential line number for a lading item
+214	Waybill Request Code	ID	1	1	To identify the type of waybill request
+215	Hazardous Classification	ID	1	30	The hazardous classification corresponding to the shipping name of the hazardous commodity
+216	Metric Qualifier	ID	1	1	Code used to indicate that measurements are given in metric units
+218	Hazardous Placard Notation	ID	14	40	The placard notation corresponding to the hazard class of the hazardous commodity
+219	Position	AN	1	3	Relative position of shipment in car, trailer, or container (mutually defined)
+220	Billed/Rated-as Quantity	R	1	11	Basis for rating (miles, value, volume, etc.); Note: Weight may be defined by either data element 220 or 81
+221	Billed/Rated-as Qualifier	ID	2	2	Code identifying the type of quantity or value on which the rate or item pricing is based
+222	Hazardous Endorsement	ID	4	25	The placard endorsement that is to be shown on the shipping papers for the hazardous commodity
+223	Repetitive Pattern Number	N0	5	5	RWC number composed of a four-digit number with a fifth digit being a modulus 10 check digit
+224	Hazardous Material Shipping Name	AN	1	25	The proper shipping name of the hazardous commodity as specified by the Code of Federal Regulations, Title 49
+225	Seal Number	AN	2	15	Unique number on seal used to close a shipment
+226	Section Seven Code	ID	1	1	Code indicating applicability of section seven option (if not transmitted assume not in effect)
+227	Tariff Column	AN	1	2	A tariff commodity classification that is used, as a means of control, for grouping of commodities in tariff applications
+229	Transit Registration Number	AN	1	6	Freight bill or bureau number used to identify a transit shipment
+230	Subsidiary Classification	ID	1	3	Code indicating the classification of dangerous goods, other than the primary classification, that is associated with a number or a set of numbers
+231	Cross Reference Type Code	ID	1	1	Code defining relationship of equipment to equipment cross-referenced
+232	Weight Allowance	N0	2	6	Allowance made for increased weight due to such factors as snow
+233	Weight Capacity	N0	2	3	Capacity of car ordered (stated in 1000 pound units or 1000 kilogram units)
+234	Product/Service ID	AN	1	48	Identifying number for a product or service
+235	Product/Service ID Qualifier	ID	2	2	Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+236	Price Identifier Code	ID	3	3	Code identifying pricing specification
+237	Item List Cost	R	1	9	Gross unit cost within the appropriate price bracket for a line item
+238	Emergency Response Plan Number	AN	1	12	The identity number of a specific hazardous emergency response plan that is assigned by the Director General of Canada
+240	Car Service Order Code	ID	3	5	Code specifying car service order
+241	Protective Service Code	ID	1	4	Code specifying perishable protective service- rail carriers only
+242	Vent Instruction Code	ID	1	7	Code specifying vent instructions
+243	Transaction Reference Date	DT	8	8	Date of referenced transaction set expressed in format CCYYMMDD
+244	Transaction Reference Number	AN	1	15	Sender's assigned number for referenced transaction set
+246	Certification/Clause Code	ID	2	4	Code identifying certification/clause information
+247	Certification/Clause Text	AN	2	60	Free-form description of commercial invoice certification/clause
+248	Allowance or Charge Indicator	ID	1	1	Code which indicates an allowance or charge for the service specified
+249	Vessel Requirement Code	ID	1	1	Code specifying options for satisfying vessel requirements
+250	Letter of Credit Number	AN	2	40	Identifying reference number for a letter of credit
+253	Automobile Ramp Facility Code	ID	1	1	Code identifying the type of automobile ramp facility
+254	Packing Group Code	ID	1	3	Code indicating degree of danger in terms of Roman number I, II or III
+255	Expiration Date	DT	6	6	Date of expiration of tariff or tariff supplement
+256	Manifest Type Code	ID	1	1	Code identifying the type of manifest transmitted
+257	Tariff Application Code	ID	1	1	Code indicating to which traffic a tariff applies
+258	Quantity Cost	N4	1	9	Cost per unit as expressed in the associated data element 355 (Unit of Measure) whenever unit is different than the quantity ordered
+259	Change Type Code	ID	1	1	Code indicating change type
+260	Group Title	AN	2	30	The descriptive title of a data group
+261	Source of Disclosure Code	ID	1	1	Code identifying the source of the disclosure information
+262	Geography Qualifier Code	ID	1	1	Code indicating geographic usage for tariff application
+263	Rating Code	ID	2	2	Code identifying the status of the credit account rating
+264	Census Merchandise Type Code	ID	1	1	Code indicating type of merchandise
+265	Census Export License Identifier Code	ID	1	1	Code indicating export licenses issued by Department of Commerce
+267	Net Explosive Quantity	N0	1	6	Net weight of the explosive quantity of the hazardous commodity
+268	Census Container Code	ID	1	1	Code indicating containerization
+269	Census Special Identifier Code	ID	1	1	Code identifying intransit shipments, nonstatistical shipments, and correction records
+271	Subsidiary Risk Indicator	ID	1	2	Code identifying the type of subsidiary risk
+272	Hazardous Certification Code	ID	1	1	Code indicating the form of the hazardous certification
+273	Hazardous Certification Declaration	AN	1	25	Hazardous material certification verbiage as required by Title 49 of Code of Federal Regulations
+274	Hazardous Material Classification	AN	1	30	Free-form description of hazardous material classification or division or label requirements
+275	Authorization Date	DT	8	8	Date authentication is made expressed in format CCYYMMDD
+276	Special Charge Description	AN	2	25	Identification of special charge; this data element is used whenever an applicable code cannot be found in data element 150
+277	UN/NA Identification Code	ID	6	6	Code identifying the hazardous material identification number as required by Title 49 of the code of Federal Regulations; UN/NA stands for United Nations/North America
+278	Terminator Type Code	ID	1	1	Code identifying the type of cluster being terminated
+280	Exchange Rate	R	4	10	Value to be used as a multiplier conversion factor to convert monetary value from one currency to another
+281	Carrier Restriction Code	AN	1	10	Carrier's internal code indicating carrier's restricted services
+282	Terms Start Date	DT	8	8	Date from which payment terms are calculated expressed in format CCYYMMDD
+283	Terms Due Date Qualifier	ID	2	2	Code identifying the method to be used for payment in conjunction with due date
+284	Service Level Code	ID	2	2	Code indicating the level of transportation service or the billing service offered by the transportation carrier
+285	Depositor Order Number	AN	1	22	Identifying number for warehouse shipping order assigned by the depositor
+286	Product/Service Condition Code	ID	2	2	Code identifying condition of product/service
+287	Authorize/ De-Authorize Code	ID	1	1	Code specifying the function of the authorize/de-authorize transaction set
+288	Prepriced Option Code	ID	1	1	Code specifying prepricing option selected
+289	Multiple Price Quantity	N0	1	2	Quantity of units for a given price, e.g., 3 for $10.00
+290	Price Condition Code	ID	2	2	Code identifying a particular condition applicable to a price change
+291	Price Condition Applies Code	ID	3	3	Code indicating whether price conditions apply to a price change
+292	Quantity Basis	ID	3	3	Identifies the total product allocation condition
+293	Promotion Condition Qualifier	ID	2	2	Code to inform retailer/wholesaler of the promotion
+294	Tariff Distance	N0	1	5	Distance on which the rate for a shipment is based
+295	Distance Qualifier	ID	1	1	Code identifying the distance unit
+296	Intermediate Switch Carrier	ID	2	4	Code defining a road which neither originates nor terminates the shipment but provides a switching service between two roadhaul rail carriers (SCAC code for rail switch carrier)
+298	Origin EDI Carrier Code	ID	2	4	Code (SCAC) identifying the carrier which originates the EDI transaction set for a shipment
+299	Free-form Transit Data	AN	1	80	Free-form data relative to inbound transit information
+301	Car Type Code	ID	1	4	Code specifying type of rail car or intermodal equipment type and its general characteristics
+304	Event Code	ID	3	3	Code identifying the event about which a report is made
+305	Transaction Handling Code	ID	1	2	Code designating the action to be taken by all parties
+306	Action Code	ID	1	2	Code indicating type of action
+308	Damage Exception Indicator	ID	1	1	Code to indicate whether damage is being reported to a vehicle in this transaction set
+309	Location Qualifier	ID	1	2	Code identifying type of location
+310	Location Identifier	AN	1	30	Code which identifies a specific location
+311	Shipment Type Code	ID	1	2	Code identifying shipment type
+312	Special Indicator Code	ID	1	1	Code identifying shipment type
+313	Authority Identifier Code	ID	2	2	Code indicating authority for authentication
+315	Compensation Paid	R	2	5	Commission paid to broker for services rendered
+316	Next Port of Discharge	AN	2	24	Port at which vessel will make next discharge
+317	Total Compensation Amount	N0	3	10	Amount calculated from brokerage amount
+318	Current Port of Loading	AN	2	24	Port at which cargo is currently being loaded
+319	Temperature Control	AN	3	6	Free-form abbreviation of temperature range or flash-point temperature
+320	Scale	AN	1	10	A carrier-maintained reference used to further identify a schedule of rates within a tariff
+321	Intermodal Facility Code	ID	1	1	Code identifying the type of intermodal loading and unloading facility
+322	Load/Empty Status Code	ID	1	1	Code which specifies the loaded condition of transportation equipment
+323	Purchase Order Date	DT	8	8	Date assigned by the purchaser to Purchase Order expressed in format CCYYMMDD
+324	Purchase Order Number	AN	1	22	Identifying number for Purchase Order assigned by the orderer/purchaser
+325	Tax Identification Number	AN	1	20	Number assigned to a purchaser (buyer, orderer) by a taxing jurisdiction (state, county, etc.); often called a tax exemption number or certificate number
+326	Request Reference Number	AN	1	45	Reference number or RFQ number to use to identify a particular transaction set and query (additional reference number or description which can be used with contract number)
+327	Change Order Sequence Number	AN	1	8	Number assigned by the orderer identifying a specific change or revision to a previously transmitted transaction set
+328	Release Number	AN	1	30	Number identifying a release against a Purchase Order previously placed by the parties involved in the transaction
+329	Transaction Set Control Number	AN	4	9	Identifying control number that must be unique within the transaction set functional group assigned by the originator for a transaction set
+330	Quantity Ordered	R	1	15	Quantity ordered
+331	Allowance or Charge Method of Handling Code	ID	2	2	Code indicating method of handling for an allowance or charge
+332	Percent	R	1	6	Percent expressed as a percent
+333	Terms Basis Date Code	ID	1	2	Code identifying the beginning of the terms period
+334	Transportation Terms Qualifier Code	ID	2	2	Code identifying the source of the transportation terms
+335	Transportation Terms Code	ID	3	3	Code identifying the trade terms which apply to the shipment transportation responsibility
+336	Terms Type Code	ID	2	2	Code identifying type of payment terms
+337	Time	TM	4	8	Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)
+338	Terms Discount Percent	R	1	6	Terms discount percentage, expressed as a percent, available to the purchaser if an invoice is paid on or before the Terms Discount Due Date
+339	Allowance or Charge Quantity	R	1	10	Quantity basis when allowance or charge quantity is different from the purchase order or invoice quantity
+340	Allowance or Charge Code	ID	1	3	Code identifying the type of allowance or charge
+341	Allowance or Charge Number	AN	1	16	The number assigned by a vendor referencing an allowance, promotion, deal or charge
+342	Percent of Invoice Payable	R	1	5	Amount of invoice payable expressed in percent
+343	Installment Total Invoice Amount Due	N2	1	10	Deferred or installment portion of the total invoice (including charges, less allowances) before terms discount (if discount is applicable)
+344	Unit of Time Period or Interval	ID	2	2	Code indicating the time period or interval
+345	Lead Time Code	ID	2	2	Code indicating the time range
+346	Application Type	ID	2	2	Code identifying an application
+347	Hash Total	R	1	10	Sum of values of the specified data element. All values in the data element will be summed without regard to decimal points (explicit or implicit) or signs. Truncation will occur on the left most digits if the sum is greater than the maximum size of the hash total of the data element.
+348	Jurisdiction Code	ID	3	3	Code indicating the jurisdiction of the regional servicing office
+349	Item Description Type	ID	1	1	Code indicating the format of a description
+350	Assigned Identification	AN	1	20	Alphanumeric characters assigned for differentiation within a transaction set
+351	Terms Discount Days Due	N0	1	3	Number of days in the terms discount period by which payment is due if terms discount is earned
+352	Description	AN	1	80	A free-form description to clarify the related data elements and their content
+353	Transaction Set Purpose Code	ID	2	2	Code identifying purpose of transaction set
+354	Number of Line Items	N0	1	6	Total number of line items in the transaction set
+355	Unit or Basis for Measurement Code	ID	2	2	Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken
+356	Pack	N0	1	6	The number of inner containers, or number of eaches if there are no inner containers, per outer container
+357	Size	R	1	8	Size of supplier units in pack
+358	Quantity Invoiced	R	1	10	Number of units invoiced (supplier units)
+359	Allowance or Charge Rate	R	1	15	Allowance or Charge Rate per Unit
+360	Allowance or Charge Total Amount	N2	1	15	Total dollar amount for the allowance or charge
+361	Total Invoice Amount	N2	1	10	Amount of invoice (including charges, less allowances) before terms discount (if discount is applicable)
+362	Terms Discount Amount	N2	1	10	Total amount of terms discount
+363	Note Reference Code	ID	3	3	Code identifying the functional area or purpose for which the note applies
+364	Communication Number	AN	1	80	Complete communications number including country or area code when applicable
+365	Communication Number Qualifier	ID	2	2	Code identifying the type of communication number
+366	Contact Function Code	ID	2	2	Code identifying the major duty or responsibility of the person or group named
+367	Contract Number	AN	1	30	Contract number
+368	Shipment/Order Status Code	ID	2	2	Code indicating the status of an order or shipment or the disposition of any difference between the quantity ordered and the quantity shipped for a line item or transaction
+369	Free-form Description	AN	1	45	Free-form descriptive text
+370	Terms Discount Due Date	DT	8	8	Date payment is due if discount is to be earned expressed in format CCYYMMDD
+371	Change Reason Code	ID	2	2	Code specifying the reason for price or quantity change
+372	Lading Liability Code	ID	1	1	Code identifying limits of liability
+373	Date	N0	8	8	Date expressed as CCYYMMDD 
+374	Date/Time Qualifier	ID	3	3	Code specifying type of date or time, or both date and time
+375	Tariff Service Code	ID	2	2	Code specifying the types of services for rating purposes
+376	Test Indicator	ID	1	1	Code indicating whether data enclosed by this interchange envelope is test or production
+377	Rounding Rule Code	ID	1	1	Code indicating how rate should be rounded by a rate adjustment
+378	Allowance/Charge Percent Qualifier	ID	1	1	Code indicating on what basis allowance or charge percent is calculated
+379	Bid Type Response Code	ID	2	2	Code indicating the type of response to the request for bid or quote
+380	Quantity	R	1	15	Numeric value of quantity
+381	Price Reason Code	ID	1	1	Code identifying reason for differences in price or coupons redeemed
+382	Number of Units Shipped	R	1	10	Numeric value of units shipped in manufacturer's shipping units for a line item or transaction set
+383	Quantity Difference	R	1	9	Numeric value of variance between ordered and shipped quantities
+384	Gross Weight per Pack	R	1	9	Numeric value of gross weight per pack
+385	Gross Volume per Pack	R	1	9	Numeric value of gross volume per pack
+386	Terms Net Days	N0	1	3	Number of days until total invoice amount is due (discount not applicable)
+387	Routing	AN	1	35	Free-form description of the routing or requested routing for shipment, or the originating carrier's identity
+388	Terms Deferred Due Date	DT	8	8	Date deferred payment or percent of invoice payable is due expressed in format CCYYMMDD
+389	Deferred Amount Due	N2	1	10	Deferred amount due for payment
+390	Amount Subject to Terms Discount	N2	1	10	Amount upon which the terms discount amount is calculated
+391	Discounted Amount Due	N2	1	10	Amount of invoice due if paid by terms discount due date (total invoice or installment amount less cash discount)
+392	Bill of Lading Status Code	ID	1	2	Code indicating the status of a bill of lading
+393	Amendment Code	ID	2	2	Code giving the reasons for the amendment of the manifest record
+394	Warehouse Receipt Number	AN	1	12	Identification number assigned to a stock replenishment receipt by the warehouse
+395	Unit Weight	R	1	8	Numeric value of weight per unit
+396	Shipment Identification	AN	2	30	A unique control number assigned by the original shipper to identify a specific shipment
+397	Color	AN	1	10	Free-form description of color
+398	Order Sizing Factor	R	1	10	A product specification other than gross or net weight, or cubic feet for a line item or transaction used for order sizing and pricing purposes
+399	Pallet Exchange Code	ID	1	1	Code specifying pallet exchange instructions
+400	Unit Load Option Code	ID	2	2	Code identifying loading or unloading a shipment
+402	Communications ID	AN	1	10	A unique string of characters that identifies the transmitting company
+404	Transmission Control Number	N0	1	5	A unique number assigned to the transmission group by the sender
+406	Quantity of Pallets Shipped	N0	1	3	Number of pallets shipped
+407	Seal Status Code	ID	2	2	Code indicating condition of door seal upon arrival
+408	Temperature	R	1	4	Temperature
+409	Quantity of Pallets Received	N0	1	3	Number of pallets received
+410	Quantity of Pallets Returned	N0	1	3	Number of pallets returned or exchanged
+411	Quantity Contested	R	1	7	Number of units representing any difference between quantity shipped and quantity received
+412	Receiving Condition Code	ID	2	2	Code designating physical condition or status of units received in a specific shipment
+413	Quantity Received	R	1	7	Number of shipping units received
+414	Lading Quantity Received	N0	1	7	Number of units (pieces) of the lading quantity received
+415	Rate Adjustment Description Code	ID	1	2	Code describing rate adjustment functions
+416	Pallet Block and Tiers	N0	6	6	Code indicating pallet and load structure; first three digits indicate the number of cases per layer, last three digits indicate the number of layers per pallet
+417	Price Bracket Identifier	AN	1	3	Identifier assigned by the vendor for a specific price bracket
+418	Item List Cost - New	R	1	9	Unit price within the appropriate price bracket for a line item on or after an effective price date
+419	Item List Cost - Old	R	1	9	Unit price within the appropriate price bracket for a line item before an effective date
+420	Price New, Suggested Retail	N2	2	7	The consumer package price or retail unit price associated with the product applicable on or after an effective price date
+421	Price Old, Suggested Retail	N2	2	7	The consumer package price or retail unit price associated with the product applicable before an effective price date
+422	Promotion Condition Code	ID	2	2	Code describing a performance or advertising condition
+423	Promotion Status Code	ID	2	2	Code identifying a promotion status
+424	Vendor Order Number	AN	1	22	Number assigned by a vendor referencing a particular customer purchase order
+426	Adjustment Reason Code	ID	2	2	Code indicating reason for debit or credit memo or adjustment to invoice, debit or credit memo, or payment
+427	Unit Price Difference				
+429	Check Number	AN	1	16	Check identification number
+432	Date Qualifier	ID	2	2	Code specifying type of date
+433	F.O.B. Point Code	ID	2	2	Code identifying type of F.O.B. point
+434	F.O.B. Point	AN	1	30	Descriptive name of F.O.B. point
+436	Primary Publication Authority Code	ID	2	2	Code indicating type of external reference
+437	Rate Maintenance Authority Code	ID	1	1	Code indicating change authority
+438	U.P.C. Case Code	AN	12	12	Code (Universal Product Code - U.P.C.) including two high order digits identifying the system (U.S. Grocery = 00, 06 or 07; U.S. Drug = 03); using the U.S. Grocery system, the next ten digits are: Manufacturer (5) Case Code (5)
+439	Price List Number	AN	1	16	Identification number assigned by a vendor to a price list
+440	Price List Issue Number	AN	1	16	Number assigned to revised or new issues of a price list
+441	Tax Exempt Code	ID	1	1	Code identifying exemption status from sales and use tax
+442	MICR Number	AN	16	16	Identification on a bank check which includes routing and account information
+443	Contact Inquiry Reference	AN	1	20	Additional reference number or description to clarify a contact number
+444	Purchase Order Instruction Code	ID	2	2	Code defining the disposition of any difference between the quantity ordered and the quantity available for shipment
+445	Terms Exception Code	ID	2	2	Code specifying the type of terms exception
+446	Terms Net Due Date	DT	8	8	Date when total invoice amount becomes due expressed in format CCYYMMDD
+447	Loop Identifier Code	AN	1	6	The loop ID number given on the transaction set diagram is the value for this data element in segments LS and LE
+448	Property Damage Code	ID	1	2	Code identifying the damage to property
+449	Fixed Format Information	AN	1	80	Data in fixed format agreed upon by sender and receiver
+451	Warehouse Lot Number	AN	1	12	Reference number assigned by the warehouse
+452	Quantity Damaged/On Hold	R	1	9	Quantity of product received which cannot be shipped in its present form
+455	Responsible Agency Code	ID	1	2	Code used in conjunction with Data Element 480 to identify the issuer of the standard
+456	Temperature Probe Location Code	ID	2	2	Code indicating physical location of product at the time temperature was measured
+458	Dunnage Description	AN	2	25	Material used to protect lading
+459	Name (30 Character Format)	AN	2	30	Free-form organization name or official title as it should appear for mailing address
+460	Shipment Weight Code	ID	1	1	Code indicating the way by which weights are obtained for a particular shipment
+461	Transit Level Code	ID	1	3	Code indicating level of inbound transit references
+462	Through Surcharge Percent	N2	2	4	Percentage of through freight charges to be charged extra as a surcharge
+463	Paid-In Surcharge Percent	N2	2	4	Percentage of paid-in freight charges to be charged extra as a surcharge
+464	Container Terms Code	ID	3	3	Code indicating origin and destination of transportation and type of container
+465	Container Terms Code Qualifier	ID	1	1	Code indicating container terms reference
+466	Total Stopoffs	N0	1	2	Total number of stopoffs specified for a shipment
+467	Priority	N0	1	1	Number indicating importance
+468	Port Call File Number	N0	4	4	Reference number assigned by a shipper
+470	Priority Code	N0	1	1	Code indicating level of priority: 1-highest, 0-implies priority not assigned
+471	Priority Code Qualifier	AN	1	1	Number indicating the number of levels of priority (1 to 9) used for data element 470, Priority Code
+472	Link Sequence Number	N0	6	6	A two-part number in the form SSSTTT where SSS is a sequentially assigned number and TTT equals the highest sequential number being used within the associated (linked) group (Leading zeros are required for both SSS and TTT)
+473	Order Status Code	ID	1	1	Code identifying purpose of transaction set
+474	Master Reference (Link) Number	AN	1	22	Reference number assigned by the sender to relate a transaction set to a master transaction (When associating a group of purchase orders, invoices or other transaction sets, use the master reference (link) number to identify the group and the link sequence number to identify individual transaction sets within the group)
+475	Credit/Debit Adjustment Number				
+477	Credit/Debit Quantity	R	1	10	Number of supplier units credited or debited
+478	Credit/Debit Flag Code	ID	1	1	Code indicating whether amount is a credit or debit
+479	Functional Identifier Code	ID	2	2	Code identifying a group of application related transaction sets
+480	Version / Release / Industry Identifier Code	AN	1	12	Code indicating the version, release, subrelease, and industry identifier of the EDI standard being used, including the GS and GE segments; if code in DE455 in GS segment is X, then in DE 480 positions 1-3 are the version number; positions 4-6 are the release and subrelease, level of the version; and positions 7-12 are the industry or trade association identifiers (optionally assigned by user); if code in DE455 in GS segment is T, then other formats are allowed
+481	Trace Type Code	ID	1	2	Code identifying which transaction is being referenced
+482	Payment Action Code	ID	2	2	Code specifying the accounts receivable open item(s), if any, to be included in the cash application.
+483	Counseling Status Code	ID	1	1	Code identifying the status of the counseling offered
+484	Evaluation Rating Code				
+485	Results Code	ID	1	2	Code identifying the results of an applicant's inquiry
+486	Product Transfer Movement Type Code	ID	2	2	To indicate the type of product transfer movement
+487	Maintenance Operation Code	ID	1	1	Code indicating the type maintenance operation
+488	Percent	N0	1	3	Percent expressed as 0 to 100
+489	Loop Level Number	N0	1	1	A number used by the electronic form of the X12 standards to specify the loop level of a segment within a transaction set; it is 1 for the first loop level and is incremented by 1 for each succeeding loop within a loop level
+490	Note Identification Number	N0	1	6	A number providing a reference to a segment or file which contains notes or comments related to X12 standards documentation
+491	Data Element Type	ID	1	1	A code that indicates the type of data element
+492	Position in Composite	N0	1	2	The relative position of the element in the composite data element definition; it is 1 for the first element in the composite data element and is incremented by 1 for each succeeding element, to the end of the composite data element
+493	Tariff Number Suffix	AN	1	2	Suffix to a tariff identifying number
+495	Condition Segment Logical Connector	AN	1	3	Code indicating how a specific segment's statement of a rate restriction is evaluated, and its relationship to rate restrictions stated within other segments of the same segment definition.
+496	Level	N0	1	2	A code which identifies the second hierarchical level of a docket; this code provides a unique identification for a subset of rates within a docket when combined with data element 497
+497	Sub Level	AN	1	3	A code identifying the third hierarchical level of a docket; this code provides a unique identification for a subset of rates within a docket when combined with data element 496
+498	Condition Code	ID	4	4	Code defined in the official railway equipment register which identifies the type of restriction or provision applicable to a rate; when combined with element 499, a specific rate restriction or provision is represented
+499	Condition Value	AN	1	10	Identifies rate restrictions or provisions
+500	Rate Level	AN	1	5	Identifies the broad tariff change which is reflected in the rate amounts and need not be separately applied; when a rail carrier's cost recovery (RCCR) change is not applicable, then N/A will appear in this element
+501	Customs Documentation Handling Code	ID	2	2	Code defining method of handling for documentation
+502	Type of Locomotive Maintenance Code	AN	2	2	Value defining locomotive maintenance schedule
+503	Block 20 Code	ID	1	1	Code defining Block 20 characteristics
+504	Chemical Analysis Percentage	N2	2	9	Chemical analysis percentage
+505	Partition Indicator	AN	1	80	Designates the partitioned area of a code value list in the data element dictionary of the X12 standards
+506	(DFI) ID Number Qualifier	ID	2	2	Code identifying the type of identification number of Depository Financial Institution (DFI)
+507	(DFI) Identification Number	AN	3	12	Depository Financial Institution (DFI) identification number
+508	Account Number	AN	1	35	Account number assigned
+509	Originating Company Identifier	AN	10	10	A unique identifier designating the company initiating the funds transfer instructions. The first character is one-digit ANSI identification code designation (ICD) followed by the nine-digit identification number which may be an IRS employer identification number (EIN), data universal numbering system (DUNS), or a user assigned number; the ICD for an EIN is 1, DUNS is 3, user assigned number is 9
+510	Originating Company Supplemental Code	AN	9	9	A code defined between the originating company and the originating depository financial institution (ODFI) that uniquely identifies the company initiating the transfer instructions
+511	Rail Car Plate Size Code	ID	1	1	Code identifying the plate code which specifies the dimensions of a rail freight car that is the maximum size that can be handled at the station. (See Appendix A50 for source of specific measurements)
+512	Import/Export Code	ID	1	1	Code identifying the type of foreign trade shipments handling capability
+514	Reporting Code	ID	1	1	Code specifying the basis used when reporting shipment information
+515	Number of Transaction Sets Totaled	N0	1	7	Number of transaction sets for which the totals apply
+516	Total Qualifier	ID	1	1	Code identifying the span of the total specified by data element 518, Total
+517	Data Element Totaled	AN	4	5	Reference designator for the data element used in calculating the total
+518	Total	R	1	11	Algebraic sum of values in all data elements totaled
+519	Time Period Qualifier	ID	1	1	Code identifying the type of time period
+521	Product Transfer Type Code	ID	2	2	Code identifying the type of product transfer
+522	Amount Qualifier Code	ID	1	3	Code to qualify amount
+529	Inventory Transaction Type Code	ID	1	2	Code defining inventory activity
+531	Agent Shipment ID Number	AN	1	12	Identification number assigned to the shipment by the agent (Number does not contain blank or punctuation characters)
+533	Water Movement Code	ID	1	1	Code indicating type of water movement
+534	Inland Transportation Code	ID	2	2	Code identifying inland transportation operations and movements
+535	Rail Retirement Activity Code	ID	1	1	Code used to identify the activity being conveyed
+536	Nature of Claim Code	ID	2	2	Code indicating the nature of a loss and damage claim
+537	Employment Code	ID	1	1	Code indicating the type of last employer
+538	Charge/Allowance Qualifier	ID	2	2	Code indicating reason for charge or allowance
+539	Vehicle Identification Number	AN	1	25	Unique identification number stamped on the vehicle by the manufacturer
+540	Damage Type Code	ID	2	2	Code indicating the type of damage
+541	Damage Severity Code	ID	1	1	Code indicating the severity of the damage
+542	Labor Hours	N1	1	3	Labor hours
+543	Labor Rate	N2	3	6	The labor/time guide rate used by the division to reimburse the dealer for repair work
+544	Supporting Evidence Code	ID	1	1	Code indicating whether documents are provided to support evidence to a loss or damage claim
+545	Unemployed Reason Code	ID	1	1	Code indicating reason reported by claimant for not now working
+546	Status Code	ID	2	2	Code identifying the status of a claim, policy or real estate transaction
+547	Interest Type Code	ID	1	2	Code identifying the type of interest
+548	Decline/Amend Reason Code	ID	3	3	Code indicating the reason for declination or amendment
+550	Total Labor Cost	N2	3	6	Labor cost utilized in repair of the damage. Equal to the sum of the two labor hour data elements multiplied by the appropriate labor rate
+551	Total Miscellaneous Costs	N2	2	15	Sum of costs for all miscellaneous items not covered by labor and parts costs
+552	Total Repair Cost	N2	3	15	Total cost of repair for the line item of damage, equal to the sum of part cost, total labor and total miscellaneous cost
+553	Authorization Identification	AN	1	4	Identifier representing authorization of an unusual repair or some attendant condition
+554	Assigned Number	N0	1	6	Number assigned for differentiation within a transaction set
+555	Labor Operation Identifier	AN	5	6	Identifier representing the labor operation performed in repairing damage
+556	Damage Area Code	ID	2	2	Code representing the location on the vehicle where the damage was repaired
+557	Part Name	AN	3	16	Name of the part(s) replaced
+558	Reservation Action Code	ID	1	1	Code identifying action on reservation or offering
+559	Agency Qualifier Code	ID	2	2	Code identifying the agency assigning the code values
+560	Special Services Code	ID	2	10	Code identifying the special service
+561	Service Marks and Numbers	AN	1	45	Data used to identify the performance of the service specified by Special Services Code (560)
+562	Rate or Value Type Code	ID	1	2	Code identifying method used to determine the type of rate, value, or percent details
+563	Sales Requirement Code	ID	1	2	Code to identify a specific requirement or agreement of sale
+566	Product/Service Substitution Code	ID	1	2	Code indicating product or service substitution conditions
+567	Equipment Length	N0	4	5	Length (in feet and inches) of equipment ordered or used to transport shipment (The format is FFFII where FFF is feet and II is inches; the range for II is 00 through 11)
+568	Electronic Form Note Reference Code	ID	3	3	A code identifying the functional area or purpose for which the note applies in the electronic form of the X12 standards
+569	Account Number Qualifier	ID	1	3	Code indicating the type of account
+570	Scale Type Code	ID	1	1	Code identifying the type of scale
+571	Tare Qualifier Code	ID	1	1	Code identifying the type of tare
+572	Weight Allowance Type Code	ID	1	1	Code identifying the type of weight allowance
+573	Freight Station Accounting Code	ID	1	5	Code (Freight Station Accounting) (AAR Managed Code for Locations)
+574	Claim Profile	AN	14	14	A series of code entries which identify the claimed status of an employee for each day in the 14-day claim cycle for unemployment or sickness benefits
+575	City Name Qualifier Code	ID	1	1	Code qualifying city name
+576	Abbreviated Customer Name	AN	2	12	Customer name in abbreviated form
+577	Net Tons	N0	1	3	Net weight in tons
+578	Equipment Status Code	ID	1	2	Code indicating status of equipment
+579	Type of Consist Code	ID	1	1	Code indicating the type of consist
+580	Amendment Type Code	ID	1	1	Code identifying type of manifest amendment
+581	Customs Entry Type Code	ID	2	2	Code defining the type of entry assigned by U.S. Customs
+582	Bill of Lading Type Code	ID	2	2	Code identifying the type of bill of lading
+583	Factory Car Order Number	AN	6	10	This number to be supplied by the shipper for Canadian customer requirements at border points for all finished motor vehicles exported to the United States from Canada
+584	Employment Status Code	ID	2	2	Code showing the general employment status of an employee/claimant
+585	Payroll Status Code	ID	2	2	Code identifying work status according to payroll records
+586	Request for Quote Reference Number	AN	1	45	Number assigned by the purchaser to identify his request for quote
+587	Acknowledgment Type	ID	2	2	Code specifying the type of acknowledgment
+589	Position in Set	N0	1	6	Relative position of the segment in the transaction set
+590	Wages Paid Code	ID	1	1	Code identifying whether wages were paid
+591	Payment Method Code	ID	3	3	Code identifying the method for the movement of payment instructions
+592	Lading Description Qualifier	ID	1	1	Code identifying the type of lading description
+594	Frequency Code	ID	1	1	Code indicating frequency or type of payment
+595	Compartment ID Code	ID	1	1	Code identifying the compartment in a compartmentalized tank car
+597	Vessel Code	ID	1	8	Code identifying vessel
+598	Bill of Lading/Waybill Number	AN	1	12	Identification number assigned to the shipment by the carrier or consolidator
+599	Manifest Unit Code	ID	1	3	Code defining the smallest package unit for the bill of lading
+600	Place of Receipt by Pre-carrier	AN	1	17	The city or country in which the pre-carrier took possession of the cargo
+601	Customs Entry Number	AN	1	15	Automated Commercial System Code Furnished by U.S. Customs Service
+602	Customs Shipment Value	AN	2	8	Customs value in whole dollars
+603	In-bond Control Number	AN	1	25	Currently assigned control number for in-bond movement
+604	Consolidation Code	ID	1	1	Code identifying the extent of the consolidation
+605	Deficiency Judgment Code	ID	1	2	Code identifying the deficiency judgment
+607	Number of Days	N0	1	3	Count of Days
+608	Credit File Variation Code	ID	2	2	Code identifying the variations found in the specific credit files or hit levels
+609	Count	N0	1	9	Occurrence counter
+610	Amount	N2	1	15	Monetary amount
+611	Disposition Code	ID	2	2	Code identifying the disposition status
+612	Credit Report Merge Type Code	ID	1	1	Code identifying the type of merged credit report ordered
+613	Statement Number	AN	1	16	Identifying number for statement assigned by issuer for charges
+614	Store Number	AN	1	10	A number assigned to uniquely identify a retail outlet or store
+615	Time Period Qualifier	ID	1	2	Code defining periods
+616	Number of Periods	N0	1	3	Total number of periods
+617	Switch Type Code	ID	2	2	Code identifying type of switch movement desired or accomplished
+619	Zone	AN	2	3	To identify zone
+620	Track	AN	2	3	To identify track
+621	Spot	AN	2	3	To identify spot
+622	Number of Loads	N0	1	5	Number of customer-defined loads shipped by the supplier
+623	Time Code	ID	2	2	Code identifying the time. In accordance with International Standards Organization standard 8601, time can be specified by a + or - and an indication in hours in relation to Universal Time Coordinate (UTC) time; since + is a restricted character, + and - are substituted by P and M in the codes that follow
+624	Century	N0	2	2	The first two characters in the designation of the year (CCYY)
+625	COD Method of Payment Code	ID	1	1	Code indicating method of payment acceptable for C.O.D. charge collection
+626	Excess Transportation Reason Code	ID	1	2	Code identifying the reason for shipment via premium transportation rather than the normal mode of transportation
+627	Excess Transportation Responsibility Code	ID	1	1	Code identifying the organization responsible for paying the premium transportation costs
+628	Hierarchical ID Number	AN	1	12	A unique number assigned by the sender to identify a particular data segment in a hierarchical structure
+629	Alternation Precedence Code	ID	1	1	Code identifying the priority of rate application when two or more rates apply to a given movement; if rate application includes two or more rates of the same value for this element, individual carrier rules and procedures shall govern
+630	Minimum/Weight Logic	AN	1	2	Code indicating the type of minimum weight or units applicable to a specific rate; the code also describes the interpretation and/or relationship of minimum weight and car capacity percentage data elements for a specific rate
+631	Number of Rates	N0	1	1	Number of RB segments that are in the given loop iteration
+632	Rate Application Type Code	ID	1	1	Code indicating the method by which the rates are applied to a shipment
+633	Loading Restriction	N1	1	7	A number indicating the minimum, maximum or threshold quantity of units which must be met in order to qualify rate application
+634	Factor Amount	R	1	9	Number indicating the portion of freight rate revenue to be apportioned to an identified carrier
+635	Rate Request/Response Code	ID	1	1	Code indicating rate request or response purpose
+637	Unit Conversion Factor	N4	1	9	Identifies the weight in pounds of units specified by data element 122 Applicable to Rates
+638	Rule 260 Junction Code	ID	1	5	Code indicating railroad interchange locations
+639	Basis of Unit Price Code	ID	2	2	Code identifying the type of unit price for an item
+640	Transaction Type Code	ID	2	2	Code specifying the type of transaction
+641	Status Reason Code	ID	3	3	Code indicating the status reason
+642	Week	N0	4	4	Week expressed as year/week (YYWW); week is an integer between 1 and 53 inclusive
+643	Lading Percentage	N2	2	4	Commodity percentage for rating
+644	Lading Percent Qualifier	ID	1	1	Code identifying type of lading percentage
+645	Related Company Indication Code	ID	1	1	Code indicating parties to a transaction
+646	Quantity Shipped to Date	R	1	15	Number of units shipped to date
+647	Application Error Condition Code	ID	1	3	Code indicating application error condition
+648	Price Multiplier Qualifier	ID	3	3	Code indicating the type of price multiplier
+649	Multiplier	R	1	10	Value to be used as a multiplier to obtain a new value
+650	Rating Remarks Code	ID	2	2	Code identifying the remarks related to a particular rating
+653	Discount Terms Type Code	ID	3	3	Code to define the units in which the discount will be determined, i.e., dollars, case, truckload, etc.
+654	Discount Base Qualifier	ID	2	2	Code to define unit of discount, i.e., dollars, cases, alternate products, etc.
+655	Discount Base Value	R	1	10	A multiplier amount used in conjunction with discount base qualifier to determine the value of the discount
+656	Discount Control Limit Qualifier	ID	2	3	Code to define the units of the limits for determining discount
+657	Discount Control Limit	N0	1	10	Amount or time associated with application of the discount
+659	Basis of Verification Code	ID	1	2	Code indicating the basis of verification
+660	Contract Suffix	AN	1	2	Used to identify a type of contract
+662	Relationship Code	ID	1	1	Code indicating the relationship between entities
+663	Quantity Units Received or Accepted	R	1	9	Number of Units Received or Accepted
+664	Quantity Units Returned	R	1	9	Number of units returned
+665	Residue Indicator Code	ID	1	1	Code indicating that the material being described is that which remains in a packaging (including a tank car) after it has been unloaded
+666	Division Type Code	ID	1	1	Code indicating the method by which a carriers divisional agreement is applied to a shipment
+667	Quantity in Question	R	1	9	Number of units contested because of physical condition or status of units
+668	Line Item Status Code	ID	2	2	Code specifying the action taken by the seller on a line item requested by the buyer
+669	Currency Market/Exchange Code	ID	3	3	Code identifying the market upon which the currency exchange rate is based
+670	Change or Response Type Code	ID	2	2	Code specifying the type of change to the line item
+671	Quantity Left to Receive	R	1	9	Quantity left to receive as qualified by the unit of measure
+672	Resource Authorization Code	ID	2	2	Code identifying the resource which the buyer is authorizing the seller to commit to
+673	Quantity Qualifier	ID	2	2	Code specifying the type of quantity
+674	Reciprocal Switch Code	ID	1	1	Code identifying the restriction of service being provided by the serving carrier
+675	Schedule Type Qualifier	ID	2	2	Code identifying the type of dates used when defining a shipping or delivery time in a schedule or forecast
+676	Schedule Quantity Qualifier	ID	1	1	Code identifying the type of quantities used when defining a schedule or forecast
+677	Item Depth	R	1	6	The depth is the thickness of the product; in the dimension coordinate axes represented by X, Y and Z, depth is measured along the Z axis where X is the horizontal axis and Y is the vertical axis
+678	Ship/Delivery or Calendar Pattern Code	ID	1	2	Code which specifies the routine shipments, deliveries, or calendar pattern
+679	Ship/Delivery Pattern Time Code	ID	1	1	Code which specifies the time for routine shipments or deliveries
+680	Forecast Qualifier	ID	1	1	Code specifying the sender's confidence level of the forecast data or an action associated with a forecast
+681	Forecast Timing Qualifier	ID	1	1	Code specifying interval grouping of the forecast
+682	Part Release Status Code	ID	1	2	Code identifying the status of the specific part number being released or forecast or being used in an engineering change
+683	Catalog Purpose Code	ID	2	2	Code indicating purpose of catalog
+684	Catalog Number	AN	1	15	Identifying number for catalog or superseded catalog
+685	Catalog Version Number	AN	1	15	Identifying version number of catalog or superseded catalog
+686	Catalog Revision Number	AN	1	6	Identifying revision number of catalog or superseded catalog
+687	Class of Trade Code	ID	2	2	Code indicating class of trade
+688	Restrictions/Conditions Qualifier	ID	2	2	Code identifying the type of restriction/condition
+689	Occupancy Code	ID	2	2	Code specifying occupancy status of real estate property
+690	Docket Identification	AN	1	11	A sequence number which, when combined with elements 140 and 697, provides a unique identity to a parcel of ratemaking activity
+691	Revision Number	N0	1	4	A number which indicates the chronological sequence of revisions and updates to a ratemaking docket
+692	Conveyance Code	ID	1	1	Code indicating rate application
+693	Docket Type Code	ID	1	1	Code indicating the revenue construction of a freight rate
+694	Percentage Division	N2	1	5	A number which indicates the portion of freight revenue to be apportioned to an identified carrier; the number is expressed as a percent; the value of this element shall not exceed 100.00
+695	Independence Code	ID	1	1	Code indicating the capability of a carrier participating in the route of a rate to make independent changes to that rate
+697	Docket Control Number	AN	1	7	A grouping identification which, when combined with elements 140 and 690, provides a unique identity to a parcel of ratemaking activity
+698	Rate Distribution Code	ID	1	1	Code indicating the extent to which data intermediaries may distribute rate data (excluding revenue division information) to requesting recipients
+699	Commodity/Geographic Logical Connector Code	ID	1	1	Code identifying how a specific segment's statement of a rate restriction is evaluated and its relationship to rate restrictions stated within other segments of the same segment definition
+701	Information Type	ID	2	2	Code specifying the information required in the response
+702	Financial Transaction Code	ID	6	6	Code identifying the financial transaction
+703	Financial Information Type Code	ID	1	1	Code indicating type of financial information
+704	Paperwork/Report Action Code	ID	1	2	Code specifying how the paperwork or report that is identified in the PWK segment relates to the transaction set or to identify the action that is required
+705	Trade Union Code	ID	2	2	Code identifying trade union
+706	Entity Relationship Code	ID	2	2	
+707	Rating Category Code	ID	2	2	Code indicating supplier rating category
+708	Rating Summary Value Code	ID	1	2	The total overall rating
+709	Communications Environment Code	ID	2	2	To indicate EDI systems media capability
+712	Category Reference Code	ID	1	1	Code specifying whose coding system is being used for category and subcategory
+713	Installment Group Indicator	N0	2	2	The installment group indicator is a 2-digit serial number beginning with 01 (i.e., 01, 02, 03 or 04); it is used to group elective terms types in an installment payment situation; the same indicator must be used for all segments in the same installment
+714	Goods and Services Tax Reason Code	ID	1	1	Code required to identify the reason for a 0% rated goods and services tax
+715	Functional Group Acknowledge Code	ID	1	1	Code indicating accept or reject condition based on the syntax editing of the functional group
+716	Functional Group Syntax Error Code	ID	1	3	Code indicating error found based on the syntax editing of the functional group header and/or trailer
+717	Transaction Set Acknowledgment Code	ID	1	1	Code indicating accept or reject condition based on the syntax editing of the transaction set
+718	Transaction Set Syntax Error Code	ID	1	3	Code indicating error found based on the syntax editing of a transaction set
+719	Segment Position in Transaction Set	N0	1	6	The numerical count position of this data segment from the start of the transaction set: the transaction set header is count position 1
+720	Segment Syntax Error Code	ID	1	3	Code indicating error found based on the syntax editing of a segment
+721	Segment ID Code	ID	2	3	Code defining the segment ID of the data segment in error (See Appendix A - Number 77)
+722	Element Position in Segment	N0	1	2	This is used to indicate the relative position of a simple data element, or the relative position of a composite data structure with the relative position of the component within the composite data structure, in error; in the data segment the count starts with 1 for the simple data element or composite data structure immediately following the segment ID
+723	Data Element Syntax Error Code	ID	1	3	Code indicating the error found after syntax edits of a data element
+724	Copy of Bad Data Element	AN	1	99	This is a copy of the data element in error
+725	Data Element Reference Number	N0	1	4	Reference number used to locate the data element in the Data Element Dictionary
+726	Real Estate Property Condition Code	ID	2	2	Code identifying property condition
+728	Returnable Container Load Make-Up Code	ID	1	2	Code identifying the load make-up of the returnable containers in the shipment
+729	Category	AN	1	6	An alphanumeric identifier to represent the category to which the item belongs
+730	Subcategory	AN	1	6	An alphanumeric identifier to represent the subcategory to which the item belongs
+731	Transit Direction Code	ID	2	2	The point of origin and point of direction
+732	Transit Time Direction Qualifier	ID	2	2	Code specifying the value of time used to measure the transit time
+733	Transit Time	R	1	4	The numeric amount of transit time
+734	Hierarchical Parent ID Number	AN	1	12	Identification number of the next higher hierarchical data segment that the data segment being described is subordinate to
+735	Hierarchical Level Code	ID	1	2	Code defining the characteristic of a level in a hierarchical structure
+736	Hierarchical Child Code	ID	1	1	Code indicating if there are hierarchical child data segments subordinate to the level being described
+737	Measurement Reference ID Code	ID	2	2	Code identifying the broad category to which a measurement applies
+738	Measurement Qualifier	ID	1	3	Code identifying a specific product or process characteristic to which a measurement applies
+739	Measurement Value	R	1	20	The value of the measurement
+740	Range Minimum	R	1	20	The value specifying the minimum of the measurement range
+741	Range Maximum	R	1	20	The value specifying the maximum of the measurement range
+742	Route Description	AN	1	35	Point to point routing description
+743	Returnable Container Freight Payment Responsibility Code	ID	1	2	Code specifying the responsibility for the return freight costs incurred when returnable containers are shipped in a premium transportation
+744	Print Option Code	ID	2	2	Code identifying the selected information to be printed on a document
+745	Pre-Cooled (Rule 710) Code	ID	1	1	Code indicating whether or not the shipment was precooled per Association of American Railroads Protective Service Rule 710
+746	Protective Service Rule Code	ID	3	9	Association of American Railroads (AAR) Protective Service that applies to shipment
+747	Rebill Reason Code	ID	2	2	Code identifying reason for rebill
+748	Movement Authority Code	ID	1	2	Code indicating the interchange authority
+749	Supplementary Information Qualifier				
+750	Product/Process Characteristic Code	ID	2	3	Code identifying the general class of a product or process characteristic
+751	Product Description Code	AN	1	12	A code from an industry code list which provides specific data about a product characteristic
+752	Surface/Layer/Position Code	ID	2	2	Code indicating the product surface, layer or position that is being described
+753	Packaging Characteristic Code	ID	1	5	Code specifying the marking, packaging, loading and related characteristics being described
+754	Packaging Description Code	AN	1	7	A code from an industry code list which provides specific data about the marking, packaging or loading and unloading of a product
+755	Report Type Code	ID	2	2	Code indicating the title or contents of a document, report or supporting item
+756	Report Transmission Code	ID	1	2	Code defining timing, transmission method or format by which reports are to be sent
+757	Report Copies Needed	N0	1	2	The number of copies of a report that should be sent to the addressee
+758	Hazardous Mnemonic Code	ID	2	3	Code identifying hazardous classification placard notation, and proper endorsements as required by the Federal Highway Railway Administration See Figures Appendix for the possible values to be used for data element 758 See Figures Appendix for the possible values to be used for data element 758
+759	Reportable Quantity Code	ID	2	2	Code to identify presence of hazardous substance
+760	Limited Quantity Indication Code	ID	1	1	Code to indicate hazardous material that is packaged in limited quantities and is excluded from placarding requirements
+761	Equipment Number Check Digit	N0	1	1	Number which designates the check digit applied to a piece of equipment
+762	Waybill Response Code	ID	1	1	Code indicating a waybill response
+765	Day of Month	N0	1	2	The numeric value of the day of the month between 1 and the maximum day of the month being referenced
+766	U.P.C./EAN Consumer Package Code	AN	12	12	Code (Universal Product Code - U.P.C.) identifying the retail shelf unit; consists of 2 high order digits identifying the system (U.S. Grocery = 00, 06 or 07, U.S. Drug = 03); the next ten digits are manufacturer ID: 5, Item ID: 5
+767	Market Area Code Identifier	AN	1	12	A unique identification of a market area
+768	Quantity Must Purchase	N0	1	9	A specific quantity that must be purchased to qualify for the merchandise indicated in data element Quantity Free
+769	Exception Number	AN	1	16	A unique number identifying an exception or modification to an offered or existing promotion
+770	Option Number	AN	1	20	A unique number identifying available promotion or allowance options when more than one is offered
+771	Market Area Code Qualifier	ID	1	3	Code qualifying the identifier represented in Market Area Code Identifier (767)
+772	Interchange Agreement Status Code	ID	1	1	Code identifying status of carrier interchange agreement
+773	Quantity Free	N0	1	9	A specific quantity that is offered at no cost when requirements of data element Quantity Must Purchase (768) are fulfilled
+781	Statement Format Code	ID	6	6	Code supplied by the sender indicating the level of detail being communicated
+782	Monetary Amount	R	1	18	Monetary amount
+783	Planning Schedule Type Code	ID	2	2	Code identifying type of planning schedule used
+784	Length of Binary Data	N0	1	15	The length in integral octets of the binary data
+785	Binary Data	B	1	10000000000000000	A string of octets which can assume any binary pattern from hexadecimal 00 to FF
+786	Security Level Code	ID	2	2	Code indicating the level of confidentiality assigned by the sender to the information following
+787	Record Length	N	1	15	Quantity of characters or bytes in a record. Synonyms are logical record length and record size
+788	Block Length	N	1	5	Quantity of data elements in a block, usually specified in units such as records, words or characters; synonym for 'block size' 
+789	Drawing Sheet Size Code	AN	2	2	Code indicating the drawing size and orientation of a technical drawing as specified and described in the current version of standards ANSI Y14.1 and ISO 5457 (E); see the listed ANSI and ISO standards for the maximum lengths for rolled sheets *
+790	Entity Title	AN	1	132	Title of the data entity
+791	Entity Purpose	AN	1	80	The reason for the existence of the data item specified by the electronic data item independent of its presence in an EDI transaction
+792	Entity Status Code	ID	1	1	Code indicating the current status of the data item specified by the electronic data item
+795	Revision Level Code	ID	1	1	Code indicating the revision or engineering change level of the data items referred to by the specification number
+796	Revision Value	AN	1	30	Revision or engineering change level of the data items referred to by the specification number
+797	Security Technique Code	ID	2	2	Code indicating that this element will be used to tell an EDI translator program which security technique to use
+799	Version Identifier	AN	1	30	Revision level of a particular format, program, technique or algorithm
+800	Compression Technique	AN	1	30	Identifies the digital data compression means and the type
+801	Interchange Format	AN	1	30	Industry or proprietary standard used to identify the format of the data
+802	Program Identifier	AN	1	30	Identifies the name of the software program from which the technical data originates
+803	File Name	AN	1	64	Name assigned or declared for a file or used by a program to identify a file; exact format of the name depends on the computer operating system being used; name also may be known as the file's data set name
+804	Block Type	AN	1	4	Organization of a data block such as fixed length, variable length, spanned, etc. Synonym for data format
+805	Canadian Hazardous Notation	AN	1	25	Notation required by Canadian regulatory agencies
+806	EPA Waste Stream Number Code	ID	4	6	Waste stream number applicable to the movement of hazardous waste as determined by government regulations
+807	Waste Characteristics Code	ID	12	16	Waste characteristics as defined by regulatory requirements
+808	Hazardous Material Shipment Information Qualifier	ID	3	3	Qualifier indicating the type of information being passed so that a receiver may format a description of hazardous commodity movements that meets regulatory requirements
+809	Hazardous Material Shipment Information	AN	1	25	Specific information required by law for hazardous material shipments
+810	Inner Pack	N0	1	6	The number of eaches per inner container
+811	Obligation Type Code	ID	2	2	Code indicating a type of financial obligation
+812	Payment Format Code	ID	1	10	Code identifying the payment format to be used
+813	Station Type Code	ID	1	1	Code identifying the type of geographic location
+814	Nesting Code	ID	1	1	Code indicating orientation of exposure
+815	Property Inspection Qualifier	ID	2	2	Code indicating a part of the property being inspected
+816	Occupancy Verification Code	ID	2	2	Code indicating the method used to verify the occupancy of the property
+817	Tax Information Identification Number	AN	1	30	Identifying number for Tax Information Field
+818	Name Control Identifier	AN	1	4	Name control field for tax information consisting of the first four characters of a business name or of an individual's name, or the entire name, if fewer than four characters
+819	Language Code	ID	2	3	Code designating the language used in text, from a standard code list maintained by the International Standards Organization (ISO 639)
+820	Report Section Name Code	ID	2	2	Code identifying the name of the section of the report
+821	Safety Characteristic/Hazard Code	ID	3	3	Code indicating precautionary measures, means of treatment and hazard information and warnings
+822	Source Subqualifier	AN	1	15	A reference that indicates the table or text maintained by the Source Qualifier
+824	Security Originator Name	AN	1	64	Unique designation (identity) of the cryptographic process that performs authentication or encryption on data to be interchanged, or originates a cryptographic service message Note: X9 has a minimum length of 4 characters for the security originator; no mechanism, or registration method is provided by X9 or X12 to guarantee the uniqueness of the identifier Note: X9 has a minimum length of 4 characters for the security originator; no mechanism, or registration method is provided by X9 or X12 to guarantee the uniqueness of the identifier
+825	Security Recipient Name	AN	1	64	Unique designation (identity) of the cryptographic process that performs authentication or decryption on received data, or is the destination of a cryptographic service message Note: X9 has a minimum length of 4 characters for the security recipient; no mechanism, or registration method is provided by X9 or X12 to guarantee the uniqueness of the identifier Note: X9 has a minimum length of 4 characters for the security recipient; no mechanism, or registration method is provided by X9 or X12 to guarantee the uniqueness of the identifier
+826	Owners Share	R	1	8	To indicate owner's share of the property
+828	Dollar Basis For Percent	R	1	9	Dollar basis to be used in the percent calculation of the allowance, charge or tax
+829	Fuel Type	ID	1	1	Code used to identify type of fuel
+831	Inspection Location Type Code	ID	1	2	Code to define the location where a type of inspection is performed
+832	Ramp Identification	AN	1	9	A mutually agreed upon ramp identity
+833	Automotive Manufacturers Code	ID	2	2	Code (ARR) used to identify vehicle manufacturer
+834	Inspector Identity Code	AN	1	6	A code assigned by each inspection agency to each inspector
+835	Supplemental Inspection Code	ID	1	1	A code to indicate a supplemental inspection
+836	Vehicle Deck Position Code	ID	2	2	Code to identify the specific position of a vehicle on multi-level equipment; when dealing with rail cars the front end will be defined as that end of the rail car which the vehicle faces
+837	Vehicle Type Code	ID	1	1	Vehicle Type Code for freight rate and claims purposes
+838	Dealer Code	AN	2	9	A code assigned by a manufacturer to identify their dealers
+839	Bay Location	AN	1	6	Location where the releasing agent placed the motor vehicle
+844	Inbound Condition Hold Code	ID	2	2	Code designating condition status of units being shipped
+845	Chassis Type	ID	2	2	Code identifying type of chassis
+846	Contract Status Code	ID	2	2	Code designating the current status of the contract
+847	Order/Item Code	ID	1	2	Code identifying a group of orders and items
+848	Product/Date Code	ID	1	2	Code indicating whether the inquiry is based on products and/or date parameters
+849	Location Code	ID	1	2	Code indicating the selection of a supplier's and/or buyer's locations or group of locations
+850	Status Report Code	ID	1	2	Code indicating the reason for sending the report
+851	Nesting	R	1	6	The amount of distance that one product fits into (or nests within) another product
+852	Address Type Code	ID	1	1	Code identifying the type of address associated with the station
+853	Damage Reason Code	ID	2	2	Code identifying the specific reason for exception condition
+854	Vessel Type Code	ID	2	2	Code to determine type of vessel
+855	Peg Code	ID	1	1	Code indicating how the vertical or height distance is measured for peg hole items
+856	Rate Level Qualifier Code	ID	1	1	Code identifying the type of rate level used
+857	Pre-Price Quantity Designator	N6	1	9	Number of units for which retail value is quoted
+858	Retail Pre-Price	R	1	9	Retail value to be placed/printed for an item appearing on the transmitted purchase order
+859	Activity Code	ID	2	2	Code identifying activity details for the product being reported
+860	D-U-N-S Number	ID	9	9	Identifying number assigned by Dun  Bradstreet (Data Universal Numbering System)
+861	Supplier's Delivery/Return Number	AN	1	22	Identifying number assigned by the supplier to the transaction
+862	Receiver's Location Number	AN	1	6	Number assigned by the customer that when combined with receiver Duns number uniquely identifies the receiving location
+863	X-Peg	R	1	6	Horizontal distance from the edge to the center of the peg hole (measured from the left)
+864	Y-Peg	R	1	6	The vertical distance from the edge to the center of the peg hole as specified by the peg code
+865	Total Deposit Dollar Amount	N2	1	6	Sum of deposit amounts separately identified
+866	Integrity Check Value	AN	1	12	Data element providing secure method for identifying authenticity of content. Value calculated by using CRC 16 algorithm
+867	Signature	AN	1	12	Electronic identity. Calculation algorithm obtained from the Uniform Code Council
+868	Initiator Code	ID	1	1	Code identifying initiator of the transaction
+869	Adjustment Number	N0	1	1	Sequential number for adjustment beginning with 1 and incremented by 1 for each additional adjustment regardless of which party is the originator
+870	Receiver Delivery/Return Number	AN	1	22	Identifying number assigned by the customer to the transaction
+871	Supplier's Location Number	AN	1	6	Number assigned by supplier that provides uniqueness when combined with sender Duns number
+872	Physical Delivery or Return Date	DT	8	8	Actual or intended date of physical delivery or return expressed in format CCYYMMDD
+873	Product Ownership Transfer Date	DT	8	8	Date which is meaningful for both supplier and distributor for various mutually defined purposes (i.e., date of product ownership transfer) expressed in format CCYYMMDD
+874	Space Management Reference Code	ID	2	2	The identification code of the name of the space management system that the symbol code represents
+875	Maintenance Type Code	ID	3	3	Code identifying the specific type of item maintenance
+876	Alternate Tiers per Pallet	ID	1	3	Number indicating the alternate tiers per pallet structure; the three digits represent the number of tiers per pallet
+877	Vessel Stowage Location	AN	1	12	Location of cargo stowed on board an ocean vessel
+878	Cash Register Item Description	AN	1	20	The cash register description of an item
+879	Coupon Family Code	AN	3	3	A code assigned by the vendor to a single item or to families of consumer items that can be used by in-store scanners in conjunction with a UPC coupon value code for instant credit when the proper item has been purchased
+880	Dated Product Number of Days	N0	1	4	Used to designate the number of days open dated product must 'sell by' from date of manufacture
+881	Deposit Value	R	1	8	To designate the value for returnable containers
+883	Pallet Type Code	ID	1	2	Code indicating the type of pallet
+884	Pallet Tiers	N0	1	3	The number of layers per pallet
+885	Pallet Blocks	N0	1	3	The number of pieces (cartons) per layer on the pallet
+886	Nonconformance Report Status Code	ID	2	2	Code identifying the status of the nonconformance report
+887	Nonconformance Resultant Response Code	ID	1	2	Code identifying a response that is the result of a nonconformance situation
+888	Nonconformance Determination Code	ID	1	1	Code indicating whether a nonconforming condition was the reason for submitting or the basis upon which a nonconformance report is initiated
+889	Follow-up Action Code	ID	1	1	Code identifying follow-up actions allowed
+890	Carrier/Route Change Reason Code	ID	2	2	Code reflecting reason a requested carrier or route was changed
+891	Shipping Date Change Reason Code	ID	2	2	Code informing a depositor why shipment of an order was delayed
+892	Line Item Change Reason Code	ID	2	2	Code defining reason for any difference between quantity ordered and quantity shipped for a line item
+893	Warehouse Detail Adjustment Identifier	ID	1	1	Code to identify detail line item as an adjustment to inventory levels
+894	Batch Type Code	ID	2	2	Code indicating batch status to customer of lockbox facilities
+895	Availability	R	1	6	Funds availability expressed in days
+897	Vessel Code Qualifier	ID	1	1	Code specifying vessel code source
+899	Unload Terminal Elevator Code	ID	3	4	Code specifying the unloading terminal elevator at grain exporting terminals
+901	Reject Reason Code	ID	2	2	Code assigned by issuer to identify reason for rejection
+902	Section Designator	ID	1	1	Designates the section of a transaction set standard
+903	Envelope Indicator	ID	1	1	Envelope indicator for the control segments in the interchange order table of the electronic form
+904	Requirement Designator	ID	1	1	Requirement designator as specified in the standard or standards convention
+905	Maximum Use	N0	1	7	Number of times a data segment may appear; the use of 9999999 in the electronic form is to be interpreted to mean 1
+906	Level Number	ID	1	1	Loop repeat count as specified in the standard; the use of 9999999 in the electronic form is to be interpreted to mean 1
+909	Loop Name	AN	2	4	The name of the loop
+910	Loop Repeat Count	N0	1	7	Loop repeat count as specified in the standard; the use of 9999999 in the electronic form is to be interpreted to mean 1
+911	Position in Segment	N0	1	2	Relative position of the data element in the segment definition; it is 1 for the data element immediately following the segment ID and is incremented by 1 for each succeeding element to the end of the segment
+912	Relation Code	ID	1	1	Code specifying the type of relationship between data elements for the electronic form
+913	Data Element Type	ID	1	2	Code to identify the data element type as specified in the standard
+914	Minimum Length	N0	1	2	The minimum length attribute for a data element as specified in the standard document
+915	Maximum Length	N0	1	7	The maximum length attribute for a data element as specified in the standard document
+916	Code List Reference	AN	1	6	The reference to the code list table for the electronic form
+918	Code Value	AN	1	8	A code value for an ID-type data element
+921	Discipline Type Code	ID	2	2	Code indicating disciplines ordered by a physician
+922	Electronic Form Standards Type Code	ID	1	1	Code identifying the standard type being transferred using the electronic form
+923	Prognosis Code	ID	1	1	Code indicating physician's prognosis for the patient
+924	Full or Partial Indicator	ID	1	1	Code identifying if the electronic form tables being transferred are a full or partial set
+926	Data Maintenance Number	AN	1	6	The data maintenance number assigned by the Data Interchange Standards Association (DISA)
+927	Damage Code Qualifier	ID	1	1	Code identifying the party maintaining damage area, damage type and damage severity code lists
+930	Regulatory Agency Code	ID	3	5	Code relating to the regulatory agency governing the price reference
+931	Page Width	N0	1	3	Definition of the maximum number of characters per line that can be expected in the message text
+932	Page Length Lines	N0	1	3	Definition of the maximum number of lines per page that can be expected in the message text
+933	Free-Form Message Text	AN	1	264	Free-form message text
+934	Printer Carriage Control Code	ID	2	2	A field to be used for the control of the line feed of the receiving printer
+935	Measurement Significance Code	ID	2	2	Code used to benchmark, qualify or further define a measurement value
+936	Measurement Attribute Code	ID	2	2	Code used to express an attribute response when a numeric measurement value cannot be determined
+937	Test Administration Method Code	ID	2	2	Code specifying the method of administering the test
+938	Test Medium Code	ID	2	2	Code specifying organism on which the test was performed
+939	Sample Process Status Code	ID	2	2	Code specifying the stage in the product development cycle at which the specimen was selected for testing
+940	Sample Selection Method Code	ID	2	2	Code denoting the method of selecting the specimen
+942	Sample Frequency Value per Unit of Measurement Code	N0	1	9	The number of samples collected
+943	Sample Description Code	ID	2	2	Code describing the physical configuration or condition of the test specimen
+944	Sample Direction Code	ID	2	2	Code specifying the direction in which the sample was collected or tested
+945	Position Code	ID	2	2	Code specifying the position of an item such as the location, within a specimen, from which the sample was taken; the position of a coupon within an advertisement; etc
+949	Confidence Limit	R	1	4	Percent value expressing the confidence that a true value falls within a certain confidence interval
+950	Statistic Code	ID	2	2	A code specifying the specific statistic being reported
+951	Balance Type Code	ID	1	2	Code indicating the type of balance
+952	Adjustment Application Code	ID	1	2	Code for area to which adjustment applies
+953	Interest Rate	R	1	6	The interest rate as a percentage
+954	Percent	R	1	10	Percentage expressed as a decimal
+955	Tax Jurisdiction Code Qualifier	ID	2	2	Code identifying the source of the data used in tax jurisdiction code
+956	Tax Jurisdiction Code	AN	1	10	Code identifying the taxing jurisdiction
+959	Payment Cancellation Type	ID	3	3	Code that identifies whether a batch of payments or a single payment is to be cancelled
+960	Request for Quote Type Code	ID	2	2	Code specifying the type of request for quote
+961	Data Element New Content	AN	1	99	New data which has replaced erroneous data
+962	Receiving Advice or Acceptance Certificate Type Code	ID	1	1	Code specifying type of receiving advice
+963	Tax Type Code	ID	2	2	Code specifying the type of tax
+964	Cost Code	ID	3	3	Code identifying cost element
+965	Issuing Carrier Identifier	AN	1	10	Identification assigned by issuing carrier
+967	Tray Count	N0	1	3	The number of units in the tray
+969	Rate Basis Qualifier	ID	1	1	Code identifying type of tariff information contained in segment
+970	Tariff Add-On Factor	N	1	6	Rate Basis Add-on factor
+971	Tariff Adjustment Value/Amount	R	1	9	Value that applies to specific tariff adjustment
+972	Tariff Class Adjustment Reference	AN	1	6	Reference number used by some carriers to indicate another table or pointer used for class adjustments; reference number will appear in the rates and class adjustments sections of the tariff so that the two sections can be cross referenced
+973	Tariff Item Suffix	AN	1	4	Tariff item descriptor
+974	Tariff Reference Flag	ID	1	1	Code signifying that printed tariff needs to be referenced for proper application of tariff rules or for further explanation of tariff data
+975	Tariff Restriction Description	AN	1	10	Short description of tariff restriction values for multiple minimum charges, the tariff minimum charge abbreviation must be used, e.g., LICMC
+976	Tariff Restriction ID Code	ID	1	2	Code identifying tariff restriction values
+977	Tariff Restriction Value	R	1	9	Restriction value in - can be miles, weight charges, etc.
+978	Tariff Section	AN	1	4	Tariff section identifier as mutually agreed upon by sender and receiver
+980	Tariff Section ID Code	ID	2	2	Code identifying type of tariff information contained in the segments that follow
+981	Tariff Value Code	ID	2	2	Code identifying how to apply or interpret accessorial charges
+982	Data Source Code	ID	2	2	Code identifying source of data
+983	Hazardous Class Qualifier	ID	1	1	Code qualifying hazardous class
+984	Hazardous Material Shipping Name Qualifier	ID	1	1	Qualifier indicating the source (regulatory) of the proper shipping name
+985	N.O.S. Indicator Code	ID	3	3	Code indicating the type of regulatory requirements that apply to a description; N.O.S. stands for Not Otherwise Specified
+986	Special Commodity Indicator Code	ID	1	1	Code indicating 'Special Commodity' notation on operational waybill as identified by the Transportation of Dangerous Goods Act and Regulation (TDG)
+987	Cryptographic Service Message (CSM) Message Class Code	ID	3	4	Message class (MCL)
+988	Cryptographic Service Message (CSM) Field Tag	ID	2	4	The field tag that identifies a field contained in a cryptographic service message; the field tag identifies the contents of the accompanying Field Contents
+989	Cryptographic Service Message (CSM) Field Contents	AN	1	32	This data element contains a field or subfield of a cryptographic service message
+990	Security Type Code	ID	2	2	Code identifying the security algorithms and methods applied for this level of interchange
+991	Authentication Key Name	AN	1	64	Name of the key used for authentication; this name is mutually known to the security originator and the security recipient, is unique for this relationship, and is intended to allow the changing of the key from time to time Note: The special key name 0123456789ABCDEF is reserved for the hexadecimal value 0123456789ABCDEF (i.e. a fixed non-secret value) to provide a well-known value for data integrity testing only) Note: The special key name 0123456789ABCDEF is reserved for the hexadecimal value 0123456789ABCDEF (i.e. a fixed non-secret value) to provide a well-known value for data integrity testing only)
+992	Authentication Service Code	ID	1	1	Authentication options
+993	Encryption Key Name	AN	1	64	Name of the key used for encryption; this name is mutually known to the security originator and the security recipient, is unique for this relationship, and is intended to allow the changing of the key from time to time Note: If any of the optional fields are present, the Key Name should contain either PUBLIC if a public key is being used to encrypt the one-time key or the actual name of the asymmetric key-encrypting-key used to encrypt the one-time key. Note: If any of the optional fields are present, the Key Name should contain either PUBLIC if a public key is being used to encrypt the one-time key or the actual name of the asymmetric key-encrypting-key used to encrypt the one-time key.
+994	Encryption Service Code	ID	1	3	Coded values representing options for encryption processing, including the use of compression and filtering; the code either defines the encryption mode and the transmission filter specification for filtering binary data into transmittable text or specifics that the following subelements define these values
+995	Length of Data	N	1	18	Length of data is the number of character positions of the compressed or encrypted/filtered text; when data is plain text, this field shall be absent
+996	Initialization Vector	AN	16	512	The archival representation of a value expressed in hexadecimal notation as ASCII characters from the set of characters (0..9, A..F); the value is used as a starting point for encryption of a data sequence to increase security by introducing cryptographic variance and to synchronize cryptographic equipment; a new Initialization Vector (IV) shall be used for each message; the IV shall not be intentionally reused; the binary value, not its ASCII representation, is used for the cryptographic process; in the interchange process, the resultant encrypted and filtered IV is sent; the hexadecimal notation is the representation for archiving purposes; the IV shall be a random or pseudo-random number
+997	Hash or Authentication Code	AN	1	64	The message authentication code or hash/digest generated by the authentication process; when the Data Encryption Standard (DES) algorithm is used, the field consists of 4 hexadecimal coded characters (i.e., characters from the set 0..9, A..F), a separator character (space, -, or other), and 4 hexadecimally coded characters; when non-DES hashes are used, the result of the hash is expressed as hexadecimally coded characters without spaces; when authentication or hash is not used, this field should be filled with a non-blank character other than the set (0..9, A..F) for the minimum length
+998	Delayed Repayment Qualifier Code	ID	1	1	Code indicating type of delayed repayment
+999	Scope of Power of Attorney Identification Code	ID	1	2	Code identifying the scope of a power of attorney
+1000	Service Characteristics Qualifier	AN	2	2	Code from an industry code list qualifying the type of service characteristics
+1002	Car Hire Detail/Summary Code	ID	1	1	Code identifying the car hire settlement transaction type
+1003	Account Type Code	ID	2	2	Code identifying type of car hire allowance or recovery
+1004	Percent Qualifier	ID	1	2	Code to qualify percent
+1005	Hierarchical Structure Code	ID	4	4	Code indicating the hierarchical application structure of a transaction set that utilizes the HL segment to define the structure of the transaction set
+1006	Account Description Code	ID	1	2	Code identifying car hire payment as current, reclaim or miscellaneous items
+1007	Rate Source	ID	1	1	Code identifying authority for payment
+1008	Case Type Code	ID	1	2	Code identifying a type of court case
+1009	Administration of Justice Organization Type Code	ID	1	2	Code identifying a type of organization or entity involved in the administration of justice
+1010	Cycle Month Hours	N0	1	3	Identifies the accumulative hours within a month
+1011	Association of American Railroads (AAR) Pool Code	ID	7	7	Code identifying a pool of equipment assigned to a specific shipper
+1012	Administration of Justice Event Type Code	ID	1	3	Code identifying the type of administration of justice event
+1013	Notice Type Code	ID	1	3	Code identifying the type of court notice
+1014	Car Type Group Code	ID	1	1	Code identifying the car type for equalization; Group Code is the first character of the American Association of Railroads (AAR) Car Type Code, DE 301
+1015	Mileage Settlement Code	ID	1	1	Code identifying the type of mileage settlement
+1016	Penalty Code	ID	1	1	Code identifying the type of penalty being assessed on foreign equipment
+1017	Claim Type Code	ID	1	2	Code identifying the basis and type of a legal claim
+1018	Exponent	R	1	15	Power to which a unit is raised
+1019	Invoice Type Code	ID	3	3	Code defining the method by which invoices are to be processed
+1020	Sampling Sequence Qualifier	ID	2	2	Code indicating the circumstances under which the special sampling sequence is to be initiated
+1021	Sampling Sequence Value	N0	1	3	A value identifying a unit to be sampled, according to its position in a prescribed sequence
+1023	Hazard Zone Code	ID	1	1	Code specifying the Department of Transportation assigned zone designating the Inhalation Toxicity Hazard Zone
+1024	Number of Tank Compartments	N0	1	2	Number of compartments in a Tank Trailer
+1025	Loading or Discharge Location Code	ID	1	1	Code indicating the location of the loading or discharge line connection used for loading or unloading product from a trailer or container
+1026	Vessel Material Code	ID	3	3	Code indicating the material that is used in construction of the cargo tank vessel
+1028	Claim Submitter's Identifier	AN	1	38	Identifier used to track a claim from creation by the health care provider through payment
+1029	Claim Status Code	ID	1	2	Code identifying the status of an entire claim as assigned by the payor, claim review organization or repricing organization
+1030	Gasket Type Code	ID	3	3	Code indicating the type of gaskets (used in the trailer valves and hoses) that are required to load or unload the product
+1031	Trailer Lining Type Code	ID	3	3	Code indicating the type of trailer (vessel) lining required by the product
+1032	Claim Filing Indicator Code	ID	1	2	Code identifying type of claim
+1033	Claim Adjustment Group Code	ID	1	2	Code identifying the general category of payment adjustment
+1034	Claim Adjustment Reason Code	ID	1	5	Code identifying the detailed reason the adjustment was made
+1035	Name Last or Organization Name	AN	1	35	Individual last name or organizational name
+1036	Name First	AN	1	25	Individual first name
+1037	Name Middle	AN	1	25	Individual middle name or initial
+1038	Name Prefix	AN	1	10	Prefix to individual name
+1039	Name Suffix	AN	1	10	Suffix to individual name
+1041	Sequence Value	R	1	9	A sequence number assigned to a unit within an order
+1042	Load or Device Code	ID	2	2	Code identifying the device required to load or unload product
+1043	Diameter	R	1	2	Diameter of the object
+1044	Hose Type Code	ID	3	3	Code identifying the type of hose required for loading or unloading the product
+1045	Inlet or Outlet Material Type Code	ID	2	2	Code indicating the type of material used in the construction of the inlet or outlet
+1046	Inlet or Outlet Fitting Type Code	ID	2	2	Code indicating the type of fitting required to make the connection of the inlet or outlet
+1047	Miscellaneous Equipment Code	ID	2	2	Code indicating the miscellaneous equipment required to load or unload a product
+1048	Business Function Code	ID	1	3	Code identifying the business reason for this payment
+1049	Tax Payment Type Code	ID	1	5	Code identifying type of tax being paid
+1050	Taxpayer Verification	AN	1	6	The taxpayer verification field may be used by the receiver to verify the taxpayer's identity
+1051	Tax Amount	N2	1	10	Amount of tax
+1053	Market Exchange Identifier	ID	3	3	Code identifying the market upon which the commodity exchange is based
+1054	Commodity Identification	ID	2	2	Code identifying the commodity
+1056	Vehicle Production Status	AN	1	2	Status of a vehicle in production
+1062	Vehicle Service Code	ID	2	4	Code identifying service performed on an in-transit motor vehicle
+1065	Entity Type Qualifier	ID	1	1	Code qualifying the type of entity
+1066	Citizenship Status Code	ID	1	2	Code indicating citizenship status
+1067	Marital Status Code	ID	1	1	Code defining the marital status of a person
+1068	Gender Code	ID	1	1	Code indicating the sex of the individual
+1069	Individual Relationship Code	ID	2	2	Code indicating the relationship between two individuals or entities
+1070	Type of Residence Code	ID	1	1	Code identifying type of residence
+1071	General Expense Qualifier	ID	2	2	Code indicating general expense type
+1072	Rounding System Code	ID	1	1	Code indicating the mechanism used to round a calculated value
+1073	Yes/No Condition or Response Code	ID	1	1	Code indicating a Yes or No condition or response
+1074	Type of Real Estate Asset Code	ID	2	2	Code identifying the nature of a real estate
+1075	Status of Plans for Real Estate Asset Code	ID	1	1	Code identifying plans for real estate
+1076	Real Estate Loan Security Instrument Code	ID	1	1	Code indicating type of security instrument
+1077	Property Value Estimate Type Code	ID	1	1	Code indicating the type of property value estimate
+1078	Property Ownership Rights Code	ID	1	1	Code identifying legal basis for property ownership or residence status
+1079	Contact Method Code	ID	1	1	Code indicating the type of contact
+1080	Assumption Terms Code	ID	1	1	Code indicating the terms for loan assumption
+1081	Loan Purpose Code	ID	2	2	Code identifying the reason the loan is needed
+1082	Use of Proceeds Code	ID	2	2	Code specifying how proceeds will be used or why they are being requested
+1083	Type of Downpayment Code	ID	2	2	Code identifying the source or nature of funds paid
+1084	Loan Buydown Type Code	ID	1	1	Code indicating the type of loan buydown
+1085	Loan Payment Type Code	ID	2	2	Code identifying the nature of loan payment
+1086	Loan Rate Type Code	ID	1	1	Code indicating the characteristics of the loan rate
+1087	Negative Amortization Qualifier	ID	1	1	Code indicating the nature of negative amortization
+1088	Rate Life Cap Source Code	ID	1	1	Code identifying the rate life cap source
+1089	Index Identity Code	ID	2	2	Code identifying the index value used for adjustable rate mortgage rate changes
+1090	Improvement Status Code	ID	1	1	Code indicating the improvement status
+1091	Buydown Source Code	ID	1	1	Code identifying the buydown source
+1092	Negative Amortization Cap Source Code	ID	1	1	Code identifying the value used to calculate maximum negative amortization allowed
+1093	Real Estate Loan Type Code	ID	1	1	Code identifying the loan product category
+1094	Vehicle Status	AN	1	2	In-transit status of a motor vehicle
+1095	Year	N0	4	4	Four position designation of the year expressed as CCYY
+1096	County Designator	ID	5	5	Code identifying the county within a state
+1097	Mortgage Insurance Application Type	ID	1	1	Code identifying the type of Mortgage Insurance application
+1098	Mortgage Insurance Premium Type Code	ID	1	1	Code indicating the type of the initial mortgage insurance premium
+1099	Mortgage Insurance Certificate Type Code	ID	1	1	Code indicating whether Mortgage Insurance certificate is for primary loan or pool loan or both
+1100	Mortgage Insurance Coverage Type Code	ID	1	1	Code indicating the nature of the Mortgage Insurance coverage
+1101	Lien Priority Code	ID	1	1	Code identifying the rights and relationship of a loan to any other loan secured by the same property
+1102	Mortgage Insurance Renewal Option Code	ID	1	1	Code indicating the type of renewal option for Mortgage Insurance
+1103	Loan Documentation Type Code	ID	1	1	Code indicating type of documentation used in underwriting the loan
+1104	Name Component Qualifier	ID	2	2	Code identifying the type of name component
+1105	Mortgage Insurance Duration Code	ID	1	1	Code indicating the method of determining the duration of the initial insurance policy
+1106	Address Component Qualifier	ID	2	2	Code qualifying the type of address component
+1107	Name Type Code	ID	2	2	Code identifying the type of name
+1108	Month of the Year Code	ID	2	2	Code identifying the month of the year
+1109	Race or Ethnicity Code	ID	1	1	Code indicating the racial or ethnic background of a person; it is normally self-reported; Under certain circumstances this information is collected for United States Government statistical purposes
+1110	Vehicle Dimension	AN	1	6	To indicate vehicle size class and exceptions
+1113	Coupon Distribution Media Code	ID	2	2	Code specifying medium utilized for coupon distribution
+1122	Vent Setting Code	ID	1	1	Code describing the setting on the air vents on ocean-type containers
+1123	Offer Basis Code	ID	2	3	Code specifying the basis on which the underwriter offers to provide coverage
+1126	Academic Degree Code	ID	3	3	Code indicating the level of postsecondary academic award earned by a student
+1127	Interline Settlement System Status Action or Dispute Code	ID	2	2	Code specifying action to be taken or current status of a revenue waybill
+1129	Adjustment Reason Code Characteristic	ID	1	2	Specifies an additional characteristic of the adjustment reason
+1130	Primary or Contingent Code	ID	1	1	Code identifying if the beneficiary is the primary beneficiary or the contingent beneficiary
+1131	Level of Individual, Test, or Course Code	ID	2	2	Code identifying level of course, test, or student
+1132	Instructional Setting Code	ID	1	2	Code indicating type of instructional setting where a special education program is provided
+1133	Program Participation and Services Code	ID	1	2	Code indicating other programs in which a student is enrolled or services received
+1134	Program and Services Funding Source Code	ID	1	1	Code identifying the source of funding for a program or services
+1135	Placement Criteria Code	ID	1	1	Code indicating the criteria used to place students in a special education program
+1136	Code Category	ID	2	2	Specifies the situation or category to which the code applies
+1137	Medical Code Value	AN	1	15	Code value for describing a medical condition or procedure
+1138	Payer Responsibility Sequence Number Code	ID	1	1	Code identifying the insurance carrier's level of responsibility for a payment of a claim
+1139	Session Code	ID	1	1	Code identifying the type of academic session at an educational institution
+1140	Floor Type Code	ID	1	2	Code indicating the type of floor for equipment
+1141	Academic Credit Type Code	ID	1	1	Code indicating the type of credit used (awarded) by the sending institution
+1142	Academic Grade or Course Level Code	ID	1	2	Code indicating the level or type or both, of work which is reflected in the grade average and the credit hours
+1143	Coordination of Benefits Code	ID	1	1	Code identifying whether there is a coordination of benefits
+1144	Academic Grade Point Average	R	1	6	The grade point average of a student
+1145	Class Rank	N0	1	4	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
+1146	Disability Type Code	ID	1	1	Code identifying the disability status of the individual
+1147	Basis for Academic Credit Code	ID	1	1	Code indicating how academic credit was granted by an institution or earned by a student
+1148	Academic Grade Qualifier	ID	1	3	The grading scale used by an academic institution for an academic course
+1149	Occupation Code	ID	4	6	Code identifying the occupation of an individual
+1150	Course Repeat or No Count Indicator Code	ID	1	1	Code indicating when an academic course has been repeated by a student and how that repeat is to be computed in the student's academic grade average
+1152	Override Academic Course Source Code	ID	2	2	Code indicating the source of academic credit if not from the sending educational institution
+1153	Academic Field of Study Level or Type Code	ID	1	1	Code indicating the field of study being described for a student in an academic institution by indicating how it was used in the academic program or indicating a course area in a field of study
+1154	Work Intensity Code	ID	1	1	Code identifying the level of intensity of work
+1155	Educational Test or Requirement Code	ID	1	3	Indicates a particular national, regional, state, or local test or requirement
+1156	Test Norm Type Code	ID	1	1	Code identifying the type of norming used for the academic test
+1157	Test Norming Period Code	ID	1	1	Code indicating time of the year of the norming of an academic test
+1158	Subtest Code	ID	5	5	Code indicating a particular subtest of a test
+1159	Test Score Interpretation Code	ID	1	1	Code indicating unusual testing conditions that must be known to interpret properly a person's academic test score
+1160	Test Score Qualifier Code	ID	1	1	Code indicating the manner in which the actual academic test score result is reported
+1161	Product Option Code	ID	1	2	Code indicating an option chosen for the product
+1162	Show Code	ID	2	2	Code identifying the show
+1163	Ticket Category Code	ID	2	2	Code identifying category of ticket sold
+1164	Network or Schedule Data Type	ID	2	2	Codes to identify the network or schedule or type of presentation
+1165	Confidentiality Code	ID	1	1	Code indicating the access to insured information
+1166	Contract Type Code	ID	2	2	Code identifying a contract type
+1167	Sample Selection Modulus	R	1	6	To specify the sampling frequency in terms of a modulus of the Unit of Measure, e.g., every fifth bag, every 1.5 minutes
+1168	Door Type Code	ID	1	2	Code indicating the type of door on a railcar
+1171	Milestone Number Identification	AN	1	20	To identify a milestone number
+1172	Claim Response Reason Code	ID	1	3	Code identifying the detailed reason for the response
+1173	Task ID Qualifier	ID	2	2	Codes to identify the task or activity or event type
+1174	Task Identifier	AN	1	20	To identify a task or activity or event number
+1175	Relationship Task Identifier	AN	1	20	To identify a related (successor) task or activity or event number
+1176	Employment Class Code	ID	2	3	Code indicating category of employee
+1178	Level	AN	1	3	Reporting structure identification
+1179	Customs Entry Type Group Code	ID	1	1	Code identifying a group of entry types as filed with U.S. Customs when goods enter the country
+1180	Resource Code (or Identifier)	AN	1	20	To identify a resource code or identifier (such as a specific skill, department, or material)
+1181	Resource Type	ID	2	2	Code identifying the type of allocation or resource being scheduled
+1185	Public Record or Obligation Code	ID	2	2	Code defining the nature of public record or civil action obligation
+1186	Type of Income Code	ID	2	2	Code defining the nature or source of income
+1187	Type of Account Code	ID	2	2	Code defining the type of ownership
+1188	Type of Personal or Business Asset Code	ID	2	2	Code defining the nature of personal or business property or asset
+1189	Type of Credit Account Code	ID	1	1	Code defining the type of credit account
+1193	Program Type Code	ID	2	2	Codes identifying a program type
+1195	Financial Information Code	AN	1	80	Code representing financial accounting information
+1196	Breakdown Structure Detail Code	ID	2	2	Codes identifying details relating to a reporting breakdown structure tree
+1197	Financial Transaction Status Code	ID	1	2	Code indicating the status of the transaction
+1198	Contracting Funding Code	ID	2	2	Code identifying the funding type
+1199	Appropriation Code	ID	2	2	Code indicating the funds appropriation
+1201	Information Status Code	ID	1	1	A code to indicate the status of information
+1202	Flexible Spending Account Selection Code	ID	1	1	Code indicating selection of a type of Flexible Spending Account
+1203	Maintenance Reason Code	ID	2	3	Code identifying the reason for the maintenance change
+1204	Plan Coverage Description	AN	1	50	A description or number that identifies the plan or coverage
+1205	Insurance Line Code	ID	2	3	Code identifying a group of insurance products
+1207	Coverage Level Code	ID	3	3	Code indicating the level of coverage being provided for this insured
+1209	Underwriting Decision Code	ID	1	1	Code indicating the decision made by the underwriter
+1211	Drug House Code	ID	2	3	Code indicating a drug house with which the insurance plan is affiliated
+1212	Health-Related Code	ID	1	1	Code indicating a specific health situation
+1213	Current Health Condition Code	ID	1	1	Code indicating current health condition of the individual
+1214	Salary Grade	AN	1	5	The salary grade code assigned by the employer
+1215	Identification Card Type Code	ID	1	1	Code identifying the type of identification card
+1216	Benefit Status Code	ID	1	1	The type of coverage under which benefits are paid
+1218	Medicare Plan Code	ID	1	1	Code identifying the Medicare Plan
+1219	Consolidated Omnibus Budget Reconciliation Act (COBRA) Qualifying Event Code	ID	1	2	A Qualifying Event is any of the following which results in loss of coverage for a Qualified Beneficiary
+1220	Student Status Code	ID	1	1	Code indicating the student status of the patient if 19 years of age or older, not handicapped and not the insured
+1221	Provider Code	ID	1	3	Code identifying the type of provider
+1222	Provider Specialty Code	AN	1	3	Code indicating the primary specialty of the provider, as defined by the receiver
+1223	Provider Organization Code	ID	3	3	Code identifying the organizational structure of a provider
+1224	Contribution Code	ID	2	2	Code indicating the category of contribution
+1225	Disposition Code	AN	3	3	Code specifying the disposition of removed part, subassembly, or assembly
+1226	Repair Action Code	AN	1	4	Code specifying if the required action is to repair or scrap, etc.; it also can be used to specify the particular type of repair task
+1227	Repair Complexity Code	AN	1	3	Code identifying the complexity of the repair
+1228	Casual Part Condition Code	AN	1	3	Code describing the condition of the part or assembly that is the root cause of the problem being reported or repaired
+1229	Complaint Code	AN	3	6	Code identifying the basic reasons why this item is being repaired
+1230	Type of Product Service Code	ID	2	4	Code specifying the type of product service contract or the basis of the product service claim
+1231	Operation Environment Code	AN	2	3	Code identifying the conditions under which this product will be used or the operating application of the product
+1232	Purchase Category	ID	2	2	Code identifying the broad category of products or services being acquired
+1233	Service Classification Code	AN	1	4	Code specifying uniformly categorize reasons for service actions or changes made to products, assemblies, sub-assemblies, parts or processes
+1234	Severity Condition Code	AN	1	2	Code specifying the severity or urgency of the condition causing a repair, a service notification, or a product recall
+1236	Payment Type Code	ID	2	2	Code identifying type of payment information
+1237	Move Type Code	ID	1	1	Code identifying type of move performed by the carrier
+1238	Bay Type Code	ID	1	1	Code identifying type of vehicle parking pattern
+1239	Capacity Qualifier	ID	2	2	Code indicating the method of determining vehicle storage facility capacity
+1240	Facility Characteristic Code	ID	1	2	Code indicating characteristics of a vehicle shipping facility as qualified by DE 1241
+1241	Facility Characteristic Code Qualifier	ID	1	1	Code specifying type of facility characteristic
+1242	Demand Area	AN	3	3	Demographic sales area
+1243	Financial Status	AN	3	3	Current credit condition of consignee
+1244	National Motor Freight Transportation Association Location Name	AN	2	27	Code identifying city or location names as established by the National Motor Freight Transportation Association
+1245	Vehicle Identification Number (VIN) Plant Code	ID	1	1	Code identifying assemble plant which manufactured a motor vehicle
+1246	Special Rate Code	ID	1	2	Code identifying rate with special applications or restrictions
+1250	Date Time Period Format Qualifier	ID	2	3	Code indicating the date format, time format, or date and time format
+1251	Date Time Period	AN	1	35	Expression of a date, a time, or range of dates, times or dates and times
+1252	Health Screening Type Code	ID	3	6	Codes indicating the type of health screening conducted for a person
+1253	Immunization Type Code	ID	3	6	The type of immunization a person received
+1254	Immunization Status Code	ID	1	2	Code indicating the status of an immunization conducted on a person
+1255	Disease Condition Type Code	ID	3	6	Code used to indicate the disease had by or the condition of a person
+1256	Medical Treatment Type Code	ID	5	5	Code indicating the treatment activity related to a health condition of a person
+1257	Special Program Category Code	ID	1	2	The type of special education program in which a student is involved
+1258	Academic Grade	AN	1	3	This indicates the grade that a student received for participation in an academic course
+1260	Reported Data ID Code	AN	1	6	Code identifying specific government reporting requirements
+1261	Reported Data Response	AN	1	10	This element contains a condition or response
+1262	Loan Type Code	ID	1	2	This code identifies the loan program or type
+1264	Delayed Repayment Reason Code	ID	1	2	Code identifying the reason for delayed repayment on a student loan
+1265	Interest Payment Code	ID	1	2	Code identifying the method of interest payment
+1266	Major Course of Study	ID	1	2	Code indicating the student's major course of study
+1267	Dependency Status Code	ID	1	1	Code indicating the dependency status of the student
+1268	Applicant Type Code	ID	1	1	Code indicating the type of applicant
+1270	Code List Qualifier Code	ID	1	3	Code identifying a specific industry code list
+1271	Industry Code	AN	1	30	Code indicating a code from a specific industry code list
+1272	Horsepower	N0	1	16	Total horsepower for all engines in train
+1273	Direction Facing	ID	1	1	Indicates the direction of the locomotive
+1274	Train Delay Reason Code	AN	2	2	Code specifying reason for train delay
+1275	Fumigated/Cleaned Indicator	ID	1	1	Code indicating whether product has been fumigated and/or cleaned
+1276	Machine Separable Indicator Code	ID	2	2	Canadian Grain Commission grain code identifying the type of grain that must be separated
+1277	Canadian Wheat Board (CWB) Marketing Class Code	ID	1	1	Code identifying the Canadian Wheat Board market class of the grain
+1278	Canadian Wheat Board (CWB) Marketing Class Type Code	ID	1	1	Code identifying Canadian Wheat Board market class type
+1280	Direction Identifier Code	ID	1	1	Code identifying geographic direction
+1292	Returns Disposition Code	ID	2	2	Code indicating the disposition of a contested item
+1293	Return Request Reason Code	ID	2	2	Code indicating the reason for the return from the party returning, or requesting to return, the items
+1294	Return Response Reason Code	ID	2	2	Code indicating the response to a request to return items
+1295	Participant Status Code	ID	1	2	Code indicating the status of an individual in a benefit plan
+1296	Special Processing Type	AN	1	6	Type of special processing that is required
+1297	Work Status Code	ID	1	2	Code indicating the status for a work task
+1300	Service, Promotion, Allowance, or Charge Code	ID	4	4	Code identifying the service, promotion, allowance, or charge
+1301	Agency Service, Promotion, Allowance, or Charge Code	AN	1	10	Agency maintained code identifying the service, promotion, allowance, or charge
+1302	Shipper's Export Declaration Requirements	AN	1	2	Code identifying which Shipper's Export Declaration (SED) requirements are being met
+1303	Use of Language Indicator	ID	1	2	Code indicating the use of a language
+1304	Mark Code Type	ID	1	2	Code identifying the type of mark that was awarded
+1306	U.S. Government License Type	AN	1	1	Code to identify the type of government license involved
+1307	Loan Status Code	ID	1	2	Code indicating the loan status
+1308	Contract Action Code	ID	2	2	Code identifying the expected resultant type of contract action or current type of contract action
+1309	Acquisition Data Code	ID	2	2	Code identifying acquisition data
+1310	Financing Type Code	ID	1	1	Code identifying the type of contract financing required by the submitter of a pricing proposal
+1311	Calculation Operation Code	ID	1	1	Code identifying what type of calculation will take place
+1312	Test Period or Interval Qualifier	ID	2	2	Code indicating the type of period or interval as related to when a test event occurs
+1313	Test Period or Interval Value	N0	1	6	Numeric value of period or interval signifying when a test event occurs
+1314	Admission Source Code	ID	1	1	Code indicating the source of this admission
+1315	Admission Type Code	ID	1	1	Code indicating the priority of this admission
+1316	Ambulance Transport Code	ID	1	1	Code indicating the type of ambulance transport
+1317	Ambulance Transport Reason Code	ID	1	1	Code indicating the reason for ambulance transport
+1318	Approval Code	ID	1	1	Code specifying the determination arrived at by the Utilization Review Committee or Peer Review Organization (PRO)
+1319	Basis of Cost Determination Code	ID	1	2	Code indicating the method by which the ingredient cost was calculated
+1320	Basis of Days Supply Determination Code	ID	1	1	Code indicating the method by which the days supply was determined
+1321	Condition Indicator	ID	2	2	Code indicating a condition
+1322	Certification Type Code	ID	1	1	Code indicating the type of certification
+1325	Claim Frequency Type Code	ID	1	1	Code specifying the frequency of the claim; this is the third position of the Uniform Billing Claim Form Bill Type
+1327	Copay Status Code	ID	1	1	Code indicating whether or not co-payment requirements were met on a line by line basis
+1328	Diagnosis Code Pointer	N0	1	2	A pointer to the claim diagnosis code in the order of importance to this service
+1329	Dispense as Written Code	ID	1	1	Code indicating whether or not the prescriber's instructions regarding generic substitution were followed
+1330	Dosage Form Code	ID	2	2	Code indicating the form in which the drug is dispensed
+1331	Facility Code Value	AN	1	2	Code identifying the type of facility where services were performed; the first and second positions of the Uniform Bill Type code or the Place of Service code from the Electronic Media Claims National Standard Format
+1332	Facility Code Qualifier	ID	1	2	Code identifying the type of facility referenced
+1333	Record Format Code	ID	1	2	Code specifying the format of information
+1334	Health Care Professional Shortage Area Code	ID	1	1	Code identifying the Health Care Professional Shortage Area Code (HPSA)
+1335	Insulin Dependent Code	ID	1	1	Code indicating the condition that demonstrates insulin dependence
+1336	Insurance Type Code	ID	1	3	Code identifying the type of insurance policy within a specific insurance program
+1337	Level of Care Code	ID	1	1	Code specifying the level of care provided by a nursing home facility
+1338	Level of Service Code	ID	1	3	Code specifying the level of service rendered
+1339	Procedure Modifier	AN	2	2	This identifies special circumstances related to the performance of the service, as defined by trading partners
+1340	Multiple Procedure Code	ID	1	2	Code indicating proper adjudication and payment determination in cases involving multiple surgical procedures during the same surgical session
+1341	National or Local Assigned Review Value	AN	1	2	Value assigned by national or local organizations for various healthcare data elements
+1342	Nature of Condition Code	ID	1	1	Code indicating the nature of a patient's condition
+1343	Non-Institutional Claim Type Code	ID	1	2	Code identifying the type of provider or claim
+1344	Non-Visit Code	ID	1	1	Code indicating on what a medical evaluation is based, when not based on a physician's visit
+1345	Nursing Home Residential Status Code	ID	1	1	Code specifying the status of a nursing home resident at the time of service
+1346	Nutrient Administration Method Code	ID	1	1	Code indicating the method used to administer nutrient to a patient
+1347	Nutrient Administration Technique Code	ID	1	1	Code indicating the technique used to administer nutrient to a patient
+1348	Oxygen Equipment Type Code	ID	1	1	Code indicating the specific type of equipment being prescribed for the delivery of oxygen
+1349	Oxygen Test Condition Code	ID	1	1	Code indicating the conditions under which a patient was tested
+1350	Oxygen Test Findings Code	ID	1	1	Code indicating the findings of oxygen tests performed on a patient
+1351	Patient Signature Source Code	ID	1	1	Code indicating how the patient or subscriber authorization signatures were obtained and how they are being retained by the provider
+1352	Patient Status Code	ID	1	2	Code indicating patient status as of the statement covers through date
+1354	Diagnosis Related Group (DRG) Code	ID	1	4	Code indicating a patient's diagnosis group based on a patient's illness, diseases, and medical problems
+1355	Prescription Denial Override Code	ID	2	2	Code indicating that a pharmacist has overridden the denial of a prescription
+1356	Prescription Origin Code	ID	1	1	Code indicating the origin of a prescription
+1357	Prior Authorization Type Code	ID	1	1	Code indicating the type of prior authorization or medical certification that has occurred
+1358	Prosthesis, Crown or Inlay Code	ID	1	1	Code specifying the placement status for the dental work
+1359	Provider Accept Assignment Code	ID	1	1	Code indicating whether the provider accepts assignment
+1360	Provider Agreement Code	ID	1	1	Code indicating the type of agreement under which the provider is submitting this claim
+1361	Oral Cavity Designation Code	ID	1	3	Code Identifying the area of the oral cavity in which service is rendered
+1362	Related-Causes Code	ID	2	3	Code identifying an accompanying cause of an illness, injury or an accident
+1363	Release of Information Code	ID	1	1	Code indicating whether the provider has on file a signed statement by the patient authorizing the release of medical data to other organizations
+1364	Review Code	ID	1	2	Code identifying extenuating circumstances or justifications which might assist any review of the medical necessity for this service
+1365	Service Type Code	ID	1	2	Code identifying the classification of service
+1366	Special Program Code	ID	2	3	Code indicating the Special Program under which the services rendered to the patient were performed
+1367	Subluxation Level Code	ID	2	3	Code identifying the specific level of subluxation
+1368	Tooth Status Code	ID	1	2	Code specifying the status of the tooth
+1369	Tooth Surface Code	ID	1	2	Code identifying the area of the tooth that was treated
+1370	Unit Dose Code	ID	1	1	Code indicating the type of unit dose dispensing done
+1371	Unit Rate	R	1	10	The rate per unit of associate revenue for hospital accommodation
+1373	Measurement Method or Device	ID	2	4	The method or device used to record the measurement
+1374	Payment Adjustment Code	ID	1	1	Code identifying the nature of the payment adjustment
+1375	Interim Hazardous Material Regulatory Number	AN	1	5	Identifies the current regulatory version number used for hazardous materials shipments
+1376	Investor Reporting Action Code	ID	2	2	Code identifying the type of investor reporting action that was needed
+1378	Waybill Cross-Reference Code	ID	2	2	Code to cross-reference the type of revenue waybill to a previously submitted waybill
+1379	Loan Verification Code	ID	1	2	Code indicating the loan verification confirmation or exception reason
+1382	Oxygen Delivery System Code	ID	1	1	Code to indicate if a particular form of delivery was prescribed
+1383	Claim Submission Reason Code	ID	2	2	Code identifying reason for claim submission
+1384	Patient Location Code	ID	1	1	Code identifying the location where patient is receiving medical treatment
+1387	Rate Qualifier	ID	1	2	Code indicating the type of interest rate
+1390	Eligibility or Benefit Information	ID	1	2	Code identifying eligibility or benefit information
+1392	Market Profile	AN	1	8	Indicates a specific market group
+1393	Media Type Identifier	ID	2	2	Identifies a specific media type
+1395	Configuration Type Code	ID	1	1	Code defining how information is being grouped or arrayed
+1396	Equipment Use Code	ID	1	1	Code defining how the equipment is to be used
+1397	Inquiry Response Code	ID	1	2	Code indicating type of response action for Customer Information Inquiries
+1398	Inquiry Selection Code	ID	1	1	Code indicating what the requestor wants included or excluded from the response to an inquiry
+1400	Hierarchy Code	AN	2	2	Code identifying the level an entity holds in the hierarchy of a corporate family
+1401	Proposal Data Detail Identifier Code	ID	1	3	Code identifying the basis of a cited value in a proposal
+1402	Equipment Attribute Code	ID	2	3	Code specifying attributes of a piece of equipment
+1403	Implant Type Code	ID	1	1	Code identifying implant components
+1404	Implant Status Code	ID	1	1	Code identifying the status of implant components
+1407	Investor Ownership Type Code	ID	1	2	Code identifying the type of ownership for a loan
+1408	Remittance Type Code	ID	2	2	Code identifying the type of remittance
+1413	Usage Indicator	ID	1	1	Designates whether the achievement or characteristic being described is a requirement, an attribute, or a proficiency
+1415	Specimen Kit Type Code	ID	1	4	Code specifying the specimen kit type or contents used for collecting and forwarding samples used in the tests being reported
+1420	Title Insurance Services Code	ID	2	2	Code identifying the title insurance services
+1422	Damage Status Code	ID	2	2	Code indicating the condition of the damage at the time of the report
+1423	License Plate Type	ID	2	2	Code identifying the type of license
+1425	Recovery Classification Code	ID	1	2	Code specifying an item's recovery classification
+1426	Recovery Condition Code	ID	1	2	Code identifying the condition or state of the recovered item
+1428	Master In-bond Type Code	ID	1	1	Code identifying a type of Master In-bond
+1429	Construction Type	ID	1	2	Contains the primary construction material
+1430	Day Rotation	AN	1	7	Days of week expressed in a seven-day rotation period starting with Monday = 1; a Monday - Friday would be shown as (12345)
+1431	Preference	ID	1	1	Code specifying sender's preference
+1432	Business Purpose of Assurance	ID	3	3	The stated business purpose for appending the assurance to an existing secured-entity (whether functional group or transaction set); the codes represent the intention of the business or application that has control over the assurance originator
+1434	Domain of Computation of Assurance	ID	1	2	Code specifying the bounds of the text, whether contiguous or not, over which the computation of the Assurance Token is computed using the defined methodology of computation and any relevant Assurance Token parameters The body is defined as a transaction set, beginning with the first byte of the segment immediately following the ST segment terminator and including all segments up to but not including the S in the first SVA segment; DO NOT include any S4A segments The body can also be defined as a functional group, beginning with the first byte of the segment immediately following the GS segment terminator and including all transaction sets up to but not including the S in the first SVA segment at the functional group level; DO NOT include any S3A segments This Assurance is defined as from the S in S3A or S4A up to and including the segment terminator of that segment Previous Assurance(s) is defined as including the entire S3A or S4A segment and the entire corresponding SVA segment that is associated with the S3A or S4A at the same level
+1435	Assurance Originator	AN	1	64	Unique designation (identity) of the cryptographic process that performs the stated assurance on data to be interchanged Note: X9 has a required minimum length of 4 characters for a security originator; no mechanism, or registration method, is provided by X9 or X12 to guarantee uniqueness of the identifier Note: X9 has a required minimum length of 4 characters for a security originator; no mechanism, or registration method, is provided by X9 or X12 to guarantee uniqueness of the identifier
+1436	Assurance Recipient	AN	1	64	Unique designation (identity) of the cryptographic process that performs validation of the stated assurance on received data. In the absence of an Assurance Recipient all potential receivers will often be able to validate the assurance because the cryptographic technique is based on a public (as opposed to secret) technology Note: X9 has required minimum length of 4 characters for a security recipient; no mechanism, or registration method, is provided by X9 or X12 to guarantee uniqueness of the identifier Note: X9 has required minimum length of 4 characters for a security recipient; no mechanism, or registration method, is provided by X9 or X12 to guarantee uniqueness of the identifier
+1437	Date/Time Reference	AN	17	25	Date/time stamp in format as follows: YYYYMMDDHHNNSSTTTZZZ+XXXX, where YYYY = 4 digit year (with leading century), MM = month of year (01..12), DD = day of month (01..31), HH = hour of day in 24-hour format (00..23), NN = minutes of the hour (00-59), SS = second of hour (00..59), TTT = [optional] milli-seconds (000..999), ZZZ = [optional] three character, nominal timezone indicator (including daylight savings time indicator) and XXXXX = 3-5 digit (including leading + or - sign) offset of time to universal time, with three position format indicating hours-offset for whole hours, and five position format indicating hours and minutes offset where this is necessary. For example: 1993061522133OCDT+0930 which represents 15 June 1993, 22:13 (10:13pm), Central Daylight Time (Nominal Value CDT), in a timezone that is offset + 9:30 from Universal Time (Australia) YYYYMMDDHHNNSSTTTZZZ+XXXX, where YYYY = 4 digit year (with leading century), MM = month of year (01..12), DD = day of month (01..31), HH = hour of day in 24-hour format (00..23), NN = minutes of the hour (00-59), SS = second of hour (00..59), TTT = [optional] milli-seconds (000..999), ZZZ = [optional] three character, nominal timezone indicator (including daylight savings time indicator) and XXXXX = 3-5 digit (including leading + or - sign) offset of time to universal time, with three position format indicating hours-offset for whole hours, and five position format indicating hours and minutes offset where this is necessary. For example: 1993061522133OCDT+0930 which represents 15 June 1993, 22:13 (10:13pm), Central Daylight Time (Nominal Value CDT), in a timezone that is offset + 9:30 from Universal Time (Australia) 1993061522133OCDT+0930 which represents 15 June 1993, 22:13 (10:13pm), Central Daylight Time (Nominal Value CDT), in a timezone that is offset + 9:30 from Universal Time (Australia)
+1438	Assurance Text	AN	1	64	Any text needed to convey the name of a signatory, registration number, certification number, or other assurance-originator defined or mutually-agreed business text related to the specific assurance; this text is not defined for X12 purposes and thus functions technically as free form text though it may have structure that is defined by the assurance originator, an industry group, a governmental agency, or bi-laterally between assurance originator and assurance recipient
+1439	Assurance Token Parameter Code	ID	2	2	A code specifying the type of Assurance Token Parameter
+1440	Assurance Digest	AN	1	512	The result of the application of the hash defined in the methodology expressed in ASCII-hex notation
+1442	Assurance Token Parameter Value	AN	1	64	A value of a parameter, usually specifying one or more options, required for the proper operation of the cryptographic algorithm used to compute the Assurance Token; depending on the algorithm used, one or more values may be required
+1443	Assurance Reference Number	AN	1	35	Alphanumeric reference number issued by security assurance originator for the particular assurance in which it occurs; unique when used in combination with security originator data element
+1460	Part of Body Code	ID	2	2	Code identifying the part of body
+1465	Proximity Code	ID	2	2	Code identifying proximity
+1466	Location Type Code	ID	2	2	Code identifying a type of location
+1468	Reason Stopped Work Code	ID	2	2	Code identifying reason claimant stopped working
+1469	Affected Area or Section Code	ID	1	1	Code indicating the area or areas affected by a change or changes
+1470	Number	N0	1	9	A generic number
+1472	Report Section Number	AN	1	15	Number identifying a specified section or subsection of a report
+1473	Pricing Methodology	ID	2	2	Code specifying pricing methodology at which the claim or line item has been priced or repriced
+1476	Language Proficiency Indicator	ID	1	1	Code indicating language proficiency
+1482	Mechanical Car Code	ID	4	4	Association of American Railroads Mechanical Car Code
+1484	Problem Log Reason Code	ID	2	2	Code indicating the reason a problem log was created
+1485	Service Commitment Type Code	ID	1	1	Code identifying the type of service commitment
+1487	Retrip Reason Code	ID	2	2	Code identifying the reason a trip has been revised
+1488	Bad Order Reason Code	ID	1	1	Code indicating the reason equipment has been designated as a bad order
+1489	Hold Reason Code	ID	2	2	Code indicating the reason equipment has been detained
+1490	Association of American Railroads Car Grade Code	ID	1	1	Code indicating the mechanical condition of a rail car
+1491	Parameter Trace Registration Type Code	ID	1	1	Code identifying the type and handling of a Parameter Trace Registration
+1492	Parameter Trace Type Code	ID	1	1	Code indicating the type of parameter tracing desired
+1493	Output Event Selection Code	ID	1	1	Code indicating the type of output events
+1494	Transportation Condition Code	ID	1	1	Code indicating handling restrictions and empty disposition instructions for railroad freight equipment
+1495	Query Type Code	ID	1	1	Code indicating what information is provided in a query request
+1496	Property Description Qualifier	ID	2	2	Type of reference or number used to describe real property
+1497	Notification Entity Qualifier	AN	1	2	Code indicating type of notifications
+1499	Rate Application Code	ID	2	2	Code identifying the location at which the tax rate is applied
+1511	Type of Deduction	ID	2	2	Code specifying type of deduction being withheld from an employee's pay
+1514	Delay Reason Code	ID	1	2	Code indicating the reason why a request was delayed
+1520	Display Type Code	ID	1	2	Code indicating the type of displays
+1521	Marketing Type Code	ID	1	2	Code indicating the type of marketing devices or programs
+1522	Coupon Type Code	ID	1	2	Code indicating the type of coupon
+1523	Labor Activity Code	ID	1	2	Code indicating a type of labor activity
+1524	Benefit Modifier	ID	1	2	Code describing the benefit
+1525	Request Category Code	ID	1	2	Code indicating a type of request
+1526	Policy Compliance Code	ID	1	2	Code specifying policy compliance
+1527	Exception Code	ID	1	2	Code specifying the exception reason for consideration of out-of-network health care services
+1528	Component Data Element Position in Composite	N0	1	2	To identify the component data element position within the composite that is in error
+1540	Net Cost Code	ID	1	2	Code indicating the net cost formula
+1543	Equipment Orientation Code	ID	1	1	Code indicating the direction the equipment is entrained
+1546	Preferential Duty Criteria Code	ID	1	2	Code indicating the rule that was used to claim duty preference
+1549	Convertibility Rate Type Code	ID	1	2	Code indicating the type of rate used in a convertibility option
+1550	Index Qualifier	ID	1	2	Code identifying an index
+1551	Message Text	AN	1	4096	To transmit large volumes of message text
+1552	Option Type Code	ID	1	2	Code indicating the type of option provided
+1553	License Type Code	ID	2	2	Code specifying the type of license
+1554	Tag Status Code	ID	1	1	Code indicating the status of an Automatic Equipment Identification Tag
+1555	Automatic Equipment Identification Consist Confidence Level Code	ID	1	1	Code indicating the confidence level of the information being passed by an automatic equipment identification reader
+1556	Train Termination Status Code	ID	1	1	Code indicating the train termination status
+1557	Movement Type Code	ID	1	1	Code indicating the type of movement at the automatic equipment identification reader site
+1558	Academic Summary Source	ID	1	1	Code used to indicate the source of the summary data
+1559	Automatic Equipment Identification Site Status Code	ID	1	1	Code indicating the site status of the automatic equipment identification reader
+1560	Interchange Type Code	ID	1	1	Code indicating the type of description being used in the Junction Master
+1561	Rail Junction Settlement Role Code	ID	1	1	Code indicating carrier's junction settlement role
+1564	Protocol ID	ID	3	3	Code specifying protocol used to encrypt the session key
+1565	Look-up Value	AN	1	4096	Value used to identify a certificate containing a public key
+1566	Keying Material	AN	1	512	Additional material required for decrypting the one-time key
+1567	One-time Encryption Key	AN	1	512	Hexadecimally filtered encrypted one-time key
+1568	Algorithm ID	ID	3	3	Algorithm used for Encryption
+1569	Algorithm Mode of Operation	ID	3	3	Mode of Operation of the Encryption Algorithm
+1570	Filter ID Code	ID	3	3	Code specifying the type of filter used to convert data code values
+1571	Compression ID	ID	3	3	Type of Compression Used
+1572	Security Value Qualifier	ID	3	3	Type of Security Value
+1573	Encoded Security Value	AN	1	10000000000000000	Encoded representation of the Security Value specified by the Security Value Qualifier
+1574	Assurance Algorithm	ID	3	3	Code specifying the algorithm used to compute the assurance token
+1575	Hashing Algorithm	ID	3	3	Code specifying the algorithm used to compute the assurance digest
+1576	Inspected/Weighed Indicator Code	ID	1	2	Code indicating whether product has been inspected and/or weighed
+1577	Hazardous Material Regulations Exception Code	ID	1	1	Code indicating if an exception exists for a finished good from the shipping requirements of the hazardous material regulations and what that exception is
+1578	Export Exception Code	ID	2	2	Code specifying why a Shipper's Export Declaration (SED) is not required
+1579	Accrual Rate Method Code	ID	1	1	Code identifying the method of interest accrual
+1585	Shape Code	ID	1	2	Code indicating the shape of an object
+1588	Political Party Affiliation Code	ID	2	2	Code identifying a political party affiliation
+1589	Harbor Maintenance Fee (HMF) Exemption Code	AN	1	2	Code specifying the reason a commodity is exempt from Harbor Maintenance Fees
+1590	Asset Liability Type Code	ID	2	2	Code specifying the type of financial statement item
+1591	Type of Activity Code	ID	2	2	Code specifying the type of activity
+1592	Type of Rating Code	ID	2	2	Code specifying the level of participation
+1594	Controlled Substance Type Code	ID	2	2	Code specifying the type of controlled substance
+1595	Government Service Affiliation Code	ID	1	1	Code specifying the government service affiliation
+1596	Military Service Rank Code	ID	2	2	Code specifying the military service rank
+1599	Hazardous Vehicle Type Code	ID	2	2	Code specifying the type of hazardous vehicle
+1600	Freight Rate Qualifier	ID	2	2	Code qualifying the Bill of Lading freight rate
+1601	Rated-as Qualifier	ID	2	2	Code identifying the type of quantity on which the rate is based
+1602	Bill of Lading Charge Code	ID	3	3	Code identifying the type of Bill of Lading charge
+1603	Route of Administration	AN	1	20	Description of how the test substance was administered to the animals (e.g., diet, oral, gavage, dermal, etc.)
+1606	Animal Disposition Code	ID	2	2	Code identifying the disposition of an animal
+1607	Test Type Code	ID	2	2	Code identifying the type of test performed for which measured results will be reported
+1608	Non-Numeric Test Value	AN	1	30	Identifies a non-numeric value for a test result
+1609	Related Data Identification Code	ID	2	3	Code identifying the nature of data related to an application edit error condition
+1610	International Dutiable Status Code	ID	2	2	Code identifying the dutiable status of an international shipment
+1611	Observation Type Code	ID	2	2	Code identifying the type of observation made for which results will be reported
+1612	Tissue or Specimen Disposition Code	ID	1	1	Code identifying the disposition or condition of a tissue or specimen when it was collected
+1614	Sub-Location	AN	1	24	Sub-location qualifying a previously reported location
+1615	Observation Distribution	AN	1	16	Identifies the distribution of an observation
+1616	Observation Severity	AN	1	17	A grading that describes the severity of the observation
+1617	Neoplasm Code	ID	1	1	Code identifying the description of a tumorous lesion
+1618	Linkage Identifier	AN	1	4	Identifies a correlation between observations
+1619	Parturition Status Code	ID	1	1	Code identifying a parturition or birth delivery status
+1620	Offspring Count Code	ID	2	2	Code indicating the type of offspring count collected for a specific animal
+1621	Security Version/Release Identifier Code	ID	6	6	Code indicating the version/release of the ASC X12 standard that is being used for this specific security structure. The version/release identified for this segment also applies to any corresponding trailer or security value segment. This version/release is independent of any other version/release identified in another security segment at the transaction set or functional group level. This version/release is independent of the version/release identified at the interchange or functional group level
+1622	Offspring/Fetus Status Code	ID	2	2	Code indicating the offspring/fetus status
+1626	Interest Rate Calculation Method Code	ID	1	1	Code identifying the type of method used to calculate the interest rate
+1627	Underwriting Method Code	ID	1	1	Code identifying the method of underwriting
+1629	Information Request Result Code	ID	1	1	Code identifying the type of results obtained from interview request
+1630	Thoroughfare Type Qualifier	ID	1	1	Code specifying thoroughfare
+1631	Thoroughfare Type Code	ID	1	1	Code identifying type of thoroughfare
+1632	General Territory Code	ID	1	2	Code identifying a general location or territory
+1633	Financial Statement Format Code	ID	1	1	Code identifying financial statement format
+1634	Business Professional Title Code	ID	1	3	Code identifying title of an individual within a business
+1635	General Property Ownership Code	ID	1	1	Code specifying general extent of property ownership
+1636	Account Relationship Code	ID	1	2	Code indicating relationship or type of account an entity maintains with a vendor or financial institution
+1637	Net/Gross Code	ID	1	1	Code indicating whether monetary values are net or gross
+1638	Value Detail Code	ID	1	1	Code identifying extent of an amount or quantity
+1642	Cryptographic Management Purpose	ID	3	3	The stated business purpose for exchanging public key on certificate information with a trading partner
+1644	Service Request Code	ID	2	2	Code indicating the type of logistics service requested
+1650	Shipment Status Code	ID	2	2	Code indicating the status of a shipment
+1651	Shipment Status or Appointment Reason Code	ID	2	2	Code indicating the reason a shipment status or appointment reason was transmitted
+1652	Shipment Appointment Status Code	ID	2	2	Code indicating the status of an appointment to pick-up or deliver a shipment
+1653	Shipment Appointment Reason Code	ID	2	2	Code indicating the reason that a pick-up or delivery appointment status code was transmitted.
+1654	Longitude Code	ID	7	7	Code indicating the longitude in degrees (3 positions), minutes (2 positions), and seconds (2 positions)
+1655	Latitude Code	ID	7	7	Code indicating the latitude in degrees (3 positions), minutes (2 positions), seconds (2 positions)
+1656	Premium Rate Pattern Code	ID	1	1	Code identifying the relative pattern of Mortgage Insurance premium rates charged over the life of the coverage
+1657	Premium Source Entity Code	ID	1	1	Code identifying the entity or entities responsible for payment of the premium
+1658	Shipment or Work Assignment Decline Reason Code	ID	3	3	Code indicating the reason for declining a shipment or work assignment
+1661	Source Code	ID	2	2	Code identifying the source of the mileage
+1662	Rate Request ID	N0	1	9	Identification number assigned by the original rate requestor that uniquely identifies the rate request from the request to the carrier to the final award; it is not subject to modification and does not contain blanks or other special characters
+1663	Rate Response Suffix	N0	1	3	Suffix number assigned by the carrier to the original rate request identification number
+1664	Lane Ranking	R	1	4	Number indicating the rank of the carrier's rate proposal compared to the rate proposals of the other carriers
+1675	Look-up Value Protocol Code	ID	2	2	Code specifying the protocol used to identify a certificate
+1678	Insurer Guarantor Type Code	ID	1	1	Code indicating the insurer or guarantor of a mortgage note
+1679	Insurer Coverage Indicator Code	ID	1	1	Code indicating how the mortgage insurance premium is paid
+1680	Refinance Type Code	ID	2	2	Code specifying a type of refinance
+1681	Primary Source of Index Code	ID	2	2	Code identifying the source of the index value used for adjustable rate mortgage changes
+1684	Attendance Type Code	ID	1	4	Code specifying the type of attendance information being reported
+1685	Tax Treatment Code	ID	1	1	Code specifying whether a deduction should have pre- or post-tax status
+1687	Earnings Rate of Pay	R	1	15	To specify rate of pay
+1688	Deduction Type Code	ID	1	4	Code indicating the type of deduction being reported
+I01	Authorization Information Qualifier	ID	2	2	Code to identify the type of information in the Authorization Information
+I02	Authorization Information	AN	10	10	Information used for additional identification or authorization of the interchange sender or the data in the interchange; the type of information is set by the Authorization Information Qualifier (I01)
+I03	Security Information Qualifier	ID	2	2	Code to identify the type of information in the Security Information
+I04	Security Information	AN	10	10	This is used for identifying the security information about the interchange sender or the data in the interchange; the type of information is set by the Security Information Qualifier (I03)
+I05	Interchange ID Qualifier	ID	2	2	Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified
+I06	Interchange Sender ID	AN	15	15	Identification code published by the sender for other parties to use as the receiver ID to route data to them; the sender always codes this value in the sender ID element
+I07	Interchange Receiver ID	AN	15	15	Identification code published by the receiver of the data; When sending, it is used by the sender as their sending ID, thus other parties sending to them will use this as a receiving ID to route data to them
+I08	Interchange Date	DT	6	6	Date of the interchange
+I09	Interchange Time	TM	4	4	Time of the interchange
+I10	Interchange Control Standards Identifier	ID	1	1	Code to identify the agency responsible for the control standard used by the message that is enclosed by the interchange header and trailer
+I11	Interchange Control Version Number	ID	5	5	This version number covers the interchange control segments
+I12	Interchange Control Number	N0	9	9	A control number assigned by the interchange sender
+I13	Acknowledgment Requested	ID	1	1	Code sent by the sender to request an interchange acknowledgment (TA1)
+I14	Usage Indicator	ID	1	1	Code to indicate whether data enclosed by this interchange envelope is test, production or information
+I15	Component Element Separator	N/A	1	1	Type is not applicable; the component element separator is a delimiter and not a data element; this field provides the delimiter used to separate component data elements within a composite data structure; this value must be different than the data element separator and the segment terminator
+I16	Number of Included Functional Groups	N0	1	5	A count of the number of functional groups included in an interchange
+I17	Interchange Acknowledgment Code	ID	1	1	This indicates the status of the receipt of the interchange control structure
+I18	Interchange Note Code	ID	3	3	This numeric code indicates the error found processing the interchange control structure
+I19	Interconnect Mailbag Version Number	ID	5	5	Code to indicate the version number covering the interconnect mailbag control segments and the interconnect mailbag acknowledgment segment
+I20	Interconnect Mailbag Logon ID	AN	1	10	Information used for access security identification of the sender of the interconnect mailbag; The content of the logon ID is assigned by the receiving interconnect entity
+I21	Interconnect Mailbag Password	AN	1	10	Information used for additional access security identification of the sender of the interconnect mailbag; The content of the password is assigned by the receiving interconnect entity
+I22	Interconnect Mailbag ID Qualifier Code	ID	2	2	Code identifying the system or method of code structure used to designate the sender or receiver ID element being qualified
+I23	Interconnect Mailbag Sender ID	AN	1	15	Identification code published by the interconnect entity sender for use by the other interconnect entity parties who use this identification code as the receiver ID to route data back to them via an interconnect
+I24	Interconnect Mailbag Receiver ID	AN	1	15	Identification code published by a given receiver of a mailbag used as a sending ID by that interconnect entity as their sending ID when sending via an interconnect; Other interconnect entities sending to them will use this as a receiving ID to route a mailbag to them via an interconnect
+I25	Interconnect Mailbag Date	DT	6	6	Date (YYMMDD) the interconnect mailbag was created for initial transmission
+I26	Interconnect Mailbag Time	TM	6	6	Time the interconnect mailbag was created for initial transmission; Time is expressed in 24-hour clock time (HHMMSS, time range: 000000 through 235959)
+I27	Interconnect Mailbag Time Code	ID	2	2	Code identifying the time; In accordance with International Organization for Standardization (ISO) Standard 8601, time can be specified by + or - and an indication in hours in relation to Universal Time Coordinate (UTC) time; Since + is a restricted character, + and - are substituted by P and M, respectively, in the codes that follow
+I28	Interconnect Mailbag Control Number	N0	1	9	This number uniquely identifies the interconnect mailbag to the interconnect entity sender; It is assigned by the interconnect entity sender; Together with the sender ID, it uniquely identifies the interconnect mailbag to the interconnect entity receiver; It is suggested that the interconnect entity sender and the interconnect entity receiver be able to maintain an audit trail of interconnect mailbags using this number; Each interconnect mailbag that is created by the sender should contain a unique control number; Interconnect mailbags that require retransmission should not have their control number changed
+I29	Interconnect Mailbag Test Indicator	ID	1	1	Code to indicate whether data enclosed by this interconnect mailbag envelope is test or production
+I30	Interconnect Mailbag Acknowledgment Count	N0	1	4	A count of the number of interconnect mailbag acknowledgment (IA) segments included in the mailbag
+I31	Interconnect Mailbag Interchange Count	N0	1	5	A count of the number of interchanges included in the mailbag
+I32	Interconnect Mailbag Acknowledgment Action Code	ID	1	1	Code indicating the status of receipt by the interconnect entity receiver of the interconnect mailbag and the actions to be taken, if any
+I33	Interconnect Mailbag Error Code	ID	2	2	Code indicating the nature of the error detected in the received interconnect mailbag by the interconnect entity receiver
+I34	Grade of Service Code	ID	1	1	This indicates the relative urgency of the interchange as determined by the interchange sender
+I35	Delivery Date	DT	6	6	This is the earliest date the interchange can be delivered to the recipient
+I36	Delivery Time	TM	4	4	This is the earliest time the interchange can be delivered to the recipient
+I37	Delivery Time Code	ID	2	2	This is a code identifying the delivery time; in accordance with International Organization for Standardization (ISO) standard 8601, time can be specified by a + or - and an indication in hours in relation to universal time coordination (UTC) time; since + is a restricted character, the + and - are substituted by P and M in the codes that follow
+I38	Service Request Handler ID Qualifier	ID	2	2	This is a code identifying the service request handler
+I39	Service Request Handler ID	AN	1	15	This is the identification code of the sending service request handler
+I40	Action Code	ID	2	2	This is a code indicating the action taken on the interchange or functional group by the service request handler or the receiver
+I41	Action Date	DT	6	6	This is the UTC date when the service request handler took action on the reported interchange or functional group
+I42	Action Time	TM	4	6	This is the UTC time when the service request handler took action on the reported interchange or functional group
+I43	Error Reason Code	ID	3	3	The code indicates the error found or not found in processing the control structure or in delivery
+I44	Reported Start Segment ID	AN	2	3	This contains the start segment ID of the original interchange, functional group or transaction set
+I45	Reported Control Number	AN	1	14	This is the control number value of the original interchange, functional group or transaction set
+I46	Reported Date	AN	1	8	This is the date value of original interchange or functional group
+I47	Reported Time	AN	1	8	This is the time value of original interchange or functional group
+I48	Reported Interchange Sender ID Qualifier	AN	1	4	This is the sender ID qualifier value appearing in original interchange
+I49	Reported Sender ID	AN	1	35	This is the sender ID value of original interchange or functional group
+I50	Reported Interchange Receiver ID Qualifier	AN	1	4	This is the receiver ID qualifier value appearing in original interchange
+I51	Reported Receiver ID	AN	1	35	This is the receiver ID value of original interchange or functional group
+I52	First Reference ID Qualifier	AN	1	4	This is the ID qualifier appearing in original interchange
+I53	First Reference ID	AN	1	14	This contains information from the original interchange, as defined by the First Reference ID Qualifier data element
+I54	Second Reference ID Qualifier	AN	1	4	This contains ID qualifier information appearing in original interchange
+I55	Second Reference ID	AN	1	14	This contains information from the original interchange, as defined by the Second Reference ID Qualifier data element
+I56	Reference Code Qualifier	ID	2	2	This is a code defining the information contained in the Reference Code data element
+I57	Reference Code	AN	1	35	This contains reference information exchanged between service request handlers concerning the reported interchange as defined by the corresponding Reference Code Qualifier data element
+I58	Report Type Code	ID	1	1	Code to indicate type of report
+I59	Report Identifier	AN	1	35	Mutually defined report identifier
+I60	Report Incremental Indicator Code	ID	1	1	Code to indicate whether report is incremental report
+I61	Message Direction Code	ID	1	1	Code identifying whether the reported transactions have been sent and/or received by Data Status Tracking report recipient
+I62	Report Status Level Code	ID	1	1	Code to indicate level of statuses included
+I63	Report Level of Detail Code	ID	1	1	Code to indicate level of detail of report
+I64	Reported Group or Transaction Identifier	AN	2	6	This contains the functional group or transaction set identifier code of the reported functional group or transaction set

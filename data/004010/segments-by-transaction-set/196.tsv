@@ -1,0 +1,28 @@
+id	description	section	req	max_loop	max_usage	pos
+BCM	Beginning Segment For Contractor Cost Data Reporting	H	M	0	1	1
+DTP	Date Or Time Or Period	H	O	0	999999	2
+REF	Reference Information	H	O	0	999999	3
+N1	Party Identification	H	M	999999	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+G61	Contact	H	O	999999	1	8
+DTM	Date/Time Reference	H	O	0	999999	9
+HL	Hierarchical Level	D	M	999999	1	10
+CRT	Contractor Report Type	D	O	0	1	11
+BSD	Breakdown Structure Description	D	O	0	1	12
+CLI	Cost Line Item	D	O	0	1	13
+CAL	Calendar	D	O	0	1	14
+REF	Reference Information	D	O	0	999999	15
+AMT	Monetary Amount Information	D	O	0	999999	16
+QTY	Quantity Information	D	O	0	999999	17
+RPA	Rate Amounts Or Percents	D	O	0	999999	18
+PCT	Percent Amounts	D	O	0	999999	19
+DTM	Date/Time Reference	D	O	0	999999	20
+PID	Product/Item Description	D	O	0	999999	21
+MEA	Measurements	D	O	0	999999	22
+MSG	Message Text	D	O	0	999999	23
+PD	Pricing Data	D	O	999999	1	24
+REF	Reference Information	D	O	0	999999	25
+PDD	Pricing Data Detail	D	O	0	999999	26
+MSG	Message Text	D	O	0	999999	27

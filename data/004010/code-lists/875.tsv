@@ -1,0 +1,104 @@
+id	definition
+001	Change
+002	Delete
+003	Add Full Item Detail
+004	Withdraw Item (Temporary)
+005	Restore Item
+006	Membership Type
+007	Purchase Eligibility
+008	Verified
+009	Not Verified
+010	Periodic Report
+012	Medical Noncompliance
+013	Administrative Noncompliance
+014	Suspended Pending Settlement Approval
+015	Suspended Pending Appeal or Judicial Review
+016	Injury Report Creation
+017	Illness Report Creation
+018	Transfer of Beneficial Rights
+019	Record Security Instrument
+020	Assignment
+021	Addition
+022	Change in Status
+023	Change in Rate Factors
+024	Cancellation or Termination
+025	Reinstatement
+026	Correction
+028	Policy Adjustment
+029	Inquiry
+030	Audit or Compare
+031	Medical Examination Authorization
+032	Employee Information Not Applicable
+033	Release of Interim Funding Interest
+050	Original
+051	Denial
+052	Initial Payment
+053	Change in Benefit Amount
+054	Change in Benefit Type
+055	Reinstatement of Benefit
+056	Reduced Earnings
+057	Final
+058	Full Salary
+059	Suspension Medically Determined or Qualified to Return to Work
+060	Non-compliance of Medical Requirements
+061	Non-compliance of Administrative Requirements
+062	Compensable Death
+063	Incarceration
+064	Claimant's Whereabouts Unknown
+065	Volunteer
+066	Status Request
+067	Benefits Exhausted
+068	Jurisdictional Change
+069	Payment Notification
+070	Status Request Response
+071	Re-issue Identification Card(s)
+072	Suspension Due to Claimant Death
+073	Partial Denial
+074	Partial Suspension, Returned to Work, or Medically Determined or Qualified to Return to Work
+075	Partial Suspension, Medical Non-compliance
+076	Partial Suspension, Administrative Non-compliance
+077	Partial Suspension, Claimant Death
+078	Partial Suspension, Incarceration
+079	Partial Suspension, Claimant's whereabouts Unknown
+080	Partial Suspension, Benefits Exhausted
+081	Partial Suspension, Jurisdiction Change
+082	Partially Suspended, Benefits Pending Settlement Approval
+083	Partially Suspended, Pending Appeal or Judicial Review
+100	Sale of Mortgage Change
+101	Servicer Change
+102	Mortgagor Change
+104	Prepayment Termination
+105	Non-conveyance Termination
+106	Voluntary Action Termination
+107	Loan Refinanced Termination
+108	Transfer Due to Interest and Servicing Sold
+109	Retain Servicing
+110	Transfer Servicing
+111	Assign Servicing
+112	Servicer Loan Number Change
+113	Merger
+114	Acquisition
+115	Receivership
+116	Loan Maturity Maintenance
+117	Binder
+118	New Policy
+119	Renewal Policy
+123	Canceled by Administrator
+124	Canceled by Insured
+125	Re-Write
+126	Non-renewal
+127	Termination of All Endorsements
+128	Termination of Lessor Interest
+129	Termination of Additional Insured Interest
+130	Termination of Lienholder or Loss Payee
+131	Addition of Lessor Endorsement
+132	Addition of Lienholder Endorsement
+133	Addition of Additional Insured Endorsement
+134	Change of Lessor Endorsement
+135	Change of Lienholder Endorsement
+136	Change of Additional Insured Endorsement
+137	Acquired Unallocated
+138	Acquired Payment
+CEP	Change Excluding Price
+PRI	Price Change Only
+ZZZ	Mutually Defined

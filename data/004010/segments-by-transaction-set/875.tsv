@@ -1,0 +1,27 @@
+id	description	section	req	max_loop	max_usage	pos
+G50	Purchase Order Identification	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	50	2
+G61	Contact	H	O	0	3	3
+G62	Date/Time	H	O	0	10	4
+NTE	Note/Special Instruction	H	O	0	20	5
+G66	Transportation Instructions	H	O	0	1	6
+G23	Terms Of Sale	H	O	0	20	7
+N1	Party Identification	H	M	10	1	8
+N2	Additional Name Information	H	O	0	1	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+G72	Allowance Or Charge	H	O	100	1	12
+G73	Allowance Or Charge Description	H	O	0	10	13
+G68	Line Item Detail - Product	D	M	9999	1	14
+G69	Line Item Detail - Description	D	O	0	5	15
+G70	Line Item Detail - Miscellaneous	D	O	0	2	16
+N9	Extended Reference Information	D	O	0	10	17
+G23	Terms Of Sale	D	O	0	20	18
+G72	Allowance Or Charge	D	O	100	1	19
+G73	Allowance Or Charge Description	D	O	0	10	20
+N1	Party Identification	D	O	9999	1	21
+QTY	Quantity Information	D	O	0	1	22
+N9	Extended Reference Information	D	O	0	10	23
+SLN	Subline Item Detail	D	O	100	1	24
+G72	Allowance Or Charge	D	O	0	999999	25
+G76	Total Purchase Order	S	M	0	1	26

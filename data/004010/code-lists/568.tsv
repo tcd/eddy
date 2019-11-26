@@ -1,0 +1,8 @@
+id	definition
+ABS	Abstract
+DMR	Data Maintenance Request
+IND	Industry-required comment (Data Element 480 in segment E01 indicates which industry this comment references.)
+NON	Comment which is not part of the standard
+PUR	Purpose
+SCP	Scope
+STD	Comment which is part of the standard

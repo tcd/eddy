@@ -1,0 +1,83 @@
+id	description	section	req	max_loop	max_usage	pos
+B3	Beginning Segment For Carrier's Invoice	H	M	0	1	1
+B3A	Invoice Type	H	O	0	1	2
+N9	Extended Reference Information	H	O	0	30	3
+CM	Cargo Manifest	H	O	0	1	4
+Y6	Authentication	H	O	0	4	5
+Y7	Cargo Booking Priority	H	O	0	1	6
+C3	Currency Identifier	H	O	0	1	7
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	1	8
+G62	Date/Time	H	O	0	10	9
+PER	Administrative Communications Contact	H	O	0	3	10
+NA	Cross-Reference Equipment	H	O	0	30	11
+F9	Origin Station	H	O	0	1	12
+D9	Destination Station	H	O	0	1	13
+R1	Route Information (Air)	H	O	0	1	14
+R2	Route Information	H	O	0	13	15
+H3	Special Handling Instructions	H	O	0	6	16
+PS	Protective Service Instructions	H	O	0	5	17
+H6	Special Services	H	O	0	6	18
+M1	Insurance	H	O	0	1	19
+M2	Sales/Delivery Terms	H	O	0	1	20
+L7	Tariff Reference	H	O	0	30	21
+NTE	Note/Special Instruction	H	O	0	30	22
+XH	Pro Forma - B13 Information	H	O	0	1	23
+P1	Pickup	H	O	0	1	24
+ITA	Allowance, Charge Or Service	H	O	0	1	25
+N8	Waybill Reference	H	O	0	499	26
+R9	Route Code Identification	H	O	0	1	27
+H1	Hazardous Material	H	O	3	1	28
+H2	Additional Hazardous Material Description	H	O	0	2	29
+N7	Equipment Details	H	O	600	1	30
+M7	Seal Numbers	H	O	0	5	31
+N5	Equipment Ordered	H	O	0	1	32
+REF	Reference Information	H	O	0	5	33
+IC	Intermodal Chassis Equipment	H	O	0	1	34
+VC	Motor Vehicle Control	H	O	0	36	35
+G4	Scale Identification	H	O	0	1	36
+GA	Canadian Grain Information	H	O	0	15	37
+N1	Party Identification	H	O	10	1	38
+N2	Additional Name Information	H	O	0	2	39
+N3	Party Location	H	O	0	2	40
+N4	Geographic Location	H	O	0	1	41
+REF	Reference Information	H	O	0	12	42
+PER	Administrative Communications Contact	H	O	0	3	43
+S5	Stop-Off Details	H	O	50	1	44
+G62	Date/Time	H	O	0	6	45
+N9	Extended Reference Information	H	O	0	10	46
+H6	Special Services	H	O	0	6	47
+N1	Party Identification	H	O	5	1	48
+N2	Additional Name Information	H	O	0	2	49
+N3	Party Location	H	O	0	2	50
+N4	Geographic Location	H	O	0	1	51
+REF	Reference Information	H	O	0	12	52
+PER	Administrative Communications Contact	H	O	0	3	53
+LX	Transaction Set Line Number	D	M	999	1	54
+N1	Party Identification	D	O	10	1	55
+N2	Additional Name Information	D	O	0	2	56
+N3	Party Location	D	O	0	2	57
+N4	Geographic Location	D	O	0	1	58
+REF	Reference Information	D	O	0	12	59
+PER	Administrative Communications Contact	D	O	0	3	60
+L5	Description, Marks And Numbers	D	O	0	10	61
+L0	Line Item - Quantity And Weight	D	O	10	1	62
+L1	Rate And Charges	D	O	0	20	63
+MEA	Measurements	D	O	0	5	64
+L7	Tariff Reference	D	O	0	10	65
+SL1	Tariff Details	D	O	0	1	66
+R1	Route Information (Air)	D	O	0	1	67
+LH	Mixed Hazardous Commodities	D	O	0	1	68
+N9	Extended Reference Information	D	O	0	10	69
+X1	Export License	D	O	0	6	70
+X2	Import License	D	O	0	1	71
+P1	Pickup	D	O	0	1	72
+POD	Proof Of Delivery	D	O	0	1	73
+FOB	F.O.B. Related Instructions	D	O	0	1	74
+ITA	Allowance, Charge Or Service	D	O	0	20	75
+L8	Line Item Subtotal	D	O	0	1	76
+V9	Event Detail	D	O	0	1	77
+P2	Delivery Date Information	D	O	0	1	78
+N7	Equipment Details	D	O	0	5	79
+H1	Hazardous Material	D	O	3	1	80
+H2	Additional Hazardous Material Description	D	O	0	2	81
+L3	Total Weight And Charges	S	O	0	1	82

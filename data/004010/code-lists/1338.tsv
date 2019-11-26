@@ -1,0 +1,18 @@
+id	definition
+I	Initial
+L	Limited Treatment
+R	Routine
+U	Urgent
+00	Not specified
+01	Patient Consultation
+02	Home delivery
+03	Emergency
+04	24 Hour
+05	Patient Consultation Regarding Generic Product Selection
+06	As Needed
+09	Other
+10	Initial Office Visit
+11	Follow-up Office Visit
+F1	Full Treatment - Phase One
+F2	Full Treatment - Phase Two
+NBC	Newborn Care

@@ -1,0 +1,80 @@
+id	description	section	req	max_loop	max_usage	pos
+BFR	Beginning Segment For Planning Schedule	H	M	0	1	1
+XPO	Preassigned Purchase Order Numbers	H	O	0	999999	2
+CUR	Currency	H	O	0	1	3
+REF	Reference Information	H	O	0	12	4
+PER	Administrative Communications Contact	H	O	0	3	5
+TAX	Tax Reference	H	O	0	3	6
+FOB	F.O.B. Related Instructions	H	O	0	1	7
+CTP	Pricing Information	H	O	0	25	8
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	0	25	9
+CSH	Sales Requirements	H	O	0	1	10
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	2	11
+DTM	Date/Time Reference	H	O	0	10	12
+PID	Product/Item Description	H	O	0	200	13
+MEA	Measurements	H	O	0	40	14
+PWK	Paperwork	H	O	0	25	15
+PKG	Marking, Packaging, Loading	H	O	0	25	16
+TD1	Carrier Details (Quantity And Weight)	H	O	0	2	17
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	12	18
+TD3	Carrier Details (Equipment)	H	O	0	12	19
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	5	20
+MAN	Marks And Numbers Information	H	O	0	10	21
+N1	Party Identification	H	O	200	1	22
+N2	Additional Name Information	H	O	0	2	23
+N3	Party Location	H	O	0	2	24
+N4	Geographic Location	H	O	0	1	25
+REF	Reference Information	H	O	0	12	26
+PER	Administrative Communications Contact	H	O	0	3	27
+FOB	F.O.B. Related Instructions	H	O	0	1	28
+LM	Code Source Information	H	O	999999	1	29
+LQ	Industry Code Identification	H	M	0	100	30
+LIN	Item Identification	D	M	999999	1	31
+UIT	Unit Detail	D	O	0	1	32
+DTM	Date/Time Reference	D	O	0	10	33
+CUR	Currency	D	O	0	1	34
+PO3	Additional Item Detail	D	O	0	25	35
+CTP	Pricing Information	D	O	0	25	36
+PID	Product/Item Description	D	O	0	1000	37
+MEA	Measurements	D	O	0	40	38
+PWK	Paperwork	D	O	0	25	39
+PKG	Marking, Packaging, Loading	D	O	0	25	40
+PO4	Item Physical Details	D	O	0	1	41
+PRS	Part Release Status	D	O	0	1	42
+REF	Reference Information	D	O	0	12	43
+PER	Administrative Communications Contact	D	O	0	3	44
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	25	45
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	2	46
+TAX	Tax Reference	D	O	0	3	47
+FOB	F.O.B. Related Instructions	D	O	0	1	48
+LDT	Lead Time	D	O	0	12	49
+QTY	Quantity Information	D	O	0	999999	50
+ATH	Resource Authorization	D	O	0	20	51
+TD1	Carrier Details (Quantity And Weight)	D	O	0	1	52
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	53
+TD3	Carrier Details (Equipment)	D	O	0	12	54
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	55
+MAN	Marks And Numbers Information	D	O	0	10	56
+DD	Demand Detail	D	O	0	10	57
+SLN	Subline Item Detail	D	O	100	1	58
+PID	Product/Item Description	D	O	0	1000	59
+NM1	Individual Or Organizational Name	D	O	0	10	60
+N1	Party Identification	D	O	200	1	61
+N2	Additional Name Information	D	O	0	2	62
+N3	Party Location	D	O	0	2	63
+N4	Geographic Location	D	O	0	1	64
+REF	Reference Information	D	O	0	12	65
+PER	Administrative Communications Contact	D	O	0	3	66
+FOB	F.O.B. Related Instructions	D	O	0	1	67
+LM	Code Source Information	D	O	999999	1	68
+LQ	Industry Code Identification	D	M	0	100	69
+FST	Forecast Schedule	D	O	999999	1	70
+QTY	Quantity Information	D	O	0	999999	71
+SDQ	Destination Quantity	D	O	0	50	72
+LM	Code Source Information	D	O	999999	1	73
+LQ	Industry Code Identification	D	M	0	100	74
+SDP	Ship/Delivery Pattern	D	O	260	1	75
+FST	Forecast Schedule	D	O	0	260	76
+SHP	Shipped/Received Information	D	O	25	1	77
+REF	Reference Information	D	O	0	5	78
+CTT	Transaction Totals	S	O	0	1	79

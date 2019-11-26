@@ -1,0 +1,7 @@
+id	definition
+01	Mailbag Control Number
+02	Sending Service Request Handler Reference Code
+03	Receiving Service Request Handler Reference Code
+04	Interchange ID Qualifier of Alternate Receiver to which Interchange Has Been Sent
+05	ID of Alternate Receiver to which Interchange Has Been Redirected
+ZZ	Mutually Defined

@@ -1,0 +1,9 @@
+id	definition
+1	Unrecognized segment ID
+2	Unexpected segment
+3	Mandatory segment missing
+4	Loop Occurs Over Maximum Times
+5	Segment Exceeds Maximum Use
+6	Segment Not in Defined Transaction Set
+7	Segment Not in Proper Sequence
+8	Segment Has Data Element Errors

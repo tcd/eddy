@@ -1,0 +1,24 @@
+id	definition
+1	Functional Group Not Supported
+2	Functional Group Version Not Supported
+3	Functional Group Trailer Missing
+4	Group Control Number in the Functional Group Header and Trailer Do Not Agree
+5	Number of Included Transaction Sets Does Not Match Actual Count
+6	Group Control Number Violates Syntax
+10	Authentication Key Name Unknown
+11	Encryption Key Name Unknown
+12	Requested Service (Authentication or Encryption) Not Available
+13	Unknown Security Recipient
+14	Unknown Security Originator
+15	Syntax Error in Decrypted Text
+16	Security Not Supported
+17	Incorrect Message Length (Encryption Only)
+18	Message Authentication Code Failed
+19	S1E Security End Segment Missing for S1S Security Start Segment
+20	S1S Security Start Segment Missing for S1E End Segment
+21	S2E Security End Segment Missing for S2S Security Start Segment
+22	S2S Security Start Segment Missing for S2E Security End Segment
+23	S3E Security End Segment Missing for S3S Security Start Segment
+24	S3S Security Start Segment Missing for S3E End Segment
+25	S4E Security End Segment Missing for S4S Security Start Segment
+26	S4S Security Start Segment Missing for S4E Security End Segment

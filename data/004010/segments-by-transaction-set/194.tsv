@@ -1,0 +1,62 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	999999	2
+LDT	Lead Time	H	O	0	999999	3
+PWK	Paperwork	H	O	0	999999	4
+N9	Extended Reference Information	H	O	999999	1	5
+L11	Business Instructions And Reference Number	H	O	0	999999	6
+MTX	Text	H	O	0	999999	7
+NM1	Individual Or Organizational Name	H	O	999999	1	8
+N2	Additional Name Information	H	O	0	2	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+N9	Extended Reference Information	H	O	0	999999	12
+PER	Administrative Communications Contact	H	O	0	999999	13
+HL	Hierarchical Level	D	M	999999	1	14
+QTY	Quantity Information	D	O	0	999999	15
+AMT	Monetary Amount Information	D	O	0	999999	16
+DTM	Date/Time Reference	D	O	0	999999	17
+PAM	Period Amount	D	O	0	999999	18
+HSD	Health Care Services Delivery	D	O	0	999999	19
+NX1	Property Or Entity Identification	D	O	0	999999	20
+YNQ	Yes/No Question	D	O	0	999999	21
+N9	Extended Reference Information	D	O	999999	1	22
+L11	Business Instructions And Reference Number	D	O	0	999999	23
+MTX	Text	D	O	0	999999	24
+INX	Index Detail	D	O	999999	1	25
+K3	File Information	D	M	0	999999	26
+PO1	Baseline Item Data	D	O	999999	1	27
+MTX	Text	D	O	0	999999	28
+PPL	Price Support Data	D	O	999999	1	29
+REF	Reference Information	D	O	0	999999	30
+PD	Pricing Data	D	O	999999	1	31
+PDD	Pricing Data Detail	D	O	0	999999	32
+PL	Proposal Cost Logic	D	O	999999	1	33
+REF	Reference Information	D	O	0	999999	34
+AMT	Monetary Amount Information	D	O	0	1	35
+PCT	Percent Amounts	D	O	0	1	36
+QTY	Quantity Information	D	O	0	1	37
+NTE	Note/Special Instruction	D	O	0	999999	38
+PD	Pricing Data	D	O	999999	1	39
+SPI	Specification Identifier	D	O	0	1	40
+REF	Reference Information	D	O	0	999999	41
+PDD	Pricing Data Detail	D	O	0	999999	42
+MTX	Text	D	O	0	999999	43
+DTM	Date/Time Reference	D	O	0	10	44
+LX	Transaction Set Line Number	D	O	999999	1	45
+NM1	Individual Or Organizational Name	D	O	0	1	46
+N2	Additional Name Information	D	O	0	2	47
+N3	Party Location	D	O	0	2	48
+N4	Geographic Location	D	O	0	1	49
+PER	Administrative Communications Contact	D	O	0	999999	50
+DMG	Demographic Information	D	O	0	999999	51
+EMS	Employment Position	D	O	0	1	52
+N9	Extended Reference Information	D	O	999999	1	53
+L11	Business Instructions And Reference Number	D	O	0	999999	54
+MTX	Text	D	O	0	999999	55
+DEG	Degree Record	D	O	999999	1	56
+FOS	Field Of Study	D	O	0	999999	57
+N1	Party Identification	D	O	0	999999	58
+K2	Administrative Message	D	O	999999	1	59
+N9	Extended Reference Information	D	O	0	999999	60
+NM1	Individual Or Organizational Name	D	O	0	999999	61

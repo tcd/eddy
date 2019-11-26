@@ -1,0 +1,16 @@
+id	definition
+1	U.S. Citizen
+2	Non-Resident Alien
+3	Resident Alien
+4	Illegal Alien
+5	Alien
+6	U.S. Citizen - Non-Resident
+7	U.S. Citizen - Resident
+8	Citizen
+9	Non-citizen with Student Authorization
+A	Non-permanent Resident Alien
+B	Permanent Visa
+C	Temporary Visa
+D	Work Permit
+E	Nordic Citizen
+F	Non-Nordic Citizen

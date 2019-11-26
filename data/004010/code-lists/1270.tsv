@@ -1,0 +1,559 @@
+id	definition
+0	Document Identification Code
+1	Free On Board Site Code
+2	Type of Business Code
+3	Kind of Contract Code
+4	Type of Contract Code
+5	Criticality Designator Code
+6	Special Contract Provision Code
+7	Quality Assurance Site Code
+8	Acceptance Site Code
+9	Indicator Code
+A	American Society for Testing and Materials (ASTM)
+B	Bank Administration Institute (BAI)
+C	Canadian Inter*EDI
+D	Court Document Type Code
+E	Diagnostic and Statistical Manual of Mental Disorders (DSM)
+F	Financial Rating
+G	Risk Class
+H	Life/Annuity Status Codes
+I	Identifying Characteristics
+J	Trade Code
+K	Property Underwriting Condition Code
+L	Line Item Condition Code
+M	Policy Type Code
+N	Valuation Type Code
+O	Source of Loss Code
+P	Ceiling Type Code
+Q	Surface Descriptor Code
+R	Coverage Modifier
+S	Society for Worldwide Interbank Financial Telecommunications (SWIFT)
+T	Personal Property and Contents Code
+U	Residential and Commercial Room Code
+V	Violation Type Code List
+W	Court Issued Warrant Type Code
+X	Vehicle Class
+Y	Rental Charge
+Z	Cancellation Reason
+10	Transaction Status Indicator Code
+11	Contract Delivery Date Revision Agent Code
+12	Reason for Contract Delivery Date Revision Code
+13	Recommendations Regarding Delayed Deliveries Code
+14	Contract Shipment Advice Code
+16	Cash Discount Stipulation Code
+17	Shipment Acceptance Discrepancy Explanation Code
+19	Contract Close-out Group Code
+20	Payment Type Code
+21	Contract Fund Reporting Transaction Code
+22	Contract Payment Deduction or Collection Code
+23	Obligation Variance Code
+24	Plus or Minus Indicator Code
+25	Reason for Delayed Closing of Contract File Code
+26	Contract Payment Line Item Status Code
+27	Special Reimbursable Provisions Code
+28	Kind of Modification Code
+29	Purchasing Contract Officer (PCO) Instructions Code
+30	Type of Delay Code
+32	Container and Roll-on/Roll-off Number Code
+33	Air Commodity and Special Handling Code
+34	Water Commodity and Special Handling Code
+35	Air Dimension Code
+36	Air Terminal Identifier Code
+37	Water Terminal Identifier Code
+38	Consolidation and Containerization Point Code
+39	Transportation Mode or Method Code
+40	Type Pack Code
+41	Date Shipped or Received Code
+42	Estimated Time of Arrival Code
+43	Military and Civilian Grade Code
+44	Seavan Ownership Code
+45	Ocean Carrier Code
+46	Voyage Document Number Code
+47	Voyage Manifest Reference Code
+48	Vessel Status and Terms of Carriage Code
+49	Vessel Sustaining Code
+52	Billing Advice Code
+53	Billing Status Code
+54	Type of Bill Code
+55	Recipient of Billing Status Code
+56	Sales Price Condition Code
+57	Delivery Source Code
+58	Transportation Bill Code
+59	Stock Fund or Non-stock Fund Code
+60	General Services Administration (GSA) Customer Supply Center Number Code
+61	Information Indicator Code
+62	Communications Routing Identifier Code
+63	Content Indicator Code
+66	Suffix or Limit Code
+67	Type of Assistance Code
+69	Foreign Military Sales Country Code
+71	Service and Agency Code
+74	Demand Code
+75	Suffix Code
+78	Project Code
+79	Priority Designator Code
+80	Advice Code
+81	Status Code
+82	Shipment Hold Code
+83	Supply Condition Code
+84	Management Code
+85	Country and Activity Code
+87	Subsistence Type of Pack Code
+88	Disposal Authority Code
+89	Cooperative Logistics Program Support Code
+90	Precious Metals Indicator Code
+91	Automated Data Processing Equipment Identification Code
+92	Reason for Disposal Code
+93	Type of Storage Code
+94	Identification Code
+95	Offer and Release Option Code
+96	Shipment Release Code
+97	Ultimate Recipient Code
+98	Reason for Requisitioning Code
+99	Purpose Code
+A1	Ownership Code
+A2	Customer Within Country Code
+A3	Delivery Term Code
+A4	Case Designator Number
+A5	Subcase Number
+A6	Freight Forwarder Number
+A7	Record Control Number
+A8	Program Year Code
+A9	Supplemental Data
+AA	Country Code (Finance and Acquisition)
+AB	Defense Priorities and Allocations System Code
+AC	Account Characteristics Code
+AD	Acquisition Advice Code
+AE	Beneficiary Type
+AF	Class of Pitch
+AG	Grade of Difficulty
+AH	Acquisition Method Suffix Code
+AI	Acquisition Method Code
+AJ	Utilization Code
+AK	Distribution Code
+AL	Special Requirements Code
+AM	Locale of Activity
+AN	Nature of Event Code
+AO	Settlement/Payout Options
+AP	American Psychiatric Association Diagnostic Statistical Manual of Mental Disorders (DSM IIIR)
+AQ	Application Question Identifier
+AR	Arrest Reason
+AS	Form Type Code
+AT	Allegation Type Code
+AU	All Patient Refined Diagnosis Related Groups (APR-DRG)
+AW	All Patient Diagnosis Related Groups (AP-DRG)
+AX	Ambulatory Patient Groups (APG)
+BA	Vessel Stowage Location Code
+BB	Business Type
+BC	Transportation Holding Delay Code
+BD	Transportation Priority Code
+BE	Value
+BF	Diagnosis
+BG	Condition
+BH	Occurrence
+BI	Occurrence Span
+BJ	Admitting Diagnosis
+BK	Principal Diagnosis
+BL	Routine Foot Care Class Findings
+BM	Systemic Condition for Routine Foot Care
+BN	United States Department of Health and Human Services, Office of Vital Statistics E-code
+BO	Health Care Financing Administration Common Procedural Coding System
+BP	Health Care Financing Administration Common Procedural Coding System Principal Procedure
+BQ	International Classification of Diseases Clinical Modification (ICD-9-CM) Procedure
+BR	International Classification of Diseases Clinical Modification (ICD-9-CM) Principal Procedure
+BS	Current Procedural Terminology (CPT) Codes
+BU	Part of Body Affected
+BV	Education Institution Type Code
+BY	Share Type Code
+BZ	Business Size Code
+C1	Eye Color Code
+C2	Hair Color Code
+C3	Skin Tone Code
+CA	Type of Inquiry Code
+CB	Billed Office Indicator Code
+CC	Treasury Symbol Code
+CD	Supplementary Accounting Classification Code
+CE	Reference and Station Code
+CF	Major Force Program Code
+CG	Aircraft Mission Design Series Code
+CH	Type of Issue Code
+CI	Criminal Charge
+CJ	Criminal Charge Grade
+CK	Coupon Adjustment Reason Code
+CL	County Designator Code
+CM	Financial Management Service Cash-Link Code
+CN	Cause of Injury Code
+CO	Customized Notice Type Code
+CS	Clause Status Type
+CT	Compensation Type Codes
+CU	Cuisine Type Code
+CV	Coverage Code List
+CW	Controvert Code
+CZ	Conviction Offense Type
+D1	Driver's License Withdrawal Type
+D2	Driver's License Withdrawal Extent
+D3	Driver's License Withdrawal Basis
+D4	Driver's License Withdrawal Due Process Status
+D5	Driver's License Withdrawal Reason
+DA	Device Availability Code
+DB	Debtor Business Type Code
+DC	Report Distribution Code
+DD	Primary Diagnosis
+DE	Signal Code
+DF	Media and Status Code
+DG	Fund Code
+DH	Drug Detail Code
+DI	Single Use Label Code
+DJ	Remedial Action Code
+DK	Program Originator Code
+DL	Service Contract Act Operation Code
+DM	Agent Status Code
+DN	Nature of Debt Code
+DO	Device Operator Type Code
+DQ	Device Status Code
+DR	Diagnosis Related Group (DRG)
+DS	Related Device Applicability Code
+DT	Debtor Type Code
+DU	Device Usage Code
+DW	Estimating Method Status Code
+DX	Contact Status Code
+DY	Type of Firm Code
+DZ	Reportable Event Status Code
+EA	Asset Status or Transaction Reporting Code
+EB	Asset Transfer Status Code
+EC	Certification Requirements Code
+ED	Coast Designation Code
+EE	Competitive Characteristics Code
+EF	Correction or Change for Storage Item Records Code
+EG	Excavation Information Code List
+EH	Type Due-In Indicator
+EI	Discrepancy Indicator Code
+EJ	Disposal Condition Code
+EK	Event or Exposure Code
+EL	Error Classification Code
+EM	Inventory Category Code
+EN	Local Source Code
+EO	Adverse Event Outcome Code
+EQ	Controlled Inventory Item Code
+ER	Department of Defense Identification Code
+ES	Extension Reason
+ET	Reject Advice Code
+EU	Request Code
+EV	Review Period Indicator Code
+EW	Small Arms Error Transaction Reject Code
+EX	Small Arms Transaction Code
+EY	Special Program Requirement Status Code
+EZ	Type Inspection Code
+FA	Type of Contractor Code
+FB	Type of Media Code
+FC	Type Physical Inventory or Transaction History Code
+FD	Demilitarization Code
+FE	Shelf Life Code
+FF	Essentiality Code
+FG	Source Maintenance and Recoverability Code
+FH	Type of Location Reconciliation Request
+FI	Applicant Type
+FJ	Antenna Structure Type
+FK	Station Classification
+FL	Radio Frequency Type
+FM	Station Classification Type
+FN	Class of Operation
+FO	Antenna Polarization
+FP	Fund Purpose
+FQ	Radio System Type
+FR	Frequency Band
+FS	Area of Operation
+FT	Application Type
+FU	Authorization Type
+FV	Radio Service Type
+FW	Applicant Classification Type
+FX	Frequency
+FZ	Edit Error Code
+G1	Uniform Residential Appraisal Attributes Code
+GA	Action Code
+GB	Medium of Transmission Code
+GC	Management Indicator Code (Petroleum)
+GD	Gain or Loss Indicator Code
+GE	Type Adjustment Code
+GF	Type Identity Change Code
+GG	Transportation Mode Reason Code
+GI	Notification Indicator Code
+GJ	Reject Indicator Code
+GK	Investigation Status Code
+GQ	Group Qualifier Code
+GR	National Council on Compensation Insurance (NCCI) Nature of Injury Code
+GS	Occupational Safety and Health Administration (OSHA) Nature of Injury Code
+GT	National Council on Compensation Insurance (NCCI) Part of Body Code
+GU	Occupational Safety and Health Administration (OSHA) Part of Body Code
+GV	National Council on Compensation Insurance (NCCI) Source of Injury Code
+GW	Occupational Safety and Health Administration (OSHA) Source of Injury Code
+HA	Discrepancy Code
+HB	Discrepancy Advice Code
+HD	Discrepancy Status or Disposition Code
+HE	Claim Payment Remark Codes
+HI	Health Industry Number
+HS	Service Contract Act Occupation Category Code
+IC	Collision Industry Electronic Commerce Association (CIECA) - Inspection
+ID	Identity Disclosure Code
+IF	Investment Fund Type
+IQ	IRS Qualification Code
+IT	Initial Treatment Code
+J0	Summons Type Code
+J1	Judicial Hearing Type Code
+J2	Judicial Order Type Code
+J3	Judicial Sentence Type Code
+J4	Court Disposition Code
+J5	Court Appearance Type Code
+J6	Court Pleading Type Code
+J7	Defendant Plea Type Code
+J8	Trial Type Code
+J9	Court Case Status Code
+JA	Physical Characteristics Code
+JB	Weight or Fragility Code
+JC	Preservation Material Code
+JD	Quantity per Unit Pack Code
+JE	Preservation Data Code
+JF	Packing Requirement Level A Code
+JG	Packing Requirement Level B Code
+JH	Packing Requirement Level C Code
+JI	Intermediate Container Code
+JK	Intermediate Container Quantity Code
+JL	Special Marking Code
+JM	Type and Cause Code
+JN	Mission Impact Statement Code
+JO	International Standard Designation System for Teeth and Areas of the Oral Cavity
+JP	National Standard Tooth Numbering System
+KA	Deficiency Cause
+KB	Discrepancy
+KC	Preventive Measure
+KD	Contactor Alert List Reason
+KE	Quality Alert List Reason
+KF	Contractor Alert List Status
+KG	Nature of Buy
+KH	Type of Procurement
+KI	Representative Buy Indicator
+KJ	Assured Delivery Indicator
+KK	Award Source
+KL	Termination
+KM	Patient Event Problem Code
+KO	Method Evaluation Code
+KP	Result Evaluation Code
+KQ	Conclusion Evaluation Code
+KS	Device Event Problem Code
+KT	Dose Form Code
+KU	Route Code
+KW	Report Source Code
+KZ	Adverse Event Code
+LA	Contract
+LB	Contractor Review List Status
+LC	Laboratory Test Condition Code
+LD	Collision Industry Electronic Commerce Association (CIECA) - Loss Category
+LE	Life/Annuity Service Features
+LF	Life/Annuity Product Code
+LG	Location Code
+LH	Basis of Jurisdiction Code
+LJ	Principal Party Citizenship Code
+LK	Nature of Suit Code
+LM	Case Origin Code
+LN	Line of business code
+LO	Letter of Recommendation Rating Category
+LP	Deficiency Indicator
+LQ	Delinquency Indicator
+LR	Test Results Code
+LS	Loss Severity Code
+LT	Laboratory Results Identification Code
+LZ	War Reserve Material Requirement Code
+MB	Service Contract Act Occupation Classification Code
+MC	Manual Class Code
+ME	Device Evaluation Code
+MI	Minority Indicator
+MJ	Drug Status Code
+MK	Drug Status Adverse Event Code
+ML	Lot Type Code
+MN	Post Market Study Status Code
+NA	Plant Clearance Office Code
+NB	Inventory Type Code
+NC	Property Record Status Code
+ND	Control Unit Design Code
+NE	Direct Numerical Control System Code
+NF	Type Numerical Control System Code
+NH	Property Source Code
+NI	Nature of Injury Code
+NJ	Uniform Freight Classification (UFC) Code
+NK	National Motor Freight Classification (NMFC) Code
+NL	No Longer Considered for Award Reason
+NP	Special Category Code
+NR	Excess Material Disposition Code
+NS	Hazardous Material Code
+NT	Type of Cargo Code
+O1	Office of Worker's Compensation Programs (OWCP) Source of Injury Code
+O2	Office of Worker's Compensation Programs (OWCP) Nature of Injury Code
+O3	Office of Worker's Compensation Programs (OWCP) Part of Body Code
+O4	Office of Worker's Compensation Programs (OWCP) Occupation Code
+OC	Occupation Code
+PB	Part of Body Code
+PC	Collision Industry Electronic Commerce Association (CIECA) - Profile
+PD	Professional Designation
+PI	Collision Industry Electronic Commerce Association (CIECA) - Points of Impact
+PL	Priority Lookup
+PS	Professional Status Code
+QA	Response Status Code
+QB	Business Entity Filing Report Type Code
+QC	Business Entity Filing Detail Code
+QE	Domestic Line of Business Code
+QF	Foreign Line of Business Code
+QG	Business Entity Filing Status Code
+QH	Business Entity Filing Securities Information Code
+QI	Business Entity Financial Information Code
+QJ	Business Entity Status Code
+QK	Business Entity Filing Location Code
+QS	Query Status
+RA	Religious Affiliation Code
+RC	Requirement Code
+RD	Property Ownership Type Code
+RE	Property Type Code
+RF	Failure to Award Reason
+RI	Residency Indicator
+RQ	Testing Service Question Code List
+RR	Bid Rejection Reason
+RT	Request Type
+RX	National Council for Prescription Drug Programs Reject/Payment Codes
+SA	Student Activity Type Code
+SB	Student Award Code
+SC	Source
+SD	Secondary diagnosis
+SE	Sound Code
+SF	Run Type
+SG	Source of Deposit Code
+SH	Source of Lead Code
+SI	SIC (Standard Industrial Classification)
+SJ	Source of Injury Code
+SL	Secondary Source of Injury
+SM	Solicitation Method
+SO	Solicitation Cancellation Reason
+SP	Standard Occupation Classification Code
+SR	Statistical Administrative Information Code
+SS	System Status
+ST	Special Marketing Type Code
+TB	Treasury Management Association Service Code and Bank Service Code
+TC	Treatment Codes
+TD	Tertiary diagnosis
+TE	Treasury Management Association Service Code
+TF	Title Exception and Requirement Code List
+TG	Title Document Code List
+TR	Report Code
+TX	Follow-up Code
+TY	Reportable Event Code
+UP	Unsolicited Proposal Rejection Reason
+UR	Event Reappearance Code
+US	Event Abatement Code
+UU	Unit Code
+ZZ	Mutually Defined
+100	Freddie Mac (Federal Home Loan Mortgage Corporation) Special Character Code
+101	Fannie Mae (Federal National Mortgage Association) Special Feature Code
+102	Mortgage Index Source Code
+103	Fannie Mae (Federal National Mortgage Association) Remittance Programs
+104	Freddie Mac (Federal Home Loan Mortgage Corporation) Remittance Programs
+105	Freddie Mac (Federal Home Loan Mortgage Corporation) Mortgage Insurance Code
+106	Fannie Mae (Federal National Mortgage Association) Pool Feature Code
+107	Fannie Mae (Federal National Mortgage Association) Mortgage Insurance Code
+108	Testing Statistical Category Code List
+109	Testing Demographic Category Code List
+AAA	Systematized Nomenclature of Human and Veterinary Medicine (SNOMED)
+ABR	Assigned by Receiver
+ABS	Assigned by Sender
+ALP	Alteration Lookup
+APE	Activite Principale Exercee (APE) Code
+BCC	Business Change Code
+BCR	Business Credit Rating
+BPL	Board of Inspection and Survey Part Lookup
+BRL	Board of Inspection and Survey Responsibility Lookup
+BSL	Board of Inspection and Survey Ship Lookup
+CLP	Cause Lookup
+CML	Customer Maintenance Level Lookup
+COG	Cognizance Symbol
+CPS	Court Party Status
+CRC	Complaint Request Code
+CSF	Corporate Statement Filing Code
+DBS	DUN's Standard Industrial Classification (SIC) 2+2, Dun and Bradstreet
+DGO	Dynamic Generator Set Code
+DLO	Dynamic Locomotive Tag Code
+DLP	Deferral Lookup
+DPE	Association of American Railroads Deprescription Exception List
+DPL	Association of American Railroads Deprescription Distribution List
+ESL	Equipment Status Lookup
+ETL	Estimate Type Lookup
+EWC	Evaluate Work Candidate Lookup
+EWR	Evaluate Work Candidate Reason Lookup
+HRC	Hazardous Response Codes
+HZR	Association of American Railroads Standard Transportation Commodity Code Description Qualifier
+IMC	Item Management Code
+IMP	Impact Recorder Code
+IPA	Impact Axis or Analog Port Code
+JCL	Job Characteristics Lookup
+JOL	Job Originator Lookup
+KYL	Key Event Lookup
+LIN	Line of Authority
+LOI	Logical Observation Identifier Names and Codes (LOINC) Codes
+LSC	Legal Structure Code
+MCC	Material Control Code
+MCD	Generator Set Mounting Code
+MOC	Mechanization of Contract Administration Services (MOCAS) System Error Code
+NAC	Nomenclature Activity Classification Economy (NACE) Code
+NAF	Norme Activite Francaise (NAF) Code
+NAS	Nature of Suit
+NDC	National Drug Code (NDC)
+PGS	Petroleum United States Geological Survey (USGS) Formation Code
+PIT	Petroleum Bill Type
+PLC	Petroleum Land Category
+PLS	Petroleum Lease Status
+PPD	Petroleum Product Disposition
+PPP	Petroleum Product Point-of-Sale
+PPS	Petroleum Product Selling Arrangement
+PPV	Petroleum Product Value Adjustment
+PRA	Petroleum Royalty Adjustment
+PRC	Petroleum Royalty Calculation Method
+PRR	Petroleum Regulatory Report
+PRT	Petroleum Royalty Transaction
+PWA	Petroleum Well Action
+PWI	Petroleum Well Information
+PWR	Petroleum Well Shut-In Reason
+PWS	Petroleum Well Classification Status
+PWT	Petroleum Well Test Information
+RCA	Registered Contractor Activity Code
+REN	Association of American Railroads Rate EDI Network Error Code
+RTC	Registration Type Code
+RUM	Refrigeration Unit Operating Mode Code
+SBA	Statistic Bundes Amt (SBA) Code
+SEC	Stock Exchange Code
+SHL	Safety Hazard Lookup
+SMI	Special Material Identification Code
+SPE	Special Dating
+SRL	Special Requirement Lookup
+STC	Association of American Railroads Standard Transportation Commodity Code Master Description Information
+T00	Credentials Codes
+T01	Data Categories
+T02	Event Codes
+T03	Operation Type
+T04	Accident Parameters
+T05	Inspection Parameters
+T06	Driver Parameters
+T07	View Parameters
+T08	Vehicle Parameters
+T09	Fleet Parameters
+T10	Query Options
+T11	Jurisdiction Type
+T12	Single State Registration System and Operating Authority Credential
+T13	Commercial Vehicle Operations Insurance
+T14	Commercial Vehicle Registration
+T15	Hazardous Materials Credential
+T16	Oversize/Overweight Credential
+T17	Commercial Vehicle Tax
+T18	Commercial Vehicle Title
+T19	Commercial Driver's License
+T20	Commercial Vehicle Type
+T21	Credential Status Code
+TCL	Template Characteristic Lookup
+TOL	Template Owner Lookup
+TTL	Template Type Lookup
+WDL	When Discovered Lookup

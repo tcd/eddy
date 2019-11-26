@@ -1,0 +1,17 @@
+id	definition
+0	Condition Unknown
+2	No Apparent Damage
+3	Stripped
+4	Wrecked
+5	Burned
+6	Flood
+7	Vandalized
+8	Stripped and Wrecked
+9	Stripped and Burned
+A	Stripped and Flood
+B	Stripped and Vandalized
+C	Wrecked and Burned
+D	Wrecked and Vandalized
+E	Burned and Vandalized
+F	Flood and Vandalized
+Z	Mutually Defined

@@ -1,0 +1,60 @@
+id	definition
+01	Shipper's Load and Count
+02	Shipper's Load, Stowage and Count
+03	Laden on Board
+04	Laden on Board Vessel
+05	Vessel Not Responsible for Freezing
+06	Container(s) Sealed by Shipper
+07	On Deck at Shipper's Risk
+08	Short-Shipped
+09	Sea Waybill
+10	This Shipment is Effected under a Sea Waybill
+11	Memo Bill of Lading Only
+12	Refrigerated Cargo
+13	Cool Cargo
+14	Freeze Cargo
+15	Inland Transportation Arranged as Agents Only with such Arranged Transportation Being Solely for Account and Risk of Cargo
+16	Sea-Air Cargo
+17	Freight Prepaid
+18	Freight Collect
+19	Freight as Agreed
+20	No Shipper's Export Declaration Required (Section 30.39)
+21	Carrier Reserves the Right to Place Container(s) in Heated Warehouse at a Set Cost
+22	On Board Rail
+23	On Board Truck
+24	On Board Vessel
+25	Received For Shipment
+26	On Board Container
+27	On Board Airplane
+28	On Board Boxcar
+29	Emergency Response Statement
+30	International Maritime Organization Certification
+31	Statement of Correctness
+32	Destination Control Statements
+33	Producing Country of Origin
+34	Laden on Board Named Vessel
+35	Age of Vessel
+36	Kosher
+37	Route
+38	Certification Statements
+39	Destination Country
+40	Title Passage Clause
+41	Container Safety Act
+42	Substantial Transformation
+43	Canada Value Added
+44	Mexican Value Added
+45	General Agreement on Tariff and Trade (GATT)
+46	Prior Damage Remarks
+AM	Administrative
+CB	Caribbean Basin Initiative (CBI)
+CC	Custom
+CP	Container Packing Certificate
+DC	Disclaimer
+DV	Delivery Order Liability Clause
+EE	Estimate Error
+ER	Estimate Remarks
+GS	General System of Preferences (GSP)
+HD	Heading
+HN	Hidden
+IS	Israeli Free Trade Agreement
+NF	North American Free Trade Agreement (NAFTA)

@@ -1,0 +1,19 @@
+id	definition
+AI	Pull Authorized After Inspection
+BE	Empty Car Unfit for Loading
+BO	Loaded Car Unable to Load
+CR	Loaded Rejected by Consignee
+DC	Duty Car Rejected
+HF	Hold for Forwarding Instructions
+HT	Hold Load in Transit Storage
+IP	Intra-Plant Movement
+NO	Not Ordered
+NU	Not Used
+OS	Car Off Spot
+PL	Place
+PU	Pull
+RE	Railroad Error
+SB	Set Back
+TR	Turn and Report
+TS	Empty Car to Storage
+WG	Weigh

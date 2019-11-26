@@ -1,0 +1,38 @@
+id	description	section	req	max_loop	max_usage	pos
+B9	Beginning Segment For Logistics Services	H	M	0	1	1
+B9A	Service Request	H	O	0	7	2
+L11	Business Instructions And Reference Number	H	O	0	999999	3
+G62	Date/Time	H	O	0	5	4
+MS3	Interline Information	H	O	0	99	5
+NTE	Note/Special Instruction	H	O	0	10	6
+LCD	Place/Location Description	H	O	99	1	7
+ITA	Allowance, Charge Or Service	H	O	0	999	8
+L8	Line Item Subtotal	H	O	0	999	9
+L9	Charge Detail	H	O	0	999	10
+L3	Total Weight And Charges	H	O	0	999	11
+N7	Equipment Details	H	O	99	1	12
+N7A	Accessorial Equipment Details	H	O	0	1	13
+N7B	Additional Equipment Details	H	O	0	1	14
+MEA	Measurements	H	O	0	1	15
+M7	Seal Numbers	H	O	0	2	16
+S5	Stop-Off Details	D	O	99	1	17
+G62	Date/Time	D	O	0	2	18
+L11	Business Instructions And Reference Number	D	O	0	999999	19
+ITA	Allowance, Charge Or Service	D	O	0	20	20
+N1	Party Identification	D	O	1	1	21
+N2	Additional Name Information	D	O	0	1	22
+N3	Party Location	D	O	0	2	23
+N4	Geographic Location	D	O	0	1	24
+PER	Administrative Communications Contact	D	O	0	3	25
+LX	Transaction Set Line Number	D	O	999999	1	26
+LCT	Logistics Container Tracking Information	D	O	0	1	27
+MAN	Marks And Numbers Information	D	O	0	10	28
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	29
+AMT	Monetary Amount Information	D	O	0	1	30
+L11	Business Instructions And Reference Number	D	O	0	999999	31
+LAD	Lading Detail	D	O	999999	1	32
+PO4	Item Physical Details	D	O	0	1	33
+G69	Line Item Detail - Description	D	O	0	99	34
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	35
+AMT	Monetary Amount Information	D	O	0	1	36
+L11	Business Instructions And Reference Number	D	O	0	999999	37

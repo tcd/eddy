@@ -1,0 +1,13 @@
+id	definition
+BNR	B/L Not Received
+DCP	Demurrage Completely Paid
+DNP	Demurrage Not Paid
+DPP	Demurrage Partially Paid
+FCP	Freight Completely Paid
+FNP	Freight Not Paid
+FPP	Freight Partially Paid
+LGR	Letter of Guarantee Received
+OBR	Original B/L Received
+TCR	Transaction Completely Rated
+TNR	Transaction Not Rated
+TPR	Transaction Partially Rated

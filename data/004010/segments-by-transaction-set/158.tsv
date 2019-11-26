@@ -1,0 +1,9 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	2	2
+DTP	Date Or Time Or Period	H	M	999999	1	3
+LX	Transaction Set Line Number	H	M	999999	1	4
+NX2	Location Id Component	H	M	0	999999	5
+PPA	Property Location	H	O	0	1	6
+TA	Tax Authority	H	O	0	999999	7
+ASI	Action Or Status Indicator	H	O	0	1	8

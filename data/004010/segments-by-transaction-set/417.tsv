@@ -1,0 +1,91 @@
+id	description	section	req	max_loop	max_usage	pos
+ZC1	Beginning Segment For Data Correction Or Change	H	O	0	1	1
+BX	General Shipment Information	H	O	0	1	2
+BNX	Rail Shipment Information	H	O	0	1	3
+N9	Extended Reference Information	H	O	0	30	4
+CM	Cargo Manifest	H	O	0	2	5
+DTM	Date/Time Reference	H	O	0	5	6
+N7	Equipment Details	H	M	500	1	7
+EM	Equipment Characteristics	H	O	0	1	8
+VC	Motor Vehicle Control	H	O	36	1	9
+N1	Party Identification	H	O	2	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+H3	Special Handling Instructions	H	O	0	1	13
+IC	Intermodal Chassis Equipment	H	O	0	1	14
+IM	Intermodal Movement Information	H	O	0	1	15
+M12	In-Bond Identifying Information	H	O	0	2	16
+G4	Scale Identification	H	O	0	1	17
+M7	Seal Numbers	H	O	0	5	18
+N5	Equipment Ordered	H	O	0	1	19
+H5	Car Service Order	H	O	0	1	20
+E1	Empty Car Disposition - Pended Destination Consignee	H	O	2	1	21
+E4	Empty Car Disposition - Pended Destination City	H	O	0	1	22
+E5	Empty Car Disposition - Pended Destination Route	H	O	0	13	23
+PI	Price Authority Identification	H	O	0	1	24
+GA	Canadian Grain Information	H	O	0	15	25
+REF	Reference Information	H	O	99	1	26
+N10	Quantity And Description	H	O	0	15	27
+N1	Party Identification	H	O	5	1	28
+N3	Party Location	H	O	0	1	29
+N4	Geographic Location	H	O	0	1	30
+IMA	Interchange Move Authority	H	O	0	3	31
+N8	Waybill Reference	H	M	0	499	32
+N8A	Additional Reference Information	H	O	0	499	33
+V9	Event Detail	H	O	0	1	34
+F9	Origin Station	H	M	0	1	35
+D9	Destination Station	H	M	0	1	36
+N1	Party Identification	H	M	15	1	37
+N2	Additional Name Information	H	O	0	2	38
+N3	Party Location	H	O	0	2	39
+N4	Geographic Location	H	O	0	1	40
+REF	Reference Information	H	O	0	2	41
+PER	Administrative Communications Contact	H	O	0	2	42
+BL	Billing Information	H	O	0	12	43
+S1	Stop-Off Name	H	O	12	1	44
+S2	Stop-Off Address	H	O	0	2	45
+S9	Stop-Off Station	H	O	0	1	46
+N1	Party Identification	H	O	0	1	47
+N2	Additional Name Information	H	O	0	1	48
+N3	Party Location	H	O	0	1	49
+N4	Geographic Location	H	O	0	1	50
+PER	Administrative Communications Contact	H	O	0	1	51
+R2	Route Information	H	M	0	13	52
+R9	Route Code Identification	H	O	0	1	53
+E1	Empty Car Disposition - Pended Destination Consignee	H	O	2	1	54
+E4	Empty Car Disposition - Pended Destination City	H	O	0	1	55
+E5	Empty Car Disposition - Pended Destination Route	H	O	0	13	56
+PI	Price Authority Identification	H	O	0	1	57
+H3	Special Handling Instructions	H	O	0	20	58
+PS	Protective Service Instructions	H	O	0	5	59
+LX	Transaction Set Line Number	H	M	25	1	60
+L5	Description, Marks And Numbers	H	M	0	15	61
+L0	Line Item - Quantity And Weight	H	O	25	1	62
+MEA	Measurements	H	O	0	3	63
+PI	Price Authority Identification	H	O	0	30	64
+X1	Export License	H	O	0	6	65
+T1	Transit Inbound Origin	H	O	64	1	66
+T2	Transit Inbound Lading	H	O	0	30	67
+T3	Transit Inbound Route	H	O	0	12	68
+T6	Transit Inbound Rates	H	O	0	1	69
+T8	Free-Form Transit Data	H	O	0	99	70
+LS	Loop Header	H	O	0	1	71
+LH1	Hazardous Identification Information	H	O	1000	1	72
+LH2	Hazardous Classification Information	H	O	0	4	73
+LH3	Hazardous Material Shipping Name Information	H	O	0	10	74
+LFH	Free-Form Hazardous Material Information	H	O	0	20	75
+LEP	Epa Required Data	H	O	0	3	76
+LH4	Canadian Dangerous Requirements	H	O	0	4	77
+LHT	Transborder Hazardous Requirements	H	O	0	3	78
+LHR	Hazardous Material Identifying Reference Numbers	H	O	0	5	79
+PER	Administrative Communications Contact	H	O	0	5	80
+N1	Party Identification	H	O	10	1	81
+N3	Party Location	H	O	0	2	82
+N4	Geographic Location	H	O	0	1	83
+PER	Administrative Communications Contact	H	O	0	2	84
+LE	Loop Trailer	H	O	0	1	85
+PER	Administrative Communications Contact	H	O	0	5	86
+LH2	Hazardous Classification Information	H	O	0	6	87
+LHR	Hazardous Material Identifying Reference Numbers	H	O	0	1	88
+XH	Pro Forma - B13 Information	H	O	0	1	89
+X7	Customs Information	H	O	0	10	90

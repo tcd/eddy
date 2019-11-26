@@ -1,0 +1,11 @@
+id	definition
+1	Seller
+2	Builder
+3	Borrower - Not Financed
+4	Lender
+5	Borrower - Financed
+6	Parent
+7	Non-Parent Relative
+8	Unrelated Friend
+9	Employer
+A	Other Source

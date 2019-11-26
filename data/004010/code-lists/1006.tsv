@@ -1,0 +1,9 @@
+id	definition
+1	Regular: Current (40 Day Limit)
+2	Regular: First Adjustment (70 Day Limit)
+3	Regular: Prior Adjustment (Claim Settlement)
+6	Regular: Registration Adjustment
+7	Reclaim: Initial Statement
+8	Reclaim: Supplemental Statement
+9	Reclaim: Counter Statement
+AA	Alpha State Code

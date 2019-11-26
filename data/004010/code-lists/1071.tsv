@@ -1,0 +1,76 @@
+id	definition
+01	Hazard Insurance
+02	Mortgage Insurance
+03	Renters Insurance
+04	Flood Insurance
+05	Homeowners Insurance
+06	Homeowners Association Dues
+07	Termite Insurance
+08	Gas
+09	Electricity
+10	Sewers
+11	Septic Tank
+12	Ground Rent
+13	Water
+14	Real Estate Tax
+15	Front Foot Tax
+16	Sewer Tax
+17	Garbage, School and Other Service Taxes
+18	Easement Tax
+19	Surcharges
+20	Condominium Fee
+21	Principal, Interest, Taxes, and Insurance (PITI)
+22	Other Financing Principal and Interest
+23	Other General Expenses
+24	Total Proposed Housing
+25	Rent
+26	First Mortgage Principal and Interest
+27	Total Present Housing Expense
+28	Estimated Taxes
+29	Special Assessment
+30	Actual Real Estate Taxes
+31	Estimated Real Estate Taxes
+32	Tax Rate per $100
+33	Other Taxes or Assessment
+34	Licenses
+35	Fuel
+36	Water and Sewer
+37	Trash Removal
+38	Pest Control
+39	Building Maintenance and Repair
+40	Interior and Exterior Decorating
+41	Cleaning Expenses
+42	Supplies
+43	Elevator Maintenance
+44	Pool Maintenance
+45	Parking Area Maintenance and Snow Removal
+46	Gardening
+47	Nonresident Manager
+48	Resident Manager's Apartment Allowance
+49	Custodian's Apartment Allowance
+50	Advertising
+51	Telephone
+52	Leased Furniture
+53	Carpeting and Drapes
+54	Ranges and Refrigerators
+55	Dishwashers and Disposals
+56	Individual Heating and Air Conditioning Units
+57	Association Fee
+58	Club House Fee
+59	Pool Usage Fee
+60	Dockage Fee
+61	Optional Services Fee
+62	Total
+63	Management
+64	Net Operating
+65	Build-out Allowance
+66	Maintenance Fee
+67	Unit Charge
+91	Insurance - Total
+92	Public Utility - Total
+93	Taxes - Total
+94	Community Fees - Total
+95	Total Monthly Debt
+96	First Mortgage Monthly Principal and Interest
+97	Second Mortgage Monthly Principal and Interest
+98	Other Principal and Interest

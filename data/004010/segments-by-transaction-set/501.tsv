@@ -1,0 +1,39 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	999999	2
+N1	Party Identification	H	O	999999	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+REF	Reference Information	H	O	0	999999	8
+DTP	Date Or Time Or Period	H	O	0	999999	9
+LM	Code Source Information	H	O	999999	1	10
+LQ	Industry Code Identification	H	M	0	999999	11
+CRT	Contractor Report Type	D	O	999999	1	12
+REF	Reference Information	D	O	999999	1	13
+DTP	Date Or Time Or Period	D	O	0	999999	14
+SPR	Supplier Rating	D	O	0	999999	15
+N1	Party Identification	D	O	999999	1	16
+N2	Additional Name Information	D	O	0	2	17
+N3	Party Location	D	O	0	2	18
+N4	Geographic Location	D	O	0	1	19
+PER	Administrative Communications Contact	D	O	0	999999	20
+DTP	Date Or Time Or Period	D	O	999999	1	21
+QTY	Quantity Information	D	O	0	999999	22
+LM	Code Source Information	D	O	999999	1	23
+LQ	Industry Code Identification	D	M	0	999999	24
+DTP	Date Or Time Or Period	D	O	0	999999	25
+LS	Loop Header	D	O	0	1	26
+QTY	Quantity Information	D	O	999999	1	27
+MEA	Measurements	D	O	0	999999	28
+PCT	Percent Amounts	D	O	0	999999	29
+NTE	Note/Special Instruction	D	O	0	999999	30
+LE	Loop Trailer	D	O	0	1	31
+REF	Reference Information	D	O	999999	1	32
+QTY	Quantity Information	D	O	999999	1	33
+DTP	Date Or Time Or Period	D	O	0	999999	34
+AMT	Monetary Amount Information	D	O	0	999999	35
+NTE	Note/Special Instruction	D	O	0	999999	36
+LM	Code Source Information	D	O	999999	1	37
+LQ	Industry Code Identification	D	M	0	999999	38

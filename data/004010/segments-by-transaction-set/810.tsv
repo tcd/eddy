@@ -1,0 +1,93 @@
+id	description	section	req	max_loop	max_usage	pos
+BIG	Beginning Segment For Invoice	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	100	2
+CUR	Currency	H	O	0	1	3
+REF	Reference Information	H	O	0	12	4
+YNQ	Yes/No Question	H	O	0	10	5
+PER	Administrative Communications Contact	H	O	0	3	6
+N1	Party Identification	H	O	200	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10
+REF	Reference Information	H	O	0	12	11
+PER	Administrative Communications Contact	H	O	0	3	12
+DMG	Demographic Information	H	O	0	1	13
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	999999	14
+DTM	Date/Time Reference	H	O	0	10	15
+FOB	F.O.B. Related Instructions	H	O	0	1	16
+PID	Product/Item Description	H	O	0	200	17
+MEA	Measurements	H	O	0	40	18
+PWK	Paperwork	H	O	0	25	19
+PKG	Marking, Packaging, Loading	H	O	0	25	20
+L7	Tariff Reference	H	O	0	1	21
+BAL	Balance Detail	H	O	0	999999	22
+INC	Installment Information	H	O	0	1	23
+PAM	Period Amount	H	O	0	999999	24
+CRC	Conditions Indicator	H	O	0	1	25
+LM	Code Source Information	H	O	10	1	26
+LQ	Industry Code Identification	H	M	0	100	27
+N9	Extended Reference Information	H	O	1	1	28
+MSG	Message Text	H	M	0	10	29
+V1	Vessel Identification	H	O	999999	1	30
+R4	Port Or Terminal	H	O	0	999999	31
+DTM	Date/Time Reference	H	O	0	999999	32
+FA1	Type Of Financial Accounting Data	H	O	999999	1	33
+FA2	Accounting Data	H	M	0	999999	34
+IT1	Baseline Item Data (Invoice)	D	O	200000	1	35
+CRC	Conditions Indicator	D	O	0	1	36
+QTY	Quantity Information	D	O	0	5	37
+CUR	Currency	D	O	0	1	38
+IT3	Additional Item Data	D	O	0	5	39
+TXI	Tax Information	D	O	0	999999	40
+CTP	Pricing Information	D	O	0	25	41
+PAM	Period Amount	D	O	0	10	42
+MEA	Measurements	D	O	0	40	43
+PID	Product/Item Description	D	O	1000	1	44
+MEA	Measurements	D	O	0	10	45
+PWK	Paperwork	D	O	0	25	46
+PKG	Marking, Packaging, Loading	D	O	0	25	47
+PO4	Item Physical Details	D	O	0	1	48
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	2	49
+REF	Reference Information	D	O	0	999999	50
+YNQ	Yes/No Question	D	O	0	10	51
+PER	Administrative Communications Contact	D	O	0	5	52
+SDQ	Destination Quantity	D	O	0	500	53
+DTM	Date/Time Reference	D	O	0	10	54
+CAD	Carrier Details	D	O	0	999999	55
+L7	Tariff Reference	D	O	0	999999	56
+SR	Requested Service Schedule	D	O	0	1	57
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	58
+TXI	Tax Information	D	O	999999	1	59
+DTM	Date/Time Reference	D	O	0	1	60
+SLN	Subline Item Detail	D	O	1000	1	61
+DTM	Date/Time Reference	D	O	0	1	62
+REF	Reference Information	D	O	0	999999	63
+PID	Product/Item Description	D	O	0	1000	64
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	999999	65
+TC2	Commodity	D	O	0	2	66
+TXI	Tax Information	D	O	0	999999	67
+N1	Party Identification	D	O	200	1	68
+N2	Additional Name Information	D	O	0	2	69
+N3	Party Location	D	O	0	2	70
+N4	Geographic Location	D	O	0	1	71
+REF	Reference Information	D	O	0	12	72
+PER	Administrative Communications Contact	D	O	0	3	73
+DMG	Demographic Information	D	O	0	1	74
+LM	Code Source Information	D	O	10	1	75
+LQ	Industry Code Identification	D	M	0	100	76
+V1	Vessel Identification	D	O	999999	1	77
+R4	Port Or Terminal	D	O	0	999999	78
+DTM	Date/Time Reference	D	O	0	999999	79
+FA1	Type Of Financial Accounting Data	D	O	999999	1	80
+FA2	Accounting Data	D	M	0	999999	81
+TDS	Total Monetary Value Summary	S	M	0	1	82
+TXI	Tax Information	S	O	0	999999	83
+CAD	Carrier Details	S	O	0	1	84
+AMT	Monetary Amount Information	S	O	0	999999	85
+SAC	Service, Promotion, Allowance, Or Charge Information	S	O	999999	1	86
+DTM	Date/Time Reference	S	O	0	999999	87
+TXI	Tax Information	S	O	999999	1	88
+DTM	Date/Time Reference	S	O	0	1	89
+ISS	Invoice Shipment Summary	S	O	999999	1	90
+PID	Product/Item Description	S	O	0	1	91
+CTT	Transaction Totals	S	O	0	1	92

@@ -1,0 +1,22 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N9	Extended Reference Information	H	M	0	10	2
+F9	Origin Station	H	M	0	1	3
+D9	Destination Station	H	M	0	1	4
+PER	Administrative Communications Contact	H	O	0	3	5
+H3	Special Handling Instructions	H	O	0	20	6
+R2	Route Information	H	O	0	13	7
+LET	Load And Equipment Type	H	O	150	1	8
+MEA	Measurements	H	M	0	4	9
+L4	Measurement	H	M	0	75	10
+N7	Equipment Details	H	O	0	1	11
+L10	Weight Information	H	O	0	1	12
+AMT	Monetary Amount Information	H	O	0	1	13
+LX	Transaction Set Line Number	H	M	5	1	14
+NTE	Note/Special Instruction	H	O	0	10	15
+L5	Description, Marks And Numbers	H	O	0	15	16
+N1	Party Identification	H	O	5	1	17
+N2	Additional Name Information	H	O	0	1	18
+N3	Party Location	H	O	0	1	19
+N4	Geographic Location	H	O	0	1	20
+PER	Administrative Communications Contact	H	O	0	1	21

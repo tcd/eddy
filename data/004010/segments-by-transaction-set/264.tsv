@@ -1,0 +1,43 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+MIS	Mortgagee Information Status	H	O	0	1	2
+N1	Party Identification	H	M	2	1	3
+N2	Additional Name Information	H	O	0	1	4
+N3	Party Location	H	O	0	1	5
+N4	Geographic Location	H	O	0	2	6
+PER	Administrative Communications Contact	H	O	0	2	7
+LX	Transaction Set Line Number	D	M	999999	1	8
+DTM	Date/Time Reference	D	O	0	2	9
+N1	Party Identification	D	O	0	1	10
+N2	Additional Name Information	D	O	0	1	11
+N3	Party Location	D	O	0	1	12
+N4	Geographic Location	D	O	0	1	13
+REF	Reference Information	D	O	0	2	14
+PER	Administrative Communications Contact	D	O	0	2	15
+QTY	Quantity Information	D	O	0	2	16
+AMT	Monetary Amount Information	D	O	0	2	17
+DTP	Date Or Time Or Period	D	M	999999	1	18
+REF	Reference Information	D	M	0	10	19
+N1	Party Identification	D	O	999999	1	20
+N2	Additional Name Information	D	O	0	1	21
+N3	Party Location	D	O	0	1	22
+N4	Geographic Location	D	O	0	1	23
+PER	Administrative Communications Contact	D	O	0	2	24
+REF	Reference Information	D	O	0	4	25
+LS	Loop Header	D	O	0	1	26
+REC	Real Estate Condition	D	O	1	1	27
+N3	Party Location	D	O	0	1	28
+N4	Geographic Location	D	O	0	1	29
+DFI	Default Information	D	O	0	999999	30
+QTY	Quantity Information	D	O	0	1	31
+AMT	Monetary Amount Information	D	O	0	10	32
+INT	Interest	D	O	0	1	33
+SOM	Status Of Mortgage	D	O	0	10	34
+DTP	Date Or Time Or Period	D	O	0	14	35
+MRC	Mortgagor Response Characteristics	D	O	0	2	36
+MSG	Message Text	D	O	0	11	37
+YNQ	Yes/No Question	D	O	0	2	38
+PER	Administrative Communications Contact	D	O	0	999999	39
+LE	Loop Trailer	D	O	0	1	40
+QTY	Quantity Information	S	O	0	2	41
+AMT	Monetary Amount Information	S	O	0	2	42

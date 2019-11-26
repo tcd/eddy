@@ -1,0 +1,8 @@
+id	definition
+1	Order
+2	Shipment
+3	Billing
+4	Receipt
+5	Discrepant
+N	Was Not a Reason for the Nonconformance Report
+Y	Was a Reason for the Nonconformance Report

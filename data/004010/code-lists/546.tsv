@@ -1,0 +1,149 @@
+id	definition
+01	Accepted
+02	Approved
+03	Back Bill
+04	Conditional Issue
+05	Converted
+06	Deceased
+07	Deleted
+08	Delivery Pending
+09	Double Jeopardy
+10	Extended Term
+11	Automatic
+12	Follow Up
+13	Facultative
+14	Group Expired
+15	Incomplete
+16	In Force
+17	Facultative Placed
+18	Issued
+19	New Business
+20	Lapsed
+21	Mailed
+22	Policy Change
+23	Not Taken
+24	Offer Final
+25	Offer - First Subject To
+26	Paid
+27	Paid Up
+28	Payor Death
+29	Payor Disabled
+30	Pending
+31	Placed
+32	Postpone
+33	Premium Paying
+34	Quoted
+35	Reduced Paid up
+36	Reinstatement
+37	Reapproved
+38	Receipted
+39	Reissue
+40	Repended
+41	Satisfied
+42	Trial Application
+44	Terminated
+45	Waived
+46	Contingent
+47	Sold
+48	Rented
+50	Under Contract
+51	Deposit
+52	Continue to Show
+53	Temporarily off the Market
+54	Leased
+55	Off-Market
+56	Forwarded
+57	Not Required
+58	Ordered
+59	Outstanding
+60	Pending 1035 Exchange
+61	Required
+62	Do Not Mail
+63	Do Not Rent or Exchange
+64	Filed
+65	Facultative Submission
+66	Additional Information
+67	Status Request
+68	Submission Change
+69	Rating Reduction Requested
+70	Facultative Opinion
+71	Reserve Facilities
+72	Offer Accepted
+73	Placed Other Carrier
+74	Capacity Unavailable
+75	Retained
+76	Death
+77	Disabled
+78	Divorced
+79	Free Look Canceled
+80	Processed
+81	Rejected
+82	Reversed
+AA	Annuitized
+AB	Arrived
+AC	Active
+AD	Applicant Denied
+AR	Assuming Company Review
+C1	Contemplated
+C2	Contained in Record
+C3	Current
+CC	Ceding Company Review - With Copy to Assuming Company
+CD	Canceled
+CE	Ceding Company Review - No Copy to Assuming Company
+CF	Canceled Free Look Cash
+CH	Changeable
+CI	Canceled by Internal Revenue Service
+CL	Closed
+CO	Complete
+CR	Closed Record
+CT	Contained in Transaction
+DC	Declined
+DN	Declined - No Response from Claimant to Correspondence
+DS	Declined/Paid Salvage Only
+EF	Equipment Failed
+ES	Estimated
+EW	Exchange or Transfer Withdrawn
+EX	Expired
+F0	Follow Up 10 or More
+F1	Follow Up 1
+F2	Follow Up 2
+F3	Follow Up 3
+F4	Follow Up 4
+F5	Follow Up 5
+F6	Follow Up 6
+F7	Follow Up 7
+F8	Follow Up 8
+F9	Follow Up 9
+FL	Free Look
+FP	Filed Pending Further Correspondence
+FT	Future
+FX	Faxed
+IA	Inactive
+LA	Letter of Acceptance Sent
+MT	Matured
+NA	Not in Good Order
+NP	New Premium Only
+NR	No Record Claim Receipt
+NT	No Longer Under Treatment
+OF	On File
+OH	On Hand - Under Investigation
+PD	Pending Death
+PF	Paid in Full
+PM	Partial Payment Received
+PP	Paid in Part/Denied in Part
+PR	Paperwork Received
+PW	Paperwork Pending
+RA	Rated
+RC	Rescinded
+RE	Received
+RQ	Request
+RS	Restricted
+RV	Revoked
+SP	Suspense
+SR	Signature Required
+SS	Suspended
+SU	Surrendered
+UT	Under Treatment
+WD	Withdrawn
+WI	Waiting Initial Payment
+WP	Waiting Period

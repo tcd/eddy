@@ -1,0 +1,14 @@
+id	description	section	req	max_loop	max_usage	pos
+G87	Delivery/Return Adjustment Identification	H	M	0	1	1
+G88	Delivery/Return Identification Adjustment	H	O	0	1	2
+LS	Loop Header	D	O	0	1	3
+G89	Line Item Detail - Adjustment	D	O	9999	1	4
+G22	Pre-Pricing Information	D	O	0	1	5
+G72	Allowance Or Charge	D	O	0	10	6
+G23	Terms Of Sale	D	O	0	20	7
+LE	Loop Trailer	D	O	0	1	8
+G72	Allowance Or Charge	S	O	0	20	9
+G23	Terms Of Sale	S	O	0	20	10
+G84	Delivery/Return Record Of Totals	S	O	0	1	11
+G86	Signature Identification	S	M	0	1	12
+G85	Record Integrity Check	S	M	0	1	13

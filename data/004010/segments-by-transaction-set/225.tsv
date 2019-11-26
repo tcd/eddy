@@ -1,0 +1,3 @@
+id	description	section	req	max_loop	max_usage	pos
+SCP	Beginning Segment For A Cartage Work Assignment Response	H	M	0	1	1
+L11	Business Instructions And Reference Number	H	O	0	5	2

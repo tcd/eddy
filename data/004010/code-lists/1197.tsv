@@ -1,0 +1,20 @@
+id	definition
+C	Canceled or Voided
+D	Miscellaneous Debit
+M	Miscellaneous Credit
+O	Outstanding
+P	Paid
+R	Reconciled
+S	Payment Stopped
+AD	Adjustment
+AV	Authorized
+BA	Back Value, Transactions had been Posted to Incorrect Account
+BM	Back Value, Miscellaneous
+BP	Back Value, Only Partial Amount Credited/Debited to Account
+BV	Back Value, Transaction Not Received by Bank
+NA	Nonauthorized
+RD	Return, Insufficient Data
+RE	Re-deposit
+RI	Return, Insufficient Funds
+RN	Return
+TR	Truncated

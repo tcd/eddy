@@ -1,0 +1,110 @@
+id	definition
+01	Divorce
+02	Birth
+03	Death
+04	Retirement
+05	Adoption
+06	Strike
+07	Termination of Benefits
+08	Termination of Employment
+09	Consolidation Omnibus Budget Reconciliation Act (COBRA)
+10	Consolidation Omnibus Budget Reconciliation Act (COBRA) Premium Paid
+11	Surviving Spouse
+12	Lay Off
+13	Leave of Absence
+14	Voluntary Withdrawal
+15	Primary Care Provider (PCP) Change
+16	Quit
+17	Fired
+18	Suspended
+19	Sabbatical
+20	Active
+21	Disability
+22	Plan Change
+23	Furloughed
+24	Resigned
+25	Change in Identifying Data Elements
+26	Declined Coverage
+27	Pre-Enrollment
+28	Initial Enrollment
+29	Benefit Selection
+30	Discrimination Test
+31	Legal Separation
+32	Marriage
+33	Personnel Data
+34	Investment Elections and Contribution Rates
+35	Loan Repayment
+36	Contribution or Plan Allocation
+37	Leave of Absence with Benefits
+38	Leave of Absence without Benefits
+39	Lay Off with Benefits
+40	Lay Off without Benefits
+41	Re-enrollment
+42	New Entity
+43	Change of Location
+44	Change of Telephone Number
+45	Went Out of Business
+46	Current Customer Information File in Error
+47	Account Balance Reporting
+48	Fees Processing
+49	Interfund Transfer
+4A	Business Name Change
+4B	Business Name Correction
+4C	Physical or Mailing Address Correction
+50	Loan Request
+51	Enrollment in Subsequent Benefit Plan
+52	Health Care Facility Change
+53	Name Synonym Add
+54	Sub Location Add
+55	Sub Location Change
+56	Sub Location Expire
+57	Buyout
+58	Merger
+59	Non Payment
+60	Coverage Placed Elsewhere
+61	Duplicate Coverage
+62	Change in Ownership
+63	Business Sold
+64	Underwriting Reason
+65	No Employees, Exposure or Operations
+66	Revocation of Voluntary Market Acceptance
+67	Include Primary Business Management
+68	Exclude Primary Business Management
+69	Failure to Pay Deductible
+70	Misrepresented Information
+71	Rewritten
+72	Adding a Jurisdiction
+73	Deleting a Jurisdiction
+75	Occupational Illness
+76	Change Insured Federal Employer Identification Number (FEIN)
+77	Change Employer Federal Employer Identification Number (FEIN)
+78	Change Employer Unemployment Insurance (UI) Code
+79	Change Policy Number
+80	Modification without a Specific Operating Unit Location in Jurisdiction
+81	Change Policy Effective Date
+82	Change Policy Expiration Date
+83	Change Insurer Federal Employer Identification Number (FEIN)
+84	No Eligible Employees
+85	Reinstatement - Canceled in Error
+86	Change in Insured Information
+87	Change in Employer Information
+88	Parent Identification Change
+89	Change to Expiration Date
+90	Phone Verify Only
+AA	Dissatisfaction with Office Staff
+AB	Dissatisfaction with Medical Care/Services Rendered
+AC	Inconvenient Office Location
+AD	Dissatisfaction with Office Hours
+AE	Unable to Schedule Appointments in a Timely Manner
+AF	Dissatisfaction with Physician's Referral Policy
+AG	Less Respect and Attention Time Given than to Other Patients
+AH	Patient Moved to a New Location
+AI	No Reason Given
+AJ	Appointment Times not Met in a Timely Manner
+XB	Became Medical Only
+XI	Indemnity
+XL	Became Lost Time
+XM	Medical Only
+XN	Notification Only
+XT	Transfer
+ZZ	Mutually Defined

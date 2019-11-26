@@ -1,0 +1,17 @@
+id	description	section	req	max_loop	max_usage	pos
+CMA	Cooperative Market Agreement	H	M	0	1	1
+DOS	Definition Of Share	H	O	0	1	2
+NTE	Note/Special Instruction	H	O	0	10	3
+N1	Party Identification	H	M	250	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	1	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	1	8
+ASM	Amount And Settlement Method	H	O	0	1	9
+MI	Media Information	D	O	99	1	10
+DOS	Definition Of Share	D	O	0	1	11
+N1	Party Identification	D	O	99	1	12
+CRC	Conditions Indicator	D	O	0	1	13
+PAI	Print Advertisement Information	D	O	0	60	14
+QTY	Quantity Information	S	O	0	1	15
+AMT	Monetary Amount Information	S	O	0	2	16

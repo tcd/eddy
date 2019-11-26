@@ -1,0 +1,71 @@
+id	definition
+01	Street Number
+02	Street Name
+03	Prefix Direction
+04	Suffix Direction
+05	P.O. Box Number
+06	Rural Route Number
+07	City Name
+08	State Name
+09	State Postal Code
+10	Zip Code (5 Digit)
+11	Zip Code Addendum (4 Digit)
+12	Building Name
+13	Apartment Number
+14	Suite Number
+15	Unstructured Street Address
+16	Unstructured City and State and Zip Code
+17	Unstructured City and State
+18	Unstructured Mailing Address
+19	Zip Code (9 Digit)
+20	County
+21	Subdivision
+22	Map Coordinates and Directions
+23	Continent
+24	State or Province Abbreviation
+25	Township
+26	Municipality
+27	Sub-barrio
+28	Association Name
+29	Parking Unit Number
+30	Pier
+31	Wing
+32	Floor
+33	Driveway
+34	Lot
+35	Room
+36	Slip
+37	Unit
+38	Property Address
+39	Unstructured Property
+40	Street Suffix
+41	Country
+51	Drawer Number
+52	Foreign Region or Province
+53	Postal District
+54	Street Number Alpha
+56	Province
+57	Cross Street
+58	International Postal Code
+59	Street Number Low
+60	Street Number High
+61	Street Number Fraction
+62	Street Name Suffix
+63	Secondary Unit Identifier
+64	Secondary Unit Number
+65	ZIP Code Delivery Point Addendum
+66	ZIP Code Delivery Point BarCode (DPBC) Checkdigit
+67	Postal Service Carrier Route
+68	Postal Service Carrier Route Line of Travel (LOT)
+69	Postal Service Address Change Service (ACS) Keyline
+71	Congressional District Code
+74	Zip Code  (11 digit)
+79	International Organization for Standardization (ISO) Country Code
+80	Street Name Prefix
+90	Access Customer Terminal Location (ACTL)
+91	Additional Point of Termination (APOT)
+92	Local Service Termination (LST)
+93	Specific Point of Interface (XPOI)
+94	Section
+96	Range
+97	Geographical Area

@@ -1,0 +1,67 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	2	2
+REF	Reference Information	H	O	0	999999	3
+N1	Party Identification	H	M	999999	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	3	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	2	8
+PER	Administrative Communications Contact	H	O	0	2	9
+LIN	Item Identification	D	M	999999	1	10
+PID	Product/Item Description	D	O	0	999999	11
+REF	Reference Information	D	O	0	999999	12
+LOC	Location	D	O	0	1	13
+CID	Characteristic/Class Id	D	O	0	999999	14
+DTM	Date/Time Reference	D	O	0	2	15
+QTY	Quantity Information	D	O	0	1	16
+PWK	Paperwork	D	O	0	1	17
+N1	Party Identification	D	O	1	1	18
+N2	Additional Name Information	D	O	0	2	19
+N3	Party Location	D	O	0	3	20
+N4	Geographic Location	D	O	0	1	21
+REF	Reference Information	D	O	0	999999	22
+PER	Administrative Communications Contact	D	O	0	2	23
+QTY	Quantity Information	D	O	0	1	24
+PRR	Problem Report	D	O	999999	1	25
+MSG	Message Text	D	O	0	999999	26
+N9	Extended Reference Information	D	O	999999	1	27
+MSG	Message Text	D	O	0	999999	28
+REP	Repair Action	D	M	999999	1	29
+MSG	Message Text	D	O	0	999999	30
+QTY	Quantity Information	D	O	0	1	31
+N9	Extended Reference Information	D	O	999999	1	32
+MSG	Message Text	D	O	0	999999	33
+PRT	Part Disposition	D	O	1	1	34
+N1	Party Identification	D	O	0	1	35
+N2	Additional Name Information	D	O	0	2	36
+N3	Party Location	D	O	0	3	37
+N4	Geographic Location	D	O	0	1	38
+REF	Reference Information	D	O	0	999999	39
+PER	Administrative Communications Contact	D	O	0	2	40
+ITA	Allowance, Charge Or Service	D	O	1	1	41
+CUR	Currency	D	O	0	1	42
+SLN	Subline Item Detail	D	O	999999	1	43
+REF	Reference Information	D	O	0	999999	44
+LOC	Location	D	O	0	1	45
+DTM	Date/Time Reference	D	O	0	2	46
+N1	Party Identification	D	O	1	1	47
+N2	Additional Name Information	D	O	0	2	48
+N3	Party Location	D	O	0	3	49
+N4	Geographic Location	D	O	0	1	50
+REF	Reference Information	D	O	0	999999	51
+PER	Administrative Communications Contact	D	O	0	2	52
+PRR	Problem Report	D	M	999999	1	53
+MSG	Message Text	D	O	0	999999	54
+REP	Repair Action	D	M	999999	1	55
+MSG	Message Text	D	O	0	999999	56
+QTY	Quantity Information	D	O	0	1	57
+PRT	Part Disposition	D	O	1	1	58
+N1	Party Identification	D	O	0	1	59
+N2	Additional Name Information	D	O	0	2	60
+N3	Party Location	D	O	0	3	61
+N4	Geographic Location	D	O	0	1	62
+REF	Reference Information	D	O	0	999999	63
+PER	Administrative Communications Contact	D	O	0	2	64
+ITA	Allowance, Charge Or Service	D	O	1	1	65
+CUR	Currency	D	O	0	1	66

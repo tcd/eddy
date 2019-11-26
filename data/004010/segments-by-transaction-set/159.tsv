@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	2	2
+LX	Transaction Set Line Number	H	M	999999	1	3
+REF	Reference Information	H	M	0	10	4
+THE	Screen Theater Identification	H	M	999999	1	5
+N9	Extended Reference Information	H	O	0	20	6
+N4	Geographic Location	H	O	0	1	7
+CUR	Currency	H	O	0	1	8
+QTY	Quantity Information	H	O	0	1	9
+LUI	Language Use	H	O	0	1	10
+MEA	Measurements	H	O	0	1	11
+LQ	Industry Code Identification	H	O	0	1	12
+DTP	Date Or Time Or Period	H	M	999999	1	13
+QTY	Quantity Information	H	O	0	1	14
+LQ	Industry Code Identification	H	O	0	1	15
+N9	Extended Reference Information	H	O	999999	1	16
+PCT	Percent Amounts	H	O	0	1	17
+AMT	Monetary Amount Information	H	O	0	1	18
+QTY	Quantity Information	H	O	0	1	19
+MSG	Message Text	H	O	0	999999	20
+G63	Period	H	O	999999	1	21
+QTY	Quantity Information	H	O	0	2	22
+REF	Reference Information	H	O	0	1	23
+N9	Extended Reference Information	H	O	999999	1	24
+PCT	Percent Amounts	H	O	0	1	25
+AMT	Monetary Amount Information	H	O	0	1	26
+QTY	Quantity Information	H	O	0	1	27
+MSG	Message Text	H	O	0	999999	28

@@ -1,0 +1,20 @@
+id	description	section	req	max_loop	max_usage	pos
+BA1	Export Shipment Identifying Information	H	M	999	1	1
+YNQ	Yes/No Question	H	M	0	10	2
+V5	Vessel Identification	H	O	0	1	3
+DTM	Date/Time Reference	H	M	0	1	4
+P5	Port Function	H	M	0	2	5
+REF	Reference Information	H	O	0	9	6
+M12	In-Bond Identifying Information	H	O	0	1	7
+VID	Conveyance Identification	H	O	0	999	8
+N1	Party Identification	H	M	10	1	9
+N2	Additional Name Information	H	O	0	2	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+L13	Commodity Details	H	O	999	1	13
+MAN	Marks And Numbers Information	H	O	0	999	14
+X1	Export License	H	O	0	1	15
+VEH	Vehicle Information	H	O	0	9999	16
+N1	Party Identification	H	O	10	1	17
+N2	Additional Name Information	H	O	0	2	18
+N4	Geographic Location	H	O	0	1	19

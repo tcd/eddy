@@ -1,0 +1,103 @@
+id	definition
+01	Vehicle
+02	Furniture
+03	Boat
+04	Trailer
+05	Investment Art
+06	Collection of Objects
+07	Airplane
+08	Jewelery
+09	Antiques
+10	Other Property
+11	Livestock
+12	Camera Equipment
+13	Business Equipment
+14	Computer Equipment
+15	Currency (Cash)
+16	Silverware
+17	Clothing
+18	Furs
+19	Sports Equipment
+20	Guns
+21	Tools
+22	Electronics
+23	Appliance
+24	Liquor
+25	All Contents
+26	Service Truck
+27	Tanker
+28	Tractor
+29	Truck
+30	Accounts
+31	Accounts Receivable
+32	All Assets
+33	Aqua Culture Stock
+34	Building Materials
+35	Building(s)
+36	Capital Stock
+37	Chattel Paper
+38	Communications Equipment
+39	Consigned Merchandise
+40	Construction Equipment or Machinery or Both
+41	Contract Rights
+42	Endorsements
+43	Equipment
+44	Farm Products or Crops or Both
+45	Fixtures
+46	General Intangible(s)
+47	Guarantor
+48	Industrial Machinery or Equipment or both
+49	Inventory
+50	Lease
+51	Life Insurance
+52	Livestock Products or Crops or Both
+53	Machinery
+54	Mobile Homes
+55	Negotiable Instruments
+56	Notes Receivable
+57	Oil, Gas and Minerals
+58	Partnership Interest
+59	Proceeds
+60	Products
+61	Products and Proceeds
+62	Real Estate
+63	Real Property
+64	Savings
+65	Specified Assets
+66	Textile Goods
+67	Timber
+68	Transportation Equipment
+69	Unspecified Assets
+70	Agricultural Machinery or Equipment or both
+71	Debentures
+72	Guarantee from Affiliated Company
+73	Guarantee from Parent
+74	Personal Guarantees
+75	Pumps
+76	Security Agreement
+77	Service Bays
+78	Fixed Assets
+79	Land
+80	Agricultural Land
+81	Ambulance
+82	Automobile
+83	Barge
+84	Bus
+85	Business Assets
+86	Cement Truck
+87	Common Stock
+88	Delivery Vehicle
+89	Double Wheel Truck
+90	Freight Container
+91	Freight Train Car
+92	Industrial Vehicle
+93	Intangible Assets
+94	Lorry
+95	Motorcycle
+96	Passenger Vehicle
+97	Personal Assets
+98	Pick up Truck
+99	Preferred Stock
+AA	Tractor Trailer Truck
+AB	Van
+ZZ	Mutually Defined

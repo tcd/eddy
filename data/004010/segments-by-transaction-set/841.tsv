@@ -1,0 +1,75 @@
+id	description	section	req	max_loop	max_usage	pos
+SPI	Specification Identifier	H	M	999999	1	1
+RDT	Revision Date/Time	H	O	0	999999	2
+NTE	Note/Special Instruction	H	O	0	999999	3
+X1	Export License	H	O	0	1	4
+X2	Import License	H	O	0	1	5
+X7	Customs Information	H	O	0	1	6
+AMT	Monetary Amount Information	H	O	0	999999	7
+REF	Reference Information	H	O	999999	1	8
+DTM	Date/Time Reference	H	O	0	999999	9
+PER	Administrative Communications Contact	H	O	0	999999	10
+N1	Party Identification	H	O	999999	1	11
+N2	Additional Name Information	H	O	0	2	12
+N3	Party Location	H	O	0	2	13
+N4	Geographic Location	H	O	0	999999	14
+REF	Reference Information	H	O	0	999999	15
+PER	Administrative Communications Contact	H	O	0	999999	16
+HL	Hierarchical Level	D	M	999999	1	17
+SPI	Specification Identifier	D	O	999999	1	18
+RDT	Revision Date/Time	D	O	0	999999	19
+PRR	Problem Report	D	O	0	999999	20
+PRT	Part Disposition	D	O	0	999999	21
+PRS	Part Release Status	D	O	0	1	22
+LIN	Item Identification	D	O	0	1	23
+PER	Administrative Communications Contact	D	O	0	999999	24
+MSG	Message Text	D	O	0	999999	25
+N1	Party Identification	D	O	999999	1	26
+N2	Additional Name Information	D	O	0	2	27
+N3	Party Location	D	O	0	2	28
+N4	Geographic Location	D	O	0	999999	29
+PER	Administrative Communications Contact	D	O	0	999999	30
+N9	Extended Reference Information	D	O	0	999999	31
+PID	Product/Item Description	D	O	999999	1	32
+PKD	Packaging Description	D	O	0	999999	33
+QTY	Quantity Information	D	O	0	999999	34
+MEA	Measurements	D	O	0	999999	35
+UIT	Unit Detail	D	O	0	999999	36
+LOC	Location	D	O	0	1	37
+PWK	Paperwork	D	O	0	999999	38
+PKG	Marking, Packaging, Loading	D	O	999999	1	39
+MEA	Measurements	D	O	0	999999	40
+REF	Reference Information	D	O	999999	1	41
+DTM	Date/Time Reference	D	O	0	999999	42
+PER	Administrative Communications Contact	D	O	0	999999	43
+LX	Transaction Set Line Number	D	O	999999	1	44
+LIN	Item Identification	D	O	0	1	45
+TMD	Test Method	D	O	0	1	46
+MEA	Measurements	D	M	0	999999	47
+PSD	Physical Sample Description	D	O	0	999999	48
+SPS	Sampling Parameters For Summary Statistics	D	O	0	999999	49
+DTM	Date/Time Reference	D	O	0	999999	50
+REF	Reference Information	D	O	0	999999	51
+EFI	Electronic Format Identification	D	O	999999	1	52
+BIN	Binary Data Segment	D	O	0	1	53
+CID	Characteristic/Class Id	D	O	999999	1	54
+UIT	Unit Detail	D	O	0	1	55
+TMD	Test Method	D	O	0	999999	56
+PSD	Physical Sample Description	D	O	0	1	57
+CSS	Conditional Sampling Sequence	D	O	0	1	58
+SPS	Sampling Parameters For Summary Statistics	D	O	0	1	59
+MSG	Message Text	D	O	0	999999	60
+MEA	Measurements	D	O	999999	1	61
+DTM	Date/Time Reference	D	O	0	999999	62
+REF	Reference Information	D	O	0	999999	63
+STA	Statistics	D	O	999999	1	64
+DTM	Date/Time Reference	D	O	0	999999	65
+REF	Reference Information	D	O	0	999999	66
+CSF	Conditional Sampling Frequency	D	O	999999	1	67
+LS	Loop Header	D	O	0	1	68
+CID	Characteristic/Class Id	D	O	999999	1	69
+MEA	Measurements	D	O	0	1	70
+STA	Statistics	D	O	0	1	71
+LE	Loop Trailer	D	O	0	1	72
+EFI	Electronic Format Identification	D	O	999999	1	73
+BIN	Binary Data Segment	D	O	0	1	74

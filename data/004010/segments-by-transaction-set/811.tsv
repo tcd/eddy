@@ -1,0 +1,135 @@
+id	description	section	req	max_loop	max_usage	pos
+BIG	Beginning Segment For Invoice	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	100	2
+CUR	Currency	H	O	0	1	3
+REF	Reference Information	H	O	0	999999	4
+PER	Administrative Communications Contact	H	O	0	3	5
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	5	6
+DTM	Date/Time Reference	H	O	0	10	7
+TXI	Tax Information	H	O	0	999999	8
+N1	Party Identification	H	O	999999	1	9
+N2	Additional Name Information	H	O	0	2	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+REF	Reference Information	H	O	0	12	13
+PER	Administrative Communications Contact	H	O	0	3	14
+DMG	Demographic Information	H	O	0	1	15
+FA1	Type Of Financial Accounting Data	H	O	999999	1	16
+FA2	Accounting Data	H	M	0	999999	17
+HL	Hierarchical Level	D	M	999999	1	18
+LX	Transaction Set Line Number	D	O	999999	1	19
+VEH	Vehicle Information	D	O	0	1	20
+SI	Service Characteristic Identification	D	O	0	8	21
+PID	Product/Item Description	D	O	0	200	22
+MEA	Measurements	D	O	0	20	23
+REF	Reference Information	D	O	0	999999	24
+AMT	Monetary Amount Information	D	O	0	999999	25
+DTM	Date/Time Reference	D	O	0	8	26
+TXI	Tax Information	D	O	0	999999	27
+QTY	Quantity Information	D	O	10	1	28
+SI	Service Characteristic Identification	D	O	0	1	29
+NM1	Individual Or Organizational Name	D	O	1	1	30
+N2	Additional Name Information	D	O	0	2	31
+N3	Party Location	D	O	0	2	32
+N4	Geographic Location	D	O	0	1	33
+REF	Reference Information	D	O	0	999999	34
+PER	Administrative Communications Contact	D	O	0	999999	35
+TXI	Tax Information	D	O	0	999999	36
+DMG	Demographic Information	D	O	0	1	37
+ITA	Allowance, Charge Or Service	D	O	999999	1	38
+DTM	Date/Time Reference	D	O	0	1	39
+TXI	Tax Information	D	O	0	999999	40
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	41
+SI	Service Characteristic Identification	D	O	0	2	42
+PID	Product/Item Description	D	O	0	200	43
+MEA	Measurements	D	O	0	20	44
+INC	Installment Information	D	O	0	1	45
+TXI	Tax Information	D	O	0	999999	46
+REF	Reference Information	D	O	0	999999	47
+DTM	Date/Time Reference	D	O	0	10	48
+MSG	Message Text	D	O	0	999999	49
+CAD	Carrier Details	D	O	0	1	50
+YNQ	Yes/No Question	D	O	0	999999	51
+LQ	Industry Code Identification	D	O	0	999999	52
+LCD	Place/Location Description	D	O	0	999999	53
+AMT	Monetary Amount Information	D	O	999999	1	54
+CUR	Currency	D	O	0	1	55
+QTY	Quantity Information	D	O	999999	1	56
+SI	Service Characteristic Identification	D	O	0	1	57
+ITA	Allowance, Charge Or Service	D	O	999999	1	58
+DTM	Date/Time Reference	D	O	0	1	59
+TXI	Tax Information	D	O	0	999999	60
+NM1	Individual Or Organizational Name	D	O	999999	1	61
+N2	Additional Name Information	D	O	0	2	62
+N3	Party Location	D	O	0	2	63
+N4	Geographic Location	D	O	0	1	64
+PER	Administrative Communications Contact	D	O	0	3	65
+NX2	Location Id Component	D	O	0	999999	66
+DMG	Demographic Information	D	O	0	1	67
+REF	Reference Information	D	O	0	999999	68
+LCD	Place/Location Description	D	O	0	999999	69
+SLN	Subline Item Detail	D	O	999999	1	70
+SI	Service Characteristic Identification	D	O	0	2	71
+PID	Product/Item Description	D	O	0	200	72
+MEA	Measurements	D	O	0	20	73
+CUR	Currency	D	O	0	1	74
+INC	Installment Information	D	O	0	1	75
+ITA	Allowance, Charge Or Service	D	O	0	10	76
+TXI	Tax Information	D	O	0	999999	77
+REF	Reference Information	D	O	0	999999	78
+PER	Administrative Communications Contact	D	O	0	3	79
+DTM	Date/Time Reference	D	O	0	10	80
+AMT	Monetary Amount Information	D	O	0	15	81
+MSG	Message Text	D	O	0	999999	82
+QTY	Quantity Information	D	O	999999	1	83
+SI	Service Characteristic Identification	D	O	0	1	84
+NM1	Individual Or Organizational Name	D	O	999999	1	85
+N2	Additional Name Information	D	O	0	2	86
+N3	Party Location	D	O	0	2	87
+N4	Geographic Location	D	O	0	1	88
+REF	Reference Information	D	O	0	8	89
+PER	Administrative Communications Contact	D	O	0	3	90
+DMG	Demographic Information	D	O	0	1	91
+TCD	Itemized Call Detail	D	O	999999	1	92
+SI	Service Characteristic Identification	D	O	0	2	93
+TXI	Tax Information	D	O	0	999999	94
+ITA	Allowance, Charge Or Service	D	O	0	999999	95
+QTY	Quantity Information	D	O	999999	1	96
+SI	Service Characteristic Identification	D	O	0	1	97
+USD	Usage-Sensitive Detail	D	O	999999	1	98
+SI	Service Characteristic Identification	D	O	0	2	99
+ITA	Allowance, Charge Or Service	D	O	0	2	100
+TRF	Rating Factors	D	O	0	18	101
+QTY	Quantity Information	D	O	999999	1	102
+SI	Service Characteristic Identification	D	O	0	1	103
+III	Information	D	O	999999	1	104
+DTP	Date Or Time Or Period	D	O	0	5	105
+AMT	Monetary Amount Information	D	O	0	5	106
+PCT	Percent Amounts	D	O	0	5	107
+LQ	Industry Code Identification	D	O	999999	1	108
+AMT	Monetary Amount Information	D	O	0	5	109
+PCT	Percent Amounts	D	O	0	5	110
+FA1	Type Of Financial Accounting Data	D	O	999999	1	111
+FA2	Accounting Data	D	M	0	999999	112
+TDS	Total Monetary Value Summary	S	M	0	1	113
+ITA	Allowance, Charge Or Service	S	O	999999	1	114
+DTM	Date/Time Reference	S	O	0	1	115
+REF	Reference Information	S	O	0	5	116
+BAL	Balance Detail	S	O	999999	1	117
+DTM	Date/Time Reference	S	O	0	1	118
+N1	Party Identification	S	O	999999	1	119
+BAL	Balance Detail	S	O	999999	1	120
+DTM	Date/Time Reference	S	O	0	1	121
+ITA	Allowance, Charge Or Service	S	O	999999	1	122
+DTM	Date/Time Reference	S	O	0	2	123
+AMT	Monetary Amount Information	S	O	0	1	124
+SI	Service Characteristic Identification	S	O	0	2	125
+REF	Reference Information	S	O	0	5	126
+CUR	Currency	S	O	0	1	127
+LX	Transaction Set Line Number	S	O	999999	1	128
+REF	Reference Information	S	O	0	1	129
+AMT	Monetary Amount Information	S	O	999999	1	130
+DTM	Date/Time Reference	S	O	0	1	131
+ITA	Allowance, Charge Or Service	S	O	999999	1	132
+DTM	Date/Time Reference	S	O	0	1	133
+CTT	Transaction Totals	S	O	0	1	134

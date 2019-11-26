@@ -1,0 +1,49 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	M	999999	1	2
+N3	Party Location	H	O	0	3	3
+N4	Geographic Location	H	O	0	1	4
+REF	Reference Information	H	O	0	9	5
+PER	Administrative Communications Contact	H	O	0	3	6
+HL	Hierarchical Level	D	M	999999	1	7
+REF	Reference Information	D	O	0	999999	8
+ASI	Action Or Status Indicator	D	O	0	999999	9
+LQ	Industry Code Identification	D	O	0	999999	10
+C3	Currency Identifier	D	O	0	1	11
+DMG	Demographic Information	D	O	0	1	12
+LUI	Language Use	D	O	0	1	13
+N4	Geographic Location	D	O	0	999999	14
+BLI	Basic Baseline Item Data	D	O	0	1	15
+LIN	Item Identification	D	O	0	999999	16
+UDA	Underwriting Condition	D	O	0	999999	17
+SPA	Status Of Product Or Activity	D	O	0	999999	18
+DTP	Date Or Time Or Period	D	O	0	999999	19
+BLN	Balance Information	D	O	0	999999	20
+QTY	Quantity Information	D	O	0	999999	21
+AMT	Monetary Amount Information	D	O	0	999999	22
+RPA	Rate Amounts Or Percents	D	O	0	999999	23
+PDL	Payment Details	D	O	999999	1	24
+REF	Reference Information	D	O	0	999999	25
+III	Information	D	O	999999	1	26
+DTP	Date Or Time Or Period	D	O	0	999999	27
+AM1	Informational Values	D	O	999999	1	28
+III	Information	D	O	0	999999	29
+SPA	Status Of Product Or Activity	D	O	0	999999	30
+DTP	Date Or Time Or Period	D	O	0	999999	31
+AMT	Monetary Amount Information	D	O	0	999999	32
+QTY	Quantity Information	D	O	0	999999	33
+RPA	Rate Amounts Or Percents	D	O	0	999999	34
+BLN	Balance Information	D	O	0	999999	35
+REF	Reference Information	D	O	0	999999	36
+NM1	Individual Or Organizational Name	D	O	999999	1	37
+N2	Additional Name Information	D	O	0	3	38
+COM	Communication Contact Information	D	O	0	999999	39
+N3	Party Location	D	O	999999	1	40
+N4	Geographic Location	D	O	0	1	41
+DTP	Date Or Time Or Period	D	O	0	999999	42
+NX1	Property Or Entity Identification	D	O	999999	1	43
+REF	Reference Information	D	O	0	999999	44
+BEN	Beneficiary Or Owner Information	D	O	0	1	45
+III	Information	D	O	0	999999	46
+AM1	Informational Values	D	O	0	999999	47
+IN1	Individual Identification	D	O	0	999999	48

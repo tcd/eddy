@@ -1,0 +1,13 @@
+id	definition
+AMT	Fixed Amount Discount
+CSH	% Discount for Cash Payment
+DOR	Cash Discount per Units Ordered
+DPU	Cash Discount per Units Purchased
+DSH	Cash Discount per Units Shipped
+DSV	Cash Discount per Service
+POR	% Discount per Units Ordered
+PPU	% Discount per Units Purchased
+PSH	% Discount per Units Shipped
+PSV	% Discount per Service
+UNT	Additional Units per Units Purchased
+ZZZ	Mutually Defined

@@ -1,0 +1,11 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+BLR	Transportation Carrier Identification	H	M	0	1	2
+G62	Date/Time	H	O	0	10	3
+N1	Party Identification	H	M	10	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	5	8
+CA1	Rate Request Identifier	H	M	99999	1	9
+LC1	Lane Commitments	H	M	0	1	10

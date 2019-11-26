@@ -1,0 +1,14 @@
+id	description	section	req	max_loop	max_usage	pos
+V1	Vessel Identification	H	M	0	1	1
+R4	Port Or Terminal	H	M	20	1	2
+DTM	Date/Time Reference	H	O	0	15	3
+N7	Equipment Details	H	M	9999	1	4
+M7	Seal Numbers	H	O	0	5	5
+ED	Equipment Description	H	O	0	1	6
+NA	Cross-Reference Equipment	H	O	0	2	7
+V4	Cargo Location Reference	H	M	0	1	8
+R4	Port Or Terminal	H	O	0	9	9
+W09	Equipment And Temperature	H	O	0	1	10
+H3	Special Handling Instructions	H	O	0	6	11
+H1	Hazardous Material	H	O	0	4	12
+N9	Extended Reference Information	H	O	0	10	13

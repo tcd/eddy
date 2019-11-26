@@ -1,0 +1,66 @@
+id	description	section	req	max_loop	max_usage	pos
+W05	Shipping Order Identification	H	M	0	1	1
+N1	Party Identification	H	O	10	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	5	6
+N9	Extended Reference Information	H	O	0	10	7
+G61	Contact	H	O	0	3	8
+G62	Date/Time	H	O	0	10	9
+NTE	Note/Special Instruction	H	O	0	999999	10
+W09	Equipment And Temperature	H	O	0	1	11
+W66	Warehouse Carrier Information	H	O	0	1	12
+W6	Special Handling Information	H	O	0	5	13
+R2	Route Information	H	O	0	13	14
+BNX	Rail Shipment Information	H	O	0	1	15
+TD3	Carrier Details (Equipment)	H	O	1	1	16
+AT9	Trailer Or Container Dimension And Weight	H	O	0	1	17
+LM	Code Source Information	H	O	10	1	18
+LQ	Industry Code Identification	H	M	0	100	19
+LX	Transaction Set Line Number	D	O	999999	1	20
+MAN	Marks And Numbers Information	D	O	0	999999	21
+SDQ	Destination Quantity	D	O	0	999999	22
+N1	Party Identification	D	O	0	1	23
+G62	Date/Time	D	O	0	10	24
+N9	Extended Reference Information	D	O	0	999999	25
+W01	Line Item Detail - Warehouse	D	O	999999	1	26
+G69	Line Item Detail - Description	D	O	0	5	27
+N9	Extended Reference Information	D	O	0	200	28
+NTE	Note/Special Instruction	D	O	0	999999	29
+W20	Line Item Detail - Packing	D	O	0	3	30
+QTY	Quantity Information	D	O	0	10	31
+AMT	Monetary Amount Information	D	O	0	999999	32
+G62	Date/Time	D	O	0	10	33
+G66	Transportation Instructions	D	O	0	1	34
+N1	Party Identification	D	O	999999	1	35
+N2	Additional Name Information	D	O	0	1	36
+N3	Party Location	D	O	0	1	37
+N4	Geographic Location	D	O	0	1	38
+PER	Administrative Communications Contact	D	O	0	5	39
+LH2	Hazardous Classification Information	D	O	0	6	40
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	1	41
+LH6	Hazardous Certification	D	O	0	5	42
+LM	Code Source Information	D	O	10	1	43
+LQ	Industry Code Identification	D	M	0	100	44
+LS	Loop Header	D	O	0	1	45
+LX	Transaction Set Line Number	D	O	999999	1	46
+N9	Extended Reference Information	D	O	0	999999	47
+G62	Date/Time	D	O	0	10	48
+N1	Party Identification	D	O	0	1	49
+SDQ	Destination Quantity	D	O	0	999999	50
+LM	Code Source Information	D	O	10	1	51
+LQ	Industry Code Identification	D	M	0	100	52
+LH1	Hazardous Identification Information	D	O	999999	1	53
+LH2	Hazardous Classification Information	D	O	0	4	54
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	55
+LFH	Free-Form Hazardous Material Information	D	O	0	20	56
+LEP	Epa Required Data	D	O	0	3	57
+LH4	Canadian Dangerous Requirements	D	O	0	1	58
+LHT	Transborder Hazardous Requirements	D	O	0	3	59
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	60
+PER	Administrative Communications Contact	D	O	0	5	61
+LE	Loop Trailer	D	O	0	1	62
+FA1	Type Of Financial Accounting Data	D	O	999999	1	63
+FA2	Accounting Data	D	M	0	999999	64
+W76	Total Shipping Order	S	O	0	1	65

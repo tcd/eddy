@@ -1,0 +1,13 @@
+id	definition
+A	Expiration date and a carrier's factor may be changed at any time
+B	Expiration date may be changed at any time
+C	Expiration date and factor may not be changed before the trigger date, but may be changed after the trigger date
+D	Expiration date may be changed at any time; carrier may change its factor only prior to the trigger date
+E	Expiration date may be changed at any time; carrier may change its factor only after the trigger date
+F	Expiration date may not be changed before the trigger date; it may be changed after the trigger date
+G	Expiration date may be changed at any time; carrier may change its factor only on number of days advance notice as indicated in the transaction
+H	Expiration date may be changed only after the number of days advance notice indicated in the transaction
+I	Expiration date may be changed only after 30 days advance notice
+L	Date can be changed at any time; the through-rate can be changed at any time by the proposer
+M	Rate Proposer Only
+N	Expiration Date and Factor may be Changed Only After the Number of Days Advance Notice Indicated in the Transaction

@@ -1,0 +1,47 @@
+id	definition
+1	Base Coverage
+2	Coverage for Rider
+3	Coverage in Units
+4	Retention Per Life
+5	Retention Per Policy
+6	Total Reinsurance Amount
+7	Face Amount
+8	Coverage Amount
+9	Specified Amount
+B	Bailout
+D	Declared
+E	Earned
+F	Fixed
+G	Guaranteed
+I	Indexed
+O	Original
+P	Paid
+T	Tiered
+W	Withheld
+AB	Average Basic Rate
+AC	Actual
+AD	Advance
+AE	Average Effective Rate
+AR	Age Reduced Rate
+BL	Blended
+BO	Bonus
+CB	Chargeback
+CR	Conversion Rate
+DR	Direct Rate
+DT	Deferred Trail Rate
+ES	Estimated
+IN	Initial
+OI	Overhead or Indirect Rate
+OT	Other
+PA	Participation
+PO	Portfolio Rate
+RF	Renewal First Year Rate
+RR	Renewal Rate
+RS	Renewal Subsequent Year Rate
+SA	Special
+SP	Split
+SR	Standard Rate
+TR	Trail Rate
+UA	Unit or Lot Average
+UT	Unit Total
+VA	Variable

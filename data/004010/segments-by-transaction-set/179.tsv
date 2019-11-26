@@ -1,0 +1,79 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	999999	2
+DTM	Date/Time Reference	H	O	0	999999	3
+MTX	Text	H	O	0	999999	4
+LM	Code Source Information	H	O	999999	1	5
+LQ	Industry Code Identification	H	M	0	999999	6
+NM1	Individual Or Organizational Name	H	M	999999	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	999999	10
+N9	Extended Reference Information	H	O	0	999999	11
+TPB	Business Professional Title	H	O	0	1	12
+PER	Administrative Communications Contact	H	O	0	999999	13
+G86	Signature Identification	H	O	0	1	14
+YNQ	Yes/No Question	H	O	0	999999	15
+DTM	Date/Time Reference	H	O	0	999999	16
+LM	Code Source Information	H	O	999999	1	17
+LQ	Industry Code Identification	H	M	999999	1	18
+LOC	Location	H	O	0	1	19
+MEA	Measurements	H	O	0	999999	20
+QTY	Quantity Information	H	O	999999	1	21
+SPI	Specification Identifier	H	O	0	1	22
+OOI	Associated Object Type Identification	H	O	999999	1	23
+BDS	Binary Data Structure	H	O	0	1	24
+HL	Hierarchical Level	D	M	999999	1	25
+SPI	Specification Identifier	D	O	0	1	26
+REF	Reference Information	D	O	0	999999	27
+DTM	Date/Time Reference	D	O	0	999999	28
+YNQ	Yes/No Question	D	O	0	999999	29
+PWK	Paperwork	D	O	0	999999	30
+MTX	Text	D	O	0	999999	31
+NM1	Individual Or Organizational Name	D	O	999999	1	32
+N2	Additional Name Information	D	O	0	2	33
+N3	Party Location	D	O	0	2	34
+N4	Geographic Location	D	O	0	999999	35
+PER	Administrative Communications Contact	D	O	0	999999	36
+REF	Reference Information	D	O	0	999999	37
+MTX	Text	D	O	0	1	38
+LM	Code Source Information	D	O	999999	1	39
+LQ	Industry Code Identification	D	M	999999	1	40
+MEA	Measurements	D	O	0	999999	41
+QTY	Quantity Information	D	O	0	999999	42
+REF	Reference Information	D	O	0	999999	43
+DTM	Date/Time Reference	D	O	0	999999	44
+NTE	Note/Special Instruction	D	O	0	999999	45
+III	Information	D	O	999999	1	46
+LOC	Location	D	O	0	1	47
+MEA	Measurements	D	O	0	999999	48
+N9	Extended Reference Information	D	O	999999	1	49
+MEA	Measurements	D	O	0	999999	50
+YNQ	Yes/No Question	D	O	0	999999	51
+NTE	Note/Special Instruction	D	O	0	999999	52
+QTY	Quantity Information	D	O	999999	1	53
+III	Information	D	O	0	999999	54
+SPI	Specification Identifier	D	O	0	1	55
+LM	Code Source Information	D	O	999999	1	56
+LQ	Industry Code Identification	D	M	999999	1	57
+QTY	Quantity Information	D	O	0	999999	58
+AMT	Monetary Amount Information	D	O	0	999999	59
+PCT	Percent Amounts	D	O	0	999999	60
+N1	Party Identification	D	O	0	999999	61
+III	Information	D	O	0	999999	62
+YNQ	Yes/No Question	D	O	0	999999	63
+SPI	Specification Identifier	D	O	0	1	64
+MEA	Measurements	D	O	0	999999	65
+NTE	Note/Special Instruction	D	O	0	999999	66
+NM1	Individual Or Organizational Name	D	O	999999	1	67
+N2	Additional Name Information	D	O	0	2	68
+N3	Party Location	D	O	0	2	69
+N4	Geographic Location	D	O	0	999999	70
+PER	Administrative Communications Contact	D	O	0	999999	71
+YNQ	Yes/No Question	D	O	0	999999	72
+QTY	Quantity Information	D	O	999999	1	73
+III	Information	D	O	0	999999	74
+LM	Code Source Information	D	O	999999	1	75
+LQ	Industry Code Identification	D	M	0	999999	76
+OOI	Associated Object Type Identification	D	O	999999	1	77
+BDS	Binary Data Structure	D	O	0	1	78

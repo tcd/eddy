@@ -1,0 +1,27 @@
+id	definition
+01	Round
+02	Rectangular
+03	Charpy-B
+04	Tubular
+05	Sand Cast
+06	Charpy Powdered Parts
+07	Izod Powdered Parts
+08	Irregular
+09	Spherical
+10	Charpy-C
+11	Die Cast
+12	Pressed
+13	Permanent Mold Cast
+14	Cylindrical
+15	Charpy-A
+16	Izod V-Notch
+17	Izod X-Notch
+18	Izod Y-Notch
+19	Izod Z-Notch
+20	Full Cross-Section
+21	Mill Annealed
+22	Heat Treated
+23	Aged
+24	Notched
+25	Smooth
+26	Combination

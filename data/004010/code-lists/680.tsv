@@ -1,0 +1,22 @@
+id	definition
+A	Immediate
+B	Pilot/Prevolume
+C	Firm
+D	Planning
+E	Rounded Container Quantity
+F	Potential Order Increase
+G	Average Plant Usage
+H	First Time Reported Firm
+K	Final Model Year Requirements or Orders
+L	Engineering Change Pending
+M	Maximum Tooling Capacity
+N	Normal Tooling Capacity
+P	Prototype
+Q	Order Release Authorization
+S	Strike Protection
+T	Required Tooling Capacity
+U	Cooperative Logistics Planning
+V	Cooperative Logistics Firm
+W	Cancellation
+X	Modification
+Z	Mutually Defined

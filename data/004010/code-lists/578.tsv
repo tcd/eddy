@@ -1,0 +1,15 @@
+id	definition
+D	Deadhead Locomotive or Caboose
+E	Empty
+L	Load
+O	Operating Locomotive or Caboose
+W	Revenue Empty
+AA	Empty and Available at Pool
+AB	Out Empty to Pick Up Cargo from the Shipper
+AC	Loaded en route to port of loading or baseport
+AG	Received at port of discharge or baseport
+AH	Loaded en route to consignee
+AI	Stripped and en route to pool from a consignee
+AJ	Empty Positioning
+AK	Out of Service
+AL	Empty Non-hazardous Last Contained

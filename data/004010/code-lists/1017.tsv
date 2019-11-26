@@ -1,0 +1,54 @@
+id	definition
+A	Allowed Claim
+C	Combined Wage Claim
+I	Interstate
+P	Prepetition Charges
+R	Regular
+T	Total Claim
+U	Unsecured Nonpriority Claim
+AL	Agricultural Lien
+AR	Arrearage
+BG	Basis of Claim: Goods Sold
+BM	Basis of Claim: Money Loaned
+BO	Other Basis of Claim
+BP	Basis of Claim: Personal Injury
+BR	Basis of Claim: Retiree Benefits per 11 USC
+BS	Basis of Claim: Services Performed
+BT	Basis of Claim: Taxes
+BW	Basis of Claim: Wages
+CH	Charge
+CM	Chattel Mortgage
+DA	Disaster Unemployment Assistance
+DB	Debenture
+EB	Extended Benefits
+EU	Emergency Unemployment Compensation
+GC	General Charge
+HL	Attachment Lien
+JL	Judgment Lien
+MG	Mortgage
+ML	Mechanics Lien
+NF	North American Free Trade Agreement Affected Unemployment Insurance
+OL	Other Lien
+OP	Official Promise
+PA	Unsecured Priority Claim: Alimony and Support
+PB	Unsecured Priority Claim: Employee Benefits
+PC	Unsecured Priority Claim:  Commitments to Maintain Capital
+PD	Unsecured Priority Claim: Deposits
+PE	Unsecured Priority Claim:  Extensions of Credit
+PF	Unsecured Priority Claim:  Farmers or Fishermen
+PK	Protested Check
+PO	Other Unsecured Priority Claim
+PP	Personal Property Lien
+PT	Unsecured Priority Claim: Taxes
+PW	Unsecured Priority Claim: Wages
+PZ	Protested Bill
+SM	Secured Claim: Motor Vehicle
+SO	Other Secured Claim
+SR	Secured Claim: Real Estate
+SS	Social Security Claim
+TC	Treasury Claim
+TL	Tax Lien
+TR	Trade Affected Unemployment Insurance
+TX	Extended Trade Affected Unemployment Insurance
+VT	Value Added Tax (VAT)
+WP	Warrant Pledging

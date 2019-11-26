@@ -1,0 +1,146 @@
+id	definition
+1	Primary Disability - Frozen
+2	Primary Disability - Non-frozen
+3	Dependent Disability - Frozen
+4	Dependent Disability - Non-frozen
+5	Retirement - Frozen
+6	Retirement - Non-frozen
+7	Permanent
+8	Temporary
+9	Canadian
+10	Joint
+11	Deferred
+12	Eligible
+13	Applied
+14	Receiving
+15	Defense Medical Evaluation
+16	Delayed Reporting Penalty (Insured)
+17	Engineering Services
+18	Expert Test (Trial)
+19	Expert Fees and Expenses (excluding tests and testimony)
+22	Fee Schedule Savings
+23	Fatal
+24	Permanent Total
+25	Permanent Total Supplemental
+26	Permanent Partial Scheduled
+27	Permanent Partial Unscheduled
+28	Temporary Total
+29	Temporary Partial
+30	Employer Liability
+31	Permanent Partial Disfigurement
+32	Employer Paid
+34	Funeral Expenses
+35	Penalties
+36	Interest
+37	Employer's Legal Expenses
+38	Claimant's Legal Expenses
+39	Payments to Physicians
+40	Hospital Costs
+41	Other Medical
+42	Vocational Rehabilitation Evaluation
+43	Vocational Rehabilitation Education
+44	Other Vocational Rehabilitation
+45	Total Temporary Catastrophic
+46	Unknown Payment Type
+57	Vocational Rehabilitation Maintenance
+58	Claim Value Recovery
+60	Deductible Recovery
+61	Additional Living Expense
+62	Alternative Dispute Resolution Services
+63	Anesthesiologist
+64	Annuity
+65	Attorney Expenses
+66	Attorney Fees
+67	Auto Liability Subrogation
+69	Not Eligible
+71	Catastrophic Benefits
+72	Central Index Bureau Filing Fees
+73	Chiropractor
+74	Indemnity Reserves
+75	Medical Reserves
+76	Expense Reserves
+77	Vocational Rehabilitation Reserves
+78	Indemnity Payments
+79	Medical Payments
+80	Expense Payments
+81	Vocational Rehabilitation Payments
+82	Claim Payment
+83	Claim Reserve
+84	Bodily Injury Payment
+85	Bodily Injury Reserve
+86	Property Damage Payment
+87	Property Damage Reserve
+88	Comprehensive Payment
+89	Comprehensive Reserve
+90	Collision Payment
+91	Collision Reserve
+92	Salvage
+93	Expert Witness Fees
+94	Claimant Legal Expense
+95	Claimant Medical Evaluation
+96	Commercial Photographers
+97	Mandated Medical Exam
+98	Death Benefits
+99	Defense Attorney Fees and Expenses
+A1	Funeral Benefits
+A2	Hearing Attendance or Representation Fees
+A3	Hospital - Inpatient Charges
+A4	Hospital - Outpatient Charges
+A5	Hospital Bill Audit
+A6	Impairment Income Benefits
+A7	Independent Adjustor Expense
+A8	Independent Medical Exam
+A9	Legal Expenses - Miscellaneous
+B1	Liability Settlement
+B2	Life Pension
+B3	Lump Sum Remarriage Payment
+B4	Lump Sum Settlement Amount
+B5	Major Case of Individual Case Reporting
+B6	Medical Equipment
+B7	Peer Review Board Expenses
+B8	Medical Management Services
+B9	Medical Records or Reports
+C1	Medical Rehabilitation
+C2	Medical Test (Trial)
+C3	No-fault benefit or expense (Non-Workers Compensation)
+C4	Nursing Care
+C5	Extended Care Facility
+C6	State Fund - Other
+C7	Penalties Paid on Medical Benefits
+C8	Penalties Paid on Indemnity Benefits
+C9	Pension Indemnity Benefit
+D1	Permanent Partial Disfigurement
+D2	Personal Property or Contents
+D3	Pharmacy
+D4	Photographs other than Commercial
+D5	Physiotherapy
+D6	PPO (Preferred Provider Organization) Fees or Expenses
+D7	Product Liability Subrogation
+D8	Property Adjustment
+D9	Provider Bill Audit Expense
+E1	Radiology
+E2	Time and Expense Fees
+E3	Scheduled Award
+E4	Social Security
+E5	State Second Injury Fund
+E6	State Supplemental Fund
+E7	Supplemental Permanent Total Benefits
+F1	Testing Lab
+F2	Third Party Contribution
+F3	Transportation - Other
+F4	Transportation - Medical Treatment
+F5	Treating or Panel Physician
+F6	Utilization Review - Hospital
+F7	Utilization Review - Physician
+F8	Unallocated Indemnity
+F9	Unallocated Medical
+G2	Witness Fees and Expenses - Other than Expert Witness
+G3	Vocational Rehabilitation Training
+G4	Appraisal Fees
+G5	Autopsy Fees
+G6	Surveillance Special Investigation Fees and Expenses
+G7	Temporary Income Benefits
+G8	State Fund - Other
+G9	Federal Second Injury Fund
+H2	Federal Supplemental Fund
+H3	Flat Rate

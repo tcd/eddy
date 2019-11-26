@@ -1,0 +1,71 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	1	2
+C3	Currency Identifier	H	O	0	1	3
+SUP	Supplementary Information	H	O	999999	1	4
+MSG	Message Text	H	O	0	999999	5
+NM1	Individual Or Organizational Name	H	M	999999	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+PER	Administrative Communications Contact	H	O	0	999999	10
+REF	Reference Information	H	O	0	999999	11
+LX	Transaction Set Line Number	D	M	999999	1	12
+TXI	Tax Information	D	O	0	999999	13
+YNQ	Yes/No Question	D	O	0	999999	14
+AP1	Alternate Parts	D	O	0	1	15
+SUP	Supplementary Information	D	O	999999	1	16
+MSG	Message Text	D	O	0	999999	17
+LM	Code Source Information	D	M	999999	1	18
+LQ	Industry Code Identification	D	M	0	1	19
+CTP	Pricing Information	D	O	0	1	20
+TXI	Tax Information	D	O	0	999999	21
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	999999	22
+VEH	Vehicle Information	D	M	999999	1	23
+PID	Product/Item Description	D	O	0	999999	24
+REF	Reference Information	D	O	0	999999	25
+BCI	Basic Claim Information	D	O	0	1	26
+AMT	Monetary Amount Information	D	O	0	999999	27
+LID	Loss Information Description	D	O	0	1	28
+LQ	Industry Code Identification	D	O	0	999999	29
+DAM	Damage Information	D	O	0	1	30
+CRC	Conditions Indicator	D	O	0	1	31
+DVI	Dynamic Vehicle Information	D	O	0	1	32
+NM1	Individual Or Organizational Name	D	O	0	1	33
+N2	Additional Name Information	D	O	0	2	34
+N3	Party Location	D	O	0	2	35
+N4	Geographic Location	D	O	0	1	36
+PER	Administrative Communications Contact	D	O	0	1	37
+III	Information	D	O	0	1	38
+DTP	Date Or Time Or Period	D	O	0	999999	39
+VAT	Vehicle Attribute	D	O	999999	1	40
+AMT	Monetary Amount Information	D	O	0	999999	41
+REF	Reference Information	D	O	0	999999	42
+LS	Loop Header	D	O	0	1	43
+NM1	Individual Or Organizational Name	D	O	999999	1	44
+N2	Additional Name Information	D	O	0	2	45
+N3	Party Location	D	O	0	2	46
+N4	Geographic Location	D	O	0	1	47
+PER	Administrative Communications Contact	D	O	0	999999	48
+REF	Reference Information	D	O	0	999999	49
+F13	Payment Information	D	O	0	999999	50
+AMT	Monetary Amount Information	D	O	0	999999	51
+LE	Loop Trailer	D	O	0	1	52
+LM	Code Source Information	D	O	999999	1	53
+LQ	Industry Code Identification	D	M	0	1	54
+AMT	Monetary Amount Information	D	O	999999	1	55
+QTY	Quantity Information	D	O	0	1	56
+TXI	Tax Information	D	O	0	999999	57
+REF	Reference Information	D	O	0	999999	58
+N9	Extended Reference Information	D	M	999999	1	59
+LQ	Industry Code Identification	D	O	0	999999	60
+REF	Reference Information	D	O	0	999999	61
+ID	Inspection Detail Segment	D	O	0	1	62
+DP	Auto Claim Detail - Parts	D	O	0	1	63
+MSG	Message Text	D	O	0	999999	64
+AMT	Monetary Amount Information	D	O	0	999999	65
+PCT	Percent Amounts	D	O	0	999999	66
+DL	Auto Claim Detail - Labor	D	O	999999	1	67
+AMT	Monetary Amount Information	D	O	0	999999	68
+QTY	Quantity Information	D	O	0	999999	69
+PCT	Percent Amounts	D	O	0	999999	70

@@ -1,0 +1,18 @@
+id	definition
+01	Not laden aboard per evidence from foreign shipper, or amended bill of lading
+02	Error in manifesting, not laden on this carrier. Laden on subsequent carrier for transportation to United States, per evidence in files
+03	Clerical error in manifesting per bill of lading in files
+04	Pilfered or prematurely landed prior to arrival in United States per signed statement of master or his agent or vessel log extract in our file
+05	Erroneously duplicated by another bill of lading on the same manifest
+06	Prematurely landed or overcarried to another United States port where proper disposition was made per evidence in our files
+07	Inadvertently retained on board and taken foreign per master's or his agent's statement, amended bill of lading, landing certificate, in our files
+08	Container stripped under Customs supervision; Foreign seals affixed abroad were intact, as per evidence in our files
+09	Merchandise apparently pilfered on dock while in custody of carrier
+10	Inadvertently delivered without customs release; Goods will be redelivered intact or duty and taxes will be paid by carrier
+11	Overage - Omitted from manifest through clerical error
+12	Overage - Manifested for discharge at another port and inadvertently discharged at this port
+13	Proper entry filed or place in general order per entry or general order number
+14	Merchandise inadvertently delivered to consignee without customs release; Merchandise will be redelivered intact or liquidated damages paid
+15	Merchandise cannot be located and has apparently been lost; Liquidated damages will be paid
+16	Error in quantity manifested at port of origin; Customs form 5931 will be filed at origin to correct in-bond entry; A copy will be delivered to this port within 90 days or duty and taxes will be paid
+17	Merchandise removed from original container and re-stuffed prior to moving in-bond

@@ -1,0 +1,70 @@
+id	definition
+A1	Bank Account Relations
+A2	Credit Limit
+A3	Credit Rating
+A4	Credit Worthiness
+A5	Liquidity
+A6	Loan Payment History
+AA	Overall Composite
+AB	Quality
+AC	Delivery Timeliness
+AD	Percentage Rejections to Receipts
+AE	Contract Administration
+AF	Corrective Action
+AG	Technology
+AH	Audits
+AI	Financial Conditions
+AJ	Service
+AK	Products
+AL	Trade Payments
+AM	Accounting
+AS	Attitude of Supplier Personnel
+BA	Billing Accuracy
+BC	Bid Conformance
+BE	Billing Errors
+C2	Customer Service Index
+CH	Claims Handling
+CL	Class Level
+CO	Claims Outstanding
+CP	Crew Professionalism
+CR	Contract Refund Timeliness
+CT	Claims Timeliness
+DP	Damage Percentage
+DQ	Delivery Quantity
+DS	Days Supply
+EA	Equipment Availability
+EC	Equipment Condition
+EE	EDI Errors
+EI	Assigned Equipment Inventory
+FA	Facility Audit
+IF	Lag Timeliness
+IN	Innovation
+LT	Loading Timeliness
+PA	Procedure Audit
+PC	Packaging Discrepancies
+PD	Past-due Claims
+PF	Premium Freight
+PK	Packaging
+PR	Production
+PS	Price Stability
+PT	Placement Timeliness
+PU	Pickup Timeliness
+PY	Property
+RC	Claims Ratio
+RO	Routing Compliance
+RS	Response Timeliness
+RT	Release Timeliness
+SD	Item Discrepancies
+SE	Syntax Errors
+SF	Service Failure
+SN	Shipment Notices
+SP	Safety Performance
+SS	Shipping Schedule Compliance
+ST	Switch Timeliness
+TC	Total Cost
+TR	Transportation
+TS	Technical Support
+TT	Transit Timeliness
+UT	Unloading Timeliness
+WR	Warranty
+WT	Waiting Timeliness

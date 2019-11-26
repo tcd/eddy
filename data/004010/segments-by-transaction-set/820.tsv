@@ -1,0 +1,122 @@
+id	description	section	req	max_loop	max_usage	pos
+BPR	Beginning Segment For Payment Order/Remittance Advice	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	999999	2
+TRN	Trace	H	O	0	1	3
+CUR	Currency	H	O	0	1	4
+REF	Reference Information	H	O	0	999999	5
+DTM	Date/Time Reference	H	O	0	999999	6
+N1	Party Identification	H	O	999999	1	7
+N2	Additional Name Information	H	O	0	999999	8
+N3	Party Location	H	O	0	999999	9
+N4	Geographic Location	H	O	0	1	10
+REF	Reference Information	H	O	0	999999	11
+PER	Administrative Communications Contact	H	O	0	999999	12
+RDM	Remittance Delivery Method	H	O	0	1	13
+DTM	Date/Time Reference	H	O	0	1	14
+ENT	Entity	D	O	999999	1	15
+FA1	Type Of Financial Accounting Data	D	O	999999	1	16
+FA2	Accounting Data	D	M	0	999999	17
+NM1	Individual Or Organizational Name	D	O	999999	1	18
+N2	Additional Name Information	D	O	0	999999	19
+N3	Party Location	D	O	0	999999	20
+N4	Geographic Location	D	O	0	1	21
+REF	Reference Information	D	O	0	999999	22
+PER	Administrative Communications Contact	D	O	0	999999	23
+ADX	Adjustment	D	O	999999	1	24
+NTE	Note/Special Instruction	D	O	0	999999	25
+PER	Administrative Communications Contact	D	O	0	999999	26
+DTM	Date/Time Reference	D	O	0	1	27
+REF	Reference Information	D	O	999999	1	28
+DTM	Date/Time Reference	D	O	0	999999	29
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	30
+RPA	Rate Amounts Or Percents	D	O	0	1	31
+QTY	Quantity Information	D	O	0	1	32
+REF	Reference Information	D	O	999999	1	33
+DTM	Date/Time Reference	D	O	0	1	34
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	35
+TXI	Tax Information	D	O	0	999999	36
+DTM	Date/Time Reference	D	O	0	10	37
+SLN	Subline Item Detail	D	O	999999	1	38
+REF	Reference Information	D	O	999999	1	39
+DTM	Date/Time Reference	D	O	0	999999	40
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	41
+TXI	Tax Information	D	O	0	999999	42
+FA1	Type Of Financial Accounting Data	D	O	999999	1	43
+FA2	Accounting Data	D	M	0	999999	44
+RMR	Remittance Advice Accounts Receivable Open Item Reference	D	O	999999	1	45
+NTE	Note/Special Instruction	D	O	0	999999	46
+REF	Reference Information	D	O	0	999999	47
+DTM	Date/Time Reference	D	O	0	999999	48
+VEH	Vehicle Information	D	O	0	1	49
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	50
+RPA	Rate Amounts Or Percents	D	O	0	1	51
+QTY	Quantity Information	D	O	0	1	52
+REF	Reference Information	D	O	999999	1	53
+DTM	Date/Time Reference	D	O	0	1	54
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	55
+TXI	Tax Information	D	O	0	999999	56
+SLN	Subline Item Detail	D	O	999999	1	57
+REF	Reference Information	D	O	999999	1	58
+DTM	Date/Time Reference	D	O	0	999999	59
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	60
+TXI	Tax Information	D	O	0	999999	61
+ADX	Adjustment	D	O	999999	1	62
+NTE	Note/Special Instruction	D	O	0	999999	63
+PER	Administrative Communications Contact	D	O	0	999999	64
+REF	Reference Information	D	O	999999	1	65
+DTM	Date/Time Reference	D	O	0	999999	66
+IT1	Baseline Item Data (Invoice)	D	O	999999	1	67
+RPA	Rate Amounts Or Percents	D	O	0	1	68
+QTY	Quantity Information	D	O	0	1	69
+REF	Reference Information	D	O	999999	1	70
+DTM	Date/Time Reference	D	O	0	1	71
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	72
+TXI	Tax Information	D	O	0	999999	73
+DTM	Date/Time Reference	D	O	0	10	74
+SLN	Subline Item Detail	D	O	999999	1	75
+REF	Reference Information	D	O	999999	1	76
+DTM	Date/Time Reference	D	O	0	999999	77
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	78
+TXI	Tax Information	D	O	0	999999	79
+FA1	Type Of Financial Accounting Data	D	O	999999	1	80
+FA2	Accounting Data	D	M	0	999999	81
+TXP	Tax Payment	D	O	999999	1	82
+TXI	Tax Information	D	O	0	999999	83
+REF	Reference Information	D	O	0	999999	84
+DTM	Date/Time Reference	D	O	0	999999	85
+DED	Deductions	D	O	0	999999	86
+LX	Transaction Set Line Number	D	O	999999	1	87
+REF	Reference Information	D	O	0	999999	88
+TRN	Trace	D	O	0	999999	89
+NM1	Individual Or Organizational Name	D	O	999999	1	90
+REF	Reference Information	D	O	0	999999	91
+G53	Maintenance Type	D	O	0	1	92
+AIN	Income	D	O	999999	1	93
+QTY	Quantity Information	D	O	0	999999	94
+DTP	Date Or Time Or Period	D	O	0	999999	95
+PEN	Pension Information	D	O	999999	1	96
+AMT	Monetary Amount Information	D	O	0	999999	97
+DTP	Date Or Time Or Period	D	O	0	999999	98
+INV	Investment Vehicle Selection	D	O	999999	1	99
+DTP	Date Or Time Or Period	D	O	0	999999	100
+N9	Extended Reference Information	D	O	1	1	101
+REF	Reference Information	D	O	0	999999	102
+AMT	Monetary Amount Information	D	O	999999	1	103
+REF	Reference Information	D	O	0	999999	104
+N1	Party Identification	D	O	999999	1	105
+REF	Reference Information	D	O	0	999999	106
+EMS	Employment Position	D	O	999999	1	107
+ATN	Attendance	D	O	0	999999	108
+AIN	Income	D	O	0	999999	109
+PYD	Payroll Deduction	D	O	0	999999	110
+RYL	Royalty Payment	D	O	999999	1	111
+NM1	Individual Or Organizational Name	D	O	999999	1	112
+LOC	Location	D	O	999999	1	113
+PID	Product/Item Description	D	O	999999	1	114
+DTM	Date/Time Reference	D	O	0	1	115
+PCT	Percent Amounts	D	O	999999	1	116
+QTY	Quantity Information	D	O	0	1	117
+AMT	Monetary Amount Information	D	O	999999	1	118
+ADX	Adjustment	D	O	0	999999	119
+ASM	Amount And Settlement Method	D	O	1	1	120
+ADX	Adjustment	D	O	0	1	121

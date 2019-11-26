@@ -1,0 +1,62 @@
+id	description	section	req	max_loop	max_usage	pos
+B1	Beginning Segment For Booking Or Pickup/Delivery	H	M	0	1	1
+C3	Currency Identifier	H	O	0	1	2
+L11	Business Instructions And Reference Number	H	O	0	10	3
+G62	Date/Time	H	O	0	6	4
+N1	Party Identification	H	M	1	1	5
+N2	Additional Name Information	H	O	0	1	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+L11	Business Instructions And Reference Number	H	O	0	10	9
+PER	Administrative Communications Contact	H	O	0	10	10
+X1	Export License	H	O	0	10	11
+X2	Import License	H	O	0	10	12
+SMD	Consolidated Shipment Manifest Data	D	M	999999	1	13
+L11	Business Instructions And Reference Number	D	O	0	20	14
+L5	Description, Marks And Numbers	D	O	0	10	15
+MS6	Shipment Quantity And Weight	D	O	0	10	16
+MS5	Shipment Rates And Charges	D	O	0	5	17
+MS4	Shipment Or Package Dimensions	D	O	0	1	18
+ACS	Ancillary Charges	D	O	0	10	19
+NTE	Note/Special Instruction	D	O	0	10	20
+N1	Party Identification	D	O	10	1	21
+N2	Additional Name Information	D	O	0	1	22
+N3	Party Location	D	O	0	2	23
+N4	Geographic Location	D	O	0	1	24
+L11	Business Instructions And Reference Number	D	O	0	10	25
+G61	Contact	D	O	0	10	26
+X1	Export License	D	O	0	10	27
+X2	Import License	D	O	0	10	28
+R4	Port Or Terminal	D	O	0	10	29
+CD3	Carton (Package) Detail	D	M	999999	1	30
+MAN	Marks And Numbers Information	D	O	0	100	31
+MS4	Shipment Or Package Dimensions	D	O	0	1	32
+L11	Business Instructions And Reference Number	D	O	0	10	33
+L5	Description, Marks And Numbers	D	O	0	10	34
+MS6	Shipment Quantity And Weight	D	O	0	5	35
+ACS	Ancillary Charges	D	O	0	10	36
+NTE	Note/Special Instruction	D	O	0	10	37
+N1	Party Identification	D	O	999999	1	38
+N2	Additional Name Information	D	O	0	1	39
+N3	Party Location	D	O	0	2	40
+N4	Geographic Location	D	O	0	1	41
+L11	Business Instructions And Reference Number	D	O	0	10	42
+G61	Contact	D	O	0	10	43
+X1	Export License	D	O	0	10	44
+X2	Import License	D	O	0	10	45
+R4	Port Or Terminal	D	O	0	10	46
+AT6	International Manifest Information	D	O	999999	1	47
+MS5	Shipment Rates And Charges	D	O	0	1	48
+IT1	Baseline Item Data (Invoice)	D	O	0	1	49
+CGS	Charge	D	O	0	10	50
+L11	Business Instructions And Reference Number	D	O	0	1	51
+PID	Product/Item Description	D	O	0	1000	52
+TXI	Tax Information	D	O	0	10	53
+MS4	Shipment Or Package Dimensions	D	O	0	1	54
+L5	Description, Marks And Numbers	D	O	0	1	55
+SLN	Subline Item Detail	D	O	999999	1	56
+L11	Business Instructions And Reference Number	D	O	0	10	57
+PID	Product/Item Description	D	O	0	10	58
+N10	Quantity And Description	D	O	0	10	59
+TXI	Tax Information	D	O	0	10	60
+NTE	Note/Special Instruction	D	O	0	10	61

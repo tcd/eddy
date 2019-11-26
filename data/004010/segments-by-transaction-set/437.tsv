@@ -1,0 +1,7 @@
+id	description	section	req	max_loop	max_usage	pos
+BJF	Beginning Segment Railroad Junctions And Interchanges Update Acti	H	M	0	1	1
+DTM	Date/Time Reference	H	M	0	10	2
+JCT	Railroad Junction Information	H	O	0	1	3
+JS	Rail Junction Settlement Role Information	H	O	2	1	4
+DTM	Date/Time Reference	H	O	0	2	5
+SID	Standard Transportation Commodity Code Identification	H	O	0	20	6

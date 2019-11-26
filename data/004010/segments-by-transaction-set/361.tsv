@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	1	1
+CI	Carrier Interchange Agreement	H	M	9999	1	2
+K1	Remarks	H	O	0	1	3

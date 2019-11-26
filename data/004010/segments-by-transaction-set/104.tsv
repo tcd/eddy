@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	1	1
+N2	Additional Name Information	H	O	0	1	2
+N3	Party Location	H	O	0	1	3
+N4	Geographic Location	H	O	0	1	4
+N9	Extended Reference Information	H	O	0	10	5
+PER	Administrative Communications Contact	H	O	0	1	6
+P1	Pickup	H	O	0	1	7
+G47	Statement Identification	H	O	0	1	8
+F9	Origin Station	H	O	0	1	9
+FOB	F.O.B. Related Instructions	D	M	99999	1	10
+SL1	Tariff Details	D	M	0	1	11
+N9	Extended Reference Information	D	M	0	10	12
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	10	13
+H1	Hazardous Material	D	O	0	1	14
+H2	Additional Hazardous Material Description	D	O	0	1	15
+H3	Special Handling Instructions	D	O	0	1	16
+DTM	Date/Time Reference	D	O	0	1	17
+M1	Insurance	D	O	0	1	18
+C3	Currency Identifier	D	O	0	1	19
+X1	Export License	D	O	0	1	20
+X2	Import License	D	O	0	1	21
+NTE	Note/Special Instruction	D	O	0	10	22
+N1	Party Identification	D	M	2	1	23
+N2	Additional Name Information	D	O	0	1	24
+N3	Party Location	D	O	0	1	25
+N4	Geographic Location	D	O	0	1	26
+N9	Extended Reference Information	D	O	0	10	27
+PER	Administrative Communications Contact	D	O	0	1	28
+L5	Description, Marks And Numbers	D	M	100	1	29
+L0	Line Item - Quantity And Weight	D	O	0	10	30
+L1	Rate And Charges	D	O	0	10	31
+L4	Measurement	D	O	0	10	32
+ACS	Ancillary Charges	D	O	0	100	33
+L3	Total Weight And Charges	S	O	0	1	34
+NTE	Note/Special Instruction	S	O	0	10	35

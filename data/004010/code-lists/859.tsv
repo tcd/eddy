@@ -1,0 +1,40 @@
+id	definition
+BS	Bailment Sales Quantity
+BT	Transportation Sales Quantity
+DG	Quantity Damaged
+HL	Quantity on Hold
+LS	Lost Sales
+MS	Military Sales Quantity
+OF	Off Premise Quantity
+OH	Gross Quantity On Hand
+OP	On Premise Sales Quantity
+OQ	Planned Order Quantity
+PA	Production Quantity Adjustment
+PO	Calculated Reorder Point
+Q1	Quantity Sold (Net)
+Q2	Quantity Returned
+Q3	Quantity Returned (Defective/Damaged)
+QA	Current Inventory Quantity Available for Shipment or Sale
+QB	Beginning Balance Quantity
+QC	Quantity Committed
+QD	Additional Demand Quantity
+QE	Ending Balance Quantity
+QF	Quantity In-bond
+QH	Quantity Damaged or On Hold
+QI	Quantity in Transit
+QK	Quantity Not Listed
+QL	Minimum Inventory Quantity
+QM	Maximum Inventory Quantity
+QN	Planned Inventory Quantity
+QO	Quantity Out of Stock
+QP	Quantity On Order, Not Yet Received
+QR	Quantity Received
+QS	Quantity Sold
+QT	Adjustment to Inventory Quantity
+QU	Quantity Returned By Consumer
+QW	Quantity Withdrawn from Warehouse Inventory
+QX	Quantity Requested (Will Override Replenishment Planning)
+QZ	Quantity Transferred
+RE	Retail Sales Quantity
+TS	Total Sales Quantity
+WQ	Wholesale Sales Quantity

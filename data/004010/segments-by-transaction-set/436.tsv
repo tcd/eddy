@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+LFI	Beginning Segment For Locomotive Information	H	M	0	1	1
+N7	Equipment Details	H	M	0	1	2
+K3	File Information	H	O	0	3	3

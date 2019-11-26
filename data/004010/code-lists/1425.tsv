@@ -1,0 +1,10 @@
+id	definition
+1	No Apparent Damage
+2	Stripped of Major Parts - Engine
+3	Stripped of Major Parts - Transmission
+4	Stripped of Major Parts - Other
+5	Stripped of Major Parts - Engine and Transmission
+6	Stripped of Major Parts - Engine and Other
+7	Stripped of Major Parts - Transmission and Other
+8	Stripped of Major Parts - Engine, Transmission, and Other
+9	No Major Parts Missing, But Damaged

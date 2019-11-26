@@ -1,0 +1,32 @@
+id	definition
+01	Adjustable Payment Based on Index
+02	Fixed Payment with Balloon Option
+03	Pledged
+04	Growing Equity Mortgage (GEM)
+05	Fixed Payment
+06	Graduated Payment Mortgage (GPM)
+07	Interest Only with Balloon
+08	Graduated Payment Adjustable Rate Mortgage
+09	Extended Term
+10	Wraparound Mortgage
+11	Collateral Pledge Graduated Payment Mortgage
+12	Fixed Payment With Buydown
+13	Other Loan Payment Type
+14	Step Rate
+15	Tiered
+16	Renegotiated Rate
+17	Reverse Annuity
+18	Reverse Installment Buydown
+19	Shared Appreciation
+20	Second Mortgage
+21	Interest Only
+22	Non-level
+23	Biweekly
+24	Five-year Balloon
+25	Seven-year Balloon
+26	Regular Reducing
+27	Skip
+28	Balloon
+29	Single
+30	Fixed Principal Payment
+31	Semi-monthly Principal Payment

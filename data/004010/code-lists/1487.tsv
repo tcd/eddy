@@ -1,0 +1,30 @@
+id	definition
+BO	Car Reported Bad Order
+CI	Change in Interchange Mode
+CU	Train Delay - Hold for Maintenance of Way Curfew
+DE	Train Delay - Derailment
+ET	Car Rescheduled to an Extra Train
+HL	Car Reported Held
+HR	Car Reported Released from Hold
+HW	Train Delay - High Wind
+ID	Scheduled Interchange did not Include Car
+MS	Car Manually Scheduled
+MV	Car Location Move (Without Train)
+OK	Car Reported Released from Bad Order
+OP	Operating Plan Change
+RR	Train Rerouted
+SI	Added Consignee Placement Instructions
+SK	Train Delay - Sun Kink
+SL	Train Delay - Washout or Slide
+SO	Train Block Set Out Location Changed
+TA	Train Annulment
+TC	Train Consolidation
+TD	Train Departed Without Car
+TM	Train Movement Reporting Deletion
+TR	Train Size Reduction (tonnage, length, number or cars)
+WA	Car Arrived on Different Train
+WC	Waybill Cancellation
+WD	Waybill Diversion or Correction
+WE	Train Delay - Weather
+WI	Car Included in Different Interchange
+WT	Car Departed on Different Train

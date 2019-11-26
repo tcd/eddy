@@ -1,0 +1,24 @@
+id	definition
+A	Schedule Increase, Forecast Change or Special Car Order
+B	Engineering Change or Late Release
+C	Specification (Schedule) Error/Overbuilding
+D	Shipment Tracing Delay
+E	Plant Inventory Loss
+F	Building Ahead of Schedule
+G	Vendor Behind Schedule
+H	Failed to Include In Last Shipment or Unauthorized Premium
+I	Carrier Loss Claim
+J	Transportation Failure
+K	Insufficient Weight For Carload
+L	Reject or Discrepancy
+M	Transportation Delay
+N	Lack of Railcar or Railroad Equipment
+P	Releasing Error
+R	Record Error or Late Reported Discrepancy Report
+T	Common or Peculiar Part Schedule Increase
+U	Alternate Supplier Shipping for Responsible Supplier
+V	Direct Schedule or Locally Controlled
+W	Purchasing Waiver Approval
+X	Authorization Code to be Determined
+Y	Pilot Material, Samples or Pre-Production
+ZZ	Mutually Defined

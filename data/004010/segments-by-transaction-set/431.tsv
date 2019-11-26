@@ -1,0 +1,9 @@
+id	description	section	req	max_loop	max_usage	pos
+SMB	Beginning Segment For Railroad Station Master File	H	M	0	1	1
+N4	Geographic Location	H	M	0	10	2
+CD	Shipment Conditions	H	O	0	10	3
+SMS	Station Codes Segment	H	M	0	1	4
+SMA	Station Address	H	O	0	10	5
+N1	Party Identification	H	O	0	1	6
+SMR	Cross Reference	H	O	0	10	7
+SMO	Operational Services	H	O	0	10	8

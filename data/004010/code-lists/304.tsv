@@ -1,0 +1,105 @@
+id	definition
+AAD	Actual Arrival at POD
+ACA	Actual Conveyance Arrival
+ACC	Accepted
+ADR	Highway Departure
+ALR	Actually Loaded on Rail
+ALV	Actually Loaded on Vessel
+ANO	Arrived, Not Ordered, Placed by Destination Party
+APU	Anticipated Pick-up
+ARD	Actual Arrival Date at Final Destination
+ARI	Arrival Transit Location
+ARR	Arrival Final Destination
+ASO	Anticipated Set-out
+BAD	Bad Order
+BFR	Release from Bad Order
+BHV	Bad Order Heavy Repair
+BLG	Bad Order Light Repair
+BOH	Bad Order - Hours to Repair
+CCT	Crew Call
+CG1	Car Grade By Inspection
+COC	Cancellation of Conveyance
+CRD	Cargo Receipt Date
+CSL	Cargo Stripping
+CTU	Crew Tie Up
+DDL	Delivery Attempt
+DEC	Declined
+DEL	Deleted
+DEP	Delivery Pending
+DFL	Departure from Location
+DRM	Deramped
+DSI	Destination Switch Interchange
+EAD	Estimated Arrival Date
+EDD	Estimated Departure Date
+EFT	Estimated Free Time
+ERD	Estimated Arrival Date at Final Destination
+ETA	Advanced Estimated Time of Arrival
+EWI	Early Warning Inspections
+EWL	Association of American Railroads Early Warning Letter
+FOL	Follow Up
+FTE	Free Time Expired Date
+HAR	Highway Arrival RR Facility
+HMI	Hold or Miscellaneous
+HRE	Release from Hold or Miscellaneous
+IBD	In Bond
+ICH	Interchange Delivery
+ICR	Interchange Receipt
+IGT	Intermodal In-Gate Arrival at Railroad Intermodal Terminal
+INC	Incomplete
+INV	Association of American Railroads Inventory Move
+IRD	In Transit
+IRI	Ingate to Rail Interchange
+ITS	Ingate to Rail Terminal or Satellite
+MAL	Mailed
+MWY	Move Away
+NOB	No Bill at Location
+NOT	Notified Destination Party
+OCA	Overdue Conveyance Arrival
+OGT	Intermodal Out-Gate
+OID	Open Interchange Delivery
+OIR	Open Interchange Receipt
+ORI	Outgate to Rail Interchange
+OSI	Origin Switch Interchange
+OTS	Outgate to Rail Terminal or Satellite
+PAC	Placement Actual
+PCO	Placement Constructive
+PEN	Pending
+PFP	Pulled from Patron
+POS	Postpone
+PRB	Problem Log Created
+RAM	Ramped
+REC	Postal Reconsignment
+REJ	Rejected by Shipper
+REP	Repended
+RET	Receipted
+RLO	Released Loaded from Customer
+RMT	Released Empty from Customer
+RYD	Rail Yard Move
+SAD	Scheduled Arrival Date
+SAT	Satisfied
+SDD	Scheduled Departure Date
+SLD	Sailed
+SPD	Scheduled Passing
+SPT	Spot Date
+STA	To Storage - Actual
+STI	To Storage - Intend
+STN	Stored Unserviceable
+STP	Stored Prospective Load
+STS	Stored for Seasonal Use
+STU	Stored Serviceable
+SUS	Suspended
+TDL	Train Delay
+TMA	Train Move Arrival
+TMD	Train Move Departure
+TOD	Train Overdue
+TPL	Trip Planned
+TRN	Lading Transferred
+TRP	Train Reported Passing
+UNS	Unable to Schedule
+WAI	Waived
+WGH	Weigh
+WIT	Withdrawn
+WYB	Waybilled
+ZZX	Refuel
+ZZY	Fuel Reading
+ZZZ	Mutually Defined

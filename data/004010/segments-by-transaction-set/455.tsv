@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BTC	Beginning Segment For Parameter Trace Registration	H	M	0	1	1
+DTP	Date Or Time Or Period	H	O	0	1	2
+ED	Equipment Description	H	O	0	500000	3
+BLR	Transportation Carrier Identification	H	O	0	5	4
+N9	Extended Reference Information	H	O	0	1	5
+V9	Event Detail	H	O	0	99	6
+LX	Transaction Set Line Number	H	O	99	1	7
+PRM	Basic Trace Parameters	H	O	0	1	8
+N1	Party Identification	H	O	0	1	9
+F9	Origin Station	H	O	0	1	10
+D9	Destination Station	H	O	0	1	11
+N4	Geographic Location	H	O	0	1	12

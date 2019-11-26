@@ -1,0 +1,10 @@
+id	definition
+CL	Closed
+FI	Final
+OC	Open, Waiting for Cause and Corrective Action Report
+OD	Open, Waiting for Authorization for Material Disposition
+OI	Open, Waiting for Cause and Corrective Action Implementation
+OS	Open, Waiting for Supplier Feedback
+OT	Open, Waiting for Additional Test Data
+RE	Reopened
+RV	Revised

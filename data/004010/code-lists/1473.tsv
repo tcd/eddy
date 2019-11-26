@@ -1,0 +1,16 @@
+id	definition
+00	Zero Pricing (Not Covered Under Contract)
+01	Priced as Billed at 100%
+02	Priced at the Standard Fee Schedule
+03	Priced at a Contractual Percentage
+04	Bundled Pricing
+05	Peer Review Pricing
+06	Per Diem Pricing
+07	Flat Rate Pricing
+08	Combination Pricing
+09	Maternity Pricing
+10	Other Pricing
+11	Lower of Cost
+12	Ratio of Cost
+13	Cost Reimbursed
+14	Adjustment Pricing

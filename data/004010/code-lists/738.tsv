@@ -1,0 +1,921 @@
+id	definition
+1	Control Efficiency
+2	Capture Efficiency
+3	Photonflux Density
+4	Throughput Rate
+5	Cloud Cover
+6	Velocity
+7	Plume Height
+8	Individuals
+A	Consolidated Weight
+B	Billed Weight
+C	Actual New Repeated for Combination
+D	Destination Weight Agreement
+E	Estimated New Weight
+F	Deficit Weight
+G	Gross Weight
+I	Heat Input
+L	Legal Weight
+M	Minimum Weight (for Weight)
+N	Actual Net Weight
+O	Excess Weight Over Maximum
+Q	Volatile Organic Compounds Plus Water
+R	Per Unit Dunnage
+S	State Weight
+T	Tare Weight
+U	Weight per Unit
+X	Maximum Weight (for Rate)
+10	Painting Costs
+11	Structural Costs
+12	Appliances
+13	Utilities
+14	Carpet or Floors
+15	Other Repairs
+16	Landscaping
+18	Roof
+19	Windows
+1F	Radio Frequency
+20	Cleaning or Trash Removal
+21	Probable Sales Price
+22	Proximity
+23	Repairs and Improvements
+24	Contributory Value of Repairs and Improvements
+25	Marketing Time
+26	Closed Comparable Sales
+27	Competitive Listings in Price Range
+28	Financing Concessions
+29	Marketing Concessions
+2F	Alternate Radio Frequency
+30	Probable Net Price
+31	Suggested Initial List Price
+32	Value Change
+33	Probable Final Value
+34	Occupancy Rate
+35	Number of Living Units
+36	Number of Phases
+37	Number of Active Listings
+38	Price Active Listings
+39	Marketing Time
+3A	Target Depth
+3B	Current Depth
+3C	Total Depth
+3D	Well Test Before Oil
+3E	Well Test Before Gas
+3F	Well Test Before Water
+3G	Well Test After Oil
+3H	Well Test After Gas
+3I	Well Test After Water
+3J	Estimated Depth of Operations
+40	Price Per Gross Living Area
+41	Built-up Rate
+42	Vacant Rate
+43	Typical Rents
+44	Neighborhood Apartment Vacancy
+4F	Squelch Tone
+5F	Height above Ground
+6F	Gain
+8F	Directional Height above Average Terrain
+A1	Acids
+A2	Adsorption
+A3	Aging Time
+A4	Aromatics
+A5	Average Differential Pressure
+A6	Average Static Pressure
+A7	Flame Projection Distance
+A9	Exposure
+AA	Alternating Current
+AB	Activation Energy
+AC	Actinium
+AD	Ambient Temperature
+AE	Argon
+AF	Angle of Bend
+AG	Americium
+AH	Astatine
+AI	Acidity
+AJ	Aim Gage
+AK	Volatile Organic Compounds (VOCs)
+AL	Spine Show
+AM	Average Speed
+AN	Flute Test
+AP	Average Pressure
+AS	Ash Fusion Temperature
+AT	Additive
+AU	Number of Units Projected
+AV	Age
+AW	Remaining Economic Life
+AX	Remaining Physical Life
+AY	Number of Comparable Sales
+AZ	Arbor Size
+B1	Base Number
+B2	Number of Comparable Listings
+B3	Present Land Use
+B4	Subject Phase Dwelling Units
+B5	Octanol/Water Partition Coefficient
+B6	Total Project Dwelling Units
+BA	Barium
+BB	Beryllium
+BC	Billet Size
+BD	Bias
+BE	Boron Factor
+BF	Brinell
+BG	Berkelium
+BH	Bromine
+BJ	Burst Index
+BK	Bulk
+BL	Blisters
+BN	Bend
+BO	Lateral Bow (Camber)
+BP	Boiling Point
+BQ	Breaks
+BR	Brightness
+BT	Bursts
+BU	Buckles
+BW	Basis Weight
+BX	Blood Alcohol
+C0	Color Grade
+C1	Carbonyl
+C2	Catalyst
+C3	Maximum Contraction
+C4	Color Quadrant
+CA	Caliper
+CC	Celsius
+CD	Compression
+CE	Capacitance In
+CF	Capacitance Out
+CG	Cadmium
+CH	Cesium
+CI	Curium
+CJ	Cycle Time
+CK	Californium
+CL	Cladding Thickness(% of Composite Thickness)
+CM	Cures
+CN	Chlorine
+CO	Core Loss
+CP	Crimp
+CQ	Cuts
+CR	Crosswise Spacing
+CS	Cross Section
+CT	Center-to-center
+CU	Coil Curvature
+CW	Cuttable Width
+CX	Calculated Value
+CY	Contamination
+D1	Maximum Dilatation
+D2	Dispersing Agent
+D3	Drying Agent
+D4	Dry Point
+D5	Wear
+D7	Distillation Fraction
+DA	Delta Value A
+DB	Delta Value B
+DC	Ductile Class
+DD	Depth of Dents
+DE	Defects
+DF	Distance Across Flats
+DG	Direct Current
+DH	Dysprosium
+DI	Diameter
+DJ	Dominant Wave Length
+DL	Delta Value L
+DM	Dual Amplitude
+DN	Density
+DP	Depth
+DR	Delta R
+DS	Distance Between Points
+DT	Distance From Base Point
+DU	Draw Tension
+DW	Width, Boxcar Door
+DY	Dyeability
+E0	Extraneous Matter
+E1	End
+EA	Elongation
+EB	Edge Burr
+EC	English Coil Dimensions
+ED	Eddy
+EE	Einsteinium
+EF	Europium
+EG	Equivalent Temperature
+EH	Erbium
+EI	Expansion
+EJ	Electrical Conductivity
+EL	Elasticity
+EM	Elmendorf Tear
+EN	Entanglement
+EP	Exciting Power
+ES	Edge
+EW	Empty Weight
+EX	Eccentricity
+F1	Fire Point
+F2	Radiated Power
+F3	Output Power (Peak Envelope)
+F4	Height above Average Terrain
+F5	Ground Elevation
+F6	Height to Tip
+F7	Radius from a Location
+F8	Radius from Coordinates
+F9	Operating Hours
+FA	Fluorine
+FB	Flare
+FC	Short Cycle Flatness
+FD	Frequency of Operation
+FE	Fermium
+FF	Francium
+FG	Freezing Point
+FH	Finish
+FI	Filament Count
+FJ	Face Width
+FK	Fluid Consistency
+FL	Longitudinal Flatness
+FN	Flatness
+FP	Flashpoint
+FQ	Frequency
+FR	Flow Rate
+FS	Fold Strength
+FT	Flange Thickness
+FU	Azimuth
+FV	Transverse Flatness
+FW	Flange Width
+FX	Filler
+FY	Beam
+FZ	Output Power (Mean RF)
+G1	Gutter
+G2	Grain Size
+G3	Tilt
+G4	G-Force
+GA	Grain
+GB	Guided Bends Root
+GC	Gadolinium
+GD	Gold
+GE	Guided Bends Face
+GF	Guided Bends Side
+GG	Gauge
+GH	Gallium
+GI	Grit, Brushed
+GJ	Grit, Unbrushed
+GK	Tinting Strength
+GL	Gloss
+GM	Emulsion Gloss
+GN	Gross to Net Conversion Factor
+GO	Particle End Point
+GP	Group Package Separation
+GQ	Scattered Particles
+GR	Gravity
+GS	Carbon Black Undertone
+GT	Glass Transition Temperature
+GW	Gross Weight, Maximum
+H1	Heavies
+H8	Net Explosive Weight
+H9	Recommended Exposure Limit
+HA	Hydro Pressure
+HB	Heavy Aluminas
+HC	Helium
+HD	High Propagation Delay Time
+HE	Heavy Silicates
+HF	Hardness
+HG	Heavy Sulfides
+HH	Heavy Globular Oxides
+HI	Hafnium
+HJ	Holmium
+HK	Human Factors
+HL	Heat Loss
+HM	Height, Maximum
+HO	Holes
+HP	Height of Tread Plate Pattern
+HR	Height of Runners
+HT	Height
+HZ	Hazepoint
+IA	Imperfections - Thicks
+IB	Impact Energy
+IC	Incremental Distance
+ID	Inside Diameter
+IE	Imperfections - Thins
+IF	Input Low Voltage
+IG	Granulated Ingot Size
+IH	Input Current
+II	Input Setup Time
+IJ	Input Hold Time
+IK	Indium
+IL	Imperfections - Neps
+IM	Iridium
+IN	Input Low Current
+IO	Input High Current
+IP	Input Leakage Current
+IQ	Input Clamp Diode Voltage
+IR	Ideal Diameter
+IS	Input High Voltage
+IT	Interrupt Pulse Period
+IU	Interrupt Setup Time
+IV	Iodine
+IW	Incrustation Factor
+IX	Inside Diameter, Minimum
+IY	Induction
+IZ	Ingot Pound Size
+JA	Junction Temperature
+KA	Knoop
+KB	Krypton
+KN	K&N Holdout
+L0	Leaf Grade
+L1	Lights
+LA	Lanthanum
+LB	Lithium
+LC	Low Propagation Delay Time
+LD	Lawrencium
+LE	Lutetium
+LF	Long Fibers
+LG	Leg
+LL	Long Leg
+LM	Length, Maximum
+LN	Length
+LO	Long Length
+LP	Camber of Pattern Line
+LS	Short Leg
+LT	Lengthwise Spacing
+LW	Long Width
+M1	Melt Range
+M2	Maximum Differential Pressure
+M3	Maximum Static Pressure
+M4	Area
+M5	Minimum Speed
+M6	Maximum Speed
+MA	Mean Average
+MB	Mendelevium
+MC	Min./Max Cuttable Width
+MD	Measurement Voltage
+ME	Maximum Input Low Voltage
+MF	Minimum Input High Voltage
+MG	Mercury
+MH	Melting Point
+MI	Minimum
+MJ	Major Section (Stepped)
+MK	Microseperometer (MSEP)
+MM	Management
+MN	Minimum Average
+MO	Mottles
+MP	Mullen Pop
+MQ	MCQuaid
+MR	Module R (R Bar)
+MS	Minor Section (Stepped)
+MT	Moisture Content
+MU	Multiplier
+MV	Maximum Average
+MW	Molecular Weight
+MX	Maximum
+MY	Magnetizing Field
+NA	Number per Package
+NB	Number per Bundle
+NC	Number per Coil Group
+ND	Neodymium
+NF	Neon
+NG	Nobelium
+NH	Number of Items per Package Label
+NI	Number of Splices per Package Label
+NJ	Number of Sheets per Package Label
+NK	Nesting Factor
+NL	Number per Lift
+NM	Number Pkgs. per Master Pack
+NO	Nominal (Target, Aim)
+NP	Percent of Specified
+NS	Number per Skid
+NU	Number per Unit
+NV	N Value
+O1	Orifice - Inside Diameter
+OA	Offset
+OB	Osmium
+OC	Output Low Voltage
+OD	Outside Diameter
+OE	Output Low Current
+OF	Output High Voltage
+OG	Output High Current
+OH	Overhead Height, Receiving Door
+OI	Output Off Current Low
+OJ	Output Off Current High
+OK	Output Short-Circuit Current
+OL	Output Disable Time from Low Level of a 3-State Output
+OM	Outside Diameter, Maximum
+ON	Output Disable Time from High Level of a 3-State Output
+OO	Output Enable Time from Low Level of a 3-State Output
+OP	Openness
+OQ	Output Enable Time from High Level of a 3-State Output
+OR	Distance Between Outside Runners
+OS	Open Circuits
+OT	Output Delay Time
+OV	Opacity
+OW	Overall Width
+OX	Ownership Share
+OY	Operating Weight
+P1	Price
+PA	Package Separation
+PB	Pressure
+PC	Per Hundred Linear Yards
+PD	Platinum
+PE	Potassium
+PF	Promethium
+PG	Polonium
+PH	Pulse Setup Time
+PI	Pulse Hold Time
+PJ	Pulse Width
+PK	Pulse Recovery Time
+PL	Percent Defective
+PM	Practice
+PN	Palladium
+PO	Percent of Order (-, +)
+PP	Powder/Paste Package Size
+PQ	Plutonium
+PR	Praseodymium
+PS	Protactinium
+PT	Pits
+PU	Pressure Base
+PV	Picks
+PW	Purchased Width
+PX	Purity
+PY	Percent of Water
+PZ	Pipe Size Nominal
+QA	Quality Index
+QB	Quantity or Loading Average
+QC	Quantity or Loading Maximum
+QD	Quality or Concentration Average
+QE	Quality or Concentration Minimum
+QF	Quality or Concentration Maximum
+QL	Quality
+R1	Hemoglobin
+R2	Hematocrit
+R3	Epoetin Starting Dosage
+R4	Creatin
+R7	Speed
+R8	Speed Limit
+RA	Relative Humidity
+RB	Range Value
+RC	Radius of Corner
+RD	Readpoint
+RE	Ream Weight
+RF	Resistivity
+RG	Radium
+RH	Rhenium
+RI	Rubidium
+RJ	Rockwell-C
+RK	Rockwell-B
+RL	Reduction Ration
+RM	RMS Range (Side 1)
+RN	Required Interrupt Release
+RO	Reset Pulse Width
+RP	Reduction of Area
+RQ	Radon
+RR	Reduction Ratio
+RS	RMS Range (Side 2)
+RT	Rounds Ammunition/Military
+RU	Rhodium
+RV	Ruthenium
+RW	Rolling Width
+RX	Ridges
+RY	Ratio
+S1	Smoothness
+S2	Selvedge on Beam
+S3	Sheffield Smoothness
+S4	Surface Strength
+S5	Stiffness
+S6	Saturation
+S7	Sediment
+S8	Solubility
+S9	Site Atmospheric Pressure
+SA	Sort Code CIE LAB
+SB	Sort Code CMC
+SC	Schedule Number (Pipe Size)
+SD	Strength
+SE	Selvage Left
+SF	Samarium
+SG	Slit Width
+SH	Strontium
+SI	Supply Current
+SJ	Short Circuits
+SK	Shrinkage
+SL	Short Length
+SM	Shear
+SN	Stain
+SO	Sort Code CIE LCH
+SP	Splinter Count
+SQ	Shipped Quantity
+SR	Selvage Right
+SS	Silver
+ST	Stop Recovery Startup Time
+SU	Shipped Units
+SV	Scandium
+SW	Short Width
+SX	Sodium
+SY	Service Interrupt Duration
+SZ	Skid Height
+T1	Tire Pressure
+T2	Tube - Inside Diameter
+T3	Technical
+T4	Single End Break
+T5	Skein Break
+TA	Thickness Heavy End (Tapered/Stepped)
+TB	Thickness Small End (Tapered/Stepped)
+TC	Temperature
+TD	Thin Aluminas
+TE	Tenacity
+TF	Tensile
+TG	Thin Sulfides
+TH	Thickness
+TI	Thin Silicates
+TJ	Total Supply Current
+TK	Timer Pulse Width
+TL	Tapered/Stepped Length Type
+TM	Length Type: Multiples
+TN	Timer Period
+TO	Terbium
+TP	Thorium
+TQ	Thin Globular Oxides
+TR	Length Type: Random
+TS	Length Type: Specific
+TT	Time
+TU	Technetium
+TV	Thallium
+TW	Top
+TX	Thulium
+TY	Tear Strength
+UA	Uranium
+UG	Usage
+VH	Height, Van Door
+VO	Voltage
+VW	Width, Van Door
+WA	Weight per Unit of Area
+WB	Web
+WC	Web Depth/Height
+WD	Width
+WE	Wolfram
+WF	Wait Recovery Startup Time
+WH	Whiteness
+WI	Winding Loss
+WL	Wall Thickness
+WM	Width, Maximum
+WR	Wrinkles
+WT	Weight
+WU	Weight per Unit of Length
+WX	Wax Pick
+XA	Xenon
+XH	Side Height, Flat Bed With Removable Sides
+XP	Specified
+XQ	Squareness
+XZ	Spool Size
+YA	Yttrium
+YB	Yield
+YC	Ytterbium
+YD	Yarn Count
+ZA	Power Factor
+ZB	Boron
+ZC	Carbon
+ZD	Load Factor
+ZF	Sulfate Sulfur
+ZG	Organic Sulfur
+ZH	Hydrogen
+ZN	Nitrogen
+ZO	Oxygen
+ZP	Phosphorous
+ZR	Pyritic Sulfur
+ZS	Sulfur
+ZV	Vanadium
+ZW	Tungsten
+AAP	AC-apparent Power
+ABO	Absorbance
+ABR	Abrasion
+ABS	Absorbency
+ACN	Acid Number
+ADH	Adhesion
+ADM	Dye Manufacturing Units
+AGE	Inventory Age
+AGI	Aggressive Index
+ALK	Alkalinity
+ALN	Alkalinity Number
+ALP	Alpha-Cellulose
+AMI	Amines
+AMW	Average Molecular Weight
+AOX	Antioxidant
+API	API Gravity
+APP	Appearance
+ASH	Ash
+ASY	Assay
+AVT	Average Temperature
+BDP	Perforation Bottom Depth
+BHF	Bottomhole Pressure - Flowing
+BHS	Bottomhole Pressure - Shutin
+BIC	Bark in Chips
+BND	Amount Bound in Material
+BOR	Boiling Range
+BRS	Breaking Strength
+BSW	Percent Bottom Sediment and Water
+BUD	Bulk Density
+CAU	Caustic Reaction Severity
+CCF	Composite Corrected Factor
+CCG	Combined Center of Gravity
+CGR	Color Grayness RD
+CHA	Chemical Addition Rate
+CHC	Concentration of Hazardous Component
+CHG	Rate of Change
+CHL	Chlorides
+CIV	Cuene Intrinsic Viscosity
+CLA	Clarity
+CLB	Calibration
+CLN	Cleanliness
+COH	Coercive Force
+COL	Color
+CON	Concentration
+COR	Corrosiveness
+COS	Cost
+COT	Content
+CPF	Casing Pressure - Flowing
+CPS	Casing Pressure - Shutin
+CRF	Free Chlorine Residual
+CRL	Compression Relaxation
+CRN	Crown
+CRT	Total Chlorine Residual
+CSC	Choke Size - Casing
+CSR	Cost Realism
+CST	Choke Size - Tubing
+CTG	Coating
+CTT	Contact Time
+CUT	Cure Time
+CWT	Charge Weight
+CYB	Color Yellowness (+B)
+DAT	Datum Depth
+DCT	Dirt Count
+DEM	De Minimis Level
+DIR	Distillation Range
+DIS	Dispersion
+DME	Dichloromethane Extract
+DMF	Distributed Meter Factor
+DPM	Degree of Polymerization
+DRY	Dryness
+DWP	Dew Point
+ELC	Exposure Ceiling: Threshold Limit Value
+ELE	Elevation
+ELI	Immediately Dangerous to Life and Health
+ELL	Explosion Limit
+ELO	Occupational Safety and Health Administration (OSHA) Permissible Exposure Limit
+ELP	Occupational Safety and Health Administration (OSHA) Permissible Exposure Limit Ceiling
+ELS	American Conference of Government Industrial Hygienists (ACGIH) Threshold Limit Value: Short-Term Exposure
+ELT	American Conference of Governmental Industrial Hygienists (ACGIH) Threshold Limit Value: Time Weighted Average
+ELV	Unshielded Exposure Rate
+ELW	American Industrial Hygienists Association (AIHA) Work Environment Exposure Level (WEEL)
+ELX	American Industrial Hygienists Association (AIHA) Work Environment Exposure Level (WEEL): Time Weighted Average
+EPL	Expected Product Life
+EVL	Evaporation Loss
+EVR	Evaporation Rate
+EXH	Exhaust Benzene Emissions
+EXT	Extractables
+FBP	Acetate Break Point
+FIL	Filter Number
+FIN	Fineness
+FIT	Filterability
+FLD	Fluid Point
+FLN	Fiber Length
+FLP	Fluid Level Above Pump
+FLV	Flavor Threshold
+FML	Flammability Limits
+FMZ	Flammability
+FNL	Fines Retained on Screen
+FNS	Fines
+FOA	Foam
+FOH	Front Over-Hang of Vehicle
+FOI	Fouling Index
+FOR	Foreign Matter
+FPV	Acetate Plugging Value
+FSI	Free Swelling Index
+FUD	Full Load
+GEL	Gel
+GGR	Gas Gravity
+GIR	Gas Injection Test Rate
+GLE	Ground Level Elevation
+GOR	Gas-to-Oil Ratio
+GRA	Gas Test Rate
+GRI	Graininess
+H2O	Water Volume
+HAR	Hardening Rate
+HAZ	Haze
+HCG	Horizontal Center of Gravity
+HHW	Hemispherical Point
+HIB	High Boilers
+HOC	Heat of Combustion
+HTE	Heat Equivalency
+HVM	Heavy Metals
+HWS	Softening Point
+HYD	Hydroxyl Number
+HZC	Hazardous Component
+IDE	Identification
+IGA	Autoignition Temperature
+IGR	Input Gas Rate
+IHV	Inherent Viscosity
+IMP	Impurities
+IND	Initial Deformation Point
+INS	Insolubles
+IPI	Primary Irritation Index
+IRA	Inclusion Rating
+JOM	Jominy Hardenability
+LAI	Langlier Index
+LC5	Lethal Concentration, 50% ("LC-50")
+LCG	Longitudinal Center of Gravity
+LD5	Lethal Dose, 50% ("LD-50")
+LDH	Limited Dome Height (LDH)
+LEF	Leaf
+LIR	Liquid Injection Test Rate
+LIV	Limit Intrinsic Viscosity
+LLD	Light Load
+LOI	Loss on Ignition
+LOS	Loss on Drying
+LOW	Low Boilers
+LPG	Liquefied Petroleum Gas Factor
+LPL	Labeled Product Life
+LPR	Line Pressure
+LSK	Length Shrinkage
+LSS	Linear Sheet Swelling
+LTD	Liner Top Depth
+MAT	Maturity
+MCN	Magnetic Contamination
+MEF	Meter Factor
+MEL	Melt Time
+MER	Efficient Rate-Reservoir
+MHI	Highest Torque
+MIC	Micronaire
+MOI	Moisture
+MOR	Mortality
+MPR	Production Rate-Well
+MTD	Maximum Total Depth
+MUL	Mullen
+NEU	Neutralization Number
+NIL	Nil Ductility Test
+NNW	Net Net Weight
+NOC	Number of Cosigners
+NON	Non-Volatile Matter
+NOR	Number of References
+NOX	NOx Emissions Performance
+OAP	Observed American Petroleum Institute Gravity
+OBT	Observed Temperature
+OCG	Oil/Condensate Gravity
+OCR	Oil/Condensate Test Rate
+ODR	Odor
+OIL	Oil
+OLE	Olefins
+ORC	Organic Carbon
+OTE	Others Each
+OTH	Odor Threshold
+OTT	Others Total
+OXI	Oxidizable Substance
+OXS	Oxidizing Substance
+PAR	Particle Size
+PBD	Plug Back Total Depth
+PDE	Casing/Liner Tubing Depth
+PDG	Pump Depth from Ground
+PER	Magnetic Permeability
+PFO	Perforation Feet Open
+PHA	pH
+PHW	Hardwood Fiber
+PIC	Pick Off
+POC	Completion
+POD	Physical Description - Outer Diameter
+POP	Pour Point
+PPS	Proprietary Shade
+PRE	Prior Experience
+PRF	Pressure Factor
+PRI	Product Index
+PRL	Product Level
+PRO	Processability
+PRQ	Product Reportable Quantity
+PRY	Porosity
+PSA	Percent Solution Actual
+PSP	Past Performance
+PSW	Softwood Fiber
+PWA	Processed Waste
+PWE	Physical Description - Weight
+PWF	Power Factor
+QUR	Reportable Quantity
+R10	Relative Fraction of Pure Long-Chain Cellulose
+R18	Relative Fraction of Total Cellulose
+RAD	Radius
+RAF	Roof Adjustment Factor
+REA	Reactivity
+RED	Reducing Substance
+REF	Refining
+REI	Refractive Index
+REL	Reflectance
+RES	Resistance
+ROH	Rear Over-Hang of Vehicle
+ROX	Oxygen from a Renewable Oxygenate
+RSZ	Roll Size
+RTB	Reporting Temperature Base
+RUD	Usage Deviation (Applies to Kilowatt Hours, Kilowatt Demand and Reactive Demand)
+RVP	Reid Vapor Pressure
+S10	Pulp Impurities
+S12	Start
+S18	Hemicellulose
+SAP	Saponification Number
+SCH	Schedule
+SEV	Severity
+SHA	Shelf Life
+SIL	Silica (Silicon Dioxide)
+SLD	Solderability
+SLI	Slagging Index
+SMB	SAM-B Rating
+SMD	SAM-D Rating
+SOD	Solids
+SOF	Softening Range
+SPG	Specific Gravity
+SPR	Separator Pressure
+STA	Stability
+STL	Short Term Exposure Limit
+STP	Staple
+SUM	Suspended Matter
+SUR	Surface Roughness
+SUT	Surface Tension
+SVL	Survival
+SXX	S10 Minus S18 Value
+T50	T50
+T90	T90
+TAS	Taste
+TCL	Tire Tread Contact Length
+TDP	Perforation Top Depth
+TEE	Autodecomposition Temperature
+TES	Storage Temperature
+TEX	Texture
+TOA	Aquatic Toxicity
+TOR	Torque
+TOX	Toxic Emissions Performance
+TPF	Temperature Factor
+TPL	Tubing Pressure - Flowing
+TPQ	Threshold Planning Quantity
+TPS	Tubing Pressure - Shutin
+TRA	Trash Area
+TRC	Trash Count
+TRD	Tire Diameter
+TRN	Transmittance
+TSZ	Trim Size
+TTL	Trailer Tongue Length
+TUR	Turbidity
+TVD	Maximum True Vertical Depth
+TWD	Tire Width
+UCB	Cube
+UNI	Uniformity
+UNK	Unknowns
+VAD	Vapor Density
+VAP	Vapor Pressure
+VCG	Vertical Center of Gravity
+VIN	Vinyl
+VIS	Viscosity
+VOC	VOC Emissions Performance
+VOL	Volume
+VOT	Volatiles
+VOV	Volatiles by Volume
+VOW	Volatiles by Weight
+VSO	Volume Split to Others
+VWT	Volume Weight
+WDE	Water Depth
+WEL	Weight Loss
+WOD	Water-Oil Distribution Coefficient
+WPF	Wellhead Pressure-Flowing
+WPL	Water/Product Level
+WPS	Wellhead Pressure Shutin
+WRA	Water Test Rate
+WSK	Width Shrinkage
+WTB	Water/Tank Bottom Level
+ZAL	Aluminum
+ZAS	Arsenic
+ZBI	Bismuth
+ZBT	N-Butane
+ZBZ	Benzene
+ZCA	Calcium
+ZCB	Columbium
+ZCD	Carbon Dioxide
+ZCE	Cerium
+ZCO	Cobalt
+ZCR	Chromium
+ZCU	Copper
+ZET	Ethane
+ZFE	Iron
+ZFL	Newspaper--Full Page
+ZFS	Iron plus Silicon
+ZGE	Germanium
+ZHP	Heptane
+ZHS	Hydrogen Sulfide
+ZHX	Hexane
+ZIB	I-Butane
+ZIP	I-Pentane
+ZMG	Magnesium
+ZMN	Manganese
+ZMO	Molybdenum
+ZMT	Methane
+ZNB	Niobium
+ZNI	Nickel
+ZNP	Neo-Pentane
+ZOC	Octane
+ZPB	Lead
+ZPP	Propane
+ZPT	N-Pentane
+ZSB	Antimony
+ZSE	Selenium
+ZSI	Silicon
+ZSN	Tin
+ZTA	Tantalum
+ZTB	Newspaper--Tabloid Page
+ZTE	Tellurium
+ZTI	Titanium
+ZZN	Zinc
+ZZR	Zirconium
+ZZZ	Mutually Defined

@@ -1,0 +1,7 @@
+id	description	section	req	max_loop	max_usage	pos
+PCR	Payment Cancellation Request	H	M	0	1	1
+TRN	Trace	H	O	0	2	2
+DTM	Date/Time Reference	H	M	0	10	3
+REF	Reference Information	H	O	0	10	4
+QTY	Quantity Information	H	O	0	10	5
+AMT	Monetary Amount Information	H	O	0	10	6

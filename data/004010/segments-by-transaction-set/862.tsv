@@ -1,0 +1,31 @@
+id	description	section	req	max_loop	max_usage	pos
+BSS	Beginning Segment For Shipping Schedule/Production Sequence	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	10	2
+N1	Party Identification	H	O	200	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	12	7
+PER	Administrative Communications Contact	H	O	0	3	8
+FOB	F.O.B. Related Instructions	H	O	0	1	9
+LIN	Item Identification	D	M	10000	1	10
+UIT	Unit Detail	D	M	0	1	11
+PKG	Marking, Packaging, Loading	D	O	0	999999	12
+PO4	Item Physical Details	D	O	0	999999	13
+PRS	Part Release Status	D	O	0	1	14
+QTY	Quantity Information	D	O	0	1	15
+REF	Reference Information	D	O	0	12	16
+PER	Administrative Communications Contact	D	O	0	1	17
+SDP	Ship/Delivery Pattern	D	O	0	1	18
+FST	Forecast Schedule	D	O	100	1	19
+DTM	Date/Time Reference	D	O	0	999999	20
+SDQ	Destination Quantity	D	O	0	999999	21
+JIT	Just-In-Time Schedule	D	O	96	1	22
+REF	Reference Information	D	O	0	500	23
+DTM	Date/Time Reference	D	O	0	999999	24
+SHP	Shipped/Received Information	D	O	10	1	25
+REF	Reference Information	D	O	0	12	26
+TD1	Carrier Details (Quantity And Weight)	D	O	0	1	27
+TD3	Carrier Details (Equipment)	D	O	0	1	28
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	1	29
+CTT	Transaction Totals	S	O	0	1	30

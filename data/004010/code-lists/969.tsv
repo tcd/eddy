@@ -1,0 +1,12 @@
+id	definition
+A	Base Zip
+B	Kilometers
+C	Mileage
+D	Rate Basis
+E	Scale
+F	Tariff Note
+H	Household Goods Miles
+M	Carrier Miles (Actual)
+T	Association of American Railroads Docket 28300 Miles
+X	Combination Mileage (Association of American Railroads Docket 28300 Followed by Actual Carrier Miles)
+Y	Combination Mileage (Actual Carrier Miles Followed by Association of American Railroads 28300 Miles)

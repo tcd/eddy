@@ -1,0 +1,22 @@
+id	description	section	req	max_loop	max_usage	pos
+E01	Electronic Form Main Heading	H	M	0	1	1
+DMI	Data Maintenance Information	H	O	0	100	2
+E03	Interchange Order Of Segments	H	O	0	100	3
+MSG	Message Text	H	O	0	1000	4
+E10	Transaction Set Grouping	H	O	1000	1	5
+E13	Segment Order In Transaction Set	H	O	0	1000	6
+E20	Segment Header Information	H	O	1000	1	7
+E22	Data Element Relationships In A Segment Or Composite	H	O	0	100	8
+E24	Data Element Sequence In A Segment Or Composite	H	O	0	100	9
+E41	Composite Header Information	H	O	2000	1	10
+E22	Data Element Relationships In A Segment Or Composite	H	O	0	100	11
+E24	Data Element Sequence In A Segment Or Composite	H	O	0	100	12
+E30	Data Element Attributes	H	O	2000	1	13
+DAI	Appendix Information	H	O	0	10	14
+QTY	Quantity Information	H	O	0	1	15
+E34	Code List Values For A Data Element	H	O	100000	1	16
+DDI	Explanation	H	O	0	20	17
+DAI	Appendix Information	H	O	0	5	18
+E40	Edi Standards Note Reference	H	O	10000	1	19
+DMI	Data Maintenance Information	H	O	0	100	20
+DDI	Explanation	H	O	0	1000	21

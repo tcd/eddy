@@ -1,0 +1,71 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+TRN	Trace	H	O	0	1	2
+DTP	Date Or Time Or Period	H	O	0	1	3
+N1	Party Identification	H	O	5	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	3	8
+PER	Administrative Communications Contact	H	O	0	2	9
+N9	Extended Reference Information	D	M	999999	1	10
+DEX	Delivery Execution Information	D	M	999999	1	11
+REF	Reference Information	D	M	0	15	12
+CN1	Contract Information	D	O	0	1	13
+PCT	Percent Amounts	D	O	0	10	14
+INT	Interest	D	O	0	10	15
+AMT	Monetary Amount Information	D	O	0	4	16
+QTY	Quantity Information	D	O	0	5	17
+MPP	Mortgage Pool Program	D	O	0	1	18
+DTP	Date Or Time Or Period	D	O	0	10	19
+III	Information	D	O	0	15	20
+ASM	Amount And Settlement Method	D	O	999999	1	21
+N1	Party Identification	D	O	0	1	22
+REF	Reference Information	D	O	0	5	23
+NM1	Individual Or Organizational Name	D	M	999999	1	24
+LX	Transaction Set Line Number	D	M	999999	1	25
+REF	Reference Information	D	O	0	15	26
+AMT	Monetary Amount Information	D	O	0	20	27
+DTP	Date Or Time Or Period	D	O	0	5	28
+YNQ	Yes/No Question	D	O	0	10	29
+QTY	Quantity Information	D	O	0	5	30
+N1	Party Identification	D	O	0	6	31
+III	Information	D	O	0	50	32
+LUC	Loan Underwriting	D	O	0	1	33
+RLD	Down Payment Data	D	O	0	50	34
+INT	Interest	D	O	0	6	35
+PPD	Payment Pattern Details	D	O	0	1	36
+PWK	Paperwork	D	O	0	2	37
+BUY	Loan Buydown	D	O	0	1	38
+PEX	Property Or Housing Expense	D	O	0	10	39
+BEP	Borrower Education Program	D	O	0	2	40
+IGI	Insurer Or Guarantor Information	D	O	999999	1	41
+REF	Reference Information	D	O	0	1	42
+PCT	Percent Amounts	D	O	0	10	43
+NX1	Property Or Entity Identification	D	O	999999	1	44
+NX2	Location Id Component	D	O	0	15	45
+REA	Real Estate Property Information	D	O	0	1	46
+PDS	Property Description/Legal Description	D	O	0	2	47
+LN1	Loan Specific Data	D	O	5	1	48
+YNQ	Yes/No Question	D	O	0	1	49
+DTP	Date Or Time Or Period	D	O	0	5	50
+REF	Reference Information	D	O	0	10	51
+CRC	Conditions Indicator	D	O	999999	1	52
+IN1	Individual Identification	D	O	0	1	53
+IN2	Individual Name Structure Components	D	O	0	30	54
+DMG	Demographic Information	D	O	0	1	55
+QTY	Quantity Information	D	O	0	10	56
+N1	Party Identification	D	O	0	1	57
+YNQ	Yes/No Question	D	O	0	5	58
+AIN	Income	D	O	0	10	59
+AMT	Monetary Amount Information	D	O	0	15	60
+SCM	Credit Score Model	D	O	999999	1	61
+SCS	Credit Score	D	O	0	5	62
+PAM	Period Amount	D	O	4	1	63
+YNQ	Yes/No Question	D	M	0	1	64
+REF	Reference Information	D	M	0	1	65
+UWI	Underwriting Information	D	O	5	1	66
+III	Information	D	O	0	10	67
+REF	Reference Information	D	O	0	1	68
+MSG	Message Text	D	O	0	999999	69
+CTT	Transaction Totals	S	O	0	1	70

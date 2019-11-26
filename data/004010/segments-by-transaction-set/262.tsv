@@ -1,0 +1,71 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+TRN	Trace	H	O	0	1	2
+NM1	Individual Or Organizational Name	H	O	5	1	3
+N2	Additional Name Information	H	O	0	1	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	1	7
+REF	Reference Information	H	O	0	999999	8
+LX	Transaction Set Line Number	D	M	999999	1	9
+AM1	Informational Values	D	O	0	999999	10
+PWK	Paperwork	D	O	0	5	11
+SPI	Specification Identifier	D	O	0	999999	12
+CUR	Currency	D	O	0	1	13
+NX1	Property Or Entity Identification	D	M	999999	1	14
+NX2	Location Id Component	D	M	0	999999	15
+PDS	Property Description/Legal Description	D	O	0	999999	16
+PDE	Property Metes And Bounds Description	D	O	0	999999	17
+REA	Real Estate Property Information	D	O	0	1	18
+QTY	Quantity Information	D	O	0	25	19
+REF	Reference Information	D	O	0	30	20
+DTP	Date Or Time Or Period	D	O	0	6	21
+YNQ	Yes/No Question	D	O	0	43	22
+CRC	Conditions Indicator	D	O	0	10	23
+AMT	Monetary Amount Information	D	O	0	10	24
+PCT	Percent Amounts	D	O	0	8	25
+REC	Real Estate Condition	D	O	0	1	26
+MEA	Measurements	D	O	999999	1	27
+API	Activity Or Process Information	D	O	0	1	28
+NTE	Note/Special Instruction	D	O	0	4	29
+III	Information	D	O	999999	1	30
+MSG	Message Text	D	O	0	10	31
+PEX	Property Or Housing Expense	D	O	999999	1	32
+DTP	Date Or Time Or Period	D	O	0	1	33
+III	Information	D	O	0	999999	34
+LQ	Industry Code Identification	D	O	999999	1	35
+REF	Reference Information	D	O	0	1	36
+QTY	Quantity Information	D	O	0	10	37
+MEA	Measurements	D	O	0	10	38
+AMT	Monetary Amount Information	D	O	0	7	39
+MSG	Message Text	D	O	0	3	40
+DTP	Date Or Time Or Period	D	O	0	2	41
+AIN	Income	D	O	0	4	42
+III	Information	D	O	0	999999	43
+RET	Real Estate Transaction	D	O	999999	1	44
+REF	Reference Information	D	O	0	999999	45
+DTP	Date Or Time Or Period	D	O	0	999999	46
+PTF	Property Transaction Financials	D	O	0	999999	47
+QTY	Quantity Information	D	O	0	999999	48
+III	Information	D	O	0	999999	49
+NM1	Individual Or Organizational Name	D	O	999999	1	50
+N2	Additional Name Information	D	O	0	1	51
+N3	Party Location	D	O	0	2	52
+N4	Geographic Location	D	O	0	1	53
+PER	Administrative Communications Contact	D	O	0	1	54
+REF	Reference Information	D	O	0	999999	55
+LN2	Existing Real Estate Loan Specific Data	D	O	999999	1	56
+AMT	Monetary Amount Information	D	O	0	999999	57
+DTP	Date Or Time Or Period	D	O	0	999999	58
+IN1	Individual Identification	D	O	999999	1	59
+IN2	Individual Name Structure Components	D	M	0	10	60
+N3	Party Location	D	O	0	2	61
+N4	Geographic Location	D	O	0	1	62
+PER	Administrative Communications Contact	D	O	0	1	63
+DTP	Date Or Time Or Period	D	O	0	2	64
+REF	Reference Information	D	O	0	999999	65
+YNQ	Yes/No Question	D	O	10	1	66
+REF	Reference Information	D	M	0	1	67
+DTP	Date Or Time Or Period	D	O	0	2	68
+III	Information	D	O	50	1	69
+MSG	Message Text	D	O	0	10	70

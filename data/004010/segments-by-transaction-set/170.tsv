@@ -1,0 +1,8 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	1	1
+PER	Administrative Communications Contact	H	O	0	1	2
+THE	Screen Theater Identification	H	M	9999	1	3
+LX	Transaction Set Line Number	H	M	10	1	4
+REF	Reference Information	H	M	0	10	5
+DTM	Date/Time Reference	H	M	7	1	6
+BOX	Box Office Detail	H	M	0	250	7

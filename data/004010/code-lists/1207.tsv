@@ -1,0 +1,19 @@
+id	definition
+CHD	Children Only
+DEP	Dependents Only
+E1D	Employee and One Dependent
+E2D	Employee and Two Dependents
+E3D	Employee and Three Dependents
+E5D	Employee and One or More Dependents
+E6D	Employee and Two or More Dependents
+E7D	Employee and Three or More Dependents
+E8D	Employee and Four or More Dependents
+E9D	Employee and Five or More Dependents
+ECH	Employee and Children
+EMP	Employee Only
+ESP	Employee and Spouse
+FAM	Family
+IND	Individual
+SPC	Spouse and Children
+SPO	Spouse Only
+TWO	Two Party

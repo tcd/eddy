@@ -1,0 +1,8 @@
+id	definition
+A	Vent 25% Open
+B	Vent 50% Open
+C	Vent 75% Open
+D	Vent 100% Open
+E	Closed
+F	Vent 10% Open
+Z	Carrier to Set Based on Commodity Type

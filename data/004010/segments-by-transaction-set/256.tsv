@@ -1,0 +1,49 @@
+id	description	section	req	max_loop	max_usage	pos
+BSC	Beginning Segment For Commission Sales Report And Periodic Compen	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+N9	Extended Reference Information	H	O	0	9	3
+DTP	Date Or Time Or Period	H	O	0	9	4
+NM1	Individual Or Organizational Name	H	O	2	1	5
+N3	Party Location	H	O	0	3	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	9	8
+PER	Administrative Communications Contact	H	O	0	3	9
+N1	Party Identification	D	M	999999	1	10
+N2	Additional Name Information	D	O	0	2	11
+REF	Reference Information	D	O	0	9	12
+N3	Party Location	D	O	0	3	13
+N4	Geographic Location	D	O	0	1	14
+DTP	Date Or Time Or Period	D	O	0	999999	15
+BLI	Basic Baseline Item Data	D	O	999999	1	16
+REF	Reference Information	D	O	0	999999	17
+DTP	Date Or Time Or Period	D	O	0	999999	18
+AMT	Monetary Amount Information	D	O	0	999999	19
+BLN	Balance Information	D	O	0	9	20
+RPA	Rate Amounts Or Percents	D	O	0	999999	21
+NM1	Individual Or Organizational Name	D	O	999999	1	22
+N2	Additional Name Information	D	O	0	2	23
+REF	Reference Information	D	O	0	9	24
+N3	Party Location	D	O	0	3	25
+N4	Geographic Location	D	O	0	1	26
+DMG	Demographic Information	D	O	0	1	27
+DTP	Date Or Time Or Period	D	O	0	9	28
+AM1	Informational Values	D	O	999999	1	29
+REF	Reference Information	D	O	0	9	30
+III	Information	D	O	0	9	31
+DTP	Date Or Time Or Period	D	O	0	9	32
+AMT	Monetary Amount Information	D	O	999999	1	33
+REF	Reference Information	D	O	0	1	34
+MSG	Message Text	D	O	0	9	35
+RPA	Rate Amounts Or Percents	D	O	999999	1	36
+III	Information	D	O	0	9	37
+ENT	Entity	D	O	999999	1	38
+REF	Reference Information	D	O	0	9	39
+NM1	Individual Or Organizational Name	D	O	0	1	40
+N2	Additional Name Information	D	O	0	2	41
+N3	Party Location	D	O	0	3	42
+N4	Geographic Location	D	O	0	1	43
+ADX	Adjustment	D	O	0	9	44
+QTY	Quantity Information	D	O	0	999999	45
+AMT	Monetary Amount Information	D	O	0	999999	46
+BLN	Balance Information	D	O	0	999999	47
+MSG	Message Text	D	O	0	999999	48

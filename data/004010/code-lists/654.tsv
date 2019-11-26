@@ -1,0 +1,5 @@
+id	definition
+CA	Discount in Cash
+PC	Discount Determined as a Percentage of the Value of the Transaction
+UN	Discount Determined to be Additional Units that Are Defined by Discount Control Limit Qualifier
+ZZ	Mutually Defined

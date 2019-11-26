@@ -1,0 +1,22 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+CUR	Currency	H	M	0	1	2
+REF	Reference Information	H	M	0	9	3
+N1	Party Identification	H	M	0	1	4
+N2	Additional Name Information	H	O	0	1	5
+DTP	Date Or Time Or Period	H	O	0	1	6
+L5	Description, Marks And Numbers	D	M	999999	1	7
+REF	Reference Information	D	M	0	20	8
+DTP	Date Or Time Or Period	D	M	0	9	9
+V1	Vessel Identification	D	M	0	1	10
+N1	Party Identification	D	O	0	9	11
+R1	Route Information (Air)	D	O	0	1	12
+QTY	Quantity Information	D	O	0	1	13
+PCT	Percent Amounts	D	O	0	1	14
+R4	Port Or Terminal	D	M	5	1	15
+NX2	Location Id Component	D	O	0	20	16
+AMT	Monetary Amount Information	D	M	9	1	17
+CUR	Currency	D	O	0	1	18
+LQ	Industry Code Identification	D	O	999999	1	19
+PCT	Percent Amounts	D	O	0	1	20
+DTP	Date Or Time Or Period	D	O	0	1	21

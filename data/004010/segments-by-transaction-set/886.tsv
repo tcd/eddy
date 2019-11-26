@@ -1,0 +1,14 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	2	1
+PER	Administrative Communications Contact	H	O	0	3	2
+ENT	Entity	D	M	5000	1	3
+DTM	Date/Time Reference	D	O	0	2	4
+N1	Party Identification	D	O	150	1	5
+G32	Survey Question Response	D	O	0	25	6
+G37	Labor Activity	D	O	0	10	7
+G28	Line Item Numbers	D	O	1000	1	8
+QTY	Quantity Information	D	O	0	10	9
+G29	Store Display Information	D	O	0	10	10
+CTP	Pricing Information	D	O	0	4	11
+G35	Advertising Feature Information	D	O	0	10	12
+CRC	Conditions Indicator	D	O	0	5	13

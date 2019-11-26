@@ -1,0 +1,14 @@
+id	definition
+01	Request For Quote
+02	Solicitation for Offer
+03	Invitation for Bid
+04	Request for Proposal
+05	Sealed Bid
+06	Amendment to Solicitation
+07	Request for Technical Proposal
+08	Request for Price Proposal
+09	Request for Information
+10	Request for Lease and Purchase Terms
+11	Broad Announcement
+BF	Best and Final
+CB	Presolicitation Announcement

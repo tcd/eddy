@@ -1,0 +1,84 @@
+id	definition
+01	Shipment Method of Payment
+02	Transportation Responsibility Location
+03	Title Passage Location
+04	Sales Contact
+05	Special Services that will be Required
+06	Special Charges that will be Required
+07	Allowance or Charge Method of Handling
+08	Allowance or Charge Rate per Unit, Basis of Calculation or Total Amount
+09	Type of Payment Terms
+10	Beginning of Terms Period
+11	Complete Discount Detail (Terms, Base/Value, Limits)
+12	Hazardous Material
+13	Non-Hazardous Material
+14	As Indicated by the Cited Reference
+15	Affiliated Companies
+16	All Information
+17	Background
+18	Bank Name and Address
+19	Bankruptcy
+20	Bankruptcy Plan
+21	Bankruptcy Schedule
+22	Branches
+23	Buying Details
+24	Companies Dealt With
+25	Completed Projects
+26	Corporate Registration
+27	Credit Score
+28	Criminal Proceedings
+29	Employees
+30	Equipment
+31	Financial Information
+32	Legal Claim
+33	Legal Details and Capital
+34	Lien
+35	Line of Business Codes
+36	Line of Credit Details
+37	Management Comments
+38	Management Partial Figures
+39	Other Public Record
+40	Outside Comments
+41	Ownership
+42	Payment Breakdown
+43	Payment Breakdown by Industry
+44	Payment Score
+45	Placed for Collection Details
+46	Pledging
+47	Preferential Claims
+48	Protested Bills
+49	Financial Update
+50	Financing Statement (Uniform Commercial Code)
+51	Full Financial Statement
+52	General Information
+53	Identification Numbers
+54	Indirect Affiliate
+55	Individual Experience
+56	Judgment
+57	Law Suit
+58	Rating
+59	Record Item
+60	Reporting Agency Analysis
+61	Secured Charges
+62	Selling Details
+63	Special Events
+64	Subsidiaries
+65	Summary Information
+66	Work in Progress
+67	Operation Details
+68	Interview
+69	Vendors
+70	Slowness Comments
+71	Subordination Agreement
+72	Guarantees
+73	Signing Authority
+74	Ratios
+75	Industry Averages
+76	Petitions
+77	Claims on Other Companies
+78	Specific Details
+79	Acquisitions
+80	Financial Embarrassment Details
+81	Offshore Company Details
+82	Receivership
+83	Ship Details

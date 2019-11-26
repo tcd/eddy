@@ -1,0 +1,15 @@
+id	description	section	req	max_loop	max_usage	pos
+SSC	Beginning Segment For Service Commitment Advice	H	M	0	1	1
+DTP	Date Or Time Or Period	H	M	0	2	2
+N1	Party Identification	H	O	0	999999	3
+R2	Route Information	H	O	0	13	4
+OD	Origin And Destination	H	O	0	1	5
+PI	Price Authority Identification	H	O	0	10	6
+PR	Product (Commodity)	H	O	0	99	7
+CT	Car Type	H	O	0	99	8
+APR	Association Of American Railroads Pool Code Restrictions	H	O	0	99	9
+SHR	Railroad Interline Service Special Handling Restrictions	H	O	0	99	10
+SR	Requested Service Schedule	H	O	7	1	11
+LX	Transaction Set Line Number	H	O	999999	1	12
+ISD	Railroad Interline Service Definition Detail	H	O	0	15	13
+ISC	Interline Service Commitment Detail	H	O	0	999999	14

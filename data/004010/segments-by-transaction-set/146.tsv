@@ -1,0 +1,18 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+ERP	Educational Record Purpose	H	M	0	1	2
+REF	Reference Information	H	M	0	10	3
+DMG	Demographic Information	H	O	0	1	4
+IND	Additional Individual Demographic Information	H	O	0	1	5
+SSE	Entry And Exit Information	H	O	0	1	6
+SST	Student Academic Status	H	O	0	1	7
+NTE	Note/Special Instruction	H	O	0	15	8
+N1	Party Identification	H	M	2	1	9
+N2	Additional Name Information	H	O	0	1	10
+N3	Party Location	H	O	0	1	11
+N4	Geographic Location	H	O	0	1	12
+PER	Administrative Communications Contact	H	O	0	1	13
+IN1	Individual Identification	H	M	15	1	14
+IN2	Individual Name Structure Components	H	M	0	10	15
+N3	Party Location	H	O	0	1	16
+N4	Geographic Location	H	O	0	1	17

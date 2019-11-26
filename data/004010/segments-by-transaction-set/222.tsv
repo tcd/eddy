@@ -1,0 +1,43 @@
+id	description	section	req	max_loop	max_usage	pos
+SCN	Beginning Segment For Cartage Work Assignment	H	M	0	1	1
+L11	Business Instructions And Reference Number	H	O	0	5	2
+G62	Date/Time	H	O	0	1	3
+NTE	Note/Special Instruction	H	O	0	10	4
+N1	Party Identification	H	O	5	1	5
+N2	Additional Name Information	H	O	0	1	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+G61	Contact	H	O	0	3	9
+PLC	Equipment Placement Information	D	M	999	1	10
+N7	Equipment Details	D	M	0	10	11
+L11	Business Instructions And Reference Number	D	O	0	10	12
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	13
+NTE	Note/Special Instruction	D	O	0	10	14
+LX	Transaction Set Line Number	D	O	25	1	15
+L11	Business Instructions And Reference Number	D	O	0	5	16
+AT3	Bill Of Lading Rates And Charges	D	M	0	1	17
+S5	Stop-Off Details	D	M	99	1	18
+L11	Business Instructions And Reference Number	D	O	0	10	19
+G62	Date/Time	D	O	0	10	20
+AT5	Bill Of Lading Handling Requirements	D	O	0	6	21
+PLD	Pallet Shipment Information	D	O	0	2	22
+NTE	Note/Special Instruction	D	O	0	10	23
+N1	Party Identification	D	M	1	1	24
+N2	Additional Name Information	D	O	0	1	25
+N3	Party Location	D	O	0	2	26
+N4	Geographic Location	D	O	0	1	27
+G61	Contact	D	O	0	3	28
+LAD	Lading Detail	D	O	99	1	29
+G61	Contact	D	O	1	1	30
+L11	Business Instructions And Reference Number	D	O	0	5	31
+LH6	Hazardous Certification	D	O	0	6	32
+LH1	Hazardous Identification Information	D	M	25	1	33
+LH2	Hazardous Classification Information	D	O	0	4	34
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	35
+LFH	Free-Form Hazardous Material Information	D	O	0	20	36
+LEP	Epa Required Data	D	O	0	3	37
+LH4	Canadian Dangerous Requirements	D	O	0	1	38
+LHT	Transborder Hazardous Requirements	D	O	0	3	39
+LX	Transaction Set Line Number	D	O	25	1	40
+L11	Business Instructions And Reference Number	D	O	0	10	41
+AT3	Bill Of Lading Rates And Charges	D	M	0	1	42

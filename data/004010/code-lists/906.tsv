@@ -1,0 +1,5 @@
+id	definition
+0	Application Data Segment
+1	Application Control Segment (e.g., ST/SE)
+2	Group Control Segment (e.g., GS/GE)
+3	Interchange Control Segment (e.g., ISA/TA1/IEA)

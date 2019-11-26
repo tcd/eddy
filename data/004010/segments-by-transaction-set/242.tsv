@@ -1,0 +1,15 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+IRP	Report Selection Segment	H	O	0	1	2
+DTP	Date Or Time Or Period	H	O	0	10	3
+REF	Reference Information	H	O	0	10	4
+MSG	Message Text	H	O	0	1	5
+HL	Hierarchical Level	H	O	999999	1	6
+IIS	Interchange Identification Segment	H	O	0	1	7
+N1	Party Identification	H	O	0	1	8
+REF	Reference Information	H	O	0	10	9
+QTY	Quantity Information	H	O	0	999999	10
+STS	Interchange Status Segment	H	O	999999	1	11
+N1	Party Identification	H	O	0	1	12
+REF	Reference Information	H	O	0	10	13
+QTY	Quantity Information	H	O	0	999999	14

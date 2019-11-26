@@ -1,0 +1,21 @@
+id	definition
+01	Inadequate Lead Time
+02	Carrier Late
+03	Weather
+04	Customer or Buyer Request
+05	Truck Load Appointment Problem
+06	Pool Schedule Appointment Problem
+07	Strike or Other Stoppage
+08	Held for Product
+09	Shipping Location Closed
+10	Depositor Consolidation Problem
+11	Arrival Date
+12	Shipping Location Workload
+13	Shipping Location Handling
+14	Depositor Handling
+15	Booking Location Request
+16	Unacceptable Equipment
+17	Carrier Mode Change
+18	Incorrect Transit Time
+19	Carrier Request
+ZZ	Mutually Defined

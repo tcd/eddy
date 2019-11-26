@@ -1,0 +1,135 @@
+id	definition
+20	20 ft. IL Container (Open Top)
+2B	20 ft. IL Container (Closed Top)
+2D	Control Unit
+2E	Helper Unit
+2F	Roadrailer
+2G	Cut-in Helper
+40	40 ft. IL Container (Open Top)
+4B	40 ft. IL Container (Closed Top)
+AC	Closed Container
+AF	Air Freight (Break Bulk)
+AL	Container, Aluminum
+AP	Aircraft
+AT	Closed Container (Controlled Temperature)
+BC	Covered Barge
+BE	Bilevel Railcar Fully Open
+BF	Bilevel Railcar Fully Enclosed
+BG	Bogie
+BH	Bilevel Railcar Screened With Roof
+BJ	Bilevel Railcar Screened, No Roof
+BK	Container, Bulk
+BO	Barge Open
+BR	Barge
+BX	Boxcar
+CA	Caboose
+CB	Chassis, Gooseneck
+CC	Container resting on a Chassis
+CD	Container with Bag Hangers
+CG	Container, Tank (Gas)
+CH	Chassis
+CI	Container, Insulated
+CJ	Container, Insulated/Ventilated
+CK	Container, Heated/Insulated/Ventilated
+CL	Container (Closed Top - Length Unspecified)
+CM	Container, Open-Sided
+CN	Container
+CP	Coil Car Open
+CQ	Container, Tank (Food Grade-Liquid)
+CR	Coil-Car Covered
+CS	Container-Low Side Open Top
+CT	Container-High Side Open Top
+CU	Container (Open Top - Length Unspecified)
+CV	Closed Van
+CW	Container, Tank (Chemicals)
+CX	Container, Tank
+CZ	Refrigerated Container
+DD	Double-Drop Trailer
+DF	Container with Flush Doors
+DT	Drop Back Trailer
+DX	Boxcar, Damage Free Equipped
+ET	End of Train Device
+FF	Frozen Food Trailer
+FH	Flat Bed Trailer with Headboards
+FN	Flat Bed Trailer with No Headboards
+FP	Flatcar With Pedestal
+FR	Flat Bed Trailer - Removable Sides
+FS	Container with Floor Securing Rings
+FT	Flat Bed Trailer
+FX	Boxcar Cushion Under Frame OF
+GS	Generator Set
+HB	Container with Hangar Bars
+HC	Hopper Car (Covered)
+HO	Hopper Car (Open)
+HP	Hopper Car (Covered; Pneumatic Discharge)
+HT	Head of Train Device
+HV	High Cube Van
+HY	Hydrant-Cart
+ID	Idler Car
+IX	Boxcar (Insulated)
+LO	Locomotive
+LS	Half Height Flat Rack
+LU	Load/unload Device on Equipment
+NX	Boxcar (Interior Bulkheads)
+OB	Ocean Vessel (Break Bulk)
+OT	Open-top/flatbed trailer
+OV	Open Top Van
+PL	Container, Platform
+PP	Power Pack
+PT	Protected Trailer
+PU	Pick-up Truck
+RA	Fixed-Rack, Flat-Bed Trailer
+RC	Refrigerated (Reefer) Car
+RD	Fixed-Rack, Double Drop Trailer
+RE	Flat Car (End Bulkheads)
+RF	Flat Car
+RG	Gondola Covered
+RI	Gondola Car (Covered - Interior Bulkheads)
+RO	Gondola Car (Open)
+RR	Rail Car
+RS	Fixed-Rack, Single-Drop Trailer
+RT	Controlled Temperature Trailer (Reefer)
+SA	Saddle
+SC	Service Car
+SD	Single-Drop Trailer
+SK	Stack Car
+SL	Container, Steel
+SR	STAK-RAK
+SS	Container with Smooth Sides
+ST	Removable Side Trailer
+SV	Van - Special Inside Length, Width or Height Requirements
+TA	Trailer, Heated/Insulated/Ventilated
+TB	Trailer, Boat
+TC	Trailer, Car
+TF	Trailer, Dry Freight
+TG	Trailer, Tank (Gas)
+TH	Truck, Open Top High Side
+TI	Trailer, Insulated
+TJ	Trailer, Tank (Chemicals)
+TK	Trailer, Tank (Food Grade-Liquid)
+TL	Trailer (not otherwise specified)
+TM	Trailer, Insulated/Ventilated
+TN	Tank Car
+TO	Truck, Open Top
+TP	Trailer, Pneumatic
+TQ	Trailer, Electric Heat
+TR	Tractor
+TT	Telescoping Trailer
+TU	Truck, Open Top Low Side
+TV	Truck, Van
+TW	Trailer, Refrigerated
+UA	Trilevel Railcar 20 Feet
+UB	Trilevel Railcar Screened, Fully Enclosed
+UC	Trilevel Railcar Screened, With Roof
+UD	Trilevel Railcar Screened, No Roof
+UE	Trilevel Railcar Screened, With Doors, No Roof
+UL	Unit Load Device (ULD)
+UP	Container, Upgraded
+VA	Container, Vented
+VE	Vessel, Ocean
+VL	Vessel, Lake
+VR	Vessel, Ocean, Rollon-Rolloff
+VS	Vessel, Ocean, Lash
+VT	Vessel, Ocean, Containership
+WR	Container with Wavy or Ripple Sides
+WY	Railroad Maintenance of Way Car

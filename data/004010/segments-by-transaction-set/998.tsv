@@ -1,0 +1,2 @@
+id	description	section	req	max_loop	max_usage	pos
+ZD	Transaction Set Deletion - Id, Reason, And Source	H	M	0	1	1

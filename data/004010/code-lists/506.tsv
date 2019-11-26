@@ -1,0 +1,6 @@
+id	definition
+01	ABA Transit Routing Number Including Check Digits (9 digits)
+02	Swift Identification (8 or 11 characters)
+03	CHIPS (3 or 4 digits)
+04	Canadian Bank Branch and Institution Number
+ZZ	Mutually Defined

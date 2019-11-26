@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+XQ	Reporting Date/Action	H	M	0	1	1
+XPO	Preassigned Purchase Order Numbers	H	O	0	999999	2
+N9	Extended Reference Information	H	O	0	999999	3
+PER	Administrative Communications Contact	H	O	0	3	4
+N1	Party Identification	H	O	200	1	5
+N2	Additional Name Information	H	O	0	1	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+FOB	F.O.B. Related Instructions	H	O	0	1	9
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	1	10
+DTM	Date/Time Reference	H	O	0	999999	11
+N9	Extended Reference Information	H	O	0	999999	12
+PER	Administrative Communications Contact	H	O	0	3	13
+LIN	Item Identification	D	O	999999	1	14
+CTP	Pricing Information	D	O	0	25	15
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	999999	16
+PO4	Item Physical Details	D	O	0	1	17
+N9	Extended Reference Information	D	O	0	999999	18
+AMT	Monetary Amount Information	D	O	0	10	19
+PAL	Pallet Type And Load Characteristics	D	O	0	1	20
+QTY	Quantity Information	D	O	0	999999	21
+ZA	Product Activity Reporting	D	M	999999	1	22
+QTY	Quantity Information	D	O	0	999999	23
+CTP	Pricing Information	D	O	0	25	24
+SDQ	Destination Quantity	D	O	0	999999	25
+G95	Performance Requirements	D	O	1	1	26
+DTM	Date/Time Reference	D	O	0	2	27
+CTT	Transaction Totals	S	O	0	1	28

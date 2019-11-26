@@ -1,0 +1,21 @@
+id	definition
+A1	Missed Delivery
+A4	Holiday, Closed
+A5	Appointment Already Scheduled
+AD	Customer Requested Future Delivery
+AF	Accident
+AG	Consignee Related
+AH	Driver Related
+AI	Mechanical Breakdown
+AJ	Other Carrier Related
+AM	Shipper Related
+AU	Civil Event Related Delay
+AX	Insufficient Pick-up Time
+AY	Missed Pick-up
+BE	Road Conditions
+CB	No Requested Arrival Date Provided by Shipper
+CC	No Requested Arrival Time Provided by Shipper
+E9	Receiving Time Restricted
+NA	Normal Appointment
+RC	Reconsigned
+WE	Weather Related

@@ -1,0 +1,26 @@
+id	description	section	req	max_loop	max_usage	pos
+BLR	Transportation Carrier Identification	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N3	Party Location	H	O	0	2	3
+N4	Geographic Location	H	O	0	1	4
+L11	Business Instructions And Reference Number	H	O	0	1	5
+G61	Contact	H	O	0	1	6
+LS	Loop Header	D	O	0	1	7
+N1	Party Identification	D	O	999999	1	8
+GY	Geography	D	O	0	9999	9
+N4	Geographic Location	D	O	0	9999	10
+LS	Loop Header	D	O	0	1	11
+LX	Transaction Set Line Number	D	O	999999	1	12
+N1	Party Identification	D	O	0	3	13
+GY	Geography	D	O	0	9999	14
+N4	Geographic Location	D	O	0	9999	15
+SV	Service Description	D	M	0	1	16
+RST	Carrier Restriction	D	O	0	10	17
+LE	Loop Trailer	D	O	0	1	18
+LE	Loop Trailer	D	O	0	1	19
+LX	Transaction Set Line Number	D	O	999999	1	20
+N1	Party Identification	D	O	0	2	21
+GY	Geography	D	O	0	9999	22
+N4	Geographic Location	D	O	0	9999	23
+SV	Service Description	D	O	0	1	24
+RST	Carrier Restriction	D	O	0	10	25

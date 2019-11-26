@@ -1,0 +1,23 @@
+id	definition
+01	Cash
+02	Change in Rate or Term or Both
+04	Home Improvement
+05	Education
+06	Medical
+07	Increase Rate
+08	Reduce Term
+09	Adjustable Rate to Fixed Rate
+11	Debt Consolidation Refinance
+12	Debt Consolidation
+13	Change in Loan Type
+14	Other Purpose
+16	Purchase
+17	Reduce Rate
+18	Equity Takeout
+20	Construction to Permanent
+21	Construction
+22	Combined Construction and Permanent
+23	Increase Term
+24	Balloon Satisfaction
+25	Rate or Term Refinance with Cash Out
+ZZ	Mutually Defined

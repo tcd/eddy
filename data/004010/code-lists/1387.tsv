@@ -1,0 +1,35 @@
+id	definition
+1	Reserve Requirement Rate - Demand Deposit Account (DDA)
+2	Analysis Earnings Credit Interest Rate Not Yet Net of Reserves
+3	Book/Ledger Balance Overdraft Interest Rate
+4	Collected Balance Overdraft Interest Rate
+5	Deficiency Balance Interest Rate
+6	Treasury Tax and Loan (TT & L)
+7	Federal Deposit Insurance Corporation (FDIC)
+8	Overdraft Reserve Requirement Recover
+9	Federal Funds
+10	Prime
+11	Mutually Defined
+12	Reserve Requirement Rate - Non-Demand Deposit Account (Non-DDA)
+13	Money Market (MMA)
+14	Negotiable Order of Withdrawal Reserve (NOW)
+15	Certificate of Deposit (CD)
+2A	Analysis Earnings Credit Interest Rate Net of Reserves
+BA	Base
+CF	Current Factor
+CM	Commission
+CR	Coupon Rate
+CX	Currency Exchange
+DA	Demand Deposit Account Interest
+DI	Deficiency Interest Rate
+DR	Discount
+DS	Deficiency Surcharge Rate
+IR	Interest
+NB	Book/Ledger Balance Net Overdraft Interest Rate
+NC	Collected Balance Net Overdraft Interest Rate
+PB	Principal Balance Factor
+PF	Principal and Interest Factor
+RR	Rebate
+SR	Security
+ST	Standby (Letter of Credit)
+UF	Uncollected Funds Usage Interest Rate

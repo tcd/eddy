@@ -1,0 +1,10 @@
+id	definition
+AA	Pick-up Appointment Date and/or Time
+AB	Delivery Appointment Date and/or Time
+AC	Estimated Delivery Appointment Date and/or Time
+ED	Deliver No Earlier Than Date and/or Time
+EP	Pick-up No Earlier Than Date and/or Time
+LD	Deliver No Later Than Date and/or Time
+LP	Pick-up No Later Than Date and/or Time
+X9	Delivery Appointment Secured on This Date and/or Time
+XA	Pick-up Appointment Secured on This Date and/or Time

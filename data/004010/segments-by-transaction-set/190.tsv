@@ -1,0 +1,28 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+ENR	School Enrollment Information	H	O	0	1	2
+ERP	Educational Record Purpose	H	O	0	1	3
+DTP	Date Or Time Or Period	H	O	0	999999	4
+SST	Student Academic Status	H	O	0	1	5
+SUM	Academic Summary	H	O	0	6	6
+NTE	Note/Special Instruction	H	O	0	10	7
+AMT	Monetary Amount Information	H	O	999999	1	8
+LQ	Industry Code Identification	H	O	0	1	9
+N1	Party Identification	H	O	2	1	10
+N2	Additional Name Information	H	O	0	1	11
+N3	Party Location	H	O	0	2	12
+N4	Geographic Location	H	O	0	1	13
+PER	Administrative Communications Contact	H	O	0	1	14
+ENT	Entity	H	O	5	1	15
+IN2	Individual Name Structure Components	H	O	0	5	16
+DMG	Demographic Information	H	O	0	1	17
+N3	Party Location	H	O	0	2	18
+N4	Geographic Location	H	O	0	1	19
+SES	Academic Session Header	H	O	100	1	20
+SUM	Academic Summary	H	O	0	6	21
+ENR	School Enrollment Information	H	O	0	1	22
+FOS	Field Of Study	H	O	0	5	23
+NTE	Note/Special Instruction	H	O	0	100	24
+DEG	Degree Record	H	O	10	1	25
+FOS	Field Of Study	H	O	0	2	26
+NTE	Note/Special Instruction	H	O	0	100	27

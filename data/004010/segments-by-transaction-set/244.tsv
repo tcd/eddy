@@ -1,0 +1,11 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	M	999999	1	2
+DTM	Date/Time Reference	H	M	0	1	3
+N1	Party Identification	H	M	999999	1	4
+N2	Additional Name Information	H	O	0	999999	5
+BSF	Business Function	H	M	999999	1	6
+NX2	Location Id Component	H	M	999999	1	7
+COM	Communication Contact Information	H	O	0	999999	8
+PID	Product/Item Description	H	M	999999	1	9
+CID	Characteristic/Class Id	H	O	0	1	10

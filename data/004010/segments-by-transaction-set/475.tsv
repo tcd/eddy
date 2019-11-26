@@ -1,0 +1,6 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+R9	Route Code Identification	H	M	50	1	2
+PER	Administrative Communications Contact	H	O	0	1	3
+DTM	Date/Time Reference	H	M	0	10	4
+RDD	Route Description Detail	H	O	0	5	5

@@ -1,0 +1,27 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+LX	Transaction Set Line Number	D	M	999999	1	6
+N1	Party Identification	D	O	1	1	7
+N2	Additional Name Information	D	O	0	2	8
+N3	Party Location	D	O	0	2	9
+N4	Geographic Location	D	O	0	1	10
+NM1	Individual Or Organizational Name	D	O	0	1	11
+NTE	Note/Special Instruction	D	O	0	1	12
+EFI	Electronic Format Identification	D	O	1	1	13
+BIN	Binary Data Segment	D	M	0	1	14
+L11	Business Instructions And Reference Number	D	M	999999	1	15
+MS2	Equipment Or Container Owner And Type	D	O	0	999999	16
+LS	Loop Header	D	O	0	1	17
+MAN	Marks And Numbers Information	D	O	999999	1	18
+L11	Business Instructions And Reference Number	D	O	0	999999	19
+AT7	Shipment Status Details	D	O	0	999999	20
+CD3	Carton (Package) Detail	D	O	0	999999	21
+NM1	Individual Or Organizational Name	D	O	0	1	22
+Q7	Lading Exception Status	D	O	0	999999	23
+LE	Loop Trailer	D	O	0	1	24
+EFI	Electronic Format Identification	D	O	1	1	25
+BIN	Binary Data Segment	D	M	0	1	26

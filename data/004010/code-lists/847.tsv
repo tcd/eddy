@@ -1,0 +1,9 @@
+id	definition
+AO	All orders - items with changed status
+CA	All Orders - All Items
+CI	All Orders - Shipped Items
+CO	All Orders - Unshipped Items
+PA	Selected Orders - All Items
+PI	Selected Orders - Shipped Orders
+PO	Selected Orders - Unshipped Items
+PP	Selected Orders - Selected Items

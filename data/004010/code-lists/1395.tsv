@@ -1,0 +1,9 @@
+id	definition
+1	Horizontal, Left to Right
+2	Horizontal, Right to Left
+3	Vertical, Top to Bottom
+4	Vertical, Bottom to Top
+5	Individual Cell
+B	Block
+C	Shipper's Railcar Identification
+S	Actual Railcar Identification

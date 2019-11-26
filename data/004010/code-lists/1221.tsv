@@ -1,0 +1,27 @@
+id	definition
+H	Hospital
+R	Rural Health Clinic
+AD	Admitting
+AS	Assistant Surgeon
+AT	Attending
+BI	Billing
+BS	Billing Service
+CO	Consulting
+CV	Covering
+HH	Home Health Care
+LA	Laboratory
+ON	On Staff
+OP	Operating
+OR	Ordering
+OT	Other Physician
+P1	Pharmacist
+P2	Pharmacy
+PC	Primary Care Physician
+PE	Performing
+PT	Pay-To
+PU	Purchasing
+RF	Referring
+RP	Reporting Provider
+SB	Submitting
+SK	Skilled Nursing Facility
+SU	Supervising

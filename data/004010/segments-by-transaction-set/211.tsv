@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BOL	Beginning Segment For The Motor Carrier Bill Of Lading	H	M	0	1	1
+B2A	Set Purpose	H	M	0	1	2
+MS3	Interline Information	H	O	0	12	3
+MS2	Equipment Or Container Owner And Type	H	O	0	1	4
+L11	Business Instructions And Reference Number	H	O	0	100	5
+G62	Date/Time	H	O	0	6	6
+AT5	Bill Of Lading Handling Requirements	H	O	0	50	7
+K1	Remarks	H	O	0	10	8
+N1	Party Identification	H	O	10	1	9
+N2	Additional Name Information	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+G61	Contact	H	O	0	3	13
+AT1	Bill Of Lading Line Item Number	D	M	9999	1	14
+L11	Business Instructions And Reference Number	D	O	0	100	15
+AT3	Bill Of Lading Rates And Charges	D	O	0	1	16
+AT4	Bill Of Lading Description	D	O	0	99	17
+AT2	Bill Of Lading Line Item Detail	D	O	1	1	18
+MAN	Marks And Numbers Information	D	O	0	999999	19
+OID	Order Information Detail	D	O	0	999999	20
+L4	Measurement	D	O	0	1	21
+LX	Transaction Set Line Number	D	O	999999	1	22
+MAN	Marks And Numbers Information	D	O	0	999999	23
+OID	Order Information Detail	D	O	0	999999	24
+G61	Contact	D	O	2	1	25
+L11	Business Instructions And Reference Number	D	O	0	5	26
+LH6	Hazardous Certification	D	O	0	6	27
+LH1	Hazardous Identification Information	D	M	25	1	28
+LH2	Hazardous Classification Information	D	O	0	4	29
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	30
+LFH	Free-Form Hazardous Material Information	D	O	0	20	31
+LEP	Epa Required Data	D	O	0	3	32
+LH4	Canadian Dangerous Requirements	D	O	0	1	33
+LHT	Transborder Hazardous Requirements	D	O	0	3	34
+L11	Business Instructions And Reference Number	D	O	0	5	35

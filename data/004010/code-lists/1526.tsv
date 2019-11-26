@@ -1,0 +1,6 @@
+id	definition
+1	Procedure Followed (Compliance)
+2	Not Followed - Call Not Made (Non-Compliance Call Not Made)
+3	Not Medically Necessary (Non-Compliance Non-Medically Necessary)
+4	Not Followed Other (Non-Compliance Other)
+5	Emergency Admit to Non-Network Hospital

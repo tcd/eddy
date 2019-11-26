@@ -1,0 +1,42 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+REF	Reference Information	H	O	0	999999	2
+DTM	Date/Time Reference	H	O	0	999999	3
+N1	Party Identification	H	O	999999	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	999999	8
+REF	Reference Information	H	O	0	999999	9
+LM	Code Source Information	H	O	999999	1	10
+LQ	Industry Code Identification	H	M	0	999999	11
+PER	Administrative Communications Contact	H	O	0	999999	12
+REF	Reference Information	H	O	0	999999	13
+HL	Hierarchical Level	D	M	999999	1	14
+SPI	Specification Identifier	D	O	0	1	15
+REF	Reference Information	D	O	0	999999	16
+LIN	Item Identification	D	O	0	999999	17
+DTM	Date/Time Reference	D	O	0	999999	18
+QTY	Quantity Information	D	O	0	999999	19
+YNQ	Yes/No Question	D	O	0	999999	20
+AMT	Monetary Amount Information	D	O	0	999999	21
+PCT	Percent Amounts	D	O	0	999999	22
+MEA	Measurements	D	O	0	999999	23
+CLI	Cost Line Item	D	O	999999	1	24
+QTY	Quantity Information	D	O	0	999999	25
+AMT	Monetary Amount Information	D	O	0	999999	26
+RPA	Rate Amounts Or Percents	D	O	0	999999	27
+LM	Code Source Information	D	O	999999	1	28
+LQ	Industry Code Identification	D	M	0	999999	29
+REF	Reference Information	D	O	0	999999	30
+DTM	Date/Time Reference	D	O	0	999999	31
+NM1	Individual Or Organizational Name	D	O	999999	1	32
+N2	Additional Name Information	D	O	0	2	33
+N3	Party Location	D	O	0	2	34
+N4	Geographic Location	D	O	0	1	35
+COM	Communication Contact Information	D	O	0	999999	36
+REF	Reference Information	D	O	0	999999	37
+MTX	Text	D	O	999999	1	38
+DTM	Date/Time Reference	D	O	0	999999	39
+NM1	Individual Or Organizational Name	D	O	0	999999	40
+REF	Reference Information	D	O	0	999999	41

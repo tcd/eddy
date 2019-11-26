@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	10	1	1
+N2	Additional Name Information	H	O	0	1	2
+N3	Party Location	H	O	0	1	3
+N4	Geographic Location	H	O	0	1	4
+N9	Extended Reference Information	H	O	0	10	5
+G61	Contact	H	O	0	3	6
+G62	Date/Time	H	O	0	10	7
+NTE	Note/Special Instruction	H	O	0	20	8
+G43	Promotion/Price List Area	H	O	0	200	9
+ID1	Item Detail Dimensions	D	M	999	1	10
+ID2	Item Image Detail	D	O	0	1	11
+ID3	Dimensions Detail	D	O	0	50	12

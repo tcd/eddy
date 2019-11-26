@@ -1,0 +1,17 @@
+id	definition
+01	Given Name (Name at Birth)
+02	Current Legal
+03	Alias
+04	Name of Record
+05	Previous Name
+06	Name of Record Requestor
+07	Married Name
+08	Professional Name
+11	Doing Business As (DBA) and Trading As (T/A)
+12	Spouse
+13	Combined Name and Account Number
+17	Beneficiary
+18	Primary Care Provider
+19	Corrected Insured
+20	Prior Incorrect Insured
+21	Corrected Name

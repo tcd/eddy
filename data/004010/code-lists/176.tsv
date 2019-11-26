@@ -1,0 +1,43 @@
+id	definition
+0	Original Transaction
+1	Must Respond By
+2	Pickup Appointment Scheduled Time
+3	Delivery Appointment Scheduled Time
+4	Pickup Requested Scheduled Time
+5	Delivery Requested Scheduled Time
+6	Pickup Appointment Granted Time
+7	Delivery Appointment Granted Time
+8	Actual Pickup Time
+9	Actual Delivery Time
+A	Actual Departure Time
+B	Released
+C	Constructive Placement
+D	Estimated Departure Time
+E	Estimated Arrival Time
+F	Actual Unloading Completed
+G	Earliest Requested Deliver Time
+H	Customs Release
+I	Earliest Requested Pick Up Time
+J	Duty Paid
+K	Latest Requested Pick Up Time
+L	Latest Requested Delivery Time
+M	Charged From
+N	Notified
+O	Charged To
+P	Actual Placement
+Q	Ordered
+R	Actual Arrival Time
+S	Scheduled Departure Time
+T	Scheduled Arrival Time
+U	Scheduled Pick Up Time
+V	Actual Unloading Started
+W	Effective Time
+X	Scheduled Delivery Time
+Y	Requested Pick Up Time
+Z	Requested Delivery Time
+CB	Beginning of Customer Plant Shutdown
+CE	Ending of Customer Plant Shutdown
+ED	Earliest Delivery Time
+EP	Earliest Pickup Time
+LD	Latest Delivery Time
+LP	Latest Pickup Time

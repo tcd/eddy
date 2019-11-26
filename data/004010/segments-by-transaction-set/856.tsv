@@ -1,0 +1,58 @@
+id	description	section	req	max_loop	max_usage	pos
+BSN	Beginning Segment For Ship Notice	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	10	2
+HL	Hierarchical Level	D	M	200000	1	3
+LIN	Item Identification	D	O	0	1	4
+SN1	Item Detail (Shipment)	D	O	0	1	5
+SLN	Subline Item Detail	D	O	0	1000	6
+PRF	Purchase Order Reference	D	O	0	1	7
+PO4	Item Physical Details	D	O	0	1	8
+PID	Product/Item Description	D	O	0	200	9
+MEA	Measurements	D	O	0	40	10
+PWK	Paperwork	D	O	0	25	11
+PKG	Marking, Packaging, Loading	D	O	0	25	12
+TD1	Carrier Details (Quantity And Weight)	D	O	0	20	13
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	14
+TD3	Carrier Details (Equipment)	D	O	12	1	15
+AT9	Trailer Or Container Dimension And Weight	D	O	0	1	16
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	17
+TSD	Trailer Shipment Details	D	O	0	1	18
+REF	Reference Information	D	O	0	999999	19
+PER	Administrative Communications Contact	D	O	0	3	20
+LH1	Hazardous Identification Information	D	O	100	1	21
+LH2	Hazardous Classification Information	D	O	0	4	22
+LH3	Hazardous Material Shipping Name Information	D	O	0	12	23
+LFH	Free-Form Hazardous Material Information	D	O	0	20	24
+LEP	Epa Required Data	D	O	0	999999	25
+LH4	Canadian Dangerous Requirements	D	O	0	4	26
+LHT	Transborder Hazardous Requirements	D	O	0	3	27
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	10	28
+PER	Administrative Communications Contact	D	O	0	5	29
+LHE	Empty Equipment Hazardous Material Information	D	O	0	1	30
+CLD	Load Detail	D	O	200	1	31
+REF	Reference Information	D	O	0	200	32
+DTP	Date Or Time Or Period	D	O	0	1	33
+MAN	Marks And Numbers Information	D	O	0	999999	34
+DTM	Date/Time Reference	D	O	0	10	35
+FOB	F.O.B. Related Instructions	D	O	0	1	36
+PAL	Pallet Type And Load Characteristics	D	O	0	1	37
+N1	Party Identification	D	O	200	1	38
+N2	Additional Name Information	D	O	0	2	39
+N3	Party Location	D	O	0	2	40
+N4	Geographic Location	D	O	0	1	41
+REF	Reference Information	D	O	0	12	42
+PER	Administrative Communications Contact	D	O	0	3	43
+FOB	F.O.B. Related Instructions	D	O	0	1	44
+SDQ	Destination Quantity	D	O	0	50	45
+ETD	Excess Transportation Detail	D	O	0	1	46
+CUR	Currency	D	O	0	1	47
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	999999	1	48
+CUR	Currency	D	O	0	1	49
+GF	Furnished Goods And Services	D	O	0	1	50
+YNQ	Yes/No Question	D	O	0	10	51
+LM	Code Source Information	D	O	10	1	52
+LQ	Industry Code Identification	D	M	0	100	53
+V1	Vessel Identification	D	O	999999	1	54
+R4	Port Or Terminal	D	O	0	999999	55
+DTM	Date/Time Reference	D	O	0	999999	56
+CTT	Transaction Totals	S	O	0	1	57

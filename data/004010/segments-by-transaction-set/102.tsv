@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+ORI	Object Reference Identification	H	M	0	1	1
+REF	Reference Information	H	O	0	999999	2
+OOI	Associated Object Type Identification	H	M	0	999999	3
+BDS	Binary Data Structure	H	M	0	1	4

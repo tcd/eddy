@@ -1,0 +1,164 @@
+id	definition
+AA	Percent Of Amount Advanced
+AB	Accelerated
+AC	Percent Of Amount Of Collection
+AD	Addition
+AE	Percent of Outstanding Principal Balance
+AF	Percent of Original Principal Balance
+AV	Ad Valorum (Per Cent of Value)
+B0	Per Board Feet
+B1	Per 100 Board Feet
+BF	Per 1,000 Board Feet
+BL	Bill of Lading Declared Value
+BR	Per Barrel
+C5	Per 50 Cubic Feet
+CE	Ceiling
+CF	Per 40 Cubic Feet (Measurement Ton)
+CM	Per Cubic Meter
+CO	Cost per Unit
+CP	Computer Units
+CS	Per Special Charge
+CT	Charge or Credit Based on Percentage of Total
+CW	Per Hundred Weight
+DD	Department of Defense Unique Codes
+DE	Decrease
+DI	Divisor
+DP	Per $1000
+DR	Per Dromedary Service Shipment
+DS	Per Hundredweight Per Mile Per Dromedary Service Shipment
+DV	Per Day Per Vehicle
+EI	Ex Parte Increase
+ER	Per Each Request
+FA	Floor
+FB	Full
+FC	Flat Charge
+FF	Percent Of Tariff Rate
+FI	First
+FL	Per Flat Bed
+FN	Per Two Weeks
+FR	Flat Rate
+FT	Per Foot
+FV	Loaded to Full Visible Capacity
+GT	Per Gross Ton
+HD	Per Hundredweight Per Dromedary Service Shipment
+HM	Rate Per Hundred Weight Per Mile
+HN	Per Half Month
+HX	Hundredweight Per Day
+HY	Per Half Year
+IA	Increase
+IM	Intermodal Unit
+IN	Per Inch
+KG	Per Kilograms
+KL	Per Kiloliter
+KP	Per Kilometer
+KT	Per Kilotons
+LA	Per Pound Per Article
+LB	Per Pound
+LF	Per Loaded 436L Pallet
+LI	Liability per Pound per Piece
+LL	Life of Loan
+LP	Per Label
+LR	Per Litre
+LS	Lump Sum
+LT	Per Long Ton
+LV	Per Pound Per Vehicle
+MA	Minimum per Service
+MB	Per Mile per Service
+MC	Minimum Per Car
+MD	Per Man Per Day
+ME	Multiple Equipment
+MF	Maximum
+MG	Miles Per Week Per Driver
+MH	Per Man Per Hour
+MI	Negative Charge
+MM	Per Metric Ton (Tonne)
+MN	Minimum
+MO	Per Month
+MP	Maximum Per Shipment
+MR	Per Mile Per Vehicle Used Per Round Trip
+MS	Minimum Per Shipment
+MT	Per Permit
+MU	Multiplier
+MV	Per Mile Per Vehicle (Rail Car) Moved
+MW	Minimum Per Vehicle
+MX	Mixed Shipment Rule
+NA	Negative
+NB	Nonamortizing
+ND	Minimum Per Driver
+NE	Net Package Charge
+NM	Per Mile Per Person
+NP	Minimum Per Day Per Person
+NV	Minimum Per Day Per Vehicle
+OP	Optional Value
+OS	Per Season
+OT	One-Time Charge
+P0	Per Year per Square Foot
+P1	Per Advancement
+P8	Potential
+P9	Partial
+PA	Per Container
+PB	Per Barge
+PC	Per Car
+PD	Per Day
+PE	Per 20 Foot Equivalent (TEU)
+PF	Per Cubic Foot
+PG	Per Gallon
+PH	Per Hundred (of Basic Unit)
+PI	Hourly Rate Per Vehicle
+PJ	Projected
+PK	Per Cord
+PL	Per Load
+PM	Per Mile
+PN	Per Night
+PO	Positive
+PP	Per Piece
+PQ	Per Period
+PR	Per Hour
+PS	Per Shipment
+PT	Per Net Ton
+PU	Per Unit
+PV	Per Vehicle
+PW	Percentage of Charges
+PX	Payment
+PY	Per Gallon Per Mile
+PZ	Per Package Charge
+QY	Per Quarter Year
+RA	Rate per Thousand
+RB	Rate per Hundred
+RC	Rate
+RL	Per Relocation
+RP	Percent Of Rate
+RT	Per Vehicle Used Per Round Trip
+S0	Per 1000 Square Feet
+S1	Per 100 Square Feet
+SA	Subtraction
+SB	Subsequent
+SC	Per Stencil
+SD	Shipper's Export Declaration Value
+SE	Second
+SF	Per Square Feet
+SG	Stated
+SH	Scheduled
+SP	Per Stop
+ST	Per Short Ton
+SU	Per Stack Car Unit
+SY	Square Yard
+TB	Per 2 Trailers Same Day
+TC	Per 3 Trailers Same Day
+TD	Per 4 Trailers Same Day
+TN	Per Train Rate
+TP	Per Tag
+TR	Per Trailer (Per Train)
+VA	Per Vehicle Moved
+VH	Per Vehicle Used
+VM	Volume
+VP	Maximum Per Vehicle
+VR	Per Rail Car Used
+VS	Various
+VT	Per Mile per Vehicle
+VU	Per Mile Per Vehicle (Rail Car) Used
+VV	Per Vehicle per State
+WK	Per Week
+WM	Weight or Measurement
+XP	Maximum Per Person
+YR	Per Year

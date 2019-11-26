@@ -1,0 +1,65 @@
+id	description	section	req	max_loop	max_usage	pos
+BPT	Beginning Segment For Product Transfer And Resale	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+DTM	Date/Time Reference	H	O	0	10	3
+REF	Reference Information	H	O	0	12	4
+PER	Administrative Communications Contact	H	O	0	3	5
+MEA	Measurements	H	O	0	20	6
+PSA	Partner Share Accounting	H	O	0	10	7
+N1	Party Identification	H	O	5	1	8
+N2	Additional Name Information	H	O	0	2	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+REF	Reference Information	H	O	0	12	12
+PER	Administrative Communications Contact	H	O	999999	1	13
+REF	Reference Information	H	O	0	999999	14
+LM	Code Source Information	H	O	999999	1	15
+LQ	Industry Code Identification	H	M	0	100	16
+LCD	Place/Location Description	H	O	0	2	17
+PTD	Product Transfer And Resale Detail	D	M	999999	1	18
+DTM	Date/Time Reference	D	O	0	10	19
+REF	Reference Information	D	O	0	20	20
+PRF	Purchase Order Reference	D	O	0	1	21
+PER	Administrative Communications Contact	D	O	0	3	22
+MAN	Marks And Numbers Information	D	O	0	1	23
+LCD	Place/Location Description	D	O	0	2	24
+LQ	Industry Code Identification	D	O	0	999999	25
+MEA	Measurements	D	O	0	999999	26
+N1	Party Identification	D	O	5	1	27
+N2	Additional Name Information	D	O	0	2	28
+N3	Party Location	D	O	0	2	29
+N4	Geographic Location	D	O	0	1	30
+REF	Reference Information	D	O	0	20	31
+PER	Administrative Communications Contact	D	O	0	3	32
+SII	Sales Item Information	D	O	999999	1	33
+N9	Extended Reference Information	D	O	0	1	34
+QTY	Quantity Information	D	O	999999	1	35
+LIN	Item Identification	D	O	0	1	36
+PO3	Additional Item Detail	D	O	0	25	37
+PO4	Item Physical Details	D	O	0	1	38
+UIT	Unit Detail	D	O	0	12	39
+AMT	Monetary Amount Information	D	O	0	12	40
+ITA	Allowance, Charge Or Service	D	O	0	10	41
+PID	Product/Item Description	D	O	0	200	42
+MEA	Measurements	D	O	0	40	43
+PWK	Paperwork	D	O	0	25	44
+PKG	Marking, Packaging, Loading	D	O	0	25	45
+REF	Reference Information	D	O	0	999999	46
+PER	Administrative Communications Contact	D	O	0	3	47
+DTM	Date/Time Reference	D	O	0	10	48
+CUR	Currency	D	O	0	1	49
+DD	Demand Detail	D	O	0	999999	50
+LDT	Lead Time	D	O	0	1	51
+LM	Code Source Information	D	O	999999	1	52
+LQ	Industry Code Identification	D	O	0	100	53
+LX	Transaction Set Line Number	D	O	999999	1	54
+REF	Reference Information	D	O	0	999999	55
+DTM	Date/Time Reference	D	O	0	1	56
+N1	Party Identification	D	O	0	1	57
+LM	Code Source Information	D	O	999999	1	58
+LQ	Industry Code Identification	D	M	0	100	59
+FA1	Type Of Financial Accounting Data	D	O	999999	1	60
+FA2	Accounting Data	D	M	0	999999	61
+CTT	Transaction Totals	S	O	1	1	62
+AMT	Monetary Amount Information	S	O	0	12	63
+ITA	Allowance, Charge Or Service	S	O	0	10	64

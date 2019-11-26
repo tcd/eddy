@@ -1,0 +1,169 @@
+id	definition
+AC	Acid (Battery)
+AD	Accept at Destination
+AF	Affidavit
+AG	Aircraft On Ground (AOG)
+AM	Administration
+AO	Accept at Origin
+BH	Buyer Hand Carry
+BI	Bill and Hold
+C1	Shipper Load and Count
+C2	Carrier Load and Count
+CA	Cataloging Services
+CC	Carrier Unload
+CD	COD Request
+CH	Cut and Parallel
+CI	Cut
+CM	Continuous Movement
+CN	Combination Performance and Non-performance
+CO	Cooperative Unloading
+CS	Cigarette Stamping
+CT	Count and Recount
+CU	Consignee Unload
+CY	Carry-in Service
+CZ	Cable Pressurization
+D1	One - Day Service
+D2	Two - Day Service
+DA	Delivery Acknowledgment
+DE	De-Installation
+DH	Drop and Hook Receiving
+DI	Die Service Charge
+DL	Delivery
+DS	Designated Supplier Inspection
+DV	Declared Value
+EG	Engraving
+EM	Emergency Service
+EN	Enclosure
+ER	Equipment Manufacturer Restoration Audit
+EU	Exclusive Use Of Equipment
+EX	Expedited Service
+F1	Full Service
+FG	Free Goods
+FS	Floor Stock Protection
+GI	Grouped Items
+GP	Gas Pressure
+GU	Guaranteed Inspection Technical Service
+H1	Temperature Protection
+HC	Handling Service
+HH	Hointins and Hauling
+HS	Hauling and Hoisting
+IC	Inside Cable Connectors
+ID	Inside Delivery
+IG	Invoice with Goods
+IK	Insurance Provided by Lessee
+IL	Insurance Provided by Lessor
+IM	Inspect at Destination
+IN	Insurance
+IO	Inspect at Origin
+IP	In-stock Merchandise
+IQ	Interim Use Permitted at Special Rate
+IR	Installation and Training
+IS	Invoice Services
+IT	In Transit Price Protection
+KO	Koshering
+L1	Shipper Load, Carrier Count
+LA	Labeling
+LL	Loading Service
+LS	Lease Shortfall Consideration
+MI	Mail Invoice
+ML	Mail Invoice to Each Location
+NC	Notify Consignee Before Delivery
+OA	Outside Cable Connectors
+ON	On-site Service
+OP	Oversized Package
+PA	Pack Invoice with Shipment
+PB	Previous Billing
+PC	Packaging Service
+PE	Pulling Eyes
+PF	Proof & Composition
+PL	Palletizing
+PM	Perpetual Movement
+PO	Purchase Option
+PP	Progress Payment Requirement
+RD	Residential Delivery
+RE	Recall Service
+RM	Roundtrip Movement
+RP	Return Parts to Customer
+S1	Shipper Load, Consignee Unload
+S2	Slip Sheet, Truck
+S3	Seller Hand Carry
+SD	Shrinkage Allowance
+SG	Same - Day Service
+SH	Special Handling Service
+SJ	Subject To Tax On Resale
+SR	Slip Sheet, Rail
+SS	Tax Liability - One Time
+ST	Tax Liability - Amortized
+SU	Set-up
+SV	Service Center
+SW	Swell
+T1	Onetime Tooling
+TC	Ticketing Service
+TE	Tendered as Truckload
+TH	Technology Exchange
+TM	Consecutive Movement
+TO	Tooling
+UN	Unitized
+US	USDA Inspected, Stamping Certification
+V1	Drop Yard
+V2	Drop Dock
+WC	Will Call
+WH	Warehousing
+XP	Expanded Service
+XX	Third Party Pallets
+YY	Split Pickup
+ZZ	Mutually Defined
+BOP	Bop Sheet
+PLI	Pilot Inspection
+PSF	Pickup Service Furnished
+SLP	Slip Sheet
+SPI	Specification Review
+A0010	Alterations
+A0020	Anneal/Heat (Steel or Glass Treatment)
+A0030	Art Work
+B0020	Black Lung Tax
+B0040	Burning
+C0012	Capping
+C0032	Coating (Dip, Rustproof, EDP)
+C0036	Certificate of Conformance
+C0038	Certificate of Origin
+D0020	Determined Freight
+D0024	Layout/Design
+D0031	Driver Assisted Unloading
+D0032	Driver Assisted Loading
+E0030	Exclusive use
+G0010	Grinding
+G0052	Government Inspection
+I0012	Installation
+I0013	Installation & Warranty
+I0021	Inspection
+I0022	Identification
+M0010	Memo Returnable Container
+M0042	Mounting
+MNTAN	Annual Maintenance
+MNTMN	Monthly Maintenance
+MNTON	One-Time Maintenance
+N0020	Non-returnable Containers
+N0021	Non-Returnable
+N0032	Notarized Affidavit
+P0012	Painting (Primer or Finish)
+P0014	Phosphatizing (Steel Treatment)
+P0016	Pickle and Oil
+P0018	Plating
+P0022	Preparation
+R0072	Repair
+R0076	Returnable Container
+R0077	Returnable
+R0110	Rework
+S0014	Shearing
+S0016	Shotblasting
+S0022	Sleeving
+S0024	Ship to Stock Quality Audit
+S0050	Special Packaging
+S0052	Stamping
+S0054	Source Inspection
+S0056	Strapping
+S0080	Supplemental Items
+T0070	Tools for Printing
+W0010	Warranties
+X0010	Combine All Same Day Shipment

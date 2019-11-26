@@ -1,0 +1,177 @@
+id	description	section	req	max_loop	max_usage	pos
+BCA	Beginning Segment For Purchase Order Change Acknowledgment	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+REF	Reference Information	H	O	0	999999	3
+PER	Administrative Communications Contact	H	O	0	3	4
+TAX	Tax Reference	H	O	0	999999	5
+FOB	F.O.B. Related Instructions	H	O	0	999999	6
+CTP	Pricing Information	H	O	0	999999	7
+PAM	Period Amount	H	O	0	10	8
+CSH	Sales Requirements	H	O	0	1	9
+SAC	Service, Promotion, Allowance, Or Charge Information	H	O	25	1	10
+CUR	Currency	H	O	0	1	11
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	5	12
+DIS	Discount Detail	H	O	0	20	13
+INC	Installment Information	H	O	0	1	14
+DTM	Date/Time Reference	H	O	0	10	15
+LIN	Item Identification	H	O	0	5	16
+SI	Service Characteristic Identification	H	O	0	999999	17
+PID	Product/Item Description	H	O	0	200	18
+MEA	Measurements	H	O	0	40	19
+PWK	Paperwork	H	O	0	25	20
+PKG	Marking, Packaging, Loading	H	O	0	25	21
+TD1	Carrier Details (Quantity And Weight)	H	O	0	2	22
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	12	23
+TD3	Carrier Details (Equipment)	H	O	0	12	24
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	5	25
+PCT	Percent Amounts	H	O	0	999999	26
+MAN	Marks And Numbers Information	H	O	0	10	27
+TXI	Tax Information	H	O	0	999999	28
+CTB	Restrictions/Conditions	H	O	0	999999	29
+G53	Maintenance Type	H	O	0	999999	30
+LDT	Lead Time	H	O	999999	1	31
+QTY	Quantity Information	H	O	0	999999	32
+MTX	Text	H	O	0	999999	33
+N9	Extended Reference Information	H	O	1000	1	34
+DTM	Date/Time Reference	H	O	0	999999	35
+MTX	Text	H	O	0	999999	36
+PWK	Paperwork	H	O	0	999999	37
+EFI	Electronic Format Identification	H	O	0	999999	38
+N1	Party Identification	H	O	200	1	39
+N2	Additional Name Information	H	O	0	2	40
+IN2	Individual Name Structure Components	H	O	0	999999	41
+N3	Party Location	H	O	0	2	42
+N4	Geographic Location	H	O	0	1	43
+NX2	Location Id Component	H	O	0	999999	44
+REF	Reference Information	H	O	0	12	45
+PER	Administrative Communications Contact	H	O	0	999999	46
+SI	Service Characteristic Identification	H	O	0	999999	47
+FOB	F.O.B. Related Instructions	H	O	0	1	48
+TD1	Carrier Details (Quantity And Weight)	H	O	0	2	49
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	O	0	12	50
+TD3	Carrier Details (Equipment)	H	O	0	12	51
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	H	O	0	5	52
+PKG	Marking, Packaging, Loading	H	O	0	25	53
+MTX	Text	H	O	0	999999	54
+AMT	Monetary Amount Information	H	O	999999	1	55
+PCT	Percent Amounts	H	O	0	999999	56
+ADV	Advertising Demographic Information	H	O	999999	1	57
+DTM	Date/Time Reference	H	O	0	999999	58
+MTX	Text	H	O	0	999999	59
+LM	Code Source Information	H	O	999999	1	60
+LQ	Industry Code Identification	H	M	0	999999	61
+POC	Line Item Change	D	O	999999	1	62
+LIN	Item Identification	D	O	0	999999	63
+SI	Service Characteristic Identification	D	O	0	999999	64
+CUR	Currency	D	O	0	1	65
+PO3	Additional Item Detail	D	O	0	25	66
+CTP	Pricing Information	D	O	0	999999	67
+PAM	Period Amount	D	O	0	10	68
+MEA	Measurements	D	O	0	40	69
+PID	Product/Item Description	D	O	1000	1	70
+MEA	Measurements	D	O	0	10	71
+PWK	Paperwork	D	O	0	25	72
+PKG	Marking, Packaging, Loading	D	O	0	25	73
+PO4	Item Physical Details	D	O	0	999999	74
+REF	Reference Information	D	O	0	999999	75
+PER	Administrative Communications Contact	D	O	0	3	76
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	25	1	77
+CUR	Currency	D	O	0	1	78
+IT8	Conditions Of Sale	D	O	0	1	79
+CSH	Sales Requirements	D	O	0	999999	80
+ITD	Terms Of Sale/Deferred Terms Of Sale	D	O	0	2	81
+DIS	Discount Detail	D	O	0	20	82
+INC	Installment Information	D	O	0	1	83
+TAX	Tax Reference	D	O	0	999999	84
+FOB	F.O.B. Related Instructions	D	O	0	999999	85
+SDQ	Destination Quantity	D	O	0	500	86
+DTM	Date/Time Reference	D	O	0	10	87
+TD1	Carrier Details (Quantity And Weight)	D	O	0	1	88
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	89
+TD3	Carrier Details (Equipment)	D	O	0	12	90
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	91
+TXI	Tax Information	D	O	0	999999	92
+PCT	Percent Amounts	D	O	0	999999	93
+ACK	Line Item Acknowledgment	D	O	104	1	94
+DTM	Date/Time Reference	D	O	0	1	95
+MAN	Marks And Numbers Information	D	O	0	10	96
+SPI	Specification Identifier	D	O	0	999999	97
+MTX	Text	D	O	0	999999	98
+CTB	Restrictions/Conditions	D	O	0	999999	99
+LM	Code Source Information	D	O	999999	1	100
+LQ	Industry Code Identification	D	M	0	999999	101
+AMT	Monetary Amount Information	D	O	999999	1	102
+PCT	Percent Amounts	D	O	0	999999	103
+QTY	Quantity Information	D	O	999999	1	104
+SI	Service Characteristic Identification	D	O	0	999999	105
+SCH	Line Item Schedule	D	O	200	1	106
+TD1	Carrier Details (Quantity And Weight)	D	O	0	2	107
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	108
+TD3	Carrier Details (Equipment)	D	O	0	12	109
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	110
+REF	Reference Information	D	O	0	999999	111
+LDT	Lead Time	D	O	999999	1	112
+QTY	Quantity Information	D	O	0	999999	113
+MTX	Text	D	O	0	999999	114
+LM	Code Source Information	D	O	999999	1	115
+LQ	Industry Code Identification	D	M	0	999999	116
+N9	Extended Reference Information	D	O	1000	1	117
+DTM	Date/Time Reference	D	O	0	999999	118
+MTX	Text	D	O	0	999999	119
+PWK	Paperwork	D	O	0	999999	120
+EFI	Electronic Format Identification	D	O	0	999999	121
+N1	Party Identification	D	O	200	1	122
+N2	Additional Name Information	D	O	0	2	123
+IN2	Individual Name Structure Components	D	O	0	999999	124
+N3	Party Location	D	O	0	2	125
+N4	Geographic Location	D	O	0	1	126
+QTY	Quantity Information	D	O	0	999999	127
+NX2	Location Id Component	D	O	0	999999	128
+REF	Reference Information	D	O	0	12	129
+PER	Administrative Communications Contact	D	O	0	3	130
+SI	Service Characteristic Identification	D	O	0	999999	131
+DTM	Date/Time Reference	D	O	0	1	132
+FOB	F.O.B. Related Instructions	D	O	0	1	133
+SCH	Line Item Schedule	D	O	0	200	134
+TD1	Carrier Details (Quantity And Weight)	D	O	0	2	135
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	12	136
+TD3	Carrier Details (Equipment)	D	O	0	12	137
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	5	138
+PKG	Marking, Packaging, Loading	D	O	0	25	139
+LDT	Lead Time	D	O	999999	1	140
+MAN	Marks And Numbers Information	D	O	0	10	141
+QTY	Quantity Information	D	O	0	5	142
+MTX	Text	D	O	0	999999	143
+SLN	Subline Item Detail	D	O	1000	1	144
+MTX	Text	D	O	0	999999	145
+SI	Service Characteristic Identification	D	O	0	999999	146
+PID	Product/Item Description	D	O	0	1000	147
+PO3	Additional Item Detail	D	O	0	25	148
+MEA	Measurements	D	O	0	999999	149
+CTP	Pricing Information	D	O	0	25	150
+PAM	Period Amount	D	O	0	10	151
+ACK	Line Item Acknowledgment	D	O	0	104	152
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	10	1	153
+CUR	Currency	D	O	0	1	154
+DTM	Date/Time Reference	D	O	0	10	155
+PO4	Item Physical Details	D	O	0	1	156
+TAX	Tax Reference	D	O	0	3	157
+ADV	Advertising Demographic Information	D	O	0	999999	158
+QTY	Quantity Information	D	O	999999	1	159
+SI	Service Characteristic Identification	D	O	0	999999	160
+N9	Extended Reference Information	D	O	999999	1	161
+DTM	Date/Time Reference	D	O	0	999999	162
+MTX	Text	D	O	0	999999	163
+N1	Party Identification	D	O	10	1	164
+N2	Additional Name Information	D	O	0	2	165
+IN2	Individual Name Structure Components	D	O	0	999999	166
+N3	Party Location	D	O	0	2	167
+N4	Geographic Location	D	O	0	1	168
+NX2	Location Id Component	D	O	0	999999	169
+REF	Reference Information	D	O	0	12	170
+PER	Administrative Communications Contact	D	O	0	3	171
+SI	Service Characteristic Identification	D	O	0	999999	172
+PD	Pricing Data	D	O	999999	1	173
+PDD	Pricing Data Detail	D	O	0	999999	174
+CTT	Transaction Totals	S	O	1	1	175
+AMT	Monetary Amount Information	S	O	0	5	176

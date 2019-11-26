@@ -1,0 +1,12 @@
+id	definition
+1	Receiving Dock Advice
+2	Post Receipt Advice
+3	Disposition Advice
+4	Metered Gas Volume Advice
+5	Facility Operator's Allocation Advice
+6	Natural Gas Seller's Allocation Advice
+7	Pipeline Allocation Advice
+8	Acceptance Certificate
+9	Authorized Representative in Receipt of an Acceptance Alert
+A	Authorized Representative Not in Receipt of an Acceptance Alert
+R	Intermediate Point Receipt Advice

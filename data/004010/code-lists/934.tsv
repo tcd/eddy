@@ -1,0 +1,8 @@
+id	definition
+AA	Advance The Specified Number of Lines Before Print
+AT	Advanced Three Lines Before Print
+DS	Advance two lines before print
+LC	Line Continuation
+NP	Advance to next page before print
+NS	No advance before print
+SS	Advance to new line before print

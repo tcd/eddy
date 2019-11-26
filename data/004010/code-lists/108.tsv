@@ -1,0 +1,33 @@
+id	definition
+H	Sunday and Holiday Pick-up Service
+J	Saturday Pick-up Service
+M	Multiple Shipment
+O	Other
+P	Cut Flowers
+S	Special Pick-up Service
+U	Container Shipment
+V	High Value Shipment
+AT	Airport Terminal
+BC	Canadian Business Delivery
+CA	Carrier Advance
+CB	Business Delivery (Contracted)
+CC	Convenience Center
+CP	Customer Counter Pickup
+CR	Residential Delivery (Contracted)
+CS	Contract Shipment Delivery
+CT	City Terminal
+DB	Drop Box
+DT	Drop Trailer
+IB	International Business Delivery
+IR	International Residential Delivery
+LD	Live Delivery
+LL	Live Load
+OC	On-call Pickup
+OT	Other Carrier's Terminal
+PB	Private Box
+RB	Business Delivery (Regular)
+RC	Canadian Residential Delivery
+RD	Residential Door
+RG	Regular Pickup
+RR	Residential Delivery (Regular)
+SD	Shippers Door

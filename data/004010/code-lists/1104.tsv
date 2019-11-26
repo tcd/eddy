@@ -1,0 +1,23 @@
+id	definition
+01	Prefix
+02	First Name
+03	First Middle Name
+04	Second Middle Name
+05	Last Name
+06	First Initial
+07	First Middle Initial
+08	Second Middle Initial
+09	Suffix
+10	Generation
+11	Doing Business As (DBA) or Trading As (T/A)
+12	Combined (Unstructured) Name
+13	Combined Name and Account Number
+14	Name of an agency
+15	Maiden or former name
+16	Composite name (used if the name cannot be broken into separate parts, formatted with last name sent first)
+17	Middle Names
+18	Preferred First Name or Nickname
+19	Corporation
+20	Corporation Suffix
+21	Professional Title
+22	Organization Name

@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "type": "class",
+      "name": "SegmentSummary",
+      "fields": [
+        {"name": "pos", "type":"String,nil"},
+        {"name": "id","type":"String"},
+        {"name": "name", "type":"String"},
+        {"name": "req", "type":"String"},
+        {"name": "purpose", "type":"String"},
+        {"name": "max_use", "type":"Integer"},
+        {"name": "repeat", "type":"Integer"},
+        {"name": "notes", "type":"String"},
+        {"name": "usage", "type":"String"},
+        {"name": "table", "type":"String", "description": "*Heading*, *Detail*, *Summary*, or *Not Defined*"},
+        {"name": "loop", "type":"String,nil"}
+      ]
+    },
+    {
+      "type": "class",
+      "name": "ElementSummary",
+      "fields": [
+        {"name": "ref", "type": "String"},
+        {"name": "id", "type": "String"},
+        {"name": "name", "type": "String"},
+        {"name": "description", "type": "String"},
+        {"name": "req", "type": "String"},
+        {"name": "type", "type": "String"},
+        {"name": "min", "type": "Integer"},
+        {"name": "max", "type": "Integer"},
+        {"name": "usage", "type": "String"},
+        {"name": "default", "type": "String,nil"}
+      ]
+    },
+    {
+      "type": "class",
+      "name": "Loop",
+      "fields" : [
+        {"name": "loopId", "type": "String"},
+        {"name": "repeat", "type": "String"},
+        {"name": "notes", "type": "String"},
+        {"name": "segments", "type": "Array<Segment>"}
+      ]
+    },
+    {
+      "type": "enum",
+      "name": "Table",
+      "values": [
+        "Heading",
+        "Detail",
+        "Summary",
+        "NotDefined"
+      ]
+    },
+    {
+      "type": "enum",
+      "name": "Req",
+      "values": [
+        "M - Mandatory",
+        "O - Optional",
+        "X - Syntax note applies",
+        "Z - Semantic note applies"
+      ]
+    }
+  ],
+}

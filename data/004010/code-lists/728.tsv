@@ -1,0 +1,12 @@
+id	definition
+B	Loaded with empty 4-block for blocking purposes
+D	Empty containers with dunnage
+E	Empty Containers
+L	Loaded with production material
+M	Mixed empty and loaded
+O	Obsolete material
+P	Loaded with returned excess production material
+R	Loaded with rejected material
+S	Service part obsolete container
+U	Loaded with returned processed material
+ZZ	Mutually Defined

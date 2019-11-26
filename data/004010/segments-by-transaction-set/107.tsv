@@ -1,0 +1,45 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+G62	Date/Time	H	O	0	10	2
+AT5	Bill Of Lading Handling Requirements	H	O	0	99	3
+PR	Product (Commodity)	H	O	0	99	4
+ID4	Load Details	H	O	0	1	5
+IV1	Lane Estimates	H	O	0	1	6
+MI1	Mileage Source	H	O	0	1	7
+CUR	Currency	H	O	0	1	8
+MCT	Tariff Accessorial Charges	H	O	0	999	9
+MS2	Equipment Or Container Owner And Type	H	O	1	1	10
+AT9	Trailer Or Container Dimension And Weight	H	O	0	1	11
+N1	Party Identification	H	M	10	1	12
+N2	Additional Name Information	H	O	0	1	13
+N3	Party Location	H	O	0	2	14
+N4	Geographic Location	H	O	0	1	15
+PER	Administrative Communications Contact	H	O	0	5	16
+LX	Transaction Set Line Number	D	M	99999	1	17
+GY	Geography	D	M	0	999	18
+CUR	Currency	D	O	0	1	19
+PR	Product (Commodity)	D	O	0	99	20
+ID4	Load Details	D	O	0	1	21
+AT5	Bill Of Lading Handling Requirements	D	O	0	99	22
+MS2	Equipment Or Container Owner And Type	D	O	1	1	23
+AT9	Trailer Or Container Dimension And Weight	D	O	0	1	24
+N1	Party Identification	D	O	1	1	25
+N2	Additional Name Information	D	O	0	1	26
+N3	Party Location	D	O	0	2	27
+N4	Geographic Location	D	O	0	1	28
+G62	Date/Time	D	O	0	10	29
+CA1	Rate Request Identifier	D	M	99999	1	30
+GY	Geography	D	M	0	999	31
+PR	Product (Commodity)	D	O	0	99	32
+ID4	Load Details	D	O	0	1	33
+IV1	Lane Estimates	D	O	0	1	34
+SV	Service Description	D	O	0	1	35
+AT5	Bill Of Lading Handling Requirements	D	O	0	99	36
+MCT	Tariff Accessorial Charges	D	O	0	999	37
+MS2	Equipment Or Container Owner And Type	D	O	1	1	38
+AT9	Trailer Or Container Dimension And Weight	D	O	0	1	39
+N1	Party Identification	D	O	1	1	40
+N2	Additional Name Information	D	O	0	1	41
+N3	Party Location	D	O	0	2	42
+N4	Geographic Location	D	O	0	1	43
+G62	Date/Time	D	O	0	10	44

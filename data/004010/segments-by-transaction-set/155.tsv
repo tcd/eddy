@@ -1,0 +1,139 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	2	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+NX2	Location Id Component	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+HL	Hierarchical Level	D	M	999999	1	8
+N1	Party Identification	D	M	0	1	9
+DTP	Date Or Time Or Period	D	O	0	999999	10
+LUI	Language Use	D	O	0	1	11
+C3	Currency Identifier	D	O	0	1	12
+CRC	Conditions Indicator	D	O	0	999999	13
+MTX	Text	D	O	0	999999	14
+NM1	Individual Or Organizational Name	D	O	999999	1	15
+N2	Additional Name Information	D	O	0	2	16
+TPB	Business Professional Title	D	O	0	3	17
+DTP	Date Or Time Or Period	D	O	0	999999	18
+NX1	Property Or Entity Identification	D	O	999999	1	19
+N3	Party Location	D	O	0	2	20
+N4	Geographic Location	D	O	0	1	21
+NX2	Location Id Component	D	O	0	999999	22
+COM	Communication Contact Information	D	O	0	999999	23
+YNQ	Yes/No Question	D	O	0	999999	24
+DTP	Date Or Time Or Period	D	O	0	999999	25
+REQ	Request Information	D	O	999999	1	26
+LOD	Location Description	D	O	0	3	27
+MTX	Text	D	O	0	999999	28
+FDA	Facility Description	D	O	0	999999	29
+III	Information	D	O	0	999999	30
+DTP	Date Or Time Or Period	D	O	0	999999	31
+AWD	Amount With Description	D	O	0	999999	32
+QTY	Quantity Information	D	O	0	999999	33
+CRC	Conditions Indicator	D	O	0	999999	34
+N1	Party Identification	D	O	0	1	35
+N2	Additional Name Information	D	O	0	2	36
+INR	Information Request	D	O	999999	1	37
+NX1	Property Or Entity Identification	D	O	0	1	38
+ITC	Information Type And Comment Results	D	O	0	999999	39
+C3	Currency Identifier	D	O	0	1	40
+QTY	Quantity Information	D	O	0	999999	41
+ASO	Asset Ownership	D	O	0	999999	42
+SPR	Supplier Rating	D	O	0	999999	43
+DMG	Demographic Information	D	O	0	1	44
+EMS	Employment Position	D	O	0	1	45
+TER	Territory	D	O	0	999999	46
+YNQ	Yes/No Question	D	O	0	999999	47
+ASI	Action Or Status Indicator	D	O	0	1	48
+CRC	Conditions Indicator	D	O	0	999999	49
+DTP	Date Or Time Or Period	D	O	0	999999	50
+N9	Extended Reference Information	D	O	0	999999	51
+MTX	Text	D	O	0	999999	52
+INQ	Credit Inquiry Details	D	O	999999	1	53
+DTP	Date Or Time Or Period	D	O	0	999999	54
+C3	Currency Identifier	D	O	0	1	55
+III	Information	D	O	0	999999	56
+PYT	Historical Payment Terms	D	O	0	999999	57
+PYM	Payment Manner And Percentage	D	O	0	999999	58
+AWD	Amount With Description	D	O	0	999999	59
+QTY	Quantity Information	D	O	0	1	60
+ACD	Account Description	D	O	0	999999	61
+MEA	Measurements	D	O	0	999999	62
+SPR	Supplier Rating	D	O	0	999999	63
+ASO	Asset Ownership	D	O	0	999999	64
+LX	Transaction Set Line Number	D	O	999999	1	65
+NM1	Individual Or Organizational Name	D	O	0	1	66
+NX1	Property Or Entity Identification	D	O	0	1	67
+N2	Additional Name Information	D	O	0	2	68
+TPB	Business Professional Title	D	O	0	6	69
+N3	Party Location	D	O	0	2	70
+N4	Geographic Location	D	O	0	1	71
+NX2	Location Id Component	D	O	0	999999	72
+COM	Communication Contact Information	D	O	0	999999	73
+N9	Extended Reference Information	D	O	0	999999	74
+AWD	Amount With Description	D	O	0	999999	75
+ASO	Asset Ownership	D	O	0	999999	76
+YNQ	Yes/No Question	D	O	0	999999	77
+PCT	Percent Amounts	D	O	0	999999	78
+DTP	Date Or Time Or Period	D	O	0	999999	79
+QTY	Quantity Information	D	O	0	999999	80
+LM	Code Source Information	D	O	999999	1	81
+III	Information	D	M	0	999999	82
+PCT	Percent Amounts	D	O	0	999999	83
+LX	Transaction Set Line Number	D	O	999999	1	84
+DTP	Date Or Time Or Period	D	O	0	999999	85
+MTX	Text	D	O	0	999999	86
+LQ	Industry Code Identification	D	O	0	999999	87
+AWD	Amount With Description	D	O	0	999999	88
+NM1	Individual Or Organizational Name	D	O	999999	1	89
+N2	Additional Name Information	D	O	0	2	90
+TPB	Business Professional Title	D	O	0	6	91
+REQ	Request Information	D	O	999999	1	92
+AWD	Amount With Description	D	O	0	999999	93
+CRC	Conditions Indicator	D	O	0	999999	94
+QTY	Quantity Information	D	O	0	999999	95
+PCT	Percent Amounts	D	O	0	999999	96
+DTP	Date Or Time Or Period	D	O	0	999999	97
+YNQ	Yes/No Question	D	O	0	999999	98
+MTX	Text	D	O	0	999999	99
+API	Activity Or Process Information	D	O	999999	1	100
+YNQ	Yes/No Question	D	O	0	1	101
+N9	Extended Reference Information	D	O	0	999999	102
+CDS	Case Description	D	O	0	1	103
+DTP	Date Or Time Or Period	D	O	0	999999	104
+BBC	Legal Claims	D	O	0	999999	105
+MEA	Measurements	D	O	0	999999	106
+ASO	Asset Ownership	D	O	0	999999	107
+MTX	Text	D	O	0	999999	108
+PCT	Percent Amounts	D	O	0	999999	109
+LM	Code Source Information	D	O	999999	1	110
+III	Information	D	M	0	999999	111
+CRC	Conditions Indicator	D	O	999999	1	112
+AWD	Amount With Description	D	O	0	999999	113
+NM1	Individual Or Organizational Name	D	O	999999	1	114
+N2	Additional Name Information	D	O	0	2	115
+TPB	Business Professional Title	D	O	0	6	116
+N3	Party Location	D	O	0	2	117
+N4	Geographic Location	D	O	0	1	118
+NX2	Location Id Component	D	O	0	999999	119
+COM	Communication Contact Information	D	O	0	999999	120
+DTP	Date Or Time Or Period	D	O	0	999999	121
+ITC	Information Type And Comment Results	D	O	0	1	122
+MTX	Text	D	O	0	999999	123
+YNQ	Yes/No Question	D	O	0	999999	124
+AWD	Amount With Description	D	O	0	999999	125
+IN1	Individual Identification	D	O	999999	1	126
+IN2	Individual Name Structure Components	D	O	0	999999	127
+TPB	Business Professional Title	D	O	0	3	128
+N3	Party Location	D	O	0	2	129
+N4	Geographic Location	D	O	0	1	130
+NX2	Location Id Component	D	O	0	999999	131
+CED	Administration Of Justice Event Description	D	O	999999	1	132
+DTP	Date Or Time Or Period	D	O	0	999999	133
+MTX	Text	D	O	0	999999	134
+NM1	Individual Or Organizational Name	D	O	0	1	135
+N2	Additional Name Information	D	O	0	2	136
+LM	Code Source Information	D	O	999999	1	137
+LQ	Industry Code Identification	D	M	0	999999	138

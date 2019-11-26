@@ -1,0 +1,54 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTP	Date Or Time Or Period	H	O	0	1	2
+MSG	Message Text	H	O	0	1	3
+N1	Party Identification	H	O	999999	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	2	8
+PER	Administrative Communications Contact	H	O	0	3	9
+SI	Service Characteristic Identification	D	M	999999	1	10
+N9	Extended Reference Information	D	O	0	2	11
+RLT	Real Estate Loan Type	D	O	0	1	12
+REC	Real Estate Condition	D	O	0	1	13
+LN	Loan Information	D	O	0	1	14
+PWK	Paperwork	D	O	0	5	15
+PER	Administrative Communications Contact	D	O	0	2	16
+DTP	Date Or Time Or Period	D	O	0	10	17
+AMT	Monetary Amount Information	D	O	0	20	18
+NTE	Note/Special Instruction	D	O	0	5	19
+CTP	Pricing Information	D	O	0	1	20
+IN1	Individual Identification	D	O	999999	1	21
+IN2	Individual Name Structure Components	D	O	0	12	22
+N3	Party Location	D	O	0	2	23
+N4	Geographic Location	D	O	0	1	24
+REF	Reference Information	D	O	0	1	25
+PER	Administrative Communications Contact	D	O	0	5	26
+NX1	Property Or Entity Identification	D	M	999999	1	27
+NX2	Location Id Component	D	M	0	999999	28
+PDS	Property Description/Legal Description	D	O	0	999999	29
+PDE	Property Metes And Bounds Description	D	O	0	999999	30
+REA	Real Estate Property Information	D	O	0	1	31
+III	Information	D	O	0	5	32
+REC	Real Estate Condition	D	O	0	999999	33
+DTP	Date Or Time Or Period	D	O	0	2	34
+YNQ	Yes/No Question	D	O	0	20	35
+NTE	Note/Special Instruction	D	O	0	10	36
+PWK	Paperwork	D	O	0	2	37
+PER	Administrative Communications Contact	D	O	0	2	38
+AMT	Monetary Amount Information	D	O	0	20	39
+CTP	Pricing Information	D	O	0	1	40
+N1	Party Identification	D	O	999999	1	41
+N2	Additional Name Information	D	O	0	10	42
+N3	Party Location	D	O	0	2	43
+N4	Geographic Location	D	O	0	1	44
+PER	Administrative Communications Contact	D	O	0	1	45
+CRC	Conditions Indicator	D	O	0	1	46
+DFI	Default Information	D	O	0	5	47
+YNQ	Yes/No Question	D	O	0	10	48
+AMT	Monetary Amount Information	D	O	0	5	49
+NTE	Note/Special Instruction	D	O	0	10	50
+OBI	Obligation Information	D	O	0	999999	51
+AIN	Income	D	O	0	10	52
+QTY	Quantity Information	D	O	0	3	53

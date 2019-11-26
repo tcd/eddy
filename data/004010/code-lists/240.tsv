@@ -1,0 +1,20 @@
+id	definition
+145	Empty car under directive CSD145
+150	Unassigned special equipped car that is to be handled in accordance with the provisions of directive CSD150
+155	Empty car under CSD155
+435	Empty car under directive CSD435
+439	Special heavy duty flat car that is to be handled under the provisions of directive CSD439
+145A	Loaded car under directive CSD145 that is to return to agent at city specified
+145S	Loaded car under directive CSD145 that is to return to shipper at billed origin
+145X	Assigned TTX car that is to be returned to shipper at billed origin by reverse of loaded move
+150X	Unassigned TTX car that is to be handled in accordance with trailer train directive 150
+155A	Loaded car under directive CSD155 that is to return to agent at city specified
+155S	Loaded car under directive CSD155 that is to return to shipper at billed origin
+435A	Loaded car under directive CSD435 that is to return to agent at city specified
+435S	Loaded car under directive CSD435 that is to return to shipper at billed origin
+CSR5	Empty Car Moving Under Car Service Rule 5 Charges
+34617	Car being returned per car owner's instructions
+34618	Car being returned per the pool operator's instructions
+34619	Car being returned per AAR/ICC instructions
+CMD1A	Loaded TTX cars under directive CMD1 that are to be returned to the origin road at the city specified
+CMD1S	Loaded TTX cars under directive CMD1 that are to be returned to shipper at billed origin

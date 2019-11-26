@@ -1,0 +1,11 @@
+id	definition
+1	Basic Waybill Trace
+3	Car Series Trace, Submitter in Route
+4	Pool Assignment Trace, Submitter in Route
+6	Car Series Trace, Match on Initial
+8	Pool Assignment Trace, All Waybills
+A	Car Series Trace, Match on Owner
+B	Car Series Trace, Match on Lessee
+C	Car Series Trace, Match on Owner and Lessee
+P	Problem Log Trace
+R	Retrip Trace

@@ -1,0 +1,48 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	5	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	12	6
+PER	Administrative Communications Contact	H	O	0	3	7
+LX	Transaction Set Line Number	D	M	999999	1	8
+REF	Reference Information	D	M	0	12	9
+PDS	Property Description/Legal Description	D	M	0	20	10
+PDE	Property Metes And Bounds Description	D	O	0	999999	11
+NX1	Property Or Entity Identification	D	O	0	1	12
+NX2	Location Id Component	D	O	0	30	13
+PRD	Mortgage Loan Product Description	D	O	0	1	14
+LRQ	Mortgage Characteristics Requested	D	O	0	1	15
+LN1	Loan Specific Data	D	O	0	1	16
+MSG	Message Text	D	O	0	100	17
+IN1	Individual Identification	D	O	999999	1	18
+IN2	Individual Name Structure Components	D	O	0	30	19
+DMG	Demographic Information	D	O	0	1	20
+FPT	Financial Participation	D	O	0	1	21
+N4	Geographic Location	D	O	999999	1	22
+N3	Party Location	D	O	0	2	23
+PER	Administrative Communications Contact	D	O	0	4	24
+MCD	Mortgage Closing Data	D	O	999999	1	25
+AMT	Monetary Amount Information	D	O	0	50	26
+N1	Party Identification	D	O	999999	1	27
+N2	Additional Name Information	D	O	0	2	28
+N3	Party Location	D	O	0	2	29
+N4	Geographic Location	D	O	0	1	30
+REF	Reference Information	D	O	0	12	31
+PER	Administrative Communications Contact	D	O	0	3	32
+AMT	Monetary Amount Information	D	O	0	2	33
+TIS	Title Insurance Services	D	O	999999	1	34
+AMT	Monetary Amount Information	D	O	0	30	35
+PWK	Paperwork	D	O	5	1	36
+N1	Party Identification	D	O	0	1	37
+N2	Additional Name Information	D	O	0	2	38
+N3	Party Location	D	O	0	2	39
+N4	Geographic Location	D	O	0	1	40
+REF	Reference Information	D	O	0	12	41
+PER	Administrative Communications Contact	D	O	0	3	42
+LS	Loop Header	D	O	0	1	43
+TIS	Title Insurance Services	D	O	999999	1	44
+AMT	Monetary Amount Information	D	O	0	30	45
+MSG	Message Text	D	O	0	100	46
+LE	Loop Trailer	D	O	0	1	47

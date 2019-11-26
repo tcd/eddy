@@ -1,0 +1,29 @@
+id	description	section	req	max_loop	max_usage	pos
+G42	Promotion Announcement Identification	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	10	2
+G61	Contact	H	O	0	999999	3
+G62	Date/Time	H	M	0	50	4
+NTE	Note/Special Instruction	H	O	0	300	5
+G43	Promotion/Price List Area	H	O	0	1000	6
+G23	Terms Of Sale	H	O	0	1	7
+N1	Party Identification	H	M	999999	1	8
+N2	Additional Name Information	H	O	0	1	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+G62	Date/Time	H	O	0	999999	12
+G94	Promotion Conditions	H	O	20	1	13
+G95	Performance Requirements	H	O	0	99	14
+LX	Transaction Set Line Number	D	O	9999	1	15
+G46	Promotion Allowance/Charge	D	O	0	20	16
+G51	Free Goods/Product Condition	D	O	0	1	17
+G94	Promotion Conditions	D	O	20	1	18
+G95	Performance Requirements	D	O	99	1	19
+G62	Date/Time	D	O	0	2	20
+G45	Line Item Detail - Promotion	D	O	9999	1	21
+G69	Line Item Detail - Description	D	O	0	5	22
+G43	Promotion/Price List Area	D	O	0	9999	23
+G51	Free Goods/Product Condition	D	O	0	10	24
+G23	Terms Of Sale	D	O	0	1	25
+G62	Date/Time	D	O	0	10	26
+G22	Pre-Pricing Information	D	O	0	1	27
+QTY	Quantity Information	D	O	0	10	28

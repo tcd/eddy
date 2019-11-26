@@ -1,0 +1,39 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+NM1	Individual Or Organizational Name	H	O	999999	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+N9	Extended Reference Information	H	O	0	999999	7
+PER	Administrative Communications Contact	H	O	0	999999	8
+DTM	Date/Time Reference	H	O	0	999999	9
+SPI	Specification Identifier	D	M	999999	1	10
+HL	Hierarchical Level	D	M	999999	1	11
+LM	Code Source Information	D	M	999999	1	12
+LQ	Industry Code Identification	D	M	999999	1	13
+N9	Extended Reference Information	D	O	0	999999	14
+DTM	Date/Time Reference	D	O	0	999999	15
+MEA	Measurements	D	O	0	999999	16
+QTY	Quantity Information	D	O	0	999999	17
+PDL	Payment Details	D	O	0	1	18
+AMT	Monetary Amount Information	D	O	0	999999	19
+YNQ	Yes/No Question	D	O	0	999999	20
+VEH	Vehicle Information	D	O	0	999999	21
+DVI	Dynamic Vehicle Information	D	O	0	999999	22
+TC2	Commodity	D	O	0	999999	23
+N12	Equipment Environment	D	O	0	999999	24
+H1	Hazardous Material	D	O	0	999999	25
+MSG	Message Text	D	O	0	999999	26
+NM1	Individual Or Organizational Name	D	O	999999	1	27
+N2	Additional Name Information	D	O	0	2	28
+N3	Party Location	D	O	0	2	29
+N4	Geographic Location	D	O	0	1	30
+N9	Extended Reference Information	D	O	0	999999	31
+PER	Administrative Communications Contact	D	O	0	999999	32
+EMS	Employment Position	D	O	0	1	33
+DTM	Date/Time Reference	D	O	0	999999	34
+MEA	Measurements	D	O	0	999999	35
+QTY	Quantity Information	D	O	0	999999	36
+YNQ	Yes/No Question	D	O	0	999999	37
+TD5	Carrier Details (Routing Sequence/Transit Time)	D	O	0	999999	38

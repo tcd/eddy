@@ -1,0 +1,10 @@
+id	definition
+DSM	Disconnect Service Message
+ERS	Error Recovery Service Message
+ESM	Error Service Message
+KSM	Key Service Message
+PKS	Public Key Service Message
+RFS	Request for Service Message
+RSI	Request for Service Initiation Message
+RSM	Response Service Message
+RTR	Response to Request Message

@@ -1,0 +1,22 @@
+id	definition
+01	Foreclosure
+02	Law Suit
+03	Outstanding Judgment
+04	Tax Lien
+05	Support Debt
+06	Bankruptcy
+07	Garnishment
+08	Repossession
+09	Collection
+10	Divorce Decree
+11	Custody Agreement
+12	Financing Statement (Secured Loan)
+13	Lien
+14	Non-responsibility
+15	Financial Counseling
+16	Fictitious Name
+17	Notice of Default
+18	Forcible Detainer
+19	Unlawful Detainer
+20	Other Public Record or Obligation Type
+ZZ	Mutually Defined

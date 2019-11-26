@@ -1,0 +1,11 @@
+id	definition
+AA	Air Hours
+AD	Air Days
+CD	Calendar Days (Includes weekends and Holidays)
+CW	Calendar Weeks (7 Day)
+HO	Hours
+SD	Surface Days
+SH	Surface Hours
+WD	Working Days (Excludes weekends and holidays)
+WW	5 Day Work Week
+ZZ	Mutually Defined

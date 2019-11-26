@@ -1,0 +1,30 @@
+id	definition
+N2	Nitrogen Gas
+ATM	Atmosphere Controlled
+C02	Carbon Dioxide Gas
+CLE	Clean Exterior
+DHT	Door Height Requirement
+DWI	Door Width Requirement
+FAP	Use Flatrack as Platform
+GEN	Genset Required
+LIN	Liner Attached
+MCP	Moisture Content Requirement
+MOI	Moisture Free
+NDO	Door Off
+NOI	Oil Stain Free
+ODF	Odor Free
+PCO	Pre-cooled
+PRE	Pre-mount Required
+PSE	Pre-set Temperature
+RAD	Reefer Used As Dry
+RUS	Rust Free
+SLI	Slider Chassis
+SMO	Smoke Test
+STE	Steam Cleaned
+SUB	Substitution Allowed
+SUR	Survey Required
+TBT	Timber Treated
+TEC	Tectrol Gas
+VOD	Dual Voltage Required
+VOS	Single Voltage Required
+YEA	Year of Manufacture Requirement

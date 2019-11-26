@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+GR	Guarantee Result Detail	H	M	0	1	2
+LV	Loan Verification	H	O	0	25	3
+DB	Disbursement Information	H	O	0	10	4
+DTP	Date Or Time Or Period	H	O	0	10	5
+IDB	Indebtedness For Student Loans	H	O	0	1	6
+REF	Reference Information	H	O	0	5	7
+ENT	Entity	H	M	10	1	8
+IN2	Individual Name Structure Components	H	O	0	5	9
+DMG	Demographic Information	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12

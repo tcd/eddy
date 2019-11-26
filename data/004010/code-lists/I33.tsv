@@ -1,0 +1,25 @@
+id	definition
+A1	The Interconnect Mailbag Acknowledgment Count is Not Equal to the Actual Interconnect Mailbag Acknowledgment Count
+B1	The Interconnect Mailbag Interchange Count is Not Equal to the Actual Interconnect Mailbag Interchange Count
+C1	The IH and IT Mailbag Header and Trailer Control Numbers Are Not Identical
+D1	Invalid Interconnect Mailbag Version Number
+E1	Invalid Interconnect Mailbag Logon ID
+F1	Invalid Interconnect Mailbag Password
+G1	Invalid Interconnect Mailbag ID Qualifier Code
+H1	Invalid Interconnect Mailbag Sender ID
+I1	Invalid Interconnect Mailbag Receiver ID
+J1	Invalid Interconnect Mailbag Date
+K1	Invalid Interconnect Mailbag Time
+L1	Invalid Interconnect Mailbag Time Code
+M1	Invalid Interconnect Mailbag Test Indicator
+N1	Invalid Interconnect Mailbag Action Code
+O1	Invalid Interconnect Mailbag Error Code
+P1	Invalid Interconnect Mailbag Control Number
+Q1	Invalid Interconnect Mailbag Acknowledgment Count
+R1	Invalid Interconnect Mailbag Interchange Count
+S1	Invalid Interconnect Mailbag Data Element Separator
+T1	Invalid Interconnect Mailbag Segment Terminator
+U1	Invalid Interconnect Mailbag Segment Type
+V1	Missing or Partial IT Segment Detected
+W1	Duplicate Mailbag Control Number for this Sender
+X1	Unrecognizable Interconnect Mailbag Contents

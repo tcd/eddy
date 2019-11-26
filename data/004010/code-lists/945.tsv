@@ -1,0 +1,30 @@
+id	definition
+01	Bore
+02	Rim
+03	Web
+04	Leg
+05	Integral Test Ring
+06	Slug
+07	Interior Front
+08	Interior Back
+09	Center of Thickness
+10	Ladle
+11	Front
+12	Back
+13	Center
+14	Core
+15	Mid-Radius
+16	Surface
+17	Heaviest Section
+18	Quarter Thickness
+19	One-Third Radius
+20	Operator Edge
+21	Center of Width
+22	Drive Edge
+23	Top
+24	Bottom
+30	Inside
+31	Upper Left Quadrant
+32	Upper Right Quadrant
+33	Lower Left Quadrant
+34	Lower Right Quadrant

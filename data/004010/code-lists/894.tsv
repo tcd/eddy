@@ -1,0 +1,13 @@
+id	definition
+01	Regular
+02	Modified
+03	Errors
+04	Late
+05	Returns
+06	Advance or Deposit
+07	Collection Status
+09	Cashless
+10	Resubmission
+11	Miscellaneous Debit
+12	Miscellaneous Credit
+13	Insufficient Information

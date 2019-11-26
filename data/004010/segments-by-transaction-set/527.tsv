@@ -1,0 +1,48 @@
+id	description	section	req	max_loop	max_usage	pos
+BR	Beginning Segment For Material Management	H	M	0	1	1
+G62	Date/Time	H	O	0	5	2
+NTE	Note/Special Instruction	H	O	0	5	3
+LM	Code Source Information	H	O	50	1	4
+LQ	Industry Code Identification	H	M	0	100	5
+N1	Party Identification	H	M	20	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+G61	Contact	H	O	0	5	10
+LIN	Item Identification	D	M	999999	1	11
+CS	Contract Summary	D	O	0	1	12
+N9	Extended Reference Information	D	O	0	10	13
+RCD	Receiving Conditions	D	M	999999	1	14
+G62	Date/Time	D	O	0	10	15
+GF	Furnished Goods And Services	D	O	0	1	16
+DD	Demand Detail	D	O	0	100	17
+N9	Extended Reference Information	D	O	0	5	18
+AMT	Monetary Amount Information	D	O	0	1	19
+NTE	Note/Special Instruction	D	O	0	5	20
+G66	Transportation Instructions	D	O	0	5	21
+LM	Code Source Information	D	O	25	1	22
+LQ	Industry Code Identification	D	M	0	100	23
+CS	Contract Summary	D	O	999999	1	24
+PO4	Item Physical Details	D	O	0	1	25
+N9	Extended Reference Information	D	O	0	5	26
+G62	Date/Time	D	O	0	5	27
+G69	Line Item Detail - Description	D	O	0	5	28
+LM	Code Source Information	D	O	25	1	29
+LQ	Industry Code Identification	D	M	0	100	30
+N1	Party Identification	D	O	25	1	31
+N2	Additional Name Information	D	O	0	2	32
+N3	Party Location	D	O	0	2	33
+N4	Geographic Location	D	O	0	1	34
+G61	Contact	D	O	0	1	35
+REF	Reference Information	D	O	999999	1	36
+G62	Date/Time	D	O	0	10	37
+N9	Extended Reference Information	D	O	0	999999	38
+N1	Party Identification	D	O	0	1	39
+LM	Code Source Information	D	O	50	1	40
+LQ	Industry Code Identification	D	M	0	100	41
+QTY	Quantity Information	D	O	999999	1	42
+N1	Party Identification	D	O	0	1	43
+LM	Code Source Information	D	O	100	1	44
+LQ	Industry Code Identification	D	M	0	100	45
+FA1	Type Of Financial Accounting Data	D	O	999999	1	46
+FA2	Accounting Data	D	M	0	999999	47

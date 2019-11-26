@@ -1,0 +1,22 @@
+id	definition
+KD	Data Key
+KK	Key - Encrypting Key
+CTA	Count, "A"
+CTB	Count, "B"
+CTP	Count, Pair
+CTR	Count, "R"
+EDC	Error Detection Code
+ERF	Error Field
+IDA	Identity of Key for Authentication
+IDC	Identity of Key Distribution Center (CKD) or Key Translation Center (CKT)
+IDD	Discontinued Key Name
+IDU	Identity of Ultimate Recipient (the Security Recipient)
+KDU	Data Key, Notarized
+KKU	Key - Encrypting Key Notarized
+MAC	Message Authentication Code
+NOS	Notarization Flag
+PKK	Key - Encrypting Key Pair (*KK)
+SVR	Service Request
+TID	Transaction Identification Number
+PKKU	Key - Encrypting Key Pair, Notarized (*KKU)
+SUBF	Subfield of Previous Field Tag

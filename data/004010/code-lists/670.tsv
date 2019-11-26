@@ -1,0 +1,30 @@
+id	definition
+AI	Add Additional Item(s)
+CA	Changes To Line Items
+CB	Change of Date Terms
+CC	Changes To Terms
+CE	Changes To Item Level Allowance/Charges
+CF	Cancel Previously Transmitted Purchase Order
+CG	Changes To Total Level Allowance/Charges
+CH	Change To Original Confirmation Of Original Announcement
+CI	Change To Confirmation Of Revised Announcement
+CT	Change of Dates
+DI	Delete Item(s)
+MU	(Multiple) For Unit Price Quantity Reschedule Change
+NC	Concurrent Item (No Change)
+OA	Original Confirmation Of Revised Announcement
+OC	Original Confirmation Of Original Announcement
+PC	Price Change
+PQ	Unit Price/Quantity Change
+PR	Unit Price/Reschedule Change
+QD	Quantity Decrease
+QI	Quantity Increase
+RA	Replace Mode of Shipment
+RB	Replace All Dates
+RC	Reject Item Change
+RE	Replacement Item
+RM	Replacement Item with Modifications
+RQ	Reschedule/Quantity Change
+RS	Reschedule
+RZ	Replace All Values
+TI	Transfer Item

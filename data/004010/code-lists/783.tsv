@@ -1,0 +1,16 @@
+id	definition
+AA	Customized Ordering Forecast
+MM	Manufacturer to Manufacturer
+MN	Consumer Sales Forecast
+MP	Manufacturer to Publisher
+OS	Operator to Shipper
+OT	Operator to Transporter
+PM	Publisher to Manufacturer
+PS	Purchaser to Seller
+SO	Seller to Operator
+ST	Shipper to Transporter
+TO	Transporter to Operator
+TS	Transporter to Shipper
+TT	Transporter to Transporter
+XA	Requirement Forecast
+XF	War Reserve Forecast

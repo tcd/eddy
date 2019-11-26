@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+VR	Rate Origin	H	M	0	1	1
+G62	Date/Time	H	M	0	3	2
+RT	Rate Destination	H	M	99	1	3
+RT1	Rate Detail	H	M	0	99	4

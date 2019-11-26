@@ -1,0 +1,23 @@
+id	definition
+01	Total Offspring
+02	Males Born Alive
+03	Males Born Dead
+04	Females Born Alive
+05	Females Born Dead
+06	Unsexables Born Alive
+07	Unsexables Born Dead
+08	Non-sexed Born Alive
+09	Non-sexed Born Dead
+10	Live Male Offspring
+11	Dead Male Offspring
+12	Live Female Offspring
+13	Dead Female Offspring
+14	Missing Male Offspring
+15	Missing Female Offspring
+16	Cannibalized Male Offspring
+17	Cannibalized Female Offspring
+18	Sacrificed Male Offspring
+19	Sacrificed Female Offspring
+20	Culled Male Offspring
+21	Culled Female Offspring
+ZZ	Mutually Defined

@@ -1,0 +1,21 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	0	3	1
+DTM	Date/Time Reference	H	M	0	1	2
+PER	Administrative Communications Contact	H	O	0	3	3
+ENT	Entity	D	M	999999	1	4
+G53	Maintenance Type	D	M	0	1	5
+DTM	Date/Time Reference	D	M	0	1	6
+N2	Additional Name Information	D	O	0	1	7
+N3	Party Location	D	O	0	2	8
+N4	Geographic Location	D	O	0	1	9
+PER	Administrative Communications Contact	D	O	0	3	10
+N1	Party Identification	D	O	0	100	11
+N9	Extended Reference Information	D	O	0	10	12
+G13	Store Size Attributes	D	O	0	1	13
+G18	Store Category Size	D	O	0	30	14
+G29	Store Display Information	D	O	0	10	15
+G30	Retail Account Marketing Types	D	O	0	10	16
+SPR	Supplier Rating	D	O	0	1	17
+RDI	Retail Account Demographic Information	D	O	0	999999	18
+LM	Code Source Information	D	O	999999	1	19
+LQ	Industry Code Identification	D	M	0	10	20

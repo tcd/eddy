@@ -1,0 +1,57 @@
+id	definition
+01	First grade
+02	Second grade
+03	Third grade
+04	Fourth grade
+05	Fifth grade
+06	Sixth grade
+07	Seventh grade
+08	Eighth grade
+09	Ninth grade
+0K	Kindergarten
+10	Tenth grade
+11	Eleventh grade
+12	Twelfth grade
+20	Non-Degree or Temporary Undergraduate in Postsecondary school
+21	Postsecondary First Year Student
+22	Postsecondary Sophomore
+23	Postsecondary Junior
+24	Postsecondary Senior
+25	Postsecondary Post-Baccalaureate Student
+26	Postsecondary Non-Degree Graduate Student
+27	Postsecondary Professional Student
+28	Postsecondary Master's Degree Student
+29	Postsecondary Doctoral Student
+30	Postdoctoral Student
+31	Postsecondary Bachelor Preliminary Year
+32	Postsecondary Fifth Year Student
+33	Postsecondary Masters Qualifying Year
+AD	Adult
+AS	Associate Degree
+BD	Baccalaureate (Bachelor's) Degree
+C2	Medical Test (Trial)
+DD	Doctoral Degree
+EL	Elementary School
+EM	Employment
+HG	High School Graduate or Equivalent
+HS	Attended high school, but did not graduate.
+IF	Infant (0 to age 2)
+IN	Intramural
+MD	Master's Degree
+MS	Middle or Junior High School
+NO	None
+P0	Pre-Kindergarten Level 0
+P1	Pre-Kindergarten Level 1
+P2	Pre-Kindergarten Level 2
+P3	Pre-Kindergarten Level 3
+P4	Pre-Kindergarten Level 4
+P5	Pre-Kindergarten Level 5
+PC	Postsecondary Certificate or Diploma
+PD	Professional Degree or Certification
+PF	Professional
+PK	Pre-Kindergarten
+PS	Some Postsecondary (e.g., college)
+SS	Secondary School
+UN	Ungraded
+VR	Varsity
+VS	Vocational School

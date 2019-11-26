@@ -1,0 +1,2 @@
+id	name	type	min	max	description
+788	Block Length	N	1	5	Quantity of data elements in a block, usually specified in units such as records, words or characters; synonym for "block size" 

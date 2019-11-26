@@ -1,0 +1,31 @@
+id	definition
+1	Pretax
+2	Post-tax
+3	Qualified
+4	Non-qualified
+5	401K
+6	Individual Retirement Account
+7	Keogh
+8	Simplified Employee Pension
+9	Single Premium
+A	First to Die
+B	Last to Die
+C	Child Rider
+D	Discontinue One-Bill Submission
+N	Benefit Continuation
+O	One-Bill Submission
+S	Salary Continuation
+10	Flexible Premium
+11	Variable Premium
+12	Fixed Premium
+13	Registered under the Income Tax Act of Canada
+14	Non-Registered under the Income Tax Act of Canada
+15	Registered Spousal Case
+28	Exclusive
+29	Shopped
+30	Lead Reinsurer
+31	Facultative Excess
+BA	Bank Account
+GA	Government Allocation
+NC	One-Bill Submission Not Chosen
+PD	Payroll Deduction

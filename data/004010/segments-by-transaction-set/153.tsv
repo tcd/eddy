@@ -1,0 +1,23 @@
+id	description	section	req	max_loop	max_usage	pos
+BTI	Beginning Tax Information	H	M	0	1	1
+N1	Party Identification	H	M	999999	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	1	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+AMT	Monetary Amount Information	H	O	0	999999	7
+PCT	Percent Amounts	H	O	0	999999	8
+CHB	Chargeback Information	H	O	0	999999	9
+DTM	Date/Time Reference	H	O	0	999999	10
+PER	Administrative Communications Contact	H	O	0	999999	11
+NM1	Individual Or Organizational Name	D	M	999999	1	12
+DPN	Dependent Information	D	O	0	999999	13
+REF	Reference Information	D	O	0	999999	14
+AMT	Monetary Amount Information	D	O	0	999999	15
+PCT	Percent Amounts	D	O	0	999999	16
+CHB	Chargeback Information	D	O	0	999999	17
+DTM	Date/Time Reference	D	O	0	999999	18
+MSG	Message Text	D	O	0	999999	19
+PAM	Period Amount	D	O	999999	1	20
+REF	Reference Information	D	O	0	999999	21
+CHB	Chargeback Information	D	O	0	999999	22

@@ -1,0 +1,31 @@
+id	definition
+AA	From date of PO receipt to sample ready
+AB	From date of tooling authorization to sample ready
+AC	From date of receipt of tooling aids to sample ready
+AD	From date of sample approval to first product shipment
+AE	From date of PO receipt to shipment
+AF	From date of PO receipt to delivery
+AG	From last booked order to delivery
+AH	From Date of Receipt of First Article to First Article Approval
+AI	From Date of a Specified Event to Delivery
+AJ	From Date of First Delivery to Date of Subsequent Delivery(ies)
+AK	From Date Of Latest Delivery To Final Delivery
+AL	From Date Of Purchase Order or Contract Receipt To Product Ready
+AM	From Date Of Previous Delivery To Date Of Subsequent Delivery
+AP	From Date of Award to Midpoint of Effort
+AR	From Date of Award to Government Receipt of Bond
+AS	Before inventory is replenished based on stock check
+AT	From Bid Opening to Expiration of Bid
+AU	From Required-By Date to Expiration Date
+AV	From Date of Award to Date of Latest Delivery
+AW	From Date of Award to Date of Earliest Delivery
+AX	From Date of Award to Date of Completion
+AY	From Date of Award to Date of Delivery
+AZ	From Date of Receipt of Item to Date of Approval of Item
+BA	From Date of Award to Expiration Date of Authorization
+BB	From Date of Order Preparation to Date of Order Placement
+BC	From Date of Award to Commencement of Performance
+BD	From Date of Award to Date of Option Exercise
+BE	From Date of Option Exercise to Date of Completion
+BF	From Date of Option Exercise to Date of Delivery
+BG	From Date of a Specified Event to Date of Option Exercise

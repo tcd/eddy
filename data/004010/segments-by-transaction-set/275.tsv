@@ -1,0 +1,26 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	O	0	1	1
+DTM	Date/Time Reference	H	O	0	3	2
+TRN	Trace	H	O	0	5	3
+NM1	Individual Or Organizational Name	H	O	999999	1	4
+IN1	Individual Identification	H	O	0	1	5
+DMG	Demographic Information	H	O	0	3	6
+PRV	Provider Information	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	2	8
+REF	Reference Information	H	O	0	5	9
+DTP	Date Or Time Or Period	H	O	0	1	10
+NX1	Property Or Entity Identification	H	O	5	1	11
+N3	Party Location	H	O	0	1	12
+N4	Geographic Location	H	O	0	1	13
+LX	Transaction Set Line Number	D	O	999999	1	14
+TRN	Trace	D	O	0	1	15
+STC	Status Information	D	O	0	1	16
+NM1	Individual Or Organizational Name	D	O	0	1	17
+PRV	Provider Information	D	O	0	1	18
+PER	Administrative Communications Contact	D	O	0	1	19
+REF	Reference Information	D	O	0	5	20
+DTP	Date Or Time Or Period	D	O	999999	1	21
+CAT	Category Of Patient Information Service	D	O	0	1	22
+PID	Product/Item Description	D	O	0	1	23
+EFI	Electronic Format Identification	D	O	1	1	24
+BIN	Binary Data Segment	D	M	0	1	25

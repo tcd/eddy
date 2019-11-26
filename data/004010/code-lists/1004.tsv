@@ -1,0 +1,207 @@
+id	definition
+1	Lease Rate Factor
+2	Early Termination Rate
+3	Renewal Rate
+4	Renewal Rate Cap
+5	One Family
+6	2-4 Family
+7	Multifamily
+8	Commercial
+9	Other
+A	Non-recoverable Depreciation
+B	Recoverable Depreciation
+C	Depreciation
+D	Overhead on Recoverable Depreciation
+E	Profit on Recoverable Depreciation
+F	Overhead
+M	Miscellaneous Ownership Percentage
+N	Net Profit Payment Ownership Percentage
+O	Overriding Royalty Payment Ownership Percentage
+P	Production Payment Ownership Percentage
+R	Royalty Ownership Percentage
+S	Special Overriding Royalty Ownership Percentage
+T	Tax Ownership Percentage
+W	Working Ownership Percentage
+X	Purchase Ownership Percentage
+01	Guaranteed Interest Rate
+02	Locked Interest Rate
+05	Target Fee or Profit
+06	Current Schedule Variance
+07	Current Cost Variance
+08	Cumulative Schedule Variance
+09	Cumulative Cost Variance
+10	Complete
+11	Remaining
+12	Vacant
+13	Owner Occupancy
+14	Availability Factor
+15	Efficiency Factor
+16	Scrap or Rework Yield
+17	Physical (Percent) Completed
+18	Percent of Value
+19	Premium Rate
+20	Loan-to-Value Balance Remaining
+21	Annual Demand Quantity Weighting Factor
+22	Annual Demand Value Weighting Factor
+23	Essentiality Weighting Factor
+24	Procurement Lead-time Weighting Factor
+25	Months To Procurement Weighting Factor
+26	Annual Demand Frequency Weighting Factor
+27	Tenant Occupancy
+28	Occupancy Rate
+30	Active Contracts Delinquent-Contractor Caused
+31	Active Contracts Delinquent-All Causes
+32	Active Line Items Delinquent-Contactor Caused
+33	Active Line Items Delinquent-All Causes
+34	Contracts Completed Delinquent-Contractor Caused
+35	Contracts Completed Delinquent-All Causes
+36	Line Items Completed Delinquent-Contractor Caused
+37	Line Items Completed Delinquent-All Causes
+38	Delinquent Active Line Items in the Aging Population
+40	Participation
+41	Servicing Fee
+42	Percentage of Original Loan Amount
+43	Percentage of Principal Balance
+44	Percentage of Principal and Interest Payment
+45	Percentage of Total Mortgage Payment
+46	Guarantee Fee Per Contract
+47	Guarantee Fee After Alternate Payment Method
+48	Guarantee Fee After Buyup or Buydown
+49	Buyup or Buydown Rate per Basis Point
+50	Security Margin
+51	Insurance Coverage
+52	Guarantee Amount
+53	Participation Retained or Owned
+59	Basement Finished
+60	Late Charge Rate
+61	Original Annual Interest Rate
+62	Default Interest Rate
+63	Default Note Holder's Rate
+64	Original Index Value
+65	Indebtedness
+66	Liquid Ratio
+67	Net Worth to Total Assets
+68	Subcontracted
+69	Percent of Points Paid by Borrower
+70	Percent of Points Paid by Seller
+71	Percent of Points Paid by Other
+72	Cooperative
+76	Sales per Employee
+77	Sales to Net Working Capital
+78	Tax Percentage Factor
+79	Total Liability to Net Worth
+80	Percentage of Time
+81	Predominant Occupancy Vacant
+82	Asset to Sales
+83	Capital per Employee
+84	Cash Sales
+85	Collection Period (Days)
+86	Costs per Employee
+87	Accounts Payable (Creditors) to Sales
+88	Current Liabilities to Net Worth
+89	Current Liabilities to Inventory (Stock)
+90	Current Ratio
+91	Fixed Assets to Net Worth
+92	Inventory (Stock) Turnover
+93	Profit per Employee
+94	Quick Ratio (Acid Test)
+95	Retainage Required for Project
+96	Return on Assets
+97	Return on Sales (Profit Margin)
+98	Return on Capital
+99	Shareholders' Return (Return on Net Worth)
+AB	Contracts Obtained by Negotiation
+AC	Cost Plus Basis
+AD	Lump Sum Payments
+AE	Purchases on Letter of Credit
+AF	Purchases on Floor Plan
+AG	Change in Sales
+AH	Change in Profit
+AI	Damage
+AJ	Interest on Liabilities
+AK	Risk Margin
+AL	Liability Ratio
+AM	Interest Cover
+AN	Annual Limit
+AP	Allocation
+AR	Accounts Receivable Turnover
+AT	Apartments
+BA	All Shares of Stock Owned
+BB	Class of Stock Owned
+BC	Voting Shares Issued
+BD	Property in County
+BE	Property in State
+BF	Apportionment
+BG	Bid Guarantee
+BH	Ownership
+BP	Total Base Period Wages
+BS	Business Portion
+BU	Built-up
+CA	Contribution
+CB	Commission
+CH	Change
+CJ	Charge
+CN	Condominium
+CO	Corporate
+CP	Contract to Lease
+CR	Contractor Share Ratio
+CS	Customer Share Ratio
+CU	Capacity Used
+DF	Decrement Factor
+DY	Per Day Limit
+EA	Estimate Accuracy
+EF	Escalation Factor
+EP	Expense Percentage
+FT	Fault Isolation Time
+FV	Forecasted Vacancy and Collection Loss
+GA	Gross Adjustment
+IA	Intersell
+IN	Industrial
+KA	Variation in Quantity Over
+KB	Variation in Quantity Under
+LM	Limit
+MA	Maximum Allowable Withholding from Disposable Income
+MN	Monthly Limit
+MS	Market Share
+MX	Maximum Owned by Small Shareholders
+NA	Net Adjustment
+NH	New Homes
+OC	Overall Capitalization Rate
+OF	Offtake
+OH	Outside Hours
+OP	Option Percentage
+PA	Lease Production
+PC	Primary Coverage
+PD	Paid in Capital
+PF	Per Person Deductible
+PH	Per Occurrence Deductible
+PM	Per Person Monthly Limit
+PN	Per Occurrence Monthly Limit
+PP	Per Person Limit
+PR	Per Occurrence Limit
+PT	Previous Participation
+PV	Percent of Value of Real Estate Taxes
+RA	Above Share
+RB	Below Share
+RC	Contractor Above Share
+RD	Contractor Below Share
+RF	Fixed Fee Rate
+RG	Progress Payment Rate
+RI	Incentive Fee Rate
+RL	Progress Payment Liquidation Rate
+RO	Real Estate Owned and Foreclosures
+RP	Royalty
+RQ	Estimated
+RR	Alternate Progress Payment Liquidation Rate
+RS	Resale
+SA	Set Aside
+SC	Subcontracted Costs
+SD	Moisture Content
+SE	Protein Content
+SF	Percent Dockage
+SG	Test Weight
+TP	Tract
+WI	Working Interest
+WK	Per Week Limit
+X1	Interest
+XT	Asset Turnover

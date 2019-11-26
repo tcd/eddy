@@ -1,0 +1,21 @@
+id	definition
+00	Not Used, Too New to Rate, or Unclassified
+01	Current or Account Paid According to Terms
+02	30-59 Days Past Due
+03	60-89 Days Past Due
+04	90-119 Days Past Due
+05	120 Days or More Past Due
+07	Making Payments Under Wage Earner Plan
+08	Repossession
+09	Bad Debt Placed for Collection
+10	Currently Active
+11	Currently Owing
+12	Currently Past Due
+13	Paid Anticipate
+14	Paid Discount
+15	Paid in Cash
+16	Paid Prompt
+17	Paid Slow
+18	Placed for Collection Paid
+19	Placed for Collection Partially Paid
+20	Unfavorable Comments

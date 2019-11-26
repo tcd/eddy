@@ -1,0 +1,60 @@
+id	definition
+AOG	Declined - Loss or Damage Due to Act of God - See Correspondence
+CAC	Amend - Correction to Amount Claimed - Keying or Transmission Error
+CCD	Declined - Carrier Disagrees with Consignee Damages Noted - Documentation to Follow
+CDC	Amend - Compromise Offered on Concealed Damage
+CDI	Declined - Carriers Not Given an opportunity to Inspect Claimed Damages
+CFO	Declined - Claim for Other than Loss, Damage or Delay to Shipment - See Correspondence
+CFT	Declined - Claim Not Filed within Time Limits of Contract of Carriage
+CIB	Amend - Claim on Incorrect Basis - Sales Loss vs Market Decline, or Retail vs Invoice
+CIC	Amend - Correction to Initial Claim Filed for Preliminary Estimate
+CNG	Amend - Destination Inspection Reveals Contributory Negligence - Compromise Settlement Offered
+CNL	Amend - Destination Inspection Reveals Not Carrier Liability - Salvage Proceeds Offered in Settlement
+CSD	Declined - Claim Supporting Documentation Required by Carrier
+CSO	Amend - Compromise Settlement Offered for Other Reasons - See Correspondence
+CSR	Amend - Clear Seal Record on Shortage Portion of Claim
+CTA	Amend - Coal Tolerance Allowance Deducted
+DAM	Amend - Damaged Merchandise Not Refused to Carrier Salvage Allowance Deducted
+DDO	Declined - Delay due to Owner in Releasing or Reconsigning Shipment - See Correspondence
+DMN	Amend - Part of Claim For Manufacturing Defect or Omission Not Noted During Inspection
+DNH	Declined - Did Not Handle Claimed Shipment - See Correspondence
+DNI	Declined - Did Not Handle Claimed Shipment - No Correspondence to Follow
+DNR	Amend - Concealed Damage or Shortage Not Reported to Carrier
+DNS	Declined - Claimed Damages Not Segregated for Inspection
+DOA	Declined - Shipment Involved in a Derailment or Another Carrier's Line
+DPS	Declined - No Market Decline on Delayed Perishable Shipments
+DSA	Amend - Invoice Discounts or Special Allowances Not Deducted
+DUP	Declined - Duplicate Claim - See Correspondence
+FIS	Declined - Claim for Delay Filed on Incorrect Schedule - See Correspondence
+GSA	Amend - Grain Shrinkage Allowance Deducted
+GWL	Amend - Settlement on Gross Weight Loss or Other Scale Differences
+IAW	Amend - Improper Average Weights Used in Determining Loss
+ICC	Amend - Incorrect Calculation of Claim - See Correspondence
+INC	Declined - Claim Filed with Intermediate Carrier
+INF	Declined - Request for Delayed Inspection Not Properly Filed
+MAN	Amend - Origin Inspection Reveals Part of Claim Due to Manufacturing Defects or Omissions
+MDD	Declined - Claimed Damage is Manufacturing Defect, Not Transportation Damage - See Report
+NCA	Declined - Non-Compliance with Memorandum of Agreement - See Correspondence
+NCR	Amend - Destination Inspection Reveals Part of Claim Not Carrier Responsibility
+NDI	Declined - Claimed Damage or Shortage Noted During Origin Inspection - See Report
+NFT	Amend - Claim Not Filed within Time Limits of Contract of Carriage - Salvage Proceeds Offered in Settlement
+NLI	Declined - No Liability Indicated - See Correspondence
+NNI	Declined - Claimed Damage or Shortage not Noted During Destination Inspection - See Report
+NRC	Declined - Claimed Damage or Shortage not Reported to Carrier
+OCC	Declined - No Answer to Outstanding Correspondence from Claimant
+OTH	Declined - Declined for Other Reasons - See Correspondence
+RAC	Declined - Refiled - Amended Claim - No Documentation to Follow
+RAD	Declined - Amended Claim - Documentation to Follow
+RUC	Declined - Refiled - Unamended Claim -No Documentation to Follow
+RUD	Declined - Refiled - Unamended Claim - Documentation to Follow
+SMA	Declined - Salvageable Material Not Available to Carrier
+SNA	Declined - Compromise Settlement Not Accepted
+SRD	Declined - Shipper Responsible for Damage - See Correspondence
+SRE	Amend - Origin Inspection Reveals Shipper Responsibility - Salvage Proceeds Offered in Settlement
+VDC	Declined - Vehicle Damage Claimed Does Not Qualify for Deferred Inspection
+VDD	Declined - Vehicle Delivered Subject to Inspection - Not Notified of Damage
+VDI	Declined - Vehicle Delivered Subject to Inspection - Not Notified within Required Time Period
+VDQ	Declined - Vehicle Damage Claimed Does Not Qualify as Concealed Damage
+VDS	Declined - Damage Severity of Vehicle Undercarriage Does Not Justify Part Replacement
+VIS	Declined - Nature or Location of Vehicle Interior Damage Not Carrier Liability
+VRP	Declined - Vehicle Repair Not Performed as Represented on Claim - Documentation to Follow

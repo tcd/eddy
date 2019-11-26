@@ -1,0 +1,3 @@
+id	description	section	req	max_loop	max_usage	pos
+B1	Beginning Segment For Booking Or Pickup/Delivery	H	M	0	1	1
+L11	Business Instructions And Reference Number	H	O	0	1	2

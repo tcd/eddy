@@ -1,0 +1,18 @@
+id	definition
+00	Company Non-Classified
+01	Company Internal Use Only
+02	Company Confidential
+03	Company Confidential, Restricted (Need to Know)
+04	Company Registered (Signature Required)
+05	Personal
+06	Supplier Proprietary
+09	Company Defined (Trading Partner Level)
+11	Competition Sensitive
+20	Court Restricted
+21	Juvenile Record Restricted
+90	Government Non-Classified
+92	Government Confidential
+93	Government Secret
+94	Government Top Secret
+99	Government Defined (Trading Partner Level)
+ZZ	Mutually Defined

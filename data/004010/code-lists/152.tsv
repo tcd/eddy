@@ -1,0 +1,527 @@
+id	definition
+15	Speed Restricted to 15 Miles per Hour
+25	Speed Restricted to 25 Miles per Hour
+35	Speed Restricted to 35 Miles per Hour
+45	Speed Restricted to 45 Miles per Hour
+AB	Car is Air Brake Controlled
+AK	Attachment - Auto Keys
+AT	Attachment to Move with Car
+AV	Annual Volume
+AW	Attachments - Advance Only Waybill
+BA	Clearinghouse Balance
+BL	Blowable Load
+BN	If Bad Ordered Notify Shipper
+BW	Bill Shipper for Weigh Charge
+CC	Container, Consolidator Load
+CD	Attachment - Customer's Document
+CE	Cleared for Export
+CF	Container, Factory Load
+CH	Carrier
+CI	Customs Inspection
+CM	Attachment - Cotton Manifest
+CO	No Marshalling Required for Hazardous Materials
+CR	Circus Ramp Only (TOFC Van)
+CW	Bill Consignee for Weigh Charges
+CX	Top Load Only
+CY	Certification that this Shipment is for Recycling as Defined in Applicable Tariffs Containing Such Provisions
+DA	Dangerous
+DE	Demurrage
+DM	Domestic
+DN	Shipper Authorization Required for Diversion or Consignment
+DR	Drop Yard
+DS	Delivery Only on Surrender of Written Order
+DT	Dead in Tow
+DU	Do Not Uncouple
+DV	Equipment
+DW	Destination Weights Apply
+ED	Excessive Dimensions
+EE	Electronic Equipment Transfer
+EL	Environmental Control Limits
+EP	Expedite
+ER	Return Empty Via Reverse Route
+EV	Damages Incurred if Shipment Fails to Meet Vessel Loading
+EW	Excessive Weight
+EX	Explosive Flammable Gas
+FA	Face "A-end" to Head of Train
+FB	Face "B-end" to Head of Train
+FC	Moving Under "For Furtherance Instructions" and May Be Delivered
+FD	Full Service
+FG	Flammable Gas
+FL	Flammable
+FP	Flammable Poison Gas
+FR	Fragile - Handle with Care
+FS	Nontransit Flat Shipment
+GI	Grain Inspection
+HE	Head End Car
+HH	Household
+HM	Endorsed as Hazardous Material
+HO	Hold for Orders
+HP	Heated Prior to Loading
+HR	Home for Repair
+HT	Heat
+HV	High Value Load
+HW	High Wide Load
+IB	In-bond
+IC	Ice
+ID	Shipment to be Inspected at Destination and Disposition Instructions will be Furnished
+IM	Interoffice Move
+IP	Import Shipment
+IR	Rail Incentive Rate
+IS	Surveillance Service
+JS	Junction Settlement Account
+LB	Land Bridge (Import/Export)
+LC	Car Trip Leased to Consignee
+LD	Loading Devices
+LF	Loaded to Full Visible Capacity
+LN	Less Than Container, Consolidator Load
+LP	Protect Lowest Through Rate
+LR	Less Than Container, Factory Load
+LS	Local Service Only
+LT	Less Than Full Carload
+MC	Person in Charge of Car
+MF	Cleared for Border Crossing
+MP	Multiple Pickup
+MR	Mechanical Refrigeration
+NC	Notify Consignee Before Delivery
+ND	Do Not Divert
+NE	No Special Entrainment Required
+NH	Do Not Hump
+NI	New Equipment First Transborder Movement
+NP	Do Not Pool
+NS	Notify Shipper Before Reconsignment
+NT	Do Not Transfer Contents
+NW	In Case of Fire Do Not Use Water
+NX	Not for Export
+OS	Commodity Loaded Less Than or Equal To the Car Ordered
+OV	Overweight
+PB	Perishable in Box Car
+PD	Privately Controlled Private Equipment Subject to Demurrage
+PG	Poisonous Gas
+PI	Iced Prior to Loading
+PS	Product Protection Service
+PW	Attachment - Prepaid Waybill
+RA	Return Authorization
+RB	Render Bill for Charges
+RC	Railroad Controlled Private Equipment Subject to Demurrage
+RM	Radioactive Material
+RO	Rush Order
+RR	Rear Rider
+RS	Inspect Hourly if Car Stopped
+RT	Record for Transit
+SB	Shipper Load/Carrier Count
+SC	Shove to Rest and Cover
+SD	Subject to Special Detention Rules/Charges
+SE	Attachment - Shipper's Export Document
+SH	Shiftable Load
+SI	Ship to Cross Dock or Pool
+SK	Requires Shelf Couplers
+SM	Attachment - Shipper's Manifest
+SP	Attachment - Shipper's Packing Instructions
+SR	Speed Restricted
+ST	Stack Train
+SW	Stretch Wrap
+TA	Cars Temporarily Articulated
+TC	Trailer, Consolidator Load
+TF	Trailer, Factory Load
+TN	Turn Car
+TS	Transit Shipment
+TT	Team Track Delivery
+TV	Time Volume Rates Only
+UB	Unload at Bumper (Circus Ramp)
+UI	Unitized
+UL	Unload from Left Side of Car
+UN	Unload as Placarded
+UP	Unprotected Perishable
+UR	Unload from Right Side of Car
+US	Shipper Certifies Gross Weight under 240,000 pounds
+VN	Verification Weigh
+VT	Ventilation Instructions
+WB	Wide-Body Pickup Truck (Applies to Finished Vehicle Loading
+WD	Waived Inspection - Set Direct
+WE	Weigh Empty
+WH	Attachments - High Wide Notice
+WI	Waive Inspection
+WM	Manifest Must Accompany Waybill
+WO	Weigh to Check for Overload
+WW	Waste Water
+XP	Export
+XT	Cross Town
+045	Advanced Fee
+170	Certificate of Origin
+510	Offshore - Alaska/Hawaii Service
+520	Oversized Premium
+550	Preparation of Air Waybill - Origin
+555	Preparation of Canadian Customs Invoice
+565	Preparation of Export Entry
+570	Preparation of Insurance Certificate
+585	Preparation of U.S. Export Documentation
+665	Saturday Delivery
+670	Saturday Pick-Up
+675	Security Signature Service
+761	Written Proof of Delivery
+A1M	Aggregate 1000
+A3M	Aggregate 3000
+A5M	Aggregate 5000
+AAS	Attendants Accompanying
+ADL	Advance Loading
+AFN	Air Craft Furnished and Not Used
+AGG	Aggregate Tender Discount
+AGS	Armed Guard Service
+AIB	Additional Injection/Blending Service
+ALP	Port Changes
+ALT	Use of Alternate Terminal
+AMM	A.M. Delivery Requirement
+ANC	Anchoring and Unanchoring
+APD	Additional Copy of Shipping Papers for Proof of Delivery
+APL	Appliance Servicing
+ARC	Air Conditioning Disconnect and Connect
+ARG	Rail Armed Guard Service
+ARR	Air Ride Tractor Service
+ART	Air Ride Truck Service
+ASY	Assembly Service Requested
+AUX	Auxiliary Service
+BCP	Bypass Consolidation Point
+BKA	Bulky Article
+BLK	Blocking and Bracing
+BLS	Blind Shipment
+BNS	Bolster Load, Do Not Switch
+BOX	Boxing Service - Dry Bulk
+BU2	Bunker Adjustment - 20 Foot Container
+BU4	Bunker Adjustment - 40 Foot Container
+BUA	Bunker Adjustment
+CA2	Currency Adjustment - 20 Foot Container
+CA4	Currency Adjustment - 40 Foot Container
+CAR	ROEE Car or Pick-up Truck
+CCB	Convert Commercial Bill of Lading (BOL) to Government BOL
+CCH	Certification
+CCS	Carrier Caboose
+CDD	Corrosion Additive Service
+CFC	Customs Fees - Container Level
+CFL	Customs Fees - Lift Level
+CGC	Carrier Guard Car Service
+CGR	Return Carrier Guard Car Service
+CGT	Cargo Taxes
+CHN	Chain and Binders
+CIP	Commercial Invoice Preparation
+CIS	Constant Surveillance
+CLN	Cleaning
+CLS	Class Rates Applied
+CMD	Comb. Rates over Detroit
+CNL	Consolidation and Line Haul
+CNS	Consolidation
+CON	Contract Rates Apply
+COR	Certification That the Newsprint Winding Cores Being Returned Empty Were Received Filled by Rail Freight Service
+COU	Consignee Unload
+COV	Courier, Overnight
+CPC	Copilot Service
+CPM	Customs Papers Mailed
+CRL	Container Lease
+CSD	Courier, Same Day
+CSP	Government Caboose
+CTL	Controlled Atmosphere
+CTM	Container Mounting
+CTR	Circuitous Routing
+CUF	Currency Adjustment - Break Bulk
+DBL	Double Wide Separate and Reassemble
+DBP	Delivery of Fuel From Barge to Pipeline
+DCS	DOD Constant Surveillance Service
+DDN	Dual Driver with National Agency Check
+DDP	Dual Driver Protective Service
+DDS	Direct Delivery
+DDZ	Drayage at Port of Debarkation (Rate Zone)
+DEL	Delivery Service
+DEP	Detention of Conveying Equipment and the Power Unit
+DET	Detention of Conveying Equipment Excluding the Power Unit
+DEZ	Drayage at Port of Embarkation (Rate Zone)
+DFD	Keep From Freezing Percent Differential
+DFM	410 Dromedary with Mechanical Restraining Devices
+DFS	410 Dromedary
+DIS	Distribution Service Requested
+DLP	Delivery of Fuel From Rail Tank Car to Pipeline
+DLR	Notify Shipper Immediately if Shipment is Delayed en Route
+DNC	Do Not Couple to Other Diaphragmed Cars
+DNF	Do Not Freeze
+DNT	Do Not Couple to Tank Cars
+DOC	Documentation - Special
+DOV	Container Diversion
+DPB	Delivery of Fuel From Pipeline to Barge
+DPD	Drayage at Port of Debarkation
+DPE	Drayage at Port of Embarkation
+DPL	Delivery of Fuel From Pipeline to Rail Tank Car
+DPT	Delivery of Fuel From Pipeline to Tank Truck or Trailer
+DPU	Detention With Power Units (30 minute periods)
+DRO	Drop-Off Delivery
+DRU	Drumming Service
+DSK	Do Not Couple to Double Shelf Couples
+DSM	Dromedary with Mechanical Restraining Devices
+DSR	Dromedary Service Requested
+DSV	Door Side Vanning
+DTB	Labor Associated with Detention of Conveying Equipment
+DTP	Delivery of Fuel From Tank Truck or Trailer to Pipeline
+DTV	Detention (Vehicle)
+DWP	Detention With Power Units (60 minute periods)
+EAX	Extra Axles
+ECR	Escort/Courier Service
+ECS	Empty Railcar Ordered But Not Used
+EDD	Equipment Hose at Destination
+EDO	Equipment Hose at Origin
+EED	Exclusive Use
+ELS	Extra Lights
+EMR	Emergency Service
+EMT	Empty Movement
+END	Endorsement
+ERS	Empty Return
+ERT	Satisfactory Service Standards
+EXC	Exclusive Use of Vehicle
+EXD	Extra Driver
+EXL	Extra Length Surcharge
+EXO	Export Preparation
+EXP	Expedited Rates Applied
+EXQ	Expedited Service
+EXT	Extra Labor
+EXU	Exclusive Use of Vehicle Damaged
+EXZ	Expand Remove and Install
+EZE	Roadway Easy Rates Applied
+FAK	Barge Freight All Kinds Service
+FAS	Firearms
+FCS	Furnishing Chassis
+FFC	Fuel Filters Furnished by Carrier
+FFS	Fuel Filters Furnished by Shipper
+FLS	Flatrack Surcharge
+FPT	For Processing in Transit
+FRZ	Accepted by Carrier at Owner's Risk of Freezing
+FST	For Storage in Transit
+FTR	Filtration Service
+GMS	Garment Surcharge
+GOC	Government-Owned Containers
+GSP	Government Guard Car
+GSS	Greater Security Service
+HAL	Hold at Location
+HAN	Handling
+HBR	Hand Brakes at Each End Must Be Released
+HDH	Shipment Holdover for Holidays
+HDW	Shipment Holdover for Weekends
+HEA	Heat in Transit
+HES	Heat - Special
+HET	Heat With Steam
+HMA	Accessible Hazardous Material
+HMI	Inaccessible Hazardous Material
+HOL	Sunday or Holiday Pickup or Delivery
+HOR	24 Hour Availability
+HOS	Hose
+HOX	Special Hose
+HQT	High Cube Trailer Rates
+HRS	Heater or Refrigeration
+HTI	Hitch Installation
+HZC	Hazardous Materials Surcharge
+HZD	Hazardous Cargo On Deck
+IDC	Idler Car
+IDL	Inside Delivery
+IIH	Icing Inhibitor Service
+IMP	Impactographs
+IMS	Intermodal Shipment Service
+INT	Intra-Plant Move
+IPU	Inside Pickup
+ITS	Interline Transfer Service
+JIT	Just-In-Time (JIT)
+JLX	Joint Line Exception
+KEG	Certification that the Containers Being Returned Empty Were Received Filled by Rail Freight Service
+KMD	Keep Material Dry
+LAB	Labor Disturbance
+LAY	Layover
+LBL	Apply a Uniform Code Council/International Article Numbering Association (UCC/EAN) Serial Shipping Container Label to the Shipping Containers
+LBR	Light Bar Service
+LBT	Low Boy Trailer/Flat Bed
+LC2	Land Currency Adjustment Factor - 20 Foot Container
+LC4	Land Currency Adjustment - 40 Foot Container
+LCL	Percent Differential - Less Than Container
+LEC	Less Than Container
+LFD	Linehaul from Port of Debarkation
+LHS	Linehaul Service
+LIE	Liability of Carrier
+LMD	Liner Terms at Port of Debarkation
+LME	Liner Terms at Port of Embarkation
+LPD	Linehaul Percent Differential
+LTE	Linehaul To Port of Embarkation
+LTT	Less Than Truckload
+LYC	Layover Service
+MAT	Modified Atmosphere
+MEN	Escort Service with Overnight Subsistence
+MES	Escort
+MET	Escort Services (Telephone)
+MIN	Insulated
+MNS	Motor Surveillance Service
+MOT	Other
+MRF	Refrigerated
+MSS	Motor Surveillance Service
+MTE	Military Traffic Expediting Service
+MVS	Special Motor Surveillance
+NHC	Do not Hump or Hump into
+NHL	Do Not Use Helper Locomotive to Push
+NPR	No Placards Required
+NSV	Nose Side Vanning
+OAH	Stow Away from Heat
+OBL	Block Stowage
+OCA	Cargo Aboard
+OCL	Carrier Load and Consignee Unload
+OCN	Over Height Container
+OCS	Completing Shipment
+OCV	Delivery Verification Not Required
+ODI	Stow with Doors Facing Inward
+OEH	Exempt Commodity
+OFH	In Front of House Stowage
+OFU	Fumigation
+OHC	Harmless
+OIL	Oil Field Service
+ONC	Use No Hooks
+ONS	Not Restricted Cargo
+OOB	Cargo on Board Certification Required
+OOD	On Deck Stowage
+OOL	Carrier Load and Carrier Unload
+OPR	Perishable
+OPT	Partial Shipment
+OSB	Stow Below Deck
+OST	Stow Between Decks
+OTC	Temperature Control
+OTD	Time of Delivery and Signature Required
+OTH	On Top In-hatch Stowage
+OTO	On Top On-deck Stowage
+OTS	Total Shipment
+OUC	Under Container On-deck Stowage
+OUW	Below Water Line Stowage
+OVR	Overflow
+OWC	Over Width Container
+OWR	One Way Rates Applied
+PAJ	Pumping Equipment
+PAV	Pickup of Shipments on Saturday, Sunday, and/or Holidays Requiring Absolute Next Day Delivery
+PDS	Pickup and Delivery From Storage in Transit
+PDY	Pickup and Delivery Beyond Service Area
+PER	Special Permits
+PFH	Protect From Heat
+PHR	Per Hour Rates Applied
+PIR	Pier Time
+PMM	P.M. Delivery Requirement
+PMR	Per Mile Rates Apply
+PMS	Pickup of Shipments Requiring Same Day Delivery Service
+PMT	Pickup of Shipments Requiring Same Day Delivery Service and/or Delivery at a Specified Time
+POC	Piano/Organ Carry
+PPD	Pickup and Delivery Service for Perishables
+PRL	Prelodge
+PRT	Stuffing Charge
+PSG	Protective Service Security with Armed Guards
+PSS	Protective Security Service
+PTS	Protective Tarp For Security Purposes
+PUC	Pickup
+PUD	Pickup and Delivery
+PUK	Pack and Unpack
+PUP	PUP Trailer Rates Apply
+PVB	Bonded Privately Owned Vehicle
+PVD	Detention of Privately Owned Vehicle
+PVI	Inoperable Privately Owned Vehicle
+PVL	Loading/Unloading of Privately Owned Vehicle
+PVP	Private Owned Vehicle Processing
+PVS	Stop-offs for Privately Owned Vehicle Shipment
+PVT	Privately Owned Vehicle in Truckaway Service
+PYS	Priority Service
+RCC	Reconsignment
+RCL	Redelivery
+RDH	Railhead Handling
+RDR	Roadrailer Service
+REP	Respotting
+RES	Residential Delivery
+RFM	Reefer Maintenance
+RIE	Released Value Charge in Excess of Carrier Maximum Liability
+RLS	Relocation of Vehicle
+RMC	Return of Empty Container
+RMP	Return Movement of Pallet
+RMS	Rail Surveillance
+RPD	Reefer Cargo Percent Differential
+RRR	Round Trip Service
+RSP	Reshipment
+RSS	Restricted Speeds
+RSV	Reservations
+RWR	Reweight Requested
+SAS	Shipment Holdover on Weekends
+SAT	Saturday Pickup or Delivery
+SCC	Special Containers
+SCL	Shipper Load and Consignee Unload
+SDL	Split Delivery
+SDS	Special Dromedary Service
+SEC	Special Equipment Charge
+SED	Shipper Export Declaration Required
+SEE	Stairs, Elevator, Excess Carry
+SER	Service Charge Applies
+SEV	Security Escort Vehicle Service
+SFB	Single Factor Origination/Destination
+SFD	Single Factor Origination/Port of Debarkation
+SFE	Single Factor Port of Embarkation/Destination
+SFT	Special Train Movement
+SGL	Single Shipment
+SHH	Shipment Holdover on Holidays
+SHL	Shipper Load
+SHW	Shipment Holdover on Weekdays
+SKT	Skirting and Unskirting
+SLC	Shipper Load and Count
+SMP	Small Package
+SMS	Satellite Surveillance Service
+SNM	Transmit a Ship Notice/Manifest Transaction Set
+SNS	Satellite Surveillance Service
+SNT	Shipment from Non-Temp Storage
+SOC	Stop-off
+SOL	Shipper Load and Carrier Unload
+SPC	Special Permit
+SPR	Spreader Service
+SPT	Spot for Storage - No Shipment
+SPU	Split Pickup
+SRG	Storage
+SRS	Surveying Routes
+SSC	Stripping, Sorting & Consolidation
+SSN	Substitute Service Not to be Used
+SSU	Pole Lashing Equipment (PLE) Surcharge
+STA	Conductivity/Anti-static Additive
+STD	Stopoff at Destination
+STO	Stowage
+STP	Stopoff at Origination
+STR	Signature and Tally Record
+SUA	Spot for Unloading from A End
+SUB	Spot for Unloading from B Brake End
+SUP	Supervisor Requested
+SVS	Storage of Vehicles
+TDC	Truckload-Double Operator-Common Carrier
+TDP	Truckload-Double Operator-Padded Van
+TER	Terminal Handling Charges
+TLS	Tendered as Truckload (Truckload Service Requested)
+TMS	Multi-Tank Surveillance Service
+TMV	Tendering of Multiple Vehicles
+TOF	Trailer on Flat Car
+TPS	Third Party Service
+TRA	Tractor Only
+TRK	Truck Rates Applicable
+TRL	Trailer Preparation - Special
+TRM	Termination
+TRN	Transfer Product
+TRP	Tire Repair and Replace
+TRS	Trade Show
+TRT	Tractor and Trailer
+TSC	Truckload-Single Operator-Common Carrier
+TSP	Truckload-Single Operator-Padded Van
+TSS	Tank Surveillance Service
+UFC	Under Carriage Furnished By Carrier
+UPK	Unpacking
+URC	Unloading or Reloading
+UTL	Utilities Disconnect and Connect
+VAC	Vacuum Service
+VAN	ROEE Van Type Truck
+VCL	Van Cleaning
+VFN	Vehicles Furnished But Not Used
+VIS	Vehicles Inoperable
+VSO	Stop Off Delivery of Personal Vehicles
+VTS	Vehicles in Truckaway
+WBB	Wharfage - Breakbulk
+WCT	Wharfage - Container
+WDS	Waterfront Delivery
+WFG	Wharfage
+WRB	War Risk Crew Bonus
+WRI	War Risk Insurance
+WTV	Weight Verification
+ZZZ	Mutually Defined

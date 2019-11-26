@@ -1,0 +1,7 @@
+id	definition
+A	Body Only
+B	Body Plus This Assurance Header Only
+C	Body Plus All Previous Assurances Plus This Assurance Header
+D	Body plus All Previous Assurances Only
+E	This Assurance Header Only
+F	All Previous Assurances Plus This Assurance Header

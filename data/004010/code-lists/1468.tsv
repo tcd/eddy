@@ -1,0 +1,38 @@
+id	definition
+10	Vacation
+11	Paid Leave of Absence
+12	Unpaid Leave of Absence
+13	Lay off Permanent
+14	Lay off Temporary
+15	Personal Day Off
+16	Terminated
+17	Illness
+18	Injury
+19	Holiday
+D1	Discharged Failed to Meet Work Standards
+D2	Discharged Not Qualified
+F1	Failed to Report for Assignment
+F2	Fire, Flood or Natural Disaster
+L1	Lay Off Seasonal
+L2	Lay Off End of Assignment or Contract
+L3	Lay Off Reduced Hours or Partial Employment
+L4	Lay Off Workforce Reduction
+M1	Misconduct Insubordination
+M2	Misconduct Excessive Absence or Tardiness
+M3	Misconduct Violated Rules or Regulations
+M4	Misconduct Dishonesty
+M5	Misconduct Failure to Call or Show
+O1	Labor Dispute
+O2	No Record of Employment
+O3	Still Employed Part-time
+O4	Jury Duty
+O5	Company Relocation
+O6	Still Employed or No Separation
+O7	Other
+Q1	Quit
+R1	Refusal to Provide Service
+V1	Voluntary Accepted Another Job
+V2	Voluntary Personal or Not Job Related
+V3	Voluntary Left Area or Follow Spouse
+V4	Voluntary No Reason Given
+V5	Voluntary Educational Pursuits

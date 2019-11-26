@@ -1,0 +1,6 @@
+id	definition
+A	Add a Bill of Lading
+D	Delete a Bill of Lading
+N	Delete Second Notify Party
+R	Replace a New Manifest Quantity, Either an Increase or Decrease in the Original Quantity
+S	Add Second Notify Party

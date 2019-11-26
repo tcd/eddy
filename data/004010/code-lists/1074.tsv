@@ -1,0 +1,72 @@
+id	definition
+01	Manufactured
+02	Commercial - Non-Residential
+03	Commercial - Residential
+04	Condominium
+05	Farm
+06	Home & Business Combined
+07	Land and Lots
+08	Mobile Home
+09	Deminimus Planned Unit Development (PUD)
+10	Attached
+11	Detached
+13	Cooperative
+14	Single-family Residence
+15	Two-to-Four-unit Residence
+16	Townhouse
+17	Apartment Condominium
+18	Multifamily (More than Four Units)
+19	Twin Home
+20	Bridges
+21	Dams
+22	Towers
+23	Tunnels
+24	Pipelines
+25	Drilling Rigs
+26	Antennas
+27	Storage Tanks
+28	Billboards and Signs
+29	Fixed Machinery
+30	Planned Unit Development
+31	Site Built
+32	High-rise
+33	Subdivision
+34	Stacked
+35	Zero Lot Line
+36	Row House
+39	Modular
+40	Yard
+41	Factory
+42	Garage
+43	Office
+44	Premises
+45	Shop
+46	Showroom
+47	Warehouse
+48	Works
+49	Workshop
+50	Residential
+51	Commercial
+52	Seasonal
+53	Timeshare
+54	Business Opportunity
+55	Industrial
+56	Ranch
+57	Industrial Building
+58	Semi Detached Building
+59	Detached Building
+60	Industrial Mall
+61	Shopping Plaza
+62	Shopping Mall
+63	Apartment Building
+64	Residential Buildings
+65	Other Property Type
+66	Coldstore
+67	Complex
+68	Forecourt
+69	Hotel
+70	Laboratory
+71	Stadium
+72	Store
+UN	Unknown
+ZZ	Mutually Defined

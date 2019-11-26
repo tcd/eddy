@@ -1,0 +1,34 @@
+id	description	section	req	max_loop	max_usage	pos
+BR	Beginning Segment For Material Management	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	20	2
+G62	Date/Time	H	O	0	10	3
+LM	Code Source Information	H	O	20	1	4
+LQ	Industry Code Identification	H	M	0	100	5
+N1	Party Identification	H	O	20	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+G61	Contact	H	O	0	10	10
+HL	Hierarchical Level	D	M	999999	1	11
+LIN	Item Identification	D	O	0	1	12
+CS	Contract Summary	D	O	0	1	13
+QTY	Quantity Information	D	O	0	999999	14
+RCD	Receiving Conditions	D	O	0	1	15
+N9	Extended Reference Information	D	O	0	999999	16
+CON	Contract Number Detail	D	O	0	999999	17
+G62	Date/Time	D	O	0	50	18
+CTP	Pricing Information	D	O	0	10	19
+G69	Line Item Detail - Description	D	O	0	30	20
+DD	Demand Detail	D	O	0	100	21
+LDT	Lead Time	D	O	0	3	22
+MEA	Measurements	D	O	0	5	23
+PKG	Marking, Packaging, Loading	D	O	0	5	24
+PWK	Paperwork	D	O	0	1	25
+MSG	Message Text	D	O	0	10	26
+LM	Code Source Information	D	O	20	1	27
+LQ	Industry Code Identification	D	M	0	100	28
+N1	Party Identification	D	O	50	1	29
+N2	Additional Name Information	D	O	0	2	30
+N3	Party Location	D	O	0	2	31
+N4	Geographic Location	D	O	0	1	32
+G61	Contact	D	O	0	10	33

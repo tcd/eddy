@@ -1,0 +1,297 @@
+id	definition
+1	Add
+2	Change (Update)
+3	Delete
+4	Verify
+5	Send
+6	Receive
+7	Request
+8	In Production Send
+9	Not Capable of Taking Action
+A	Add A Bill of Lading
+B	Cancel Balance of Order/Item that Exceeds Value Specified in Data Element 610
+C	Cancelled
+D	Delete a Bill of Lading
+E	Eliminate/Expire
+F	Final
+G	Cancel Entire Order/Item
+H	Master-In-Bond (MIB) Arrival
+I	Reissue
+J	Record
+K	In Production Send and Receive
+L	In Development/Send
+M	In Development/Receive
+N	In Development/Send and Receive
+O	In Test/Send
+P	In Test/Receive
+Q	In Test/Send and Receive
+R	In Production Receive
+S	Re-record
+T	Status Query
+U	Reject
+V	Respond
+W	Reverse
+X	Recommend
+Y	Not Recommend
+Z	Mutually Defined
+10	Adjourn
+11	Approve
+12	Auction
+13	Cleared
+14	Compose
+15	Correct and Resubmit Claim
+16	Consider
+17	Create
+18	Decide
+19	Declare
+20	Decree Recall
+21	Disapprove
+22	Dissolve
+23	Escalation
+24	On-Hold
+25	Dropped
+26	Bankruptcy Filed - Review Account
+27	Moved - Follow Up
+28	Change Phone Number
+29	Payment Received - Follow Up
+30	Account Active - Pursue
+31	Return per Client Request
+32	Pursue Legal Action
+34	Pursue Garnishment
+35	New Assignment - Proceed
+36	Repossess Merchandise
+37	Adjust Payment
+38	Change Address
+39	Skiptrace Account
+40	Close Account - Deceased
+41	Update to Inactive
+42	Account Paid in Full - Close Account
+43	Refused to Pay - Review Account
+44	Account Disputed - Review
+45	Do Not Contact - Fair Debt Collection Practices Act (FDCPA)
+46	Forward Account
+47	Enforce
+48	Extinguish
+49	Judgment for Defendant
+50	Judgment for Plaintiff
+51	Complete
+52	Justified
+53	Legal Moratorium on Debts Incurred to Date
+54	Meeting Held
+55	Meeting Held and Opened
+56	Moratorium
+57	Not Filed
+58	Not Justified
+59	Partial Release
+60	Provisional Moratorium
+61	Readjudicate
+62	Resolve
+63	Resulted in a Suit
+64	Resulted in No Liquidation
+65	Set Aside
+66	Settled out of Court
+67	Sold
+68	Stayed
+69	Subordination
+70	Surrender
+71	Term Expired
+72	Unsatisfied
+73	Void
+74	Suspended, 24 Hours
+75	Dispute
+76	Assign
+77	Agent Change
+78	Agent Hierarchy Change
+79	Reactivate
+80	Reconcile
+81	Renew
+82	Follow Up
+83	Future
+84	Letter of Authority Sent
+85	New Premium Only
+86	Pended for Follow Up
+87	Countersue
+88	Contact via Telephone Call
+89	Contact via Fax
+90	Mark
+A1	Certified in total
+A2	Certified - partial
+A3	Not Certified
+A4	Pended
+A5	Upheld
+A6	Modified
+AA	Award
+AB	Abandon
+AC	Acknowledge
+AD	Decrease in Amount
+AE	Activate
+AF	Affirm
+AG	Added Commodity Codes
+AH	Added Equipment
+AI	Increase in Amount
+AJ	Added Points Served
+AL	Allow
+AP	Appeal
+AQ	Acquitted
+AR	Advanced Payment
+AS	Discovered
+AT	Appoint
+AV	Cancellation Not Effected
+AW	Mass Cancellation
+AX	Partial Cancellation
+BD	Board
+BI	Bifurcate
+BO	Use Both Date and Meter Criteria
+C1	Community Service Required
+C2	Convicted
+CA	Change Name
+CB	Cut
+CC	Concur
+CD	Completed Docket (Proposer Only and on Current Docket)
+CE	Charge
+CF	Confirm
+CG	Conditionally Grant
+CL	Closed
+CM	Commence
+CN	Consolidated
+CO	Correct
+CP	Counter Proposal
+CS	Transfer of Claim for Security
+CT	Contact Payer
+CU	Continue
+CV	Convert
+CX	Claim Transferred
+D1	Deported
+D2	Dismissed
+DA	Division Adjustment Only
+DB	Shorten Expiration Date
+DC	Delivered to Another Carrier
+DD	Delete and Docket (Proposer Only on Unconcurred Docket)
+DE	Deny
+DF	Defer
+DG	Decrease
+DH	Extended Expiration Date
+DI	Dismissed with Prejudice
+DJ	Dismissed without Prejudice
+DK	Dispose
+DL	Divert
+DP	Delivered to Public Warehouse
+DR	Direct
+DS	Discarded
+DT	Discontinue
+DX	Discharged
+EA	Establish Address
+EB	Establish Additional Address
+EC	Establish Electronic Address
+ED	Suppress Correspondence
+EE	Suppress Forms
+EN	Enter
+EP	Entire Patient Information
+ER	Extension Request
+EV	Evaluate
+EX	Extend
+F1	Fined
+FA	Fail
+FC	Factor Change
+FI	File
+FO	Forfeit
+FR	Patient Follow-Up Required
+GR	Grant
+HR	Hold Until Released
+I1	Found Not Guilty
+IA	Deactivate
+IM	Increase
+IN	Interim
+IS	Issue
+IT	Initiate
+JA	Jailed
+JO	Join
+JU	Judgment
+KA	Registration Confirmed
+LC	Left at Consignee
+LQ	Liquidate
+ME	Merge
+MO	Mooting
+NA	No Action Required
+ND	No Change
+NP	Not Present
+NS	Do Not Send
+OD	Order
+OP	Open
+OR	Use Date or Meter Criteria (whichever occurs first)
+OT	Other Unlisted Action
+P1	Sentenced to Probation
+PA	Tariff Publisher Add
+PB	Partial Transfer of Claim
+PC	Previously Converted
+PD	Tariff Publisher Delete
+PF	Preliminary Final
+PI	Provide Additional Information
+PJ	Progress Payment
+PO	Proposed
+PP	Partial Patient Information
+PR	Present
+PS	Proposal
+PT	Proposal Trace
+PU	Publish Changes
+PV	Provisional Payment
+R1	Reopened
+R2	Send Record Now
+R3	Send Record at End of the Term
+R4	Send Record After Degree is Posted
+R5	Send Vocational Record Only
+R6	Transfer
+R7	Assumption
+R8	Terminate
+R9	Reinstate
+RA	Remove
+RB	Resecure
+RC	Returned to Carrier Facility
+RD	Rate and Division Adjustment
+RE	Released
+RF	Returned to Shipper's Facility (Other Than Original Shipping Location)
+RG	Refer
+RH	Recall
+RI	Restricted
+RJ	Rate Adjustment
+RK	Rate Adjustment with a Sequence Change
+RL	Reschedule
+RM	Remand
+RN	Reject Proposal with Counter Proposal to Follow
+RO	Returned to Original Shipping Location
+RP	Request To Publish
+RQ	Tariff Publisher Reissue
+RR	Reverse and Remand
+RS	Report Status
+RT	Restrain
+RU	Return
+RV	Revoke
+RW	Rescind
+RX	Replace
+S1	Secure
+S2	Suspended
+SA	Satisfy
+SB	Subrogate
+SC	Screen
+SD	Seal
+SE	Settle
+SL	Schedule
+SR	Serve
+SS	Sustain
+SU	Suspend
+SV	Sever
+SZ	Seize
+TD	Temporarily Deny
+TE	Oppose
+TG	Temporarily Grant
+TN	Annul
+TP	Temporarily Grant, in Part
+TR	Trim
+TS	Disallow
+TU	Take Under Advisement
+VA	Vacate
+W1	Reconcile Historical Records
+WD	Withdrawn
+WI	Winterize
+WQ	Accept
+WV	Waive

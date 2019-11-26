@@ -1,0 +1,133 @@
+id	description	section	req	max_loop	max_usage	pos
+B2	Beginning Segment For Shipment Information Transaction	H	M	0	1	1
+B2A	Set Purpose	H	O	0	1	2
+Y6	Authentication	H	O	0	2	3
+G1	Shipment Type Information	H	O	0	1	4
+G2	Beyond Routing	H	O	0	1	5
+G3	Compensation Information	H	O	0	1	6
+N9	Extended Reference Information	H	O	0	100	7
+YNQ	Yes/No Question	H	O	0	10	8
+V1	Vessel Identification	H	O	0	2	9
+V3	Vessel Schedule	H	O	0	1	10
+M0	Letter Of Credit Reference	H	O	0	1	11
+CUR	Currency	H	O	0	1	12
+M1	Insurance	H	O	5	1	13
+CUR	Currency	H	O	0	1	14
+M2	Sales/Delivery Terms	H	O	0	1	15
+C2	Bank Id	H	O	0	1	16
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	1	17
+DTM	Date/Time Reference	H	O	0	20	18
+N1	Party Identification	H	O	100	1	19
+N2	Additional Name Information	H	O	0	2	20
+N3	Party Location	H	O	0	2	21
+N4	Geographic Location	H	O	0	1	22
+G61	Contact	H	O	0	3	23
+R4	Port Or Terminal	H	O	20	1	24
+DTM	Date/Time Reference	H	O	0	15	25
+R2A	Route Information With Preference	H	O	0	25	26
+R2	Route Information	H	O	0	13	27
+K1	Remarks	H	O	0	12	28
+L11	Business Instructions And Reference Number	H	O	0	99	29
+H3	Special Handling Instructions	H	O	0	6	30
+L5	Description, Marks And Numbers	H	O	0	999	31
+X1	Export License	H	O	0	25	32
+X2	Import License	H	O	0	5	33
+C8	Certifications And Clauses	H	O	20	1	34
+C8C	Certifications Clauses Continuation	H	O	0	5	35
+SUP	Supplementary Information	H	O	0	10	36
+LX	Transaction Set Line Number	D	O	999	1	37
+Y2	Container Details	D	O	0	10	38
+N7	Equipment Details	D	O	999	1	39
+QTY	Quantity Information	D	O	0	1	40
+L4	Measurement	D	O	0	1	41
+N12	Equipment Environment	D	O	0	1	42
+M7	Seal Numbers	D	O	0	5	43
+M7A	Seal Number Replacement	D	O	0	100	44
+W09	Equipment And Temperature	D	O	0	1	45
+LH6	Hazardous Certification	D	O	0	6	46
+L1	Rate And Charges	D	O	20	1	47
+CUR	Currency	D	O	0	1	48
+L7	Tariff Reference	D	O	0	1	49
+X1	Export License	D	O	0	25	50
+X2	Import License	D	O	0	5	51
+N9	Extended Reference Information	D	O	0	100	52
+H1	Hazardous Material	D	O	10	1	53
+H2	Additional Hazardous Material Description	D	O	0	10	54
+LH1	Hazardous Identification Information	D	O	100	1	55
+LH2	Hazardous Classification Information	D	O	0	4	56
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	57
+LFH	Free-Form Hazardous Material Information	D	O	0	25	58
+LEP	Epa Required Data	D	O	0	3	59
+LH4	Canadian Dangerous Requirements	D	O	0	1	60
+LHT	Transborder Hazardous Requirements	D	O	0	3	61
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	62
+PER	Administrative Communications Contact	D	O	0	5	63
+L11	Business Instructions And Reference Number	D	O	0	100	64
+K1	Remarks	D	O	0	10	65
+PO4	Item Physical Details	D	O	100	1	66
+MEA	Measurements	D	O	0	5	67
+MAN	Marks And Numbers Information	D	O	0	5	68
+N9	Extended Reference Information	D	O	0	5	69
+L0	Line Item - Quantity And Weight	D	O	120	1	70
+MEA	Measurements	D	O	0	10	71
+N9	Extended Reference Information	D	O	0	100	72
+PO4	Item Physical Details	D	O	100	1	73
+MEA	Measurements	D	O	0	5	74
+MAN	Marks And Numbers Information	D	O	0	5	75
+N9	Extended Reference Information	D	O	0	5	76
+QTY	Quantity Information	D	O	0	5	77
+L4	Measurement	D	O	0	1	78
+LH6	Hazardous Certification	D	O	0	6	79
+PAL	Pallet Type And Load Characteristics	D	O	3	1	80
+QTY	Quantity Information	D	O	0	1	81
+CTP	Pricing Information	D	O	1	1	82
+CUR	Currency	D	O	0	1	83
+L5	Description, Marks And Numbers	D	O	0	999	84
+LIN	Item Identification	D	O	0	1	85
+L12	Alternate Lading Description	D	O	0	20	86
+YNQ	Yes/No Question	D	O	0	10	87
+L1	Rate And Charges	D	O	20	1	88
+CUR	Currency	D	O	0	1	89
+L7	Tariff Reference	D	O	0	1	90
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	10	1	91
+CUR	Currency	D	O	0	1	92
+L9	Charge Detail	D	O	10	1	93
+CUR	Currency	D	O	0	1	94
+X1	Export License	D	O	0	25	95
+X2	Import License	D	O	0	5	96
+C8	Certifications And Clauses	D	O	20	1	97
+C8C	Certifications Clauses Continuation	D	O	0	5	98
+SUP	Supplementary Information	D	O	0	10	99
+H1	Hazardous Material	D	O	10	1	100
+H2	Additional Hazardous Material Description	D	O	0	10	101
+LH1	Hazardous Identification Information	D	O	1000	1	102
+LH2	Hazardous Classification Information	D	O	0	4	103
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	104
+LFH	Free-Form Hazardous Material Information	D	O	0	25	105
+LEP	Epa Required Data	D	O	0	3	106
+LH4	Canadian Dangerous Requirements	D	O	0	1	107
+LHT	Transborder Hazardous Requirements	D	O	0	3	108
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	109
+PER	Administrative Communications Contact	D	O	0	5	110
+N1	Party Identification	D	O	10	1	111
+N2	Additional Name Information	D	O	0	2	112
+N3	Party Location	D	O	0	2	113
+N4	Geographic Location	D	O	0	1	114
+G61	Contact	D	O	0	3	115
+L3	Total Weight And Charges	S	O	1	1	116
+CUR	Currency	S	O	0	1	117
+MEA	Measurements	S	O	0	5	118
+PWK	Paperwork	S	O	0	50	119
+SUP	Supplementary Information	S	O	0	999	120
+L1	Rate And Charges	S	O	20	1	121
+CUR	Currency	S	O	0	1	122
+TDS	Total Monetary Value Summary	S	O	1	1	123
+CUR	Currency	S	O	0	1	124
+SAC	Service, Promotion, Allowance, Or Charge Information	S	O	10	1	125
+CUR	Currency	S	O	0	1	126
+L9	Charge Detail	S	O	10	1	127
+CUR	Currency	S	O	0	1	128
+ISS	Invoice Shipment Summary	S	O	0	5	129
+V9	Event Detail	S	O	0	10	130
+K1	Remarks	S	O	0	999	131
+L11	Business Instructions And Reference Number	S	O	0	24	132

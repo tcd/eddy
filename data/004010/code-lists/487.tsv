@@ -1,0 +1,7 @@
+id	definition
+A	Add
+C	As Stated (Used to Identify an Initial Load of Data Elements, Segments, or Codes for a Version/Release).
+D	Delete
+F	Flag for Delete
+I	Inquiry
+R	Replace (Equivalent to Delete and Add)

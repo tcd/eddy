@@ -1,0 +1,19 @@
+id	definition
+AI	Transport Mode Change
+BB	Breakbulk
+CS	Container Station
+CY	Container Yard
+DD	Door to Door
+DR	Door to Ramp
+HA	Haulage
+HH	House-to-house
+HL	Headload or Devanning
+HP	House-to-pier
+MC	Multi-country Consolidation
+MD	Mixed Delivery
+NC	Non-containerized cargo
+PH	Pier-to-house
+PP	Pier-to-pier
+RD	Ramp to Door
+RE	Ramp to Ramp
+RR	Roll-on Roll-off

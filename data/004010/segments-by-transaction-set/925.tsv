@@ -1,0 +1,3 @@
+id	description	section	req	max_loop	max_usage	pos
+F10	Identification Of Claim (Tracer)	H	M	99	1	1
+F02	Identification Of Shipment	H	O	0	1	2

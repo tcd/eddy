@@ -1,0 +1,80 @@
+id	definition
+1A	Domestic Motor Van Door-to-Door Interstate
+1B	Domestic Motor Van Door-to-Door Intrastate
+2A	Domestic Container Van Door-to-Door Interstate
+2B	Domestic Container Van Door-to-Door Intrastate
+B1	Unaccompanied Baggage for Domestic Commercial Air Transport
+B2	Unaccompanied Baggage for Domestic Transport Not Otherwise Identified
+B3	Unaccompanied Baggage for Intertheater Military Air Transport
+B4	Unaccompanied Baggage for Intratheater Military Water Transport
+B5	Unaccompanied Baggage for Intratheater Commercial Motor Transport
+BA	Unaccompanied Baggage for Domestic Commercial Motor Transport
+BB	Barge-to-Barge
+BC	Unaccompanied Baggage for Domestic Military Air Transport
+BD	Barge-to-Door
+BE	Unaccompanied Baggage for International Military Water Transport
+BF	Unaccompanied Baggage for International Commercial Air Transport
+BG	Unaccompanied Baggage for International Military Air Transport
+BH	Unaccompanied Baggage for International Transport Not Otherwise Identified
+BK	Unaccompanied Baggage for Intertheater Military Water Transport
+BL	Unaccompanied Baggage for Intertheater Commercial Air Transport
+BM	Barge-to-Motor
+BN	Unaccompanied Baggage for Intertheater Transport Not Otherwise Identified
+BO	Barge-to-Terminal
+BP	Barge-to-Pier
+BR	Barge-to-Rail
+BW	Unaccompanied Baggage for Intratheater Commercial Air Transport
+BX	Unaccompanied Baggage for Intratheater Military Air Transport
+BY	Unaccompanied Baggage for Intratheater Transport Not Otherwise Identified
+DB	Door-to-Barge
+DD	Door-to-Door
+DM	Door-to-Motor
+DO	Door-to-Terminal
+DP	Door-to-Pier
+DR	Door-to-Rail
+EC	Rate Applies for Economy Transportation Service
+H1	Household Goods for International Transport Not Otherwise Identified
+H2	Household Goods for Intratheater Military Water Transport
+HA	Household Goods for Domestic Commercial Motor Transport
+HB	Household Goods for Domestic Commercial Air Transport
+HC	Household Goods for Domestic Military Air Transport
+HD	Household Goods for Domestic Transport Not Otherwise Identified
+HE	Household Goods for International Military Water Transport
+HF	Household Goods for International Commercial Air Transport
+HG	Household Goods for International Military Air Transport
+HH	House-to-House
+HK	Household Goods for Intertheater Military Water Transport
+HL	Household Goods for Intertheater Commercial Air Transport
+HM	Household Goods for Intertheater Military Air Transport
+HN	Household Goods for Intertheater Transport Not Otherwise Identified
+HP	House-to-Pier
+HR	Household Goods for Intratheater Commercial Motor Transport
+HW	Household Goods for Intratheater Commercial Air Transport
+HX	Household Goods for Intratheater Military Air Transport
+HY	Household Goods for Intratheater Transport Not Otherwise Identified
+MB	Motor-to-Barge
+MD	Motor-to-Door
+ML	Rate applies for Mini-Landbridge
+MM	Motor-to-Motor
+MO	Motor-to-Terminal
+MP	Motor-to-Pier
+MR	Motor-to-Rail
+ND	Rate Applies for Next Day Transportation Service
+OC	Rate applies for Overland Common Point
+OD	Terminal-to-Door
+OM	Terminal-to-Motor
+OR	Terminal-to-Rail
+OT	Terminal-to-Inland
+OV	Rate Applies for Overnight Transportation Service
+PB	Pier-to-Barge
+PD	Pier-to-Door
+PH	Pier-to-House
+PM	Pier-to-Motor
+PP	Pier-to-Pier
+PR	Pier-to-Rail
+RB	Rail-to-Barge
+RD	Rail-to-Door
+RM	Rail-to-Motor
+RO	Rail-to-Terminal
+RP	Rail-to-Pier
+RR	Rail-to-Rail

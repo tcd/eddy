@@ -1,0 +1,20 @@
+id	definition
+FNC	Final Net Acquisition Cost
+HAN	Prototype Handling Cost
+LAB	Labor Cost
+MTL	Material Cost
+OCT	Sender's Cost
+OTH	Other Cost
+OVR	Overhead Cost
+PKG	Packaging Cost
+RMP	Raw Material per Part Cost
+RMU	Raw Material per Unit of Measure Cost
+SET	Prototype Set-Up Cost
+TDI	Total Die Model Cost
+TGA	Total Gage Cost
+TLN	Line Item Tooling Cost
+TML	Total Material Cost
+TMP	Total Material Including Purchased Components Cost
+TOL	Total Other Tooling Cost
+TPU	Total Purchased Components Cost
+TTL	Total Tooling Cost

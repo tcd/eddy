@@ -1,0 +1,8 @@
+id	definition
+AA	Authentication, No Compression, No Encryption
+AC	Authentication, Compression, No Encryption
+BB	Authentication, No Compression, Encryption
+BC	Authentication, Compression, Encryption
+CC	No Authentication, Compression, No Encryption
+EC	No Authentication, Compression, Encryption
+EE	No Authentication, No Compression, Encryption

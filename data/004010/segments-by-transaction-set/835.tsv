@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BPR	Beginning Segment For Payment Order/Remittance Advice	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	999999	2
+TRN	Trace	H	O	0	1	3
+CUR	Currency	H	O	0	1	4
+REF	Reference Information	H	O	0	999999	5
+DTM	Date/Time Reference	H	O	0	999999	6
+N1	Party Identification	H	O	200	1	7
+N2	Additional Name Information	H	O	0	999999	8
+N3	Party Location	H	O	0	999999	9
+N4	Geographic Location	H	O	0	1	10
+REF	Reference Information	H	O	0	999999	11
+PER	Administrative Communications Contact	H	O	0	999999	12
+RDM	Remittance Delivery Method	H	O	0	1	13
+DTM	Date/Time Reference	H	O	0	1	14
+LX	Transaction Set Line Number	D	O	999999	1	15
+TS3	Transaction Statistics	D	O	0	1	16
+TS2	Transaction Supplemental Statistics	D	O	0	1	17
+CLP	Claim Level Data	D	M	999999	1	18
+CAS	Claims Adjustment	D	O	0	99	19
+NM1	Individual Or Organizational Name	D	M	0	9	20
+MIA	Medicare Inpatient Adjudication	D	O	0	1	21
+MOA	Medicare Outpatient Adjudication	D	O	0	1	22
+REF	Reference Information	D	O	0	99	23
+DTM	Date/Time Reference	D	O	0	9	24
+PER	Administrative Communications Contact	D	O	0	3	25
+AMT	Monetary Amount Information	D	O	0	20	26
+QTY	Quantity Information	D	O	0	20	27
+SVC	Service Information	D	O	999	1	28
+DTM	Date/Time Reference	D	O	0	9	29
+CAS	Claims Adjustment	D	O	0	99	30
+REF	Reference Information	D	O	0	99	31
+AMT	Monetary Amount Information	D	O	0	20	32
+QTY	Quantity Information	D	O	0	20	33
+LQ	Industry Code Identification	D	O	0	99	34
+PLB	Provider Level Adjustment	S	O	0	999999	35

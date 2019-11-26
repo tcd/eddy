@@ -1,0 +1,19 @@
+id	description	section	req	max_loop	max_usage	pos
+F01	Identification Of Claim (Claimant Originated)	H	M	0	1	1
+L11	Business Instructions And Reference Number	H	O	0	5	2
+CUR	Currency	H	O	0	5	3
+N1	Party Identification	H	O	10	1	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+G61	Contact	H	O	0	20	7
+F02	Identification Of Shipment	H	M	9999	1	8
+L11	Business Instructions And Reference Number	H	O	0	99	9
+MAN	Marks And Numbers Information	H	O	0	9999	10
+F05	Allowance/Charge (Claim)	H	O	0	1	11
+G62	Date/Time	H	O	0	30	12
+Q7	Lading Exception Status	H	O	0	10	13
+M7	Seal Numbers	H	O	0	5	14
+F09	Detail - Supporting Evidence For Claim	H	O	100	1	15
+F04	Weight/Volume Loss	H	O	0	1	16
+F05	Allowance/Charge (Claim)	H	O	0	10	17
+NTE	Note/Special Instruction	H	O	0	9999	18

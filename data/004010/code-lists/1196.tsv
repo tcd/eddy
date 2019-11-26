@@ -1,0 +1,167 @@
+id	definition
+01	Labor
+02	Material
+03	Other Direct Costs (ODC)
+04	Subcontract
+05	Labor and Material
+06	Labor Overhead
+07	Material Overhead
+08	Other Overhead
+09	Total Overhead
+10	Total General and Administrative
+11	Engineering Labor
+12	Engineering Overhead
+13	Manufacturing Labor
+14	Manufacturing Overhead
+15	Interdivisional Work Authorization
+16	Intercomponent Work Authorization
+17	Change Document Number
+18	Funds Appropriation
+19	Nonrecurring Labor
+20	Nonrecurring Material
+21	Nonrecurring Other Direct Costs
+22	Nonrecurring Subcontract
+23	Nonrecurring Labor and Material
+24	Nonrecurring Engineering Labor
+25	Nonrecurring Manufacturing Labor
+26	Recurring
+27	Nonrecurring
+28	Total
+29	Nonrecurring and Total
+30	Recurring and Total
+31	Direct Cost or Hours
+32	Plant-wide Overhead
+33	General & Administrative
+34	Cost of Money
+35	Profit or Fee
+36	Total Price
+37	Total Cost Less General & Administrative
+38	Total Cost Plus General & Administrative
+39	Other Costs
+40	Standard
+41	Variance
+42	Purchased Equipment
+43	Materials and Purchased Items
+44	Quality Control Labor
+45	Other Government Effort
+46	Commercial Effort
+47	Total Direct Cost Base
+48	Indirect Labor
+49	Employee Benefits
+50	Payroll Taxes
+51	Employment
+52	Communications and Travel
+53	Production Related
+54	Facilities - Building and Land
+55	Facilities - Furniture and Equipment
+56	Administration
+57	Future Business
+58	Credits
+59	Government Furnished Equipment
+60	Government Furnished Material
+61	Government Furnished Property
+62	Engineering
+63	Tooling
+64	Tooling Design
+65	Tooling Fabrication
+66	Quality Control
+67	Manufacturing
+70	Total Salaries and Wages
+71	Total Salaries and Wages and Employee Benefits
+72	Total Purchased Equipment
+73	Travel - Domestic
+74	Travel - Foreign
+75	Participant Stipends
+77	Participant Travel
+78	Participant Other
+79	Participant Total
+80	Publication Costs
+81	Consultant Services
+82	Computer Automated Data Processing (ADP) Services
+83	Funding From Non-Federal Sources
+84	Total Direct Costs
+85	Human Subject Costs
+86	Animal Costs
+87	Alternations and Renovations
+88	Cost Sharing
+A1	Department Indicator
+A2	Transfer from Department
+A3	Fiscal Year Indicator
+A4	Basic Symbol Number
+A5	Sub-class
+A6	Sub-Account Symbol
+A7	Subhead or Limit
+A8	Treasury Symbol Number
+A9	Ending Fiscal Year Indicator
+AT	Air Force Transportation Account Code (ATAC)
+B1	Budget Activity Number
+B2	Budget Sub-activity Number
+B3	Budget Program Activity
+B4	Program Year Indicator
+B5	Fund Code
+BL	Billings
+BY	Base Year Costs
+C1	Program Element
+C2	Project Task or Budget Subline
+C3	Budget Restriction
+C4	Project Account
+CM	Commitments
+CY	Current Year Costs
+D1	Defense Agency Allocation Recipient
+D2	Defense Agency Sub-allocation Recipient
+D3	Component Allocation Recipient
+D4	Component Sub-allocation Recipient
+D5	Allotment Recipient
+D6	Sub-allotment Recipient
+D7	Work Center Recipient
+E1	Major Reimbursement Source Code
+E2	Detail Reimbursement Source Code
+E3	Customer Indicator
+E4	Operating Budget Activity Number
+EH	Equipment Maintenance
+ES	Escalation
+EX	Expenditures
+F1	Object Class
+F2	Object Sub-class
+F3	Government or Public Sector Identifier
+F4	Country Code
+FE	Participant Fees
+FP	Fixed Price
+FR	Forward Priced
+G1	Program or Planning Code
+G2	Special Interest Code or Special Program Cost Code
+G3	Material Program Code
+G4	Accounting Processing Code
+G5	Property Accounting Activity Indicator
+H1	Cost Code
+H2	Labor Type Code
+H3	Cost Allocation Code
+H4	Classification Code
+H5	Classification Code
+I1	Abbreviated Department of Defense (DoD) Budget and Accounting Classification Code (BACC)
+IN	Insurance
+J1	Document or Record Reference Number
+J2	Abbreviated Installation Budget and Accounting Classification Code (BACC)
+K6	Accounting Classification Reference Code
+L1	Accounting Installation Number
+LM	Labor - Military
+M1	Local Installation Data
+MD	Movement Designator Code (MDC)
+MR	Management Reserve
+N1	Transaction Type
+NP	Non-production
+P1	Disbursing Station Number
+P2	International Balance of Payments (IBOP) Code
+P3	Voucher Number
+P4	International Balance of Payments (IBOP) Code
+P5	Foreign Military Sales (FMS) Line Item Number
+P6	Contract Payment Notice (CPN) Recipient Indicator
+RL	Rental or Lease of Equipment or Facilities
+SC	Service Contracts
+TA	Transportation Account Code (TAC)
+TC	Termination Costs
+TD	Technical Data
+TR	Training
+TU	Participant Tuition
+UB	Undistributed Budget
+ZZ	Mutually Defined

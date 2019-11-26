@@ -1,0 +1,10 @@
+id	definition
+A	No Quantity or Unit of Measure Change Allowed
+X	Equivalent Item Substitution
+Y	Alternate Item Substitution Allowed
+B0	No Substitution Allowed
+B1	Supply any Binding if Edition Ordered Not Available
+B2	Supply Paper Binding if Edition Ordered Not Available
+B3	Supply Cloth Binding if Edition Ordered Not Available
+B4	Supply Library Binding if Edition Ordered Not Available
+ZZ	Mutually Defined

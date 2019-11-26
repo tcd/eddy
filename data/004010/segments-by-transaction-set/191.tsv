@@ -1,0 +1,33 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+ENT	Entity	H	M	10	1	2
+IN2	Individual Name Structure Components	H	O	0	5	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	3	6
+DMG	Demographic Information	H	O	0	1	7
+DMA	Additional Demographic Information	H	O	0	1	8
+DTP	Date Or Time Or Period	H	O	0	3	9
+YNQ	Yes/No Question	H	O	0	5	10
+ENR	School Enrollment Information	H	O	0	1	11
+IN1	Individual Identification	H	O	10	1	12
+IN2	Individual Name Structure Components	H	O	0	5	13
+N3	Party Location	H	O	0	2	14
+N4	Geographic Location	H	O	0	1	15
+PER	Administrative Communications Contact	H	O	0	2	16
+DTP	Date Or Time Or Period	H	O	0	1	17
+YNQ	Yes/No Question	H	O	0	5	18
+REF	Reference Information	H	M	100	1	19
+SLI	Specific Loan Information	H	O	0	1	20
+GR	Guarantee Result Detail	H	O	0	1	21
+DEF	Delayed Repayment	H	O	0	100	22
+YNQ	Yes/No Question	H	O	0	1000	23
+DB	Disbursement Information	H	O	0	10	24
+DTP	Date Or Time Or Period	H	O	0	500	25
+AMT	Monetary Amount Information	H	O	0	500	26
+IN1	Individual Identification	H	O	10	1	27
+IN2	Individual Name Structure Components	H	O	0	5	28
+N3	Party Location	H	O	0	2	29
+N4	Geographic Location	H	O	0	1	30
+PER	Administrative Communications Contact	H	O	0	2	31
+YNQ	Yes/No Question	H	O	0	5	32

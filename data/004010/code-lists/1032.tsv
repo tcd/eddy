@@ -1,0 +1,46 @@
+id	definition
+01	Property Conveyance
+02	Mortgage Assignment
+03	Automatic Mortgage Assignment
+04	Mortgage Coinsurance
+05	Supplemental Claim
+06	Property Nonconveyance (Claim without Conveyance of Title)
+07	Property Preforeclosure Sale
+08	Initial Claim
+09	Self-pay
+10	Central Certification
+11	Other Non-Federal Programs
+12	Preferred Provider Organization (PPO)
+13	Point of Service (POS)
+14	Exclusive Provider Organization (EPO)
+15	Indemnity Insurance
+16	Health Maintenance Organization (HMO) Medicare Risk
+17	Dental Maintenance Organization
+18	Deed-in-Lieu Property Sold
+19	Deed-in-Lieu Property Not Sold
+20	Foreclosure Complete Property Sold
+21	Foreclosure Complete Property Not Sold
+22	Liability Insurance
+AM	Automobile Medical
+BL	Blue Cross/Blue Shield
+CH	Champus
+CI	Commercial Insurance Co.
+CN	Contractual
+DS	Disability
+FI	Federal Employees Program
+HM	Health Maintenance Organization
+LI	Liability
+LM	Liability Medical
+MA	Medicare Part A
+MB	Medicare Part B
+MC	Medicaid
+MH	Managed Care Non-HMO
+OF	Other Federal Program
+SA	Self-administered Group
+TV	Title V
+VA	Veteran Administration Plan
+WB	Workers' Compensation First Report of Injury
+WC	Workers' Compensation Health Claim
+WD	Workers' Compensation Subsequent Report of Injury
+WE	Workers' Compensation Combined First and Subsequent Report
+ZZ	Mutually Defined

@@ -1,0 +1,24 @@
+id	definition
+A	Off Invoice (Deduction from Original Invoice)
+B	Debit/Credit Advice No Remittance Detail
+C	Payment Accompanies Remittance Advice
+D	Make Payment Only
+E	Debit/Credit Advice with Remittance Detail
+F	Plan and Submit Suggested Purchase Order(s)
+G	Plan Order(s) and Ship Product
+H	Notification Only
+I	Remittance Information Only
+J	Payment Requested (Adjustment to Account)
+K	Reimbursement to Follow
+L	Apply on Account
+M	Memo/Additional Remittance Detail
+N	Check Issuance Notice
+O	Deduct from Next Remittance
+P	Prenotification of Future Transfers
+Q	Credit Due, Payment Being Issued
+R	Recurring Debit Authorization
+S	Single Debit Authorization
+T	Adjustment Requested
+U	Split Payment and Remittance
+X	Handling Party's Option to Split Payment and Remittance
+Z	Mutually Defined

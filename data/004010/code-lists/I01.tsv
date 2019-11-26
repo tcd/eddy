@@ -1,0 +1,8 @@
+id	definition
+00	No Authorization Information Present (No Meaningful Information in I02)
+01	UCS Communications ID
+02	EDX Communications ID
+03	Additional Data Identification
+04	Rail Communications ID
+05	Department of Defense (DoD) Communication Identifier
+06	United States Federal Government Communication Identifier

@@ -1,0 +1,30 @@
+id	description	section	req	max_loop	max_usage	pos
+M10	Manifest Identifying Information	H	M	0	1	1
+VEH	Vehicle Information	H	O	0	10	2
+CII	Conveyance Insurance Information	H	O	0	3	3
+NM1	Individual Or Organizational Name	H	O	999	1	4
+DMG	Demographic Information	H	O	0	1	5
+DMA	Additional Demographic Information	H	O	0	1	6
+REF	Reference Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+P4	Port Information	H	M	20	1	10
+LX	Transaction Set Line Number	H	M	9999	1	11
+M13	Manifest Amendment Details	H	O	0	1	12
+M11	Manifest Bill Of Lading Details	H	O	0	1	13
+N9	Extended Reference Information	H	O	0	999	14
+N1	Party Identification	H	O	20	1	15
+N3	Party Location	H	O	0	2	16
+N4	Geographic Location	H	O	0	1	17
+DTM	Date/Time Reference	H	O	0	1	18
+PER	Administrative Communications Contact	H	O	0	1	19
+X1	Export License	H	O	0	1	20
+M12	In-Bond Identifying Information	H	O	1	1	21
+R4	Port Or Terminal	H	O	0	10	22
+VID	Conveyance Identification	H	O	999	1	23
+M7	Seal Numbers	H	O	0	5	24
+N10	Quantity And Description	H	O	999	1	25
+VC	Motor Vehicle Control	H	O	0	999	26
+MAN	Marks And Numbers Information	H	O	0	999	27
+H1	Hazardous Material	H	O	99	1	28
+H2	Additional Hazardous Material Description	H	O	0	99	29

@@ -1,0 +1,85 @@
+id	definition
+21	Vessel Import Manifest (Canadian)
+22	Vessel Export Manifest (Canadian)
+23	Vessel In-Transit Manifest (Canadian)
+24	Vessel Consignment Import Manifest (Canadian)
+25	Vessel Consignment Export Manifest (Canadian)
+26	Vessel Consignment In-Transit Manifest (Canadian)
+27	Rail Import Manifest (Canadian)
+28	Rail Export Manifest (Canadian)
+29	Rail In-Transit Manifest (Canadian)
+30	House Bill of Lading (Canada)
+31	Re-Manifest Manifest (Canadian)
+32	Abstract Bill of Lading (Canada)
+33	Rail Consignment Import
+34	Rail Consignment Export
+35	Rail Consignment In-Transit
+36	Rail Manifest
+37	Highway Import
+38	Highway Export
+39	Highway In-Transit
+40	Highway Consignment Import
+41	Highway Consignment Export
+42	Highway Consignment In-Transit
+43	Air Import
+44	Air Export
+45	Air In-Transit
+46	Air Consignment Import
+47	Air Consignment Export
+48	Air Consignment In-Transit
+AN	Arrival Notice
+AT	Appointment
+BD	Financial Institution Account Statement
+BG	Government Bill of Lading
+BH	Privately Owned Personal Property Bill of Lading
+BL	Bill of Lading
+BN	Booking
+BR	Accounts Reconciliation
+BT	Balance and Transaction Reporting
+CD	Consolidator's Invoice
+CF	Controlled Disbursement Funding
+CI	Commercial Invoice
+CL	Cash Letter
+CO	Consolidation
+DL	Deposit List
+DO	Delivery Order
+DT	Depository Transfer
+EP	Electronic Presentments
+FA	Full Account Reconciliation
+FR	Freight Tender
+HR	Personal Property Tender
+IS	Transportation Control Movement Document (TCMD)
+LB	Lockbox Summary
+LS	Load Summary
+LT	Load Tender - Truckload (TL) Carrier Only
+MF	Manifest
+PC	Partial Load Tender, Carrier Consolidate
+PI	Pro Forma Invoice
+PL	Paid List (All Debits)
+PP	Point to Point Rate Application
+PS	Partial Load Tender, Shipper Consolidate
+R1	Simulation of Single Shipment Less Release Units (U.S. Department of Defense)
+R2	Simulation of Consolidation of Vans, Trailers, or Pallets (U.S. Department of Defense)
+R3	Simulation of Consolidation of Packaging Containers (U.S. Department of Defense)
+R4	Simulation of Multiple Level Consolidation (U.S. Department of Defense)
+RD	Deposit Reconciliation
+RO	Reassociation Report
+RP	Partial Account Reconciliation
+RQ	Simulation Single Shipment Release Unit (U.S. Department of Defense)
+RR	Range Reconciliation
+RS	Scale Rate Application
+S1	Single Package Shipment Status
+S2	Multiple Package Shipment Status
+SI	Single Shipment Invoice
+SL	Shipper's Letter of Instruction
+SP	Multiple Shipment Invoice
+SS	Single Shipment Status
+T1	Single Shipment Less Release Units (U.S. Department of Defense)
+T2	Consolidation of Vans, Trailers, or Pallets (U.S. Department of Defense)
+T3	Consolidation of Packaging Containers (U.S. Department of Defense)
+T4	Multiple Level Consolidation (U.S. Department of Defense)
+TF	Trailer Forecast
+TG	Government Guaranteed Traffic Tender
+TM	Trailer Manifest
+TQ	Single Shipment Release Unit (U.S. Department of Defense)
+ZZ	Mutually Defined

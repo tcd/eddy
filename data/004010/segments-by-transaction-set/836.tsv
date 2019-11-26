@@ -1,0 +1,50 @@
+id	description	section	req	max_loop	max_usage	pos
+BCO	Beginning Segment For Procurement Notices	H	M	0	1	1
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	5	2
+CTB	Restrictions/Conditions	H	O	0	5	3
+CTP	Pricing Information	H	O	0	25	4
+FOB	F.O.B. Related Instructions	H	O	0	1	5
+AMT	Monetary Amount Information	H	O	0	999999	6
+QTY	Quantity Information	H	O	0	999999	7
+DTM	Date/Time Reference	H	O	0	999999	8
+LDT	Lead Time	H	O	0	999999	9
+PWK	Paperwork	H	O	0	999999	10
+MTX	Text	H	O	0	999999	11
+N1	Party Identification	H	O	999999	1	12
+N2	Additional Name Information	H	O	0	2	13
+N3	Party Location	H	O	0	2	14
+N4	Geographic Location	H	O	0	1	15
+REF	Reference Information	H	O	0	999999	16
+PER	Administrative Communications Contact	H	O	0	999999	17
+FOB	F.O.B. Related Instructions	H	O	0	1	18
+LM	Code Source Information	H	O	999999	1	19
+LQ	Industry Code Identification	H	M	0	999999	20
+PO1	Baseline Item Data	H	O	999999	1	21
+PO3	Additional Item Detail	H	O	0	999999	22
+CTP	Pricing Information	H	O	0	999999	23
+PID	Product/Item Description	H	O	0	999999	24
+SI	Service Characteristic Identification	H	O	0	999999	25
+MEA	Measurements	H	O	0	999999	26
+PWK	Paperwork	H	O	0	999999	27
+PER	Administrative Communications Contact	H	O	0	999999	28
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	1	29
+DTM	Date/Time Reference	H	O	0	10	30
+CTB	Restrictions/Conditions	H	O	0	1	31
+QTY	Quantity Information	H	O	0	999999	32
+AMT	Monetary Amount Information	H	O	0	999999	33
+REF	Reference Information	H	O	999999	1	34
+DTM	Date/Time Reference	H	O	0	999999	35
+SLN	Subline Item Detail	H	O	999999	1	36
+PID	Product/Item Description	H	O	0	999999	37
+N1	Party Identification	H	O	999999	1	38
+N2	Additional Name Information	H	O	0	2	39
+N3	Party Location	H	O	0	2	40
+N4	Geographic Location	H	O	0	1	41
+REF	Reference Information	H	O	0	999999	42
+PER	Administrative Communications Contact	H	O	0	999999	43
+FOB	F.O.B. Related Instructions	H	O	0	999999	44
+DTM	Date/Time Reference	H	O	0	999999	45
+LDT	Lead Time	H	O	0	999999	46
+MTX	Text	H	O	0	999999	47
+LM	Code Source Information	H	O	999999	1	48
+LQ	Industry Code Identification	H	M	0	999999	49

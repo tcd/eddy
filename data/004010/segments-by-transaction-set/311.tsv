@@ -1,0 +1,28 @@
+id	description	section	req	max_loop	max_usage	pos
+B2A	Set Purpose	H	M	0	1	1
+Y6	Authentication	H	O	0	2	2
+N9	Extended Reference Information	H	M	0	10	3
+V1	Vessel Identification	H	O	0	1	4
+V2	Vessel Information	H	O	0	1	5
+V3	Vessel Schedule	H	O	0	1	6
+DTM	Date/Time Reference	H	O	0	2	7
+N1	Party Identification	H	M	10	1	8
+N2	Additional Name Information	H	O	0	1	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+R4	Port Or Terminal	H	M	0	10	12
+K1	Remarks	H	O	0	5	13
+LX	Transaction Set Line Number	D	M	999	1	14
+Y2	Container Details	D	O	0	10	15
+ED	Equipment Description	D	O	999	1	16
+M7	Seal Numbers	D	O	0	5	17
+NA	Cross-Reference Equipment	D	O	0	1	18
+L4	Measurement	D	O	0	1	19
+G2	Beyond Routing	D	O	0	1	20
+L0	Line Item - Quantity And Weight	D	O	120	1	21
+L5	Description, Marks And Numbers	D	M	0	999	22
+L4	Measurement	D	O	0	1	23
+X1	Export License	D	O	0	5	24
+X2	Import License	D	O	0	5	25
+L3	Total Weight And Charges	S	O	0	1	26
+K1	Remarks	S	O	0	2	27

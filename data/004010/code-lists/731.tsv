@@ -1,0 +1,8 @@
+id	definition
+BS	Buyer to Seller
+SB	Seller to Buyer
+SC	Subcontractor to Seller
+SD	Seller to Drop-Ship Designated Location
+SF	Seller to Freight Forwarder
+SS	Seller to Subcontractor
+ZZ	Mutually Defined

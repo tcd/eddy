@@ -1,0 +1,64 @@
+id	description	section	req	max_loop	max_usage	pos
+BIA	Beginning Segment For Inventory Inquiry/Advice	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+DTM	Date/Time Reference	H	O	0	10	3
+REF	Reference Information	H	O	0	12	4
+PER	Administrative Communications Contact	H	O	0	3	5
+MEA	Measurements	H	O	0	20	6
+N1	Party Identification	H	O	5	1	7
+N2	Additional Name Information	H	O	0	2	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10
+REF	Reference Information	H	O	0	12	11
+PER	Administrative Communications Contact	H	O	0	3	12
+LM	Code Source Information	H	O	10	1	13
+LQ	Industry Code Identification	H	M	0	100	14
+LIN	Item Identification	D	M	10000	1	15
+PID	Product/Item Description	D	O	0	200	16
+MEA	Measurements	D	O	0	40	17
+PKG	Marking, Packaging, Loading	D	O	0	25	18
+DTM	Date/Time Reference	D	O	0	10	19
+CTP	Pricing Information	D	O	0	25	20
+CUR	Currency	D	O	0	1	21
+SAC	Service, Promotion, Allowance, Or Charge Information	D	O	0	25	22
+REF	Reference Information	D	O	0	999999	23
+PER	Administrative Communications Contact	D	O	0	3	24
+SDQ	Destination Quantity	D	O	0	500	25
+MAN	Marks And Numbers Information	D	O	0	1	26
+UIT	Unit Detail	D	O	0	5	27
+CS	Contract Summary	D	O	0	1	28
+DD	Demand Detail	D	O	0	999999	29
+G53	Maintenance Type	D	O	0	1	30
+PCT	Percent Amounts	D	O	0	999999	31
+LDT	Lead Time	D	O	0	12	32
+LM	Code Source Information	D	O	10	1	33
+LQ	Industry Code Identification	D	M	0	100	34
+SLN	Subline Item Detail	D	O	1000	1	35
+PID	Product/Item Description	D	O	0	200	36
+MEA	Measurements	D	O	0	40	37
+PKG	Marking, Packaging, Loading	D	O	0	25	38
+MAN	Marks And Numbers Information	D	O	100	1	39
+MEA	Measurements	D	O	0	40	40
+QTY	Quantity Information	D	O	99	1	41
+UIT	Unit Detail	D	O	0	12	42
+MEA	Measurements	D	O	0	25	43
+LDT	Lead Time	D	O	0	12	44
+DTM	Date/Time Reference	D	O	0	10	45
+SCH	Line Item Schedule	D	O	25	1	46
+MEA	Measurements	D	O	0	25	47
+LM	Code Source Information	D	O	999999	1	48
+LQ	Industry Code Identification	D	M	0	100	49
+LS	Loop Header	D	O	0	1	50
+REF	Reference Information	D	O	999999	1	51
+DTM	Date/Time Reference	D	O	0	999999	52
+N1	Party Identification	D	O	0	1	53
+LM	Code Source Information	D	O	10	1	54
+LQ	Industry Code Identification	D	M	0	100	55
+LE	Loop Trailer	D	O	0	1	56
+N1	Party Identification	D	O	200	1	57
+N2	Additional Name Information	D	O	0	2	58
+N3	Party Location	D	O	0	2	59
+N4	Geographic Location	D	O	0	1	60
+REF	Reference Information	D	O	0	12	61
+PER	Administrative Communications Contact	D	O	0	3	62
+CTT	Transaction Totals	S	O	0	1	63

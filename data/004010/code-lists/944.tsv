@@ -1,0 +1,17 @@
+id	definition
+01	Longitudinal
+02	Transverse
+03	Radial
+04	Axial
+05	Forty-Five Degree
+06	Long Transverse
+07	Short Transverse
+08	Tangential
+09	Long Transverse/Longitudinal
+10	Long Transverse/Short Transverse
+11	Longitudinal/Long Transverse
+12	Longitudinal/Short Transverse
+13	Short Transverse/Longitudinal
+14	Short Transverse/Long Transverse
+15	Longitudinal/Transverse
+16	Shear

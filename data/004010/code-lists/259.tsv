@@ -1,0 +1,22 @@
+id	definition
+A	Add Rate
+B	Original Price Change Transaction
+C	Cancel Previous Price Change Transaction
+D	Decrease Rate
+E	Eliminate/Expire
+F	Confirmation Of A Discussion Between Buyer And Sales Representative
+G	Add Items To A Previous Change Transaction
+H	Delete Items From A Previous Change Transaction
+I	Increase Rate
+J	Replace All Dates Shown In A Previous Change
+K	Replace Prices Shown In A Previous Change Transaction
+L	Replace Restrictions (Conditions) At An Item Level Shown In A Previous Change
+M	Replace Marketing Area Shown In A Previous Announcement
+N	Change Having No Effect on Rates
+O	Replace Restrictions (Conditions) At A Transaction Level Shown In A Previous Change
+P	Replace Price Area Shown In A Previous Change
+Q	Replace Previous Change Transaction Entirely Because of Multiple Kinds Of Changes Or To Make Changes Not Specifically Indicated By Another Code In This Data Element
+R	Replace Allowance Rates Shown In A Previous Announcement
+T	Modified
+W	New
+X	No Modification

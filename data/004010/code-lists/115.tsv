@@ -1,0 +1,31 @@
+id	definition
+1	Final Port of Discharge (Operational)
+2	Collect Charge Location (Operational)
+3	Customs Office of Manifest Origin
+4	Customs Office of Manifest Destination
+5	Activity Location (Operational)
+6	Origin  Rail Intermodal Terminal
+7	Destination Rail Intermodal Terminal
+A	Place of Acceptance (Operational)
+B	Reconsolidation Point (Operational)
+C	De-Consolidation Point (Operational)
+D	Port of Discharge (Operational)
+E	Place of Delivery (Contractual)
+F	Freight Payable At (Contractual)
+G	Port of Entry (Operational)
+H	Port of Exit (Operational)
+I	Interim Point (Operational)
+J	Bill of Lading Port of Loading (Contractual)
+K	Bill of Lading Port of Discharge (Contractual)
+L	Port of Loading (Operational)
+M	Destination (Operational)
+N	Final Destination (Operational)
+O	Origin (Operational)
+P	Dispatching Pool (Operational)
+Q	Bill of Lading Origin of Goods (Contractual)
+R	Place of Receipt (Contractual)
+S	Return Pool (Operational)
+T	Transshipment Port (Contractual)
+V	Prepaid Charge Location (Operational)
+W	Bill of Lading Release Office (Operational)
+Y	Relay Port (Operational)

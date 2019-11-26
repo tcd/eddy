@@ -1,0 +1,11 @@
+id	definition
+01	Good
+02	Damaged
+03	Recouped
+04	New Material
+05	Suitable for Reuse without Reconditioning
+06	Suitable for Reuse After Reconditioning
+07	No longer useful for original purpose but still of some use
+08	Junk Material
+09	Hold or Reserve Stock
+ZZ	Mutually Defined

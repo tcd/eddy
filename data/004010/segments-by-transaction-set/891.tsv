@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	2	2
+PER	Administrative Communications Contact	H	O	0	3	3
+ENT	Entity	D	M	100	1	4
+N9	Extended Reference Information	D	O	100	1	5
+AMT	Monetary Amount Information	D	O	0	1	6
+ADX	Adjustment	D	O	1000	1	7
+AMT	Monetary Amount Information	D	O	0	1	8
+REF	Reference Information	D	O	0	10	9

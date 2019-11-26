@@ -1,0 +1,12 @@
+id	definition
+C	Minimum Charge per Carload or Trailer
+D	Department of Defense Unique Freight Class
+E	Rate per Unit Applicable only to Units in Excess of a Specific Threshold Amount
+F	Department of Defense Freight All Kinds, Class 100
+L	LTL (Less Than Truckload) Rate
+M	Minimum Charge
+N	No Rate for This Application
+P	Percent of Minimum Charge
+R	Rate per unit subject to minimum units specified, if any
+S	Minimum Charge per Shipment
+T	TL (Truckload) Rate

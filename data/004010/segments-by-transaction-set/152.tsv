@@ -1,0 +1,22 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+PAM	Period Amount	H	O	0	1	2
+NTE	Note/Special Instruction	H	O	0	999999	3
+N1	Party Identification	H	M	1000	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+N9	Extended Reference Information	H	O	0	10	8
+PER	Administrative Communications Contact	H	O	0	3	9
+DTM	Date/Time Reference	H	O	0	999999	10
+GRI	Statistical Government Information	H	M	100000	1	11
+PAM	Period Amount	H	O	0	999999	12
+N9	Extended Reference Information	H	O	0	999999	13
+QTY	Quantity Information	H	O	0	999999	14
+N1	Party Identification	H	O	100	1	15
+N2	Additional Name Information	H	O	0	2	16
+N3	Party Location	H	O	0	2	17
+N4	Geographic Location	H	O	0	1	18
+PER	Administrative Communications Contact	H	O	0	3	19
+ICH	Individual Characteristics	H	O	0	1	20
+QTY	Quantity Information	H	O	0	1	21

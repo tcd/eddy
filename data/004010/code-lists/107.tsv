@@ -1,0 +1,38 @@
+id	definition
+1	Graduated
+2	Income Sensitive
+3	Income Contingent
+4	Level (Sum Constant)
+8	Credit Account
+A	Private Netting Agreement, Pay by Wire Transfer
+B	Compensation by Balance
+C	Pay By Check
+D	Debited
+E	Electronic Payment System
+F	Freight Payment Bank
+G	CCD (NACHA Cash Concentration/Disbursement - Funds Transacted without Remittance Information)
+H	CCD+(NACHA Cash Concentration/Disbursement - Funds Transacted Plus an 80 Record Remittance Detail)
+I	Invoiced Separately
+J	CTX (NACHA Corporate Trade Exchange - Transaction Plus Remittance Detail in ANSI Standard Flexible Format)
+K	Private Netting, Pay by Check
+L	Letter of Credit
+M	Deduction from Film Rental
+N	Billing Account
+O	CTP (NACHA Corporate Trade Payment - Transaction Plus Remittance Detail in Fixed Format)
+P	Previously Charged
+Q	Petroleum Clearinghouse Bank
+R	Related Detail Account
+S	Summary Account
+T	Wire Transfer
+U	Direct Pay to Others
+V	Lock Box
+W	Waived
+X	In Kind Payment
+Y	Credit
+AA	Bank Draft
+AB	Cash
+AC	Credit Card
+AD	Direct Deposit
+AE	Money Order
+AF	Special Account
+AG	Travelers Check

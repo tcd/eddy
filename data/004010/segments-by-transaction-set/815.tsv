@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+CSM	Cryptographic Service Message Header	H	M	0	1	1
+CSB	Cryptographic Service Message Body	H	O	0	999999	2
+CSC	Cryptographic Service Message Certificates And Keys	H	O	999999	1	3
+DTP	Date Or Time Or Period	H	O	0	9	4

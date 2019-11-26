@@ -1,0 +1,56 @@
+id	definition
+A1	Admiral
+A2	Airman
+A3	Airman First Class
+B1	Basic Airman
+B2	Brigadier General
+C1	Captain
+C2	Chief Master Sergeant
+C3	Chief Petty Officer
+C4	Chief Warrant
+C5	Colonel
+C6	Commander
+C7	Commodore
+C8	Corporal
+C9	Corporal Specialist 4
+E1	Ensign
+F1	First Lieutenant
+F2	First Sergeant
+F3	First Sergeant-Master Sergeant
+F4	Fleet Admiral
+G1	General
+G4	Gunnery Sergeant
+L1	Lance Corporal
+L2	Lieutenant
+L3	Lieutenant Colonel
+L4	Lieutenant Commander
+L5	Lieutenant General
+L6	Lieutenant Junior Grade
+M1	Major
+M2	Major General
+M3	Master Chief Petty Officer
+M4	Master Gunnery Sergeant Major
+M5	Master Sergeant
+M6	Master Sergeant Specialist 8
+P1	Petty Officer First Class
+P2	Petty Officer Second Class
+P3	Petty Officer Third Class
+P4	Private
+P5	Private First Class
+R1	Rear Admiral
+R2	Recruit
+S1	Seaman
+S2	Seaman Apprentice
+S3	Seaman Recruit
+S4	Second Lieutenant
+S5	Senior Chief Petty Officer
+S6	Senior Master Sergeant
+S7	Sergeant
+S8	Sergeant First Class Specialist 7
+S9	Sergeant Major Specialist 9
+SA	Sergeant Specialist 5
+SB	Staff Sergeant
+SC	Staff Sergeant Specialist 6
+T1	Technical Sergeant
+V1	Vice Admiral
+W1	Warrant Officer

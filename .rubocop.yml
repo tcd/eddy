@@ -1,0 +1,159 @@
+AllCops:
+  TargetRubyVersion: 2.3.0
+
+Style/Documentation:
+  Enabled: true
+  Exclude:
+    - 'test/**/*.rb'
+
+Style/DocumentationMethod:
+  Enabled: true
+  Exclude:
+    - 'test/**/*.rb'
+
+Style/SingleLineMethods:
+  Exclude:
+    - 'test/**/*.rb'
+
+# Don't leave calls to pry lying around.
+Lint/Debugger:
+  Enabled: true
+
+# ==============================================================================
+# Layout
+# ==============================================================================
+
+Metrics/LineLength:
+  Max: 150
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+# https://unix.stackexchange.com/a/18789
+Layout/TrailingBlankLines:
+  EnforcedStyle: final_newline
+
+# ==============================================================================
+# Strings
+# ==============================================================================
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+# ==============================================================================
+# Numbers
+# ==============================================================================
+
+Style/ZeroLengthPredicate:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+# ==============================================================================
+# Braces, Brackets, & Parens
+# ==============================================================================
+
+Style/DefWithParentheses:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
+# Only use braces if the function expects a hash argument. [different in Ruby 2.7+](https://blog.saeloun.com/2019/10/07/ruby-2-7-keyword-arguments-redesign.html)
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+# ==============================================================================
+# Unsorted
+# ==============================================================================
+
+# Default value (special_inside_parentheses) is ridiculous.
+# Look for yourself: https://www.rubydoc.info/gems/rubocop/0.69.0/RuboCop/Cop/Layout/IndentFirstHashElement
+Layout/IndentFirstHashElement:
+  EnforcedStyle: consistent
+
+# Default value (special_inside_parentheses) is ridiculous.
+# Look for yourself: https://www.rubydoc.info/gems/rubocop/0.69.0/RuboCop/Cop/Layout/IndentFirstArrayElement
+Layout/IndentFirstArrayElement:
+  EnforcedStyle: consistent
+
+Layout/AlignHash:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+# Explicit, not redundant
+Style/RedundantReturn:
+  Enabled: false
+
+# Explicit, not redundant
+Style/RedundantSelf:
+  Enabled: false
+
+# `x&.y&.[](:argument)` isn't what I'd call "readable".
+# https://stackoverflow.com/questions/34794697/using-with-the-safe-navigation-operator-in-ruby
+Style/SafeNavigation:
+  Enabled: false
+
+# TODO: File issue to ignore enums when using `EnforcedStyle: assign_inside_condition`.
+Style/ConditionalAssignment:
+  Enabled: false
+
+Lint/HandleExceptions:
+  AllowComments: true
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: False

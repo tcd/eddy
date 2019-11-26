@@ -1,0 +1,22 @@
+id	definition
+AB	Above
+BL	Below
+BO	Back Of
+EB	Eastern Bound
+EO	East Of
+FO	Front Of
+IN	Intersection
+LO	Left Of
+NB	Northern Bound
+NE	Northeast of
+NL	Not Located in the Vicinity
+NO	North Of
+NW	Northwest of
+RO	Right Of
+SB	Southern Bound
+SE	Southeast of
+SO	South Of
+SW	Southwest of
+WB	Western Bound
+WO	West Of
+ZZ	Mutually Defined

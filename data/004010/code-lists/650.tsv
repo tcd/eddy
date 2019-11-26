@@ -1,0 +1,67 @@
+id	definition
+01	Charge Off
+02	Collection Account
+03	Foreclosure
+04	Involuntary Repossession
+05	Repossession
+06	Voluntary Repossession
+07	Account Balance applied to Line of Credit
+08	Government Claim
+09	Paid Account
+10	Paid Charge-off
+11	Paid Collection
+12	Paid Dealer
+13	Paid Foreclosure
+14	Paid Not as Agreed
+15	Paid Repossession
+16	Paid Satisfactory
+17	Redeemed Repossession
+18	Revolving Account - Current
+19	Satisfactory
+20	Satisfactory Revolving Account - Current
+21	Too New to Rate
+22	Unpaid Collection
+24	Closed Not Paid
+25	Insurance Claim
+26	Partially Paid
+27	Account Included in Bankruptcy
+33	As Agreed
+35	No Status
+36	Not Paid as Agreed
+37	Past Due
+38	Settled
+39	Unpaid
+40	Card Lost
+41	Account in Dispute
+42	Bad Debt
+43	Bill of Exchange
+44	Cash per Owner's Option
+45	Credit Refused
+46	Draft
+47	Endorser
+48	First Sale
+49	Insufficient Funds
+50	Legal Action
+51	Letter of Credit
+52	Maturity Varies
+53	Overdraft
+54	Personal Guarantee
+55	Pro Forma
+56	Renegotiated Draft
+57	Reopening Draft
+58	Real Estate Tax
+59	Secured Account
+60	Suit Filed
+61	Took Deduction
+62	Took Excess Discount
+63	Unauthorized Deduction
+64	Unsatisfactory
+65	Credit Cancelled
+66	Credit is for Group
+67	Credit Refinanced
+68	Inactive Account
+69	Irregular Payments
+70	Long Time Client
+71	No longer Clients
+72	Post Dated Checks
+ZZ	Mutually Defined

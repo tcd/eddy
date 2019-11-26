@@ -1,0 +1,5 @@
+id	definition
+1	Urgent - Requires Immediate Attention
+2	Severe - Requires Quick Attention
+3	Routine - When Next Serviced
+4	Defer - may be deferred until next release

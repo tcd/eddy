@@ -1,0 +1,21 @@
+id	definition
+0	No rates available applicable to requested movement.
+1	Rates provided per request.
+2	Rates provided because rates earlier provided have been changed by a blanket change.
+3	Rates provided because rates earlier provided have been changed by other than a blanket change.
+4	Rates provided because new rates have been added applicable to a previously requested movement.
+5	Successfully Processed
+6	Unsuccessfully Processed
+9	Group Definition Request
+A	Provide rates applicable to a specific movement and continue to provide rates in the future applicable to the specific movement.
+C	Rate or Division Change
+D	Cease providing rates applicable to a specific movement.
+F	No Rates Provided Due To Invalid Origin Geography
+G	General Price Request or Response
+H	Historic Price Request or Response
+I	Provide rates applicable to specific movement.
+P	No Rates Provided Due To Invalid Commodity
+Q	Price Quote Request or Response
+S	Price Distribution Send
+T	No Rates Provided Due To Invalid Destination Geography
+W	Waybill Price Request or Response

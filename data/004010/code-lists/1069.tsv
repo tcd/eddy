@@ -1,0 +1,154 @@
+id	definition
+01	Spouse
+02	Son or Daughter
+03	Father or Mother
+04	Grandfather or Grandmother
+05	Grandson or Granddaughter
+06	Uncle or Aunt
+07	Nephew or Niece
+08	Cousin
+09	Adopted Child
+10	Foster Child
+11	Son-in-law or Daughter-in-law
+12	Brother-in-law or Sister-in-law
+13	Mother-in-law or Father-in-law
+14	Brother or Sister
+15	Ward
+17	Stepson or Stepdaughter
+18	Self
+19	Child
+20	Employee
+21	Unknown
+22	Handicapped Dependent
+23	Sponsored Dependent
+24	Dependent of a Minor Dependent
+25	Ex-spouse
+26	Guardian
+27	Student
+28	Friend
+29	Significant Other
+30	Both Parents
+31	Court Appointed Guardian
+32	Mother
+33	Father
+34	Other Adult
+36	Emancipated Minor
+37	Agency Representative
+38	Collateral Dependent
+39	Organ Donor
+40	Cadaver Donor
+41	Injured Plaintiff
+43	Child Where Insured Has No Financial Responsibility
+45	Widow
+46	Widower
+47	State Fund
+48	Stepfather
+49	Stepmother
+50	Foster Parent
+51	Emergency Contact
+52	Employer
+53	Life Partner
+55	Adopted Daughter
+56	Adopted Son
+57	Adoptive Father
+58	Adoptive Mother
+59	Adoptive Parents
+60	Annuitant
+61	Aunt
+62	Brother
+63	Brother-in-Law
+64	Business
+65	Business Associate
+66	Business Insurance Trust
+67	Business Partner
+68	Charity
+70	Children of Marriage
+71	Company
+72	Corporation
+73	Creditor
+74	Daughter
+75	Daughter-in-Law
+76	Dependent
+78	Estate
+79	Ex-wife
+80	Family Member
+81	Father-in-Law
+82	Fianc&#xFFFD; (Male)
+83	Financ&#xFFFD;e (Female)
+84	Fiduciary
+86	Foster Daughter
+87	Foster Father
+88	Foster Mother
+90	Foster Son
+91	God Daughter
+92	God Father
+93	God Parents
+94	God Son
+95	Grandchildren
+96	Granddaughter
+97	Grandfather
+98	Grandmother
+99	Grandparents
+A1	Grandson
+A2	Great Aunt
+A3	Ex-husband
+A4	Half Brother
+A5	Half Sister
+A6	Husband
+A7	Institution
+A8	Mortgage Holder
+A9	Mother-in-Law
+B1	Nephew
+B2	Niece
+B3	Parents-in-Law
+B4	Partnership
+B5	Partner
+B6	Personal Insurance Trust
+B7	Sister
+B8	Sister-in-Law
+B9	Sole Proprietorship
+C1	Son
+C2	Son-in-Law
+C3	Step Brother
+C4	Step Children
+C5	Step Daughter
+C8	Step Sister
+C9	Step Son
+D1	Trust
+D2	Trustee
+D3	Uncle
+D4	Wife
+D5	Teacher
+D6	School Counselor
+D7	School Principal
+D8	Other School Administrator
+D9	Coach
+E1	Activity Sponsor
+E2	Supervisor
+E3	Co-worker
+E4	Minister or Priest
+E5	Ecclesiastical or Religious Leader
+E6	God Mother
+E7	Probation Officer
+E8	Accountant
+E9	Advisor
+F1	Alma Mater
+F2	Applicant
+F3	Banker
+F6	Clergyman
+F7	Client
+F8	Club or Organization Officer
+F9	Doctor
+G2	Educator/Teacher/Instructor
+G3	Betrothed
+G4	Insured
+G5	Lawyer
+G6	Medical Care Provider
+G7	Neighbor
+G8	Other Relationship
+G9	Other Relative
+H1	Owner
+H4	Payor
+N1	None
+OT	Non-applicable Individual Relationship Category
+ZZ	Mutually Defined

@@ -1,0 +1,85 @@
+id	definition
+1	Unacceptable Delivery
+2	Unacceptable Quality
+3	Unacceptable Delivery and Quality
+4	Satisfactory
+5	Unsatisfactory
+6	Not Evaluated
+7	Eligible for Award
+8	Not Eligible for Award
+9	Greatly Below Expectations
+A	Greatly Exceeds Expectations
+B	Exceeds Expectations
+C	Below Expectations
+D	Very Poor
+E	Excellent
+F	Fair
+G	Good
+H	As Agreed
+I	Business Reorganized - Surveillance Advised
+J	Cash Account
+K	Caution Recommended
+L	Cessation
+M	COD (Cash on Delivery)
+N	COD (Cash on Delivery) Due to Bad Experiences
+O	Continuation Plan
+P	Poor
+Q	Credit Guarantees Advised
+R	Credit Not Recommended
+S	Currently Regular
+T	Difficult to Judge
+U	Unacceptable
+V	Very Good
+W	Difficulties
+X	Difficult to Judge, Direction Change
+Y	Difficult to Judge, Started Recently
+01	Discount According to Business
+02	Extremely Slow
+03	Formerly Satisfactory
+04	Formerly Unsatisfactory
+05	High
+06	Low
+07	Insufficient Data
+08	Limited
+09	Loan Chargeoff
+10	Mainly Foreign Suppliers
+11	Matter of Confidence
+12	Medium
+13	Nationalized Company
+14	Nature of Business Precludes Need for Trade Credit
+15	No Complaints
+16	No Experiences, because Recent Start
+17	No Experiences, because Recent Incorporation
+18	Normal
+19	Not Yet Judged
+20	Other
+21	Paid Discount
+22	Paid Prompt
+23	Payment in Advance
+24	Placed for Collection
+25	Prorogations
+26	Protested Bills
+27	Recognized Bank
+28	Regular According to Business
+29	Relation can be Incurred
+30	Return Drafts
+31	Slow or Terms Exceeded
+32	Strong
+33	To be Monitored
+34	Unbalanced
+35	Unpaid
+36	Variable
+37	Very Limited
+38	Very Slow
+39	Non Sufficient Fund Checks
+40	Repayment not as Agreed
+41	Requested Amount Seems to be Too High
+42	Requested Amount Too High
+43	Requested Amount Too High but feasible with Guarantees
+44	Special Investigation Needed
+45	Payment Notes Exist
+46	Financial Information not Available
+47	Financial Information out of Date
+48	Comment Declined
+49	Extended
+50	Negative

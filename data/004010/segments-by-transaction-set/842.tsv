@@ -1,0 +1,80 @@
+id	description	section	req	max_loop	max_usage	pos
+BNR	Beginning Segment For Nonconformance Report	H	M	0	1	1
+REF	Reference Information	H	O	0	999999	2
+DTM	Date/Time Reference	H	O	0	999999	3
+PID	Product/Item Description	H	O	0	999999	4
+MEA	Measurements	H	O	999999	1	5
+DTM	Date/Time Reference	H	O	0	999999	6
+REF	Reference Information	H	O	0	999999	7
+PWK	Paperwork	H	O	999999	1	8
+REF	Reference Information	H	O	0	999999	9
+DTM	Date/Time Reference	H	O	0	999999	10
+N1	Party Identification	H	O	999999	1	11
+N2	Additional Name Information	H	O	0	2	12
+N3	Party Location	H	O	0	2	13
+N4	Geographic Location	H	O	0	1	14
+REF	Reference Information	H	O	0	999999	15
+PER	Administrative Communications Contact	H	O	0	999999	16
+HL	Hierarchical Level	D	M	999999	1	17
+LIN	Item Identification	D	O	0	1	18
+PID	Product/Item Description	D	O	0	999999	19
+PRS	Part Release Status	D	O	0	999999	20
+CID	Characteristic/Class Id	D	O	0	999999	21
+DTM	Date/Time Reference	D	O	0	999999	22
+REF	Reference Information	D	O	0	999999	23
+CS	Contract Summary	D	O	0	1	24
+QTY	Quantity Information	D	O	0	999999	25
+TMD	Test Method	D	O	0	1	26
+PSD	Physical Sample Description	D	O	0	1	27
+PWK	Paperwork	D	O	0	999999	28
+LM	Code Source Information	D	O	999999	1	29
+LQ	Industry Code Identification	D	M	0	999999	30
+MEA	Measurements	D	O	999999	1	31
+DTM	Date/Time Reference	D	O	0	999999	32
+REF	Reference Information	D	O	0	999999	33
+FA1	Type Of Financial Accounting Data	D	O	999999	1	34
+FA2	Accounting Data	D	M	0	999999	35
+SPS	Sampling Parameters For Summary Statistics	D	O	999999	1	36
+REF	Reference Information	D	O	0	999999	37
+PSD	Physical Sample Description	D	O	0	1	38
+MEA	Measurements	D	O	999999	1	39
+DTM	Date/Time Reference	D	O	0	999999	40
+REF	Reference Information	D	O	0	999999	41
+STA	Statistics	D	O	999999	1	42
+DTM	Date/Time Reference	D	O	0	999999	43
+REF	Reference Information	D	O	0	999999	44
+NCD	Nonconformance Description	D	O	999999	1	45
+NTE	Note/Special Instruction	D	O	0	999999	46
+DTM	Date/Time Reference	D	O	0	999999	47
+REF	Reference Information	D	O	0	999999	48
+QTY	Quantity Information	D	O	0	999999	49
+AMT	Monetary Amount Information	D	O	0	999999	50
+MEA	Measurements	D	O	0	999999	51
+RC	Root Cause	D	O	0	999999	52
+EFI	Electronic Format Identification	D	O	999999	1	53
+BIN	Binary Data Segment	D	M	0	1	54
+N1	Party Identification	D	O	999999	1	55
+N2	Additional Name Information	D	O	0	2	56
+N3	Party Location	D	O	0	2	57
+N4	Geographic Location	D	O	0	1	58
+REF	Reference Information	D	O	0	999999	59
+PER	Administrative Communications Contact	D	O	0	999999	60
+LM	Code Source Information	D	O	999999	1	61
+LQ	Industry Code Identification	D	M	0	999999	62
+NCA	Nonconformance Action	D	O	999999	1	63
+NTE	Note/Special Instruction	D	O	0	999999	64
+DTM	Date/Time Reference	D	O	0	999999	65
+REF	Reference Information	D	O	0	999999	66
+PWK	Paperwork	D	O	999999	1	67
+REF	Reference Information	D	O	0	999999	68
+DTM	Date/Time Reference	D	O	0	999999	69
+N1	Party Identification	D	O	999999	1	70
+N2	Additional Name Information	D	O	0	2	71
+N3	Party Location	D	O	0	2	72
+N4	Geographic Location	D	O	0	1	73
+REF	Reference Information	D	O	0	999999	74
+PER	Administrative Communications Contact	D	O	0	999999	75
+LM	Code Source Information	D	O	999999	1	76
+LQ	Industry Code Identification	D	M	0	999999	77
+FA1	Type Of Financial Accounting Data	D	O	999999	1	78
+FA2	Accounting Data	D	M	0	999999	79

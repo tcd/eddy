@@ -1,0 +1,11 @@
+id	definition
+BPT	Bill Payment
+CBC	Consumer/Employee Check
+CCD	Cash Concentration/Disbursement (CCD) (ACH)
+CCP	Cash Concentration/Disbursement plus Addenda (CCD+) (ACH)
+CTP	Corporate Trade Payment (CTP) (ACH)
+CTX	Corporate Trade Exchange (CTX) (ACH)
+PBC	Commercial/Corporate Check
+PPD	Prearranged Payment and Deposit (PPD+) (ACH)
+PPP	Prearranged Payment and Deposit plus Addenda (PPD+) (ACH)
+PRD	Preauthorized Draft

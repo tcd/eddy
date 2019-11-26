@@ -1,0 +1,12 @@
+id	definition
+1	Item List Cost
+2	Item Net Cost
+3	Discount/Gross
+4	Discount/Net
+5	Base Price per Unit
+6	Base Price Amount
+7	Base Price Amount Less Previous Discount
+8	Net Monthly On All Invoices Past Due
+9	Late Payment Charge Base Amount
+A	Fuel Rate
+Z	Mutually Defined

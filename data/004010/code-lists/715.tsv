@@ -1,0 +1,8 @@
+id	definition
+A	Accepted
+E	Accepted, But Errors Were Noted.
+M	Rejected, Message Authentication Code (MAC) Failed
+P	Partially Accepted, At Least One Transaction Set Was Rejected
+R	Rejected
+W	Rejected, Assurance Failed Validity Tests
+X	Rejected, Content After Decryption Could Not Be Analyzed

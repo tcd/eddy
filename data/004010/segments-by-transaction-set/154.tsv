@@ -1,0 +1,30 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DAD	Debit Authorization Detail	H	O	0	1	2
+NTE	Note/Special Instruction	H	O	0	999999	3
+N1	Party Identification	H	M	999999	1	4
+NM1	Individual Or Organizational Name	H	O	0	1	5
+N2	Additional Name Information	H	O	0	2	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+N9	Extended Reference Information	H	O	0	10	9
+PER	Administrative Communications Contact	H	O	0	3	10
+LS1	Asset Item Identification	H	O	999999	1	11
+LIN	Item Identification	H	O	0	1	12
+PO3	Additional Item Detail	H	O	0	25	13
+PID	Product/Item Description	H	O	0	1000	14
+TXI	Tax Information	H	O	0	999999	15
+TAX	Tax Reference	H	O	0	999999	16
+CDS	Case Description	H	O	0	1	17
+CED	Administration Of Justice Event Description	H	O	0	1	18
+N9	Extended Reference Information	H	O	0	999999	19
+PAM	Period Amount	H	O	0	25	20
+DTM	Date/Time Reference	H	O	0	10	21
+AMT	Monetary Amount Information	H	O	0	5	22
+N1	Party Identification	H	O	999999	1	23
+NM1	Individual Or Organizational Name	H	O	0	1	24
+N2	Additional Name Information	H	O	0	2	25
+N3	Party Location	H	O	0	2	26
+N4	Geographic Location	H	O	0	1	27
+N9	Extended Reference Information	H	O	0	999999	28
+PER	Administrative Communications Contact	H	O	0	3	29

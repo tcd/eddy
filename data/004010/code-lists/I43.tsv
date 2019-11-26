@@ -1,0 +1,35 @@
+id	definition
+000	No Errors
+001	The Interchange Control Number in the Header and Trailer Do not Match; the Value from the Header is used in the Acknowledgment
+002	This Standard as Noted in the Control Standards Identifier is not Supported
+003	This Version of the Controls is not Supported
+004	The Segment Terminator is Invalid
+005	Invalid Value as Shown in the Reported Interchange Control Number
+006	Invalid Value as Shown in the Reported Interchange Date
+007	Invalid Value as Shown in the Reported Interchange Time
+008	Invalid Value as Shown in the Reported Interchange Sender ID Qualifier
+009	Invalid Value as Shown in the Reported Interchange Sender ID
+010	Invalid Value as Shown in the Reported Interchange Receiver ID Qualifier
+011	Invalid Value as Shown in the Reported Interchange Receiver ID
+012	Invalid Value as Shown in the First Reference ID Qualifier
+013	Invalid Value as Shown in the First Reference ID
+014	Invalid Value as Shown in the Second Reference ID Qualifier
+015	Invalid Value as Shown in the Second Reference ID
+016	Trading Partnership not Established
+017	Invalid Number of Included Groups Value
+018	Invalid Control Structure
+019	Improper (Premature) End-of-file (Transmission)
+020	Duplicate Interchange Control Number
+021	Invalid Data Element Separator
+022	Invalid Component Element Separator
+023	Failure to Transfer Interchange to the next Service Request Handler
+024	Invalid Delivery Date in Deferred Delivery Request
+025	Invalid Delivery Time in Deferred Delivery Request
+026	Invalid Delivery Time Code in Deferred Delivery Request
+027	Invalid Grade of Service Code
+028	Time Out, Not Delivered
+029	Time Out, Delivered
+030	Time Out, Processed
+031	Receiver Not On-line
+032	Abnormal Conditions
+033	Interchange Exceeds Maximum Size

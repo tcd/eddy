@@ -1,0 +1,6 @@
+id	description	section	req	max_loop	max_usage	pos
+BVA	Beginning Vehicle Advice	H	M	99	1	1
+V1	Vessel Identification	H	O	0	1	2
+L7	Tariff Reference	H	O	0	5	3
+VAD	Vehicle Advice Detail	H	M	99	1	4
+L7	Tariff Reference	H	O	0	5	5

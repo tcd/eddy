@@ -1,0 +1,15 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	999999	6
+DTP	Date Or Time Or Period	H	O	0	999999	7
+LM	Code Source Information	H	O	999999	1	8
+LQ	Industry Code Identification	H	M	0	999999	9
+REF	Reference Information	H	O	999999	1	10
+DTP	Date Or Time Or Period	H	O	0	999999	11
+MSG	Message Text	H	O	0	999999	12
+LM	Code Source Information	H	O	999999	1	13
+LQ	Industry Code Identification	H	M	0	999999	14

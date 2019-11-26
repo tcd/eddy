@@ -1,0 +1,30 @@
+id	description	section	req	max_loop	max_usage	pos
+BSS	Beginning Segment For Shipping Schedule/Production Sequence	H	M	0	1	1
+UIT	Unit Detail	H	O	0	1	2
+N1	Party Identification	H	O	999999	1	3
+N2	Additional Name Information	H	O	0	2	4
+N3	Party Location	H	O	0	1	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	12	7
+PER	Administrative Communications Contact	H	O	0	3	8
+FOB	F.O.B. Related Instructions	H	O	0	1	9
+DTM	Date/Time Reference	H	M	100	1	10
+UIT	Unit Detail	H	O	0	1	11
+QTY	Quantity Information	H	O	0	1	12
+REF	Reference Information	H	O	0	999999	13
+LIN	Item Identification	H	O	999999	1	14
+REF	Reference Information	H	O	0	999999	15
+QTY	Quantity Information	H	O	0	1	16
+PID	Product/Item Description	H	O	0	1	17
+OQS	Order Quantity Sequence	H	O	0	1	18
+SLN	Subline Item Detail	H	O	100	1	19
+N1	Party Identification	H	O	0	1	20
+N2	Additional Name Information	H	O	0	1	21
+N3	Party Location	H	O	0	1	22
+N4	Geographic Location	H	O	0	1	23
+REF	Reference Information	H	O	0	1	24
+PER	Administrative Communications Contact	H	O	0	1	25
+PID	Product/Item Description	H	O	999999	1	26
+QTY	Quantity Information	H	O	0	1	27
+MEA	Measurements	H	O	0	10	28
+CTT	Transaction Totals	H	M	0	1	29

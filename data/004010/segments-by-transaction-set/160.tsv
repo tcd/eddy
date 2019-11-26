@@ -1,0 +1,17 @@
+id	description	section	req	max_loop	max_usage	pos
+BAX	Beginning Segment For Advance Consist And Transportation Automati	H	M	0	1	1
+AES	Automatic Equipment Identification Site Information	H	M	0	1	2
+YNQ	Yes/No Question	H	M	0	1	3
+N9	Extended Reference Information	H	O	0	10	4
+QTY	Quantity Information	H	O	0	5	5
+MEA	Measurements	H	O	0	10	6
+AEI	Equipment Information Summary	H	O	0	16	7
+EI	Automatic Equipment Identification	H	M	500	1	8
+QTY	Quantity Information	H	O	0	20	9
+MEA	Measurements	H	O	0	20	10
+DTM	Date/Time Reference	H	O	0	20	11
+TSI	Automatic Equipment Tag Status Information	H	O	25	1	12
+YNQ	Yes/No Question	H	O	0	25	13
+LQ	Industry Code Identification	H	O	0	25	14
+QTY	Quantity Information	H	O	20	1	15
+DTM	Date/Time Reference	H	O	0	2	16

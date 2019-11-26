@@ -1,0 +1,36 @@
+id	definition
+AC	All Categories of Contribution
+EA	Employer Contribution Amount
+EB	Employee Pretax Basic
+EC	Employee Post-Tax Basic
+ED	Employer Discretionary (Profit Sharing)
+EI	Employee Pretax Individual Retirement Account
+EM	Employer Discretionary
+EP	Employee Pretax
+ER	Employee Post-Tax Individual Retirement Account
+ES	Employee Pretax Supplemental
+ET	Employee Post-Tax
+EU	Employee Post-Tax Supplemental
+IC	Claimant Contribution Amount
+MB	Employer Pretax Match Basic
+MS	Employer Pretax Match Supplemental
+MT	Employer Post-Tax Match Basic
+MU	Employer Post-Tax Match Supplemental
+NC	Nonqualified Matching Contribution
+NQ	Non-Qualified Voluntary Employee Contribution
+PB	Prior Plan Employee Pretax Basic
+PS	Prior Plan Employee Post-Tax Supplemental
+PT	Prior Plan Employee Post-Tax Basic
+QC	Employer Qualified Nonelective Contribution
+QE	Qualified Voluntary Employee Contribution
+QM	Qualified Matching Contribution
+QP	Qualified Employee Stock Option Plan
+RA	Rollover 401(A)
+RK	Rollover 401(K)
+RO	Rollover
+RP	Employer Pretax
+RS	Prior Plan Employee Pretax Supplemental
+RT	Employer Post-Tax
+SD	Salary Deferral
+SP	Spousal Individual Retirement Account
+ZZ	Mutually Defined

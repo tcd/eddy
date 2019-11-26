@@ -1,0 +1,37 @@
+id	definition
+1	Chargeable Periods
+2	Periods Held
+3	Free Periods
+4	Saturdays, Sundays and Holidays
+5	Other Allowance Periods
+6	Hour
+7	Day
+8	Not Applicable
+Z	Mutually Defined
+10	Six Hours
+11	12 Hours
+12	18 Hours
+13	24 Hours
+14	Debit Days
+15	Credit Days
+16	Excess Days
+17	Hazardous Days
+18	Holidays
+19	Saturdays and Sundays
+20	Sundays and Holidays
+21	Years
+22	Service Year
+23	Calendar Year
+24	Year to Date
+25	Contract
+26	Episode
+27	Visit
+28	Outlier
+29	Remaining
+30	Exceeded
+31	Not Exceeded
+32	Lifetime
+33	Lifetime Remaining
+34	Month
+35	Week
+36	Admission

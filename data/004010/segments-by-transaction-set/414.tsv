@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+LEQ	Leased Equipment Information	H	O	0	1	1
+CTC	Car Hire Transaction Control	H	M	99	1	2
+CIC	Car Information Control	H	M	1000	1	3
+REF	Reference Information	H	O	0	2	4
+LX	Transaction Set Line Number	H	O	99	1	5
+CHR	Car Hire Rates	H	O	0	3	6
+CYC	Car Hire Cycle	H	O	0	2	7
+PRI	External Reference Identifier	H	O	0	1	8
+PI	Price Authority Identification	H	O	0	1	9
+REF	Reference Information	H	O	0	2	10
+CUR	Currency	H	O	0	1	11
+CV	Cycle/Summary Value	H	M	0	1	12

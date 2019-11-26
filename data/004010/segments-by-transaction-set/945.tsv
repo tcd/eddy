@@ -1,0 +1,51 @@
+id	description	section	req	max_loop	max_usage	pos
+W06	Warehouse Shipment Identification	H	M	0	1	1
+N1	Party Identification	H	M	10	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	5	6
+N9	Extended Reference Information	H	O	0	10	7
+G61	Contact	H	O	0	3	8
+G62	Date/Time	H	O	0	5	9
+NTE	Note/Special Instruction	H	O	0	20	10
+W27	Carrier Details (Warehouse)	H	O	0	1	11
+W6	Special Handling Information	H	O	0	1	12
+W28	Consolidation Information	H	O	0	1	13
+W10	Warehouse Additional Carrier Information	H	O	0	10	14
+G72	Allowance Or Charge	H	O	0	5	15
+TD1	Carrier Details (Quantity And Weight)	H	O	0	5	16
+LM	Code Source Information	H	O	10	1	17
+LQ	Industry Code Identification	H	M	0	100	18
+LX	Transaction Set Line Number	D	O	999999	1	19
+MAN	Marks And Numbers Information	D	O	0	999999	20
+PAL	Pallet Type And Load Characteristics	D	O	0	1	21
+N9	Extended Reference Information	D	O	0	5	22
+W12	Warehouse Item Detail	D	O	999999	1	23
+G69	Line Item Detail - Description	D	O	0	5	24
+N9	Extended Reference Information	D	O	0	200	25
+G62	Date/Time	D	O	0	10	26
+QTY	Quantity Information	D	O	0	10	27
+MEA	Measurements	D	O	0	5	28
+AMT	Monetary Amount Information	D	O	0	1	29
+R4	Port Or Terminal	D	O	0	5	30
+W27	Carrier Details (Warehouse)	D	O	0	1	31
+N1	Party Identification	D	O	999999	1	32
+N2	Additional Name Information	D	O	0	1	33
+N3	Party Location	D	O	0	1	34
+N4	Geographic Location	D	O	0	1	35
+PER	Administrative Communications Contact	D	O	0	1	36
+G72	Allowance Or Charge	D	O	0	5	37
+LM	Code Source Information	D	O	10	1	38
+LQ	Industry Code Identification	D	M	0	100	39
+LS	Loop Header	D	O	0	1	40
+LX	Transaction Set Line Number	D	O	999999	1	41
+N9	Extended Reference Information	D	O	0	999999	42
+G62	Date/Time	D	O	0	10	43
+N1	Party Identification	D	O	0	1	44
+LM	Code Source Information	D	O	10	1	45
+LQ	Industry Code Identification	D	M	0	100	46
+LE	Loop Trailer	D	O	0	1	47
+FA1	Type Of Financial Accounting Data	D	O	999999	1	48
+FA2	Accounting Data	D	M	0	999999	49
+W03	Total Shipment Information (Warehouse)	S	O	0	1	50

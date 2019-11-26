@@ -1,0 +1,21 @@
+id	definition
+A	Axle Error
+B	Bearing Error
+C	Candidate Platform
+D	Disqualification
+E	Equipment Group Code Error
+F	Length Error
+G	Good
+H	Performance
+I	No Other Problems Flagged
+J	Multiple Errors
+K	OK - No Other Problems Flagged
+L	Left Tag Bad
+M	Equipment has Two Tags and the Equipment Initial and Number are not the Same
+N	No Tag Read
+O	Orientation Error
+P	Platform Code Error
+R	Right Tag Bad
+S	Communication Fault
+U	Unknown
+W	Window Violation

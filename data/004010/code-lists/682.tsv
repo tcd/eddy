@@ -1,0 +1,32 @@
+id	definition
+1	Fabrication Authorization Quantity is Final Model Year Requirement; The Part is a Non carryover Item for the Subsequent Model Year from the Supplier
+2	Material Authorization Quantity is Final Model Year Requirement; The Part is a Non carryover Item for the Subsequent Model Year from the Supplier
+3	Part will be Canceled at the Material Quantity
+4	Part is a Carryover Item from Subsequent Model Year from the Supplier
+5	Part is a New Item for the Subsequent Model Year
+6	Part is a New Item Due to an Interim Engineering Release
+7	Final Release for this Cancelled Part
+8	Planning Quantity is Final Model Year Requirement The Part is a Non-Carryover Item for the Subsequent Model Year From the Supplier
+9	Final Forecast for this Cancelled Part
+A	All Time Buy. Unless Specifically Stated, This Code is Not to be Interpreted as Authorization for Tool Scrap
+B	Balance-Out Part; Eng. Change Pending
+D	Terminal Buy
+E	Systems Automated Buy
+F	Corporation Campaign Buy
+G	Source Surplus
+H	Reschedule
+I	Merchandizing Act Promotion Buy
+J	Minimum or Lot Buy
+K	Die Tie
+L	Landau Specification
+M	Mill Run Purchase
+N	Solicitation
+P	Pilot/Pre-production
+Q	Special Large Quantity Buy
+R	Replacement Orders
+S	Initial Orders
+T	Trim Order
+U	Confirming Phone Order
+W	Cover Overshipment - Do Not Reship
+X	Economic Order Quantity
+Y	Production Year End Surplus

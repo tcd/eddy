@@ -1,0 +1,92 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+MSG	Message Text	H	O	0	999999	2
+REF	Reference Information	H	O	0	999999	3
+PER	Administrative Communications Contact	H	O	0	3	4
+DTP	Date Or Time Or Period	H	O	0	10	5
+N1	Party Identification	H	O	999999	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+REF	Reference Information	H	O	0	12	10
+PER	Administrative Communications Contact	H	O	0	3	11
+HL	Hierarchical Level	D	M	999999	1	12
+LX	Transaction Set Line Number	D	O	1	1	13
+VEH	Vehicle Information	D	O	0	1	14
+VAT	Vehicle Attribute	D	O	0	20	15
+DVI	Dynamic Vehicle Information	D	O	0	1	16
+SI	Service Characteristic Identification	D	O	0	8	17
+PID	Product/Item Description	D	O	0	10	18
+MEA	Measurements	D	O	0	10	19
+REF	Reference Information	D	O	0	999999	20
+AMT	Monetary Amount Information	D	O	0	5	21
+AD1	Adjustment Amount	D	O	0	20	22
+DTP	Date Or Time Or Period	D	O	0	20	23
+TXI	Tax Information	D	O	0	999999	24
+QTY	Quantity Information	D	O	999999	1	25
+SI	Service Characteristic Identification	D	O	0	1	26
+EFI	Electronic Format Identification	D	O	5	1	27
+BIN	Binary Data Segment	D	O	0	999999	28
+NM1	Individual Or Organizational Name	D	O	1	1	29
+N2	Additional Name Information	D	O	0	2	30
+N3	Party Location	D	O	0	2	31
+N4	Geographic Location	D	O	0	1	32
+DMG	Demographic Information	D	O	0	1	33
+DMA	Additional Demographic Information	D	O	0	1	34
+MEA	Measurements	D	O	0	10	35
+NX2	Location Id Component	D	O	0	1	36
+REF	Reference Information	D	O	0	10	37
+PER	Administrative Communications Contact	D	O	0	999999	38
+III	Information	D	O	999999	1	39
+SI	Service Characteristic Identification	D	O	0	2	40
+PID	Product/Item Description	D	O	0	10	41
+MEA	Measurements	D	O	0	10	42
+REF	Reference Information	D	O	0	999999	43
+DTP	Date Or Time Or Period	D	O	0	10	44
+MSG	Message Text	D	O	0	999999	45
+AMT	Monetary Amount Information	D	O	0	10	46
+AD1	Adjustment Amount	D	O	0	20	47
+CRC	Conditions Indicator	D	O	0	50	48
+PCT	Percent Amounts	D	O	0	10	49
+PDP	Property Description - Personal	D	O	0	999999	50
+PDR	Property Description - Real	D	O	0	999999	51
+PDS	Property Description/Legal Description	D	O	0	999999	52
+SUP	Supplementary Information	D	M	999999	1	53
+MEA	Measurements	D	O	0	1	54
+REF	Reference Information	D	O	0	999999	55
+DTP	Date Or Time Or Period	D	O	0	999999	56
+AMT	Monetary Amount Information	D	O	0	999999	57
+AD1	Adjustment Amount	D	O	0	999999	58
+QTY	Quantity Information	D	O	999999	1	59
+SI	Service Characteristic Identification	D	O	0	1	60
+LQ	Industry Code Identification	D	O	999999	1	61
+AMT	Monetary Amount Information	D	O	0	10	62
+AD1	Adjustment Amount	D	O	0	10	63
+PCT	Percent Amounts	D	O	0	10	64
+NM1	Individual Or Organizational Name	D	O	999999	1	65
+N2	Additional Name Information	D	O	0	2	66
+N3	Party Location	D	O	0	2	67
+N4	Geographic Location	D	O	0	1	68
+DMG	Demographic Information	D	O	0	1	69
+DMA	Additional Demographic Information	D	O	0	1	70
+NX2	Location Id Component	D	O	0	1	71
+REF	Reference Information	D	O	0	999999	72
+PER	Administrative Communications Contact	D	O	0	999999	73
+ITA	Allowance, Charge Or Service	D	O	999999	1	74
+DTP	Date Or Time Or Period	D	O	0	999999	75
+REF	Reference Information	D	O	0	5	76
+CUR	Currency	D	O	0	1	77
+TDS	Total Monetary Value Summary	S	M	0	1	78
+ITA	Allowance, Charge Or Service	S	O	999999	1	79
+DTP	Date Or Time Or Period	S	O	0	999999	80
+REF	Reference Information	S	O	0	999999	81
+CUR	Currency	S	O	0	1	82
+BAL	Balance Detail	S	O	999999	1	83
+DTP	Date Or Time Or Period	S	O	0	999999	84
+N1	Party Identification	S	O	999999	1	85
+BAL	Balance Detail	S	O	999999	1	86
+DTP	Date Or Time Or Period	S	O	0	999999	87
+ITA	Allowance, Charge Or Service	S	O	999999	1	88
+DTP	Date Or Time Or Period	S	O	0	999999	89
+REF	Reference Information	S	O	0	999999	90
+CUR	Currency	S	O	0	1	91

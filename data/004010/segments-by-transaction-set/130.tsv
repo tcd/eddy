@@ -1,0 +1,77 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+ERP	Educational Record Purpose	H	M	0	1	2
+REF	Reference Information	H	M	0	10	3
+DMG	Demographic Information	H	O	0	1	4
+LUI	Language Use	H	O	0	999999	5
+IND	Additional Individual Demographic Information	H	O	0	2	6
+DTP	Date Or Time Or Period	H	O	0	1	7
+RAP	Requirement, Attribute, And Proficiency	H	O	0	999999	8
+PCL	Previous College	H	O	0	30	9
+NTE	Note/Special Instruction	H	O	0	100	10
+N1	Party Identification	H	M	2	1	11
+N2	Additional Name Information	H	O	0	1	12
+N3	Party Location	H	O	0	1	13
+N4	Geographic Location	H	O	0	1	14
+PER	Administrative Communications Contact	H	O	0	1	15
+IN1	Individual Identification	H	M	15	1	16
+EMS	Employment Position	H	O	0	5	17
+IN2	Individual Name Structure Components	H	M	0	10	18
+N3	Party Location	H	O	5	1	19
+N4	Geographic Location	H	O	0	1	20
+PER	Administrative Communications Contact	H	O	0	10	21
+REF	Reference Information	H	O	0	10	22
+NTE	Note/Special Instruction	H	O	0	1	23
+SST	Student Academic Status	H	O	500	1	24
+SSE	Entry And Exit Information	H	O	0	1000	25
+N1	Party Identification	H	O	0	1	26
+N3	Party Location	H	O	0	1	27
+N4	Geographic Location	H	O	0	1	28
+ATV	Student Activities And Awards	H	O	100	1	29
+DTP	Date Or Time Or Period	H	O	0	2	30
+TST	Test Score Record	H	O	999999	1	31
+SBT	Subtest	H	O	999999	1	32
+SRE	Test Scores	H	O	0	3	33
+NTE	Note/Special Instruction	H	O	0	2	34
+SUM	Academic Summary	H	O	5	1	35
+NTE	Note/Special Instruction	H	O	0	50	36
+LX	Transaction Set Line Number	D	O	1	1	37
+HS	Health Screening	D	O	0	10	38
+IMM	Immunization Status	D	O	0	1000	39
+HC	Health Condition	D	O	1000	1	40
+N1	Party Identification	D	O	0	1	41
+N2	Additional Name Information	D	O	0	1	42
+PER	Administrative Communications Contact	D	O	0	1	43
+N3	Party Location	D	O	0	1	44
+N4	Geographic Location	D	O	0	1	45
+SP	Special Program	D	O	30	1	46
+PER	Administrative Communications Contact	D	O	0	1	47
+N3	Party Location	D	O	0	1	48
+N4	Geographic Location	D	O	0	1	49
+NTE	Note/Special Instruction	D	O	0	1	50
+OPS	Program Subject Area And Eligibility	D	O	10	1	51
+OPX	Placement Criteria	D	O	0	2	52
+DTP	Date Or Time Or Period	D	O	0	10	53
+SES	Academic Session Header	D	O	1000	1	54
+SSE	Entry And Exit Information	D	O	0	1	55
+NTE	Note/Special Instruction	D	O	0	50	56
+N1	Party Identification	D	O	0	1	57
+N3	Party Location	D	O	0	1	58
+N4	Geographic Location	D	O	0	1	59
+SUM	Academic Summary	D	O	5	1	60
+NTE	Note/Special Instruction	D	O	0	5	61
+CRS	Course Record	D	O	50	1	62
+REF	Reference Information	D	O	0	5	63
+CSU	Supplemental Course Data	D	O	0	1	64
+LUI	Language Use	D	O	0	10	65
+RAP	Requirement, Attribute, And Proficiency	D	O	0	5	66
+NTE	Note/Special Instruction	D	O	0	50	67
+N1	Party Identification	D	O	0	1	68
+N4	Geographic Location	D	O	0	1	69
+MKS	Marks Awarded	D	O	10	1	70
+LUI	Language Use	D	O	0	1	71
+DEG	Degree Record	D	O	10	1	72
+SUM	Academic Summary	D	O	0	5	73
+FOS	Field Of Study	D	O	0	30	74
+N1	Party Identification	D	O	0	10	75
+NTE	Note/Special Instruction	D	O	0	30	76

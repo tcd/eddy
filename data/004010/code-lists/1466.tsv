@@ -1,0 +1,23 @@
+id	definition
+AA	Positional Coordinates Location
+AB	Public Land Survey Coordinates Location
+AC	Cross Streets Location
+AD	Map Location
+AE	Grid Bounds Location
+AF	Marker Location
+AL	Aircraft Landing Location
+AT	Antenna Location
+FC	Facility Location
+LL	Loss Location
+PL	Property Location
+RC	Recovery Location
+RL	Risk Location
+TT	Transported to Location
+VL	Vehicle Location
+WB	Wellbore Bottomhole Location
+WE	Wellbore Entry Point Location
+WK	Wellbore Kickoff Point Location
+WL	Witness Physical Location
+WS	Wellbore Surface Location
+WX	Wellbore Exit Point Location
+ZZ	Mutually Defined

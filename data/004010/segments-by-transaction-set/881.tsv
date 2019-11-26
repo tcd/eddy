@@ -1,0 +1,31 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+REF	Reference Information	H	O	0	5	2
+PER	Administrative Communications Contact	H	O	0	3	3
+N1	Party Identification	H	M	5	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+G01	Invoice Identification	D	M	999999	1	8
+QTY	Quantity Information	D	M	0	4	9
+AMT	Monetary Amount Information	D	M	0	2	10
+G72	Allowance Or Charge	D	O	10	1	11
+G73	Allowance Or Charge Description	D	O	0	1	12
+N1	Party Identification	D	M	999999	1	13
+N2	Additional Name Information	D	O	0	1	14
+N3	Party Location	D	O	0	2	15
+N4	Geographic Location	D	O	0	1	16
+N9	Extended Reference Information	D	O	0	1	17
+REF	Reference Information	D	O	999999	1	18
+QTY	Quantity Information	D	O	0	2	19
+AMT	Monetary Amount Information	D	O	0	1	20
+G72	Allowance Or Charge	D	O	0	1	21
+LQ	Industry Code Identification	D	O	999999	1	22
+AMT	Monetary Amount Information	D	O	0	1	23
+LIN	Item Identification	D	O	0	1	24
+QTY	Quantity Information	D	O	0	1	25
+G72	Allowance Or Charge	D	O	0	1	26
+G73	Allowance Or Charge Description	D	O	0	5	27
+LX	Transaction Set Line Number	S	M	1	1	28
+QTY	Quantity Information	S	M	0	1	29
+AMT	Monetary Amount Information	S	M	0	1	30

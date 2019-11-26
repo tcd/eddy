@@ -1,0 +1,6 @@
+id	description	section	req	max_loop	max_usage	pos
+BGP	Beginning Segment For Problem Log Inquiry Or Advice	H	M	0	1	1
+N1	Party Identification	H	O	0	1	2
+N9	Extended Reference Information	H	O	0	5	3
+DTP	Date Or Time Or Period	H	O	0	2	4
+NTE	Note/Special Instruction	H	O	0	999999	5

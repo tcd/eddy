@@ -1,0 +1,87 @@
+id	definition
+A1	Missed Delivery
+A2	Incorrect Address
+A3	Indirect Delivery
+A5	Unable to Locate
+A6	Address Corrected - Delivery Attempted
+AA	Mis-sort
+AD	Customer Requested Future Delivery
+AE	Restricted Articles Unacceptable
+AF	Accident
+AG	Consignee Related
+AH	Driver Related
+AI	Mechanical Breakdown
+AJ	Other Carrier Related
+AK	Damaged, Rewrapped in Hub
+AL	Previous Stop
+AM	Shipper Related
+AN	Holiday - Closed
+AO	Weather or Natural Disaster Related
+AP	Awaiting Export
+AQ	Recipient Unavailable - Delivery Delayed
+AR	Improper International Paperwork
+AS	Hold Due to Customs Documentation Problems
+AT	Unable to Contact Recipient for Broker Information
+AU	Civil Event Related Delay
+AV	Exceeds Service Limitations
+AW	Past Cut-off Time
+AX	Insufficient Pick-up Time
+AY	Missed Pick-up
+AZ	Alternate Carrier Delivered
+B1	Consignee Closed
+B2	Trap for Customer
+B4	Held for Payment
+B5	Held for Consignee
+B8	Improper Unloading Facility or Equipment
+B9	Receiving Time Restricted
+BB	Held per Shipper
+BC	Missing Documents
+BD	Border Clearance
+BE	Road Conditions
+BF	Carrier Keying Error
+BG	Other
+BH	Insufficient Time to Complete Delivery
+BI	Cartage Agent
+BJ	Customer Wanted Earlier Delivery
+BK	Prearranged Appointment
+BL	Held for Protective Service
+BM	Flatcar Shortage
+BN	Failed to Release Billing
+BO	Railroad Failed to Meet Schedule
+BP	Load Shifted
+BQ	Shipment Overweight
+BR	Train Derailment
+BS	Refused by Customer
+BT	Returned to Shipper
+C1	Waiting for Customer Pick-up
+C2	Credit Hold
+C3	Suspended at Customer Request
+C4	Customer Vacation
+C5	Customer Strike
+C6	Waiting Shipping Instructions
+C7	Waiting for Customer Specified Carrier
+C8	Collect on Delivery Required
+C9	Cash Not Available From Consignee
+CA	Customs (Import or Export)
+CB	No Requested Arrival Date Provided by Shipper
+CC	No Requested Arrival Time Provided by Shipper
+D1	Carrier Dispatch Error
+D2	Driver Not Available
+F1	Non-Express Clearance Delay
+F2	International Non-carrier Delay
+HB	Held Pending Appointment
+NA	Normal Appointment
+NS	Normal Status
+P1	Processing Delay
+P2	Waiting Inspection
+P3	Production Falldown
+P4	Held for Full Carrier Load
+RC	Reconsigned
+S1	Delivery Shortage
+T1	Tractor With Sleeper Car Not Available
+T2	Tractor, Conventional, Not Available
+T3	Trailer not Available
+T4	Trailer Not Usable Due to Prior Product
+T5	Trailer Class Not Available
+T6	Trailer Volume Not Available
+T7	Insufficient Delivery Time

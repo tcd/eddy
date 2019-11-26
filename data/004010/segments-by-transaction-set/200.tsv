@@ -1,0 +1,115 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+CRO	Credit Report Order Details	H	M	0	1	2
+AAA	Request Validation	H	O	0	5	3
+DTP	Date Or Time Or Period	H	O	0	5	4
+REF	Reference Information	H	O	0	999999	5
+AMT	Monetary Amount Information	H	O	0	3	6
+NX1	Property Or Entity Identification	H	O	0	1	7
+NX2	Location Id Component	H	O	0	10	8
+N1	Party Identification	H	M	20	1	9
+N2	Additional Name Information	H	O	0	2	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+REF	Reference Information	H	O	0	3	13
+PER	Administrative Communications Contact	H	O	0	5	14
+LX	Transaction Set Line Number	D	M	2	1	15
+REF	Reference Information	D	O	0	1	16
+IN1	Individual Identification	D	M	15	1	17
+IN2	Individual Name Structure Components	D	O	0	10	18
+DMG	Demographic Information	D	O	0	1	19
+N10	Quantity And Description	D	O	0	1	20
+PER	Administrative Communications Contact	D	O	0	3	21
+QTY	Quantity Information	D	O	0	15	22
+YNQ	Yes/No Question	D	O	0	1	23
+NTE	Note/Special Instruction	D	O	0	20	24
+NX1	Property Or Entity Identification	D	M	10	1	25
+NX2	Location Id Component	D	O	0	10	26
+DTP	Date Or Time Or Period	D	O	0	1	27
+N10	Quantity And Description	D	O	0	1	28
+ARS	Applicant Residence Specifics	D	O	0	1	29
+YNQ	Yes/No Question	D	O	0	1	30
+NTE	Note/Special Instruction	D	O	0	20	31
+N1	Party Identification	D	O	20	1	32
+N2	Additional Name Information	D	O	0	2	33
+N3	Party Location	D	O	0	2	34
+N4	Geographic Location	D	O	0	1	35
+REF	Reference Information	D	O	0	1	36
+PER	Administrative Communications Contact	D	O	0	4	37
+DTP	Date Or Time Or Period	D	O	0	1	38
+YNQ	Yes/No Question	D	O	0	1	39
+NTE	Note/Special Instruction	D	O	0	20	40
+SOI	Source Of Income	D	O	5	1	41
+EMS	Employment Position	D	O	0	1	42
+DTP	Date Or Time Or Period	D	O	0	1	43
+N10	Quantity And Description	D	O	0	1	44
+YNQ	Yes/No Question	D	O	0	1	45
+AIN	Income	D	O	7	1	46
+YNQ	Yes/No Question	D	O	0	1	47
+TLN	Tradeline	D	O	1000	1	48
+N1	Party Identification	D	M	0	1	49
+N2	Additional Name Information	D	O	0	2	50
+N3	Party Location	D	O	0	2	51
+N4	Geographic Location	D	O	0	1	52
+REF	Reference Information	D	O	0	1	53
+PER	Administrative Communications Contact	D	O	0	4	54
+DTP	Date Or Time Or Period	D	O	0	7	55
+TBI	Trade Line Bureau Identifier	D	O	0	5	56
+PPD	Payment Pattern Details	D	O	0	15	57
+NTE	Note/Special Instruction	D	O	0	20	58
+YNQ	Yes/No Question	D	O	0	10	59
+AMT	Monetary Amount Information	D	O	6	1	60
+NTE	Note/Special Instruction	D	O	0	20	61
+RO	Public Record Or Obligation	D	O	500	1	62
+CDS	Case Description	D	O	0	1	63
+TBI	Trade Line Bureau Identifier	D	O	0	5	64
+DTP	Date Or Time Or Period	D	O	0	10	65
+NTE	Note/Special Instruction	D	O	0	20	66
+YNQ	Yes/No Question	D	O	0	10	67
+AMT	Monetary Amount Information	D	O	6	1	68
+NTE	Note/Special Instruction	D	O	0	20	69
+N1	Party Identification	D	M	5	1	70
+N2	Additional Name Information	D	O	0	2	71
+N3	Party Location	D	O	0	2	72
+N4	Geographic Location	D	O	0	1	73
+CCI	Credit Counseling Information	D	O	5	1	74
+DTP	Date Or Time Or Period	D	O	0	3	75
+MSG	Message Text	D	O	0	4	76
+INQ	Credit Inquiry Details	D	O	100	1	77
+TBI	Trade Line Bureau Identifier	D	O	0	5	78
+N1	Party Identification	D	O	0	1	79
+N2	Additional Name Information	D	O	0	2	80
+N3	Party Location	D	O	0	2	81
+N4	Geographic Location	D	O	0	1	82
+PER	Administrative Communications Contact	D	O	0	2	83
+DTP	Date Or Time Or Period	D	O	0	1	84
+YNQ	Yes/No Question	D	O	0	10	85
+NTE	Note/Special Instruction	D	O	0	20	86
+VAR	Credit File Variation	D	O	25	1	87
+NTE	Note/Special Instruction	D	O	0	50	88
+IN1	Individual Identification	D	O	0	1	89
+IN2	Individual Name Structure Components	D	O	0	10	90
+DMG	Demographic Information	D	O	0	1	91
+N10	Quantity And Description	D	O	0	1	92
+NX1	Property Or Entity Identification	D	O	10	1	93
+NX2	Location Id Component	D	O	0	10	94
+N1	Party Identification	D	O	999999	1	95
+N2	Additional Name Information	D	O	0	2	96
+N3	Party Location	D	O	0	2	97
+N4	Geographic Location	D	O	0	1	98
+REF	Reference Information	D	O	0	1	99
+PER	Administrative Communications Contact	D	O	0	2	100
+EMS	Employment Position	D	O	0	1	101
+DTP	Date Or Time Or Period	D	O	0	2	102
+SCM	Credit Score Model	D	O	999999	1	103
+SCS	Credit Score	D	O	0	5	104
+LS	Loop Header	D	O	0	1	105
+NTE	Note/Special Instruction	D	O	20	1	106
+TBI	Trade Line Bureau Identifier	D	O	0	5	107
+MSG	Message Text	D	O	0	999999	108
+LE	Loop Trailer	D	O	0	1	109
+LS	Loop Header	D	O	0	1	110
+REF	Reference Information	D	O	999999	1	111
+G32	Survey Question Response	D	M	0	999999	112
+NTE	Note/Special Instruction	D	O	0	1	113
+LE	Loop Trailer	D	O	0	1	114

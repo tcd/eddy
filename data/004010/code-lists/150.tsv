@@ -1,0 +1,1074 @@
+id	definition
+002	Renewal
+003	Account Number Correction Charge
+004	Dividend
+005	Activation of Carnet
+006	Overpayment
+007	Suspense
+008	Balance Forward
+009	Dividend Interest
+010	Add on - Destination
+011	Loan Interest
+012	Premium Waiver
+015	Add on - Origin
+016	Dividend Adjustment
+017	Interest
+020	Address Correction
+025	Advance Destination Amount
+026	Integrated Business Services (IBS) Service Charge
+027	Special Packaging
+028	Box Liners
+029	Product Personalization
+030	Advance Destination Fee
+031	Tape Charges
+032	Subject to Tax
+035	Advance Origin Amount
+040	Advance Origin Fee
+045	Advance Fee
+050	Agent Disbursement - Destination
+055	Agent Disbursement Fee - Destination
+060	Agent Disbursement - Origin
+065	Agent Disbursement Fee - Origin
+070	Air Export Certificate
+075	Air Express Charge
+080	Air Transportation Charge
+085	Airline Opening Fee
+090	Airport Tax - Destination
+095	Airport Tax - Origin
+100	Airport Terminal Handling Charge
+105	Acknowledgement of Delivery Fee (AOD)
+110	Amending Export Documentation
+115	Assembly Fee
+120	Banking Drafts
+135	Cables (sending of)
+140	Call Tag
+145	Canadian C.Q.Customs Clearance
+150	Canadian Currency Exchange
+155	Canadian Import Termination Fee
+160	Canadian Reconsignment Fee
+165	Canadian Remanifest Fee
+170	Certificate of Origin
+175	Certificate of Registration
+180	Chamber of Commerce Service Charge
+185	Change of Airbill - Service Fee
+186	Chemical Milling Charge
+190	City Terminal Charge
+205	Collect Surcharge
+210	Constant Surveillance Service
+215	Consular Legalization Service
+220	Consularization Fee
+225	Constant Surveillance Service - Armed
+230	Credit
+235	Customer Account Identification
+240	Customs Broker Fee
+245	Customs Invoice
+250	Customs Invoice - Additional Page
+255	Data/Drawing Charge
+260	Delivery Surcharge
+265	Development Charge
+270	Discount - Drop Box/Convenience Ctr.
+275	Discount - Incentive
+280	Discount - Multiple Shipment
+285	Discount - Service Option (Delivery)
+290	Discount - Service Option (Pickup)
+295	Discount - Special
+297	Contingency Credit Charge
+300	Distribution Fee
+310	Dry Ice
+315	Duty Charge
+320	Endorsement Fee
+325	Eur1 Presentation Fee
+335	Excise Tax - Destination
+340	Excise Tax - Origin
+345	Expedited One Day Consular Service
+350	Expedited Shipments
+355	Extra Copies and Mailings
+360	Export Customs Clearance
+365	Export Declarations - Automated
+370	Export Declarations - U.S. Shippers
+375	Export License Application
+380	Extra Service - Counter-to-Counter
+385	Facsimile Charges
+390	Facsimile Charges - Additional Pages
+392	Failed Lamp Panel Charge
+393	First Article Charge
+395	Free Domicile Shipment Processing
+400	Freight
+405	Fuel Surcharge
+410	Government Warehouse Fee - Destination
+415	Government Warehouse Fee - Origin
+416	Grain Flow Charge
+420	Hazardous Materials Handling Fee - Domestic
+425	Hazardous Materials Handling Fee - International
+426	Heat Treat Charge
+430	IATA Airbill Preparation
+435	IATA Fee
+440	Import Service Fee
+445	Insurance Fee
+450	Inland Transportation
+455	Insurance Premium
+460	International Door-to-Door Handling Fee
+462	Incorrect Billing Account Charge
+465	Italian Release Charge
+470	Letter of Credit Processing
+475	Mailing - Postage Cost
+480	Mailing - Service Fee
+485	Messenger Service
+490	Minimum Air Transportation Charge
+495	Miscellaneous - Destination
+500	Miscellaneous - Origin
+505	Missing Account NBR Charge
+510	Offshore - Alaska/Hawaii
+515	On Hand Service
+520	Oversized Premium
+525	Passing Shippers Export Entry
+535	Pickup - Out of Area
+540	Pickup Surcharge
+545	Pre-Positioned Inventory Service
+550	Preparation of Air Waybill - Origin
+555	Preparation of Canadian Customs Invoice
+560	Preparation of Commercial Invoice
+565	Preparation of Export Entry
+570	Preparation of Insurance Certificate
+580	Priority Service
+585	Preparation of U.S. Export Documentation
+586	Processing Charge
+590	Rebilled Drayage - Destination
+593	Re-Bill Charge
+595	Proforma Invoice
+600	Recipient Address Correction
+605	Rebilled Drayage - Origin
+610	Record/Filing
+615	Recovery Fee
+620	Recrating/Recoopering - Destination
+625	Recrating/Recoopering - Origin
+635	Registration of Export Shipments
+640	Registration of Export for Reentry
+641	Reliability Charge
+645	Restricted Article Fee
+650	Repickup
+665	Saturday Delivery
+670	Saturday Pick-Up
+675	Security Signature Service
+680	Service Upgrade
+685	Special Delivery
+690	Special Handling Service
+695	Special Pickup
+696	Special Test Equipment Charge
+697	Special Tooling Charge
+700	Special Vehicle Rent
+705	Stamp Fee
+706	Straightening Charge
+720	Telephone - Destination
+725	Telephone - Origin
+730	Terminal Service Fee
+731	Test/Qualification Charge
+732	Tooling Rework Charge
+735	Tracing Inbound Via Other Carriers
+736	Tracing Service Fee
+740	Transfer of Lading Charge
+745	Valuation Fee
+750	Value Added Tax (VAT)
+760	Waybill and Invoice Distribution
+761	Written Proof of Delivery
+762	X-ray Charge
+999	Other (See related description)
+AAA	Advertising Allowance
+AAJ	Adjustments
+AAM	Additional Material
+AAN	Allowance Non-performance
+AAO	Allowance Advance
+AAS	Attendants Accompanying
+AAT	Handling Charge Tax
+ABC	Alcoholic Beverage Report Charge
+ABL	Attachments to Bill of Lading Charge
+ACD	Allegheny County, PA Delivery Charge
+ACF	Access Charge - Federal
+ACH	Access Charges
+ACL	Actual Labor Charge
+ACS	Access Charge - State
+ADH	Advance Charges Handling
+ADL	Advance Loading Charge
+ADV	Advances
+AFB	Additional Copies of Freight Bill
+AFC	Collect on Delivery Alteration Charge
+AGS	Armed Guard Service
+AIB	Additional Injection/Blending Service Charge
+AIC	Air Freight - Consolidation
+AIR	Air Freight
+ALC	Advance Lading Charge
+ALP	Use of Alternate Port
+AMB	Adjustment for Maximum Charges Billing
+AMC	Absolute Minimum Charge
+AMP	Adjustment for Minimum Average Time Requirement Billing
+ANB	Adjustment for Minimum Charges Billing
+ANC	Anchoring and Unanchoring
+ANS	Anodizing Charge
+APL	Appliance Servicing
+APT	Appointment (Notification)
+ARB	Arbitrary (In Addition to Through Rates and Charges)
+ARC	Air Conditioning Disconnect and Connect
+ARG	Rail Armed Guard Service
+ARR	Air Ride Tractor Service Charge
+ASC	Assembly Charge
+AUX	Auxiliary Service
+AVA	Ad Valorem
+BAA	Beaming Charge
+BAB	Brokerage or Duty
+BAC	Buyers Car Allowance
+BAD	Bad Debt
+BAF	Both-Flat
+BAP	Broken Package Charge
+BAS	Base Charge
+BBK	Break Bulk Surface Charge
+BDX	Bordeaux Arbitraries
+BEY	Beyond Freight Charges
+BFD	Bedding/Feeding/Disinfecting
+BKA	Bulky Article
+BLA	Bill of Lading Attendancy
+BLC	Bill of Lading Charge
+BLD	Billed Demand
+BLK	Blocking and Bracing Charge
+BLW	Blower Charge
+BND	Bond Charges
+BOB	Bobtail Charges
+BOP	Bop Sheet Charge
+BRA	Basic Reorder Allowance
+BRD	Bridge Toll
+BRG	Aqua Train
+BSC	Bunker Surcharge
+BSS	Broker Selection Surcharge
+BTC	Bi-level, Tri-level Charges
+BU2	Bunker Adjustment - 20 Foot Container
+BU4	Bunker Adjustment - 40 Foot Container
+BUA	Bunker Adjustment
+BUR	Bureau Report Charge
+BYD	Beyond Charge
+CA1	Currency Adjustment - Break Bulk
+CA2	Currency Adjustment - 20 Foot Container
+CA4	Currency Adjustment - 40 Foot Container
+CAA	Cancellation Charge
+CAC	Cash Discount
+CAD	Certification Fee
+CAE	Co-manufacturing Discount
+CAF	Competitive Allowance
+CAG	Competitive Car Allowance
+CAH	Compressor Charge
+CAJ	Crafting
+CAK	Customer Equipment Allowance
+CAL	Cutting Charge
+CAO	Co-op Credit
+CAP	Car Loading
+CAQ	Contract Escalation
+CAR	Car Rental
+CAS	Container Deposits
+CAV	Contract Allowance
+CAW	Cooperative Advertising/Merchandising Allowance (Performance)
+CAZ	Claims Commercial Auto Report Charge
+CBL	Copy of Bill of Lading Charge
+CBO	Cents Off
+CBP	Competitive Price
+CBR	Carrier
+CBW	Container Allowance
+CBX	City Sales Tax (Only)
+CCA	Carrier Credit Allowance
+CCH	Certification Charge
+CCP	Claims Commercial Property Report Charge
+CCR	Concession Credit
+CCS	Carrier Caboose Charge
+CDA	Carrier Debit Allowance
+CDD	Corrosion Additive Service Charge
+CDF	Cancelled Order, Heavy Duty Flatcar
+CDR	Copy of Delivery Receipt Charge
+CER	Container Service Charge UK/EUR
+CFC	Customs Fees - Container Level
+CFL	Customs Fees - Lift Level
+CGC	Carrier Guard Car Charge
+CGL	Canada Great Lakes Additionals
+CGR	Return Carrier Guard Car Charge
+CGT	Cargo Taxes
+CHE	Chassis Equipment Lease Charge
+CHG	Charges Forward/Advance Charge
+CHN	Chain and Binders
+CIR	Special Circus Trains
+CIS	Constant Surveillance
+CLC	Chicago Loop Charge
+CLD	Container Loss/Damage
+CLN	Cleaning Charge
+CLS	Container Leasing
+CMC	Concession Money
+CMF	City maintenance fee
+CMI	Continuous Mileage
+CMP	Camp Arbitrary
+CNS	Consolidation
+CNV	Converting
+COA	Commission Amount
+COC	Connect Charge
+COD	COD Amount
+COF	Ocean Freight
+COL	Fee for Collecting COD Charge
+COM	Combination
+CON	Congestion Surcharge
+COP	Port Changes
+COR	Core Charge
+COU	Consignee Unload
+CPA	Claims Personal Auto Report Charge
+CPC	Copilot Service Charge
+CPE	Computer Processing Expense
+CPP	Claims Personal Property Report Charge
+CRA	Cost recovery/adjustment
+CRF	Cost Recovery Factor
+CRP	Court Reporter Charge
+CRR	Credit Report Charge
+CRS	Courier Services
+CSA	Closing & Sealing
+CSC	Contract Service Charge
+CSE	Customs Entry
+CSF	Customs Formalities
+CSP	Government Caboose Charge
+CSR	Conservation research fee
+CST	Cassette
+CTA	Container/Trailer Allowance
+CTC	Container Service Charge USA/Canada
+CTD	Customer Required Special Truck at Destination
+CTE	Court or Trial Expense
+CTF	Chassis Transfer
+CTG	Cartage Charge
+CTL	Controlled Atmosphere
+CTO	Customer Required Special Truck at Origin
+CTR	Circuitous Routing Charge
+CTX	Customs Exams (Intensive, Tailgate)
+CUA	Currency Adjustment
+CUD	Currency Discount
+CUF	Currency Adjustment Factor
+CUP	Customer Paid Deductible
+CUS	Customs Charge
+DAA	Deficit Freight
+DAB	Deposit
+DAC	Distributor Discount/Allowance
+DAD	Drum Up Charge
+DAM	Damaged Merchandise
+DBD	Dockage - Boat Detention
+DBL	Double Wide Separate and Reassemble
+DBP	Delivery of Fuel from Barge to Pipeline Charge
+DCE	Damage to Carrier Equipment
+DCS	Disconnect charge
+DCT	City Delivery
+DCV	Damage to Carrier Vessel
+DDA	Defective Allowance
+DDC	Drum Cost
+DDD	Drum Deposit
+DDF	Dowel Pin Charge
+DDN	Dual Driver with National Agency Check
+DDP	Dual Driver Protectice Service
+DDS	Deaf and Disabled Surcharge
+DDZ	Drayage at Port of Debarkation (Zone Rate)
+DEA	Demurrage - Average Agreement
+DED	Deductible
+DEL	Delivery Charge
+DEM	Demurrage
+DEP	Detention of Power Units
+DER	Derrick Charge
+DES	Demurrage - Special
+DET	Detention of Trailers
+DEV	Texas Rail Commission Deviation Charge
+DEW	Detention Without Power Unit
+DEZ	Drayage at Port of Embarkation (Zone Rate)
+DFD	Keep from Freezing Percent Differential
+DFM	410 Dromedary with Mechanical Restraining Devices Charge
+DFS	410 Dromedary
+DFW	Delay Furnishing Destination Weights
+DGE	Damage to Government Equipment
+DGS	Dangerous Goods Surcharge
+DIC	Diversion Charge
+DIR	Direct Repair
+DIS	Distribution Service
+DIV	Diversion and Reconsignment
+DLH	Drayage/Line Haul
+DLP	Delivery of Fuel from Rail Tank Car to Pipeline Charge
+DMC	Deadhead Mileage Charge
+DMD	Demand charge
+DNA	Dunnage Allowance
+DOC	Documentation Charge
+DON	Deposit in Lieu of Order
+DOV	Container Diversion
+DPB	Delivery of Fuel from Pipeline to Barge Charge
+DPD	Drayage at Port of Debarkation
+DPE	Drayage at Port of Embarkation
+DPL	Delivery of Fuel from Pipeline to Rail Tank Car Charge
+DPR	Depreciation
+DPT	Delivery of Fuel from Pipeline to Tank Truck or Trailer Charge
+DPU	Detention with Power Units (30 minute periods) Charge
+DRC	Drayage
+DRP	Deramping
+DRV	Driver License Record Report Charge
+DRY	Dryer Charge
+DSC	Discount
+DSF	Detention - Special Type Flat Car
+DSM	Dromedary with Mechanical Restraining Devices Charge
+DSR	Dromedary Service Charge
+DST	Container Destuffing
+DTA	Diversion to Air Charge
+DTB	Detention (Labor)
+DTC	Destination Charge
+DTD	Destination Duty
+DTF	Destination Inland Freight
+DTL	Detention Loading
+DTP	Delivery of Fuel from Tank Truck or Trailer to Pipeline Charge
+DTU	Detention Unloading
+DTV	Detention (Vehicle)
+DWC	Driver's Wages
+DWP	Detention with Power Units (60 minute periods) Charge
+EAC	Exchange Access Credit
+EAX	Extra Axles
+EBD	Exhibition Delivery Charge
+EBP	Exhibition Pickup Charge
+ECC	Will Call Charge
+ECR	Escort/Courier Service Charge
+ECS	Empty Railcar Ordered But Not Used Charge
+EDD	Equipment Hose at Destination Charge
+EDO	Equipment Hose at Origin Charge
+EEA	Early Buy Allowance
+EEB	Early Payment Allowance
+EEC	Escalation
+EEF	Expediting Fee
+EEG	One Time Engineering Charge
+EEH	Engineering Charge
+EEP	Expediting Premium
+EEX	Export Shipping Charge
+EIC	Export/Import Charge
+ELS	Extra Lights
+EMR	Emergency Response Service
+EMS	Emergency Surcharge
+EMT	Empty Movement
+ENC	Energy charge
+ENS	Energy Surcharge (Fuel Adjustment Factor)
+EPC	Emergency Port Charge
+EPS	Environmental Protection Service
+ERS	Empty Return
+ERT	Satisfactory Service Standards Charge
+ESA	Early Ship Allowance
+ESC	Emergency Service
+ESD	Estimated Customs Duty (Dutypaid - Charge)
+ESE	External Service Expense
+ETR	Empty Trailer Returned Charge
+EUC	European Port Charges
+EVC	Excessive Value Charge
+EXC	Exclusive Use Charge
+EXD	Extra Driver
+EXL	Extra Length
+EXM	Excess Mileage Charge
+EXP	Expedited Service Charge
+EXS	Excess Periods
+EXW	Excess Weight
+EXZ	Expando Remove and Install
+FAB	F.E.T. Federal Excise Tax
+FAC	F.E.T. (Percent)
+FAD	F.E.T. (Dollar Value)
+FAE	Fabrication Charge
+FAF	F.E.T. Tires
+FAG	Freight Equalization
+FAH	Freight Surcharge
+FAK	Barge Freight All Kinds Service
+FBD	Freight, Based on Dollar Minimum
+FCB	Freight Charges to Border
+FCD	Freight Charges to Destination
+FCI	Freight Charges Inbound and Outbound
+FCS	Furnishing Chassis
+FDL	Food and Lodging
+FDS	Financial Document Surcharge
+FFC	Fuel Filters Furnished by Carrier Charge
+FFI	Finance Charge
+FFL	Freshness/Leaker Allowance
+FFN	Special Finish Charge
+FFP	Freight Passthrough
+FFR	Flat Rate
+FFS	Fuel Filters Furnished by Shipper Charge
+FIR	Fire Report
+FLS	Flatrack Surcharge
+FLT	Ferry Service
+FMR	Foreign Military Sales (FMS) Rental
+FMS	Foreign Military Sales (FMS) Special Charge
+FRC	Franchise fee
+FTC	Federal Transfer Surcharge
+FTR	Filtration Service Charge
+FUE	Fuel Charge
+FWA	Forwarding Agent Commission
+FWC	Forwarding Charge
+FXE	Texas Rail Commission Fixed Charge
+GAR	Garment District
+GAT	Gate Inspection Charge (Intermodal)
+GDR	Grain Doors
+GGA	Glaze Allowance
+GGF	Gold Factor
+GKT	Gasket
+GMS	Garment Surcharge
+GOC	Government-owned Containers
+GPD	Gulf Port Delivery Charge
+GRD	Groupage Discount
+GRS	Gross Receipts Surcharge
+GSP	Government Guard Car Charge
+GSS	Greater Security Service
+GST	Goods and Services Tax Charge
+HAN	Handling Charges on Distribution Freight Forwarded Beyond
+HAZ	Hazardous Cargo Charge
+HBD	Harbor Dues
+HDF	Heavy Duty Flat Car Charge
+HDG	Holding Charge
+HDH	Shipment Holdover Charge for Holidays
+HDW	Shipment Holdover Charge for Weekends
+HET	Heat in Transit Charges
+HFA	Handling Freight At Positions Not Immediately Adjacent To Vehicle Charge
+HHA	Hauling and Hoisting to be Direct Billed
+HHB	Handling
+HHG	Household Goods Pick-up or Delivery
+HIC	Highway Interchange
+HLF	Home Line Freight Charge
+HMA	Accessible Hazardous Material
+HMI	Inaccessible Hazardous Material
+HOC	Hook-up charge
+HOL	Sunday or Holiday Pick-up or Delivery
+HOS	Hose Charge
+HOX	Hose Charge Special
+HRS	Heater or Refrigeration
+HSC	High Security Red In-bond Seal Charge
+HUL	Heavy Lift
+HZC	Hazardous Materials Surcharge Charge
+HZD	Hazardous Cargo on Deck
+HZS	Hazardous Storage
+IAA	Industry Price Allowance
+IAB	Income Freight (Manufacturing to Shipping Point)
+IAC	Inspection Fee
+ICE	Cooling Service
+IDC	Idler Car Charge
+IDD	Improper Documentation
+IDL	Inside Delivery
+IDP	Interdivision Profit
+IFC	Inbound Freight Charges
+IHT	Interstate/Highway Toll
+IIA	Invoice Adjustment
+IIH	Icing Inhibitor Charge
+IIP	Item Percentage
+IIU	Item-Unit
+ILD	Island Delivery Charge
+ILF	Initial License Fee
+ILP	Island Pick-Up Charge
+IMP	Impactographs
+IMS	Intermodal Shipment Service Charge
+INC	Insurance Surcharge
+INP	Interplant Charge
+INR	Interest on refund
+INS	Insurance
+INT	Interpreter Expense
+IPC	Intra-plant Charge
+IPU	Inside Pick-up
+IRA	Irish Arbitraries
+ISD	Interest on security deposit
+ISO	Intermodal Storage (Origin)
+IST	Intermodal Storage (Destination)
+ITC	Insulated Tank Charge
+ITS	Interline Transfer Charge
+JST	Junction Settlement Charge
+KIT	Glass Kit
+LAA	Labor Charges
+LAB	Extra Labor (Helper Service)
+LAC	Lading Adjustment Charge
+LAD	Labor (Repair and Return Orders)
+LAE	One-Time License Fee
+LAL	Labor Adjustment Allowance
+LAT	License and Title
+LAY	Layover Charges
+LBR	Light Bar Service Charge
+LC2	Land Currency Adjustment Factor - 20 Foot Container
+LC4	Land Currency Adjustment Factor - 40 Foot Container
+LCG	Late Order Charge
+LCL	Percent Differential - Less than Container
+LCR	Labor Cost of Removal
+LDA	Loading Allowance
+LDG	Loading
+LDL	Unloading Allowance
+LDS	Locomotive Delayed in Switching Service
+LEC	Less than Container
+LFC	Lift Charge (Intermodal)
+LFD	Linehaul from Port of Debarkation
+LFT	Lift Gate (Truck) or Forklift Service at Pick-up/Delivery
+LGD	Lodging
+LHS	Linehaul Service
+LID	Recurring License Fee
+LIE	Liability of Carrier Charge
+LLB	Limited Liability
+LLC	Lot Charge
+LLD	Lead Factor
+LLF	Loan Fee
+LLS	Local Sales Tax (All Applicable Sales Taxes by Taxing Authorities Below the State Level)
+LMC	Labor, Modify
+LMD	Liner Terms at Port of Debarkation
+LME	Liner Terms at Port of Embarkation
+LNT	Labor, No Trouble Found
+LOA	Loading (Labor Charges)
+LOC	Local Delivery/Drayage
+LPC	Late payment charge
+LPD	Linehaul Percent Differential
+LPF	Laboratory Pack Fee
+LQD	Liquidated Damages
+LSC	Labor Service
+LSH	Lashing
+LSS	Lifeline Surcharge
+LTC	Labor, Test and Calibrate
+LTE	Linehaul to Port of Embarkation
+LUB	Lubricant Charge
+LUP	Locomotive Under Own Power
+LUS	Leaking underground storage tax (LUST)
+LYC	Layover Service Charge
+MAA	Metals Surcharge
+MAB	Mileage or Travel
+MAC	Mileage Fee (For Repair and Return)
+MAD	Minimum Order/Minimum Billing Charge
+MAE	Monthly Rental
+MAR	Marriage Rule
+MAT	Modified Atmosphere
+MCC	Machining Charge
+MDG	Molding
+MDM	Mount/Demount
+MEA	Meals or Lodging Charge
+MEN	Escort Service with Overnight Subsistence
+MES	Escort Service
+MET	Escort Service (Telephone)
+MFC	Manifest Charge
+MFG	Manufacturing
+MGA	Message Rate Adjustment
+MGC	Message Charge
+MIC	Minimum Charge
+MIL	Special Mileage Movements
+MIN	Minimum Guarantee
+MKU	Markup Charge
+MLB	Minimum Bill of Lading Charge
+MLS	Meals
+MMC	Minimum/Maximum Charge
+MMF	Mill Freight
+MMS	Market Development Funds
+MMT	Metropolitan Transit Tax
+MNC	Notify Consignee
+MNS	Motor Surveillance Service
+MPC	Miscellaneous Parts Charge
+MRK	Marking or Tagging Charge
+MRP	Medical Report Charge
+MSC	Other Accessorial Service Charge
+MSG	Miscellaneous Charge
+MTR	Meter Charge
+MUS	Municipal Surcharge
+MVR	Motor Vehicle Report (MVR) Charge
+MVS	Special Motor Surveillance Charge
+MVT	Venting Instructions
+NAA	Non Generated Freight
+NAB	New Store Allowance
+NAL	Nozzle Charge
+NCH	Order Notify Charge
+NDS	Non-document Surcharge
+NFY	Carrier Notification Charge
+NHB	N.H.D. Wharfage
+NSD	New Store Discount
+NWD	New Warehouse Discount
+NYD	New York Delivery Charge
+NYP	New York Pick-up Charge
+OAA	O.T.O. Charge
+OAB	Overrun Charge
+OAC	Overtime Loading
+OCH	Ocean Charges -- Hazardous
+OCN	Over Height Container
+ODF	Collect on Delivery Deletion Charge
+OFR	Official Report Charge
+OFU	Fumigation
+ONC	On Carriage
+OOC	Option Charge (Color Fabric Office Furniture)
+OOD	On Deck Break Bulk Differential
+OOF	Order-Flat
+OPC	Optional Charge
+ORC	Operator Credit
+ORM	Out of Route Miles
+OSC	Outside Charge
+OSO	Optional Software Support for Operational Support Systems
+OSS	Optional Software Support for Switching Systems
+OUT	Out of Zone Pick-up or Delivery
+OVR	Over Dimension
+OWC	Over Width Container
+PAA	Percent of Product
+PAC	Pump Air Charge
+PAD	Premium Charge
+PAE	Premium Transportation
+PAF	Price Deviation
+PAG	Professional Fees
+PAH	Promotional Allowance
+PAI	Promotional Discount
+PAJ	Pump Charge
+PAK	Preparation and Delivery
+PAL	Parts Adjustment Allowance
+PAR	Parts Charge
+PAT	Priced Parts Charge
+PAV	Pickup of Shipments on Saturday, Sunday, and/or Holidays Requiring Absolute Next Day Delivery Charge
+PBA	Prior billing amount
+PBE	Permits Bonds Escort Attendant
+PBL	Pier Charges Other Than Wharfage
+PCH	Protective Service Charge
+PCT	City Pick-up
+PDB	Prior Delivery Of Bill Charge
+PDC	Preloading Charge
+PDS	Pickup and Delivery from Storage in Transit
+PDY	Pickup and Delivery Beyond Service Area Charge
+PEC	Pallet Exchange Charge
+PEN	Penalty Charge
+PER	Permit Charge
+PFA	Power Factor Adjustment
+PHC	Photocopy
+PHG	Photographs
+PIR	Pier Pick-up and/or Delivery
+PKS	Packing Surcharge
+PLC	Insurance Placement Cost Charge
+PLT	Pallets/Skids/Platforms
+PMC	Prior Month Credit
+PMR	Paint and Materials
+PMS	Pickup of Shipments Requiring Same Day Delivery Service Charge
+PMT	Pickup of Shipments Requiring Same Day Delivery Service and/or Delivery at a Specified Time Charge
+PMU	Normal Pump Charge
+PMX	Special Pump Charge
+PNA	Prior Period Net Adjustment
+POC	Piano/Organ Carry
+POD	Proof of Delivery
+POL	Police Report Charge
+POS	Positioning at Origin
+PPC	Per Pound Charge
+PPD	Pickup and Delivery Service for Perishables Charge
+PPH	Per Item Charge
+PPI	Pick/Up Allowance
+PPM	Precious Metal Content
+PPN	Pallet Charge
+PPO	Per Order Charge
+PPR	Performance Award
+PPS	Placement and/or Removal Charge
+PPT	Parish/County Sales Tax (only)
+PPU	Prepaid Usage Allowance
+PRB	Prior Balance
+PRC	Pre-carriage
+PRE	Pre-carriage Excess
+PRK	Parking
+PRL	Prelodge Charge
+PRM	Premise Use
+PRP	Prior Period Rebook
+PRS	Stuffing Charge
+PRV	Prior Period Reversal
+PSC	Protective Service - Cold
+PSD	Preparation of Special Documents
+PSG	Protective Service Security with Armed Guards
+PSH	Protective Service - Heat
+PSS	Protective Service Security
+PST	Postage
+PTC	Tobacco Products Report Charge
+PTS	Protective Tarp for Security Purposes
+PUC	Pick-up Charge
+PUD	Pick-up and Delivery
+PUK	Pack and Unpack
+PVB	Bonded Privately Owned Vehicle Charge
+PVD	Detention of Privately Owned Vehicle Charge
+PVI	Inoperable Privately Owned Vehicle Charge
+PVL	Loading/Unloading of Privately Owned Vehicle Charge
+PVP	Privately Owned Vehicle Processing
+PVS	Stop-offs for Privately Owned Vehicle Shipment Charge
+PVT	Privately Owned Vehicle in Truckaway Service Charge
+PWH	Pier Charges - Wharfage
+PWT	Pallet Allowance
+PYS	Priority Service Charge
+QAA	Quantity Surcharge
+QQD	Quantity Discount
+RAA	Rebate
+RAB	Reclamation, Federal
+RAC	Reclamation, State
+RAD	Recovery Allowance
+RAE	Redistribution Allowance
+RAF	Rental Deduction
+RAG	Repack Charge
+RAH	Retainer
+RAI	Resellers Discount
+RAJ	Restocking Charge
+RAK	Royalties
+RAL	Roll Rebate
+RAM	Ramping
+RCA	No Return Credit Allowance
+RCB	Repair at buyers expense charge
+RCC	Reconsignment Charge
+RCD	Reconsign Consignee Charge
+RCE	Repair at customer expense charge
+RCG	Repair at government expense charge
+RCL	Redelivery
+RCP	Recoopering (at Owner's or Shipper's Expense)
+RCS	Reconnect charge
+RDC	Reconsign Delivery Charge
+RDF	Research & development fee
+RDH	Railhead Handling
+REC	Return Cargo Charge
+REE	Regulatory Fee
+REF	Refrigeration
+REG	Regulatory tax
+REL	Requested Labor Charge
+REP	Residential Pick-up
+REQ	Request Via Canada
+RES	Residential Delivery
+RET	Returned Load
+RFD	Refund
+RFM	Reefer Maintenance
+RGA	Regain Allowance
+RGC	Regain Charge
+RHM	Recurring Hardware Maintenance Charge
+RID	Riding Attendant Charge
+RIE	Released Value Charge in Excess of Carrier Maximum Liability Charge
+RLA	Retail Loss Allowance
+RLC	Rents and Leases
+RLQ	Relinquishment Charge
+RLS	Relocation of Vehicle
+RMB	Rocky Mountain Bureau 583 Item 1100 Arbitrary Charge
+RMC	Return of Empty Container Charge
+RMD	Refrigeration/Mechanical Detention
+RMP	Return Movement of Pallet Charge
+RMS	Rail Surveillance
+ROC	Roll Out Adjustment
+RPC	Reduction Prepalletized Cargo
+RPD	Reefer Cargo Percent Differential
+RRC	Reel Cable
+RRD	Reel Deposit
+RRF	Refurbishing Charge
+RRN	Rental Charge
+RRP	Repair Charge
+RRR	Regulatory required refund
+RSM	Recurring Software Maintenance Charge
+RSP	Reshipment
+RSS	Restricted Speeds
+RST	Respotting
+RSV	Reservations
+RTC	Rate Code
+SAA	Subject to Cooperative Advertising Allowance
+SAB	Shipping and Handling
+SAC	Service Charge (with Cash Discount)
+SAD	Scrap Allowance
+SAE	Shrink-Wrap Charge
+SAF	Special Credit
+SAG	State Motor Fuel
+SAH	Stenciling Charge
+SAI	Super Fund Excise Tax
+SAJ	Surcharge (Dollar Value)
+SAK	Surcharge (Percentage)
+SAM	Stopcharge
+SAN	State Sales Charge
+SAP	Service Assistance Program Surcharge
+SAS	Shipment Holdover on Weekends Charge
+SAT	Saturday Pick-up or Delivery Charge
+SBC	Standby Charge
+SBL	Sublet
+SCC	Special Seal Charge
+SCD	Special Containers
+SCG	Small Order Charge
+SCL	Scale Charge
+SCU	Scale Charge Unloading
+SDC	Special Detention Charge
+SDL	Split Delivery
+SDS	Special Dromedary Service
+SEC	Special Equipment Charge
+SEE	Stairs, Elevator, Excess Carry
+SEG	Segregating (Sorting)
+SEL	Self Unloader
+SEQ	Ship Exact Quantity Charge
+SER	Service Charge
+SEV	Security Escort Vehicle Service
+SFB	Single Factor Origination/Destination
+SFC	Stuffing Charge
+SFD	Single Factor Orginiation/Port of Debarkation
+SFE	Single Factor Port of Embarkation/Destination
+SFT	Special Train Movement
+SGL	Single Pick-up
+SHH	Shipment Holdover on Holidays Charge
+SHL	Shipper Load
+SHS	State Hazardous Substance Tax
+SHW	Shipment Holdover on Weekdays Charge
+SKT	Skirting and Unskirting
+SLC	Street lamps charge
+SLP	Slip Sheet Charge
+SMS	State/Metropolitan Transit Authority Surcharge
+SNS	Satellite Surveillance Service
+SNT	Shipment from Non-temp Storage
+SOC	Stop-off Charge
+SOP	Stop-off at Pier Charge
+SPA	Special Allowance
+SPB	Special Buy
+SPC	Special Permits
+SPD	Spreader Charge
+SPL	Spool Charge
+SPP	Split Pick-Up at Pier Charge
+SPS	Special Freight Supplements
+SPT	Spotting of Trailer
+SPU	Split Pick-up
+SRG	Storage
+SRS	Surveying Routes
+SSA	Salvage
+SSB	Super Bag Charge
+SSC	Stripping, Sorting, and Consolidation
+SSF	Single Shipment Fee
+SSL	Select Charge
+SSO	Pole, Wood-service Charge
+SSP	Shipside Pickup
+SSS	Software Support Service
+SST	Sales Tax (State and Local)
+SSU	Pole Lashing Equipment (PLE) Surcharge
+SSX	Sales and Use Tax
+STA	Conductivity/Anti-static Additive
+STC	State Surcharge
+STD	Stopoff at Destination
+STF	Container Stuffing
+STL	Standard Labor Charge
+STM	Steaming Charge
+STO	Stowage Charge
+STP	Stopping in Transit
+STQ	Stopoff at Orgination
+STR	Storage in Transit
+STW	Special tooling rework charge
+SUC	Special Use
+SUF	Sufferance Warehouse Charge (Export or Import)
+SUP	Supervisor Charge
+SUR	Surcharge
+SVA	Single Invoice Allowance
+SVL	Manual Surveillance of Shipment
+SVS	Storage of Vehicles
+SWC	Switching Charge
+TAA	Telephone Charge
+TAB	Tank Rental
+TAC	Temporary Allowance
+TAD	Tax on Transportation
+TAE	Temporary Voluntary Allowance
+TAF	Terminal Differential
+TAG	Testing Charge
+TAH	Tool Charge
+TAI	Testing Allowance
+TAJ	Trade In
+TAK	Transportation and Setup
+TAL	Truckload Discount
+TAR	Tarping Charge
+TAX	Tax Charge
+TAY	Governmental Tax
+TCB	Telegram Chargeback
+TCM	Transportation Charge (Minimum Rate)
+TDT	Truck Detention
+TER	Terminal Charge
+TLC	Trimming Charge
+TMS	Multi-Tank Surveillance Service
+TMV	Tendering of Multiple Vehicles
+TOA	Total Assessorial Charges
+TOC	TOFC Service Charge
+TPA	Carrier Equipment Pool Charge
+TPC	Throughput Container Charge
+TPS	Third-Party Service
+TRA	Travel Charge
+TRC	Trailer Rental Charge
+TRE	Travel Expense
+TRF	Transfer Charge
+TRM	Termination
+TRN	Transit
+TRP	Process in Transit Privilege
+TRS	Transferred Charges
+TRU	Thruway Charge
+TSC	Testing Services Charge
+TSS	Tank Surveillance Service
+TST	Track Storage
+TTA	Tank Car Allowance
+TTB	Transportation-Direct Billing
+TTD	Trade Discount
+TTL	Local Tax
+TTM	Tax on Miscellaneous Charges
+TTP	Third Party Allowance
+TTR	Throughput Allowance
+TTS	State Tax
+TTT	Transportation - Third Party Billing
+TTU	Tire Repair and Replace
+TTV	Transportation - Vendor Provided
+TUR	Turning Charge
+TWO	Two Door Pick Up
+UFC	Under Carriage Furnished By Carrier Charge
+UND	Unloading
+UNL	Unloading (Labor Charges)
+UPD	Usage Plan Detail Charge
+UPK	Unpacking
+URC	Unloading/Reloading Charge
+USF	Use - Special Type Flat Car
+USV	U.S. Vehicles
+USW	Unabsorbed Switching
+UTL	Utilities Disconnect and Connect
+UTP	Use charge tooling/personnel
+UUC	Up Charge
+UUM	Unsalable Merchandise Allowance
+UUT	Use Tax
+VAA	Vendor Freight
+VAB	Volume Discount
+VCL	Van Cleaning
+VCR	Voluntary contribution charge
+VEX	Excess Mileage for Stop Off Delivery of Personal Vehicles Charge
+VFN	Vehicles Furnished But Not Used
+VIS	Vehicles Inoperable
+VIT	Virgin Island Transfer Charge
+VOR	Vehicle Ordered but Not Used
+VSO	Stop Off Delivery of Personal Vehicles Charge
+VTS	Vehicles in Truckway
+VVL	Vehicle Load Allowance
+VVP	Vehicle Prep Charge (courtesy delivery)
+WAR	War Risk Surcharge
+WAT	Wide Area Telephone Service (WATS) Usage Credit
+WBB	Wharfage - Breakbulk
+WCT	Wharfage - Container
+WDS	Waterfront Delivery Charge
+WEA	Weather Protection
+WEI	Weighing Charge (Intermodal)
+WFG	Wharfage
+WFH	Wharfage & Handling
+WFT	Wasted/Futile Trip
+WHC	Warehouse Charge
+WRB	War Risk Crew Bonus
+WRC	Load Weighing Charge
+WRE	Empty Weighing Charge
+WRI	War Risk Insurance
+WSA	Warehouse Allowance
+WTG	Waiting Time
+WTM	Waiting Time Service Charge
+WTV	Weight Verification Charge
+WWC	Wharfage Charge
+Z01	Protective Service Rule 25
+Z02	Protective Service Rule 27
+Z03	Protective Service Rule 37
+Z04	Protective Service Rule 75
+Z05	Protective Service Rule 95
+Z06	Protective Service Rule 140
+Z07	Protective Service Rule 160
+Z08	Protective Service Rule 165
+Z09	Protective Service Rule 500
+Z10	Protective Service Rule 510
+Z11	Protective Service Rule 518
+Z12	Protective Service Rule 530
+Z13	Protective Service Rule 531
+Z14	Protective Service Rule 545
+Z15	Protective Service Rule 565
+Z16	Protective Service Rule 570
+Z17	Protective Service Rule 580
+Z18	Protective Service Rule 581
+Z19	Protective Service Rule 705
+Z20	Protective Service Rule 710
+Z21	Protective Service Rule 711
+Z22	Protective Service Rule 712
+Z23	Protective Service Rule 716
+Z24	Protective Service Rule 720
+Z25	Protective Service Rule 725
+Z26	Protective Service Rule 727
+Z27	Protective Service Rule 735
+Z28	Protective Service Rule 740
+Z29	Protective Service Rule 760
+Z30	Protective Service Rule 815
+Z31	Quality Differential
+Z32	Protective Service Rule 26
+Z33	Protective Service Rule 715
+Z34	Protective Service Rule 745
+Z35	Protective Service Rule 755
+ZFF	First Flight Out
+ZZZ	Mutually Defined

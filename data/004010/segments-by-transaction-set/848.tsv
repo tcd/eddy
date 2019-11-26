@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BMS	Beginning Segment For Material Safety Data Sheet	H	M	0	1	1
+NTE	Note/Special Instruction	H	O	0	999999	2
+REF	Reference Information	H	O	0	999999	3
+DTM	Date/Time Reference	H	O	0	999999	4
+N1	Party Identification	H	O	999999	1	5
+N2	Additional Name Information	H	O	0	999999	6
+N3	Party Location	H	O	0	999999	7
+N4	Geographic Location	H	O	0	1	8
+REF	Reference Information	H	O	0	999999	9
+PER	Administrative Communications Contact	H	O	0	999999	10
+LIN	Item Identification	D	O	999999	1	11
+PID	Product/Item Description	D	O	0	999999	12
+MSS	Material Safety Data Sheet Section Information	D	O	999999	1	13
+MEA	Measurements	D	O	0	999999	14
+MSG	Message Text	D	O	0	999999	15
+SD1	Safety Data	D	O	999999	1	16
+MEA	Measurements	D	O	0	999999	17
+PKG	Marking, Packaging, Loading	D	O	0	999999	18
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	999999	19
+MSG	Message Text	D	O	0	999999	20
+CID	Characteristic/Class Id	D	O	999999	1	21
+MEA	Measurements	D	M	0	999999	22
+LX	Transaction Set Line Number	D	O	999999	1	23
+CID	Characteristic/Class Id	D	O	0	1	24
+MEA	Measurements	D	O	0	999999	25
+STA	Statistics	D	O	0	1	26
+TMD	Test Method	D	O	0	1	27
+MSG	Message Text	D	O	0	999999	28
+SD1	Safety Data	D	O	999999	1	29
+MEA	Measurements	D	O	0	999999	30
+PKG	Marking, Packaging, Loading	D	O	0	999999	31
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)	D	O	0	999999	32
+MSG	Message Text	D	O	0	999999	33
+CID	Characteristic/Class Id	D	O	999999	1	34
+MEA	Measurements	D	M	0	999999	35

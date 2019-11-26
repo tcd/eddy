@@ -1,0 +1,26 @@
+id	definition
+01	Satisfied
+02	Unsatisfied
+03	Released
+04	Unreleased
+05	Vacated
+06	Settled
+07	Distributed
+08	Unknown
+09	Dismissed
+10	Discharged
+11	Withdrawn
+12	Appealed
+13	Filed
+14	Pending
+15	Completed
+18	Paid
+19	Granted
+20	Adjudicated
+21	Non-adjudicated
+22	Real Estate Sold
+23	Paid - Not Satisfied
+24	Rescinded
+25	Converted
+26	Cancelled
+ZZ	Mutually Defined

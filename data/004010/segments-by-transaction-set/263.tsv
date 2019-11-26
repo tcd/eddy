@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	2	2
+LX	Transaction Set Line Number	D	M	999999	1	3
+N1	Party Identification	D	M	0	1	4
+REF	Reference Information	D	M	999999	1	5
+N1	Party Identification	D	M	0	1	6
+MIR	Mortgage Insurance Response	D	M	0	1	7
+TXI	Tax Information	D	O	0	5	8
+N9	Extended Reference Information	D	O	0	10	9
+MIC	Mortgage Insurance Coverage	D	O	0	1	10
+G63	Period	D	O	999999	1	11
+PCT	Percent Amounts	D	O	0	1	12

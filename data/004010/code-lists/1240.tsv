@@ -1,0 +1,31 @@
+id	definition
+A	Asphalt
+C	Concrete
+D	Dirt
+G	Gravel
+J	.25 Mile
+K	.50 Mile
+L	1 Mile
+M	More Than 1 Mile
+N	No
+U	Unknown
+Y	Yes
+1G	One Gate
+2G	Two or More Gates
+AX	Asphalt, Frost Law Restrictions
+BC	Brick or Cement Block
+BW	Barbed Wire
+CL	Chain Link
+CX	Concrete, Frost Law Restrictions
+DA	Direct Dial Access
+FX	Fax Machine
+GA	Guard on Site
+GX	Gravel, Frost Law Restrictions
+LK	Lock on Gates
+NF	Not Fenced
+NH	No Restrictions
+OF	Office
+RH	13 Feet 6 Inches or Less
+RR	Rail Ramp
+TP	Telephone
+TR	Truckaway Ramp

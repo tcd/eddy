@@ -1,0 +1,49 @@
+id	definition
+03	Shipment Greater Than Previously Reported
+04	Receipt Less Than Previously Reported
+05	Product Put on Hold
+06	Book Adjustment Decrease
+07	Product Dumped or Destroyed
+51	Unable-to-Locate (UTL) Product Located
+52	Recoup/Rework of Damaged Product
+53	Shipment Less Than Previously Reported
+54	Receipt Greater Than Previously Reported
+55	Product Taken Off Hold
+56	Book Adjustment Increase
+AA	Physical Count
+AB	Accounting Error
+AC	Condition Change
+AD	Purpose Change
+AE	Reidentification
+AF	Stock Number Change
+AG	Ownership Change
+AH	Other
+AI	Disaster
+AJ	Survey
+AK	Transfer
+AL	Capitalization
+AN	Unit of Issue Change
+AP	Product/Formula Evaluation and Testing
+AR	Order Shipment Error
+AS	Recouping
+AT	Prepack Preparation
+AU	Damaged in Facility
+AV	Damaged in Transit
+AW	Product Recall
+AX	Shelf-life Obsolescence
+AY	Receipt Error
+BA	Operating Variance
+BD	Nonrecoverable
+BK	Off Specification
+BM	Replacement
+BN	Tariff Deduction
+BR	Regrade
+BS	Downgrade
+BT	Additive
+CD	Product Donations
+CO	Consignment
+CR	Customer Returned Inventory
+CS	Product Samples
+PC	Product Reserved for Customer
+TC	Tax Conversion
+UD	Unauthorized Destruction

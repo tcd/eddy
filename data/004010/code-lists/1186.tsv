@@ -1,0 +1,90 @@
+id	definition
+01	Monthly Flight Hazard Income
+02	Monthly Clothing Income
+03	Monthly Pro Pay
+04	Monthly Quarters
+05	Monthly Overseas Combat
+06	Overseas Annual Income
+07	Monthly Ration
+08	Bonus Income
+09	Overtime Income
+10	Commission Income
+11	Income From Tips
+12	Alimony
+13	Child Support
+14	Law Suit
+15	Next Pay Increase
+16	Stock Options
+17	Dividends
+18	Profit Sharing
+19	Interest
+20	Base Employment Income
+21	Base Employment Income plus Overtime
+22	Base Employment Income plus Commissions, Bonus or Both
+23	Self-Employment Income
+24	W-2 Wage and Tax Statement
+25	W-2 Wage and Tax Statement with Deferred Compensation
+26	Income Eligible for Employer Matching
+27	Compensation Required for Nondiscrimination Testing
+28	Compensation Required for Internal Revenue Code 415 Testing
+29	Employment
+30	Real Estate
+31	Nonemployment
+32	Unknown Type of Income
+33	Net Rental Income
+34	Total Gross Income
+35	Total Monthly Income
+38	Veteran Affairs Benefits
+39	Mortgage Differential Payments
+40	Unemployment Compensation
+41	Pension
+42	Social Security
+43	Welfare
+44	Sale of Stocks and Bonds
+45	Other Type of Income
+46	Notes Receivable Income
+47	Toke Income (Gambling Tips)
+48	Last Pay Increase
+49	Monthly Variable Housing Allowance
+51	Highest Verified Income
+52	Salary at Termination
+53	Automobile Allowance
+54	Aid for Dependent Children Benefits
+55	Partnership Income
+56	Corporation Income
+57	"S" Corporation Income
+58	Lottery Winnings
+59	Trust Income
+60	Expense Account Payments
+61	Average Rent
+62	Net Operating Income
+63	Income Per Unit
+64	Income Per Building
+65	Income Per Area
+66	Income Per Suite
+67	Income Per Bay
+68	Income Per Slip or Dock
+69	Gross Sales
+70	Continuation of Pay
+71	Long Term Disability
+72	Short Term Disability
+73	Lump Sum Payment (Disability Event)
+74	Lump Sum Payment (Fatality Event)
+75	American Payroll Association Code
+91	Employment - Total
+92	Earnings From Financial Assets - Total
+93	Windfall Income - Total
+94	Civil Action Income - Total
+AI	Actual Income
+BG	Budgeted Earnings
+EI	Estimated Income
+HR	Hourly Wage
+K1	K1 Earnings
+PD	Per Diem
+PS	Sick Pay
+SA	Salary
+SB	Salary Plus Bonus
+SC	Salary Plus Commission
+SP	Separation Pay
+VP	Vacation Pay
+ZZ	Mutually Defined

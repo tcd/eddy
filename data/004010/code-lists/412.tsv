@@ -1,0 +1,16 @@
+id	definition
+01	Damaged Product or Container
+02	Quantity Short
+03	Quantity Over
+04	Quality Problem
+05	Incorrect Product
+06	Non-standard Container
+07	Good Condition
+08	Rejected
+09	Hold
+10	Material Scrapped
+11	Adjust Supplier Shipped Cumulative Quantity
+12	Quantity Over - Returned to Supplier
+13	Quantity Received, But Cannot Process Because No Matching Ship Notice
+14	Quantity Received and Processed with No Matching Ship Notice/Manifest
+16	Not Received - Ship Notice Required

@@ -1,0 +1,35 @@
+id	definition
+01	Research, Development, Test & Evaluation (RDT&E)
+02	Production
+03	Both RDT&E and Production
+04	Other
+05	Procurement
+06	Advanced Design
+07	Full Scale Development
+08	Engineering and Manufacturing Development (EMD)
+11	Single Family
+13	Multifamily Construction
+14	Multifamily Project
+15	Single Family Serial Note
+20	Concept Exploration
+21	Demonstration Validation
+22	Deployment
+23	Low Rate Initial Production
+24	Multiple
+25	Single
+AQ	Adjustable Rate Mortgage with Off-Cycle Interest Charges
+AR	Adjustable Rate Mortgages
+AZ	Custom Adjustable Rate Mortgage
+BD	Buydowns
+CL	Construction Loan; Multifamily
+CS	Construction Loan with Split Interest Rate
+GA	Growing Equity Mortgage--Monthly Payments Increase 4% Annually Over the Life of the Loan
+GD	Growing Equity Mortgage--Monthly Payments Increase Annually at any Rate over the life of the Loan
+GP	Graduated Payment Mortgage--Monthly Payments Increase Annually for no more than the first 5 years of the Mortgage
+GT	Graduated Payment Mortgage--Monthly Payments Increase Annually for no more than the first 10 years of the Mortgage
+MH	Manufactured Housing
+PL	Project Loan; Multifamily
+PN	Project Loan with Non-Level Payments
+SF	Single Family Level Payment Mortgage
+SN	Serial Notes
+SP	Straight Pass-Through

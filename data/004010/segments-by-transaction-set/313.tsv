@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+B4	Beginning Segment For Inquiry Or Reply	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	25	2
+N1	Party Identification	H	O	0	2	3

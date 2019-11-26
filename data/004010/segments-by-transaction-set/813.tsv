@@ -1,0 +1,36 @@
+id	description	section	req	max_loop	max_usage	pos
+BTI	Beginning Tax Information	H	M	0	1	1
+DTM	Date/Time Reference	H	M	0	10	2
+TIA	Tax Information And Amount	H	O	0	1000	3
+REF	Reference Information	H	O	0	10	4
+TRN	Trace	H	O	0	1000	5
+BPR	Beginning Segment For Payment Order/Remittance Advice	H	O	0	1000	6
+N1	Party Identification	H	O	999999	1	7
+N2	Additional Name Information	H	O	0	2	8
+IN2	Individual Name Structure Components	H	O	0	10	9
+N3	Party Location	H	O	0	2	10
+N4	Geographic Location	H	O	0	1	11
+PER	Administrative Communications Contact	H	O	0	2	12
+TFS	Tax Form	D	O	100000	1	13
+REF	Reference Information	D	O	0	10	14
+DTM	Date/Time Reference	D	O	0	10	15
+MSG	Message Text	D	O	0	1000	16
+N1	Party Identification	D	O	999999	1	17
+N2	Additional Name Information	D	O	0	2	18
+IN2	Individual Name Structure Components	D	O	0	10	19
+N3	Party Location	D	O	0	2	20
+N4	Geographic Location	D	O	0	1	21
+TIA	Tax Information And Amount	D	O	10000	1	22
+DTM	Date/Time Reference	D	O	0	10	23
+MSG	Message Text	D	O	0	1000	24
+FGS	Form Group	D	O	100000	1	25
+REF	Reference Information	D	O	0	10	26
+DTM	Date/Time Reference	D	O	0	10	27
+N1	Party Identification	D	O	999999	1	28
+N2	Additional Name Information	D	O	0	2	29
+IN2	Individual Name Structure Components	D	O	0	10	30
+N3	Party Location	D	O	0	2	31
+N4	Geographic Location	D	O	0	1	32
+TIA	Tax Information And Amount	D	O	10000	1	33
+DTM	Date/Time Reference	D	O	0	10	34
+MSG	Message Text	D	O	0	1000	35

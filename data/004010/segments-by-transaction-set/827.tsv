@@ -1,0 +1,12 @@
+id	description	section	req	max_loop	max_usage	pos
+RIC	Financial Return	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+TRN	Trace	H	O	0	2	3
+REF	Reference Information	H	O	0	999999	4
+DTM	Date/Time Reference	H	O	0	999999	5
+NM1	Individual Or Organizational Name	H	O	10	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+REF	Reference Information	H	O	0	5	10
+PER	Administrative Communications Contact	H	O	0	3	11

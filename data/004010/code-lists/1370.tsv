@@ -1,0 +1,11 @@
+id	definition
+0	Not Specified
+1	Not Unit Dose
+2	Manufacturer Unit Dose
+3	Pharmacy Unit Dose
+4	Treated Group
+5	Untreated Control Group
+6	Vehicle Control Group
+7	Positive Control Group
+8	Optional Control Group
+Z	Mutually Defined

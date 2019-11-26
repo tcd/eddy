@@ -1,0 +1,17 @@
+id	description	section	req	max_loop	max_usage	pos
+BAU	Beginning Segment For The Debit Authorization	H	M	0	1	1
+N1	Party Identification	H	O	0	1	2
+N2	Additional Name Information	H	O	0	999999	3
+N3	Party Location	H	O	0	999999	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+DAD	Debit Authorization Detail	D	M	999999	1	8
+NM1	Individual Or Organizational Name	D	O	0	1	9
+N2	Additional Name Information	D	O	0	999999	10
+N3	Party Location	D	O	0	999999	11
+N4	Geographic Location	D	O	0	1	12
+REF	Reference Information	D	O	0	999999	13
+PER	Administrative Communications Contact	D	O	0	999999	14
+CTT	Transaction Totals	S	M	0	1	15
+AMT	Monetary Amount Information	S	O	0	1	16

@@ -1,0 +1,176 @@
+id	definition
+2	Returned to Carrier's Terminal
+3	Returned to Shipper
+A	Arrived
+B	Bad Order (Inoperative or Damaged)
+C	Estimated To Depart Terminal Location
+D	Completed Unloading at Delivery Location
+E	Estimated to Arrive (En Route)
+F	In Flight
+G	Repaired and/or Released from Bad Order
+H	Equipment Shopped for Heavy Repair
+I	In-Gate
+J	Delivered to Connecting Line
+K	Arrived at Customs
+L	Loading
+N	No Paperwork Received with Shipment or Equipment
+O	Paperwork Received- Did Not Receive Shipment or Equipment
+P	Departed Terminal Location
+R	Received from Prior Carrier
+S	Spotted at Consignee's Location
+T	At Terminal; Intra-Terminal Movement
+U	Unloading
+V	Vessel Rehandle
+W	Released by Customer
+X	Removed from Customer Dock or Siding
+Y	Constructively Placed
+Z	Actually Placed
+A1	Agriculture Canada Hold
+A2	Agriculture Canada Released
+A3	Agriculture Canada Refused Entry
+A4	Agriculture Canada Conditional Release
+AA	Pick-up Appointment Date and Time
+AC	Awaiting Clearance
+AD	Delivery Appointment Date and Time
+AE	Loaded on Vessel
+AF	Departed Pickup Location
+AG	Estimated Delivery
+AH	Attempted Delivery
+AI	Shipment Has Been Reconsigned
+AJ	Tendered for Delivery
+AL	Loaded on Rail
+AM	Loaded on Truck
+AN	Delivered to Air Carrier
+AO	Loaded on Barge
+AP	Loaded on Feeder Vessel
+AR	Rail Arrival at Destination Intermodal Ramp
+AV	Available for Delivery
+AW	Awaiting Export
+BA	Set Off at Agent
+BC	Storage - in - Transit
+BD	Recommitted Delivery Date
+BE	Estimated Time of Arrival at Scheduled Pick-up Location
+BF	Booking Confirmed
+BR	Bill of Lading Released
+C1	Canada Customs Hold
+C2	Canada Customs Inspection Scheduled
+CA	Shipment Cancelled
+CB	Chassis Tie
+CC	Chassis Un-Tie
+CD	Received at Origin
+CI	Passing
+CO	Cargo Received at Contractual Place of Receipt
+CR	Carrier Release
+CS	Container Sealed
+CT	Customs Released
+CU	Carrier and Customs Release
+CV	Container Rehandled
+DA	Repair Authorization Requested
+DC	Unit Cleaned
+DN	Delivery Not Confirmed
+DP	Unit Pre-Tripped
+DR	Repair Authorization Received
+DS	Damage Survey Requested
+DT	Damage Survey Completed
+EA	Estimate Approved
+ED	Early Delivery Appointment Date and/or Time
+EE	Empty Equipment Dispatched
+EI	Interchange Information Received
+EP	Early Pickup Appointment Date and/or Time
+ER	Estimate Received
+FP	Freight Paid
+FT	Free Time Expired
+GI	Terminal Gate Inspection
+GO	General Order
+HA	Held - Protective Service
+HE	Held-Awaiting Shipper's Export Document
+HF	Held-Awaiting Recount/Weight/Description
+HG	Held on Ground
+HH	Held-No Booking Number
+HI	Held-Title Clearance
+HR	Hold Released
+IB	U.S. Customs, In-bond Movement Authorized
+IR	Movement Type Changed from In-bond to Not In-bond
+LD	Late Delivery Appointment Date and/or Time
+LP	Late Pickup Appointment Date and/or Time
+MT	Empty Committed
+NC	Confirmation of Notification
+ND	Technical Charges Due
+NF	Free Time to Expire
+NH	No Hazardous Material Document Received
+NO	Ocean Charges Paid
+NP	Terminal Charges Paid
+NR	Shipment Information Not Received
+NS	No Seal on Load
+NT	Notification
+NU	Notification Refused
+OA	Out-Gate
+OB	Original Bill of Lading Received
+OF	Off-Hire Container
+OH	On Hand
+ON	On-Hire Container
+PA	US Custom Hold, Intensive Examination
+PB	US Custom Hold, Insufficient Paperwork
+PC	US Custom Hold, Discrepancy in Paperwork
+PD	US Custom Hold, Discrepancy in Piece Count
+PE	US Custom Hold, Hold by Coast Guard
+PF	US Custom Hold, Hold by F.B.I.
+PG	US Custom Hold, Hold by Local Law Enforcement
+PH	US Custom Hold, Hold by Court Imposed Lien
+PI	US Custom Hold, Hold by Food and Drug
+PJ	US Custom Hold, Hold by Fish and Wildlife
+PK	US Custom Hold, Hold by Drug Enforcement
+PL	US Dept. Agr, Hold for Intensive Investigation
+PM	US Dept. Agr, Hold for Unregistered Producer
+PN	US Dept. Agr, Hold for Restricted Commodity
+PO	US Dept. Agr, Hold for Insect Infestation
+PP	US Dept. Agr, Hold for Bacterial Contamination
+PQ	U.S. Customs Hold at Place of Vessel Arrival
+PR	U.S. Customs Hold at In-Bond Destination
+PS	U.S. Department of Agriculture Hold at Place of Vessel Arrival
+PT	U.S. Department of Agriculture Hold at In-Bond Destination
+PU	Other U.S. Agency Hold at Place of Vessel Arrival
+PV	Other U.S. Agency Hold at In-Bond Destination
+PW	U.S. Department of Agriculture, Hold for Fumigation
+PX	U.S. Department of Agriculture, Hold for Inspection or Documentation Review
+RA	Pickup Appointment Requested
+RB	Delivery Appointment Requested
+RC	Reserve Container Against Booking
+RD	Return Container
+RI	Movement Type Changed from Not In-bond to In-bond
+RL	Rail Departure from Origin Intermodal Ramp
+RN	Renotification
+SA	Shipment Split
+SB	Shipment Consolidation
+SC	Seals Altered
+SD	Shipment Delayed
+SI	Receipt of Shipping Instructions
+SN	Shipment Not Authorized
+TC	Held for Terminal Charges
+TM	Intra-Terminal Movement
+TO	Terminate to Owner
+UA	Unit - Leased to Connecting Line
+UB	Unit - Returned from Connecting Line
+UC	Unit - Shopped Held at Terminal
+UD	Unit - COFC/TOFC Service
+UE	Unit - Pickup/Delivery Service
+UP	Unable to Process Shipment
+UR	Unloaded from a Rail Car
+UV	Unloaded From Vessel
+UW	Intermodal Unit Weighed
+VA	Vessel Arrival
+VD	Vessel Departure
+WH	Weight Too Heavy - Highway
+WR	Weight Too Heavy - Rail
+X1	Arrived at Delivery Location
+X2	Estimated Time of Arrival at Consignee Location
+X3	Arrived at Pick-up Location
+X4	Arrived at Terminal Location
+X5	Arrived at Delivery Location Loading Dock
+X6	En Route to Delivery Location
+X7	En Route to Pick-up Location
+X8	Arrived at Pick-up Location Loading Dock
+X9	Delivery Appointment Secured
+XA	Pick-up Appointment Secured
+XB	Shipment Acknowledged
+ZZ	Mutually Defined

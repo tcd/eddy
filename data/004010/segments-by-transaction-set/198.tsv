@@ -1,0 +1,52 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	1	6
+PER	Administrative Communications Contact	H	O	0	5	7
+IN1	Individual Identification	D	M	999999	1	8
+IN2	Individual Name Structure Components	D	M	0	10	9
+N3	Party Location	D	O	0	2	10
+N4	Geographic Location	D	O	0	1	11
+REF	Reference Information	D	O	0	5	12
+API	Activity Or Process Information	D	M	999999	1	13
+N1	Party Identification	D	M	999999	1	14
+N2	Additional Name Information	D	O	0	2	15
+N3	Party Location	D	O	0	2	16
+N4	Geographic Location	D	O	0	1	17
+REF	Reference Information	D	O	0	5	18
+PER	Administrative Communications Contact	D	O	0	1	19
+AIN	Income	D	O	0	5	20
+DTP	Date Or Time Or Period	D	O	0	1	21
+PWK	Paperwork	D	O	999999	1	22
+PER	Administrative Communications Contact	D	O	0	1	23
+EMS	Employment Position	D	O	0	1	24
+NTE	Note/Special Instruction	D	O	0	10	25
+DTP	Date Or Time Or Period	D	O	0	4	26
+REF	Reference Information	D	O	0	5	27
+AIN	Income	D	O	999999	1	28
+DTP	Date Or Time Or Period	D	O	0	1	29
+NX1	Property Or Entity Identification	D	O	999999	1	30
+NX2	Location Id Component	D	O	0	10	31
+ACT	Account Identification	D	O	0	1	32
+NM1	Individual Or Organizational Name	D	O	0	10	33
+PRD	Mortgage Loan Product Description	D	O	0	1	34
+PEX	Property Or Housing Expense	D	O	0	10	35
+AMT	Monetary Amount Information	D	O	0	5	36
+QTY	Quantity Information	D	O	0	5	37
+YNQ	Yes/No Question	D	O	0	5	38
+DTP	Date Or Time Or Period	D	O	0	10	39
+MSG	Message Text	D	O	0	20	40
+FAA	Financial Asset Account	D	O	999999	1	41
+NM1	Individual Or Organizational Name	D	O	0	5	42
+QTY	Quantity Information	D	O	0	1	43
+MSG	Message Text	D	O	0	20	44
+DTP	Date Or Time Or Period	D	O	999999	1	45
+AMT	Monetary Amount Information	D	O	0	1	46
+CDA	Consumer Credit Account	D	O	999999	1	47
+NM1	Individual Or Organizational Name	D	O	0	5	48
+QTY	Quantity Information	D	O	0	1	49
+DTP	Date Or Time Or Period	D	O	0	20	50
+MSG	Message Text	D	O	0	20	51

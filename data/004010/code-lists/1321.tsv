@@ -1,0 +1,1080 @@
+id	definition
+01	Patient was admitted to a hospital
+02	Patient was bed confined before the ambulance service
+03	Patient was bed confined after the ambulance service
+04	Patient was moved by stretcher
+05	Patient was unconscious or in shock
+06	Patient was transported in an emergency situation
+07	Patient had to be physically restrained
+08	Patient had visible hemorrhaging
+09	Ambulance service was medically necessary
+10	Patient is ambulatory
+11	Ambulation is Impaired and Walking Aid is Used for Therapy or Mobility
+12	Patient is confined to a bed or chair
+13	Patient is Confined to a Room or an Area Without Bathroom Facilities
+14	Ambulation is Impaired and Walking Aid is Used for Mobility
+15	Patient Condition Requires Positioning of the Body or Attachments Which Would Not be Feasible With the Use of an Ordinary Bed
+16	Patient needs a trapeze bar to sit up due to respiratory condition or change body positions for other medical reasons
+17	Patient's Ability to Breathe is Severely Impaired
+18	Patient condition requires frequent and/or immediate changes in body positions
+19	Patient can operate controls
+1A	Patient is receiving anti-fungal therapy
+1B	Property is occupied by owner
+1C	Property is occupied by tenant
+1D	Property is vacant
+1E	Location is urban
+1F	Location is suburban
+1G	Location is rural
+1H	Built-up over 75%
+1I	Built-up 25 - 75%
+1J	Built-up under 25%
+1K	Growth rate is rapid
+1L	Class I-Left
+1M	Growth rate is stable
+1N	Growth rate is slow
+1O	Property values are increasing
+1P	Property values are stable
+1Q	Property values are declining
+1R	Class I-Right
+1S	Demand or supply is in shortage
+1T	Demand or supply is in balance
+1U	Demand or supply is over supply
+1V	Marketing time is under 3 months
+1W	Marketing time is 3 to 6 months
+1X	Marketing time is over 6 months
+1Y	Predominant occupancy is the owner
+1Z	Predominant occupancy is the tenant
+20	Siderails Are to be Attached to a Hospital Bed Owned by the Beneficiary
+21	Patient owns equipment
+22	Mattress or Siderails are Being Used with Prescribed Medically Necessary Hospital Bed Owned by the Beneficiary
+23	Patient Needs Lift to Get In or Out of Bed or to Assist in Transfer from Bed to Wheelchair
+24	Patient has an orthopedic impairment requiring traction equipment which prevents ambulation during period of use
+25	Item has been prescribed as part of a planned regimen of treatment in patient home
+26	Patient is highly susceptible to decubitus ulcers
+27	Patient or a care-giver has been instructed in use of equipment
+28	Patient has poor diabetic control
+29	A 6-7 hour nocturnal study documents 30 episodes of apnea each lasting more than 10 seconds
+2A	Patient is receiving oral anti-fungal therapy
+2B	Predominant occupancy is vacant (0-5%)
+2C	Predominant occupancy is vacant (over 5%)
+2D	Developer or builder is in control of the Home Owners Association
+2E	Site is a corner lot
+2F	Zoning compliance is legal
+2G	Zoning compliance is legal nonconforming (grandfather use)
+2H	Zoning compliance is illegal
+2I	There is no zoning
+2J	Highest and best use as improved is the present use
+2K	Highest and best use as improved is other use
+2L	Class II-Left
+2M	Property is located in a Federal Emergency Management Administration special flood hazard area
+2N	Appraisal is made "as is"
+2O	Appraisal is made subject to the repairs, alterations, inspections, or conditions listed
+2P	Appraisal is made subject to the completion per plans and specifications
+2Q	Project type is planned unit development (PUD)
+2R	Class II-Right
+2S	Project type is condominium
+2T	Property rights are fee simple
+2U	Property rights are leasehold
+2V	Supervisor appraiser inspected the property per supervisory appraiser's certification
+2W	Property was sold within last 12 months
+2X	Appraiser signed statement of limiting conditions and disclaimer
+2Y	Ownership interest in a property
+2Z	Termination
+30	Without the equipment, the patient would require surgery
+31	Patient has had a total knee replacement
+32	Patient has intractable lymphedema of the extremities
+33	Patient is in a nursing home
+34	Patient is conscious
+35	This Feeding is the Only Form of Nutritional Intake for This Patient
+36	Patient was administered premix
+37	Oxygen delivery equipment is stationary
+38	Certification signed by the physician is on file at the supplier's office
+39	Patient Has Mobilizing Respiratory Tract Secretions
+3A	Patient is receiving topical anti-fungal therapy
+3B	Points Paid by Seller
+3C	Points Paid by Buyer
+3D	Seller Concession
+3E	Letter of Certification
+3F	Verbal Report Needed
+3G	Any Relationship Between Owner and Occupant
+3H	Map and Directions to Remote Properties to Follow
+3I	Ground Lease to Follow
+3J	Disclosure Statement to Follow
+3K	Copy of Property Listing to Follow
+3L	Class III-Left
+3M	Copy of Title Report Plat Map to Follow
+3N	Property Tax Bill to Follow
+3O	Engineering or Soil Report to Follow
+3P	Sales Contract Available
+3Q	Leave Will be Taken
+3R	Class III-Right
+3S	Approved
+3T	Balance Sheet does not balance
+3U	Banking done through Parent Company
+3V	Banking done through Related Concern
+3W	Banking done through Subsidiary
+3X	Can not determine if subject engaged in business
+3Y	Deteriorated
+3Z	Detrimental Information Received
+40	Patient or Caregiver is Capable of Using the Equipment Without Technical or Professional Supervision
+41	Patient or Caregiver is Unable to Propel or Lift a Standard Weight Wheelchair
+42	Patient Requires Leg Elevation for Edema or Body Alignment
+43	Patient Weight or Usage Needs Necessitate a Heavy Duty Wheelchair
+44	Patient Requires Reclining Function of a Wheelchair
+45	Patient is Unable to Operate a Wheelchair Manually
+46	Patient or Caregiver Requires Side Transfer into Wheelchair, Commode or Other
+47	Advertisement Run Condition
+48	Individual Paid for Last Day Worked
+49	Full Wages Paid for Date of Injury
+4A	Services are rendered within Hospice-elected period of coverage
+4B	Accidents
+4C	Account Representative Transfer
+4D	Additional Coverage
+4E	Advice to Stop
+4F	Agent Replacement
+4G	Backup Withholding
+4H	Current Employer
+4I	Current Occupation
+4J	Employer Reimbursement
+4K	Employee Retirement Income Security Act (ERISA)
+4L	Expected Changes
+4M	Experimental
+4N	Foreign Flight
+4O	Future Involvement
+4P	Grounding, Fine, Reprimand
+4Q	Group Disability Insurance Conversion
+4R	Group Disability Insurance Offset
+4S	Group Disability Insurance Participation
+4T	Group Disability Insurance Top Up
+4U	Home Employment
+4V	Information Omitted
+4W	Injury Benefits
+4X	Issue at Higher Premiums
+4Y	Issue With Exclusions
+4Z	Issue Without Benefits
+50	Citation or Ticket Issued
+51	Individual is Member of Policyholder's Household
+52	Individual Permitted to Use Vehicle
+53	Individual Wore Seatbelt
+54	Child Restraint Device in Vehicle
+55	Child Restraint Device Used
+56	Individual Injured
+57	Individual Transported to Another Location
+58	Durable Medical Equipment (DME) Purchased New
+59	Durable Medical Equipment (DME) Is Under Warranty
+5A	Treatment is rendered related to the terminal illness
+5B	Certified Aftermarket Parts Association (CAPA) Only
+5C	Certified Aftermarket Parts Association (CAPA) Preferred
+5D	Juvenile Seen
+5E	Medical Treatment
+5F	Military Aviation
+5G	New Group
+5H	Other Coverage Offset
+5I	Other Principals Being Insured
+5J	Owner Active in Business
+5K	Payroll Deduction
+5L	Prepaid
+5M	Previous Application
+5N	Primary Occupation
+5O	Racing Accident
+5P	Replacement
+5Q	Resides With Applicant
+5R	Gender Distinct
+5S	Sibling Coverage
+5T	Sickness Benefits
+5U	Special Dating
+5V	Spousal Consent
+5W	Suitability Analysis
+5X	Suitable for Coverage
+5Y	Taxable
+5Z	This Company Replacement
+60	Transportation Was To the Nearest Facility
+61	Employee is Exempt
+62	Claimant is Covered on the Employer's Long-term Disability Plan
+63	Employee's Job Responsibilities Changed Due to the Disabling Condition
+64	Employer Has a Return to Work Policy for Disabled Employees
+65	Open
+66	Normal
+67	Closed-moderate
+68	Severe
+69	Moderate
+6A	Treatment is rendered by a Hospice employed physician
+6B	United States Citizen
+6C	Permanent Resident Alien
+6D	Borrower is First Time Homebuyer
+6E	Unemployment Claims
+6F	Unemployment Insurance Eligibility
+6G	Work Status
+6H	Workers Compensation Eligible
+6I	Factored on Recourse Basis
+6J	Factored with Advances
+6K	Figures are Actual
+6L	Figures are Anticipated
+6M	Figures are Estimated
+6N	Figures are Modified
+6O	Figures are Projected
+6P	Government Business Number Unavailable
+6Q	Goodwill Origin Purchased from Bankrupt Company
+6R	Goodwill Origin Rented
+6S	Has no ownership
+6T	Improved
+6U	Intangibles breakdown available
+6V	Intangibles include Organizational Expense
+6W	Intercompany relations consist of Loans and Advances
+6X	Intercompany relations consist of Merchandise Transactions
+6Y	Intercompany relations consist of Service Transactions
+6Z	Local banking utilized on a transfer account basis
+70	Straight
+71	Convex
+72	Concave
+73	Double Protrusion
+74	No Crossbite
+75	Posterior
+76	Anterior
+77	Maxillary
+78	Mandibular
+79	Right
+7A	Treatment is rendered by a private attending physician
+7B	Medications Ordered are being Administered Intramuscularly
+7C	Medications Ordered are being Administered Intravenously
+7D	Medications Ordered are being Administered Orally
+7E	Maintains no Inventory
+7F	Medications Ordered are being Administered Subcutaneously
+7G	Majority
+7H	Marketable Securities valued at cost
+7I	Marketable Securities valued at lower of cost or market
+7J	Interior Access Denied
+7K	Repairs are Recommended
+7L	Loan Originated under Shared Equity Plan
+7M	Title and or Legal Issues Exist
+7N	Environmental Issues Exist
+7O	Property is Listed As Is
+7P	Property is Listed as Repaired
+7Q	Vacancy Rate is Greater Than 5 Percent to 10 Percent
+7R	Vacancy Rate is Greater Than 10 Percent to 20 Percent
+7S	Vacancy Rate is Greater Than 20 Percent
+7T	Most Comparable Property
+7U	Anticipate Issues which Affect Ability to Secure Financing
+7V	Points are Paid by Seller
+7W	Property Covered by Flood Insurance Policy
+7X	Property Covered by Earthquake Insurance Policy
+7Y	Points are Negotiable
+7Z	Property is Currently Listed with a Real Estate Firm
+80	Left
+81	Maxillary Moderate
+82	Mandibular Moderate
+83	Maxillary Severe
+84	Mandibular Severe
+85	Income Has Been Verified
+86	Person Has Been Interviewed
+87	Rent Has Been Verified
+88	Employer Has Been Verified
+89	Position Has Been Verified
+8A	Treatment is curative
+8B	Income or Assets of Another Used
+8C	Disclosure of Someone Else's Liabilities Required
+8D	Property Improvements "to be made"
+8E	Property Improvements "have been made"
+8F	Distant Suburban
+8G	Self Employed
+8H	Liability to be Satisfied
+8I	Are Assets/Liabilities Reported Jointly
+8J	Location is Farm
+8K	Location is Resort
+8L	Shortage Exist for Competing Listings
+8M	Competing Listings are in Balance
+8N	Oversupply Exist for Competing Listings
+8O	Incentives are Offered
+8P	Listed Property has been Inspected
+8Q	Sale Property has been Inspected
+8R	General Marketing Condition is Depressed
+8S	General Marketing Condition is Slow
+8T	General Marketing Condition is Static
+8U	General Marketing Condition is Improving
+8V	General Marketing Condition is Excellent
+8W	Employment Conditions are Stable
+8X	Employment Conditions are Declining
+8Y	Employment Conditions are Increasing
+8Z	Overimprovement Condition Exists
+90	Inquiry Has Been Verified
+91	Outstanding Judgments
+92	Declared Bankruptcy in Past 7 Years
+93	Foreclosure or Deed in Lieu in Past 7 Years
+94	Party to Lawsuit
+95	Obligated on a Loan Foreclosed, Deed in Lieu of Judgment
+96	Currently Delinquent or in Default
+97	Obligated to Pay Alimony, Child Support or Maintenance
+98	Part of Down Payment Borrowed
+99	Co-maker or Endorser on a Note
+9A	Treatment is Palliative
+9B	Involuntary Committal
+9C	Lack of Available Equipment
+9D	Lack of Appropriate Facility within Reasonable Distance to Treat Patient in the Event of Complications
+9E	Sudden Onset of Disorientation
+9F	Sudden Onset of Severe, Incapacitating Pain
+9G	Continuous Hemorrhage from any Site with Abnormal Lab Values
+9H	Patient Requires Intensive IV Therapy
+9I	Patient Requires Volume Expanders
+9J	Patient Requires Protective Isolation
+9K	Patient Requires Frequent Monitoring
+9L	Patient Requires Extended Post-operative Observation
+9M	Foreclosure Proceedings Have Begun
+9N	Underimprovement Condition Exists
+9O	Marketability of Property is Excellent
+9P	Marketability of Property is Good
+9Q	Marketability of Property is Fair
+9R	Marketability of Property is Poor
+9S	Fees are Current
+9T	Fees Include Tennis
+9U	Fees Include Pool
+9V	Fees Include Insurance
+9W	Fees Include Landscape
+9X	Fees Include Other Amenities
+9Y	Most Likely Buyer is Owner Occupant
+9Z	Most Likely Buyer is Investor
+A1	Most Likely Buyer is Other Person or Entity
+A2	Potential Financing is Fannie Mae
+A3	Suppress Paper Endorsement
+A4	Do Not Suppress Paper Endorsement
+A5	Escrow
+A7	Sub-servicer Submitted
+A8	First Mortgage
+A9	Second Mortgage
+AA	Amputation
+AB	Address Skip Begin
+AC	Address Corrected
+AD	Automatic Drill Time Calculated
+AE	Automatic Edging Time Calculated
+AF	Automatically Select
+AG	Agitated
+AH	Automatically Search and List
+AI	Address Incorrect
+AJ	Assumable
+AK	Potential Financing is Cash
+AL	Ambulation Limitations
+AM	Potential Financing is Outside Lender
+AN	Address Incomplete
+AO	Accept Certification without Changes
+AP	Alley is Public
+AQ	Potential Financing is Federal Housing Administration
+AR	Address Skip Resolved
+AS	Address Skip Exhaust
+AT	Accept Statement of Limiting Conditions without Changes
+AU	Automatic Underside Time Calculated
+AV	Available - Not Used
+AW	Accept Certification with Changes
+AX	Accept Statement of Limiting Conditions with Changes
+AY	Adjacent Track Occupied
+AZ	Potential Financing is Veterans Affairs
+B1	Mortgage in Foreclosure
+B2	Real Estate Owned (REO) Mortgage
+B3	Potential Financing is Contract for Deed
+B4	Only the Exterior has been Inspected
+B5	Real Estate Owned Property or Foreclosure Property
+B6	Number of Comparable Listings is Normal
+B7	Number of Comparable Listings is an Oversupply
+B8	Number of Comparable Listings is a Shortage
+B9	Property Management Expenses Outstanding
+BA	Borrower Letter Attempt
+BB	Building or Mobile Home is in a Coastal Barrier Resources Area
+BC	Borrower Telephone Contact
+BD	Business Pending
+BE	Borrower Letter Contact
+BF	Marketable Securities valued at market
+BG	Appropriate Improvement Condition Exists
+BH	Name unknown to local authorities
+BI	No manufacturing done on Premises
+BJ	Occasional
+BK	Officer or owner in other Businesses
+BL	Bowel Limitations, Bladder Limitations, or both (Incontinence)
+BM	Old
+BN	Operates on part time basis
+BO	Parent Financial Statement Used
+BP	Borrower Payment Received
+BQ	Product Information Available
+BR	Bedrest BRP (Bathroom Privileges)
+BS	Revenue derived from Commissions
+BT	Borrower Telephone Attempt
+BU	Revenue derived from Donations
+BV	Revenue derived from Fees
+BW	Revenue derived from Grants
+BX	Revenue derived from Taxes
+BY	Sprinkler Equipped
+BZ	Statement requested from Government Registry
+C1	Advances From Property Management Expenses Outstanding
+C2	Final Demand Letter Sent
+C3	Lender Request for Assistance
+C4	Mortgage has Lender-purchased Mortgage Insurance
+C5	Insufficient Funds
+C6	Credit Enhanced Mortgage
+C7	Corporate Appointment
+C8	Special Servicing Required
+C9	Client Specifically Requested Consideration of Special Financing or an Assumable Loan
+CA	Cane Required
+CB	Complete Bedrest
+CC	Collection Card was Left
+CD	Call to Directory Assistance for Reference Telephone
+CE	Co-signer Telephone Attempt
+CF	Co-signer Telephone Contact
+CG	Co-signer Delinquency Letter Sent
+CH	Co-signer Final Demand Letter Sent
+CI	Call to Directory Assistance for Co-signer Telephone
+CJ	Valid Borrower Address or Phone Attempt with Previous Holder
+CK	Convertible
+CL	Claimant had a Pre-existing Injury
+CM	Comatose
+CN	Common Elements are Leased to or by the Home Owners' Association
+CO	Contracture
+CP	Case Pending
+CQ	Callable
+CR	Crutches Required
+CS	Community Participates in National Flood Insurance Program
+CT	Common Elements are Completed
+CU	Curb and Gutter are Public
+CV	Cooperative
+CW	Cooling Water is Low
+CX	Certification Status
+CY	Car Spaces are Adequate
+CZ	Car Spaces are Inadequate
+D1	Issue Check Payable to Borrower and Return to Servicer
+D2	Issue Check Payable to Servicer and Return to Servicer
+D3	Issue Check Payable to Borrower and Send to Borrower
+D4	Issue Check Payable to Servicer or Borrower and Return to Servicer
+D5	Issue Check Payable to Other Payee
+D6	Positive
+D7	Negative
+D8	Taxes are Typical for the Area and Price Range
+D9	Improvement Conforms to Zoning Regulations
+DA	Call to Directory Assistance for Borrower Telephone
+DB	Deferment or Forbearance Begin
+DC	Declined
+DD	Borrower Furnished Demographic Data
+DE	Deferment or Forbearance End
+DF	Funds available for Unsecured Creditors
+DG	Dynamic Brakes are Out
+DH	Debtor has been Domiciled
+DI	Disoriented
+DJ	Dynamic Brakes are Operational
+DK	Construction Warranty
+DL	Construction Warranty Transferable
+DM	Maintenance Drug under Client's Benefit Plan
+DN	Payment Reduced Because Maximum Allowable Cost Exceeded
+DO	Benefits Terminated Prior to Service Date
+DP	Depressed
+DQ	Drug Part of Formulary Data Base
+DR	Subject not Engaged in Business
+DS	All Door Seals are Intact
+DT	Filing Fee Attached
+DU	Subject not Engaged in Business at Requested Address
+DV	Suspended
+DW	Total
+DX	Unable to Respond
+DY	Dyspnea with Minimal Exertion
+DZ	Uses Own Facilities
+E0	Figures are Total
+E1	Fixed Asset Breakdown Undisclosed
+E2	For the Fiscal Year
+E3	For the Period
+E4	Formed by Consolidation
+E5	Formed by Merger
+E6	Prior Bankruptcy Case Filed in Last 6 Years
+E7	Debtor is not Represented by an Attorney
+E8	A Pending Case has been Filed
+E9	Guaranteed by Parent Company
+EA	Has Authority for All Purchases
+EB	Has Authority to Purchase Supplies
+EC	Equipment Certified
+ED	Has Business Interruption Insurance
+EE	Has Class of Stock
+EF	Has Extended Coverage Insurance
+EG	Has Fire Insurance
+EH	Has Joint Authority
+EI	Has Life Insurance
+EJ	Existence of Preliminary Flood Determination
+EK	Existence of Community Participation in the National Flood Insurance
+EL	Endurance Limitations
+EM	Has Marriage Contract
+EN	Electricity On
+EO	Equipment Is Overhauled
+EP	Exercises Prescribed
+EQ	Has No Par Value
+ER	Engine Start-Up Performed with No Problems Reported
+ES	Engine Start-Up Performed with Problems Reported
+ET	Electrical Control System Shut Down
+EU	Has Other Insurance
+EV	Has Par Value
+EW	Has Sole Authority
+EX	Excellent
+EY	Has Voting Rights
+EZ	Heading Address in Registered Office Only
+F0	High Level
+F1	Homeworkers Employed
+F2	In Subscriber Shares
+F3	Inactive
+F4	Incomplete
+F5	Incorporation Details Requested
+F6	Increase or Up
+F7	Information Cannot Be Provided at This Time
+F8	Information in Date
+F9	Information Requires Investigation
+FA	Actions has a Significant Environmental Effect
+FB	Application Includes Complete System
+FC	Antenna is Mounted on a Structure with an Existing Antenna
+FD	Notice of Construction or Alteration has been Filed
+FE	Applicant Wants to Monitor Frequency
+FF	Applicant has been Denied Government Benefits Due to Use of Drugs
+FG	Application is Certified
+FH	Application is for other Than a New Station
+FI	Fee Required
+FJ	Flood Status
+FK	Flood Insurance Required
+FL	Federal Flood Insurance is Available (Community Participates)
+FM	Inventory Valued Using LIFO (Last In/First Out)
+FN	Not Too High Level
+FO	Forgetful
+FP	Flood Certification with Life of Loan
+FQ	Street Maintenance is Public
+FR	Fair
+FS	Not Yet Registered
+FT	Obliged to File Balance Sheet
+FU	Official Confirmation Received
+FV	Old But Well Kept
+FW	Old Established Business
+FX	Operated at Break Even
+FY	Operates as Agent
+FZ	Flood Zone Status
+G0	Out of Business
+G1	Outstanding Claims
+G2	Gas On
+G3	Hazardous Materials are Used or Produced
+G4	Genetically Engineered Organisms are Used or Produced
+G5	This is a Group Proposal
+G6	Historical Sites Are Affected
+G7	Facilities are Properly Accredited or Authorized
+G8	Proprietary or Privileged Information will be contained in the Application
+G9	This Project is in Violation of an Environmental Compliance Regulation
+GA	Growth Rate is Fully Developed
+GB	Outstanding Social Security Claims
+GC	Outstanding Value Added Tax (VAT) Claims
+GD	Product Demonstration in Effect
+GE	Ownership Acknowledged in Signed Statement
+GF	Ownership Acknowledged Verbally
+GG	Ownership Not Acknowledged
+GH	Owns No Real Estate
+GI	Owns Real Estate but Details Not Available
+GJ	Prepared from Books Without Audit
+GK	Prepared from Statement by Accountant
+GL	Profits Paid to Group
+GM	Shelf Set to Manufacturer's Standard
+GN	Publicly Traded
+GO	Good
+GP	Purchase Authority is Qualified
+GQ	Purchases on Floor Plan
+GR	Shelf Set to Retailer's Schematic
+GS	Purchases on Letter of Credit
+GT	Real Estate Check is Necessary
+GU	Record of Preferential Claims
+GV	Registered Address is Same as Business Address
+GW	Relatives Help in Business
+GX	Satisfactory
+GY	Seasons are Steady
+GZ	Secured
+H0	Organization Certifies Compliance with Federal Lobbying Regulations
+H1	Project involves the International Co-operative Act
+H2	Human Anatomical Substances Are Used
+H3	Handicap Facilities Are Available
+H4	Lobbying Activities Have Been Conducted Regarding the Proposal
+H5	Organization Certifies Compliance With the Drug-Free Workplace Act
+H6	Organization Certifies Compliance with the Code of Federal Regulations Regarding Research Misconduct
+H7	Organization Provides a Smoke Free Workplace
+H8	Organization Certifies Compliance with Federal Discrimination Regulations
+H9	Organization Certifies Compliance with the Code of Federal Regulations Regarding Responsibility of Applicants for Promoting Objectivity in Research for which Public Health Service (PHS) Funding is Sought
+HA	Well Maintained
+HB	Interest Rate Buydown
+HC	Heating and Cooling for the Individual Units Separately Metered
+HD	High Discharge
+HE	High Engine Water Pressure
+HF	Interest Only
+HG	Graduated Payment
+HH	Principal Balance Exceeds Maximum Negative Amortization
+HI	Last Change
+HJ	Liability Released
+HK	Liability Not Released
+HL	Hearing Limitations
+HM	Liability Determined by Note Holder
+HN	After Conversion
+HO	Hostile
+HP	After Modification
+HQ	Balloon
+HR	Capitalized Mortgage
+HS	Federal Wages in Effect
+HT	Social Security Number (SSN) Never Issued
+HU	Name Does Not Match Social Security Number (SSN)
+HV	Birthdate Does Not Match Social Security Number (SSN)
+HW	Impossible Social Security Number (SSN)
+HX	Employee is Ineligible to Work
+HY	Metes and Bounds
+HZ	Consolidation, Extension, Modification of Mortgage Loan (CEM)
+I1	Uses Outside Services
+I2	Very High Level
+I3	Very Small
+I4	Voluntary Bankruptcy
+I5	Well Balanced
+I6	Well Regarded in Business Circles
+I7	Organization has Delinquent Federal Debts
+I8	Organization has been Placed on the Federal Debarment and Suspension List
+IA	Interest Paid in Advance
+IB	Interest Paid in Arrears
+IC	Interest Carryover
+ID	Sells Directly
+IE	Sells with Agents
+IF	Sells with Storage
+IG	Small
+IH	Independent at Home
+II	Some Increase
+IJ	Somewhat Declining Tendency
+IK	Started Some Time Ago
+IM	Sufficient
+IN	Indifferent
+IO	Termination Date Set
+IP	Injury occurred on Employer's Premises
+IQ	Terms Include Lump Sum Payments
+IR	Terms Include Progress Payments
+IS	Terms on Cost Plus Basis
+IT	Terms on Fixed Fee Basis
+IU	Trade Style Registered
+IV	Trading Address of Sole Proprietor
+IW	Unchanged Situation
+IX	Undetermined
+IY	Unsatisfactory
+IZ	Unsecured
+J1	Military Services Barred from Recruitment Activities at the Proposing Organization's Site(s)
+J2	Rate Negotiated
+J3	Under Penalty of Perjury the Information is True and Correct
+J4	Project Requires Inter-Government Review for Activities that affect State or Local Government or Possible National Security Implications
+J5	Filing on Behalf of Debtor is Authorized
+J6	Debtor Understands the Relief available under each Bankruptcy Chapter
+J7	Attorney Declares that Debtor has been Informed
+J8	Attorney has Explained the Relief available under each Bankruptcy Chapter
+J9	There has been a Transfer of a Claim Against the Debtor by or to any Petitioner
+JA	Third Party Originated
+JB	Existing Construction
+JC	Other Lien
+JD	Subject Lien
+JE	No Evidence of Property Damage Observed such as Dampness, Termites, or Structure Settlement
+JF	Primary Underwriting System
+JH	Pledged Loan
+JI	Security Delivery
+JJ	Secondary Underwriting System
+JK	Distribution is Stopped
+JL	Sentence was Suspended
+JM	Very Negative Information Exists
+JN	Payment Notes Exist
+JO	Immigrated
+JP	Audited with Qualifications
+JQ	Audited
+JR	Temporarily Closed
+JS	Partial
+JT	Telephone Number is Unpublished
+JU	Telephone Number is Not in Service
+JV	Negative Information Exists for the Group
+JW	The More Important Items are Only Included
+JX	Interest Owned by Affiliated Company
+JY	Interest Owned by Subject of Inquiry
+K0	Account Receivables Breakdown Undisclosed
+K1	Additional Record Items Available
+K2	Address is Qualified
+K3	All Paid In or Issued
+K4	Appears High
+K5	Appears Not to Guarantee Sufficient Coverage
+K6	Appears Sufficiently High
+K7	Appears to Indicate a Strained Situation
+K8	Banks with Main National Banks
+K9	Bills Paid from Branch Office
+KA	Bills Paid from Division Office
+KB	Bills Paid from Headquarters Office
+KC	Bond Information Available
+KD	Changed Accounting Date
+KE	Clear
+KF	Clear Declining Tendency
+KG	Clear Increase
+KH	Cluttered
+KI	Company has No Other Locations
+KJ	Company is Branch of Foreign Entity
+KK	Company is Perpetual
+KL	Company is Tax Exempt
+KM	Compared to Same Period Last Year
+KN	Conducted at a Loss
+KO	Inventory Valued using FIFO (First In/First Out)
+KP	Large
+KQ	Letter of Agreement Present
+KR	Letter of Agreement Withdrawn
+KS	Letter of Liability Present
+KT	Letter of Liability Withdrawn
+KU	Location Inquired Upon is a Branch
+KV	Location Inquired Upon is a Branch; Headquarters is Provided
+KW	Location inquired upon is a Headquarters
+KX	Location is Foreign
+KY	Means Exhausted
+KZ	Medium to Large
+L1	General Standard of 20 Degree or .5 Diopter Sphere or Cylinder Change Met
+L2	Replacement Due to Loss or Theft
+L3	Replacement Due to Breakage or Damage
+L4	Replacement Due to Patient Preference
+L5	Replacement Due to Medical Reason
+L6	Land Contract
+L7	Account Current
+LA	Letter of Map Amendment or Letter of Map Revision
+LB	Legally Blind
+LC	Producer of Goods
+LD	Drawback Indicator
+LE	Lethargic
+LF	Customs Rule Applicable
+LG	Exported Pursuant to Law Regulation or to Cancel Customs Bond
+LH	Country of Origin Information Applies to All Prior Shipments
+LI	Price Estimated
+LJ	North American Free Trade Agreement (NAFTA) Preference
+LK	Kit Form
+LL	Lockout Effective
+LM	Letter of Appointment
+LO	Locomotive is Isolated
+LP	Low Engine Oil Pressure
+LR	Locomotive Engine is Running
+LS	Lessee Signature on File
+LT	Lender or Servicer Transfer
+LU	Evidence of Dampness
+LV	Evidence of Termites
+LW	Evidence of Structure Settlement
+M1	Data Corrected
+M2	Servicer Record Selected
+MA	Major Alarm Flag Reported
+MB	Equipment has Modified Configuration
+MC	Other Mental Condition
+MD	Marketing Time is 4 to 6 Months
+MF	Microprocessor Fault
+MG	Mortgage Insurance Application Included
+MH	Mortgage Credit Report Included
+MI	Residential Loan Application Included
+MJ	Real Estate Information Report Included
+MK	Real Estate Title Evidence Included
+ML	Manually Search and List
+MM	Property is Occupied by Tenant (Market Rent)
+MN	Property is Occupied by Tenant (Regulated Rent)
+MO	Cooperative Project Includes or Owns Any Commercial Units
+MP	Units and Project Amenities are Complete
+MQ	Eligible Trust
+MR	Resale Property
+MS	Miscellaneous Skip-Trace Attempt
+MT	Photos Match Description
+MU	Photos Show Negative Influence
+MV	Exclude from Monthly Debt
+MW	This Broker Market Analysis is being Completed for Home Market Assistance
+MX	This Broker Market Analysis is being Completed for Homesale or Buyout
+MY	Project Type is Single Family
+MZ	Project Type is Other
+NA	No User Available
+NB	Neighborhood Predominately Single Family Dwellings
+NC	Item has Direct Numerical Control
+ND	Note Holder Permission Required
+NE	Notarized
+NF	New Construction
+NG	Mortgage Points are Customarily Paid by Seller
+NH	No National Flood Insurance Program map
+NI	Seasoned Mortgage
+NJ	Issues are Anticipated that would Affect the Ability to Secure Financing of the Subject Property
+NK	Citizenship
+NL	Group Disability Insurance Mandatory
+NN	Answer to Referenced Question is "None"
+NP	Certification of a Non-attorney Bankruptcy Petition Preparer
+NR	No Restrictions
+NU	Not Used
+OL	Other Limitation
+OO	Own other Federal Housing Administration Property
+OP	Out of Range Product Temperature
+OR	Other Restrictions
+OT	Oriented
+OV	Overridden
+P1	Patient was Discharged from the First Facility
+P2	Patient was Admitted to the Second Facility
+P3	Property has a Family Room or Den
+P4	Property has Central Air Conditioning
+P5	Property Typical of Neighborhood
+P6	Property Deferred Maintenance Typical of Neighborhood
+P9	Property Intended to be Occupied as Primary Residence
+PA	Paralysis
+PB	Phone Skip Begin
+PC	Plan is Attached
+PD	Phone Skip Resolved
+PE	Phone Skip Exhaust
+PF	Paid Outside of Closing
+PG	Project is Subject to Ground Rent
+PH	Prepayable
+PI	Program
+PK	Preliminary Flood Determination
+PM	Project and Services Budget is Maintained
+PO	Personal Property Onsite
+PP	Property Previously Winterized
+PR	Poor
+PS	Publication is Included in Sharing
+PT	Project is Complete
+PV	Property Vacant 0-5 Percent
+PW	Partial Weight Bearing
+PY	Property for Sale
+PZ	Property Vacant Over 5 Percent
+Q1	Export Product
+Q2	Distilled Spirit, Beer or Wine
+Q3	U.S. Goods Returned
+Q4	Candidate for U.S. Customs Service Protest
+Q5	Domestic Product
+Q6	Prior Approval Letter and Official Orders on File
+Q7	Importer's Substantiating Statement and Contract are on File
+Q8	International Transport Movement
+Q9	Piece Count should be Included in the Total Packing List Quantity
+QA	Shipment should be Held at the Port
+QB	Multiple States of Origin for this Item
+QC	Multiple Countries of Origin for this Item
+QD	Letter of Credit Restricted to a Specific Bank
+QE	Letter of Credit Permits Transshipment
+QF	Letter of Credit Covers Partial Shipments
+QG	Dutiable Item
+QH	Amounts should be Pro-rated across Line Items
+QI	Toxic Substance Control Act (TSCA) Certification Required
+QJ	Visa Required for this Item
+QK	Item Subject to Quotas
+QL	Item is a Set as Defined by the General Rules of Interpretation Section 3 (GRI3)
+QM	Item is a Set
+QN	Item is an Ensemble
+QO	Item is a Metal Item
+QP	Item is a Machine Part
+QQ	Item is a Hazardous Item
+QR	Item is Eligible under the Generalized System of Preferences (GSP)
+QS	Quantity to be Imported has been Approved by the Necessary Agencies
+QT	Filing Data is to be Withheld from Public Inspection
+QU	Property Type Cooperative
+R1	Debtor Holds Claim to Real Property
+R2	Entity Claims to Hold a Secured Interest
+R3	Debtor has Property of the Type Specified
+R4	Debtor Elects the State Exemption
+R5	Debtor Elects the Federal Exemption
+R6	Co-debtor may be Jointly Liable
+R7	Claim is Contingent
+R8	Claim is Unliquidated
+R9	Claim is Disputed
+RA	Reference Telephone Attempt
+RB	Debtor has No Creditors Holding Unsecured Priority Claims
+RC	Reference Telephone Contact
+RD	Rent Delinquent
+RE	Claim is Subject to Setoff
+RF	Debtor has No Executory Contracts or Unexpired Leases
+RG	Lease is for Nonresidential Real Property
+RH	Debtor has No Co-debtors
+RI	Debtor is Married
+RJ	Debtor's Spouse Maintains a Separate Household
+RK	Real Estate Taxes are Included
+RL	Property Insurance is Included
+RM	Debtor has No Creditors Holding Secured Claims
+RN	Rent Control
+RO	Equipment is Rebuilt
+RP	Individual Injured in Performance of Duty
+RQ	Individual Injured by Third Party
+RR	Quality of Management and its Enforcement of Rules and Regulations Based on General Appearances
+RS	Pay Continued
+RT	Sick Leave Taken
+RU	Signature on File
+RV	Low Refrigerant Capacity Shutdown
+RW	Recent Defrost
+RX	Rated Horsepower can be Produced
+RY	Foreign Military Sale
+RZ	Waiver of Prior Notice
+S1	Services Provided at the Second Facility were available at the First Facility
+S2	Under Treatment
+S3	First Time Vacant
+S5	Disclosure Indicator
+SA	Subject Property is Currently Listed
+SB	Debtor is a Small Business as Defined in 11 U.S.C. Section 101
+SC	Special Services are Mobile Home Only
+SD	Special Services are Leasehold or Mobile Home or Both
+SE	Debtor Elects to be Considered as a Small Business Under 11 U.S.C. Section 1121(e)
+SF	Sensor Fault
+SG	Street Lights are Public
+SH	Special Services are Leasehold or Subleasehold or Both
+SL	Speech Limitations
+SM	Currently Serving in Military
+SN	Major Base Support
+SO	Critical Support Level Met
+SP	Street is Public
+SQ	Local Wages in Effect
+SR	Federal Worker Displacement
+ST	New Services Requested
+SU	Continued Services Requested
+SV	Major Corporation/High Tech
+SW	Sidewalk is Public
+SX	Collective Bargaining Agreement Sent by Mail
+SY	Collective Bargaining Agreement Sent by Facsimile
+SZ	Contract
+T1	Road Test Performed with No Problems Reported
+T2	Road Test Performed with Problems Reported
+T3	Tires' Brand Match
+T4	Real Estate Taxes are Current
+T5	Hazard Insurance is Current
+T6	Terminate Guarantee
+TA	Collective Bargaining Agreement Sent by Electronic Bulletin Board
+TB	Debtor has No Creditors Holding Unsecured Nonpriority Claims
+TC	Transport via Cargo Aircraft
+TD	Annual Leave Taken
+TE	Item is Special Test Equipment
+TF	Operates as Representative For Others
+TM	Traction Motor is Cut Out
+TP	Transport via Passenger Aircraft
+TR	Transfer to Bed, or Chair, or Both
+TV	Telephone Number Verified
+U1	Minimal Change
+U2	Neat Appearance
+U3	Net Worth Computed after Exemptions
+U4	Net Worth Considerably Higher
+U5	Net Worth Higher
+U6	No Employees
+U7	No Employees - Business Managed by Owner
+U8	No Employees - Business Managed by Partners
+U9	Not Out of Business
+UA	Uninsurable, 1316 Property
+UB	Conducted at a Profit
+UC	Contingent Debt Indicated
+UD	Continue
+UE	Contracts Obtained by Bid
+UF	Contracts Obtained by Negotiation
+UG	Converted to Holding Company
+UH	Cross Claim Filed
+UI	Declining Tendency
+UJ	Detrimental Events in Past, Relating to Business
+UK	Detrimental Events in Past, Relating to Management
+UL	Down or Decline or Decreased
+UM	Employees Include Officers
+UN	Uncooperative
+UO	Employees Include Owners
+UP	Employees Include Partners
+UQ	Employees Include Temporary Workers
+UR	Employees Vary According to Needs
+US	Enclosed
+UT	Up as Tolerated
+UU	Extent of Audit, if any, Not Indicated
+UV	Favorable Personal Reputation
+UW	Figures are Abbreviated
+UX	Figures are Converted to Agency Format
+UY	Figures are Individual
+UZ	Figures are Restated
+V1	Valid Borrower Address or Phone Attempt with School Attended
+V2	Lender Determined Borrower Moved Out of State
+V3	Lender Determined Borrower Moved Back into State
+V4	Lender Determined Borrower Incarcerated
+V5	Lender Determined Borrower No Longer Incarcerated
+V6	Original
+V7	True and Exact Copy
+VA	Intercompany Relations Exist
+VB	Inventory Valued at Lower of Cost or Market
+VC	Inventory Valued at Other Methods
+VD	Operates as Sole Agent
+VE	Without Personal Judgment
+VF	Work is Subcontracted
+VG	Not Registered
+VH	Immediate Attention Required
+VI	Vehicle Inspection Report Completed
+VJ	Middle to Medium
+VK	Rent Control Likely
+VL	Furnished
+VM	Price Range Single Family or Planned Unit Development Not Applicable
+VN	Price Range Condominium Not Applicable
+VO	Price Range Two to Four Family Not Applicable
+VT	Commercial Motor Vehicle was Involved in this Conviction
+VU	Commercial Motor Vehicle was Carrying Hazardous Materials when the Offense was Committed
+W1	New Registration
+W2	Mailing Address Change
+W3	Residence Address Change
+W4	Name Change
+W5	Party Enrollment Change
+W6	Needs Absentee Ballot
+W7	Would Like to be Election Day Worker
+W8	Duplicate Registration
+W9	Forwarded Application
+WA	Walker Required
+WB	Water On
+WC	Application Incomplete
+WD	Vehicle Plate Surrendered
+WE	Written Notice to Note Holder
+WF	Written Notice to Borrower
+WG	Within Specified Time Period
+WH	Within Specified Range
+WI	Injury was Work Related
+WK	Summary Level Information
+WL	Detail Level Information
+WM	Non-occupant Co-borrower
+WN	Unit is a Studio (Efficiency)
+WO	Equipment in Working Order
+WP	To be Watched
+WR	Wheelchair Required
+WS	Balance Sheet Filed
+WT	Winterized Tag Observed
+WU	Material Safety Data Sheet
+WV	Accepts Credit Cards
+WW	All Purchases Made from Headquarters
+WX	Busy
+WY	Excessive
+WZ	Fairly new
+XA	Figures are Average
+XB	Imports
+XC	In Process of Establishing
+XD	Intercompany Relations Consist of Endorsements
+XE	Intercompany Relations Consist of Guarantees
+XF	Intercompany Relations Consist of Leasing Arrangements
+XG	Intercompany Relations Consist of Sharing Accounting
+XH	Intercompany Relations Consist of Sharing Facilities
+XI	Intercompany Relations Consist of Sharing Management
+XJ	Intercompany Relations Consist of Sharing Personnel
+XK	Interest in Other Business(es) Along with Family
+XL	Interest in Other Business(es) Along with Others in Reported Company
+XM	Inventory Valued at Company's Estimates
+XN	Inventory Valued at Cost
+XO	Inventory Valued using AVCO (Average Cost)
+XP	Joint Ownership
+XQ	Leases with No Rent Payments
+XR	Leases with Option to Buy
+XS	Leases with Token Payment
+XT	Limited
+XU	Located for Several Years
+XV	Located Since Opening
+XW	Modern
+XX	Non-Existent
+XY	Officer or Owner in Other Businesses in the Same Field
+XZ	Operates as a Distributor for Others
+YA	Operates from Residence
+YB	Operates under License by Others
+YC	Rents from Month to Month
+YD	Semi-modern
+YE	Under Construction
+YF	Unlimited
+YG	Used
+YH	Variable
+YJ	Contact is Unchanged From Previous Report
+ZA	Customer - Configuration Change is Required
+ZB	Condition Board of Inspection and Survey (INSURV) is Mission Degrading
+ZC	Condition Board of Inspection and Survey (INSURV) is Maintenance Related
+ZD	Condition Board of Inspection and Survey (INSURV) is Safety Related
+ZE	Repair is Mission Essential
+ZF	Repair is Safety Essential
+ZG	Periodic Maintenance is Required
+ZH	Condition Board of Inspection and Survey (INSURV) Discrepancy is Corrected
+ZI	Progress is in Jeopardy
+ZK	Final - Configuration Change is Required
+ZL	Final - Delivery to Shop is Required
+ZM	Final - Requestor Workforce will Assist
+ZN	Job is Level 2
+ZO	Preliminary - Configuration Change is Required
+ZP	Preliminary - Delivery to Shop is Required
+ZQ	Preliminary - Requestor Workforce will Assist
+ZR	Configuration Change is Associated with Time Meter
+ZS	Shop Has Lead Responsibility
+ZT	Estimate is Derived From Job Template
+ZU	Requestor Holds Technical Documentation
+ZW	Canadian Standards Association (CSA) Approved
+ZY	Underwriters Laboratory (UL) Approved
+ZZ	Mutually Defined

@@ -1,0 +1,24 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	O	999999	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	999999	6
+REF	Reference Information	H	O	0	999999	7
+NM1	Individual Or Organizational Name	D	M	999999	1	8
+N2	Additional Name Information	D	O	0	2	9
+N3	Party Location	D	O	0	2	10
+N4	Geographic Location	D	O	0	1	11
+PER	Administrative Communications Contact	D	O	0	999999	12
+REF	Reference Information	D	O	0	999999	13
+ENT	Entity	D	M	999999	1	14
+IN2	Individual Name Structure Components	D	O	0	999999	15
+N3	Party Location	D	O	0	2	16
+N4	Geographic Location	D	O	0	999999	17
+REF	Reference Information	D	O	0	999999	18
+YNQ	Yes/No Question	D	O	0	10	19
+DTM	Date/Time Reference	D	O	0	999999	20
+HD	Health Coverage	D	O	0	1	21
+EMS	Employment Position	D	O	0	1	22
+PAM	Period Amount	D	O	0	999999	23

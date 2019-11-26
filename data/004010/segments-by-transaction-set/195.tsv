@@ -1,0 +1,49 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	999999	2
+QTY	Quantity Information	H	O	0	999999	3
+PWK	Paperwork	H	O	0	999999	4
+CRC	Conditions Indicator	H	O	999999	1	5
+NTE	Note/Special Instruction	H	O	0	999999	6
+AMT	Monetary Amount Information	H	O	999999	1	7
+MSG	Message Text	H	O	0	999999	8
+N1	Party Identification	H	O	999999	1	9
+N2	Additional Name Information	H	O	0	3	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+PER	Administrative Communications Contact	H	O	0	5	13
+QTY	Quantity Information	H	O	0	999999	14
+MEA	Measurements	H	O	0	999999	15
+NTE	Note/Special Instruction	H	O	0	999999	16
+REF	Reference Information	H	O	999999	1	17
+DTM	Date/Time Reference	H	O	0	999999	18
+MSG	Message Text	H	O	0	999999	19
+CRC	Conditions Indicator	H	O	999999	1	20
+REF	Reference Information	H	O	0	999999	21
+LM	Code Source Information	H	O	999999	1	22
+LQ	Industry Code Identification	H	M	0	999999	23
+QTY	Quantity Information	H	O	0	999999	24
+MSG	Message Text	H	O	0	999999	25
+PO1	Baseline Item Data	D	O	999999	1	26
+QTY	Quantity Information	D	O	0	999999	27
+MEA	Measurements	D	O	999999	1	28
+LIE	Individual Or Event Location	D	O	0	999999	29
+REF	Reference Information	D	O	999999	1	30
+LIE	Individual Or Event Location	D	O	0	999999	31
+LM	Code Source Information	D	O	999999	1	32
+LQ	Industry Code Identification	D	M	0	999999	33
+MEA	Measurements	D	O	0	999999	34
+MSG	Message Text	D	O	0	999999	35
+N1	Party Identification	D	O	999999	1	36
+N2	Additional Name Information	D	O	0	3	37
+N3	Party Location	D	O	0	2	38
+N4	Geographic Location	D	O	0	1	39
+CRC	Conditions Indicator	D	O	999999	1	40
+REF	Reference Information	D	O	0	999999	41
+DTM	Date/Time Reference	D	O	0	999999	42
+LM	Code Source Information	D	O	999999	1	43
+LQ	Industry Code Identification	D	M	0	999999	44
+N1	Party Identification	D	O	999999	1	45
+N2	Additional Name Information	D	O	0	3	46
+N3	Party Location	D	O	0	2	47
+N4	Geographic Location	D	O	0	1	48

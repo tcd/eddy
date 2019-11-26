@@ -1,0 +1,11 @@
+id	description	section	req	max_loop	max_usage	pos
+PUN	Beginning Segment For Motor Carrier Pickup Notification	H	M	0	1	1
+G61	Contact	H	O	0	1	2
+TEM	Pickup Totals	H	O	0	1	3
+PRF	Purchase Order Reference	H	O	0	999999	4
+AT5	Bill Of Lading Handling Requirements	H	O	0	10	5
+K2	Administrative Message	H	O	0	1	6
+N1	Party Identification	H	M	2	1	7
+N2	Additional Name Information	H	O	0	1	8
+N3	Party Location	H	O	0	2	9
+N4	Geographic Location	H	O	0	1	10

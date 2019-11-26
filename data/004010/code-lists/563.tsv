@@ -1,0 +1,55 @@
+id	definition
+B	Back Order Only If New Item
+C	Consignment
+D	Bid Guarantee
+E	Equal Product Allowed
+F	Factory Ship
+K	Small Purchase Set Aside for Small Businesses
+N	No Back Order
+O	Back Order If Items Are Out of Stock or Not Yet Published
+P	Large Purchase, Set-Aside for Small Business
+Q	Small, Disadvantaged Business Set-Aside
+R	Combined Small, Disadvantaged Business and Labor Surplus Area Set-Aside
+S	Partial Labor Surplus Area Set Aside
+T	Small Business with Small, Disadvantaged Business Consideration Set-Aside
+W	Warehouse Ship
+Y	Back Order if Out of Stock
+Z	Mutually Defined
+8A	Section (8a) Set-Aside
+AI	Set-aside for American Indian-owned Business
+AS	Restricted to Approved Sources
+BC	Restricted to Historically Black College or University or Minority Institution
+BK	Ship Partial - Balance Back Order
+EI	Restricted to Educational Institutions
+FT	Ship Full Truck Only
+GS	Guaranteed Sale
+IP	Restricted to Industrial Preparedness Program Participants
+IS	Substitute Item Allowed
+LS	Labor Surplus Area Set-Aside
+MY	Multi-year Award
+NS	No Substitutes
+P2	Ship As Soon As Possible
+P3	May Preship
+P4	Do Not Preship
+QB	On Qualified Bidders List
+QE	Exclude Import Quota in First Cost
+QI	Include Import Quota in First Cost
+QM	On Qualified Manufacturers List
+QP	Restricted to Qualified Products List (QPL) Products
+SC	Ship Complete
+SE	Small Remaining Balance Cancellation Allowed
+SF	Ship Partial, Carload Lots Only
+SG	Small Remaining Balance Cancellation Not Allowed
+SI	Ship In-Place
+SP	Ship Partial, Balance Cancel
+SQ	Ship Partial, Item Qty Proportional To Total Order
+SS	Ship Per Schedule
+ST	Ship Partial, Truckload Lots Only
+SU	Ship Partial, Balance Substitute
+SV	Ship Per Release
+SW	Ship Per Release or Buyer Authorization
+UC	Restricted to U.S. and Canadian Sources
+UL	Other Unlisted Sales Condition
+UP	Unrestricted Procurement
+WY	Warranty
+YI	Restricted to Young Investigator Program

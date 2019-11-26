@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+GR	Guarantee Result Detail	H	M	0	1	2
+DB	Disbursement Information	H	O	0	10	3
+LM	Code Source Information	H	O	1	1	4
+LQ	Industry Code Identification	H	M	0	10	5
+ENT	Entity	H	M	6	1	6
+IN2	Individual Name Structure Components	H	O	0	5	7
+IDB	Indebtedness For Student Loans	H	O	0	10	8
+DTP	Date Or Time Or Period	H	O	0	1	9
+AMT	Monetary Amount Information	H	O	10	1	10
+DTP	Date Or Time Or Period	H	O	0	1	11
+QTY	Quantity Information	H	O	0	1	12

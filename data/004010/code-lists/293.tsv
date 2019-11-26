@@ -1,0 +1,4 @@
+id	definition
+01	"AND" Relationship Between Current and Immediately Prior Occurrences of the Same Segment
+02	"OR" Relationship Between Current and All Preceding Occurrences of the Same Segment
+99	Refer to Free-Form Description

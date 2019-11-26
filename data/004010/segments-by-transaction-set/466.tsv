@@ -1,0 +1,6 @@
+id	description	section	req	max_loop	max_usage	pos
+REN	Rate Request Information	H	M	0	1	1
+DK	Docket Header	H	O	0	1	2
+PR1	Price Request Parameter List 1	H	O	0	1	3
+PR2	Price Request Parameter List 2	H	O	0	1	4
+PI	Price Authority Identification	H	O	0	1	5

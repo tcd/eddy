@@ -1,0 +1,42 @@
+id	description	section	req	max_loop	max_usage	pos
+BR	Beginning Segment For Material Management	H	M	0	1	1
+G62	Date/Time	H	O	0	10	2
+NTE	Note/Special Instruction	H	O	0	10	3
+LM	Code Source Information	H	O	50	1	4
+LQ	Industry Code Identification	H	M	0	100	5
+N1	Party Identification	H	M	20	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+G61	Contact	H	O	0	5	10
+LX	Transaction Set Line Number	D	O	999999	1	11
+N9	Extended Reference Information	D	M	0	999999	12
+PO1	Baseline Item Data	D	O	0	999999	13
+PWK	Paperwork	D	O	0	1	14
+DD	Demand Detail	D	O	0	100	15
+GF	Furnished Goods And Services	D	O	0	1	16
+G62	Date/Time	D	O	0	20	17
+MAN	Marks And Numbers Information	D	O	0	5	18
+LIN	Item Identification	D	O	0	999999	19
+MEA	Measurements	D	O	0	999999	20
+G69	Line Item Detail - Description	D	O	0	999999	21
+NTE	Note/Special Instruction	D	O	0	999999	22
+LM	Code Source Information	D	O	50	1	23
+LQ	Industry Code Identification	D	M	0	100	24
+QTY	Quantity Information	D	O	999999	1	25
+LM	Code Source Information	D	O	50	1	26
+LQ	Industry Code Identification	D	M	0	100	27
+N1	Party Identification	D	O	100	1	28
+N2	Additional Name Information	D	O	0	2	29
+N3	Party Location	D	O	0	2	30
+N4	Geographic Location	D	O	0	1	31
+G61	Contact	D	O	0	5	32
+REF	Reference Information	D	O	999999	1	33
+G62	Date/Time	D	O	0	10	34
+N9	Extended Reference Information	D	O	0	999999	35
+N1	Party Identification	D	O	0	1	36
+R4	Port Or Terminal	D	O	0	1	37
+LM	Code Source Information	D	O	50	1	38
+LQ	Industry Code Identification	D	M	0	100	39
+FA1	Type Of Financial Accounting Data	D	O	999999	1	40
+FA2	Accounting Data	D	M	0	999999	41

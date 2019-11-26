@@ -1,0 +1,18 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+DTM	Date/Time Reference	H	O	0	1	2
+III	Information	H	O	0	999999	3
+N1	Party Identification	H	M	999999	1	4
+N3	Party Location	H	O	0	2	5
+N4	Geographic Location	H	O	0	1	6
+REF	Reference Information	H	O	0	999999	7
+PER	Administrative Communications Contact	H	O	0	3	8
+N9	Extended Reference Information	D	O	999999	1	9
+DTM	Date/Time Reference	D	O	0	1	10
+LCD	Place/Location Description	D	O	0	1	11
+CS	Contract Summary	D	O	999999	1	12
+N1	Party Identification	D	O	0	1	13
+III	Information	D	O	0	999999	14
+SLN	Subline Item Detail	D	O	999999	1	15
+REF	Reference Information	D	O	0	999999	16
+III	Information	D	O	0	999999	17

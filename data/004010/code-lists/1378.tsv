@@ -1,0 +1,10 @@
+id	definition
+W1	Revenue Waybill
+W2	AAR Rule 11 Shipment
+W3	Origin Junction Settlement
+W4	Destination Junction Settlement
+W5	Diversion
+W6	Error Move
+W7	Referenced Universal Railroad Revenue Waybill Identification Number (URRWIN)
+W8	Split Shipment First Bill
+W9	Split Shipment Subordinate Bill

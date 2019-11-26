@@ -1,0 +1,37 @@
+id	description	section	req	max_loop	max_usage	pos
+BOS	Beginning Segment For Joint Interest Billing And Operating Expens	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+ITD	Terms Of Sale/Deferred Terms Of Sale	H	O	0	5	3
+N1	Party Identification	H	O	10	1	4
+N2	Additional Name Information	H	O	0	2	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	1	7
+REF	Reference Information	H	O	0	12	8
+MSG	Message Text	H	O	0	12	9
+PER	Administrative Communications Contact	H	O	0	3	10
+JIL	Line Item Detail For The Operating Expense Statement	D	M	10000	1	11
+PID	Product/Item Description	D	O	0	999999	12
+REF	Reference Information	D	O	0	12	13
+MSG	Message Text	D	O	0	12	14
+MEA	Measurements	D	O	0	10	15
+ITA	Allowance, Charge Or Service	D	O	0	10	16
+PSA	Partner Share Accounting	D	O	0	1	17
+DTM	Date/Time Reference	D	O	0	1	18
+JID	Equipment Detail	D	O	1000	1	19
+PID	Product/Item Description	D	O	0	999999	20
+DTM	Date/Time Reference	D	O	0	10	21
+REF	Reference Information	D	O	0	12	22
+MSG	Message Text	D	O	0	12	23
+MEA	Measurements	D	O	0	5	24
+AMT	Monetary Amount Information	S	M	0	1	25
+QTY	Quantity Information	S	O	0	5	26
+TDS	Total Monetary Value Summary	S	O	0	1	27
+PSA	Partner Share Accounting	S	O	1000	1	28
+N1	Party Identification	S	O	0	1	29
+N2	Additional Name Information	S	O	0	2	30
+N3	Party Location	S	O	0	2	31
+N4	Geographic Location	S	O	0	1	32
+DTM	Date/Time Reference	S	O	0	1	33
+REF	Reference Information	S	O	0	12	34
+PER	Administrative Communications Contact	S	O	0	3	35
+CTT	Transaction Totals	S	M	0	1	36

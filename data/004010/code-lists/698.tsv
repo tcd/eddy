@@ -1,0 +1,4 @@
+id	definition
+P	Rate information is private; Intermediaries may distribute it only to participating line haul carriers
+S	Rate information is selectively private; Intermediaries may distribute it to participating line haul carriers and to other parties specifically identified by name in the docket rate distribution set
+U	Rate information is public

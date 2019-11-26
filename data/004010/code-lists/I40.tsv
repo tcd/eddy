@@ -1,0 +1,10 @@
+id	definition
+AK	Transfer to the Next Service Request Handler has been Acknowledged
+BH	Transfer to Service Request Handler not Capable of Reporting Further Status
+DL	Delivered Interchange by Service Request Handler
+PU	Purged by Interchange Receiver
+RD	Redirected by Service Request Handler to an Alternate Receiver as Identified in the Reference Code
+RF	Refused by Interchange Receiver
+RJ	Rejected by Service Request Handler; See Error Reason Code for Cause
+RT	Retrieved Interchange by Receiver
+TR	Transferred to Next Service Request Handler by Service Request Handler, but not yet Acknowledged

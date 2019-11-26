@@ -1,0 +1,12 @@
+id	definition
+A	Annually (Calendar Year)
+C	Daily
+D	Discrete
+F	Flexible Interval (from Date X through Date Y)
+M	Monthly Bucket (Calendar Months)
+Q	Quarterly (Calendar Quarters)
+S	Semi-Annually (Calendar Year)
+T	Four week bucket (13 buckets per year)
+W	Weekly Bucket (Monday through Sunday)
+X	Weekly Bucket (7 day interval)
+Z	Mutually Defined

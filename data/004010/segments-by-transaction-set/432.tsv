@@ -1,0 +1,12 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+BLR	Transportation Carrier Identification	H	M	0	1	2
+N9	Extended Reference Information	H	O	0	10	3
+DTM	Date/Time Reference	H	O	0	6	4
+QTY	Quantity Information	H	O	0	1	5
+LX	Transaction Set Line Number	H	O	10	1	6
+LQ	Industry Code Identification	H	O	0	8	7
+DRT	Deprescription Rate Detail	H	O	0	6	8
+CIC	Car Information Control	H	M	1500	1	9
+DRT	Deprescription Rate Detail	H	O	0	12	10
+QTY	Quantity Information	H	O	0	1	11

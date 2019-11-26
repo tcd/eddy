@@ -1,0 +1,23 @@
+id	definition
+0	Match on Loan
+1	Social Security Number Does Not Match
+2	Loan ID Does Not Match
+3	Loan Program Does Not Match
+4	Borrower Name Does Not Match
+5	First Disbursement Date Does Not Match
+6	Guaranteed Amount Does Not Match
+7	Guarantee Date Does Not Match
+8	Outstanding Loan Balance Does Not Match
+9	Interest Rate Does Not Match
+10	Interest Schedule Does Not Match
+11	Grace Period Does Not Match
+12	Less-Than-Half Time Date Does Not Match
+13	Repayment Begin Date Does Not Match
+14	Borrower Status Does Not Match
+15	Borrower Status Date Does Not Match
+16	Servicer/Lender Department of Education (DOE) Number Does Not Match
+17	Seller Department of Education (DOE) Number Does Not Match
+18	Servicing Transfer Date Does Not Match
+19	Purchase Date Does Not Match
+20	Guarantee Fee Not Paid
+21	Birthdate Does Not Match

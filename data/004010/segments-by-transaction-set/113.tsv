@@ -1,0 +1,50 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N9	Extended Reference Information	H	O	0	999999	2
+DTM	Date/Time Reference	H	O	0	999999	3
+LQ	Industry Code Identification	H	O	0	999999	4
+MTX	Text	H	O	0	999999	5
+NM1	Individual Or Organizational Name	H	O	999999	1	6
+N2	Additional Name Information	H	O	0	2	7
+N3	Party Location	H	O	0	2	8
+N4	Geographic Location	H	O	0	1	9
+PER	Administrative Communications Contact	H	O	0	999999	10
+N9	Extended Reference Information	H	O	0	999999	11
+AWD	Amount With Description	H	O	999999	1	12
+LQ	Industry Code Identification	H	O	0	999999	13
+MTX	Text	H	O	0	999999	14
+HL	Hierarchical Level	D	O	999999	1	15
+N9	Extended Reference Information	D	O	999999	1	16
+DTM	Date/Time Reference	D	O	0	999999	17
+NX2	Location Id Component	D	O	0	999999	18
+LQ	Industry Code Identification	D	O	0	999999	19
+MTX	Text	D	O	0	999999	20
+NM1	Individual Or Organizational Name	D	O	999999	1	21
+N2	Additional Name Information	D	O	0	2	22
+N3	Party Location	D	O	0	2	23
+N4	Geographic Location	D	O	0	1	24
+PER	Administrative Communications Contact	D	O	0	999999	25
+N9	Extended Reference Information	D	O	0	999999	26
+DTM	Date/Time Reference	D	O	0	999999	27
+NX2	Location Id Component	D	O	0	999999	28
+EMS	Employment Position	D	O	0	999999	29
+TPB	Business Professional Title	D	O	0	999999	30
+PWK	Paperwork	D	O	0	999999	31
+PAM	Period Amount	D	O	0	999999	32
+G86	Signature Identification	D	O	0	1	33
+MTX	Text	D	O	0	999999	34
+LQ	Industry Code Identification	D	O	999999	1	35
+N9	Extended Reference Information	D	O	0	999999	36
+DTM	Date/Time Reference	D	O	0	999999	37
+PCT	Percent Amounts	D	O	0	999999	38
+QTY	Quantity Information	D	O	0	999999	39
+MTX	Text	D	O	0	999999	40
+AWD	Amount With Description	D	O	999999	1	41
+DTM	Date/Time Reference	D	O	0	999999	42
+PCT	Percent Amounts	D	O	0	999999	43
+QTY	Quantity Information	D	O	0	999999	44
+N9	Extended Reference Information	D	O	0	999999	45
+PDL	Payment Details	D	O	0	999999	46
+LQ	Industry Code Identification	D	O	0	999999	47
+N1	Party Identification	D	O	0	999999	48
+MTX	Text	D	O	0	999999	49

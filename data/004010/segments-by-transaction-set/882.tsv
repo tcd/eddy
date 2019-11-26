@@ -1,0 +1,17 @@
+id	description	section	req	max_loop	max_usage	pos
+G47	Statement Identification	H	M	0	1	1
+N1	Party Identification	H	M	10	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+N9	Extended Reference Information	H	O	0	10	6
+G61	Contact	H	O	0	8	7
+G23	Terms Of Sale	H	O	0	20	8
+G48	Statement/Invoice Identification	D	M	9999	1	9
+G72	Allowance Or Charge	D	O	99	1	10
+G73	Allowance Or Charge Description	D	O	0	10	11
+G23	Terms Of Sale	D	O	0	20	12
+G25	F.O.B. Information	D	O	0	1	13
+G31	Total Invoice Quantity	D	O	0	1	14
+G33	Total Dollars Summary	D	M	0	1	15
+G49	Statement Total	S	M	0	1	16

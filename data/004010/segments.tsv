@@ -1,0 +1,1003 @@
+id	description
+AAA	Request Validation
+ACD	Account Description
+ACK	Line Item Acknowledgment
+ACS	Ancillary Charges
+ACT	Account Identification
+AD1	Adjustment Amount
+ADI	Animal Disposition
+ADJ	Adjustments To Balances Or Services
+ADT	Animal Parturition Status
+ADV	Advertising Demographic Information
+ADX	Adjustment
+AEI	Equipment Information Summary
+AES	Automatic Equipment Identification Site Information
+AIN	Income
+AK1	Functional Group Response Header
+AK2	Transaction Set Response Header
+AK3	Data Segment Note
+AK4	Data Element Note
+AK5	Transaction Set Response Trailer
+AK9	Functional Group Response Trailer
+AM1	Informational Values
+AMT	Monetary Amount Information
+ANI	Animal Identification
+AOC	Animal Offspring Counts
+AOI	Animal Offspring/Fetus Identification
+AOL	Animal Observation Location
+AOR	Animal Observation Result
+AP1	Alternate Parts
+APE	Assurance Protocol Error
+API	Activity Or Process Information
+APR	Association Of American Railroads Pool Code Restrictions
+ARC	Animal Results Counts
+ARS	Applicant Residence Specifics
+ASI	Action Or Status Indicator
+ASL	Asset Liability
+ASM	Amount And Settlement Method
+ASO	Asset Ownership
+AST	Animal Reproductive Status
+AT1	Bill Of Lading Line Item Number
+AT2	Bill Of Lading Line Item Detail
+AT3	Bill Of Lading Rates And Charges
+AT4	Bill Of Lading Description
+AT5	Bill Of Lading Handling Requirements
+AT6	International Manifest Information
+AT7	Shipment Status Details
+AT8	Shipment Weight, Packaging And Quantity Data
+AT9	Trailer Or Container Dimension And Weight
+ATA	Beginning Segment For Motor Carrier Delivery Trailer Manifest
+ATH	Resource Authorization
+ATN	Attendance
+ATR	Animal Test Result
+ATV	Student Activities And Awards
+AVA	Funds Availability
+AWD	Amount With Description
+AXL	Vehicle Axle Measurements
+B1	Beginning Segment For Booking Or Pickup/Delivery
+B10	Beginning Segment For Transportation Carrier Shipment Status Mess
+B11	Beginning Segment For Shipment Status Inquiry
+B12	Beginning Segment For Consolidation Of Goods In Container
+B13	Beginning Segment For Appointment Schedule
+B2	Beginning Segment For Shipment Information Transaction
+B2A	Set Purpose
+B3	Beginning Segment For Carrier's Invoice
+B3A	Invoice Type
+B3B	Beginning Segment For Rail Carrier's Invoice
+B4	Beginning Segment For Inquiry Or Reply
+B9	Beginning Segment For Logistics Services
+B9A	Service Request
+BA1	Export Shipment Identifying Information
+BA2	Beginning Segment For Cargo Terminal Information
+BAA	Beginning Segment For Product Transfer Account Adjustment
+BAK	Beginning Segment For Purchase Order Acknowledgment
+BAL	Balance Detail
+BAT	Batch
+BAU	Beginning Segment For The Debit Authorization
+BAX	Beginning Segment For Advance Consist And Transportation Automati
+BBC	Legal Claims
+BC	Beginning Segment For Contract Completion Status
+BCA	Beginning Segment For Purchase Order Change Acknowledgment
+BCD	Beginning Credit/Debit Adjustment
+BCH	Beginning Segment For Purchase Order Change
+BCI	Basic Claim Information
+BCM	Beginning Segment For Contractor Cost Data Reporting
+BCO	Beginning Segment For Procurement Notices
+BCP	Beginning Segment For Contract Pricing Proposal
+BCQ	Beginning Segment For Shipper's Car Order
+BCS	Beginning Segment For Project Cost Reporting
+BCT	Beginning Segment For Price/Sales Catalog
+BCU	Legal Claim Updates
+BDD	Beginning Segment For Shipment Delivery Discrepancy Information
+BDS	Binary Data Structure
+BEG	Beginning Segment For Purchase Order
+BEN	Beneficiary Or Owner Information
+BEP	Borrower Education Program
+BFR	Beginning Segment For Planning Schedule
+BFS	Borrower Financial Summary
+BGF	Beginning Segment For File Transfer Information
+BGN	Beginning Segment
+BGP	Beginning Segment For Problem Log Inquiry Or Advice
+BHT	Beginning Of Hierarchical Transaction
+BIA	Beginning Segment For Inventory Inquiry/Advice
+BIG	Beginning Segment For Invoice
+BIN	Binary Data Segment
+BIX	Beginning Segment For Automotive Inspection
+BJF	Beginning Segment Railroad Junctions And Interchanges Update Acti
+BL	Billing Information
+BLI	Basic Baseline Item Data
+BLN	Balance Information
+BLR	Transportation Carrier Identification
+BLS	Beginning Segment For Asset Schedule
+BMA	Beginning Segment For Market Development Fund Allocation
+BMG	Beginning Segment For Text Message
+BMM	Beginning Segment For Multilevel Railcar Load Details Transaction
+BMP	Beginning Segment For Market Development Fund Settlement
+BMS	Beginning Segment For Material Safety Data Sheet
+BNR	Beginning Segment For Nonconformance Report
+BNX	Rail Shipment Information
+BOL	Beginning Segment For The Motor Carrier Bill Of Lading
+BOR	Beginning Of Report
+BOS	Beginning Segment For Joint Interest Billing And Operating Expens
+BOX	Box Office Detail
+BPA	Beginning Segment For Price Authorization Acknowledgment/Status
+BPP	Beginning Segment For Project Schedule Reporting
+BPR	Beginning Segment For Payment Order/Remittance Advice
+BPT	Beginning Segment For Product Transfer And Resale
+BQR	Beginning Segment For Response To Request For Quotation
+BQT	Beginning Segment For Request For Quotation
+BR	Beginning Segment For Material Management
+BRA	Beginning Segment For Receiving Advice Or Acceptance Certificate
+BRC	Beginning Segment For Response To Product Transfer Account Adjust
+BRR	Beginning Segment For Railroad Mark Register Update Activity
+BSC	Beginning Segment For Commission Sales Report And Periodic Compen
+BSD	Breakdown Structure Description
+BSF	Business Function
+BSI	Beginning Segment For Order Status Inquiry
+BSN	Beginning Segment For Ship Notice
+BSR	Beginning Segment For Order Status Report
+BSS	Beginning Segment For Shipping Schedule/Production Sequence
+BSW	Beginning Segment For Carrier S Services Settlement
+BT1	Batch Totals
+BTA	Beginning Tax Acknowledgment
+BTC	Beginning Segment For Parameter Trace Registration
+BTI	Beginning Tax Information
+BTP	Beginning Segment For Trading Partner Profile
+BTR	Beginning Segment For Test Results
+BTS	Beginning Segment For Train Sheets
+BUY	Loan Buydown
+BVA	Beginning Vehicle Advice
+BVB	Beginning Segment For Vehicle Baying Order
+BVP	Beginning Segment For Vehicle Shipping Order
+BVS	Beginning Segment For Vehicle Service
+BW	Beginning Segment For Weight Message Set
+BX	General Shipment Information
+C2	Bank Id
+C3	Currency Identifier
+C4	Alternate Amount Due
+C8	Certifications And Clauses
+C8C	Certifications Clauses Continuation
+CA1	Rate Request Identifier
+CAD	Carrier Details
+CAI	Civil Action Income
+CAL	Calendar
+CAS	Claims Adjustment
+CAT	Category Of Patient Information Service
+CB1	Contract And Cost Accounting Standards Data
+CBS	Cost Breakdown Structure
+CCI	Credit Counseling Information
+CD	Shipment Conditions
+CD1	Cargo Detail
+CD2	Multi-Valued Characteristics
+CD3	Carton (Package) Detail
+CDA	Consumer Credit Account
+CDD	Credit/Debit Adjustment Detail
+CDI	Change Detail Information
+CDS	Case Description
+CED	Administration Of Justice Event Description
+CF1	Beginning Segment For Summary Freight Bill Manifest
+CF2	Summary Freight Bill Detail
+CFI	Compensation Financial Information
+CFT	Cost Reporting Format Type
+CGS	Charge
+CHB	Chargeback Information
+CHR	Car Hire Rates
+CI	Carrier Interchange Agreement
+CIC	Car Information Control
+CID	Characteristic/Class Id
+CII	Conveyance Insurance Information
+CIV	Civil Action Liability
+CL1	Claim Codes
+CLD	Load Detail
+CLI	Cost Line Item
+CLM	Health Claim
+CLP	Claim Level Data
+CLR	Car Location Routing Request
+CM	Cargo Manifest
+CMA	Cooperative Market Agreement
+CMC	Commodity Classification
+CN1	Contract Information
+COB	Coordination Of Benefits
+COM	Communication Contact Information
+CON	Contract Number Detail
+CPR	Commodity Price Reference
+CQ	Credentials And Qualifications
+CR1	Ambulance Certification
+CR2	Chiropractic Certification
+CR3	Durable Medical Equipment Certification
+CR4	Enteral Or Parenteral Therapy Certification
+CR5	Oxygen Therapy Certification
+CR6	Home Health Care Certification
+CR7	Home Health Treatment Plan Certification
+CR8	Pacemaker Certification
+CRC	Conditions Indicator
+CRD	Content Reporting Detail
+CRI	Claim Report Information
+CRO	Credit Report Order Details
+CRS	Course Record
+CRT	Contractor Report Type
+CRV	Product Origin Reference
+CS	Contract Summary
+CSB	Cryptographic Service Message Body
+CSC	Cryptographic Service Message Certificates And Keys
+CSD	Consolidated Shipment Invoice Data
+CSE	Educational Course Information
+CSF	Conditional Sampling Frequency
+CSH	Sales Requirements
+CSI	Claim Status Information
+CSM	Cryptographic Service Message Header
+CSS	Conditional Sampling Sequence
+CST	Cost Analysis
+CSU	Supplemental Course Data
+CT	Car Type
+CTB	Restrictions/Conditions
+CTC	Car Hire Transaction Control
+CTP	Pricing Information
+CTT	Transaction Totals
+CTX	Context
+CUR	Currency
+CV	Cycle/Summary Value
+CYC	Car Hire Cycle
+D9	Destination Station
+DAD	Debit Authorization Detail
+DAI	Appendix Information
+DAM	Damage Information
+DB	Disbursement Information
+DD	Demand Detail
+DDI	Explanation
+DED	Deductions
+DEF	Delayed Repayment
+DEG	Degree Record
+DEL	Delivery Logistics
+DEP	Deposit
+DEX	Delivery Execution Information
+DFI	Default Information
+DH	Dealer Hours
+DIS	Discount Detail
+DK	Docket Header
+DL	Auto Claim Detail - Labor
+DLV	Deliverable Information
+DM	Demurrage/Detention/ Storage Rate
+DMA	Additional Demographic Information
+DMG	Demographic Information
+DMI	Data Maintenance Information
+DN	Dealer Effectivity
+DN1	Orthodontic Information
+DN2	Tooth Summary
+DOS	Definition Of Share
+DP	Auto Claim Detail - Parts
+DPN	Dependent Information
+DR	Docket Range
+DRT	Deprescription Rate Detail
+DSB	Disability Information
+DTM	Date/Time Reference
+DTP	Date Or Time Or Period
+DVI	Dynamic Vehicle Information
+E01	Electronic Form Main Heading
+E03	Interchange Order Of Segments
+E1	Empty Car Disposition - Pended Destination Consignee
+E10	Transaction Set Grouping
+E13	Segment Order In Transaction Set
+E20	Segment Header Information
+E22	Data Element Relationships In A Segment Or Composite
+E24	Data Element Sequence In A Segment Or Composite
+E30	Data Element Attributes
+E34	Code List Values For A Data Element
+E4	Empty Car Disposition - Pended Destination City
+E40	Edi Standards Note Reference
+E41	Composite Header Information
+E5	Empty Car Disposition - Pended Destination Route
+E6	Advance Car Disposition
+E8	Blocking And Response Information
+EA	Equipment Attributes
+EB	Eligibility Or Benefit Information
+EC	Employment Class
+ED	Equipment Description
+EDF	Educational Fee Information
+EFI	Electronic Format Identification
+EI	Automatic Equipment Identification
+EIA	Beginning Segment For Equipment Inquiry Or Advice
+ELV	Employee Leave Summary
+EM	Equipment Characteristics
+EMP	Employer
+EMS	Employment Position
+EMT	Employment
+ENE	Electronic Systems Environment
+ENM	School Enrollment Data
+ENR	School Enrollment Information
+ENT	Entity
+EQ	Eligibility Or Benefit Inquiry
+EQD	Eqd  Equipment Damage Information
+ER	Rail Event Reporting
+ERI	Entity Relationship
+ERP	Educational Record Purpose
+ES	Equipment Status
+ESI	Employment Status Information
+ETD	Excess Transportation Detail
+EXI	Excavation Ticket Information
+F01	Identification Of Claim (Claimant Originated)
+F02	Identification Of Shipment
+F04	Weight/Volume Loss
+F05	Allowance/Charge (Claim)
+F07	Auto Claim Detail
+F09	Detail - Supporting Evidence For Claim
+F10	Identification Of Claim (Tracer)
+F11	Status
+F12	Basic Claim Information - Automotive
+F13	Payment Information
+F14	Line Item Reject
+F6X	Identification (Automotive)
+F9	Origin Station
+FA1	Type Of Financial Accounting Data
+FA2	Accounting Data
+FAA	Financial Asset Account
+FAC	Facing Direction
+FBB	Foreign And Industry Business
+FC	Financial Contribution
+FCL	Foreclosure
+FDA	Facility Description
+FGS	Form Group
+FH	Family History
+FIR	Financial Information
+FIS	Mortgage Loan Fiscal Data
+FK	Factor
+FNA	Financial Status Information
+FOB	F.O.B. Related Instructions
+FOS	Field Of Study
+FPT	Financial Participation
+FRM	Supporting Documentation
+FSA	Flexible Spending Account
+FST	Forecast Schedule
+FTH	First Time Home Buyer
+G01	Invoice Identification
+G05	Total Shipment Information
+G07	Carrier Information
+G08	Pallet Receipt Disposition
+G1	Shipment Type Information
+G11	Coupon Reporting Specifications
+G12	Coupon Physical Characteristics
+G13	Store Size Attributes
+G14	Coupon Special Processing
+G15	Coupon Distribution
+G17	Item Detail - Invoice
+G18	Store Category Size
+G19	Line Item Detail - Quantity/Unit Of Measure/Price Differences
+G2	Beyond Routing
+G20	Item Packing Detail
+G21	Product Information
+G22	Pre-Pricing Information
+G23	Terms Of Sale
+G24	Promotion Reference
+G25	F.O.B. Information
+G26	Pricing Conditions
+G28	Line Item Numbers
+G29	Store Display Information
+G3	Compensation Information
+G30	Retail Account Marketing Types
+G31	Total Invoice Quantity
+G32	Survey Question Response
+G33	Total Dollars Summary
+G35	Advertising Feature Information
+G36	Price List Reference
+G37	Labor Activity
+G38	Claim Payment Information
+G39	Item Characteristics - Vendor's Selling Unit
+G4	Scale Identification
+G40	Bracket Price
+G42	Promotion Announcement Identification
+G43	Promotion/Price List Area
+G45	Line Item Detail - Promotion
+G46	Promotion Allowance/Charge
+G47	Statement Identification
+G48	Statement/Invoice Identification
+G49	Statement Total
+G5	Scale Information
+G50	Purchase Order Identification
+G51	Free Goods/Product Condition
+G53	Maintenance Type
+G54	Module Description
+G55	Item Characteristics - Consumer Unit
+G61	Contact
+G62	Date/Time
+G63	Period
+G66	Transportation Instructions
+G68	Line Item Detail - Product
+G69	Line Item Detail - Description
+G70	Line Item Detail - Miscellaneous
+G72	Allowance Or Charge
+G73	Allowance Or Charge Description
+G76	Total Purchase Order
+G82	Delivery/Return Base Record Identifier
+G83	Line Item Detail/Direct Store Delivery
+G84	Delivery/Return Record Of Totals
+G85	Record Integrity Check
+G86	Signature Identification
+G87	Delivery/Return Adjustment Identification
+G88	Delivery/Return Identification Adjustment
+G89	Line Item Detail - Adjustment
+G91	Price Change Status
+G92	Purchase Order Change Type
+G93	Price Bracket Identification
+G94	Promotion Conditions
+G95	Performance Requirements
+GA	Canadian Grain Information
+GDP	General Dosing Parameters
+GF	Furnished Goods And Services
+GH	Group Header
+GID	Group Identification
+GR	Guarantee Result Detail
+GR2	Train Data
+GR4	Loading Cluster
+GR5	Loading Details
+GRI	Statistical Government Information
+GRP	Group Dosage Parameters
+GY	Geography
+H1	Hazardous Material
+H2	Additional Hazardous Material Description
+H3	Special Handling Instructions
+H5	Car Service Order
+H6	Special Services
+HAD	Hospital Affiliation Detail
+HC	Health Condition
+HCP	Health Care Pricing
+HCR	Health Care Services Review
+HD	Health Coverage
+HI	Health Care Information Codes
+HL	Hierarchical Level
+HLH	Health Information
+HPL	Health Care Provider License
+HS	Health Screening
+HSD	Health Care Services Delivery
+IC	Intermodal Chassis Equipment
+ICH	Individual Characteristics
+ICM	Individual Income
+ID	Inspection Detail Segment
+ID1	Item Detail Dimensions
+ID2	Item Image Detail
+ID3	Dimensions Detail
+ID4	Load Details
+IDB	Indebtedness For Student Loans
+IDC	Identification Card
+IGI	Insurer Or Guarantor Information
+III	Information
+IIS	Interchange Identification Segment
+IK3	Implementation Data Segment Note
+IK4	Implementation Data Element Note
+IK5	Implementation Transaction Set Response Trailer
+IM	Intermodal Movement Information
+IMA	Interchange Move Authority
+IMM	Immunization Status
+IMP	Impairment Detail
+IN1	Individual Identification
+IN2	Individual Name Structure Components
+INC	Installment Information
+IND	Additional Individual Demographic Information
+INI	Incorporation Information
+INQ	Credit Inquiry Details
+INR	Information Request
+INS	Insured Benefit
+INT	Interest
+INV	Investment Vehicle Selection
+INX	Index Detail
+IRA	Investor Reporting Action
+IRP	Report Selection Segment
+IS1	Estimated Time Of Arrival And Car Scheduling
+IS2	Scheduled Events
+ISC	Interline Service Commitment Detail
+ISD	Railroad Interline Service Definition Detail
+ISI	Institutional Staff Information
+ISR	Item Status Report
+ISS	Invoice Shipment Summary
+IT1	Baseline Item Data (Invoice)
+IT3	Additional Item Data
+IT8	Conditions Of Sale
+ITA	Allowance, Charge Or Service
+ITC	Information Type And Comment Results
+ITD	Terms Of Sale/Deferred Terms Of Sale
+IV1	Lane Estimates
+JCT	Railroad Junction Information
+JID	Equipment Detail
+JIL	Line Item Detail For The Operating Expense Statement
+JIT	Just-In-Time Schedule
+JL	Journal Identification
+JS	Rail Junction Settlement Role Information
+K1	Remarks
+K2	Administrative Message
+K3	File Information
+L0	Line Item - Quantity And Weight
+L1	Rate And Charges
+L10	Weight Information
+L11	Business Instructions And Reference Number
+L12	Alternate Lading Description
+L13	Commodity Details
+L1A	Billing Identification
+L3	Total Weight And Charges
+L4	Measurement
+L5	Description, Marks And Numbers
+L7	Tariff Reference
+L8	Line Item Subtotal
+L9	Charge Detail
+LAD	Lading Detail
+LC	Life Coverage
+LC1	Lane Commitments
+LCD	Place/Location Description
+LCT	Logistics Container Tracking Information
+LDT	Lead Time
+LE	Loop Trailer
+LEP	Epa Required Data
+LEQ	Leased Equipment Information
+LET	Load And Equipment Type
+LFG	Hazardous Information, Finished Goods
+LFH	Free-Form Hazardous Material Information
+LFI	Beginning Segment For Locomotive Information
+LH	Mixed Hazardous Commodities
+LH1	Hazardous Identification Information
+LH2	Hazardous Classification Information
+LH3	Hazardous Material Shipping Name Information
+LH4	Canadian Dangerous Requirements
+LH6	Hazardous Certification
+LHE	Empty Equipment Hazardous Material Information
+LHR	Hazardous Material Identifying Reference Numbers
+LHT	Transborder Hazardous Requirements
+LIC	License Information
+LID	Loss Information Description
+LIE	Individual Or Event Location
+LIN	Item Identification
+LM	Code Source Information
+LN	Loan Information
+LN1	Loan Specific Data
+LN2	Existing Real Estate Loan Specific Data
+LOC	Location
+LOD	Location Description
+LP	Load Planning
+LQ	Industry Code Identification
+LRQ	Mortgage Characteristics Requested
+LS	Loop Header
+LS1	Asset Item Identification
+LT	Letter Of Recommendation
+LTE	Letter Of Recommendation Evaluation
+LTR	Laboratory Test Results
+LUC	Loan Underwriting
+LUI	Language Use
+LV	Loan Verification
+LX	Transaction Set Line Number
+M0	Letter Of Credit Reference
+M1	Insurance
+M10	Manifest Identifying Information
+M11	Manifest Bill Of Lading Details
+M12	In-Bond Identifying Information
+M13	Manifest Amendment Details
+M14	General Order Status Information
+M15	Customs Events Advisory Details
+M2	Sales/Delivery Terms
+M20	Permit To Transfer Request Details
+M21	Supplementary In-Bond Information
+M3	Release
+M7	Seal Numbers
+M7A	Seal Number Replacement
+MAN	Marks And Numbers Information
+MBL	Bill Of Lading
+MC	Miscellaneous And Accessorial Charges
+MCD	Mortgage Closing Data
+MCT	Tariff Accessorial Charges
+MEA	Measurements
+MI	Media Information
+MI1	Mileage Source
+MIA	Medicare Inpatient Adjudication
+MIC	Mortgage Insurance Coverage
+MIN	Minimum Detail
+MIR	Mortgage Insurance Response
+MIS	Mortgagee Information Status
+MIT	Message Identification
+MKS	Marks Awarded
+MLA	Mortgage Loan Audit Information
+MLS	Milestone
+MNC	Mortgage Note Characteristics
+MOA	Medicare Outpatient Adjudication
+MPI	Military Personnel Information
+MPP	Mortgage Pool Program
+MRC	Mortgagor Response Characteristics
+MS	Miscellaneous Services
+MS1	Equipment, Shipment, Or Real Property Location
+MS2	Equipment Or Container Owner And Type
+MS3	Interline Information
+MS4	Shipment Or Package Dimensions
+MS5	Shipment Rates And Charges
+MS6	Shipment Quantity And Weight
+MSG	Message Text
+MSI	Multi-Stop Shipment Information
+MSS	Material Safety Data Sheet Section Information
+MTX	Text
+N1	Party Identification
+N10	Quantity And Description
+N11	Store Location
+N12	Equipment Environment
+N2	Additional Name Information
+N3	Party Location
+N4	Geographic Location
+N5	Equipment Ordered
+N7	Equipment Details
+N7A	Accessorial Equipment Details
+N7B	Additional Equipment Details
+N8	Waybill Reference
+N8A	Additional Reference Information
+N9	Extended Reference Information
+NA	Cross-Reference Equipment
+NCA	Nonconformance Action
+NCD	Nonconformance Description
+NM1	Individual Or Organizational Name
+NTE	Note/Special Instruction
+NX1	Property Or Entity Identification
+NX2	Location Id Component
+OBI	Obligation Information
+OD	Origin And Destination
+OI	Other Health Insurance Information
+OID	Order Information Detail
+OOI	Associated Object Type Identification
+OPS	Program Subject Area And Eligibility
+OPX	Placement Criteria
+OQS	Order Quantity Sequence
+ORI	Object Reference Identification
+OTI	Original Transaction Identification
+P1	Pickup
+P2	Delivery Date Information
+P4	Port Information
+P5	Port Function
+PAD	Product Adjustment Detail
+PAI	Print Advertisement Information
+PAL	Pallet Type And Load Characteristics
+PAM	Period Amount
+PAS	Property Appraisal Summary
+PAT	Patient Information
+PBI	Problem Identification
+PCL	Previous College
+PCR	Payment Cancellation Request
+PCS	Product Claim Status
+PCT	Percent Amounts
+PD	Pricing Data
+PDD	Pricing Data Detail
+PDE	Property Metes And Bounds Description
+PDI	Practice Detail Information
+PDL	Payment Details
+PDP	Property Description - Personal
+PDR	Property Description - Real
+PDS	Property Description/Legal Description
+PEN	Pension Information
+PER	Administrative Communications Contact
+PEX	Property Or Housing Expense
+PI	Price Authority Identification
+PID	Product/Item Description
+PIN	Previous Incident
+PKD	Packaging Description
+PKG	Marking, Packaging, Loading
+PKL	Multi-Pack Configuration
+PL	Proposal Cost Logic
+PLA	Place Or Location
+PLB	Provider Level Adjustment
+PLC	Equipment Placement Information
+PLD	Pallet Shipment Information
+PLI	Previous Loan Information
+PM	Electronic Funds Transfer Information
+PO1	Baseline Item Data
+PO3	Additional Item Detail
+PO4	Item Physical Details
+POC	Line Item Change
+POD	Proof Of Delivery
+PPA	Property Location
+PPD	Payment Pattern Details
+PPL	Price Support Data
+PPY	Personal Property Description
+PR	Product (Commodity)
+PR1	Price Request Parameter List 1
+PR2	Price Request Parameter List 2
+PRC	Payment Rate Change
+PRD	Mortgage Loan Product Description
+PRF	Purchase Order Reference
+PRI	External Reference Identifier
+PRJ	Multifamily Housing Project
+PRM	Basic Trace Parameters
+PRR	Problem Report
+PRS	Part Release Status
+PRT	Part Disposition
+PRV	Provider Information
+PS	Protective Service Instructions
+PS1	Purchase Service
+PSA	Partner Share Accounting
+PSC	Product Service Contract
+PSD	Physical Sample Description
+PT	Patron
+PTD	Product Transfer And Resale Detail
+PTF	Property Transaction Financials
+PTS	Property Tax Status
+PUN	Beginning Segment For Motor Carrier Pickup Notification
+PWK	Paperwork
+PYD	Payroll Deduction
+PYM	Payment Manner And Percentage
+PYT	Historical Payment Terms
+Q2	Status Details (Ocean)
+Q3	Arrival Details
+Q5	Status Details
+Q7	Lading Exception Status
+Q8	Detail Delivery Exception Information
+QTY	Quantity Information
+R1	Route Information (Air)
+R11	Beginning Segment For Trailer Or Container Repair Billing
+R12	Work Order Information
+R13	Line Item Repair
+R2	Route Information
+R2A	Route Information With Preference
+R2B	Junctions And Proportions
+R2C	Division Basis
+R2D	Miscellaneous Charge
+R3	Route Information - Motor
+R4	Port Or Terminal
+R9	Route Code Identification
+RA	Rate Header
+RAB	Rate Or Minimum Qualifiers
+RAP	Requirement, Attribute, And Proficiency
+RB	Rate/Minimum Detail
+RC	Root Cause
+RCD	Receiving Conditions
+RCR	Reporting Criteria
+RD	Rate Data
+RDD	Route Description Detail
+RDI	Retail Account Demographic Information
+RDM	Remittance Delivery Method
+RDR	Return Disposition Reason
+RDT	Revision Date/Time
+REA	Real Estate Property Information
+REC	Real Estate Condition
+RED	Related Data
+REF	Reference Information
+REL	Relationship
+REN	Rate Request Information
+REP	Repair Action
+REQ	Request Information
+RES	Real Estate Sales Price Change
+RET	Real Estate Transaction
+RH	Personal Property Rate
+RIC	Financial Return
+RLD	Down Payment Data
+RLT	Real Estate Loan Type
+RMR	Remittance Advice Accounts Receivable Open Item Reference
+RMT	Remittance Advice
+RO	Public Record Or Obligation
+RP	Retirement Product
+RPA	Rate Amounts Or Percents
+RQS	Request For Information
+RRA	Required Response
+RS	Rate Subset
+RSC	Resource
+RSD	Residency Information
+RST	Carrier Restriction
+RT	Rate Destination
+RT1	Rate Detail
+RTE	Rate Information
+RTT	Freight Rate Information
+RU1	Retirement Board Detail
+RU2	Employing Carrier Response
+RU3	Employing Carrier Claim Profile
+RYL	Royalty Payment
+S1	Stop-Off Name
+S2	Stop-Off Address
+S4A	Assurance Header Level 2
+S5	Stop-Off Details
+S9	Stop-Off Station
+SA	Status Action
+SAC	Service, Promotion, Allowance, Or Charge Information
+SAD	Student Award Detail
+SAL	Salary Information
+SB	Docket Level
+SBR	Subscriber Information
+SBT	Subtest
+SC	Docket Sub-Level
+SCA	Statistical Category Analysis
+SCD	Sales Commission Employee Detail
+SCH	Line Item Schedule
+SCL	Rate Basis/Scales
+SCM	Credit Score Model
+SCN	Beginning Segment For Cartage Work Assignment
+SCP	Beginning Segment For A Cartage Work Assignment Response
+SCR	Shipper's Car Ordered Rail
+SCS	Credit Score
+SCT	School Type
+SD1	Safety Data
+SDP	Ship/Delivery Pattern
+SDQ	Destination Quantity
+SER	Service Charges
+SES	Academic Session Header
+SFC	Storage Facility Characteristics
+SG	Shipment Status
+SHD	Shipment Detail
+SHI	Security Holding Information
+SHP	Shipped/Received Information
+SHR	Railroad Interline Service Special Handling Restrictions
+SI	Service Characteristic Identification
+SID	Standard Transportation Commodity Code Identification
+SII	Sales Item Information
+SIN	Substance Use
+SL1	Tariff Details
+SLA	School Accreditation And Licensing
+SLI	Specific Loan Information
+SLN	Subline Item Detail
+SMA	Station Address
+SMB	Beginning Segment For Railroad Station Master File
+SMD	Consolidated Shipment Manifest Data
+SMO	Operational Services
+SMR	Cross Reference
+SMS	Station Codes Segment
+SN1	Item Detail (Shipment)
+SOI	Source Of Income
+SOM	Status Of Mortgage
+SP	Special Program
+SPA	Status Of Product Or Activity
+SPE	Security Protocol Error
+SPI	Specification Identifier
+SPK	Specimen Kit Information
+SPR	Supplier Rating
+SPS	Sampling Parameters For Summary Statistics
+SPY	Scope Of Power Of Attorney
+SR	Requested Service Schedule
+SRA	Traffic Evaluation Factors
+SRD	Scale Rate Detail
+SRE	Test Scores
+SRM	Scale Rates
+SRT	Scale Rate Header
+SS	Docket Control Status
+SSC	Beginning Segment For Service Commitment Advice
+SSD	Shipment Sort Segregate Data
+SSE	Entry And Exit Information
+SSS	Product Special Services
+SST	Student Academic Status
+STA	Statistics
+STC	Status Information
+STP	Study Parameters
+STS	Interchange Status Segment
+SUM	Academic Summary
+SUP	Supplementary Information
+SV	Service Description
+SV1	Professional Service
+SV2	Institutional Service
+SV3	Dental Service
+SV4	Drug Service
+SV5	Durable Medical Equipment Service
+SV6	Anesthesia Service
+SV7	Drug Adjudication
+SVA	Security Value
+SVC	Service Information
+SVD	Service Line Adjudication
+SW	Switching Charges
+SWC	Switching Conditions
+SWD	Switching Details
+SWR	Switching Rates
+T1	Transit Inbound Origin
+T2	Transit Inbound Lading
+T3	Transit Inbound Route
+T6	Transit Inbound Rates
+T8	Free-Form Transit Data
+TA	Tax Authority
+TAX	Tax Reference
+TBI	Trade Line Bureau Identifier
+TC2	Commodity
+TCD	Itemized Call Detail
+TD1	Carrier Details (Quantity And Weight)
+TD3	Carrier Details (Equipment)
+TD4	Carrier Details (Special Handling Or Hazardous Materials Or Both)
+TD5	Carrier Details (Routing Sequence/Transit Time)
+TDS	Total Monetary Value Summary
+TDT	Tax Delinquency Status
+TED	Technical Error Description
+TEM	Pickup Totals
+TER	Territory
+TF	Tariff Information
+TFR	Tariff Restrictions
+TFS	Tax Form
+THE	Screen Theater Identification
+TI	Transport Information
+TIA	Tax Information And Amount
+TID	Task Identification
+TII	Tax Installment Information
+TIS	Title Insurance Services
+TLN	Tradeline
+TMD	Test Method
+TOA	Type Of Activity
+TOO	Tooth Identification
+TOV	Vehicle Use Information
+TPB	Business Professional Title
+TPD	Trading Partner Detail
+TRF	Rating Factors
+TRL	Equipment Usage Information
+TRN	Trace
+TRS	Tax Rate
+TS	Tariff Section
+TS2	Transaction Supplemental Statistics
+TS3	Transaction Statistics
+TSD	Trailer Shipment Details
+TSI	Automatic Equipment Tag Status Information
+TSP	Test Period Or Interval
+TST	Test Score Record
+TSU	Transaction Summary
+TT	Term Text
+TUD	Trade Union Data
+TXI	Tax Information
+TXN	Transaction Capabilities
+TXP	Tax Payment
+UC	Underwriting Category
+UCS	Underwriting Considerations
+UD	Underwriting Status
+UDA	Underwriting Condition
+UIT	Unit Detail
+UM	Health Care Services Review Information
+UQS	Underwriting Question
+UR	Peer Review Organization Or Utilization Review
+USD	Usage-Sensitive Detail
+USI	Unitized Shipment Information
+UWI	Underwriting Information
+V1	Vessel Identification
+V2	Vessel Information
+V3	Vessel Schedule
+V4	Cargo Location Reference
+V5	Vessel Identification
+V9	Event Detail
+VAD	Vehicle Advice Detail
+VAR	Credit File Variation
+VAT	Vehicle Attribute
+VC	Motor Vehicle Control
+VC1	Vehicle Detail
+VDI	Value Description Or Information
+VEH	Vehicle Information
+VID	Conveyance Identification
+VR	Rate Origin
+VRC	Vehicle Recovery
+W01	Line Item Detail - Warehouse
+W03	Total Shipment Information (Warehouse)
+W04	Item Detail Total
+W05	Shipping Order Identification
+W06	Warehouse Shipment Identification
+W07	Item Detail For Stock Receipt
+W08	Receipt Carrier Information
+W09	Equipment And Temperature
+W1	Block Identification
+W10	Warehouse Additional Carrier Information
+W12	Warehouse Item Detail
+W13	Item Detail Exception
+W14	Total Receipt Information
+W15	Warehouse Adjustment Identification
+W17	Warehouse Receipt Identification
+W18	Probe Temperatures
+W19	Warehouse Adjustment Item Detail
+W2	Equipment Identification
+W20	Line Item Detail - Packing
+W27	Carrier Details (Warehouse)
+W28	Consolidation Information
+W3	Consignee Information
+W4	Consignor Information
+W5	Carrier And Route Information
+W6	Special Handling Information
+W66	Warehouse Carrier Information
+W76	Total Shipping Order
+WLD	Workload Detail
+WS	Work Schedule
+X01	Automated Manifest Archive Status Details
+X02	Automated Manifest Bills Eligible/Overdue Archive Details
+X1	Export License
+X2	Import License
+X4	Customs Release Information
+X7	Customs Information
+XD	Placement/Pull Data
+XH	Pro Forma - B13 Information
+XPO	Preassigned Purchase Order Numbers
+XQ	Reporting Date/Action
+Y1	Space Reservation Request
+Y2	Container Details
+Y3	Space Confirmation
+Y4	Container Release
+Y5	Space Booking Cancellation
+Y6	Authentication
+Y7	Cargo Booking Priority
+YNQ	Yes/No Question
+ZA	Product Activity Reporting
+ZC1	Beginning Segment For Data Correction Or Change
+ZD	Transaction Set Deletion - Id, Reason, And Source
+ZR	Waybill Reference Identification
+ZT	Waybill Request Information

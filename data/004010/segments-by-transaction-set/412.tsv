@@ -1,0 +1,20 @@
+id	description	section	req	max_loop	max_usage	pos
+R11	Beginning Segment For Trailer Or Container Repair Billing	H	M	0	1	1
+DTP	Date Or Time Or Period	H	O	0	5	2
+CUR	Currency	H	M	0	1	3
+N1	Party Identification	H	O	10	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	1	6
+N4	Geographic Location	H	O	0	1	7
+PER	Administrative Communications Contact	H	O	0	1	8
+R12	Work Order Information	D	M	9999	1	9
+DTM	Date/Time Reference	D	O	0	5	10
+AMT	Monetary Amount Information	D	M	0	6	11
+REF	Reference Information	D	O	0	5	12
+N1	Party Identification	D	M	4	1	13
+N3	Party Location	D	O	0	1	14
+N4	Geographic Location	D	O	0	1	15
+R13	Line Item Repair	D	M	50	1	16
+IT1	Baseline Item Data (Invoice)	D	O	0	10	17
+REF	Reference Information	D	O	0	10	18
+AMT	Monetary Amount Information	D	M	0	1	19

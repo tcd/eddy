@@ -1,0 +1,23 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	0	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+PER	Administrative Communications Contact	H	O	0	2	6
+DTP	Date Or Time Or Period	H	O	0	1	7
+TFS	Tax Form	D	M	1000	1	8
+DTP	Date Or Time Or Period	D	O	0	1	9
+MTX	Text	D	O	0	1	10
+TRS	Tax Rate	D	M	100000	1	11
+AMT	Monetary Amount Information	D	O	0	10	12
+QTY	Quantity Information	D	O	0	10	13
+N1	Party Identification	D	O	1000	1	14
+DTP	Date Or Time Or Period	D	O	0	1	15
+FGS	Form Group	D	M	1000	1	16
+DTP	Date Or Time Or Period	D	O	0	1	17
+TRS	Tax Rate	D	M	100000	1	18
+AMT	Monetary Amount Information	D	O	0	10	19
+QTY	Quantity Information	D	O	0	10	20
+N1	Party Identification	D	O	1000	1	21
+DTP	Date Or Time Or Period	D	O	0	1	22

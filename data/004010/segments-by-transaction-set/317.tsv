@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+N1	Party Identification	H	M	10	1	1
+N2	Additional Name Information	H	O	0	1	2
+N3	Party Location	H	O	0	2	3
+N4	Geographic Location	H	O	0	1	4
+G61	Contact	H	O	0	1	5
+N9	Extended Reference Information	H	O	0	9	6
+G62	Date/Time	H	M	0	1	7
+N9	Extended Reference Information	H	M	0	9	8
+TD5	Carrier Details (Routing Sequence/Transit Time)	H	M	0	1	9
+L0	Line Item - Quantity And Weight	H	M	9999	1	10
+L5	Description, Marks And Numbers	H	O	0	999	11
+H1	Hazardous Material	H	O	0	1	12

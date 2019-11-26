@@ -1,0 +1,5 @@
+id	definition
+0	Copay exempt
+1	Recipient did not pay when asked
+2	Recipient paid when asked
+3	Payment was not requested

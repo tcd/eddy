@@ -1,0 +1,6 @@
+id	definition
+AD	Inventory Adjustment (+)
+AM	Inventory Adjustment (-)
+CS	Customer Shipment
+RJ	Rejected Shipment
+ST	Stock Transfer

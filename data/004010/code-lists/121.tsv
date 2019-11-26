@@ -1,0 +1,26 @@
+id	definition
+A	Alternate Rating
+C	Specific Commodity Rate
+E	Weight in Excess of Pivot Weight and Applicable Rate
+F	Overflow
+H	Charter
+I	Class Not Identifiable
+L	Class Rate
+M	Minimum
+N	Normal Under 45 KG Rate
+O	Column Commodity Rate
+Q	Quantity 45 KG Over Rate
+R	Class Rate (Less than Normal Rate)
+S	Class Rate (More than Normal Rate)
+T	Sender Rate
+U	Pivot Weight and Applicable Pivot Weight Charge
+V	Excess Rate
+X	IATA Container or Unit Load Device (ULD)
+Y	Exception Rating
+BHR	Backhaul Rate
+CTR	Contract Rate
+DMA	Demurrage Period 1
+DMB	Demurrage Period 2
+DMC	Demurrage Period 3
+ECR	Econo Rate
+QUO	Quoted Rate

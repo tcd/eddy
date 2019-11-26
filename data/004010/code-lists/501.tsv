@@ -1,0 +1,17 @@
+id	definition
+10	Proforma Entered/B13 Not Required
+14	Proforma and B13 Entered
+15	Proforma Entered and B13 with Car
+16	Proforma Entered and B13 by Summary Reporting
+17	Proforma Entered with B13 with Broker Port of Exit
+20	Proforma with Car/B13 Not Required
+24	Proforma with Car and B13 Entered
+25	Proforma and B13 with Car
+26	Proforma with Car and B13 by Summary Reporting
+27	Proforma with Car and B13 with Broker Port of Exit
+30	Proforma with Broker Port of Exit/B13 Not Required
+34	Proforma with Broker Port of Exit and B13 Entered
+35	Proforma with Broker Port of Exit and B13 with Car
+36	Proforma with Broker Port of Exit B13 by Summary Reporting
+37	Proforma and B13 with Broker Port of Exit
+90	Customs A 4 +

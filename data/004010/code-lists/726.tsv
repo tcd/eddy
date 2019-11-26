@@ -1,0 +1,20 @@
+id	definition
+01	Damaged
+02	Undamaged
+03	Excellent
+04	Good
+05	Fair
+06	Poor
+07	Stable
+08	Declining
+09	Improving
+10	Unknown
+11	Unsecured
+12	Secured
+13	Broken
+14	Unlocked
+15	Overgrown
+16	Littered
+17	Structure Missing
+18	Property Inaccessible
+20	Inferior

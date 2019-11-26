@@ -1,0 +1,12 @@
+id	definition
+01	Histopath
+02	Grosspath
+03	Clinical Observation
+04	Ophthalmic
+05	Physical
+06	Cage Side
+07	External
+08	Visceral
+09	Skeletal
+10	Coronal
+ZZ	Mutually Defined

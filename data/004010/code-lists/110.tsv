@@ -1,0 +1,21 @@
+id	definition
+BA	Batch Accept
+BC	Batch Accept with Data Content Change
+BE	Batch Accept with Error
+BP	Batch Partial Accept/Reject
+BR	Batch Reject
+GA	Functional Group Accept
+GC	Functional Group Accept with Data Content Change
+GE	Functional Group Accept with Error
+GP	Functional Group Partial Accept/Reject
+GR	Functional Group Reject
+IA	Item Accept
+IC	Item Accept with Data Content Change
+IE	Item Accept with Error
+IP	Item Partial Accept/Reject
+IR	Item Reject
+TA	Transaction Set Accept
+TC	Transaction Set Accept with Data Content Change
+TE	Transaction Set Accept with Error
+TP	Transaction Set Partial Accept/Reject
+TR	Transaction Set Reject

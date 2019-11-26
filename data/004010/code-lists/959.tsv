@@ -1,0 +1,3 @@
+id	definition
+CAN	Cancel an entire batch of payments.
+IND	Cancel an individual payment.

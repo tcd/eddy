@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+BMP	Beginning Segment For Market Development Fund Settlement	H	M	0	1	1
+N1	Party Identification	H	M	0	5	2
+G61	Contact	H	O	0	3	3
+NTE	Note/Special Instruction	H	O	0	10	4
+QTY	Quantity Information	H	O	0	1	5
+BAL	Balance Detail	H	O	0	1	6
+N9	Extended Reference Information	H	O	999	1	7
+AMT	Monetary Amount Information	H	O	0	1	8
+N1	Party Identification	H	O	0	1	9

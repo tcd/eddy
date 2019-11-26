@@ -1,0 +1,48 @@
+id	definition
+A	Anesthesia
+L	Livery
+O	Other
+P	Psychologist
+S	Surgery
+T	Transportation
+V	Vision
+AA	Alcohol Abuse
+AM	Ambulance
+AN	Anesthesia Nurse
+CF	Convalescent Care Facility
+CH	Chiropractic
+CS	Christian Science Practitioner
+DA	Drug Abuse
+DD	Dentist or Dental
+DM	Durable Medical Equipment Supplier
+DN	Denturist
+ER	Emergency Room
+HH	Home Health
+HS	Hospital
+IF	Intermediate Care Facility
+IL	Independent Lab
+LT	Long-term Care
+MD	Physician or Medical
+MF	Marriage Family and Child Counselor
+MH	Mental Health
+MI	Midwife
+MO	Mail Order Drug
+MS	Multiple Type of Service
+NM	Non-medical Provider
+NP	Nurse Practitioner
+NS	Nursing Service
+OC	Occupational Therapy
+OP	Optometrist
+OT	Optician
+OX	Oxygen
+PA	Physician's Assistant
+PD	Podiatry
+PE	Parental or Enteral (PEN)
+PF	Physician's Office-based Facility
+PS	Psychiatric Social Worker
+PT	Physical Therapy
+RX	Pharmacy or Drug
+SC	Screening
+SN	Skilled Nursing
+ST	Speech or Language Therapy
+TX	Taxi

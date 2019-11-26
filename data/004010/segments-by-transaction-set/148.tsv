@@ -1,0 +1,113 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+QTY	Quantity Information	H	O	0	1	3
+REF	Reference Information	H	O	0	9	4
+NM1	Individual Or Organizational Name	H	O	999999	1	5
+N2	Additional Name Information	H	O	0	1	6
+N3	Party Location	H	O	0	2	7
+N4	Geographic Location	H	O	0	1	8
+PER	Administrative Communications Contact	H	O	0	3	9
+ACT	Account Identification	H	O	0	9	10
+DTP	Date Or Time Or Period	H	O	0	9	11
+DMG	Demographic Information	H	O	0	1	12
+REF	Reference Information	H	O	0	9	13
+QTY	Quantity Information	H	O	0	999999	14
+CRC	Conditions Indicator	H	O	0	999999	15
+HL	Hierarchical Level	D	M	999999	1	16
+CRI	Claim Report Information	D	O	0	999999	17
+ACT	Account Identification	D	O	0	2	18
+DTP	Date Or Time Or Period	D	O	0	999999	19
+CUR	Currency	D	O	0	1	20
+AMT	Monetary Amount Information	D	O	0	999999	21
+FC	Financial Contribution	D	O	0	2	22
+REF	Reference Information	D	O	0	999999	23
+DMG	Demographic Information	D	O	0	1	24
+QTY	Quantity Information	D	O	0	999999	25
+CRC	Conditions Indicator	D	O	0	999999	26
+VEH	Vehicle Information	D	O	0	999999	27
+NM1	Individual Or Organizational Name	D	O	999	1	28
+N2	Additional Name Information	D	O	0	1	29
+N3	Party Location	D	O	0	2	30
+N4	Geographic Location	D	O	0	1	31
+PER	Administrative Communications Contact	D	O	0	3	32
+ACT	Account Identification	D	O	0	9	33
+DTP	Date Or Time Or Period	D	O	0	9	34
+DMG	Demographic Information	D	O	0	1	35
+REF	Reference Information	D	O	0	999999	36
+QTY	Quantity Information	D	O	0	999999	37
+CRC	Conditions Indicator	D	O	0	999999	38
+ESI	Employment Status Information	D	O	99	1	39
+EMT	Employment	D	O	0	1	40
+TPB	Business Professional Title	D	O	0	1	41
+DTP	Date Or Time Or Period	D	O	0	999999	42
+REF	Reference Information	D	O	0	999999	43
+QTY	Quantity Information	D	O	0	999999	44
+NM1	Individual Or Organizational Name	D	O	0	1	45
+PER	Administrative Communications Contact	D	O	0	999999	46
+CRC	Conditions Indicator	D	O	0	9	47
+LX	Transaction Set Line Number	D	O	99	1	48
+AIN	Income	D	O	0	1	49
+CUR	Currency	D	O	0	1	50
+TXI	Tax Information	D	O	0	9	51
+WS	Work Schedule	D	O	0	99	52
+DTP	Date Or Time Or Period	D	O	0	999999	53
+QTY	Quantity Information	D	O	0	9	54
+REF	Reference Information	D	O	0	999999	55
+LN	Loan Information	D	O	999	1	56
+REF	Reference Information	D	O	0	999999	57
+VEH	Vehicle Information	D	O	999999	1	58
+N4	Geographic Location	D	O	0	1	59
+PID	Product/Item Description	D	O	0	999999	60
+AMT	Monetary Amount Information	D	O	99	1	61
+PCT	Percent Amounts	D	O	0	1	62
+DTP	Date Or Time Or Period	D	O	0	999999	63
+NM1	Individual Or Organizational Name	D	O	999999	1	64
+DMG	Demographic Information	D	O	0	1	65
+N3	Party Location	D	O	0	1	66
+N4	Geographic Location	D	O	0	1	67
+PER	Administrative Communications Contact	D	O	0	1	68
+DTP	Date Or Time Or Period	D	O	0	999999	69
+REF	Reference Information	D	O	0	999999	70
+LS	Loop Header	D	O	0	1	71
+LX	Transaction Set Line Number	D	O	999999	1	72
+III	Information	D	O	999999	1	73
+IMP	Impairment Detail	D	O	0	6	74
+DTP	Date Or Time Or Period	D	O	0	999999	75
+CRC	Conditions Indicator	D	O	0	9	76
+QTY	Quantity Information	D	O	0	999999	77
+REF	Reference Information	D	O	0	999999	78
+LM	Code Source Information	D	O	999999	1	79
+LQ	Industry Code Identification	D	M	0	999999	80
+NM1	Individual Or Organizational Name	D	O	999	1	81
+N2	Additional Name Information	D	O	0	1	82
+N3	Party Location	D	O	0	2	83
+N4	Geographic Location	D	O	0	1	84
+PER	Administrative Communications Contact	D	O	0	2	85
+ACT	Account Identification	D	O	0	9	86
+DTP	Date Or Time Or Period	D	O	0	999999	87
+DMG	Demographic Information	D	O	0	1	88
+REF	Reference Information	D	O	0	999999	89
+CRC	Conditions Indicator	D	O	0	999999	90
+LE	Loop Trailer	D	O	0	1	91
+CFI	Compensation Financial Information	D	O	999	1	92
+CUR	Currency	D	O	0	1	93
+AMT	Monetary Amount Information	D	O	0	9	94
+DTP	Date Or Time Or Period	D	O	0	999999	95
+QTY	Quantity Information	D	O	0	999999	96
+REL	Relationship	D	O	0	30	97
+REF	Reference Information	D	O	0	9	98
+CRC	Conditions Indicator	D	O	0	999999	99
+AD1	Adjustment Amount	D	O	999	1	100
+DTP	Date Or Time Or Period	D	O	0	999999	101
+REF	Reference Information	D	O	0	999999	102
+NM1	Individual Or Organizational Name	D	O	999	1	103
+N2	Additional Name Information	D	O	0	1	104
+N3	Party Location	D	O	0	2	105
+N4	Geographic Location	D	O	0	1	106
+PER	Administrative Communications Contact	D	O	0	2	107
+ACT	Account Identification	D	O	0	9	108
+DTP	Date Or Time Or Period	D	O	0	9	109
+DMG	Demographic Information	D	O	0	1	110
+REF	Reference Information	D	O	0	9	111
+GRI	Statistical Government Information	S	O	0	99	112

@@ -1,0 +1,46 @@
+id	definition
+01	Clear
+02	Hazy
+03	Excess
+04	Some
+05	Undetectable
+06	Trace
+07	Yes
+08	Closed
+09	Pass
+10	Present
+11	Gel
+12	OK
+13	Slight
+14	No Good
+15	Marginal
+16	Nil
+17	Oil Free
+18	Open
+19	Free
+20	No
+21	Checked
+22	Fail
+23	Absent
+24	Good
+25	Fair
+26	Poor
+27	Excellent
+28	Bright
+29	To Be Determined
+40	Balance
+41	Complete
+42	Low
+44	Not Applicable
+45	Not Determined
+46	Negligible
+48	Moderate
+49	Appreciable
+50	Not Available
+51	Conforming
+52	Non-conforming
+Q1	First Quality
+Q2	Second Quality
+TA	Too Numerous to Count
+TB	New
+ZZ	Mutually Defined

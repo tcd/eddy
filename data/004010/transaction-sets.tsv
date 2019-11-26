@@ -1,0 +1,325 @@
+code	functional group	description	group code	group name	notes	category
+100	PG	Insurance Plan Description	X12N	Insurance		
+101	NL	Name and Address Lists	X12M	Supply Chain		
+102	AC	Associated Data	X12C	Communications & Controls		
+103	AB	Abandoned Property Filings	X12F	Finance		
+104	SA	Air Shipment Information	X12I	Transportation		
+105	BF	Business Entity Filings	X12F	Finance		
+106	MH	Motor Carrier Rate Proposal	X12I	Transportation		
+107	MC	Request for Motor Carrier Rate Proposal	X12I	Transportation		
+108	MK	Response to a Motor Carrier Rate Proposal	X12I	Transportation		
+109	VE	Vessel Content Details	X12I	Transportation		
+110	IA	Air Freight Details and Invoice	X12I	Transportation		
+111	IF	Individual Insurance Policy and Client Information	X12N	Insurance		
+112	PQ	Property Damage Report	X12N	Insurance		
+113	CL	Election Campaign and Lobbyist Reporting	X12F	Finance		
+120	VC	Vehicle Shipping Order	X12I	Transportation		
+121	VS	Vehicle Service	X12I	Transportation		
+124	VD	Vehicle Damage	X12N	Insurance		
+125	MR	Multilevel Railcar Load Details	X12I	Transportation		
+126	VA	Vehicle Application Advice	X12I	Transportation		
+127	VB	Vehicle Baying Order	X12I	Transportation		
+128	DI	Dealer Information	X12I	Transportation		
+129	VH	Vehicle Carrier Rate Update	X12I	Transportation		
+130	ED	Student Educational Record (Transcript)	X12F	Finance		
+131	AK	Student Educational Record (Transcript) Acknowledgment	X12F	Finance		
+132	HU	Human Resource Information	X12F	Finance		
+133	CW	Educational Institution Record	X12F	Finance		
+135	SL	Student Aid Origination Record	X12F	Finance		
+138	TT	Educational Testing and Prospect Request and Report	X12F	Finance		
+139	SL	Student Loan Guarantee Result	X12F	Finance		
+140	WA	Product Registration	X12M	Supply Chain		
+141	WA	Product Service Claim Response	X12M	Supply Chain		
+142	WA	Product Service Claim	X12M	Supply Chain		
+143	WA	Product Service Notification	X12M	Supply Chain		
+144	LT	Student Loan Transfer and Status Verification	X12F	Finance		
+146	RY	Request for Student Educational Record (Transcript)	X12F	Finance		
+147	RZ	Response to Request for Student Educational Record (Transcript)	X12F	Finance		
+148	IJ	Report of Injury, Illness or Incident	X12N	Insurance		
+149	NT	Notice of Tax Adjustment or Assessment	X12F	Finance		
+150	TN	Tax Rate Notification	X12F	Finance		
+151	TA	Electronic Filing of Tax Return Data Acknowledgment	X12F	Finance		
+152	GR	Statistical Government Information	X12F	Finance		
+153	CB	Unemployment Insurance Tax Claim or Charge Information	X12F	Finance		
+154	UC	Secured Interest Filing	X12F	Finance		
+155	BC	Business Credit Report	X12F	Finance		
+157	NP	Notice of Power of Attorney	X12F	Finance		
+158	TJ	Tax Jurisdiction Sourcing	X12F	Finance		
+159	MP	Motion Picture Booking Confirmation	X12M	Supply Chain		
+160	SJ	Transportation Automatic Equipment Identification	X12I	Transportation		
+161	TR	Train Sheet	X12I	Transportation		
+163	AS	Transportation Appointment Schedule Information	X12I	Transportation		
+170	ER	Revenue Receipts Statement	X12M	Supply Chain		
+175	FC	Court and Law Enforcement Notice	X12F	Finance		
+176	FC	Court Submission	X12F	Finance		
+179	EP	Environmental Compliance Reporting	X12F	Finance		
+180	AN	Return Merchandise Authorization and Notification	X12M	Supply Chain		
+185	RD	Royalty Regulatory Report	X12F	Finance		
+186	UW	Insurance Underwriting Requirements Reporting	X12N	Insurance		
+187	AE	Premium Audit Request and Return	X12N	Insurance		
+188	EC	Educational Course Inventory	X12F	Finance		
+189	AF	Application for Admission to Educational Institutions	X12F	Finance		
+190	SV	Student Enrollment Verification	X12F	Finance		
+191	SD	Student Loan Pre-Claims and Claims	X12F	Finance		
+194	GT	Grant or Assistance Application	X12F	Finance		
+195	LA	Federal Communications Commission (FCC) License Application	X12F	Finance		
+196	PK	Contractor Cost Data Reporting	X12F	Finance		
+197	TO	Real Estate Title Evidence	X12F	Finance		
+198	ME	Loan Verification Information	X12F	Finance		
+199	TO	Real Estate Settlement Information	X12F	Finance		
+200	ME	Mortgage Credit Report	X12F	Finance		
+201	ME	Residential Loan Application	X12F	Finance		
+202	MJ	Secondary Mortgage Market Loan Delivery	X12F	Finance		
+203	MG	Secondary Mortgage Market Investor Report	X12F	Finance		
+204	SM	Motor Carrier Load Tender	X12I	Transportation		
+205	MN	Mortgage Note	X12F	Finance		
+206	MG	Real Estate Inspection	X12F	Finance		
+210	IM	Motor Carrier Freight Details and Invoice	X12I	Transportation		
+211	BL	Motor Carrier Bill of Lading	X12I	Transportation		
+212	TM	Motor Carrier Delivery Trailer Manifest	X12I	Transportation		
+213	MI	Motor Carrier Shipment Status Inquiry	X12I	Transportation		
+214	QM	Transportation Carrier Shipment Status Message	X12I	Transportation		
+215	UP	Motor Carrier Pickup Manifest	X12I	Transportation		
+216	PU	Motor Carrier Shipment Pickup Notification	X12I	Transportation		
+217	FG	Motor Carrier Loading and Route Guide	X12I	Transportation		
+218	FH	Motor Carrier Tariff Information	X12I	Transportation	not listed on x12.org	
+219	AB	Logistics Service Request	X12I	Transportation		
+220	AH	Logistics Service Response	X12I	Transportation		
+222	CE	Cartage Work Assignment	X12I	Transportation		
+223	MQ	Consolidators Freight Bill and Invoice	X12I	Transportation		
+224	MA	Motor Carrier Summary Freight Bill Manifest	X12I	Transportation		
+225	MY	Response to a Cartage Work Assignment	X12I	Transportation		
+227	TU	Trailer Usage Report	X12I	Transportation		
+228	EN	Equipment Inspection Report	X12I	Transportation		
+240	MZ	Motor Carrier Package Status	X12I	Transportation		
+242	DS	Data Status Tracking	X12C	Communications & Controls		
+244	PN	Product Source Information	X12M	Supply Chain		
+245	ME	Real Estate Tax Service Response	X12F	Finance		
+248	SU	Account Assignment/Inquiry and Service/Status	X12F	Finance		
+249	AT	Animal Toxicological Data	X12M	Supply Chain		
+250	PV	Purchase Order Shipment Management Document	X12I	Transportation		
+251	CP	Pricing Support	X12M	Supply Chain		
+252	IE	Insurance Producer Administration	X12N	Insurance		
+255	UI	Underwriting Information Services	X12N	Insurance		
+256	PE	Periodic Compensation	X12N	Insurance		
+259	MG	Residential Mortgage Insurance Explanation of Benefits	X12F	Finance		
+260	MG	Application for Mortgage Insurance Benefits	X12F	Finance		
+261	ME	Real Estate Information Request	X12F	Finance		
+262	ME	Real Estate Information Report	X12F	Finance		
+263	ME	Residential Mortgage Insurance Application Response	X12F	Finance		
+264	MG	Mortgage Loan Default Status	X12F	Finance		
+265	TO	Real Estate Title Insurance Services Order	X12F	Finance		
+266	MG	Mortgage or Property Record Change Notification	X12F	Finance		
+267	AD	Individual Life, Annuity and Disability Application	X12N	Insurance		
+268	PF	Annuity Activity	X12N	Insurance		
+269	HV	Health Care Benefit Coordination Verification	X12N	Insurance		
+270	HS	Eligibility, Coverage or Benefit Inquiry	X12N	Insurance		
+271	HB	Eligibility, Coverage or Benefit Information	X12N	Insurance		
+272	LN	Property and Casualty Loss Notification	X12N	Insurance		
+273	ID	Insurance/Annuity Application Status	X12N	Insurance		
+274	PW	Healthcare Provider Information	X12N	Insurance		
+275	PI	Patient Information	X12N	Insurance		
+276	HR	Health Care Claim Status Request	X12N	Insurance		
+277	HN	Health Care Information Status Notification	X12N	Insurance		
+278	HI	Health Care Services Review Information	X12N	Insurance		
+280	VI	Voter Registration Information	X12F	Finance		
+283	TE	Tax or Fee Exemption Certification	X12F	Finance		
+284	IH	Commercial Vehicle Safety Reports	X12I	Transportation		
+285	CV	Commercial Vehicle Safety and Credentials Information Exchange	X12I	Transportation		
+286	KM	Commercial Vehicle Credentials	X12I	Transportation		
+288	WI	Wage Determination	X12F	Finance		
+290	CO	Cooperative Advertising Agreements	X12M	Supply Chain		
+300	RO	Reservation (Booking Request) (Ocean)	X12I	Transportation		
+301	RO	Confirmation (Ocean)	X12I	Transportation		
+303	RO	Booking Cancellation (Ocean)	X12I	Transportation		
+304	SO	Shipping Instructions	X12I	Transportation		
+309	AQ	Customs Manifest	X12I	Transportation		
+310	IO	Freight Receipt and Invoice (Ocean)	X12I	Transportation		
+311	SO	Canada Customs Information	X12I	Transportation		
+312	IO	Arrival Notice (Ocean)	X12I	Transportation		
+313	QO	Shipment Status Inquiry (Ocean)	X12I	Transportation		
+315	QO	Status Details (Ocean)	X12I	Transportation		
+317	SO	Delivery/Pickup Order	X12I	Transportation		
+319	SO	Terminal Information	X12I	Transportation		
+322	SO	Terminal Operations and Intermodal Ramp Activity	X12I	Transportation		
+323	SO	Vessel Schedule and Itinerary (Ocean)	X12I	Transportation		
+324	SO	Vessel Stow Plan (Ocean)	X12I	Transportation		
+325	SO	Consolidation of Goods In Container	X12I	Transportation		
+326	SO	Consignment Summary List	X12I	Transportation		
+350	AU	Customs Status Information	X12I	Transportation		
+352	AV	Customs Carrier General Order Status	X12I	Transportation		
+353	AX	Customs Events Advisory Details	X12I	Transportation		
+354	AY	Customs Automated Manifest Archive Status	X12I	Transportation		
+355	AZ	Customs Acceptance/Rejection	X12I	Transportation		
+356	BA	Customs Permit to Transfer Request	X12I	Transportation		
+357	BB	Customs In-Bond Information	X12I	Transportation		
+358	BD	Customs Consist Information	X12I	Transportation		
+359	BG	Customs Customer Profile Management	X12I	Transportation		
+361	SO	Carrier Interchange Agreement (Ocean)	X12I	Transportation		
+362	OC	Cargo Insurance Advice of Shipment	X12N	Insurance		
+404	SR	Rail Carrier Shipment Information	X12I	Transportation		
+410	IR	Rail Carrier Freight Details and Invoice	X12I	Transportation		
+412	TB	Trailer or Container Repair Billing	X12I	Transportation		
+414	CR	Rail Carhire Settlements	X12I	Transportation		
+417	WB	Rail Carrier Waybill Interchange	X12I	Transportation		
+418	IC	Rail Advance Interchange Consist	X12I	Transportation		
+419	SR	Advance Car Disposition	X12I	Transportation		
+420	CH	Car Handling Information	X12I	Transportation		
+421	IS	Estimated Time of Arrival and Car Scheduling	X12I	Transportation		
+422	DM	Equipment Order	X12I	Transportation		
+423	RL	Rail Industrial Switch List	X12I	Transportation		
+424	SB	Rail Carrier Services Settlement	X12I	Transportation		
+425	WT	Rail Waybill Request	X12I	Transportation		
+426	RW	Rail Revenue Waybill	X12I	Transportation		
+429	RU	Railroad Retirement Activity	X12I	Transportation		
+431	RM	Railroad Station Master File	X12I	Transportation		
+432	RX	Rail Car Hire Rate Negotiation	X12I	Transportation		
+433	RH	Railroad Reciprocal Switch File	X12I	Transportation		
+434	RJ	Railroad Mark Register Update Activity	X12I	Transportation		
+435	RK	Standard Transportation Commodity Code Master	X12I	Transportation		
+436	LI	Locomotive Information	X12I	Transportation		
+437	RV	Railroad Junctions and Interchanges Activity	X12I	Transportation		
+440	WR	Shipment Weights	X12I	Transportation		
+451	EV	Railroad Event Report	X12I	Transportation		
+452	PL	Railroad Problem Log Inquiry or Advice	X12I	Transportation		
+453	ST	Railroad Service Commitment Advice	X12I	Transportation		
+455	PB	Railroad Parameter Trace Registration	X12I	Transportation		
+456	EI	Railroad Equipment Inquiry or Advice	X12I	Transportation		
+460	TP	Railroad Price Distribution Request or Response	X12I	Transportation		
+463	TP	Rail Rate Reply	X12I	Transportation		
+466	TP	Rate Request	X12I	Transportation		
+468	TP	Rate Docket Journal Log	X12I	Transportation		
+470	RB	Railroad Clearance	X12I	Transportation		
+475	SN	Rail Route File Maintenance	X12I	Transportation		
+485	TP	Ratemaking Action	X12I	Transportation		
+486	TP	Rate Docket Expiration	X12I	Transportation		
+490	TP	Rate Group Definition	X12I	Transportation		
+492	TP	Miscellaneous Rates	X12I	Transportation		
+494	TP	Rail Scale Rates	X12I	Transportation		
+500	MM	Medical Event Reporting	X12N	Insurance		
+501	WG	Vendor Performance Review	X12M	Supply Chain		
+503	PH	Pricing History	X12M	Supply Chain		
+504	CC	Clauses and Provisions	X12M	Supply Chain		
+511	RN	Requisition	X12M	Supply Chain		
+517	MV	Material Obligation Validation	X12M	Supply Chain		
+521	AO	Income or Asset Offset	X12F	Finance		
+527	MD	Material Due-In and Receipt	X12F	Finance		
+536	LR	Logistics Reassignment	X12M	Supply Chain		
+540	ES	Notice of Employment Status	X12F	Finance		
+561	D4	Contract Abstract	X12M	Supply Chain		
+567	D3	Contract Completion Status	X12M	Supply Chain		
+568	D5	Contract Payment Management Report	X12M	Supply Chain		
+601	SE	Customs Export Shipment Information	X12I	Transportation		
+602	TS	Transportation Services Tender	X12I	Transportation		
+603	TS	Transportation Equipment Registration	X12I	Transportation		
+620	EX	Excavation Communication	X12M	Supply Chain		
+625	WL	Well Information	X12M	Supply Chain		
+650	MO	Maintenance Service Order	X12M	Supply Chain		
+715	GL	Intermodal Group Loading Plan	X12I	Transportation		
+753	RF	Request for Routing Instructions	X12M	Supply Chain		
+754	RG	Routing Instructions	X12M	Supply Chain		
+805	CP	Contract Pricing Proposal	X12M	Supply Chain		
+806	PJ	Project Schedule Reporting	X12M	Supply Chain		
+810	IN	Invoice	X12F	Finance		
+811	CI	Consolidated Service Invoice/Statement	X12F	Finance		
+812	CD	Credit/Debit Adjustment	X12F	Finance		
+813	TF	Electronic Filing of Tax Return Data	X12F	Finance		
+814	GE	General Request, Response or Confirmation	X12F	Finance		
+815	CS	Cryptographic Service Message	X12C	Communications & Controls		
+816	OR	Organizational Relationships	X12M	Supply Chain		
+818	RP	Commission Sales Report	X12M	Supply Chain		
+819	JB	Joint Interest Billing and Operating Expense Statement	X12F	Finance		
+820	RA	Payment Order/Remittance Advice	X12F	Finance		
+821	FR	Financial Information Reporting	X12F	Finance		
+822	AA	Account Analysis	X12F	Finance		
+823	LB	Lockbox	X12F	Finance		
+824	AG	Application Advice	X12F	Finance		
+826	TI	Tax Information Exchange	X12F	Finance		
+827	FR	Financial Return Notice	X12F	Finance		
+828	DA	Debit Authorization	X12F	Finance		
+829	PY	Payment Cancellation Request	X12F	Finance		
+830	PS	Planning Schedule with Release Capability	X12M	Supply Chain		
+831	CT	Application Control Totals	X12F	Finance		
+832	SC	Price/Sales Catalog	X12M	Supply Chain		
+833	ME	Mortgage Credit Report Order	X12F	Finance		
+834	BE	Benefit Enrollment and Maintenance	X12N	Insurance		
+835	HP	Health Care Claim Payment/Advice	X12N	Insurance		
+836	RQ	Procurement Notices	X12M	Supply Chain		
+837	HC	Health Care Claim	X12N	Insurance		
+838	TD	Trading Partner Profile	X12M	Supply Chain		
+839	PK	Project Cost Reporting	X12M	Supply Chain		
+840	RQ	Request for Quotation	X12M	Supply Chain		
+841	SP	Specifications/Technical Information	X12M	Supply Chain		
+842	NC	Nonconformance Report	X12M	Supply Chain		
+843	RR	Response to Request for Quotation	X12M	Supply Chain		
+844	CF	Product Transfer Account Adjustment	X12F	Finance		
+845	PA	Price Authorization Acknowledgment/Status	X12M	Supply Chain		
+846	IB	Inventory Inquiry/Advice	X12M	Supply Chain		
+847	MX	Material Claim	X12M	Supply Chain		
+848	MS	Material Safety Data Sheet	X12M	Supply Chain		
+849	CF	Response to Product Transfer Account Adjustment	X12F	Finance		
+850	PO	Purchase Order	X12M	Supply Chain		
+851	LS	Asset Schedule	X12M	Supply Chain		
+852	PD	Product Activity Data	X12M	Supply Chain		
+853	RI	Routing and Carrier Instruction	X12M	Supply Chain		
+854	DD	Shipment Delivery Discrepancy Information	X12I	Transportation		
+855	PR	Purchase Order Acknowledgment	X12M	Supply Chain		
+856	SH	Ship Notice/Manifest	X12M	Supply Chain		
+857	BS	Shipment and Billing Notice	X12M	Supply Chain		
+858	SI	Shipment Information	X12I	Transportation		
+859	FB	Freight Invoice	X12I	Transportation		
+860	PC	Purchase Order Change Request - Buyer Initiated	X12M	Supply Chain		
+861	RC	Receiving Advice/Acceptance Certificate	X12M	Supply Chain		
+862	SS	Shipping Schedule	X12M	Supply Chain		
+863	RT	Report of Test Results	X12M	Supply Chain		
+864	TX	Text Message	X12C	Communications & Controls		
+865	CA	Purchase Order Change Acknowledgment/Request - Seller Initiated	X12M	Supply Chain		
+866	SQ	Production Sequence	X12M	Supply Chain		
+867	PT	Product Transfer and Resale Report	X12M	Supply Chain		
+868	MT	Electronic Form Structure	X12C	Communications & Controls		
+869	RS	Order Status Inquiry	X12M	Supply Chain		
+870	RS	Order Status Report	X12M	Supply Chain		
+871	CM	Component Parts Content	X12M	Supply Chain	not listed on x12.org	
+872	ME	Residential Mortgage Insurance Application	X12F	Finance		
+873	CU	Commodity Movement Services	X12M	Supply Chain		
+874	CQ	Commodity Movement Services Response	X12M	Supply Chain		
+875	OG	Grocery Products Purchase Order	X12M	Supply Chain		
+876	OG	Grocery Products Purchase Order Change	X12M	Supply Chain		
+877	CJ	Manufacturer Coupon Family Code Structure	X12M	Supply Chain		
+878	QG	Product Authorization/De-authorization	X12M	Supply Chain		
+879	QG	Price Information	X12M	Supply Chain		
+880	GP	Grocery Products Invoice	X12F	Finance		
+881	CN	Manufacturer Coupon Redemption Detail	X12M	Supply Chain		
+882	IG	Direct Store Delivery Summary Information	X12M	Supply Chain		
+883	DF	Market Development Fund Allocation	X12M	Supply Chain		
+884	MF	Market Development Fund Settlement	X12M	Supply Chain		
+885	UA	Retail Account Characteristics	X12M	Supply Chain		
+886	UB	Customer Call Reporting	X12M	Supply Chain		
+887	CN	Coupon Notification	X12M	Supply Chain		
+888	QG	Item Maintenance	X12M	Supply Chain		
+889	QG	Promotion Announcement	X12M	Supply Chain		
+890	??	Contract & Rebate Management Transaction	X12M	Supply Chain		
+891	UD	Deduction Research Report	X12M	Supply Chain		
+892	WG	Trading Partner Performance Measurement	X12M	Supply Chain	v7020?	
+893	AM	Item Information Request	X12M	Supply Chain		
+894	DX	Delivery/Return Base Record	X12M	Supply Chain		
+895	DX	Delivery/Return Acknowledgment or Adjustment	X12M	Supply Chain		
+896	QG	Product Dimension Maintenance	X12M	Supply Chain		
+897	SC	Data Synchronization	X12M	Supply Chain		
+920	GC	Loss or Damage Claim - General Commodities	X12I	Transportation		
+924	GC	Loss or Damage Claim - Motor Vehicle	X12I	Transportation		
+925	GC	Claim Tracer	X12I	Transportation		
+926	GC	Claim Status Report and Tracer Reply	X12I	Transportation		
+928	AI	Automotive Inspection Detail	X12I	Transportation		
+940	OW	Warehouse Shipping Order	X12M	Supply Chain		
+943	AR	Warehouse Stock Transfer Shipment Advice	X12M	Supply Chain		
+944	RE	Warehouse Stock Transfer Receipt Advice	X12M	Supply Chain		
+945	SW	Warehouse Shipping Advice	X12M	Supply Chain		
+947	AW	Warehouse Inventory Adjustment Advice	X12M	Supply Chain		
+980	N/A	Functional Group Totals	X12I	Transportation		
+990	GF	Response to a Load Tender	X12I	Transportation		
+993	NR	Secured Receipt or Acknowledgment	X12C	Communications & Controls		
+996	FT	File Transfer	X12C	Communications & Controls		
+997	FA	Functional Acknowledgment	X12C	Communications & Controls		
+998	AL	Set Cancellation	X12I	Transportation		
+999	FA	Implementation Acknowledgment	X12C	Communications & Controls		

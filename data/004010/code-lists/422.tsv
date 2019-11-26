@@ -1,0 +1,71 @@
+id	definition
+01	Product Allocation
+02	Number of Buy Restriction
+03	Promotion Period Restriction
+04	Special Promotional Discount Terms
+05	Number of Shipment Restrictions
+06	Minimum Order Quantity Required
+07	Minimum Order Quantity Required - Any Combination of Products
+10	Ad, Size Not Specified
+11	Ad, 1 Col Inch
+12	Ad, 2 Col Inch
+13	Ad, 3 Col Inch
+14	Ad, 4 Col Inch
+15	Ad, 5 Col Inch
+16	Ad, 6 Col Inch or Greater
+17	Ad, Full Page
+18	Ad, Half Page
+19	Ad, Quarter Page
+20	Ad, Coupon
+21	Ad, Color
+22	Ad, Product Illustration
+23	Ad, National Line Rate
+25	Ad, Roto
+26	Ad, Free Standing
+28	Ad, Window Signs
+32	Ad, Price Reduction
+33	Ad, Circulars
+34	Ad, Television
+35	Ad, Radio
+36	Ad, Handbill
+37	Ad, Newspaper Insert
+39	Ad, See Free Form Message
+40	Display
+41	Display, End Aisle
+42	Display, Aisle Stack
+44	Display, Cases per Store
+45	Display, Number of Days
+46	Display, Shelf Extender
+49	Display, Number of Stores
+51	Display, Price Reduction
+59	Display, See Free Form Message
+60	Reduced Price
+61	Reduced Price, Number of Days
+62	Reduced Price With Shelf Sign
+63	Reduced Price, In Price/Order Guide
+64	Reduced Price, In Store Coupons
+69	Reduced Price, See Free Form Message
+70	Retail Distribution (One Case per Store)
+71	Retail Distribution (X Cases per Store)
+72	Retail Distribution (X Number of Stores)
+79	Retail Distribution
+81	Accrual Limit
+82	Flat Limit
+83	Number of Required Promotion Performances
+84	Product Scanning Report Required
+88	Advertisement or Display or Reduced Price
+99	See Free Form Text
+A1	Ad, Size A
+A2	Ad, Size B
+A3	Ad, Size C
+A4	In-Store Electronics
+A5	Ad, Double Page
+B1	Every Day Low Pricing
+B2	Demonstration Required
+B3	Ad, Predominant With Reduced Price
+C1	Value Pack Program
+C2	Educational Program
+C3	Freestanding Shipper Display
+C4	Refrigerated Table
+WR	Warehouse Withdrawal Report Required
+ZZ	Mutually Defined

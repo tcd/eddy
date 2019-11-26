@@ -1,0 +1,15 @@
+id	definition
+1	Origin Rail
+2	Inbound Interchange
+3	Railroad Interchange
+4	Destination Ramp
+5	Dealer
+6	Factory Gate
+7	Origin Cursory-Rail
+8	Destination Cursory-Rail
+9	Outbound Compound
+90	Delivery with Notification
+96	Intermediate Delivery
+97	Outbound Intermediate Location
+98	Delivery Receipts
+99	Delivery Letter of Notification

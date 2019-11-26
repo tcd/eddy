@@ -1,0 +1,138 @@
+id	definition
+01	Cancel After This Date
+02	Delivery Requested on This Date
+03	Invoice Date
+04	Purchase Order Date
+05	Sailing Date
+06	Sold Date
+07	Effective Date
+08	Purchase Order Received
+09	Process Date
+10	Requested Ship Date/Pick-up Date
+11	Shipped on This Date
+12	Terms Discount Due Date
+13	Terms Net Due Date
+14	Preferred Payment Date
+15	Promotion Start
+16	Promotion End
+17	Estimated Delivery Date
+18	Date Available/Constructive Replacement
+19	Date Unloaded
+20	Check Date
+21	Charge Back Date
+22	Freight Bill Date
+23	Promotion Order Date - Start
+24	Promotion Order Date - End
+25	Promotion Ship Date - Start
+26	Promotion Ship Date - End
+27	Promotion Requested Delivery Date - Start
+28	Promotion Requested Delivery Date - End
+29	Promotion Performance Date - Start
+30	Promotion Performance Date - End
+31	Promotion Invoice Protection Date - Start
+32	Promotion Invoice Protection Date - End
+33	Promotion Floor Stock Protect - Start
+34	Promotion Floor Stock Protect - End
+35	Delivered on This Date
+36	Expiration Date
+37	Ship Not Before Date
+38	Ship Not Later Than Date
+39	Ship Week Of Date
+40	Original Purchase Order Date
+41	Date Invoice Created
+42	Buy Period Date - Start
+43	Buy Period Date - End
+44	Arrival at Destination Yard
+45	Notified
+46	Actual Placement
+47	Released
+48	Customs Release
+49	Duty Paid
+50	Charged From
+51	Charged To
+52	Ordered
+53	Deliver Not Before Date
+54	Deliver No Later Than Date
+55	Deliver Week Of
+56	Actual Free Time Expiration Date
+57	Guarantee Expiration Date
+58	Price Change Last Order Date
+59	Price Change Last Arrival Date
+60	Price Change Last Ship Date
+61	Price Change Effective Date
+62	Accrual Start Date
+63	Accrual End Date
+64	Must Respond By
+67	Delivered By This Date
+68	Requested Delivery Date
+69	Scheduled Pick-Up Date
+70	Scheduled Delivery Date
+71	Est. Next Promo. Date Start
+72	Est. Next Promo. Date End
+73	Est. Next Promo. Ship Date Start
+74	Estimated Next Promotion Ship Date End
+76	Bill of Lading
+77	Pickup Appointment Scheduled Date
+78	Delivery Appointment Scheduled Date
+79	Pickup Requested Scheduled Date
+80	Delivery Requested Scheduled Date
+81	Pickup Appointment Granted Date
+82	Delivery Appointment Granted Date
+83	Equipment Furnished Date
+84	Bill of Lading Initiated Date
+85	Date Issued
+86	Actual Pickup Date
+87	First Order Date
+88	First Ship Date
+89	First Arrival Date
+90	Requested Pack Date
+91	Superseded Date
+92	Spot for Load Date
+93	Spot for Unload Date
+94	Spot for Storage Date (No Shipment)
+95	Spot for Load Exchange Date (Export)
+96	Scheduled Pick-up Date, Needs Confirmation
+97	Scheduled Delivery Date, Needs Confirmation
+98	Scheduled Pick-up Date, Appointment Confirmed
+99	Scheduled Delivery Date, Appointment Confirmed
+AA	Store Inventory Stock
+AB	Warehouse Inventory Stock
+BB	Transaction Control Date
+BC	Publication Date
+BD	Required By
+BE	Validated
+BF	Pack Date
+BG	Backorder Release Date
+BH	Offered for Delivery
+BI	Inspection
+BJ	Shelf-Life Expiration
+BK	Warranty Expiration
+BL	Manufacture
+BM	Contract Physically Completed
+BN	Contract Final Payment
+BO	Estimated Contract Completion
+BP	Contract Closed
+BQ	Extended Closeout
+BR	Date Delivery Commenced
+BS	Product Receipt Date
+BT	Acceptance
+BU	Rejection
+BV	Recorded
+BW	Signature
+BX	Action
+BY	Expected Reply
+BZ	Demand Receipt Date
+CA	Cutoff Date
+CB	Beginning Date of Customer Plant Shutdown
+CE	Ending Date of Customer Plant Shutdown
+CL	Date Loading Completed
+EP	Earliest Pickup Date
+KA	Scheduled Service Completion
+LA	Last Acquisition
+LC	Date Loading Commenced
+LD	Last Demand
+LP	Latest Pickup Date
+PE	Period End
+SE	Date Shipped to Port of Embarkation (POE)
+TA	Original Transaction
+TR	Transfer

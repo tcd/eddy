@@ -1,0 +1,68 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+PWK	Paperwork	H	O	0	999999	2
+CUR	Currency	H	O	0	1	3
+LUI	Language Use	H	O	0	1	4
+AMT	Monetary Amount Information	H	O	999999	1	5
+PDL	Payment Details	H	O	0	1	6
+REF	Reference Information	H	O	0	999999	7
+DTM	Date/Time Reference	H	O	0	1	8
+CUR	Currency	H	O	0	1	9
+NM1	Individual Or Organizational Name	H	M	999999	1	10
+N2	Additional Name Information	H	O	0	999999	11
+N3	Party Location	H	O	0	2	12
+N4	Geographic Location	H	O	0	1	13
+REF	Reference Information	H	O	0	999999	14
+PER	Administrative Communications Contact	H	O	0	999999	15
+DTM	Date/Time Reference	H	O	0	999999	16
+LM	Code Source Information	H	O	999999	1	17
+LQ	Industry Code Identification	H	M	0	999999	18
+HL	Hierarchical Level	D	M	999999	1	19
+DTM	Date/Time Reference	D	O	0	999999	20
+LM	Code Source Information	D	O	999999	1	21
+LQ	Industry Code Identification	D	M	0	999999	22
+NM1	Individual Or Organizational Name	D	O	999999	1	23
+NX1	Property Or Entity Identification	D	O	0	2	24
+N2	Additional Name Information	D	O	0	999999	25
+N3	Party Location	D	O	0	2	26
+N4	Geographic Location	D	O	0	999999	27
+PER	Administrative Communications Contact	D	O	0	999999	28
+DTM	Date/Time Reference	D	O	0	999999	29
+QTY	Quantity Information	D	O	0	999999	30
+PCT	Percent Amounts	D	O	0	999999	31
+LUI	Language Use	D	O	0	999999	32
+TPB	Business Professional Title	D	O	0	999999	33
+PWK	Paperwork	D	O	0	999999	34
+AMT	Monetary Amount Information	D	O	999999	1	35
+DTM	Date/Time Reference	D	O	0	999999	36
+CUR	Currency	D	O	0	1	37
+NX2	Location Id Component	D	O	999999	1	38
+DTM	Date/Time Reference	D	O	0	999999	39
+AMT	Monetary Amount Information	D	O	0	999999	40
+CUR	Currency	D	O	0	1	41
+REF	Reference Information	D	O	999999	1	42
+DTM	Date/Time Reference	D	O	0	999999	43
+LX	Transaction Set Line Number	D	O	999999	1	44
+MTX	Text	D	O	0	999999	45
+DTM	Date/Time Reference	D	O	0	999999	46
+NX2	Location Id Component	D	O	0	999999	47
+REF	Reference Information	D	O	0	999999	48
+LM	Code Source Information	D	O	999999	1	49
+LQ	Industry Code Identification	D	M	999999	1	50
+LIN	Item Identification	D	O	0	999999	51
+DTM	Date/Time Reference	D	O	0	999999	52
+QTY	Quantity Information	D	O	0	999999	53
+NX2	Location Id Component	D	O	0	999999	54
+AMT	Monetary Amount Information	D	O	0	999999	55
+PCT	Percent Amounts	D	O	0	999999	56
+PDL	Payment Details	D	O	0	999999	57
+PWK	Paperwork	D	O	0	999999	58
+CUR	Currency	D	O	0	1	59
+CDS	Case Description	D	O	0	1	60
+MTX	Text	D	O	0	999999	61
+REF	Reference Information	D	O	999999	1	62
+AMT	Monetary Amount Information	D	O	0	1	63
+DTM	Date/Time Reference	D	O	0	999999	64
+CUR	Currency	D	O	0	1	65
+EFI	Electronic Format Identification	D	O	999999	1	66
+BIN	Binary Data Segment	D	O	0	1	67

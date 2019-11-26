@@ -1,0 +1,4 @@
+id	description	section	req	max_loop	max_usage	pos
+ZT	Waybill Request Information	H	M	255	1	1
+F9	Origin Station	H	O	0	1	2
+D9	Destination Station	H	O	0	1	3

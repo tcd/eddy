@@ -1,0 +1,118 @@
+id	definition
+01	Government Property Required
+02	Government Property Not Required
+03	Contract Financing Required
+04	Contract Financing Not Required
+05	Awarded Contract for the Same or Similar Items
+06	Not Awarded Contract for the Same or Similar Items
+07	Proposal Consistent with Established Practices, Procedures, and Principles
+08	Proposal Not Consistent with Established Practices, Procedures, and Principles
+09	Contract Subject to Cost Accounting Standards Board (CASB) Regulations
+10	Contract Not Subject to Cost Accounting Standards Board (CASB) Regulations
+11	Adequate Cost Accounting Standards Board (CASB) Disclosure Statement Submitted
+12	Inadequate Cost Accounting Standards Board (CASB) Disclosure Statement Determined
+13	Cost Accounting Standards Board (CASB) Disclosure Statement Not Submitted
+14	Notified of Actual or Potential Disclosure Statement or Cost Accounting Standards Board (CASB) Noncompliance
+15	Not Notified of Actual or Potential Disclosure Statement or Cost Accounting Standards Board (CASB) Noncompliance
+16	Proposal Consistent with Disclosed Practices or Standards
+17	Proposal Not Consistent With Disclosed Practices or Standards
+18	Access to Communications Security Information Required
+19	Access to Communication Security Information Not Required
+20	Access to Restricted Data Required
+21	Access to Restricted Data Not Required
+22	Access to Critical Nuclear Weapon Design Information Required
+23	Access to Critical Nuclear Weapon Design Information Not Required
+24	Access to Formerly Restricted Data Required
+25	Access to Formerly Restricted Data Not Required
+26	Access to Sensitive Compartmented Information Required
+27	Access to Sensitive Compartmented Information Not Required
+28	Access to Non-sensitive Compartmented Information Required
+29	Access to Non-sensitive Compartmented Information Not Required
+30	Access to Special Access Information Required
+31	Access to Special Access Information Not Required
+32	Access to North Atlantic Treaty Organization Information Required
+33	Access to North Atlantic Treaty Organization Information Not Required
+34	Access to Foreign Government Information Required
+35	Access to Foreign Government Information Not Required
+36	Access to Limited Dissemination Information Required
+37	Access to Limited Dissemination Information Not Required
+38	Access to For Official Use Only Information Required
+39	Access to For Official Use Only Information Not Required
+40	Access to Other Type of Information Required
+41	Access to Other Type of Information Not Required
+42	Contractor Will Have Access to United States Classified Information at another Contractor's Facility or a Government Activity
+43	Contractor Will Not Have Access to United States Classified Information at another Contractor's Facility or a Government Activity
+44	Contractor Will Receive Classified Documents Only
+45	Contractor Will Not Receive Classified Documents Only
+46	Contractor Will Receive or Generate Classified Material
+47	Contractor Will Not Receive or Generate Classified Material
+48	Contractor Will Fabricate, Modify, or Store Classified Hardware
+49	Contractor Will Not Fabricate, Modify, or Store Classified Hardware
+50	Contractor Will Perform Services Only
+51	Contractor Will Not Perform Services Only
+52	Contractor Will Have Access to United States Classified Information outside the United States, Puerto Rico, United States Possessions and Trust Territories
+53	Contractor Will Not Have Access to United States Classified Information outside the United States, Puerto Rico, United States Possessions and Trust Territories
+54	Contractor Will Be Authorized to use the Services of Defense Technical Information Center or other Secondary Distribution Center
+55	Contractor Will Not Be Authorized to use the Services of Defense Technical Information Center or other Secondary Distribution Center
+56	Contractor Will Require a Communications Security Account
+57	Contractor Will Not Require a Communications Security Account
+58	Contractor Will Have Tempest Requirements
+59	Contractor Will Not Have Tempest Requirements
+60	Contractor Will Have Operations Security Requirements
+61	Contractor Will Not Have Operations Security Requirements
+62	Contractor Will Be Authorized to use the Defense Courier Service
+63	Contractor Will Not Be Authorized to use the Defense Courier Service
+64	Contractor Will Have some other Authorization in the Performance of the Contract
+65	Contractor Will Not Have some other Authorization in the Performance of the Contract
+66	Facility Clearance Required
+67	Facility Clearance Not Required
+68	Follow-on Contract
+69	Not a Follow-on Contract
+70	Final Contract Security Classification Specification
+71	Not a Final Contract Security Classification Specification
+72	Direct Public Release Authorized
+73	Direct Public Release Not Authorized
+74	Additional Materials being Forwarded
+75	No Additional Materials being Forwarded
+76	Additional Requirements Established
+77	Additional Requirements Not Established
+78	Elements of the Contract are outside the Inspection Responsibility of the Cognizant Security Office
+79	No Element of the Contract Is Outside the Inspection Responsibility of the Cognizant Security Office
+80	Contractor Distribution Required
+81	Contractor Distribution Not Required
+82	Subcontractor Distribution Required
+83	Subcontractor Distribution Not Required
+84	Cognizant Security Office for Prime and Subcontractor Distribution Required
+85	Cognizant Security Office for Prime and Subcontractor Distribution Not Required
+86	United States Activity Responsible for Overseas Security Administration Distribution Required
+87	United States Activity Responsible for Overseas Security Administration Distribution Not Required
+88	Administrative Contracting Office Distribution Required
+89	Administrative Contracting Office Distribution Not Required
+90	Other Distribution Required
+91	Other Distribution Not Required
+K1	Subcontract Costs
+K2	Inter-Division Transfer
+K3	Profit/Fee
+K4	Labor History
+K5	Bill of Materials and Purchase History
+K6	Other Unlisted Proposal Type
+KH	General and Administrative Expenses (G&A)
+KI	Overhead Expenses
+KJ	Intermediate Expense Pool Allocation
+KK	Bases Used to Allocate Indirect Expense
+KL	Claimed Rates for Each Expense Pool
+KM	Facilities Capital Cost of Money Factors Computation
+KN	Reconciliation of Books of Account and Claimed Direct Cost-Incurred Costs
+KO	Contract Direct Costs Claimed and Not Claimed, IR&D/B&P Direct Costs Incurred (Overhead, G&A and Cost of Money Applied at Claimed Rates)-Incurred Costs
+KP	Government Participation in Indirect Expense Pools-Incurred Costs
+KQ	Reconciliation of Claimed G&A Pool to G&A Claimed on Contracts-Incurred Costs
+KR	Schedule of Cumulative Direct and Indirect Costs Claimed and Billed-Incurred Costs
+KS	Computation of Allowable IR&D/B&P Costs-Incurred Costs
+KT	Summary of Hours and Amounts on T&M/Labor Hour Contracts-Incurred Costs
+KU	Reconciliation of Total Payroll to Total Labor Distributed-Incurred Costs
+KV	Listing of Decisions/Agreements/Approvals and Description of Accounting/Organization Changes
+KW	Indirect Costs Certification
+KX	Direct Labor
+KY	Other Direct Costs
+KZ	Direct Material
+L2	Other Unlisted Type of Proposal

@@ -1,0 +1,58 @@
+id	description	section	req	max_loop	max_usage	pos
+B3	Beginning Segment For Carrier's Invoice	H	M	0	1	1
+Y6	Authentication	H	O	0	2	2
+Q3	Arrival Details	H	M	0	1	3
+C3	Currency Identifier	H	O	0	1	4
+G1	Shipment Type Information	H	O	0	1	5
+G2	Beyond Routing	H	O	0	1	6
+R2	Route Information	H	O	0	13	7
+N9	Extended Reference Information	H	O	0	15	8
+V1	Vessel Identification	H	M	0	2	9
+N1	Party Identification	H	M	10	1	10
+N2	Additional Name Information	H	O	0	1	11
+N3	Party Location	H	O	0	2	12
+N4	Geographic Location	H	O	0	1	13
+R4	Port Or Terminal	H	M	20	1	14
+DTM	Date/Time Reference	H	O	0	15	15
+H3	Special Handling Instructions	H	O	0	6	16
+L5	Description, Marks And Numbers	H	O	0	1	17
+LX	Transaction Set Line Number	D	M	999	1	18
+N7	Equipment Details	D	O	999	1	19
+QTY	Quantity Information	D	O	0	1	20
+N12	Equipment Environment	D	O	0	1	21
+M7	Seal Numbers	D	O	0	5	22
+W09	Equipment And Temperature	D	O	0	1	23
+L4	Measurement	D	O	0	1	24
+H1	Hazardous Material	D	O	2	1	25
+H2	Additional Hazardous Material Description	D	O	0	10	26
+LH1	Hazardous Identification Information	D	O	100	1	27
+LH2	Hazardous Classification Information	D	O	0	4	28
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	29
+LFH	Free-Form Hazardous Material Information	D	O	0	25	30
+LEP	Epa Required Data	D	O	0	3	31
+LH4	Canadian Dangerous Requirements	D	O	0	1	32
+LHT	Transborder Hazardous Requirements	D	O	0	3	33
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	34
+PER	Administrative Communications Contact	D	O	0	5	35
+L0	Line Item - Quantity And Weight	D	O	120	1	36
+L5	Description, Marks And Numbers	D	O	0	999	37
+L1	Rate And Charges	D	O	20	1	38
+C3	Currency Identifier	D	O	0	1	39
+L7	Tariff Reference	D	O	0	1	40
+H1	Hazardous Material	D	O	2	1	41
+H2	Additional Hazardous Material Description	D	O	0	10	42
+LH1	Hazardous Identification Information	D	O	100	1	43
+LH2	Hazardous Classification Information	D	O	0	4	44
+LH3	Hazardous Material Shipping Name Information	D	O	0	10	45
+LFH	Free-Form Hazardous Material Information	D	O	0	25	46
+LEP	Epa Required Data	D	O	0	3	47
+LH4	Canadian Dangerous Requirements	D	O	0	1	48
+LHT	Transborder Hazardous Requirements	D	O	0	3	49
+LHR	Hazardous Material Identifying Reference Numbers	D	O	0	5	50
+PER	Administrative Communications Contact	D	O	0	5	51
+V9	Event Detail	S	O	0	10	52
+L3	Total Weight And Charges	S	M	0	1	53
+L1	Rate And Charges	S	O	20	1	54
+C3	Currency Identifier	S	O	0	1	55
+K1	Remarks	S	O	0	999	56
+L11	Business Instructions And Reference Number	S	O	0	1	57

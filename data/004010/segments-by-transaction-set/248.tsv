@@ -1,0 +1,25 @@
+id	description	section	req	max_loop	max_usage	pos
+BHT	Beginning Of Hierarchical Transaction	H	M	0	1	1
+NM1	Individual Or Organizational Name	H	M	2	1	2
+N2	Additional Name Information	H	O	0	1	3
+N3	Party Location	H	O	0	999999	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	999999	6
+PER	Administrative Communications Contact	H	O	0	999999	7
+HL	Hierarchical Level	D	M	999999	1	8
+NM1	Individual Or Organizational Name	D	M	0	1	9
+N2	Additional Name Information	D	O	0	1	10
+N3	Party Location	D	O	0	1	11
+N4	Geographic Location	D	O	0	1	12
+REF	Reference Information	D	O	0	999999	13
+PER	Administrative Communications Contact	D	O	0	999999	14
+DMG	Demographic Information	D	O	0	1	15
+AIN	Income	D	O	0	999999	16
+EMS	Employment Position	D	O	0	999999	17
+BAL	Balance Detail	D	O	0	1	18
+DTP	Date Or Time Or Period	D	O	999999	1	19
+STC	Status Information	D	O	0	999999	20
+INT	Interest	D	O	0	1	21
+AMT	Monetary Amount Information	D	O	0	999999	22
+ACT	Account Identification	D	O	0	999999	23
+REF	Reference Information	D	O	0	999999	24

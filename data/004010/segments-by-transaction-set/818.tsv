@@ -1,0 +1,20 @@
+id	description	section	req	max_loop	max_usage	pos
+BSC	Beginning Segment For Commission Sales Report And Periodic Compen	H	M	0	1	1
+CUR	Currency	H	O	0	1	2
+N11	Store Location	H	M	999	1	3
+REF	Reference Information	H	O	0	5	4
+AMT	Monetary Amount Information	H	O	0	5	5
+LIN	Item Identification	H	O	999	1	6
+PID	Product/Item Description	H	O	0	5	7
+AMT	Monetary Amount Information	H	O	0	5	8
+NM1	Individual Or Organizational Name	H	O	999	1	9
+SCD	Sales Commission Employee Detail	H	O	0	1	10
+N3	Party Location	H	O	0	2	11
+N4	Geographic Location	H	O	0	1	12
+DTM	Date/Time Reference	H	O	0	1	13
+AMT	Monetary Amount Information	H	O	0	5	14
+SAL	Salary Information	H	O	99	1	15
+AMT	Monetary Amount Information	H	M	0	10	16
+LIN	Item Identification	H	O	999	1	17
+PID	Product/Item Description	H	O	0	5	18
+AMT	Monetary Amount Information	H	O	0	5	19

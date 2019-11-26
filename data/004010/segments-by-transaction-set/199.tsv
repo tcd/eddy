@@ -1,0 +1,32 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	5	1	2
+N2	Additional Name Information	H	O	0	2	3
+N3	Party Location	H	O	0	2	4
+N4	Geographic Location	H	O	0	1	5
+REF	Reference Information	H	O	0	12	6
+PER	Administrative Communications Contact	H	O	0	3	7
+LX	Transaction Set Line Number	D	M	999999	1	8
+REF	Reference Information	D	M	0	12	9
+LRQ	Mortgage Characteristics Requested	D	O	0	1	10
+LN1	Loan Specific Data	D	O	0	1	11
+DTM	Date/Time Reference	D	O	0	2	12
+III	Information	D	O	0	5	13
+NTE	Note/Special Instruction	D	O	0	999999	14
+NX1	Property Or Entity Identification	D	O	999999	1	15
+NX2	Location Id Component	D	O	0	30	16
+PDS	Property Description/Legal Description	D	O	0	20	17
+PDE	Property Metes And Bounds Description	D	O	0	999999	18
+IN1	Individual Identification	D	O	999999	1	19
+IN2	Individual Name Structure Components	D	O	0	30	20
+N3	Party Location	D	O	0	2	21
+N4	Geographic Location	D	O	0	1	22
+PER	Administrative Communications Contact	D	O	0	4	23
+FGS	Form Group	D	O	999999	1	24
+AMT	Monetary Amount Information	D	O	999999	1	25
+YNQ	Yes/No Question	D	O	0	1	26
+NM1	Individual Or Organizational Name	D	O	0	1	27
+NTE	Note/Special Instruction	D	O	0	1	28
+DTP	Date Or Time Or Period	D	O	0	2	29
+QTY	Quantity Information	D	O	0	1	30
+PCT	Percent Amounts	D	O	0	1	31

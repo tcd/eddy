@@ -1,0 +1,26 @@
+id	definition
+01	Out of Stock
+02	Equipment Cut
+03	Booking Location Request
+04	On Hold
+05	Order Discrepancy
+06	Receiving Location Request
+07	Inventory Discrepancy
+08	Material Shortage
+09	Substitution
+10	Diverted Item
+11	Loading Error
+12	Inbound Carrier Failure
+13	Product Allocation Exceeded
+14	Improperly Sized Order
+15	Wrong Equipment
+16	Insufficient Equipment Space
+17	Discontinued Item
+20	Late Stock Transfer
+21	Inadequate Lead Time
+22	Stock Transfer Not Set Up
+23	Item Not Stocked at Shipping Location
+24	Product Withdrawn
+25	Addition Requested by Customer
+26	Bacteria Clearance
+ZZ	Mutually Defined

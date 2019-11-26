@@ -1,0 +1,29 @@
+id	definition
+A	Active
+C	Death Not Processed
+D	Disabled
+N	New
+R	Reinstated
+S	Suspended
+AN	Active Non-Vested
+AV	Active Vested
+CD	Contract Discontinuance
+DB	Termination - Death
+DN	Deferral - Not Vested
+DP	Delete or Pending Purge
+DR	Distribution Restricted
+DV	Deferral - Vested
+EL	Eligible, Not Participating
+GA	Golden Age
+KP	Keep Participant
+PD	Plan Discontinuance
+PF	Potentially Forfeitable
+RT	Retired
+S1	Suspended From Contributing For 1 Year
+S2	Suspended From Contributing For 2 Years
+TD	Termination - Disability
+TN	Terminated Non-Vested
+TR	Termination - Retirement
+TS	Termination - Severance
+TV	Terminated Vested
+US	Unit Sale

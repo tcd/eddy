@@ -1,0 +1,47 @@
+id	description	section	req	max_loop	max_usage	pos
+B2A	Set Purpose	H	M	0	1	1
+DTM	Date/Time Reference	H	M	0	4	2
+TRN	Trace	H	M	0	2	3
+N1	Party Identification	H	O	0	2	4
+PER	Administrative Communications Contact	H	O	0	999999	5
+REF	Reference Information	H	O	0	999999	6
+LM	Code Source Information	H	O	10	1	7
+LQ	Industry Code Identification	H	M	100	1	8
+DTM	Date/Time Reference	H	O	0	3	9
+FA1	Type Of Financial Accounting Data	H	O	999999	1	10
+FA2	Accounting Data	H	M	0	999999	11
+ENT	Entity	D	M	999999	1	12
+N1	Party Identification	D	O	2	1	13
+N2	Additional Name Information	D	O	0	999999	14
+N3	Party Location	D	O	0	999999	15
+N4	Geographic Location	D	O	0	1	16
+PER	Administrative Communications Contact	D	O	0	999999	17
+ACT	Account Identification	D	O	999999	1	18
+CUR	Currency	D	O	0	1	19
+LM	Code Source Information	D	O	10	1	20
+LQ	Industry Code Identification	D	M	100	1	21
+DTM	Date/Time Reference	D	O	0	3	22
+RTE	Rate Information	D	O	13	1	23
+DTM	Date/Time Reference	D	O	0	1	24
+BLN	Balance Information	D	O	999999	1	25
+AVA	Funds Availability	D	O	0	999999	26
+TSU	Transaction Summary	D	O	999999	1	27
+AVA	Funds Availability	D	O	0	999999	28
+FIR	Financial Information	D	O	999999	1	29
+DTM	Date/Time Reference	D	O	0	999999	30
+REF	Reference Information	D	O	0	999999	31
+MSG	Message Text	D	O	0	999999	32
+AVA	Funds Availability	D	O	0	999999	33
+TRN	Trace	D	O	0	1	34
+N1	Party Identification	D	O	0	999999	35
+AMT	Monetary Amount Information	D	O	0	999999	36
+CTP	Pricing Information	D	O	0	999999	37
+RTE	Rate Information	D	O	0	999999	38
+NM1	Individual Or Organizational Name	D	O	999999	1	39
+N2	Additional Name Information	D	O	0	999999	40
+N3	Party Location	D	O	0	999999	41
+N4	Geographic Location	D	O	0	1	42
+DTM	Date/Time Reference	D	O	0	1	43
+N9	Extended Reference Information	D	O	0	999999	44
+FA1	Type Of Financial Accounting Data	D	O	999999	1	45
+FA2	Accounting Data	D	M	0	999999	46

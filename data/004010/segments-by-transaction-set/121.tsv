@@ -1,0 +1,10 @@
+id	description	section	req	max_loop	max_usage	pos
+BVS	Beginning Segment For Vehicle Service	H	M	0	1	1
+N7	Equipment Details	H	O	0	1	2
+V1	Vessel Identification	H	O	0	1	3
+G62	Date/Time	H	O	0	3	4
+VC	Motor Vehicle Control	H	M	9999	1	5
+DTM	Date/Time Reference	H	O	0	3	6
+DEL	Delivery Logistics	H	O	0	1	7
+CGS	Charge	H	O	0	1	8
+REF	Reference Information	H	O	0	1	9

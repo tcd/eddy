@@ -1,0 +1,5 @@
+id	description	section	req	max_loop	max_usage	pos
+BVB	Beginning Segment For Vehicle Baying Order	H	M	0	1	1
+G62	Date/Time	H	M	0	1	2
+VC	Motor Vehicle Control	H	O	0	99	3
+SFC	Storage Facility Characteristics	H	O	0	20	4

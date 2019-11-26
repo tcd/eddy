@@ -1,0 +1,13 @@
+id	description	section	req	max_loop	max_usage	pos
+B2A	Set Purpose	H	M	0	1	1
+REF	Reference Information	H	O	0	10	2
+DTM	Date/Time Reference	H	O	0	999999	3
+N1	Party Identification	H	M	999999	1	4
+N2	Additional Name Information	H	O	0	1	5
+N3	Party Location	H	O	0	2	6
+N4	Geographic Location	H	O	0	2	7
+G39	Item Characteristics - Vendor's Selling Unit	D	M	999999	1	8
+G69	Line Item Detail - Description	D	O	0	1	9
+DTM	Date/Time Reference	D	O	0	999999	10
+RCR	Reporting Criteria	D	O	0	999999	11
+G43	Promotion/Price List Area	D	O	0	999999	12

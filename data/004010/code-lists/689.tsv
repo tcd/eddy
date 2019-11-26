@@ -1,0 +1,18 @@
+id	definition
+01	Vacant
+02	Occupied
+03	Borrower Occupied
+04	Tenant Occupied
+05	Adverse Occupied
+06	Unknown
+07	Original Veteran Occupied
+08	Transferee Occupied
+09	Unoccupied
+10	Abandoned
+11	Condemned
+12	Under Construction
+13	Temporary Residence
+14	Partially Occupied
+15	Owner Occupied, Primary Residence
+16	Owner Occupied, Secondary Residence
+17	Owner Occupied

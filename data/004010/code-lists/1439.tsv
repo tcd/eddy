@@ -1,0 +1,11 @@
+id	definition
+CI	Certification Authority ID
+CT	Counter
+EK	Key Value - One-Time Key
+KN	Key Name
+NT	Notarization
+OD	Key-Encrypting-Key for One-Time Key
+OP	Odd Parity Counter
+SN	Serial Number
+UI	User ID
+ZZ	Mutually Defined

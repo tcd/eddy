@@ -1,0 +1,17 @@
+id	description	section	req	max_loop	max_usage	pos
+BC	Beginning Segment For Contract Completion Status	H	M	0	1	1
+N1	Party Identification	H	O	0	2	2
+G61	Contact	H	O	0	1	3
+NTE	Note/Special Instruction	H	O	0	100	4
+CS	Contract Summary	H	M	100	1	5
+AMT	Monetary Amount Information	H	O	0	1	6
+N9	Extended Reference Information	H	O	0	1	7
+G62	Date/Time	H	O	0	3	8
+G61	Contact	H	O	0	1	9
+NTE	Note/Special Instruction	H	O	0	5	10
+LM	Code Source Information	H	O	10	1	11
+LQ	Industry Code Identification	H	M	0	100	12
+N1	Party Identification	H	O	10	1	13
+N2	Additional Name Information	H	O	0	2	14
+N3	Party Location	H	O	0	2	15
+N4	Geographic Location	H	O	0	1	16

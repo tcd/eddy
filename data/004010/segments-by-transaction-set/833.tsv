@@ -1,0 +1,78 @@
+id	description	section	req	max_loop	max_usage	pos
+BGN	Beginning Segment	H	M	0	1	1
+N1	Party Identification	H	M	100	1	2
+N2	Additional Name Information	H	O	0	2	3
+REF	Reference Information	H	O	0	12	4
+PER	Administrative Communications Contact	H	O	0	3	5
+N4	Geographic Location	H	O	5	1	6
+N3	Party Location	H	O	0	2	7
+CRO	Credit Report Order Details	D	M	200	1	8
+REF	Reference Information	D	O	0	999999	9
+PER	Administrative Communications Contact	D	O	0	3	10
+K2	Administrative Message	D	O	0	10	11
+LRQ	Mortgage Characteristics Requested	D	O	0	1	12
+DTP	Date Or Time Or Period	D	O	0	1	13
+N1	Party Identification	D	O	20	1	14
+N2	Additional Name Information	D	O	0	2	15
+N3	Party Location	D	O	0	2	16
+N4	Geographic Location	D	O	0	1	17
+REF	Reference Information	D	O	0	12	18
+PER	Administrative Communications Contact	D	O	0	3	19
+PWK	Paperwork	D	O	0	1	20
+NX1	Property Or Entity Identification	D	O	20	1	21
+NX2	Location Id Component	D	O	0	10	22
+DTP	Date Or Time Or Period	D	O	0	1	23
+QTY	Quantity Information	D	O	0	1	24
+LX	Transaction Set Line Number	D	M	2	1	25
+REF	Reference Information	D	O	0	12	26
+PER	Administrative Communications Contact	D	O	0	3	27
+AIN	Income	D	O	0	10	28
+PPY	Personal Property Description	D	O	0	10	29
+CAI	Civil Action Income	D	O	0	20	30
+CIV	Civil Action Liability	D	O	0	20	31
+YNQ	Yes/No Question	D	O	0	12	32
+DTP	Date Or Time Or Period	D	O	0	1	33
+QTY	Quantity Information	D	O	0	20	34
+AMT	Monetary Amount Information	D	O	10	1	35
+MSG	Message Text	D	O	0	1	36
+REA	Real Estate Property Information	D	O	20	1	37
+FPT	Financial Participation	D	O	0	1	38
+AMT	Monetary Amount Information	D	O	0	6	39
+NX1	Property Or Entity Identification	D	O	0	1	40
+NX2	Location Id Component	D	O	0	30	41
+IN1	Individual Identification	D	M	30	1	42
+IN2	Individual Name Structure Components	D	O	0	10	43
+DMG	Demographic Information	D	O	0	1	44
+N10	Quantity And Description	D	O	0	1	45
+ACT	Account Identification	D	O	0	1	46
+NX1	Property Or Entity Identification	D	M	10	1	47
+NX2	Location Id Component	D	M	0	30	48
+ARS	Applicant Residence Specifics	D	O	0	1	49
+DTP	Date Or Time Or Period	D	O	0	1	50
+N10	Quantity And Description	D	O	0	1	51
+N1	Party Identification	D	O	500	1	52
+N2	Additional Name Information	D	O	0	2	53
+N3	Party Location	D	O	0	2	54
+N4	Geographic Location	D	O	0	1	55
+REF	Reference Information	D	O	0	12	56
+PER	Administrative Communications Contact	D	O	0	3	57
+YNQ	Yes/No Question	D	O	0	3	58
+EMP	Employer	D	O	20	1	59
+DTP	Date Or Time Or Period	D	O	0	2	60
+QTY	Quantity Information	D	O	0	2	61
+EMS	Employment Position	D	O	10	1	62
+DTP	Date Or Time Or Period	D	O	0	1	63
+QTY	Quantity Information	D	O	0	1	64
+AIN	Income	D	O	0	10	65
+FAA	Financial Asset Account	D	O	100	1	66
+DTP	Date Or Time Or Period	D	O	0	1	67
+AIN	Income	D	O	0	5	68
+IN1	Individual Identification	D	O	10	1	69
+IN2	Individual Name Structure Components	D	O	0	10	70
+FPT	Financial Participation	D	O	0	1	71
+CDA	Consumer Credit Account	D	O	100	1	72
+DTP	Date Or Time Or Period	D	O	0	1	73
+PPY	Personal Property Description	D	O	0	5	74
+IN1	Individual Identification	D	O	10	1	75
+IN2	Individual Name Structure Components	D	O	0	10	76
+FPT	Financial Participation	D	O	0	1	77
