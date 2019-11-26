@@ -1,7 +1,14 @@
 # Eddy
 
-<!-- [![Build Status](https://travis-ci.org/tcd/eddy.svg?branch=master)](https://travis-ci.org/tcd/eddy) -->
-<!-- [![Coverage Status](https://coveralls.io/repos/github/tcd/eddy/badge.svg?branch=master)](https://coveralls.io/github/tcd/eddy?branch=master) -->
+[![Build Status](https://travis-ci.org/tcd/eddy.svg?branch=master)][travis-ci]
+[![Coverage Status](https://coveralls.io/repos/github/tcd/eddy/badge.svg?branch=master)][coveralls]
+[![License](https://img.shields.io/github/license/tcd/eddy)][license]
+[![Documentation](http://img.shields.io/badge/docs-rubydoc.info-blue.svg)][docs]
+
+[travis-ci]: https://travis-ci.org/tcd/eddy
+[coveralls]: https://coveralls.io/github/tcd/eddy?branch=master
+[license]: https://github.com/tcd/eddy/blob/master/LICENSE.txt
+[docs]: https://www.rubydoc.info/gems/eddy/0.1.0
 
 ## Installation
 
