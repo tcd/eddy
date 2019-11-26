@@ -15,7 +15,7 @@ class EddyTest < Minitest::Test
 
   def test_readme_links_to_correct_version
     search_string = "[docs]: https://www.rubydoc.info/gems/eddy/#{Eddy::VERSION}"
-    readme = File.read(File.join(Eddy.root_dir, "readme.md"))
+    readme = File.read(File.join(Eddy.root_dir, "README.md"))
     assert(readme.include?(search_string))
   end
 
