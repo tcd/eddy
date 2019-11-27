@@ -3,7 +3,7 @@ require "eddy"
 namespace :misc do
   task :missing_lists do
 
-    missing_lists = [
+    missing = [
       "4",
       "5",
       "24",
@@ -94,13 +94,12 @@ namespace :misc do
     ]
 
     elements_file = File.join(Eddy.data_dir, "004010", "elements.tsv")
-    out_file = File.join(Eddy.root_dir, "tmp", "missing_lists.tsv")
     data = Eddy.parse_tsv(elements_file)
 
-    File.open(out_file, "a") do |f|
+    File.open(File.join(Eddy.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
       f.write(%w[id name min max description].join("\t") + "\n")
       data.each do |d|
-        if missing_lists.include?(d[:id].strip)
+        if missing.include?(d[:id].strip)
           line = [
             d[:id],
             d[:name],
@@ -113,6 +112,9 @@ namespace :misc do
       end
     end
 
+    File.open(File.join(Eddy.root_dir, "tmp", "missing_lists.md"), "a") do |f|
+      data.each { |d| f.write("- #{d[:id]} (#{d[:name]})\n") if missing.include?(d[:id].strip) }
+    end
 
   end
 end
