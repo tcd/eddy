@@ -9,13 +9,15 @@ end
 
 task(default: :test)
 
-namespace "build" do
-  task :elements do
-    require "eddy"
-    Eddy::Build.generate_elements()
+namespace :build do
+  require "eddy"
+  task :setup do
+    Eddy::Build.make_element_folders()
   end
   task :clean do
-    require "eddy"
     Eddy::Build.clean_element_folders()
+  end
+  task :elements do
+    Eddy::Build.generate_elements()
   end
 end
