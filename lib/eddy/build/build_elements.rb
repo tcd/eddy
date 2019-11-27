@@ -36,7 +36,7 @@ module Eddy
     # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
     #
     # @return [Array<Hash>]
-    def self.generate_elements
+    def self.generate_elements()
       elements = self.generate_element_data()
       elements.each do |e|
         case e[:type]
@@ -65,7 +65,7 @@ module Eddy
     # Generate usable data from `data/004010/elements.tsv`.
     #
     # @return [Array<Hash>]
-    def self.generate_element_data
+    def self.generate_element_data()
       elements_file = File.join(Eddy.data_dir, "004010", "elements.tsv")
       data = Eddy.parse_tsv(elements_file)
       elements = data.map do |e|
