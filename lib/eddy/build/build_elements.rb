@@ -3,7 +3,8 @@ require "eddy/build/build_dt"
 require "eddy/build/build_tm"
 require "eddy/build/build_id"
 require "eddy/build/build_an"
-require "eddy/build/build_r_and_n"
+require "eddy/build/build_n"
+require "eddy/build/build_r"
 
 module Eddy
   module Build
