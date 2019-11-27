@@ -9,15 +9,4 @@ end
 
 task(default: :test)
 
-namespace :build do
-  require "eddy"
-  task :setup do
-    Eddy::Build.make_element_folders()
-  end
-  task :clean do
-    Eddy::Build.clean_element_folders()
-  end
-  task :elements do
-    Eddy::Build.generate_elements()
-  end
-end
+Dir["tasks/**/*.rake"].each { |rake| load rake }
