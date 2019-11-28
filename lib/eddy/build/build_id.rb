@@ -1,4 +1,4 @@
-require "food_truck"
+require "ginny"
 
 module Eddy
   module Build
@@ -8,7 +8,7 @@ module Eddy
     def self.build_id(e)
       code_list = self.build_code_list(e[:id])
       return nil if code_list.nil?
-      constructor = FoodTruck::Func.create({
+      constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~FUNC_BODY,
           @id = "#{e[:id]}"
@@ -26,7 +26,7 @@ module Eddy
         body: constructor + "\n\n" + code_list + "\n",
         file_prefix: "#{e[:id]}.",
       }
-      c = FoodTruck::Class.create(data)
+      c = Ginny::Class.create(data)
       c.generate(File.join(Eddy.root_dir, "build", "elements", "id"))
       return nil
     end
@@ -45,7 +45,7 @@ module Eddy
         return nil
       end
       body = "return [\n" + data.map { |c| %("#{c[:id]}").indent(2) }.join(",\n") + "\n]\n"
-      return FoodTruck::Func.create({
+      return Ginny::Func.create({
         name: "code_list",
         return_type: "Array<String>",
         body: body,

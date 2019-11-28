@@ -1,4 +1,4 @@
-require "food_truck"
+require "ginny"
 
 module Eddy
   module Build
@@ -7,7 +7,7 @@ module Eddy
     # @return [void]
     def self.build_n(e)
       decimal_points = self.determine_decimals(e[:type])
-      constructor = FoodTruck::Func.create({
+      constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~RUBY,
           @id = "#{e[:id]}"
@@ -26,7 +26,7 @@ module Eddy
         body: constructor,
         file_prefix: "#{e[:id]}.",
       }
-      c = FoodTruck::Class.create(data)
+      c = Ginny::Class.create(data)
       c.generate(File.join(Eddy.root_dir, "build", "elements", "n"))
       return nil
     end

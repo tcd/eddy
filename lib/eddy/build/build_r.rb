@@ -1,11 +1,11 @@
-require "food_truck"
+require "ginny"
 
 module Eddy
   module Build
     # @param e [Hash]
     # @return [void]
     def self.build_r(e)
-      constructor = FoodTruck::Func.create({
+      constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~FUNC_BODY,
           @id = "#{e[:id]}"
@@ -23,7 +23,7 @@ module Eddy
         body: constructor,
         file_prefix: "#{e[:id]}.",
       }
-      c = FoodTruck::Class.create(data)
+      c = Ginny::Class.create(data)
       c.generate(File.join(Eddy.root_dir, "build", "elements", "r"))
       return nil
     end

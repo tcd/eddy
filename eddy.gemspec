@@ -36,5 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "simplecov", "~> 0.16"
 
-  spec.add_runtime_dependency "food_truck", "~> 0.5.3"
+  spec.add_runtime_dependency "ginny", "~> 0.5.0"
 end
