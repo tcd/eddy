@@ -89,6 +89,35 @@ Style/SymbolArray:
   EnforcedStyle: brackets
 
 # ==============================================================================
+# Trailing Commas
+# ==============================================================================
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+# ==============================================================================
+# Fewer lines doesn't mean better code
+# ==============================================================================
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+# ==============================================================================
 # Unsorted
 # ==============================================================================
 
@@ -104,15 +133,6 @@ Layout/IndentFirstArrayElement:
 
 Layout/AlignHash:
   Enabled: false
-
-Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma
-
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: comma
-
-Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: comma
 
 # Explicit, not redundant
 Style/RedundantReturn:
@@ -133,18 +153,6 @@ Style/ConditionalAssignment:
 
 Lint/HandleExceptions:
   AllowComments: true
-
-Metrics/ModuleLength:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
 
 Metrics/AbcSize:
   Enabled: false
