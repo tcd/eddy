@@ -1,0 +1,96 @@
+{
+  "element_summary": {
+    "description": "Used in Companion Guides to define requirements for a Segment.",
+    "type": "object",
+    "required": [
+      "ref",
+      "id",
+      "name",
+      "description",
+      "req",
+      "type",
+      "min",
+      "max",
+      "usage",
+      "default",
+      "valid_values"
+    ],
+    "properties": {
+      "ref": {
+        "description": "Indicates the order in which Elements should appear in their Segment.",
+        "type": "string"
+      },
+      "id": {
+        "description": "Short string used to identify the Element.",
+        "type": "string"
+      },
+      "name": {
+        "description": "Full name of the Element.",
+        "type": "string"
+      },
+      "description": {
+        "description": "Description of the Element.",
+        "type": "string"
+      },
+      "req": {
+        "description": "",
+        "type": "string",
+        "enum": [
+          "M",
+          "O",
+          "X",
+          "Z"
+        ]
+      },
+      "type": {
+        "description": "The kind of value the Element will contain.",
+        "type": "string",
+        "enum": [
+          "AN",
+          "B",
+          "DT",
+          "TM",
+          "ID",
+          "R",
+          "N",
+          "N0",
+          "N1",
+          "N2",
+          "N3",
+          "N4",
+          "N5",
+          "N6",
+          "N7",
+          "N8"
+        ]
+      },
+      "min": {
+        "description": "Minimum length for a valid value.",
+        "type": "integer"
+      },
+      "max": {
+        "description": "Maximum length for a valid value.",
+        "type": "Integer"
+      },
+      "usage": {
+        "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
+        "type": "string",
+        "enum": [
+          "Must Use",
+          "Used"
+        ]
+      },
+      "default": {
+        "description": "Default value for the Element.",
+        "type": "string"
+      },
+      "valid_values": {
+        "description": "A list of valid values for the Element.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

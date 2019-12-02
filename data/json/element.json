@@ -1,0 +1,57 @@
+{
+  "element": {
+    "description": "An individual EDI Data Element.",
+    "type": "object",
+    "required": [
+      "code"
+    ],
+    "properties": {
+      "complex": {
+        "description": "True if the element is a complex element.",
+        "type": "boolean"
+      },
+      "code": {
+        "description": "Code identifying the element.",
+        "type": "integer"
+      },
+      "default": {
+        "description": "Default value for the element",
+        "type": [
+          "string",
+          "integer",
+          "number"
+        ]
+      },
+      "type": {
+        "description": "What type the element is.",
+        "type": "string",
+        "enum": [
+          "AN",
+          "B",
+          "DT",
+          "TM",
+          "ID",
+          "R",
+          "N",
+          "N0",
+          "N1",
+          "N2",
+          "N3",
+          "N4",
+          "N5",
+          "N6",
+          "N7",
+          "N8"
+        ]
+      },
+      "min": {
+        "description": "Minimum length for a valid element value. Used for validation.",
+        "type": "integer"
+      },
+      "max": {
+        "description": "Maximum length for a valid element value. Used for validation.",
+        "type": "integer"
+      }
+    }
+  }
+}
