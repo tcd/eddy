@@ -1,0 +1,251 @@
+{
+  "$id": "https://github.com/tcd/eddy/blob/master/data/json/transaction_set.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Transaction Set",
+  "description": "An outline of all required components for an EDI transaction set implementation.",
+  "required": [],
+  "type": "object",
+  "properties": {
+    "code": {
+      "description": "Short code identifying the Transaction Set.",
+      "type": "number"
+    },
+    "functional_group": {
+      "description": "",
+      "type": "string"
+    },
+    "name": {
+      "description": "A descriptive name for the Transaction Set.",
+      "type": "string"
+    },
+    "summary": {
+      "description": "The components that make up the Transaction Set.",
+      "anyOf": [
+        { "$ref": "#/definitions/loop_summary" },
+        { "$ref": "#/definitions/segment_summary" }
+      ]
+    }
+  },
+  "definitions": {
+    "loop_summary": {
+      "description": "A repeated collection of Segments and/or other Loops . Used in Companion Guides.",
+      "type": "object",
+      "required": [
+        "loop_id",
+        "repeat",
+        "notes",
+        "level",
+        "loop",
+        "segments"
+      ],
+      "properties": {
+        "loop_id": {
+          "description": "A unique string used to identify the Loop within its Transaction Set.",
+          "type": "string"
+        },
+        "repeat": {
+          "description": "Number of times a particular Loop may be repeated.",
+          "type": "integer"
+        },
+        "notes": {
+          "description": "*Syntax*, *Semantic*, or *Comment* notes on a Loop.",
+          "type": "string"
+        },
+        "level": {
+          "description": "Indicates where the Loop is located in the Transaction Set.",
+          "type": "string",
+          "enum": [
+            "Heading",
+            "Detail",
+            "Summary",
+            "Not Defined"
+          ]
+        },
+        "loop": {
+          "description": "Loop in which the Loop appears.",
+          "type":"string"
+        },
+        "segments": {
+          "description": "A List of `segment_summary`s for the Segments present in the Loop.",
+          "type": "array",
+          "items": {
+            "type": [
+              "segment_summary",
+              "loop_summary"
+            ]
+          }
+        }
+      }
+    },
+    "segment_summary": {
+      "description": "A collection of Data Elements. Used in Companion Guides to define a Transaction Set.",
+      "type": "object",
+      "required": [
+        "pos",
+        "id",
+        "name",
+        "req",
+        "purpose",
+        "max_use",
+        "notes",
+        "usage",
+        "level"
+      ],
+      "properties": {
+        "pos": {
+          "description": "Indicates the order in which Segments should appear in their Level of the Transaction Set.",
+          "type": "string"
+        },
+        "id": {
+          "description": "Short string identifying the Segment.",
+          "type": "string"
+        },
+        "name": {
+          "description": "Full name of the Segment.",
+          "type": "string"
+        },
+        "req": {
+          "description": "Defines if/how the Segment is required.",
+          "type": "string",
+          "enum": [
+            "M (Mandatory)",
+            "O (Optional)",
+            "X (Relational)"
+          ]
+        },
+        "purpose": {
+          "description": "Documents the purpose of a Segment.",
+          "type": "string"
+        },
+        "max_use": {
+          "description": "Number of times a particular Segment may be repeated at its location in the Transaction Set.",
+          "type": "integer"
+        },
+        "notes": {
+          "description": "*Syntax*, *Semantic*, or *Comment* notes on a Segment.",
+          "type": "string"
+        },
+        "usage": {
+          "description": " Indicates whether or not the Segment must be used; Somewhat redundant due to `Req`.",
+          "type": "string"
+        },
+        "level": {
+          "description": "Indicates where the Segment is located in the Transaction Set.",
+          "type": "string",
+          "enum": [
+            "Heading",
+            "Detail",
+            "Summary",
+            "Not Defined"
+          ]
+        },
+        "loop": {
+          "description": "Loop in which the Segment appears.",
+          "type":"string"
+        },
+        "elements": {
+          "description": "Number of Data Elements included in the Segment.",
+          "type": "integer"
+        }
+      }
+    }
+    "element_summary": {
+      "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
+      "type": "object",
+      "required": [
+        "ref",
+        "id",
+        "name",
+        "description",
+        "req",
+        "type",
+        "min",
+        "max",
+        "usage",
+        "default",
+        "valid_values"
+      ],
+      "properties": {
+        "ref": {
+          "description": "Indicates the order in which Elements should appear in their Segment.",
+          "type": "string"
+        },
+        "id": {
+          "description": "Short string used to identify the Element.",
+          "type": "string"
+        },
+        "name": {
+          "description": "Full name of the Element.",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description of the Element.",
+          "type": "string"
+        },
+        "req": {
+          "description": "",
+          "type": "string",
+          "enum": [
+            "M",
+            "O",
+            "X",
+            "Z"
+          ]
+        },
+        "type": {
+          "description": "The kind of value the Element will contain.",
+          "type": "string",
+          "enum": [
+            "AN",
+            "B",
+            "DT",
+            "TM",
+            "ID",
+            "R",
+            "N",
+            "N0",
+            "N1",
+            "N2",
+            "N3",
+            "N4",
+            "N5",
+            "N6",
+            "N7",
+            "N8"
+          ]
+        },
+        "min": {
+          "description": "Minimum length for a valid Element value. Used for validation.",
+          "type": "integer"
+        },
+        "max": {
+          "description": "Maximum length for a valid Element value. Used for validation.",
+          "type": "Integer"
+        },
+        "usage": {
+          "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
+          "type": "string",
+          "enum": [
+            "Must Use",
+            "Used"
+          ]
+        },
+        "default": {
+          "description": "Default value for the Element",
+          "type": [
+            "string",
+            "integer",
+            "number"
+          ]
+        },
+        "valid_values": {
+          "description": "A list of valid values for the Element.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
