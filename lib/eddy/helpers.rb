@@ -11,7 +11,7 @@ module Eddy
       filepath,
       col_sep: "\t",
       headers: true,
-      quote_char: nil,
+      quote_char: "\x00",
       header_converters: :symbol,
     ).map(&:to_hash)
   end
