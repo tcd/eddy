@@ -134,3 +134,6 @@
 - 1684 (Attendance Type Code)
 - 1688 (Deduction Type Code)
 - I38 (Service Request Handler ID Qualifier)
+
+- Hazmat
+  - http://www.unece.org/trans/danger/publi/unrec/rev14/14files_e.html
