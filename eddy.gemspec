@@ -6,6 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "eddy"
   spec.version       = Eddy::VERSION
   spec.authors       = ["Clay Dunston"]
+  spec.required_ruby_version = ">= 2.0.0"
   spec.email         = ["dunstontc@gmail.com"]
   spec.summary       = "EDI toolkit"
   spec.description   = spec.summary
