@@ -148,7 +148,7 @@
           "type": "integer"
         }
       }
-    }
+    },
     "element_summary": {
       "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
       "type": "object",
