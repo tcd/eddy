@@ -1,0 +1,52 @@
+{
+  "loop_summary": {
+    "description": "A repeated collection of Segments and/or other Loops . Used in Companion Guides.",
+    "type": "object",
+    "required": [
+      "loop_id",
+      "repeat",
+      "notes",
+      "level",
+      "loop",
+      "segments"
+    ],
+    "properties": {
+      "loop_id": {
+        "description": "A unique string used to identify the Loop within its Transaction Set.",
+        "type": "string"
+      },
+      "repeat": {
+        "description": "Number of times a particular Loop may be repeated.",
+        "type": "integer"
+      },
+      "notes": {
+        "description": "*Syntax*, *Semantic*, or *Comment* notes on a Loop.",
+        "type": "string"
+      },
+      "level": {
+        "description": "Indicates where the Loop is located in the Transaction Set.",
+        "type": "string",
+        "enum": [
+          "Heading",
+          "Detail",
+          "Summary",
+          "Not Defined"
+        ]
+      },
+      "loop": {
+        "description": "Loop in which the Loop appears.",
+        "type":"string"
+      },
+      "segments": {
+        "description": "A List of `segment_summary`s for the Segments present in the Loop.",
+        "type": "array",
+        "items": {
+          "type": [
+            "segment_summary",
+            "loop_summary"
+          ]
+        }
+      }
+    }
+  }
+}

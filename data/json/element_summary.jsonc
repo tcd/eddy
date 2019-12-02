@@ -1,6 +1,6 @@
 {
   "element_summary": {
-    "description": "Used in Companion Guides to define requirements for a Segment.",
+    "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
     "type": "object",
     "required": [
       "ref",
@@ -65,11 +65,11 @@
         ]
       },
       "min": {
-        "description": "Minimum length for a valid value.",
+        "description": "Minimum length for a valid Element value. Used for validation.",
         "type": "integer"
       },
       "max": {
-        "description": "Maximum length for a valid value.",
+        "description": "Maximum length for a valid Element value. Used for validation.",
         "type": "Integer"
       },
       "usage": {
@@ -81,8 +81,12 @@
         ]
       },
       "default": {
-        "description": "Default value for the Element.",
-        "type": "string"
+        "description": "Default value for the Element",
+        "type": [
+          "string",
+          "integer",
+          "number"
+        ]
       },
       "valid_values": {
         "description": "A list of valid values for the Element.",

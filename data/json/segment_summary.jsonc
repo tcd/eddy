@@ -44,7 +44,7 @@
         "type": "integer"
       },
       "notes": {
-        "description": "*Syntax*, *Semantic*, or *Comments* notes on a Segment.",
+        "description": "*Syntax*, *Semantic*, or *Comment* notes on a Segment.",
         "type": "string"
       },
       "usage": {
