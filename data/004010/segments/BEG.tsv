@@ -1,0 +1,6 @@
+Ref	Id	Req	Type	Min	Max	ElementName
+BEG01	353	M	ID	2	2	Transaction Set Purpose Code
+BEG02	92	M	ID	2	2	Purchase Order Type Code
+BEG03	324	M	AN	1	22	Purchase Order Number
+BEG04
+BEG05	373	M	DT	8	8	Date
