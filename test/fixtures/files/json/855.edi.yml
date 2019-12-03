@@ -1,0 +1,97 @@
+---
+code: 855
+functional_group: PR
+name: Purchase Order Acknowledgement
+components:
+
+- id: ISA
+  max_use: 1
+  req: M
+  element_count: 16
+
+- id: GS
+  max_use: 1
+  req: M
+  element_count: 8
+
+- id: ST
+  max_use: 1
+  req: M
+  element_count: 2
+  elements:
+  - id: '143'
+    ref: ST01
+    req: M
+    default: 855
+    name: TransactionSetIdentifierCode
+    type: ID
+    min: 3
+    max: 3
+    description: Code uniquely identifying a Transaction Set
+  - id: '329'
+    req: M
+
+- id: BAK
+  max_use: 1
+  req: M
+  element_count: 4
+
+- loop_id: L0010
+  repeat: 200
+  components:
+  - id: N1
+    max_use: 1
+    req: O
+    element_count: 4
+  - id: N3
+    max_use: 2
+    req: O
+    element_count: 1
+  - id: N4
+    max_use: 1
+    req: O
+    element_count: 3
+
+- loop_id: L1010
+  repeat: 100000
+  components:
+  - id: PO1
+    max_use: 1
+    req: M
+    element_count: 8
+  - loop_id: L1020
+    repeat: 1000
+    components:
+      - id: PID
+        max_use: 1
+        req: O
+        element_count: 2
+  - loop_id: L1030
+    repeat: 104
+    components:
+      - id: ACK
+        max_use: 1
+        req: O
+        element_count: 7
+  - id: SE
+    max_use: 1
+    req: M
+    element_count: 2
+
+- loop_id: L1040
+  repeat: 1
+  components:
+  - id: CTT
+    max_use: 1
+    req: O
+    element_count: 1
+
+- id: GE
+  max_use: 1
+  req: M
+  element_count: 2
+
+- id: IEA
+  max_use: 1
+  req: M
+  element_count: 2
