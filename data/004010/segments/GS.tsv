@@ -1,0 +1,9 @@
+Ref	Id	Req	Type	Min	Max	ElementName
+GS01	479	M	ID	2	2	Functional Identifier Code
+GS02	142	M	AN	2	15	Application Sender's Code
+GS03	124	M	AN	2	15	Application Receiver's Code
+GS04	373	M	DT	8	8	Date
+GS05	337	M	TM	4	8	Time
+GS06	28	M	N0	1	9	Group Control Number
+GS07	455	M	ID	1	2	Responsible Agency Code
+GS08	480	M	AN	1	12	Version / Release / Industry Identifier Code

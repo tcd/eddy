@@ -1,0 +1,10 @@
+Ref	Id	Req	Type	Min	Max	ElementName
+PO101	350	O	AN	1	20	Assigned Information
+PO102	330	X	R	1	15	Quantity Ordered
+PO103	355	O	ID	2	2	Unit or Basis for Measurement Codes
+PO104	212	X	R	1	17	Unit Price
+PO105	639	O	ID	2	2	Basis of Unit Price Code
+PO106	235	X	ID	2	2	Product/Service ID Qualifier
+PO107	234	X	AN	1	48	Product/Service ID
+PO108	235	X	ID	2	2	Product/Service ID Qualifier
+PO109	234	X	AN	1	48	Product/Service ID

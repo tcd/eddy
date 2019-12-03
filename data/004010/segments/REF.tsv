@@ -1,0 +1,3 @@
+Ref	Id	Req	Type	Min	Max	ElementName
+REF01	128	M	ID	2	3
+REF02	127	X	AN	1	30

@@ -1,0 +1,6 @@
+Ref	Id	Req	Type	Min	Max	ElementName
+TD501
+TD502	66	X	ID	1	2	
+TD503	67	X	AN	2	80	
+TD504
+TD505	387	X	AN	1	35	Routing
