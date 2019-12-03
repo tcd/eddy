@@ -10,7 +10,7 @@
   "type": "object",
   "properties": {
     "code": {
-      "description": "Short code identifying the Transaction Set.",
+      "description": "A short code identifying the Transaction Set.",
       "type": "number"
     },
     "name": {
@@ -24,8 +24,8 @@
     "components": {
       "description": "The components that make up the Transaction Set.",
       "type" : "array", "items": { "anyOf": [
-        { "$ref": "#/definitions/loop_summary" },
-        { "$ref": "#/definitions/segment_summary" }
+        {"$ref": "#/definitions/loop_summary"},
+        {"$ref": "#/definitions/segment_summary"}
       ]}
     }
   },
@@ -62,6 +62,11 @@
           "description": "Indicates where the Loop is located in the Transaction Set.",
           "type": "string",
           "enum": [ "Heading", "Detail", "Summary", "Not Defined" ]
+        },
+        "req": {
+          "description": "Defines if/how the Loop is required.",
+          "type": "string",
+          "enum": ["M", "O", "X", "Z"]
         },
         "components": {
           "description": "A List of `segment_summary`s for the Segments present in the Loop.",
@@ -125,19 +130,17 @@
         "req": {
           "description": "Defines if/how the Segment is required.",
           "type": "string",
-          "enum": [ "M", "O", "X", "Z" ]
+          "enum": ["M", "O", "X", "Z"]
         },
         "level": {
           "description": "Indicates where the Segment is located in the Transaction Set.",
           "type": "string",
-          "enum": [ "Heading", "Detail", "Summary", "Not Defined" ]
+          "enum": ["Heading", "Detail", "Summary", "Not Defined"]
         },
         "elements": {
           "description": "Number of Data Elements included in the Segment.",
-          "type" : "array", "items": { "anyOf": [
-            { "$ref": "#/definitions/element_summary" },
-            { "$ref": "#/definitions/simple_element_summary" }
-          ]}
+          "type" : "array",
+          "items": {"$ref": "#/definitions/element_summary"}
         }
       }
     },
@@ -146,15 +149,6 @@
       "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "ref",
-        "id",
-        "name",
-        "req",
-        "type",
-        "min",
-        "max"
-      ],
       "properties": {
         "ref":         {
           "description": "Indicates the order in which Elements should appear in their Segment.",
@@ -185,83 +179,21 @@
         "req": {
           "description": "Defines if/how the Element is required.",
           "type": "string",
-          "enum": [ "M", "O", "X", "Z" ]
+          "enum": ["M", "O", "X", "Z"]
         },
         "usage": {
           "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
           "type": "string",
-          "enum": [ "Must Use", "Used" ]
+          "enum": ["Must Use", "Used"]
         },
         "default": {
           "description": "Default value for the Element",
-          "type": [ "string", "integer", "number" ]
+          "type": ["string", "integer", "number"]
         },
         "valid_values": {
           "description": "A list of valid values for the Element.",
           "type": "array",
-          "items": { "type": "string"}
-        },
-        "type": {
-          "description": "The kind of value the Element will contain.",
-          "type": "string",
-          "enum": [ "AN", "B", "DT", "TM", "ID", "R", "N", "N0", "N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8" ]
-        }
-      }
-    },
-
-    "simple_element_summary": {
-      "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "id",
-        "req"
-      ],
-      "properties": {
-        "ref":         {
-          "description": "Indicates the order in which Elements should appear in their Segment.",
-          "type": "string"
-        },
-        "id": {
-          "description": "Short string used to identify the Element.",
-          "type": "string"
-        },
-        "name": {
-          "description": "Full name of the Element.",
-          "type": "string"
-        },
-        "min": {
-          "description": "Minimum length for a valid Element value. Used for validation.",
-          "type": "integer",
-          "minimum": 1
-        },
-        "max": {
-          "description": "Maximum length for a valid Element value. Used for validation.",
-          "type": "integer",
-          "minimum": 1
-        },
-        "description": {
-          "description": "Description of the Element.",
-          "type": "string"
-        },
-        "req": {
-          "description": "Defines if/how the Element is required.",
-          "type": "string",
-          "enum": [ "M", "O", "X", "Z" ]
-        },
-        "usage": {
-          "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
-          "type": "string",
-          "enum": [ "Must Use", "Used" ]
-        },
-        "default": {
-          "description": "Default value for the Element",
-          "type": [ "string", "integer", "number" ]
-        },
-        "valid_values": {
-          "description": "A list of valid values for the Element.",
-          "type": "array",
-          "items": { "type": "string"}
+          "items": {"type": "string"}
         },
         "type": {
           "description": "The kind of value the Element will contain.",
@@ -270,6 +202,5 @@
         }
       }
     }
-
   }
 }
