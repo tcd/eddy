@@ -19,4 +19,8 @@ class EddyTest < Minitest::Test
     assert(readme.include?(search_string))
   end
 
+  def test_find_element_by_id
+    skip("Write `find_element_by_id` method")
+  end
+
 end
