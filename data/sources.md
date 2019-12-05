@@ -29,11 +29,15 @@
 
 #### Missing Element Definitions:
 
-- 427
+- 427 - Unit Price Difference
 - 475
 - 484
-- 706
-- 749
+- 706	Entity Relationship Code	ID	2	2	
+- 749	Supplementary Information Qualifier	
+
+#### Incomplete Element Definitions:
+
+- 167
 
 #### Complicated Elements:
 
