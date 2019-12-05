@@ -1,5 +1,5 @@
 module Eddy
-  module Def
+  module Summary
     # An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.
     class ElementSummary
       # Indicates the order in which Elements should appear in their Segment.

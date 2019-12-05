@@ -1,7 +1,7 @@
 ---
 name: ElementSummary
 description: An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.
-modules: [Eddy, Def]
+modules: [Eddy, Summary]
 attrs:
 - name: ref
   description: Indicates the order in which Elements should appear in their Segment.
