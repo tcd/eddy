@@ -1,0 +1,53 @@
+---
+name: SegmentSummary
+description: A collection of Data Elements. Used in Companion Guides to define a Transaction Set.
+modules: [Eddy, Def]
+attrs:
+- name: pos
+  description: Indicates the order in which Segments should appear in their Level of the Transaction Set.
+  type: String
+  # read_only: true
+- name: id
+  description: Short string identifying the Segment.
+  type: String
+  # read_only: true
+- name: name
+  description: Full name of the Segment.
+  type: String
+  # read_only: true
+- name: purpose
+  description: Documents the purpose of a Segment.
+  type: String
+  # read_only: true
+- name: max_use
+  description: Number of times a particular Segment may be repeated at its location in the Transaction Set.
+  type: Integer
+  # read_only: true
+- name: notes
+  description: "*Syntax*, *Semantic*, or *Comment* notes on a Segment."
+  type: String
+  # read_only: true
+- name: usage
+  description:  Indicates whether or not the Segment must be used; Somewhat redundant due to `Req`.
+  type: String
+  # read_only: true
+- name: loop
+  description: Loop in which the Segment appears.
+  type: String
+  # read_only: true
+- name: element_count
+  description: Number of Data Elements included in the Segment.
+  type: Integer
+  # read_only: true
+- name: req
+  description: Defines if/how the Segment is required.
+  type: String
+  # read_only: true
+- name: level
+  description: Indicates where the Segment is located in the Transaction Set.
+  type: String
+  # read_only: true
+- name: elements
+  description: Number of Data Elements included in the Segment.
+  type: Array
+  # read_only: true
