@@ -738,7 +738,7 @@ id	name	type	min	max	description
 857	Pre-Price Quantity Designator	N6	1	9	Number of units for which retail value is quoted
 858	Retail Pre-Price	R	1	9	Retail value to be placed/printed for an item appearing on the transmitted purchase order
 859	Activity Code	ID	2	2	Code identifying activity details for the product being reported
-860	D-U-N-S Number	ID	9	9	Identifying number assigned by Dun  Bradstreet (Data Universal Numbering System)
+860	D-U-N-S Number	ID	9	9	Identifying number assigned by Dun & Bradstreet (Data Universal Numbering System)
 861	Supplier's Delivery/Return Number	AN	1	22	Identifying number assigned by the supplier to the transaction
 862	Receiver's Location Number	AN	1	6	Number assigned by the customer that when combined with receiver Duns number uniquely identifies the receiving location
 863	X-Peg	R	1	6	Horizontal distance from the edge to the center of the peg hole (measured from the left)
