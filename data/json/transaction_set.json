@@ -32,7 +32,7 @@
   "definitions": {
 
     "loop_summary": {
-      "description": "A repeated collection of Segments and/or other Loops . Used in Companion Guides.",
+      "description": "A repeated collection of Segments and/or other Loops. Used in Companion Guides.",
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -61,7 +61,7 @@
         "level": {
           "description": "Indicates where the Loop is located in the Transaction Set.",
           "type": "string",
-          "enum": [ "Heading", "Detail", "Summary", "Not Defined" ]
+          "enum": ["Heading", "Detail", "Summary", "Not Defined"]
         },
         "req": {
           "description": "Defines if/how the Loop is required.",
