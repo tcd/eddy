@@ -5,6 +5,10 @@ exclude:
 - spec/**/*
 - test/**/*
 - vendor/**/*
+- build/**/*
+- data/**/*
+- tasks/**/*
+- tmp/**/*
 domains: []
 reporters:
 - typecheck

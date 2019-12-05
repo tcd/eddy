@@ -1,6 +1,18 @@
 AllCops:
   TargetRubyVersion: 2.3.0
 
+Style/SingleLineMethods:
+  Exclude:
+    - 'test/**/*.rb'
+
+# Don't leave calls to pry lying around.
+Lint/Debugger:
+  Enabled: true
+
+# ==============================================================================
+# Documentation
+# ==============================================================================
+
 Style/Documentation:
   Enabled: true
   Exclude:
@@ -10,14 +22,6 @@ Style/DocumentationMethod:
   Enabled: true
   Exclude:
     - 'test/**/*.rb'
-
-Style/SingleLineMethods:
-  Exclude:
-    - 'test/**/*.rb'
-
-# Don't leave calls to pry lying around.
-Lint/Debugger:
-  Enabled: true
 
 # ==============================================================================
 # Layout
@@ -118,6 +122,16 @@ Metrics/BlockLength:
   Enabled: false
 
 # ==============================================================================
+# Explicit, not redundant
+# ==============================================================================
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+# ==============================================================================
 # Unsorted
 # ==============================================================================
 
@@ -134,14 +148,6 @@ Layout/IndentFirstArrayElement:
 Layout/AlignHash:
   Enabled: false
 
-# Explicit, not redundant
-Style/RedundantReturn:
-  Enabled: false
-
-# Explicit, not redundant
-Style/RedundantSelf:
-  Enabled: false
-
 # `x&.y&.[](:argument)` isn't what I'd call "readable".
 # https://stackoverflow.com/questions/34794697/using-with-the-safe-navigation-operator-in-ruby
 Style/SafeNavigation:
@@ -150,6 +156,9 @@ Style/SafeNavigation:
 # TODO: File issue to ignore enums when using `EnforcedStyle: assign_inside_condition`.
 Style/ConditionalAssignment:
   Enabled: false
+
+Style/TernaryParentheses:
+  EnforcedStyle: require_parentheses_when_complex
 
 Lint/HandleExceptions:
   AllowComments: true
