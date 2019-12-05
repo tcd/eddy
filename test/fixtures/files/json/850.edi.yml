@@ -1,0 +1,121 @@
+---
+code: 850
+functional_group: PO
+name: Purchase Order
+components:
+
+- id: ISA
+  max_use: 1
+  req: M
+  element_count: 16
+
+- id: GS
+  max_use: 1
+  req: M
+  element_count: 8
+
+- id: ST
+  max_use: 1
+  req: M
+  element_count: 2
+  elements:
+    - ref: ST01
+      id: '143'
+      default: '850'
+    - ref: ST02
+      id: '329'
+
+- id: BEG
+  max_use: 1
+  req: M
+  element_count: 4
+  elements:
+    - ref: BEG01
+      id: '353'
+      default: '00'
+    - ref: BEG02
+      id: '92'
+      default: DS
+    - ref: BEG03
+      id: '324'
+    - ref: BEG05
+      id: '373'
+      description: The date assigned by the purchaser to purchase order.
+
+- id: TD5
+  max_use: 12
+  req: O
+  element_count: 1
+  elements:
+    - ref: TD505
+      id: '387'
+      req: X
+      type: AN
+      min: 1
+      max: 35
+
+- loop_id: L1 # N1
+  repeat: 200
+  req: O
+  components:
+  - id: N1
+    max_use: 1
+    req: O
+    element_count: 2
+    elements:
+      - ref: N101
+        id: '98'
+        default: ST
+      - ref: N102
+        id: '93'
+  - id: N3
+    max_use: 2
+    req: O
+    element_count: 2
+    elements:
+      - ref: N301
+        id: '166'
+        req: M
+      - ref: N302
+        id: '166'
+        req: O
+  - id: N4
+    max_use: 1
+    req: O
+    element_count: 4
+
+- loop_id: L2 # PO1
+  repeat: 100000
+  req: M
+  components:
+  - id: PO1
+    max_use: 1
+    req: M
+    element_count: 9
+
+- loop_id: L3 # CTT
+  repeat: 1
+  components:
+  - id: CTT
+    max_use: 1
+    req: O
+    element_count: 1
+    elements:
+      - ref: CTT01
+        id: '354'
+        req: M
+
+- id: SE
+  max_use: 1
+  req: M
+  element_count: 2
+
+- id: GE
+  max_use: 1
+  req: M
+  element_count: 2
+
+- id: IEA
+  max_use: 1
+  req: M
+  element_count: 2

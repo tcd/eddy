@@ -73,10 +73,6 @@ components:
         max_use: 1
         req: O
         element_count: 7
-  - id: SE
-    max_use: 1
-    req: M
-    element_count: 2
 
 - loop_id: L1040
   repeat: 1
@@ -85,6 +81,11 @@ components:
     max_use: 1
     req: O
     element_count: 1
+
+- id: SE
+  max_use: 1
+  req: M
+  element_count: 2
 
 - id: GE
   max_use: 1
