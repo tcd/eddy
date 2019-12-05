@@ -9,8 +9,8 @@ module Eddy
 
       # @return [void]
       def initialize()
-        self.id = "N2"
-        self.description = "Additional Name Information"
+        @id = "N2"
+        @description = "Additional Name Information"
         self.elements = ["93", "93"]
         @name_1 = Eddy::Elements::Name.new()
         @name_2 = Eddy::Elements::Name.new()
