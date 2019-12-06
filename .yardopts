@@ -1,9 +1,2 @@
---charset utf-8
---markup markdown
---exclude /test/
---exclude /build/
---exclude /data/
---exclude /doc/
---exclude /tasks/
---exclude /test/
---exclude /tmp/
+--charset=utf-8
+--markup=markdown

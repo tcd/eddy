@@ -174,3 +174,8 @@ Metrics/PerceivedComplexity:
 
 Style/CommentedKeyword:
   Enabled: False
+
+Naming/UncommunicativeMethodParamName:
+  AllowedNames:
+    - el
+    - id
