@@ -36,18 +36,18 @@ module Eddy
     #
     # @return [Array<Hash>]
     def self.generate_elements()
-      elements = self.generate_element_data()
+      elements = Eddy::Data.generate_element_data()
       elements.each do |el|
         case el[:type]
-        when "AN"   then self.build_an(el)
-        when "B"    then self.build_b(el)
-        when "DT"   then self.build_dt(el)
-        when "ID"   then self.build_id(el)
-        when /N\d*/ then self.build_n(el)
-        when "R"    then self.build_r(el)
-        when "TM"   then self.build_tm(el)
+        when "AN"   then self.an(el)
+        when "B"    then next
+        when "DT"   then self.dt(el)
+        when "ID"   then self.id(el)
+        when /N\d*/ then self.n(el)
+        when "R"    then self.r(el)
+        when "TM"   then self.tm(el)
         else
-          raise Eddy::Error "unable to determine element type"
+          raise Eddy::Errors::Error, "unable to determine element type"
         end
       end
       return nil
