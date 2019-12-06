@@ -422,6 +422,7 @@ G94	Promotion Conditions
 G95	Performance Requirements
 GA	Canadian Grain Information
 GDP	General Dosing Parameters
+GE	Functional Group Trailer
 GF	Furnished Goods And Services
 GH	Group Header
 GID	Group Identification
@@ -431,6 +432,7 @@ GR4	Loading Cluster
 GR5	Loading Details
 GRI	Statistical Government Information
 GRP	Group Dosage Parameters
+GS	Functional Group Header
 GY	Geography
 H1	Hazardous Material
 H2	Additional Hazardous Material Description
@@ -458,6 +460,7 @@ ID3	Dimensions Detail
 ID4	Load Details
 IDB	Indebtedness For Student Loans
 IDC	Identification Card
+IEA	Interchange Control Trailer
 IGI	Insurer Or Guarantor Information
 III	Information
 IIS	Interchange Identification Segment
@@ -483,6 +486,7 @@ IRA	Investor Reporting Action
 IRP	Report Selection Segment
 IS1	Estimated Time Of Arrival And Car Scheduling
 IS2	Scheduled Events
+ISA	Interchange Control Header
 ISC	Interline Service Commitment Detail
 ISD	Railroad Interline Service Definition Detail
 ISI	Institutional Staff Information
@@ -804,6 +808,7 @@ SCT	School Type
 SD1	Safety Data
 SDP	Ship/Delivery Pattern
 SDQ	Destination Quantity
+SE	Transaction Set Trailer
 SER	Service Charges
 SES	Academic Session Header
 SFC	Storage Facility Characteristics
@@ -849,6 +854,7 @@ SSD	Shipment Sort Segregate Data
 SSE	Entry And Exit Information
 SSS	Product Special Services
 SST	Student Academic Status
+ST	Transaction Set Header
 STA	Statistics
 STC	Status Information
 STP	Study Parameters
