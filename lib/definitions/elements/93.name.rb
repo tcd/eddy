@@ -11,8 +11,8 @@ module Eddy
         @id = "93"
         @name = "Name"
         @type = "AN"
-        self.min = 1
-        self.max = 60
+        @min = 1
+        @max = 60
       end
     end
   end

@@ -11,8 +11,8 @@ module Eddy
         @id = "I08"
         @name = "Interchange Date"
         @type = "DT"
-        self.min = 6
-        self.max = 6
+        @min = 6
+        @max = 6
         super(:yymmdd, Time.now.utc)
       end
     end

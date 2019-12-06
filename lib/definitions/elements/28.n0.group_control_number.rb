@@ -11,8 +11,8 @@ module Eddy
         @id = "28"
         @name = "GroupControlNumber"
         @type = "N"
-        self.min = 1
-        self.max = 9
+        @min = 1
+        @max = 9
         self.decimal_points = 0
       end
     end

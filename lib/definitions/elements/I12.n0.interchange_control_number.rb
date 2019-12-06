@@ -11,8 +11,8 @@ module Eddy
         @id = "I12"
         @name = "InterchangeControlNumber"
         @type = "N"
-        self.min = 9
-        self.max = 9
+        @min = 9
+        @max = 9
         self.decimal_points = 0
       end
     end

@@ -11,8 +11,8 @@ module Eddy
         @id = "I04"
         @name = "SecurityInformation"
         @type = "AN"
-        self.min = 10
-        self.max = 10
+        @min = 10
+        @max = 10
         self.value = (" " * 10) # "          "
       end
     end

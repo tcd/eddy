@@ -11,8 +11,8 @@ module Eddy
         @id = "86"
         @name = "Total Equipment"
         @type = "N0"
-        self.min = 1
-        self.max = 3
+        @min = 1
+        @max = 3
         self.decimal_points = 0
       end
     end

@@ -8,8 +8,8 @@ module Eddy
       # @param val [Integer]
       # @return [void]
       def initialize(min, max, val = nil)
-        self.min = min
-        self.max = max
+        @min = min
+        @max = max
         self.value = val
       end
 

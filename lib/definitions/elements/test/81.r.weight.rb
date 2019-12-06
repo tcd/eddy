@@ -11,8 +11,8 @@ module Eddy
         @id = "81"
         @name = "Weight"
         @type = "R"
-        self.min = 1
-        self.max = 10
+        @min = 1
+        @max = 10
       end
     end
   end

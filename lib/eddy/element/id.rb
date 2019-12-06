@@ -12,8 +12,8 @@ module Eddy
       # @param max [Integer]
       # @return [void]
       def initialize(min, max)
-        self.min = min
-        self.max = max
+        @min = min
+        @max = max
       end
 
       # @return [String]

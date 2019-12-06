@@ -11,8 +11,8 @@ module Eddy
         @id = "109"
         @name = "Pick-up Date"
         @type = "DT"
-        self.min = 8
-        self.max = 8
+        @min = 8
+        @max = 8
         super(:ccyymmdd)
       end
     end

@@ -12,8 +12,8 @@ module Eddy
         @id = "785"
         @name = "Binary Data"
         @type = "B"
-        self.min = 1
-        self.max = max
+        @min = 1
+        @max = max
       end
     end
   end

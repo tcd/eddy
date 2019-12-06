@@ -7,9 +7,9 @@ module Eddy
       def initialize()
         @id = "N2"
         @description = "Additional Name Information"
-        self.elements = ["93", "93"]
-        @name_1 = Eddy::Elements::Name.new()
-        @name_2 = Eddy::Elements::Name.new()
+        @el_name_1 = Eddy::Elements::Name.new()
+        @el_name_2 = Eddy::Elements::Name.new()
+        super(@el_name_1, @el_name_2)
       end
 
       # (see Eddy::Elements::Name)
@@ -17,7 +17,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def name_1=(val)
-        @name_1.value = val
+        @el_name_1.value = val
       end
 
       # (see Eddy::Elements::Name)
@@ -25,7 +25,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def name_2=(val)
-        @name_1.value = val
+        @el_name_2.value = val
       end
     end
   end

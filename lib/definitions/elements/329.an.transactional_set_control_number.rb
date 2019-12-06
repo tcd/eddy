@@ -11,8 +11,8 @@ module Eddy
         @id = "329"
         @name = "TransactionSetControlNumber"
         @type = "AN"
-        self.min = 4
-        self.max = 9
+        @min = 4
+        @max = 9
       end
     end
   end

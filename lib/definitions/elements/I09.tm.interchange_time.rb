@@ -11,8 +11,8 @@ module Eddy
         @id = "I09"
         @name = "Interchange Time"
         @type = "TM"
-        self.min = 4
-        self.max = 4
+        @min = 4
+        @max = 4
         super(:hhmm, Time.now.utc)
       end
     end

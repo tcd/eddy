@@ -13,8 +13,8 @@ module Eddy
           @id = "#{el[:id]}"
           @name = "#{el[:name]}"
           @type = "N"
-          self.min = #{el[:min]}
-          self.max = #{el[:max]}
+          @min = #{el[:min]}
+          @max = #{el[:max]}
           self.decimal_points = #{decimal_points}
         RUBY
       }).render()

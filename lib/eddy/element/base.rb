@@ -14,10 +14,10 @@ module Eddy
       attr_reader :type
       # Minimum length for a valid value.
       # @return [Integer]
-      attr_accessor :min
+      attr_reader :min
       # Maximum length for a valid value.
       # @return [Integer]
-      attr_accessor :max
+      attr_reader :max
 
       # Inheriting classes need to define a getter for `value`.
       # @return [void]

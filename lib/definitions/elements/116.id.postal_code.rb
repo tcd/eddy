@@ -11,8 +11,8 @@ module Eddy
         @id = "116"
         @name = "Postal Code"
         @type = "ID"
-        self.min = 3
-        self.max = 15
+        @min = 3
+        @max = 15
       end
 
       # @return [Regexp]

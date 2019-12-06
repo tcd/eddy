@@ -12,8 +12,8 @@ module Eddy
       # @param val [Integer,nil] (nil)
       # @return [void]
       def initialize(min, max, decimal_points, val = nil)
-        self.min = min
-        self.max = max
+        @min = min
+        @max = max
         self.decimal_points = decimal_points
         self.value = val
       end

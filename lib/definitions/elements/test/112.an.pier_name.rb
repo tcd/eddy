@@ -11,8 +11,8 @@ module Eddy
         @id = "112"
         @name = "Pier Name"
         @type = "AN"
-        self.min = 2
-        self.max = 14
+        @min = 2
+        @max = 14
       end
     end
   end

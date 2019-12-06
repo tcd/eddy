@@ -14,8 +14,8 @@ module Eddy
           @id = "#{el[:id]}"
           @name = "#{el[:name]}"
           @type = "ID"
-          self.min = #{el[:min]}
-          self.max = #{el[:max]}
+          @min = #{el[:min]}
+          @max = #{el[:max]}
         FUNC_BODY
       }).render()
       data = {

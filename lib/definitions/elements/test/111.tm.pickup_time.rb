@@ -11,8 +11,8 @@ module Eddy
         @id = "111"
         @name = "Pick-up Time"
         @type = "TM"
-        self.min = 4
-        self.max = 4
+        @min = 4
+        @max = 4
         super(:hhmm)
       end
     end

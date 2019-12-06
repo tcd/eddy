@@ -11,8 +11,8 @@ module Eddy
         @id = "156"
         @name = "State or Province Code"
         @type = "ID"
-        self.min = 2
-        self.max = 2
+        @min = 2
+        @max = 2
       end
 
       # @return [Array<String>]
