@@ -20,10 +20,10 @@ module Eddy
       self.elements = elements || []
     end
 
-    # @param element_separator [String] String used to delimit elements.
+    # @param element_separator [String] String used to delimit elements within a segment.
     # @return [String]
     def render(element_separator)
-      return self.elements.map(&:value).join(element_separator)
+      return self.id + element_separator + self.elements.map(&:value).compact.join(element_separator)
     end
 
   end
