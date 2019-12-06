@@ -76,7 +76,7 @@ module Eddy
         when 8
           return :hhmmssdd
         else
-          raise Eddy::Error, "unable to determine format for tm element"
+          raise Eddy::Errors::Error, "unable to determine format for tm element"
         end
       end
 

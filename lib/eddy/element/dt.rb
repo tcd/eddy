@@ -64,7 +64,7 @@ module Eddy
         when 8
           return :ccyymmdd
         else
-          raise Eddy::Error, "unable to determine format for dt element"
+          raise Eddy::Errors::Error, "unable to determine format for dt element"
         end
       end
 

@@ -71,7 +71,7 @@ module Eddy
              when /R\d*/ then "R"
              when "TM"   then "TM"
              else
-               raise Eddy::Error, "unable to determine element type (#{data.capitalize})"
+               raise Eddy::Errors::Error, "unable to determine element type (#{data.capitalize})"
              end
     end
 
