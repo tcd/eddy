@@ -1,0 +1,1405 @@
+id	name
+1	Route Code
+2	Number of Accepted Transaction Sets
+3	Free Form Message
+4	Air Carrier Code
+5	Airport Code
+7	Bank Account Number
+8	Bank Client Code
+9	Late Reason Code
+11	Billing Code
+12	Payment Pattern
+13	Booking Number
+14	Carriage Value
+16	Charge Method of Payment
+19	City Name
+20	Client Bank Number
+21	Number of Shipments
+22	Commodity Code
+23	Commodity Code Qualifier
+24	Equipment Type
+26	Country Code
+28	Group Control Number
+31	Adjustment Number
+32	Delivery Date
+33	Lading Exception Code
+34	Service Standard
+35	Disposition Code
+39	Entitlement Code
+40	Equipment Description Code
+41	Interchange Train Identification
+42	Block Identification
+46	Ex Parte
+47	Export Filing Key Code
+48	Export License Control Code
+50	Export License Number
+51	Export License Status Code
+52	Export License Symbol Code
+54	Risk of Loss Code
+55	Flight/Voyage Number
+56	Type of Service Code
+58	Charge
+59	Freight Class Code
+60	Freight Rate
+61	Free-Form Message
+62	Hazardous Material Code
+63	Hazardous Material Contact
+64	Hazardous Material Description
+65	Height
+66	Identification Code Qualifier
+67	Identification Code
+68	Import License Expiration Date
+69	Import License Issue Date
+70	Import License Number
+71	Inquiry Request Number
+72	Type of Service Offered Code
+73	Compensation Qualifier
+74	Declared Value
+76	Invoice Number
+77	Flashpoint Temperature
+78	Container Type Request Code
+79	Lading Description
+80	Lading Quantity
+81	Weight
+82	Length
+83	Licensing Agency Code
+86	Total Equipment
+87	Marks and Numbers
+88	Marks and Numbers Qualifier
+90	Measurement Unit Qualifier
+91	Transportation Method/Type Code
+92	Purchase Order Type Code
+93	Name
+95	Number of Containers
+96	Number of Included Segments
+97	Number of Transaction Sets Included
+98	Entity Identifier Code
+100	Currency Code
+102	Ownership Code
+103	Packaging Code
+104	Type of Bankruptcy Code
+106	Event
+107	Payment Method Code
+108	Pick-up or Delivery Code
+109	Pick-up Date
+110	Application Acknowledgment Code
+111	Pick-up Time
+112	Pier Name
+113	Pier Number
+114	Port Name
+115	Port or Terminal Function Code
+116	Postal Code
+117	Prepaid Amount
+118	Rate
+119	Rate Basis Number
+120	Rate Combination Point Code
+121	Rate Class Code
+122	Rate/Value Qualifier
+123	Number of Received Transaction Sets
+124	Application Receiver's Code
+127	Reference Identification
+128	Reference Identification Qualifier
+129	Referenced Pattern Identifier
+132	Release Code
+133	Routing Sequence Code
+135	Sailing/Flight Date Estimated
+136	Sales Comment
+137	Sales Reference Date
+138	Sales Reference Number
+139	Sales Terms Code
+140	Standard Carrier Alpha Code
+141	Schedule B Code
+142	Application Sender's Code
+143	Transaction Set Identifier Code
+145	Shipment Identification Number
+146	Shipment Method of Payment
+147	Shipment Qualifier
+148	Lading Value
+150	Special Charge or Allowance Code
+151	Authority
+152	Special Handling Code
+153	Special Handling Description
+154	Standard Point Location Code
+156	State or Province Code
+157	Shipment Status Code
+158	Status Date
+159	Status Location
+160	Status Report Request Code
+161	Status Time
+163	Stop Reason Code
+165	Stop Sequence Number
+166	Address Information
+167	Tare Weight
+168	Tariff Agency Code
+169	Tariff Item Number
+170	Tariff Item Part
+171	Tariff Number
+172	Tariff Section
+173	Tariff Supplement Identifier
+174	Terminal Name
+176	Time Qualifier
+177	Intermodal Service Code
+181	Quantity or Status Adjustment Reason Code
+182	Vessel Name
+183	Volume
+184	Volume Unit Qualifier
+186	Waybill Number
+187	Weight Qualifier
+188	Weight Unit Code
+189	Width
+190	Accomplish Code
+191	Advances
+192	Agent/Shipper Routing Code
+193	Net Amount Due
+195	Capacity Load Code
+196	Mortgagor Response Code
+197	Mortgagee Information Status Code
+199	Confidential Billing Request Code
+200	Hazardous Materials Page
+201	Business Transaction Status
+202	Correction Indicator
+203	Cubic Capacity
+204	Direct Store Delivery Sequence Number
+205	Dunnage
+206	Equipment Initial
+207	Equipment Number
+208	Hazardous Material Code Qualifier
+209	Hazardous Material Class Code
+210	International/Domestic Code
+211	Packaging Form Code
+212	Unit Price
+213	Lading Line Item Number
+214	Waybill Request Code
+215	Hazardous Classification
+216	Metric Qualifier
+218	Hazardous Placard Notation
+219	Position
+220	Billed/Rated-as Quantity
+221	Billed/Rated-as Qualifier
+222	Hazardous Endorsement
+223	Repetitive Pattern Number
+224	Hazardous Material Shipping Name
+225	Seal Number
+226	Section Seven Code
+227	Tariff Column
+229	Transit Registration Number
+230	Subsidiary Classification
+231	Cross Reference Type Code
+232	Weight Allowance
+233	Weight Capacity
+234	Product/Service ID
+235	Product/Service ID Qualifier
+236	Price Identifier Code
+237	Item List Cost
+238	Emergency Response Plan Number
+240	Car Service Order Code
+241	Protective Service Code
+242	Vent Instruction Code
+243	Transaction Reference Date
+244	Transaction Reference Number
+246	Certification/Clause Code
+247	Certification/Clause Text
+248	Allowance or Charge Indicator
+249	Vessel Requirement Code
+250	Letter of Credit Number
+253	Automobile Ramp Facility Code
+254	Packing Group Code
+255	Expiration Date
+256	Manifest Type Code
+257	Tariff Application Code
+258	Quantity Cost
+259	Change Type Code
+260	Group Title
+261	Source of Disclosure Code
+262	Geography Qualifier Code
+263	Rating Code
+264	Census Merchandise Type Code
+265	Census Export License Identifier Code
+267	Net Explosive Quantity
+268	Census Container Code
+269	Census Special Identifier Code
+271	Subsidiary Risk Indicator
+272	Hazardous Certification Code
+273	Hazardous Certification Declaration
+274	Hazardous Material Classification
+275	Authorization Date
+276	Special Charge Description
+277	UN/NA Identification Code
+278	Terminator Type Code
+280	Exchange Rate
+281	Carrier Restriction Code
+282	Terms Start Date
+283	Terms Due Date Qualifier
+284	Service Level Code
+285	Depositor Order Number
+286	Product/Service Condition Code
+287	Authorize/ De-Authorize Code
+288	Prepriced Option Code
+289	Multiple Price Quantity
+290	Price Condition Code
+291	Price Condition Applies Code
+292	Quantity Basis
+293	Promotion Condition Qualifier
+294	Tariff Distance
+295	Distance Qualifier
+296	Intermediate Switch Carrier
+298	Origin EDI Carrier Code
+299	Free-form Transit Data
+301	Car Type Code
+304	Event Code
+305	Transaction Handling Code
+306	Action Code
+308	Damage Exception Indicator
+309	Location Qualifier
+310	Location Identifier
+311	Shipment Type Code
+312	Special Indicator Code
+313	Authority Identifier Code
+315	Compensation Paid
+316	Next Port of Discharge
+317	Total Compensation Amount
+318	Current Port of Loading
+319	Temperature Control
+320	Scale
+321	Intermodal Facility Code
+322	Load/Empty Status Code
+323	Purchase Order Date
+324	Purchase Order Number
+325	Tax Identification Number
+326	Request Reference Number
+327	Change Order Sequence Number
+328	Release Number
+329	Transaction Set Control Number
+330	Quantity Ordered
+331	Allowance or Charge Method of Handling Code
+332	Percent
+333	Terms Basis Date Code
+334	Transportation Terms Qualifier Code
+335	Transportation Terms Code
+336	Terms Type Code
+337	Time
+338	Terms Discount Percent
+339	Allowance or Charge Quantity
+340	Allowance or Charge Code
+341	Allowance or Charge Number
+342	Percent of Invoice Payable
+343	Installment Total Invoice Amount Due
+344	Unit of Time Period or Interval
+345	Lead Time Code
+346	Application Type
+347	Hash Total
+348	Jurisdiction Code
+349	Item Description Type
+350	Assigned Identification
+351	Terms Discount Days Due
+352	Description
+353	Transaction Set Purpose Code
+354	Number of Line Items
+355	Unit or Basis for Measurement Code
+356	Pack
+357	Size
+358	Quantity Invoiced
+359	Allowance or Charge Rate
+360	Allowance or Charge Total Amount
+361	Total Invoice Amount
+362	Terms Discount Amount
+363	Note Reference Code
+364	Communication Number
+365	Communication Number Qualifier
+366	Contact Function Code
+367	Contract Number
+368	Shipment/Order Status Code
+369	Free-form Description
+370	Terms Discount Due Date
+371	Change Reason Code
+372	Lading Liability Code
+373	Date
+374	Date/Time Qualifier
+375	Tariff Service Code
+376	Test Indicator
+377	Rounding Rule Code
+378	Allowance/Charge Percent Qualifier
+379	Bid Type Response Code
+380	Quantity
+381	Price Reason Code
+382	Number of Units Shipped
+383	Quantity Difference
+384	Gross Weight per Pack
+385	Gross Volume per Pack
+386	Terms Net Days
+387	Routing
+388	Terms Deferred Due Date
+389	Deferred Amount Due
+390	Amount Subject to Terms Discount
+391	Discounted Amount Due
+392	Bill of Lading Status Code
+393	Amendment Code
+394	Warehouse Receipt Number
+395	Unit Weight
+396	Shipment Identification
+397	Color
+398	Order Sizing Factor
+399	Pallet Exchange Code
+400	Unit Load Option Code
+402	Communications ID
+404	Transmission Control Number
+406	Quantity of Pallets Shipped
+407	Seal Status Code
+408	Temperature
+409	Quantity of Pallets Received
+410	Quantity of Pallets Returned
+411	Quantity Contested
+412	Receiving Condition Code
+413	Quantity Received
+414	Lading Quantity Received
+415	Rate Adjustment Description Code
+416	Pallet Block and Tiers
+417	Price Bracket Identifier
+418	Item List Cost - New
+419	Item List Cost - Old
+420	Price New, Suggested Retail
+421	Price Old, Suggested Retail
+422	Promotion Condition Code
+423	Promotion Status Code
+424	Vendor Order Number
+426	Adjustment Reason Code
+427	Unit Price Difference
+429	Check Number
+432	Date Qualifier
+433	F.O.B. Point Code
+434	F.O.B. Point
+436	Primary Publication Authority Code
+437	Rate Maintenance Authority Code
+438	U.P.C. Case Code
+439	Price List Number
+440	Price List Issue Number
+441	Tax Exempt Code
+442	MICR Number
+443	Contact Inquiry Reference
+444	Purchase Order Instruction Code
+445	Terms Exception Code
+446	Terms Net Due Date
+447	Loop Identifier Code
+448	Property Damage Code
+449	Fixed Format Information
+451	Warehouse Lot Number
+452	Quantity Damaged/On Hold
+455	Responsible Agency Code
+456	Temperature Probe Location Code
+458	Dunnage Description
+459	Name (30 Character Format)
+460	Shipment Weight Code
+461	Transit Level Code
+462	Through Surcharge Percent
+463	Paid-In Surcharge Percent
+464	Container Terms Code
+465	Container Terms Code Qualifier
+466	Total Stopoffs
+467	Priority
+468	Port Call File Number
+470	Priority Code
+471	Priority Code Qualifier
+472	Link Sequence Number
+473	Order Status Code
+474	Master Reference (Link) Number
+475	Credit/Debit Adjustment Number
+477	Credit/Debit Quantity
+478	Credit/Debit Flag Code
+479	Functional Identifier Code
+480	Version / Release / Industry Identifier Code
+481	Trace Type Code
+482	Payment Action Code
+483	Counseling Status Code
+484	Evaluation Rating Code
+485	Results Code
+486	Product Transfer Movement Type Code
+487	Maintenance Operation Code
+488	Percent
+489	Loop Level Number
+490	Note Identification Number
+491	Data Element Type
+492	Position in Composite
+493	Tariff Number Suffix
+495	Condition Segment Logical Connector
+496	Level
+497	Sub Level
+498	Condition Code
+499	Condition Value
+500	Rate Level
+501	Customs Documentation Handling Code
+502	Type of Locomotive Maintenance Code
+503	Block 20 Code
+504	Chemical Analysis Percentage
+505	Partition Indicator
+506	(DFI) ID Number Qualifier
+507	(DFI) Identification Number
+508	Account Number
+509	Originating Company Identifier
+510	Originating Company Supplemental Code
+511	Rail Car Plate Size Code
+512	Import/Export Code
+514	Reporting Code
+515	Number of Transaction Sets Totaled
+516	Total Qualifier
+517	Data Element Totaled
+518	Total
+519	Time Period Qualifier
+521	Product Transfer Type Code
+522	Amount Qualifier Code
+529	Inventory Transaction Type Code
+531	Agent Shipment ID Number
+533	Water Movement Code
+534	Inland Transportation Code
+535	Rail Retirement Activity Code
+536	Nature of Claim Code
+537	Employment Code
+538	Charge/Allowance Qualifier
+539	Vehicle Identification Number
+540	Damage Type Code
+541	Damage Severity Code
+542	Labor Hours
+543	Labor Rate
+544	Supporting Evidence Code
+545	Unemployed Reason Code
+546	Status Code
+547	Interest Type Code
+548	Decline/Amend Reason Code
+550	Total Labor Cost
+551	Total Miscellaneous Costs
+552	Total Repair Cost
+553	Authorization Identification
+554	Assigned Number
+555	Labor Operation Identifier
+556	Damage Area Code
+557	Part Name
+558	Reservation Action Code
+559	Agency Qualifier Code
+560	Special Services Code
+561	Service Marks and Numbers
+562	Rate or Value Type Code
+563	Sales Requirement Code
+566	Product/Service Substitution Code
+567	Equipment Length
+568	Electronic Form Note Reference Code
+569	Account Number Qualifier
+570	Scale Type Code
+571	Tare Qualifier Code
+572	Weight Allowance Type Code
+573	Freight Station Accounting Code
+574	Claim Profile
+575	City Name Qualifier Code
+576	Abbreviated Customer Name
+577	Net Tons
+578	Equipment Status Code
+579	Type of Consist Code
+580	Amendment Type Code
+581	Customs Entry Type Code
+582	Bill of Lading Type Code
+583	Factory Car Order Number
+584	Employment Status Code
+585	Payroll Status Code
+586	Request for Quote Reference Number
+587	Acknowledgment Type
+589	Position in Set
+590	Wages Paid Code
+591	Payment Method Code
+592	Lading Description Qualifier
+594	Frequency Code
+595	Compartment ID Code
+597	Vessel Code
+598	Bill of Lading/Waybill Number
+599	Manifest Unit Code
+600	Place of Receipt by Pre-carrier
+601	Customs Entry Number
+602	Customs Shipment Value
+603	In-bond Control Number
+604	Consolidation Code
+605	Deficiency Judgment Code
+607	Number of Days
+608	Credit File Variation Code
+609	Count
+610	Amount
+611	Disposition Code
+612	Credit Report Merge Type Code
+613	Statement Number
+614	Store Number
+615	Time Period Qualifier
+616	Number of Periods
+617	Switch Type Code
+619	Zone
+620	Track
+621	Spot
+622	Number of Loads
+623	Time Code
+624	Century
+625	COD Method of Payment Code
+626	Excess Transportation Reason Code
+627	Excess Transportation Responsibility Code
+628	Hierarchical ID Number
+629	Alternation Precedence Code
+630	Minimum/Weight Logic
+631	Number of Rates
+632	Rate Application Type Code
+633	Loading Restriction
+634	Factor Amount
+635	Rate Request/Response Code
+637	Unit Conversion Factor
+638	Rule 260 Junction Code
+639	Basis of Unit Price Code
+640	Transaction Type Code
+641	Status Reason Code
+642	Week
+643	Lading Percentage
+644	Lading Percent Qualifier
+645	Related Company Indication Code
+646	Quantity Shipped to Date
+647	Application Error Condition Code
+648	Price Multiplier Qualifier
+649	Multiplier
+650	Rating Remarks Code
+653	Discount Terms Type Code
+654	Discount Base Qualifier
+655	Discount Base Value
+656	Discount Control Limit Qualifier
+657	Discount Control Limit
+659	Basis of Verification Code
+660	Contract Suffix
+662	Relationship Code
+663	Quantity Units Received or Accepted
+664	Quantity Units Returned
+665	Residue Indicator Code
+666	Division Type Code
+667	Quantity in Question
+668	Line Item Status Code
+669	Currency Market/Exchange Code
+670	Change or Response Type Code
+671	Quantity Left to Receive
+672	Resource Authorization Code
+673	Quantity Qualifier
+674	Reciprocal Switch Code
+675	Schedule Type Qualifier
+676	Schedule Quantity Qualifier
+677	Item Depth
+678	Ship/Delivery or Calendar Pattern Code
+679	Ship/Delivery Pattern Time Code
+680	Forecast Qualifier
+681	Forecast Timing Qualifier
+682	Part Release Status Code
+683	Catalog Purpose Code
+684	Catalog Number
+685	Catalog Version Number
+686	Catalog Revision Number
+687	Class of Trade Code
+688	Restrictions/Conditions Qualifier
+689	Occupancy Code
+690	Docket Identification
+691	Revision Number
+692	Conveyance Code
+693	Docket Type Code
+694	Percentage Division
+695	Independence Code
+697	Docket Control Number
+698	Rate Distribution Code
+699	Commodity/Geographic Logical Connector Code
+701	Information Type
+702	Financial Transaction Code
+703	Financial Information Type Code
+704	Paperwork/Report Action Code
+705	Trade Union Code
+706	Entity Relationship Code
+707	Rating Category Code
+708	Rating Summary Value Code
+709	Communications Environment Code
+712	Category Reference Code
+713	Installment Group Indicator
+714	Goods and Services Tax Reason Code
+715	Functional Group Acknowledge Code
+716	Functional Group Syntax Error Code
+717	Transaction Set Acknowledgment Code
+718	Transaction Set Syntax Error Code
+719	Segment Position in Transaction Set
+720	Segment Syntax Error Code
+721	Segment ID Code
+722	Element Position in Segment
+723	Data Element Syntax Error Code
+724	Copy of Bad Data Element
+725	Data Element Reference Number
+726	Real Estate Property Condition Code
+728	Returnable Container Load Make-Up Code
+729	Category
+730	Subcategory
+731	Transit Direction Code
+732	Transit Time Direction Qualifier
+733	Transit Time
+734	Hierarchical Parent ID Number
+735	Hierarchical Level Code
+736	Hierarchical Child Code
+737	Measurement Reference ID Code
+738	Measurement Qualifier
+739	Measurement Value
+740	Range Minimum
+741	Range Maximum
+742	Route Description
+743	Returnable Container Freight Payment Responsibility Code
+744	Print Option Code
+745	Pre-Cooled (Rule 710) Code
+746	Protective Service Rule Code
+747	Rebill Reason Code
+748	Movement Authority Code
+749	Supplementary Information Qualifier
+750	Product/Process Characteristic Code
+751	Product Description Code
+752	Surface/Layer/Position Code
+753	Packaging Characteristic Code
+754	Packaging Description Code
+755	Report Type Code
+756	Report Transmission Code
+757	Report Copies Needed
+758	Hazardous Mnemonic Code
+759	Reportable Quantity Code
+760	Limited Quantity Indication Code
+761	Equipment Number Check Digit
+762	Waybill Response Code
+765	Day of Month
+766	U.P.C./EAN Consumer Package Code
+767	Market Area Code Identifier
+768	Quantity Must Purchase
+769	Exception Number
+770	Option Number
+771	Market Area Code Qualifier
+772	Interchange Agreement Status Code
+773	Quantity Free
+781	Statement Format Code
+782	Monetary Amount
+783	Planning Schedule Type Code
+784	Length of Binary Data
+785	Binary Data
+786	Security Level Code
+787	Record Length
+788	Block Length
+789	Drawing Sheet Size Code
+790	Entity Title
+791	Entity Purpose
+792	Entity Status Code
+795	Revision Level Code
+796	Revision Value
+797	Security Technique Code
+799	Version Identifier
+800	Compression Technique
+801	Interchange Format
+802	Program Identifier
+803	File Name
+804	Block Type
+805	Canadian Hazardous Notation
+806	EPA Waste Stream Number Code
+807	Waste Characteristics Code
+808	Hazardous Material Shipment Information Qualifier
+809	Hazardous Material Shipment Information
+810	Inner Pack
+811	Obligation Type Code
+812	Payment Format Code
+813	Station Type Code
+814	Nesting Code
+815	Property Inspection Qualifier
+816	Occupancy Verification Code
+817	Tax Information Identification Number
+818	Name Control Identifier
+819	Language Code
+820	Report Section Name Code
+821	Safety Characteristic/Hazard Code
+822	Source Subqualifier
+824	Security Originator Name
+825	Security Recipient Name
+826	Owners Share
+828	Dollar Basis For Percent
+829	Fuel Type
+831	Inspection Location Type Code
+832	Ramp Identification
+833	Automotive Manufacturers Code
+834	Inspector Identity Code
+835	Supplemental Inspection Code
+836	Vehicle Deck Position Code
+837	Vehicle Type Code
+838	Dealer Code
+839	Bay Location
+844	Inbound Condition Hold Code
+845	Chassis Type
+846	Contract Status Code
+847	Order/Item Code
+848	Product/Date Code
+849	Location Code
+850	Status Report Code
+851	Nesting
+852	Address Type Code
+853	Damage Reason Code
+854	Vessel Type Code
+855	Peg Code
+856	Rate Level Qualifier Code
+857	Pre-Price Quantity Designator
+858	Retail Pre-Price
+859	Activity Code
+860	D-U-N-S Number
+861	Supplier's Delivery/Return Number
+862	Receiver's Location Number
+863	X-Peg
+864	Y-Peg
+865	Total Deposit Dollar Amount
+866	Integrity Check Value
+867	Signature
+868	Initiator Code
+869	Adjustment Number
+870	Receiver Delivery/Return Number
+871	Supplier's Location Number
+872	Physical Delivery or Return Date
+873	Product Ownership Transfer Date
+874	Space Management Reference Code
+875	Maintenance Type Code
+876	Alternate Tiers per Pallet
+877	Vessel Stowage Location
+878	Cash Register Item Description
+879	Coupon Family Code
+880	Dated Product Number of Days
+881	Deposit Value
+883	Pallet Type Code
+884	Pallet Tiers
+885	Pallet Blocks
+886	Nonconformance Report Status Code
+887	Nonconformance Resultant Response Code
+888	Nonconformance Determination Code
+889	Follow-up Action Code
+890	Carrier/Route Change Reason Code
+891	Shipping Date Change Reason Code
+892	Line Item Change Reason Code
+893	Warehouse Detail Adjustment Identifier
+894	Batch Type Code
+895	Availability
+897	Vessel Code Qualifier
+899	Unload Terminal Elevator Code
+901	Reject Reason Code
+902	Section Designator
+903	Envelope Indicator
+904	Requirement Designator
+905	Maximum Use
+906	Level Number
+909	Loop Name
+910	Loop Repeat Count
+911	Position in Segment
+912	Relation Code
+913	Data Element Type
+914	Minimum Length
+915	Maximum Length
+916	Code List Reference
+918	Code Value
+921	Discipline Type Code
+922	Electronic Form Standards Type Code
+923	Prognosis Code
+924	Full or Partial Indicator
+926	Data Maintenance Number
+927	Damage Code Qualifier
+930	Regulatory Agency Code
+931	Page Width
+932	Page Length Lines
+933	Free-Form Message Text
+934	Printer Carriage Control Code
+935	Measurement Significance Code
+936	Measurement Attribute Code
+937	Test Administration Method Code
+938	Test Medium Code
+939	Sample Process Status Code
+940	Sample Selection Method Code
+942	Sample Frequency Value per Unit of Measurement Code
+943	Sample Description Code
+944	Sample Direction Code
+945	Position Code
+949	Confidence Limit
+950	Statistic Code
+951	Balance Type Code
+952	Adjustment Application Code
+953	Interest Rate
+954	Percent
+955	Tax Jurisdiction Code Qualifier
+956	Tax Jurisdiction Code
+959	Payment Cancellation Type
+960	Request for Quote Type Code
+961	Data Element New Content
+962	Receiving Advice or Acceptance Certificate Type Code
+963	Tax Type Code
+964	Cost Code
+965	Issuing Carrier Identifier
+967	Tray Count
+969	Rate Basis Qualifier
+970	Tariff Add-On Factor
+971	Tariff Adjustment Value/Amount
+972	Tariff Class Adjustment Reference
+973	Tariff Item Suffix
+974	Tariff Reference Flag
+975	Tariff Restriction Description
+976	Tariff Restriction ID Code
+977	Tariff Restriction Value
+978	Tariff Section
+980	Tariff Section ID Code
+981	Tariff Value Code
+982	Data Source Code
+983	Hazardous Class Qualifier
+984	Hazardous Material Shipping Name Qualifier
+985	N.O.S. Indicator Code
+986	Special Commodity Indicator Code
+987	Cryptographic Service Message (CSM) Message Class Code
+988	Cryptographic Service Message (CSM) Field Tag
+989	Cryptographic Service Message (CSM) Field Contents
+990	Security Type Code
+991	Authentication Key Name
+992	Authentication Service Code
+993	Encryption Key Name
+994	Encryption Service Code
+995	Length of Data
+996	Initialization Vector
+997	Hash or Authentication Code
+998	Delayed Repayment Qualifier Code
+999	Scope of Power of Attorney Identification Code
+1000	Service Characteristics Qualifier
+1002	Car Hire Detail/Summary Code
+1003	Account Type Code
+1004	Percent Qualifier
+1005	Hierarchical Structure Code
+1006	Account Description Code
+1007	Rate Source
+1008	Case Type Code
+1009	Administration of Justice Organization Type Code
+1010	Cycle Month Hours
+1011	Association of American Railroads (AAR) Pool Code
+1012	Administration of Justice Event Type Code
+1013	Notice Type Code
+1014	Car Type Group Code
+1015	Mileage Settlement Code
+1016	Penalty Code
+1017	Claim Type Code
+1018	Exponent
+1019	Invoice Type Code
+1020	Sampling Sequence Qualifier
+1021	Sampling Sequence Value
+1023	Hazard Zone Code
+1024	Number of Tank Compartments
+1025	Loading or Discharge Location Code
+1026	Vessel Material Code
+1028	Claim Submitter's Identifier
+1029	Claim Status Code
+1030	Gasket Type Code
+1031	Trailer Lining Type Code
+1032	Claim Filing Indicator Code
+1033	Claim Adjustment Group Code
+1034	Claim Adjustment Reason Code
+1035	Name Last or Organization Name
+1036	Name First
+1037	Name Middle
+1038	Name Prefix
+1039	Name Suffix
+1041	Sequence Value
+1042	Load or Device Code
+1043	Diameter
+1044	Hose Type Code
+1045	Inlet or Outlet Material Type Code
+1046	Inlet or Outlet Fitting Type Code
+1047	Miscellaneous Equipment Code
+1048	Business Function Code
+1049	Tax Payment Type Code
+1050	Taxpayer Verification
+1051	Tax Amount
+1053	Market Exchange Identifier
+1054	Commodity Identification
+1056	Vehicle Production Status
+1062	Vehicle Service Code
+1065	Entity Type Qualifier
+1066	Citizenship Status Code
+1067	Marital Status Code
+1068	Gender Code
+1069	Individual Relationship Code
+1070	Type of Residence Code
+1071	General Expense Qualifier
+1072	Rounding System Code
+1073	Yes/No Condition or Response Code
+1074	Type of Real Estate Asset Code
+1075	Status of Plans for Real Estate Asset Code
+1076	Real Estate Loan Security Instrument Code
+1077	Property Value Estimate Type Code
+1078	Property Ownership Rights Code
+1079	Contact Method Code
+1080	Assumption Terms Code
+1081	Loan Purpose Code
+1082	Use of Proceeds Code
+1083	Type of Downpayment Code
+1084	Loan Buydown Type Code
+1085	Loan Payment Type Code
+1086	Loan Rate Type Code
+1087	Negative Amortization Qualifier
+1088	Rate Life Cap Source Code
+1089	Index Identity Code
+1090	Improvement Status Code
+1091	Buydown Source Code
+1092	Negative Amortization Cap Source Code
+1093	Real Estate Loan Type Code
+1094	Vehicle Status
+1095	Year
+1096	County Designator
+1097	Mortgage Insurance Application Type
+1098	Mortgage Insurance Premium Type Code
+1099	Mortgage Insurance Certificate Type Code
+1100	Mortgage Insurance Coverage Type Code
+1101	Lien Priority Code
+1102	Mortgage Insurance Renewal Option Code
+1103	Loan Documentation Type Code
+1104	Name Component Qualifier
+1105	Mortgage Insurance Duration Code
+1106	Address Component Qualifier
+1107	Name Type Code
+1108	Month of the Year Code
+1109	Race or Ethnicity Code
+1110	Vehicle Dimension
+1113	Coupon Distribution Media Code
+1122	Vent Setting Code
+1123	Offer Basis Code
+1126	Academic Degree Code
+1127	Interline Settlement System Status Action or Dispute Code
+1129	Adjustment Reason Code Characteristic
+1130	Primary or Contingent Code
+1131	Level of Individual, Test, or Course Code
+1132	Instructional Setting Code
+1133	Program Participation and Services Code
+1134	Program and Services Funding Source Code
+1135	Placement Criteria Code
+1136	Code Category
+1137	Medical Code Value
+1138	Payer Responsibility Sequence Number Code
+1139	Session Code
+1140	Floor Type Code
+1141	Academic Credit Type Code
+1142	Academic Grade or Course Level Code
+1143	Coordination of Benefits Code
+1144	Academic Grade Point Average
+1145	Class Rank
+1146	Disability Type Code
+1147	Basis for Academic Credit Code
+1148	Academic Grade Qualifier
+1149	Occupation Code
+1150	Course Repeat or No Count Indicator Code
+1152	Override Academic Course Source Code
+1153	Academic Field of Study Level or Type Code
+1154	Work Intensity Code
+1155	Educational Test or Requirement Code
+1156	Test Norm Type Code
+1157	Test Norming Period Code
+1158	Subtest Code
+1159	Test Score Interpretation Code
+1160	Test Score Qualifier Code
+1161	Product Option Code
+1162	Show Code
+1163	Ticket Category Code
+1164	Network or Schedule Data Type
+1165	Confidentiality Code
+1166	Contract Type Code
+1167	Sample Selection Modulus
+1168	Door Type Code
+1171	Milestone Number Identification
+1172	Claim Response Reason Code
+1173	Task ID Qualifier
+1174	Task Identifier
+1175	Relationship Task Identifier
+1176	Employment Class Code
+1178	Level
+1179	Customs Entry Type Group Code
+1180	Resource Code (or Identifier)
+1181	Resource Type
+1185	Public Record or Obligation Code
+1186	Type of Income Code
+1187	Type of Account Code
+1188	Type of Personal or Business Asset Code
+1189	Type of Credit Account Code
+1193	Program Type Code
+1195	Financial Information Code
+1196	Breakdown Structure Detail Code
+1197	Financial Transaction Status Code
+1198	Contracting Funding Code
+1199	Appropriation Code
+1201	Information Status Code
+1202	Flexible Spending Account Selection Code
+1203	Maintenance Reason Code
+1204	Plan Coverage Description
+1205	Insurance Line Code
+1207	Coverage Level Code
+1209	Underwriting Decision Code
+1211	Drug House Code
+1212	Health-Related Code
+1213	Current Health Condition Code
+1214	Salary Grade
+1215	Identification Card Type Code
+1216	Benefit Status Code
+1218	Medicare Plan Code
+1219	Consolidated Omnibus Budget Reconciliation Act (COBRA) Qualifying Event Code
+1220	Student Status Code
+1221	Provider Code
+1222	Provider Specialty Code
+1223	Provider Organization Code
+1224	Contribution Code
+1225	Disposition Code
+1226	Repair Action Code
+1227	Repair Complexity Code
+1228	Casual Part Condition Code
+1229	Complaint Code
+1230	Type of Product Service Code
+1231	Operation Environment Code
+1232	Purchase Category
+1233	Service Classification Code
+1234	Severity Condition Code
+1236	Payment Type Code
+1237	Move Type Code
+1238	Bay Type Code
+1239	Capacity Qualifier
+1240	Facility Characteristic Code
+1241	Facility Characteristic Code Qualifier
+1242	Demand Area
+1243	Financial Status
+1244	National Motor Freight Transportation Association Location Name
+1245	Vehicle Identification Number (VIN) Plant Code
+1246	Special Rate Code
+1250	Date Time Period Format Qualifier
+1251	Date Time Period
+1252	Health Screening Type Code
+1253	Immunization Type Code
+1254	Immunization Status Code
+1255	Disease Condition Type Code
+1256	Medical Treatment Type Code
+1257	Special Program Category Code
+1258	Academic Grade
+1260	Reported Data ID Code
+1261	Reported Data Response
+1262	Loan Type Code
+1264	Delayed Repayment Reason Code
+1265	Interest Payment Code
+1266	Major Course of Study
+1267	Dependency Status Code
+1268	Applicant Type Code
+1270	Code List Qualifier Code
+1271	Industry Code
+1272	Horsepower
+1273	Direction Facing
+1274	Train Delay Reason Code
+1275	Fumigated/Cleaned Indicator
+1276	Machine Separable Indicator Code
+1277	Canadian Wheat Board (CWB) Marketing Class Code
+1278	Canadian Wheat Board (CWB) Marketing Class Type Code
+1280	Direction Identifier Code
+1292	Returns Disposition Code
+1293	Return Request Reason Code
+1294	Return Response Reason Code
+1295	Participant Status Code
+1296	Special Processing Type
+1297	Work Status Code
+1300	Service, Promotion, Allowance, or Charge Code
+1301	Agency Service, Promotion, Allowance, or Charge Code
+1302	Shipper's Export Declaration Requirements
+1303	Use of Language Indicator
+1304	Mark Code Type
+1306	U.S. Government License Type
+1307	Loan Status Code
+1308	Contract Action Code
+1309	Acquisition Data Code
+1310	Financing Type Code
+1311	Calculation Operation Code
+1312	Test Period or Interval Qualifier
+1313	Test Period or Interval Value
+1314	Admission Source Code
+1315	Admission Type Code
+1316	Ambulance Transport Code
+1317	Ambulance Transport Reason Code
+1318	Approval Code
+1319	Basis of Cost Determination Code
+1320	Basis of Days Supply Determination Code
+1321	Condition Indicator
+1322	Certification Type Code
+1325	Claim Frequency Type Code
+1327	Copay Status Code
+1328	Diagnosis Code Pointer
+1329	Dispense as Written Code
+1330	Dosage Form Code
+1331	Facility Code Value
+1332	Facility Code Qualifier
+1333	Record Format Code
+1334	Health Care Professional Shortage Area Code
+1335	Insulin Dependent Code
+1336	Insurance Type Code
+1337	Level of Care Code
+1338	Level of Service Code
+1339	Procedure Modifier
+1340	Multiple Procedure Code
+1341	National or Local Assigned Review Value
+1342	Nature of Condition Code
+1343	Non-Institutional Claim Type Code
+1344	Non-Visit Code
+1345	Nursing Home Residential Status Code
+1346	Nutrient Administration Method Code
+1347	Nutrient Administration Technique Code
+1348	Oxygen Equipment Type Code
+1349	Oxygen Test Condition Code
+1350	Oxygen Test Findings Code
+1351	Patient Signature Source Code
+1352	Patient Status Code
+1354	Diagnosis Related Group (DRG) Code
+1355	Prescription Denial Override Code
+1356	Prescription Origin Code
+1357	Prior Authorization Type Code
+1358	Prosthesis, Crown or Inlay Code
+1359	Provider Accept Assignment Code
+1360	Provider Agreement Code
+1361	Oral Cavity Designation Code
+1362	Related-Causes Code
+1363	Release of Information Code
+1364	Review Code
+1365	Service Type Code
+1366	Special Program Code
+1367	Subluxation Level Code
+1368	Tooth Status Code
+1369	Tooth Surface Code
+1370	Unit Dose Code
+1371	Unit Rate
+1373	Measurement Method or Device
+1374	Payment Adjustment Code
+1375	Interim Hazardous Material Regulatory Number
+1376	Investor Reporting Action Code
+1378	Waybill Cross-Reference Code
+1379	Loan Verification Code
+1382	Oxygen Delivery System Code
+1383	Claim Submission Reason Code
+1384	Patient Location Code
+1387	Rate Qualifier
+1390	Eligibility or Benefit Information
+1392	Market Profile
+1393	Media Type Identifier
+1395	Configuration Type Code
+1396	Equipment Use Code
+1397	Inquiry Response Code
+1398	Inquiry Selection Code
+1400	Hierarchy Code
+1401	Proposal Data Detail Identifier Code
+1402	Equipment Attribute Code
+1403	Implant Type Code
+1404	Implant Status Code
+1407	Investor Ownership Type Code
+1408	Remittance Type Code
+1413	Usage Indicator
+1415	Specimen Kit Type Code
+1420	Title Insurance Services Code
+1422	Damage Status Code
+1423	License Plate Type
+1425	Recovery Classification Code
+1426	Recovery Condition Code
+1428	Master In-bond Type Code
+1429	Construction Type
+1430	Day Rotation
+1431	Preference
+1432	Business Purpose of Assurance
+1434	Domain of Computation of Assurance
+1435	Assurance Originator
+1436	Assurance Recipient
+1437	Date/Time Reference
+1438	Assurance Text
+1439	Assurance Token Parameter Code
+1440	Assurance Digest
+1442	Assurance Token Parameter Value
+1443	Assurance Reference Number
+1460	Part of Body Code
+1465	Proximity Code
+1466	Location Type Code
+1468	Reason Stopped Work Code
+1469	Affected Area or Section Code
+1470	Number
+1472	Report Section Number
+1473	Pricing Methodology
+1476	Language Proficiency Indicator
+1482	Mechanical Car Code
+1484	Problem Log Reason Code
+1485	Service Commitment Type Code
+1487	Retrip Reason Code
+1488	Bad Order Reason Code
+1489	Hold Reason Code
+1490	Association of American Railroads Car Grade Code
+1491	Parameter Trace Registration Type Code
+1492	Parameter Trace Type Code
+1493	Output Event Selection Code
+1494	Transportation Condition Code
+1495	Query Type Code
+1496	Property Description Qualifier
+1497	Notification Entity Qualifier
+1499	Rate Application Code
+1511	Type of Deduction
+1514	Delay Reason Code
+1520	Display Type Code
+1521	Marketing Type Code
+1522	Coupon Type Code
+1523	Labor Activity Code
+1524	Benefit Modifier
+1525	Request Category Code
+1526	Policy Compliance Code
+1527	Exception Code
+1528	Component Data Element Position in Composite
+1540	Net Cost Code
+1543	Equipment Orientation Code
+1546	Preferential Duty Criteria Code
+1549	Convertibility Rate Type Code
+1550	Index Qualifier
+1551	Message Text
+1552	Option Type Code
+1553	License Type Code
+1554	Tag Status Code
+1555	Automatic Equipment Identification Consist Confidence Level Code
+1556	Train Termination Status Code
+1557	Movement Type Code
+1558	Academic Summary Source
+1559	Automatic Equipment Identification Site Status Code
+1560	Interchange Type Code
+1561	Rail Junction Settlement Role Code
+1564	Protocol ID
+1565	Look-up Value
+1566	Keying Material
+1567	One-time Encryption Key
+1568	Algorithm ID
+1569	Algorithm Mode of Operation
+1570	Filter ID Code
+1571	Compression ID
+1572	Security Value Qualifier
+1573	Encoded Security Value
+1574	Assurance Algorithm
+1575	Hashing Algorithm
+1576	Inspected/Weighed Indicator Code
+1577	Hazardous Material Regulations Exception Code
+1578	Export Exception Code
+1579	Accrual Rate Method Code
+1585	Shape Code
+1588	Political Party Affiliation Code
+1589	Harbor Maintenance Fee (HMF) Exemption Code
+1590	Asset Liability Type Code
+1591	Type of Activity Code
+1592	Type of Rating Code
+1594	Controlled Substance Type Code
+1595	Government Service Affiliation Code
+1596	Military Service Rank Code
+1599	Hazardous Vehicle Type Code
+1600	Freight Rate Qualifier
+1601	Rated-as Qualifier
+1602	Bill of Lading Charge Code
+1603	Route of Administration
+1606	Animal Disposition Code
+1607	Test Type Code
+1608	Non-Numeric Test Value
+1609	Related Data Identification Code
+1610	International Dutiable Status Code
+1611	Observation Type Code
+1612	Tissue or Specimen Disposition Code
+1614	Sub-Location
+1615	Observation Distribution
+1616	Observation Severity
+1617	Neoplasm Code
+1618	Linkage Identifier
+1619	Parturition Status Code
+1620	Offspring Count Code
+1621	Security Version/Release Identifier Code
+1622	Offspring/Fetus Status Code
+1626	Interest Rate Calculation Method Code
+1627	Underwriting Method Code
+1629	Information Request Result Code
+1630	Thoroughfare Type Qualifier
+1631	Thoroughfare Type Code
+1632	General Territory Code
+1633	Financial Statement Format Code
+1634	Business Professional Title Code
+1635	General Property Ownership Code
+1636	Account Relationship Code
+1637	Net/Gross Code
+1638	Value Detail Code
+1642	Cryptographic Management Purpose
+1644	Service Request Code
+1650	Shipment Status Code
+1651	Shipment Status or Appointment Reason Code
+1652	Shipment Appointment Status Code
+1653	Shipment Appointment Reason Code
+1654	Longitude Code
+1655	Latitude Code
+1656	Premium Rate Pattern Code
+1657	Premium Source Entity Code
+1658	Shipment or Work Assignment Decline Reason Code
+1661	Source Code
+1662	Rate Request ID
+1663	Rate Response Suffix
+1664	Lane Ranking
+1675	Look-up Value Protocol Code
+1678	Insurer Guarantor Type Code
+1679	Insurer Coverage Indicator Code
+1680	Refinance Type Code
+1681	Primary Source of Index Code
+1684	Attendance Type Code
+1685	Tax Treatment Code
+1687	Earnings Rate of Pay
+1688	Deduction Type Code
+I01	Authorization Information Qualifier
+I02	Authorization Information
+I03	Security Information Qualifier
+I04	Security Information
+I05	Interchange ID Qualifier
+I06	Interchange Sender ID
+I07	Interchange Receiver ID
+I08	Interchange Date
+I09	Interchange Time
+I10	Interchange Control Standards Identifier
+I11	Interchange Control Version Number
+I12	Interchange Control Number
+I13	Acknowledgment Requested
+I14	Usage Indicator
+I15	Component Element Separator
+I16	Number of Included Functional Groups
+I17	Interchange Acknowledgment Code
+I18	Interchange Note Code
+I19	Interconnect Mailbag Version Number
+I20	Interconnect Mailbag Logon ID
+I21	Interconnect Mailbag Password
+I22	Interconnect Mailbag ID Qualifier Code
+I23	Interconnect Mailbag Sender ID
+I24	Interconnect Mailbag Receiver ID
+I25	Interconnect Mailbag Date
+I26	Interconnect Mailbag Time
+I27	Interconnect Mailbag Time Code
+I28	Interconnect Mailbag Control Number
+I29	Interconnect Mailbag Test Indicator
+I30	Interconnect Mailbag Acknowledgment Count
+I31	Interconnect Mailbag Interchange Count
+I32	Interconnect Mailbag Acknowledgment Action Code
+I33	Interconnect Mailbag Error Code
+I34	Grade of Service Code
+I35	Delivery Date
+I36	Delivery Time
+I37	Delivery Time Code
+I38	Service Request Handler ID Qualifier
+I39	Service Request Handler ID
+I40	Action Code
+I41	Action Date
+I42	Action Time
+I43	Error Reason Code
+I44	Reported Start Segment ID
+I45	Reported Control Number
+I46	Reported Date
+I47	Reported Time
+I48	Reported Interchange Sender ID Qualifier
+I49	Reported Sender ID
+I50	Reported Interchange Receiver ID Qualifier
+I51	Reported Receiver ID
+I52	First Reference ID Qualifier
+I53	First Reference ID
+I54	Second Reference ID Qualifier
+I55	Second Reference ID
+I56	Reference Code Qualifier
+I57	Reference Code
+I58	Report Type Code
+I59	Report Identifier
+I60	Report Incremental Indicator Code
+I61	Message Direction Code
+I62	Report Status Level Code
+I63	Report Level of Detail Code
+I64	Reported Group or Transaction Identifier
