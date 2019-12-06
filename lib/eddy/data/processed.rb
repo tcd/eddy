@@ -26,7 +26,7 @@ module Eddy
         min:  e[:min].to_i,
         max:  e[:max].to_i,
         name: self.normalize_name(e[:name]),
-        desc: self.generate_description(e),
+        description: self.generate_description(e),
         type: e[:type].strip,
       }
     end

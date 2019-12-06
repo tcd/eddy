@@ -1,5 +1,5 @@
 module Eddy
-  module Summary
+  module Data
     # A repeated collection of Segments and/or other Loops. Used in Companion Guides.
     class LoopSummary
       # A unique string used to identify the Loop within its Transaction Set.

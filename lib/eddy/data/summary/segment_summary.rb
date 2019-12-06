@@ -1,5 +1,5 @@
 module Eddy
-  module Summary
+  module Data
     # A collection of Data Elements. Used in Companion Guides to define a Transaction Set.
     class SegmentSummary
       # Indicates the order in which Segments should appear in their Level of the Transaction Set.
