@@ -13,11 +13,17 @@ module Eddy
       end
 
       # (see Eddy::Elements::Name)
+      #
+      # @param val [Object]
+      # @return [void]
       def name_1=(val)
         @name_1.value = val
       end
 
-      # {include:Eddy::Elements::Name}
+      # (see Eddy::Elements::Name)
+      #
+      # @param val [Object]
+      # @return [void]
       def name_2=(val)
         @name_1.value = val
       end
