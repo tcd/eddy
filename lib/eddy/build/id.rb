@@ -5,7 +5,7 @@ module Eddy
 
     # @param e [Hash]
     # @return [void]
-    def self.build_id(e)
+    def self.id(e)
       code_list = self.build_code_list(e[:id])
       return nil if code_list.nil?
       constructor = Ginny::Func.create({

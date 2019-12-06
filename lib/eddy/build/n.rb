@@ -5,7 +5,7 @@ module Eddy
 
     # @param e [Hash]
     # @return [void]
-    def self.build_n(e)
+    def self.n(e)
       decimal_points = self.determine_decimals(e[:type])
       constructor = Ginny::Func.create({
         name: "initialize",

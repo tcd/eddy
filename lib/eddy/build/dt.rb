@@ -3,7 +3,9 @@ require "ginny"
 module Eddy
   module Build
 
-    def self.build_dt(e)
+    # @param e [Hash]
+    # @return [void]
+    def self.dt(e)
       fmt = determine_dt_format(e[:max])
       constructor = Ginny::Func.create({
         name: "initialize",

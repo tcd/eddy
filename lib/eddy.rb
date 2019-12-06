@@ -7,7 +7,8 @@ require "eddy/helpers"
 require "eddy/element"
 require "eddy/segment"
 require "eddy/transaction_set"
-require "eddy/build/build_elements"
+require "eddy/data"
+require "eddy/build"
 
 Dir.glob(File.join(__dir__, "definitions", "elements", "*.rb")).each { |file| require file }
 Dir.glob(File.join(__dir__, "definitions", "elements", "test", "*.rb")).each { |file| require file }
