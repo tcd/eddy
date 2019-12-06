@@ -4,6 +4,7 @@ require "eddy/build/dt"
 require "eddy/build/n"
 require "eddy/build/r"
 require "eddy/build/tm"
+require "eddy/build/segments"
 
 module Eddy
   module Build
