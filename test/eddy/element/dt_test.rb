@@ -3,6 +3,10 @@ require "time"
 
 class DtTest < Minitest::Test
 
+  def test_determine_format
+    skip()
+  end
+
   def test_init
     skip()
   end

@@ -2,6 +2,10 @@ require "test_helper"
 
 class TmTest < Minitest::Test
 
+  def test_determine_format
+    skip()
+  end
+
   def test_init
     skip()
   end

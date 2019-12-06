@@ -12,7 +12,7 @@ SimpleCov.start do
   add_filter "/bin/"
   add_filter "/test/"
   add_filter "/build/"
-  add_filter "/lib/eddy/definitions/"
+  add_filter "/lib/definitions/"
 
   track_files "lib/**/*.rb"
 end
