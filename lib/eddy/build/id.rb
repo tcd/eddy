@@ -3,28 +3,28 @@ require "ginny"
 module Eddy
   module Build
 
-    # @param e [Hash]
+    # @param el [Hash]
     # @return [void]
-    def self.id(e)
-      code_list = self.build_code_list(e[:id])
+    def self.id(el)
+      code_list = self.build_code_list(el[:id])
       return nil if code_list.nil?
       constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~FUNC_BODY,
-          @id = "#{e[:id]}"
-          @name = "#{e[:name]}"
+          @id = "#{el[:id]}"
+          @name = "#{el[:name]}"
           @type = "ID"
-          self.min = #{e[:min]}
-          self.max = #{e[:max]}
+          self.min = #{el[:min]}
+          self.max = #{el[:max]}
         FUNC_BODY
       }).render()
       data = {
-        name: e[:name],
-        description: e[:description],
+        name: el[:name],
+        description: el[:description],
         parent: "Eddy::Element::ID",
         modules: ["Eddy", "Elements"],
         body: constructor + "\n\n" + code_list + "\n",
-        file_prefix: "#{e[:id]}.",
+        file_prefix: "#{el[:id]}.",
       }
       c = Ginny::Class.create(data)
       c.generate(File.join(Eddy.root_dir, "build", "elements", "id"))

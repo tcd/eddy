@@ -3,28 +3,28 @@ require "ginny"
 module Eddy
   module Build
 
-    # @param e [Hash]
+    # @param el [Hash]
     # @return [void]
-    def self.n(e)
-      decimal_points = self.determine_decimals(e[:type])
+    def self.n(el)
+      decimal_points = self.determine_decimals(el[:type])
       constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~RUBY,
-          @id = "#{e[:id]}"
-          @name = "#{e[:name]}"
+          @id = "#{el[:id]}"
+          @name = "#{el[:name]}"
           @type = "N"
-          self.min = #{e[:min]}
-          self.max = #{e[:max]}
+          self.min = #{el[:min]}
+          self.max = #{el[:max]}
           self.decimal_points = #{decimal_points}
         RUBY
       }).render()
       data = {
-        name: e[:name],
-        description: e[:description],
+        name: el[:name],
+        description: el[:description],
         parent: "Eddy::Element::N",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{e[:id]}.",
+        file_prefix: "#{el[:id]}.",
       }
       c = Ginny::Class.create(data)
       c.generate(File.join(Eddy.root_dir, "build", "elements", "n"))
