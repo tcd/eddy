@@ -1,4 +1,5 @@
 module Eddy
+  # Code for dealing with EDI definitions.
   module Data; end
 end
 
