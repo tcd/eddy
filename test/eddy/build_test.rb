@@ -58,7 +58,7 @@ class BuildTest < Minitest::Test
     cases.each do |key, val|
       want = val
       input = key
-      have = Eddy::Build.normalize_name(input)
+      have = Eddy::Data.normalize_name(input)
       message = <<~END
         input:  #{input}
         wanted: #{want}
