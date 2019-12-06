@@ -1,8 +1,9 @@
 module Eddy
-  module Segment
+  # Not sure where these classes belong yet.
+  module Misc
     # Defines a relationship between two or more data elements in a segment.
-    # Expressed in syntax note by letter code followed by the last two digits of the reference designator of the effected data elements (e.g. P0203).
-    # Examples: P0203; R0203
+    # Expressed in syntax note by letter code followed by the last two digits of the reference designator of the effected data elements (e.g. `P0203`).
+    # Examples: `P0203`, `R0203`
     # P Paired If any specified data element is present, then all the specified data elements must be present
     # R Required At least one of the specified data elements must be presentEExclusiveNot more than one of the specified data elements may be present
     # C Conditional If the first specified data element is present, then all other specified data elements must be present
