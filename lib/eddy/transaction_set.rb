@@ -4,7 +4,7 @@ module Eddy
   # Interchange / Document / Envelope / Group / File
   class TransactionSet
     # @return [Integer]
-    attr_accessor :code
+    attr_accessor :id
     # @return [String]
     attr_accessor :functional_group
     # @return [String]
