@@ -17,8 +17,8 @@ class RTest < Minitest::Test
   end
 
   def test_value_getter_rejects_non_float_argument
-    assert_raises(Eddy::ElementValidationError) { Eddy::Element::R.new(1, 10, 420)   }
-    assert_raises(Eddy::ElementValidationError) { Eddy::Element::R.new(1, 10, "420") }
+    assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::R.new(1, 10, 420)   }
+    assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::R.new(1, 10, "420") }
   end
 
   def test_value_setter_with_two_decimals
@@ -35,7 +35,7 @@ class RTest < Minitest::Test
 
   def test_value_setter_validates_length
     r = Eddy::Element::R.new(1, 3)
-    assert_raises(Eddy::ElementValidationError) { r.value = 420.0 }
+    assert_raises(Eddy::Errors::ElementValidationError) { r.value = 420.0 }
   end
 
   def test_descendent
@@ -47,7 +47,7 @@ class RTest < Minitest::Test
   def test_descendent_rejects_value_over_max_length
     skip("Store the entire value for `R` elements.")
     r = Eddy::Elements::Weight.new()
-    assert_raises(Eddy::ElementValidationError) { r.value = 1234567.89 }
+    assert_raises(Eddy::Errors::ElementValidationError) { r.value = 1234567.89 }
   end
 
 end

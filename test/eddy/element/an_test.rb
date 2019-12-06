@@ -20,7 +20,7 @@ class AnTest < Minitest::Test
   def test_value_setter_validates_length
     an = Eddy::Element::AN.new(1, 10)
     an.value = "Clay"
-    assert_raises(Eddy::ElementValidationError) { an.value = "Clay123456789101010" }
+    assert_raises(Eddy::Errors::ElementValidationError) { an.value = "Clay123456789101010" }
   end
 
   def test_descendent

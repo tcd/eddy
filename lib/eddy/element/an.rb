@@ -14,21 +14,21 @@ module Eddy
 
       # @return [String]
       def value()
-        # raise Eddy::ElementNilValueError if @value.nil?
+        # raise Eddy::Errors::ElementNilValueError if @value.nil?
         return @value
       end
 
       # @param arg [String]
-      # @raise [Eddy::ElementValidationError]
+      # @raise [Eddy::Errors::ElementValidationError]
       # @return [void]
       def value=(arg)
         if arg.nil?
           @value = arg
           return
         end
-        raise Eddy::ElementValidationError, "value needs to be a string" unless arg.is_a?(String)
-        raise Eddy::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
-        raise Eddy::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
+        raise Eddy::Errors::ElementValidationError, "value needs to be a string" unless arg.is_a?(String)
+        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
+        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
         @value = arg
       end
     end

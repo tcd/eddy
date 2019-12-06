@@ -12,8 +12,8 @@ class NTest < Minitest::Test
   end
 
   def test_value_getter_rejects_non_int_argument
-    assert_raises(Eddy::ElementValidationError) { Eddy::Element::N.new(1, 10, 0, 420.69) }
-    assert_raises(Eddy::ElementValidationError) { Eddy::Element::N.new(1, 10, 0, "420")  }
+    assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::N.new(1, 10, 0, 420.69) }
+    assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::N.new(1, 10, 0, "420")  }
   end
 
   def test_value_setter
@@ -24,7 +24,7 @@ class NTest < Minitest::Test
 
   def test_value_setter_validates_length
     n = Eddy::Element::N.new(1, 3, 0)
-    assert_raises(Eddy::ElementValidationError) { n.value = 4200 }
+    assert_raises(Eddy::Errors::ElementValidationError) { n.value = 4200 }
   end
 
   def test_descendent
@@ -35,7 +35,7 @@ class NTest < Minitest::Test
 
   def test_descendent_rejects_value_over_max_length
     n = Eddy::Elements::TotalEquipment.new()
-    assert_raises(Eddy::ElementValidationError) { n.value = 123_456_789 }
+    assert_raises(Eddy::Errors::ElementValidationError) { n.value = 123_456_789 }
   end
 
 end

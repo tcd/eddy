@@ -18,7 +18,7 @@ module Eddy
 
       # @return [String]
       def value()
-        # raise Eddy::ElementNilValueError if @value.nil?
+        # raise Eddy::Errors::ElementNilValueError if @value.nil?
         return @value
       end
 
@@ -29,9 +29,9 @@ module Eddy
           @value = arg
           return
         end
-        raise Eddy::ElementValidationError, "value not present in code list" unless self.code_list().include?(arg)
-        raise Eddy::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
-        raise Eddy::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
+        raise Eddy::Errors::ElementValidationError, "value not present in code list" unless self.code_list().include?(arg)
+        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
+        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
         @value = arg
       end
 

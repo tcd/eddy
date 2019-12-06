@@ -41,15 +41,15 @@ module Eddy
           @time = time
           return
         end
-        raise Eddy::ElementValidationError unless time.is_a?(Time)
-        raise Eddy::ElementValidationError "argument is not in UTC format" unless time.utc?()
+        raise Eddy::Errors::ElementValidationError unless time.is_a?(Time)
+        raise Eddy::Errors::ElementValidationError "argument is not in UTC format" unless time.utc?()
         @time = time
       end
 
       # @raise [ElementNilValueError] if `time` is `nil`
       # @return [String]
       def value()
-        raise Eddy::ElementNilValueError if self.time.nil?
+        raise Eddy::Errors::ElementNilValueError if self.time.nil?
         case self.fmt
         when :hhmm
           return TM.hhmm(self.time)

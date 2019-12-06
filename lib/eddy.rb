@@ -2,7 +2,7 @@
 module Eddy; end
 
 require "eddy/version"
-require "eddy/error"
+require "eddy/errors"
 require "eddy/helpers"
 require "eddy/element"
 require "eddy/segment"

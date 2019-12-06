@@ -15,7 +15,7 @@ module Eddy
 
       # @return [String]
       def value()
-        # raise Eddy::ElementNilValueError if @value.nil?
+        # raise Eddy::Errors::ElementNilValueError if @value.nil?
         return process(@value)
       end
 
@@ -27,9 +27,9 @@ module Eddy
           @value = arg
           return
         end
-        raise Eddy::ElementValidationError, "value needs to be a float" unless arg.is_a?(Float)
-        raise Eddy::ElementValidationError, "value can't be shorter than #{self.min}" if process(arg).length < self.min
-        raise Eddy::ElementValidationError, "value can't be longer than #{self.max}" if process(arg).length > self.max
+        raise Eddy::Errors::ElementValidationError, "value needs to be a float" unless arg.is_a?(Float)
+        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if process(arg).length < self.min
+        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if process(arg).length > self.max
         @value = arg
       end
 

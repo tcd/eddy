@@ -32,7 +32,7 @@ module Eddy
       # @raise [ElementNilValueError] if `date` is `nil`
       # @return [String]
       def value()
-        # raise Eddy::ElementNilValueError if self.date.nil?
+        # raise Eddy::Errors::ElementNilValueError if self.date.nil?
         case self.fmt
         when :yymmdd
           return DT.yymmdd(self.date)
@@ -51,8 +51,8 @@ module Eddy
           @date = date
           return
         end
-        raise Eddy::ElementValidationError unless date.is_a?(Time)
-        raise Eddy::ElementValidationError "argument is not in UTC format" unless date.utc?()
+        raise Eddy::Errors::ElementValidationError unless date.is_a?(Time)
+        raise Eddy::Errors::ElementValidationError "argument is not in UTC format" unless date.utc?()
         @date = date
       end
 
