@@ -1,0 +1,7 @@
+id	name	type	min	max	description
+81	Weight	R	1	10	Numeric value of weight
+93	Name	AN	1	60	Free-form name
+109	Pick-up Date	DT	8	8	Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
+111	Pick-up Time	TM	4	4	Time (HHMM) that the carrier is to pick up the shipment
+I03	Security Information Qualifier	ID	2	2	Code to identify the type of information in the Security Information
+784	Length of Binary Data	N0	1	15	The length in integral octets of the binary data
