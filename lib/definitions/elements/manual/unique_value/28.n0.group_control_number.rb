@@ -9,7 +9,7 @@ module Eddy
       # @return [void]
       def initialize()
         @id = "28"
-        @name = "GroupControlNumber"
+        @name = "Group Control Number"
         super(min: 1, max: 9, decimals: 0)
       end
     end

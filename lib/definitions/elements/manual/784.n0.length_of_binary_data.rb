@@ -10,7 +10,7 @@ module Eddy
       def initialize()
         @id = "784"
         @name = "Length of Binary Data"
-        super(min: 1, max: 3, decimals: 0)
+        super(min: 1, max: 15, decimals: 0)
       end
     end
   end

@@ -22,12 +22,13 @@ module Eddy
     # @return [Hash]
     def self.extract_element_data(e)
       return {
-        id:   e[:id].strip,
-        min:  e[:min].to_i,
-        max:  e[:max].to_i,
-        name: self.normalize_name(e[:name]),
+        id:          e[:id].strip,
+        min:         e[:min].to_i,
+        max:         e[:max].to_i,
+        type:        e[:type].strip,
+        raw_name:    e[:name].strip,
+        name:        self.normalize_name(e[:name]),
         description: self.generate_description(e),
-        type: e[:type].strip,
       }
     end
 

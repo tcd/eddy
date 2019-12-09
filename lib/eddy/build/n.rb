@@ -4,19 +4,17 @@ module Eddy
   module Build
 
     # @param el [Hash]
+    # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @return [void]
-    def self.n(el)
+    def self.n(el, test: false)
       decimal_points = self.determine_decimals(el[:type])
       constructor = Ginny::Func.create({
         name: "initialize",
-        body: <<~RUBY,
+        body: <<~FUNC_BODY,
           @id = "#{el[:id]}"
-          @name = "#{el[:name]}"
-          @type = "N"
-          @min = #{el[:min]}
-          @max = #{el[:max]}
-          self.decimal_points = #{decimal_points}
-        RUBY
+          @name = "#{el[:raw_name]}"
+          super(min: #{el[:min]}, max: #{el[:max]}, decimals: #{decimal_points})
+        FUNC_BODY
       }).render()
       data = {
         name: el[:name],
@@ -27,6 +25,7 @@ module Eddy
         file_prefix: "#{el[:id]}.",
       }
       c = Ginny::Class.create(data)
+      return c.render if test
       c.generate(File.join(Eddy.root_dir, "build", "elements", "n"))
       return nil
     end

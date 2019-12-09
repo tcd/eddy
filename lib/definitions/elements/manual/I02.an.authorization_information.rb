@@ -9,7 +9,7 @@ module Eddy
       # @return [void]
       def initialize()
         @id = "I02"
-        @name = "AuthorizationInformation"
+        @name = "Authorization Information"
         super(
           min: 10,
           max: 10,

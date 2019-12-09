@@ -42,6 +42,7 @@ class DataTest < Minitest::Test
       "Number of Accepted Transaction Sets" => "NumberOfAcceptedTransactionSets",
       "Free Form Message" => "FreeFormMessage",
       "Free-Form Message" => "FreeFormMessage",
+      "Pick-up Date" => "PickUpDate",
       "Harbor Maintenance Fee (HMF) Exemption Code" => "HarborMaintenanceFeeExemptionCode",
       "Product/Service Substitution Code" => "ProductServiceSubstitutionCode",
       "Bill of Lading/Waybill Number" => "BillOfLadingWaybillNumber",
@@ -54,6 +55,7 @@ class DataTest < Minitest::Test
       "Shipper's Export Declaration Requirements" => "ShippersExportDeclarationRequirements",
       "Resource Code (or Identifier)" => "ResourceCode",
       "Interchange ID Qualifier" => "InterchangeIdQualifier",
+      "Length of Binary Data" => "LengthOfBinaryData",
     }
     cases.each do |key, val|
       want = val
