@@ -10,9 +10,7 @@ module Eddy
       def initialize()
         @id = "329"
         @name = "TransactionSetControlNumber"
-        @type = "AN"
-        @min = 4
-        @max = 9
+        super(min: 4, max: 9)
       end
     end
   end

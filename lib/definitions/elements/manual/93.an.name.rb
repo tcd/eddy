@@ -10,9 +10,7 @@ module Eddy
       def initialize()
         @id = "93"
         @name = "Name"
-        @type = "AN"
-        @min = 1
-        @max = 60
+        super(min: 1, max: 60)
       end
     end
   end

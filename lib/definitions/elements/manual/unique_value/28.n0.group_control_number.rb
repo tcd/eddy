@@ -10,10 +10,7 @@ module Eddy
       def initialize()
         @id = "28"
         @name = "GroupControlNumber"
-        @type = "N"
-        @min = 1
-        @max = 9
-        self.decimal_points = 0
+        super(min: 1, max: 9, decimals: 0)
       end
     end
   end

@@ -10,9 +10,7 @@ module Eddy
       def initialize()
         @id = "116"
         @name = "Postal Code"
-        @type = "ID"
-        @min = 3
-        @max = 15
+        super(min: 3, max: 15)
       end
 
       # @return [Regexp]

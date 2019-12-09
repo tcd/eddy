@@ -10,9 +10,7 @@ module Eddy
       def initialize()
         @id = "81"
         @name = "Weight"
-        @type = "R"
-        @min = 1
-        @max = 10
+        super(min: 1, max: 10)
       end
     end
   end

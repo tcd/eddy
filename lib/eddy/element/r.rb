@@ -5,16 +5,18 @@ module Eddy
 
       # @param min [Integer]
       # @param max [Integer]
-      # @param val [Integer]
+      # @param val [Float] (nil)
       # @return [void]
-      def initialize(min, max, val = nil)
+      def initialize(min:, max:, val: nil)
+        @type = "R"
         @min = min
         @max = max
         self.value = val
       end
 
+      # @param required [Boolean] (false)
       # @return [String]
-      def value()
+      def value(required: false)
         # raise Eddy::Errors::ElementNilValueError if @value.nil?
         return process(@value)
       end

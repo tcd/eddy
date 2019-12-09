@@ -2,34 +2,41 @@ module Eddy
   module Element
     # Numeric (implies the number of decimal points, e.g., N2 would be two decimal positions)
     class N < Base
+
       # Number of decimal points.
       # @return [Integer]
-      attr_accessor :decimal_points
+      attr_accessor :decimals
 
       # @param min [Integer]
       # @param max [Integer]
-      # @param decimal_points [Integer]
+      # @param decimals [Integer]
       # @param val [Integer,nil] (nil)
       # @return [void]
-      def initialize(min, max, decimal_points, val = nil)
+      def initialize(min:, max:, decimals:, val: nil)
         @min = min
         @max = max
-        self.decimal_points = decimal_points
+        self.decimals = decimals
         self.value = val
       end
 
+      # @param required [Boolean] (false)
       # @return [String]
-      def value
-        # raise Eddy::Errors::ElementNilValueError if @value.nil?
-        return @value.to_s
+      def value(required: false)
+        return @value.to_s unless @value.nil?
+        if required
+          # raise Eddy::Errors::ElementNilValueError if @value.nil?
+          # TODO: pad string if the element is required?
+          return ""
+        end
+        return nil
       end
 
-      # @param arg [Integer]
       # @raise [Eddy::Errors::ElementValidationError]
+      # @param arg [Integer]
       # @return [void]
       def value=(arg)
         if arg.nil?
-          @value = arg
+          @value = nil
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be an integer" unless arg.is_a?(Integer)

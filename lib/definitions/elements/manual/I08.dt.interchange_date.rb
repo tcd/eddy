@@ -10,10 +10,12 @@ module Eddy
       def initialize()
         @id = "I08"
         @name = "Interchange Date"
-        @type = "DT"
-        @min = 6
-        @max = 6
-        super(:yymmdd, Time.now.utc)
+        super(
+          min: 6,
+          max: 6,
+          fmt: :yymmdd,
+          date: Time.now.utc,
+        )
       end
     end
   end

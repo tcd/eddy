@@ -10,10 +10,11 @@ module Eddy
       def initialize()
         @id = "I04"
         @name = "SecurityInformation"
-        @type = "AN"
-        @min = 10
-        @max = 10
-        self.value = (" " * 10) # "          "
+        super(
+          min: 10,
+          max: 10,
+          val:  (" " * 10), # "          "
+        )
       end
     end
   end

@@ -13,9 +13,7 @@ module Eddy
       def initialize()
         @id = "I15"
         @name = "Component Element Separator"
-        @type = "AN"
-        @min = 1
-        @max = 1
+        super(min: 1, max: 1)
       end
 
       # @return [String]

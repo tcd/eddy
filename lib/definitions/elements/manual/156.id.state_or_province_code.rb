@@ -4,15 +4,14 @@ module Eddy
     # - Name: State or Province Code
     # - Type: ID
     # - Min/Max: 2/2
-    # - Description: Code (Standard State/Province) as defined by appropriate government agency
+    # - Description: Code (Standard State/Province) as defined by appropriate government agency. Currently only accepts states in the USA.
     class StateOrProvinceCode < Eddy::Element::ID
+
       # @return [void]
       def initialize()
         @id = "156"
         @name = "State or Province Code"
-        @type = "ID"
-        @min = 2
-        @max = 2
+        super(min: 2, max: 2)
       end
 
       # @return [Array<String>]
@@ -71,6 +70,7 @@ module Eddy
           "WY",
         ]
       end
+
     end
   end
 end

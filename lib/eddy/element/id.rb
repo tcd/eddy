@@ -1,25 +1,29 @@
 module Eddy
   module Element
-
     # Identifier (works with a code list specified by the dictionary).
     class ID < Element::Base
-      # @return [Array<String>]
-      def code_list
-        raise NotImplementedError, "Each ID element must define its own code_list"
-      end
 
       # @param min [Integer]
       # @param max [Integer]
+      # @param val [String] (nil)
       # @return [void]
-      def initialize(min, max)
+      def initialize(min:, max:, val: nil)
+        @type = "ID"
         @min = min
         @max = max
+        self.value = val
       end
 
+      # @param required [Boolean] (false)
       # @return [String]
-      def value()
-        # raise Eddy::Errors::ElementNilValueError if @value.nil?
-        return @value
+      def value(required: false)
+        return @value unless @value.nil?
+        if required
+          raise Eddy::Errors::ElementNilValueError
+          # TODO: pad string if the element is required?
+          return ""
+        end
+        return nil
       end
 
       # @param arg [String]
@@ -33,6 +37,11 @@ module Eddy
         raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
         @value = arg
+      end
+
+      # @return [Array<String>]
+      def code_list()
+        raise NotImplementedError, "Each ID element must define its own code_list"
       end
 
     end

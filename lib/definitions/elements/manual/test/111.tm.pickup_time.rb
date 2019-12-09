@@ -10,10 +10,7 @@ module Eddy
       def initialize()
         @id = "111"
         @name = "Pick-up Time"
-        @type = "TM"
-        @min = 4
-        @max = 4
-        super(:hhmm)
+        super(min: 4, max: 4, fmt: :hhmm)
       end
     end
   end

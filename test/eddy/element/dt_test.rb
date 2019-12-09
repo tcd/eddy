@@ -3,10 +3,6 @@ require "time"
 
 class DtTest < Minitest::Test
 
-  def test_determine_format
-    skip()
-  end
-
   def test_init
     skip()
   end
@@ -19,19 +15,23 @@ class DtTest < Minitest::Test
     skip()
   end
 
-  def test_descendent
-    skip()
+  def test_determine_format
+    a = Eddy::Element::DT.new(min: 6, max: 6)
+    b = Eddy::Element::DT.new(min: 8, max: 8)
+    assert_equal(:yymmdd, a.determine_format)
+    assert_equal(:ccyymmdd, b.determine_format)
+    assert_raises(Eddy::Errors::Error) { Eddy::Element::DT.new(min: 10, max: 10).determine_format }
   end
 
   def test_ccyymmdd
     time = Time.at(0).utc()
-    dt = Eddy::Element::DT.new(:yymmdd, time)
+    dt = Eddy::Element::DT.new(fmt: :yymmdd, val: time)
     assert_equal("700101", dt.value)
   end
 
   def test_yymmdd
     time = Time.at(0).utc()
-    dt = Eddy::Element::DT.new(:ccyymmdd, time)
+    dt = Eddy::Element::DT.new(fmt: :ccyymmdd, val: time)
     assert_equal("19700101", dt.value)
   end
 

@@ -10,10 +10,7 @@ module Eddy
       def initialize()
         @id = "I12"
         @name = "InterchangeControlNumber"
-        @type = "N"
-        @min = 9
-        @max = 9
-        self.decimal_points = 0
+        super(min: 9, max: 9, decimals: 0)
       end
     end
   end
