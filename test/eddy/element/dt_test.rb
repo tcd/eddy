@@ -3,16 +3,10 @@ require "time"
 
 class DtTest < Minitest::Test
 
-  def test_init
-    skip()
-  end
-
-  def test_value_getter
-    skip()
-  end
-
-  def test_value_setter
-    skip()
+  def test_setter_and_getter
+    tm = Eddy::Element::DT.new(fmt: :yymmdd)
+    tm.value = Time.at(0).utc()
+    assert_equal("700101", tm.value)
   end
 
   def test_determine_format
