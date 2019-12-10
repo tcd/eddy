@@ -3,6 +3,7 @@ module Eddy
     # Id: ISA
     # Description: Interchange Control Header
     class ISA < Eddy::Segment
+
       # @return [void]
       def initialize()
         @id = "ISA"
@@ -48,7 +49,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def AuthorizationInformationQualifier=(val)
-        @isa01 = val
+        @isa01.value = val
       end
 
       # (see Eddy::Elements::AuthorizationInformation)
@@ -56,7 +57,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def AuthorizationInformation=(val)
-        @isa02 = val
+        @isa02.value = val
       end
 
       # (see Eddy::Elements::SecurityInformationQualifier)
@@ -64,7 +65,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def SecurityInformationQualifier=(val)
-        @isa03 = val
+        @isa03.value = val
       end
 
       # (see Eddy::Elements::SecurityInformation)
@@ -72,7 +73,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def SecurityInformation=(val)
-        @isa04 = val
+        @isa04.value = val
       end
 
       # (see Eddy::Elements::InterchangeIdQualifier)
@@ -80,7 +81,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeIdQualifier1=(val)
-        @isa05 = val
+        @isa05.value = val
       end
 
       # (see Eddy::Elements::InterchangeSenderId)
@@ -88,7 +89,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeSenderId=(val)
-        @isa06 = val
+        @isa06.value = val
       end
 
       # (see Eddy::Elements::InterchangeIdQualifier)
@@ -96,7 +97,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeIdQualifier2=(val)
-        @isa07 = val
+        @isa07.value = val
       end
 
       # (see Eddy::Elements::InterchangeReceiverId)
@@ -104,7 +105,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeReceiverId=(val)
-        @isa08 = val
+        @isa08.value = val
       end
 
       # (see Eddy::Elements::InterchangeDate)
@@ -112,7 +113,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeDate=(val)
-        @isa09 = val
+        @isa09.value = val
       end
 
       # (see Eddy::Elements::InterchangeTime)
@@ -120,7 +121,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeTime=(val)
-        @isa10 = val
+        @isa10.value = val
       end
 
       # (see Eddy::Elements::InterchangeControlNumber)
@@ -128,7 +129,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeControlStandards=(val)
-        @isa11 = val
+        @isa11.value = val
       end
 
       # (see Eddy::Elements::)
@@ -136,7 +137,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeControlVersionNumber=(val)
-        @isa12 = val
+        @isa12.value = val
       end
 
       # (see Eddy::Elements::)
@@ -144,7 +145,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def InterchangeControlNumber=(val)
-        @isa13 = val
+        @isa13.value = val
       end
 
       # (see Eddy::Elements::AcknowledgmentRequested)
@@ -152,7 +153,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def AcknowledgmentRequested=(val)
-        @isa14 = val
+        @isa14.value = val
       end
 
       # (see Eddy::Elements::UsageIndicator)
@@ -160,7 +161,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def UsageIndicator=(val)
-        @isa15 = val
+        @isa15.value = val
       end
 
       # (see Eddy::Elements::ComponentElementSeparator)
@@ -168,7 +169,7 @@ module Eddy
       # @param val [Object]
       # @return [void]
       def ComponentElementSeparator=(val)
-        @isa16 = val
+        @isa16.value = val
       end
 
     end
