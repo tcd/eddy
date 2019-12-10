@@ -1,17 +1,24 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: I11
     # - Name: Interchange Control Version Number
     # - Type: ID
     # - Min/Max: 5/5
     # - Description: This version number covers the interchange control segments
+    #
+    # ### Notes:
+    #
+    # - (Default value: `"00401"`)
     class InterchangeControlVersionNumber < Eddy::Element::ID
       # @return [void]
       def initialize()
         @id = "I11"
         @name = "Interchange Control Version Number"
-        super(min: 5, max: 5)
+        super(min: 5, max: 5, val: "00401")
       end
+
       # @return [Array<String>]
       def code_list()
         return [

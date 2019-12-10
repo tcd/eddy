@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: 785
     # - Name: Binary Data
     # - Type: B

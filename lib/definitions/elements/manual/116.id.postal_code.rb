@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: 116
     # - Name: Postal Code
     # - Type: ID

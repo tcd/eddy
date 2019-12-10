@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: 93
     # - Name: Name
     # - Type: AN

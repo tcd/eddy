@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: 784
     # - Name: Length of Binary Data
     # - Type: N0

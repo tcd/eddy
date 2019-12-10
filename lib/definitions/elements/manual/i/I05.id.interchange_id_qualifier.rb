@@ -1,11 +1,14 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: I05
     # - Name: Interchange ID Qualifier
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified
     class InterchangeIdQualifier < Eddy::Element::ID
+
       # @return [void]
       def initialize()
         @id = "I05"
@@ -56,6 +59,7 @@ module Eddy
           "ZZ", # Mutually Defined
         ]
       end
+
     end
   end
 end

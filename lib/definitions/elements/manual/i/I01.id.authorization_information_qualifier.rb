@@ -1,17 +1,23 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: I01
     # - Name: Authorization Information Qualifier
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code to identify the type of information in the Authorization Information
+    #
+    # ### Notes:
+    #
+    # - (Default value: `"00"`)
     class AuthorizationInformationQualifier < Eddy::Element::ID
 
       # @return [void]
       def initialize()
         @id = "I01"
         @name = "Authorization Information Qualifier"
-        super(min: 2, max: 2)
+        super(min: 2, max: 2, val: "00")
       end
 
       # @return [Array<String>]

@@ -1,10 +1,16 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: 156
     # - Name: State or Province Code
     # - Type: ID
     # - Min/Max: 2/2
-    # - Description: Code (Standard State/Province) as defined by appropriate government agency. Currently only accepts states in the USA.
+    # - Description: Code (Standard State/Province) as defined by appropriate government agency.
+    #
+    # ### Notes:
+    #
+    # - FIXME: Currently only accepts states in the USA.
     class StateOrProvinceCode < Eddy::Element::ID
 
       # @return [void]

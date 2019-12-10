@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: I06
     # - Name: Interchange Sender ID
     # - Type: AN

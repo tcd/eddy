@@ -13,8 +13,8 @@ module Eddy
         @isa03 = Eddy::Elements::SecurityInformationQualifier.new()          # I03
         @isa04 = Eddy::Elements::SecurityInformation.new()                   # I04
         @isa05 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
-        @isa07 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
         @isa06 = Eddy::Elements::InterchangeSenderId.new()                   # I06
+        @isa07 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
         @isa08 = Eddy::Elements::InterchangeReceiverId.new()                 # I07
         @isa09 = Eddy::Elements::InterchangeDate.new()                       # I08
         @isa10 = Eddy::Elements::InterchangeTime.new()                       # I09
@@ -128,7 +128,7 @@ module Eddy
       #
       # @param val [Object]
       # @return [void]
-      def InterchangeControlStandards=(val)
+      def InterchangeControlStandardsIdentifier=(val)
         @isa11.value = val
       end
 

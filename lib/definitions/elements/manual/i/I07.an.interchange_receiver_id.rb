@@ -1,5 +1,7 @@
 module Eddy
   module Elements
+    # ### Element Summary:
+    #
     # - Id: I07
     # - Name: Interchange Receiver ID
     # - Type: AN
