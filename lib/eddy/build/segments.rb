@@ -27,7 +27,7 @@ module Eddy
         STR
       })
       return c.render if test
-      c.generate(File.join(Eddy.root_dir, "build", "segments"))
+      c.generate(File.join(Eddy::Helpers.root_dir, "build", "segments"))
       return nil
     end
 
@@ -38,7 +38,7 @@ module Eddy
       super_call = "super(\n"
 
       data[:elements].each do |k, v|
-        declarations << "@#{k.to_s.downcase} = Eddy::Elements::#{Eddy::Data.normalize_id(v)}.new\n"
+        declarations << "@#{k.to_s.downcase} = Eddy::Elements::#{Eddy::Helpers.normalize_id(v)}.new\n"
         super_call << "  @#{k.to_s.downcase},\n"
       end
 
@@ -72,7 +72,20 @@ module Eddy
     # @return [String]
     def self.element_accessor(ref, element_id)
       return <<~RB.strip
-        # (see Eddy::Elements::#{Eddy::Data.normalize_id(element_id)})
+        # (see Eddy::Elements::#{Eddy::Helpers.normalize_id(element_id)})
+        #
+        # @param arg [String]
+        # @return [void]
+        def #{ref.upcase}=(arg)
+          @#{ref}.value = arg
+        end
+      RB
+    end
+
+    # @return [String]
+    def self.element_accessor_v2(ref, element_id)
+      return <<~RB.strip
+        # (see Eddy::Elements::#{Eddy::Helpers.normalize_id(element_id)})
         #
         # @param arg [String]
         # @return [void]

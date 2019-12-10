@@ -1,7 +1,5 @@
 module Eddy
   # Base class for EDI Transaction Sets.
-  # Top level EDI document.
-  # Interchange / Document / Envelope / Group / File
   class TransactionSet
     # @return [Integer]
     attr_accessor :id

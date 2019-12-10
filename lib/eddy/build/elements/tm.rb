@@ -6,8 +6,8 @@ module Eddy
     # @param el [Hash]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @return [void]
-    def self.dt(el, test: false)
-      fmt = determine_dt_format(el[:max])
+    def self.tm(el, test: false)
+      fmt = determine_tm_format(el[:max])
       constructor = Ginny::Func.create({
         name: "initialize",
         body: <<~FUNC_BODY,
@@ -19,26 +19,30 @@ module Eddy
       c = Ginny::Class.create({
         name: el[:name],
         description: el[:description],
-        parent: "Eddy::Element::DT",
+        parent: "Eddy::Element::TM",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{el[:id]}.dt.",
+        file_prefix: "#{el[:id]}.tm.",
       })
       return c.render if test
-      c.generate(File.join(Eddy.root_dir, "build", "elements", "dt"))
+      c.generate(File.join(Eddy::Helpers.root_dir, "build", "elements", "tm"))
       return nil
     end
 
     # @param int [Integer]
     # @return [Symbol]
-    def self.determine_dt_format(int)
+    def self.determine_tm_format(int)
       case int
+      when 4
+        return :hhmm
       when 6
-        return :yymmdd
+        return :hhmmss
+      when 7
+        return :hhmmssd
       when 8
-        return :ccyymmdd
+        return :hhmmssdd
       else
-        raise Eddy::Errors::Error, "unable to determine format for dt element"
+        raise Eddy::Errors::Error, "unable to determine format for tm element"
       end
     end
 

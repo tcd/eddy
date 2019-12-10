@@ -4,7 +4,7 @@ require "ginny"
 class BuildElementsTest < Minitest::Test
 
   def setup
-    @data = Eddy.parse_tsv(file_fixture("build_test_elements.tsv"))
+    @data = Eddy::Helpers.parse_tsv(file_fixture("build_test_elements.tsv"))
   end
 
   def test_generate_elements
@@ -34,7 +34,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "93" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.an(processed_data, test: true)
     assert_equal(want, have)
   end
@@ -62,7 +62,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "109" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.dt(processed_data, test: true)
     assert_equal(want, have)
   end
@@ -100,7 +100,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "I03" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.id(processed_data, test: true)
     assert_equal(want, have)
   end
@@ -128,7 +128,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "784" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.n(processed_data, test: true)
     assert_equal(want, have)
   end
@@ -156,7 +156,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "81" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.r(processed_data, test: true)
     assert_equal(want, have)
   end
@@ -184,7 +184,7 @@ class BuildElementsTest < Minitest::Test
       end
     RUBY
     raw_data = @data.find { |d| d[:id] == "111" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
+    processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.tm(processed_data, test: true)
     assert_equal(want, have)
   end
