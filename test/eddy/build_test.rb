@@ -15,6 +15,8 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: 93
           # - Name: Name
           # - Type: AN
@@ -41,6 +43,8 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: 109
           # - Name: Pick-up Date
           # - Type: DT
@@ -67,12 +71,15 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: I03
           # - Name: Security Information Qualifier
           # - Type: ID
           # - Min/Max: 2/2
           # - Description: Code to identify the type of information in the Security Information
           class SecurityInformationQualifier < Eddy::Element::ID
+
             # @return [void]
             def initialize()
               @id = "I03"
@@ -102,6 +109,8 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip()
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: 784
           # - Name: Length of Binary Data
           # - Type: N0
@@ -128,6 +137,8 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: 81
           # - Name: Weight
           # - Type: R
@@ -154,6 +165,8 @@ class BuildTest < Minitest::Test
     want = <<~RUBY.strip
       module Eddy
         module Elements
+          # ### Element Summary:
+          #
           # - Id: 111
           # - Name: Pick-up Time
           # - Type: TM

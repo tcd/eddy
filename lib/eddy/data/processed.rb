@@ -50,6 +50,8 @@ module Eddy
     # @return [Hash]
     def self.generate_description(element)
       return <<~END.strip
+        ### Element Summary:
+
         - Id: #{element[:id].strip}
         - Name: #{element[:name].strip}
         - Type: #{element[:type].strip}
