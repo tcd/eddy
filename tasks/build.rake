@@ -14,6 +14,8 @@ namespace :build do
 
   desc "Generate ruby classes for EDI data elements"
   task :elements do
+    Eddy::Build.make_element_folders()
+    Eddy::Build.clean_element_folders()
     Eddy::Build.generate_elements()
   end
 
