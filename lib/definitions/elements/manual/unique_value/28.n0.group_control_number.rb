@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # Values for this element need to be generated and have their uniqueness ensured.
-    class GroupControlNumber < Eddy::Element::N
+    class E28 < Eddy::Element::N
       # @return [void]
       def initialize()
         @id = "28"

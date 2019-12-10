@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/15
     # - Description: Code defining international postal zone code excluding punctuation and blanks (zip code for United States)
-    class PostalCode < Eddy::Element::ID
+    class E116 < Eddy::Element::ID
       # @return [void]
       def initialize()
         @id = "116"

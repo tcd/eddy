@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - (Default value: `"00"`)
-    class AuthorizationInformationQualifier < Eddy::Element::ID
+    class I01 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

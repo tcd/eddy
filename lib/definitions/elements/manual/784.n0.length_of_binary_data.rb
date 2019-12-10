@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/15
     # - Description: The length in integral octets of the binary data
-    class LengthOfBinaryData < Eddy::Element::N
+    class E784 < Eddy::Element::N
       # @return [void]
       def initialize()
         @id = "784"

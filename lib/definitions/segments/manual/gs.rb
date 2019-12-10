@@ -9,14 +9,14 @@ module Eddy
       def initialize()
         @id = "GS"
         @description = "Functional Group Header"
-        @gs01 = Eddy::Elements::FunctionalIdentifierCode.new # 479
-        @gs02 = Eddy::Elements::ApplicationSendersCode.new # 142
-        @gs03 = Eddy::Elements::ApplicationReceiversCode.new # 124
-        @gs04 = Eddy::Elements::Date.new # 373
-        @gs05 = Eddy::Elements::Time.new # 337
-        @gs06 = Eddy::Elements::GroupControlNumber.new # 28
-        @gs07 = Eddy::Elements::ResponsibleAgencyCode.new # 455
-        @gs08 = Eddy::Elements::VersionReleaseIndustryIdentifierCode.new # 480
+        @gs01 = Eddy::Elements::E479.new
+        @gs02 = Eddy::Elements::E142.new
+        @gs03 = Eddy::Elements::E124.new
+        @gs04 = Eddy::Elements::E373.new
+        @gs05 = Eddy::Elements::E337.new
+        @gs06 = Eddy::Elements::E28.new
+        @gs07 = Eddy::Elements::E455.new
+        @gs08 = Eddy::Elements::E480.new
         super(
           @gs01,
           @gs02,

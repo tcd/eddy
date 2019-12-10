@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - FIXME: Currently only accepts states in the USA.
-    class StateOrProvinceCode < Eddy::Element::ID
+    class E156 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

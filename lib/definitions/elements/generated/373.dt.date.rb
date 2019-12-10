@@ -7,7 +7,7 @@ module Eddy
     # - Type: DT
     # - Min/Max: 8/8
     # - Description: Date expressed as CCYYMMDD
-    class Date < Eddy::Element::DT
+    class E373 < Eddy::Element::DT
       # @return [void]
       def initialize()
         @id = "373"

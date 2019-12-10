@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # Values for this element need to be generated and have their uniqueness ensured.
-    class InterchangeControlNumber < Eddy::Element::N
+    class I12 < Eddy::Element::N
       # @return [void]
       def initialize()
         @id = "I12"

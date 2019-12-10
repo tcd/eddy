@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - (Default value: `"00401"`)
-    class InterchangeControlVersionNumber < Eddy::Element::ID
+    class I11 < Eddy::Element::ID
       # @return [void]
       def initialize()
         @id = "I11"

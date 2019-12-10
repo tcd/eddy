@@ -10,22 +10,22 @@ module Eddy
       def initialize(time:)
         @id = "ISA"
         @description = "Interchange Control Header"
-        @isa01 = Eddy::Elements::AuthorizationInformationQualifier.new()     # I01
-        @isa02 = Eddy::Elements::AuthorizationInformation.new()              # I02
-        @isa03 = Eddy::Elements::SecurityInformationQualifier.new()          # I03
-        @isa04 = Eddy::Elements::SecurityInformation.new()                   # I04
-        @isa05 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
-        @isa06 = Eddy::Elements::InterchangeSenderId.new()                   # I06
-        @isa07 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
-        @isa08 = Eddy::Elements::InterchangeReceiverId.new()                 # I07
-        @isa09 = Eddy::Elements::InterchangeDate.new(time)                   # I08
-        @isa10 = Eddy::Elements::InterchangeTime.new(time)                   # I09
-        @isa11 = Eddy::Elements::InterchangeControlStandardsIdentifier.new() # I10
-        @isa12 = Eddy::Elements::InterchangeControlVersionNumber.new()       # I11
-        @isa13 = Eddy::Elements::InterchangeControlNumber.new()              # I12
-        @isa14 = Eddy::Elements::AcknowledgmentRequested.new()               # I13
-        @isa15 = Eddy::Elements::UsageIndicator.new()                        # I14
-        @isa16 = Eddy::Elements::ComponentElementSeparator.new()             # I15
+        @isa01 = Eddy::Elements::I01.new
+        @isa02 = Eddy::Elements::I02.new
+        @isa03 = Eddy::Elements::I03.new
+        @isa04 = Eddy::Elements::I04.new
+        @isa05 = Eddy::Elements::I05.new
+        @isa06 = Eddy::Elements::I06.new
+        @isa07 = Eddy::Elements::I05.new
+        @isa08 = Eddy::Elements::I07.new
+        @isa09 = Eddy::Elements::I08.new(time)
+        @isa10 = Eddy::Elements::I09.new(time)
+        @isa11 = Eddy::Elements::I10.new
+        @isa12 = Eddy::Elements::I11.new
+        @isa13 = Eddy::Elements::I12.new
+        @isa14 = Eddy::Elements::I13.new
+        @isa15 = Eddy::Elements::I14.new
+        @isa16 = Eddy::Elements::I15.new
         super(
           @isa01,
           @isa02,

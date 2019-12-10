@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Numeric value of weight
-    class Weight < Eddy::Element::R
+    class E81 < Eddy::Element::R
       # @return [void]
       def initialize()
         @id = "81"

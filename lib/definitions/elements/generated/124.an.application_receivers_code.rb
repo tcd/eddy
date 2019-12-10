@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 2/15
     # - Description: Code identifying party receiving transmission. Codes agreed to by trading partners
-    class ApplicationReceiversCode < Eddy::Element::AN
+    class E124 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "124"

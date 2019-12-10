@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/20
     # - Description: Alphanumeric characters assigned for differentiation within a transaction set
-    class AssignedIdentification < Eddy::Element::AN
+    class E350 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "350"

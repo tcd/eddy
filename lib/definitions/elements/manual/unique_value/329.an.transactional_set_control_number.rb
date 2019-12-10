@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # Values for this element need to be generated and have their uniqueness ensured.
-    class TransactionSetControlNumber < Eddy::Element::AN
+    class E329 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "329"

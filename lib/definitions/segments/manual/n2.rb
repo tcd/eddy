@@ -8,8 +8,8 @@ module Eddy
       def initialize()
         @id = "N2"
         @description = "Additional Name Information"
-        @n201 = Eddy::Elements::Name.new()
-        @n202 = Eddy::Elements::Name.new()
+        @n201 = Eddy::Elements::E93.new
+        @n202 = Eddy::Elements::E93.new
         super(@n201, @n202)
       end
 

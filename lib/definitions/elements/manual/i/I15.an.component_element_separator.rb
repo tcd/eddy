@@ -14,7 +14,7 @@ module Eddy
     # ### Notes:
     #
     # - (Default value: `">"`)
-    class ComponentElementSeparator < Eddy::Element::AN
+    class I15 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "I15"

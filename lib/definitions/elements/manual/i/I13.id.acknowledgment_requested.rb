@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code sent by the sender to request an interchange acknowledgment (`TA1`)
-    class AcknowledgmentRequested < Eddy::Element::ID
+    class I13 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

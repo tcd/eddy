@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/60
     # - Description: Free-form name
-    class Name < Eddy::Element::AN
+    class E93 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "93"

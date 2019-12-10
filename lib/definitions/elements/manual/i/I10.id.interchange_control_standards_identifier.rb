@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - (Default value: `"U"`)
-    class InterchangeControlStandardsIdentifier < Eddy::Element::ID
+    class I10 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

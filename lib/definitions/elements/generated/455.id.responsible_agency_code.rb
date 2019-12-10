@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code used in conjunction with Data Element 480 to identify the issuer of the standard
-    class ResponsibleAgencyCode < Eddy::Element::ID
+    class E455 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

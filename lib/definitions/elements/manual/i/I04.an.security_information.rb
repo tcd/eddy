@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - By default, this element's value is just 10 empty spaces.
-    class SecurityInformation < Eddy::Element::AN
+    class I04 < Eddy::Element::AN
       # @return [void]
       def initialize()
         @id = "I04"

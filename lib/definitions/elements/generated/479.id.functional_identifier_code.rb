@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying a group of application related transaction sets
-    class FunctionalIdentifierCode < Eddy::Element::ID
+    class E479 < Eddy::Element::ID
 
       # @return [void]
       def initialize()

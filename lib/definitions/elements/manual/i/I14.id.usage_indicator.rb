@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code to indicate whether data enclosed by this interchange envelope is test, production or information
-    class UsageIndicator < Eddy::Element::ID
+    class I14 < Eddy::Element::ID
 
       # @return [void]
       def initialize()
