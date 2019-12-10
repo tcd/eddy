@@ -1,7 +1,7 @@
 {
-  "$id": "https://github.com/tcd/eddy/blob/master/data/json/transaction_set.json",
+  "$id": "https://github.com/tcd/eddy/blob/master/data/schema/transaction_set_summary.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Transaction Set",
+  "title": "Transaction Set Summary",
   "description": "An outline of all required components for an EDI transaction set implementation.",
   "required": [
     "code",
@@ -202,5 +202,6 @@
         }
       }
     }
+
   }
 }
