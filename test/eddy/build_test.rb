@@ -79,6 +79,7 @@ class BuildTest < Minitest::Test
               @name = "Security Information Qualifier"
               super(min: 2, max: 2)
             end
+
             # @return [Array<String>]
             def code_list()
               return [
@@ -86,6 +87,7 @@ class BuildTest < Minitest::Test
                 "01", # Password
               ]
             end
+
           end
         end
       end
