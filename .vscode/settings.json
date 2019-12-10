@@ -4,10 +4,10 @@
       "fileMatch": [
         "*.edi.json"
       ],
-      "url": "./data/json/transaction_set.json"
+      "url": "./data/schema/transaction_set.json"
     }
   ],
   "yaml.schemas": {
-    "./data/json/transaction_set.json": "*.edi.yml"
+    "./data/schema/transaction_set.json": "*.edi.yml"
   }
 }
