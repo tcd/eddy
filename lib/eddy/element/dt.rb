@@ -40,12 +40,9 @@ module Eddy
       def value(required: false)
         raise Eddy::Errors::ElementNilValueError if @value.nil?
         case self.fmt
-        when :yymmdd
-          return DT.yymmdd(@value)
-        when :ccyymmdd
-          return DT.ccyymmdd(@value)
-        else
-          raise Eddy::Errors::Error "invalid fmt value for DT object"
+        when :yymmdd then return DT.yymmdd(@value)
+        when :ccyymmdd then return DT.ccyymmdd(@value)
+        else raise Eddy::Errors::Error "invalid fmt value for DT object"
         end
       end
 
@@ -70,12 +67,9 @@ module Eddy
       # @return [Symbol]
       def determine_format()
         case self.max
-        when 6
-          return :yymmdd
-        when 8
-          return :ccyymmdd
-        else
-          raise Eddy::Errors::Error, "unable to determine format for dt element"
+        when 6 then return :yymmdd
+        when 8 then return :ccyymmdd
+        else raise Eddy::Errors::Error, "unable to determine format for dt element"
         end
       end
 
