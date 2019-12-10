@@ -1,4 +1,5 @@
 require "test_helper"
+require "time"
 
 class SegmentTest < Minitest::Test
 
@@ -10,7 +11,7 @@ class SegmentTest < Minitest::Test
 
   def test_isa
     Time.stub :now, Time.at(0).utc() do
-      isa = Eddy::Segments::ISA.new()
+      isa = Eddy::Segments::ISA.new(time: Time.now.utc)
       isa.AuthorizationInformationQualifier = "00"
       isa.SecurityInformationQualifier = "00"
       isa.InterchangeIdQualifier1 = "ZZ"

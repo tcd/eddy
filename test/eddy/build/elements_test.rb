@@ -1,7 +1,7 @@
 require "test_helper"
 require "ginny"
 
-class BuildTest < Minitest::Test
+class BuildElementsTest < Minitest::Test
 
   def setup
     @data = Eddy.parse_tsv(file_fixture("build_test_elements.tsv"))

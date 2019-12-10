@@ -15,18 +15,18 @@ module Eddy
 
       # (see Eddy::Elements::Name)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def name_1=(val)
-        @n201.value = val
+      def name_1=(arg)
+        @n201.value = arg
       end
 
       # (see Eddy::Elements::Name)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def name_2=(val)
-        @n202.value = val
+      def name_2=(arg)
+        @n202.value = arg
       end
 
     end

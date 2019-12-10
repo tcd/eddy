@@ -2,10 +2,12 @@ module Eddy
   module Segments
     # Id: ISA
     # Description: Interchange Control Header
+    # Purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
     class ISA < Eddy::Segment
 
+      # @param time [Time] Time of the interchange for use by `DT` and `TM` elements.
       # @return [void]
-      def initialize()
+      def initialize(time:)
         @id = "ISA"
         @description = "Interchange Control Header"
         @isa01 = Eddy::Elements::AuthorizationInformationQualifier.new()     # I01
@@ -16,8 +18,8 @@ module Eddy
         @isa06 = Eddy::Elements::InterchangeSenderId.new()                   # I06
         @isa07 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
         @isa08 = Eddy::Elements::InterchangeReceiverId.new()                 # I07
-        @isa09 = Eddy::Elements::InterchangeDate.new()                       # I08
-        @isa10 = Eddy::Elements::InterchangeTime.new()                       # I09
+        @isa09 = Eddy::Elements::InterchangeDate.new(time)                   # I08
+        @isa10 = Eddy::Elements::InterchangeTime.new(time)                   # I09
         @isa11 = Eddy::Elements::InterchangeControlStandardsIdentifier.new() # I10
         @isa12 = Eddy::Elements::InterchangeControlVersionNumber.new()       # I11
         @isa13 = Eddy::Elements::InterchangeControlNumber.new()              # I12
@@ -46,130 +48,114 @@ module Eddy
 
       # (see Eddy::Elements::AuthorizationInformationQualifier)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def AuthorizationInformationQualifier=(val)
-        @isa01.value = val
+      def AuthorizationInformationQualifier=(arg)
+        @isa01.value = arg
       end
 
       # (see Eddy::Elements::AuthorizationInformation)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def AuthorizationInformation=(val)
-        @isa02.value = val
+      def AuthorizationInformation=(arg)
+        @isa02.value = arg
       end
 
       # (see Eddy::Elements::SecurityInformationQualifier)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def SecurityInformationQualifier=(val)
-        @isa03.value = val
+      def SecurityInformationQualifier=(arg)
+        @isa03.value = arg
       end
 
       # (see Eddy::Elements::SecurityInformation)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def SecurityInformation=(val)
-        @isa04.value = val
+      def SecurityInformation=(arg)
+        @isa04.value = arg
       end
 
       # (see Eddy::Elements::InterchangeIdQualifier)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeIdQualifier1=(val)
-        @isa05.value = val
+      def InterchangeIdQualifier1=(arg)
+        @isa05.value = arg
       end
 
       # (see Eddy::Elements::InterchangeSenderId)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeSenderId=(val)
-        @isa06.value = val
+      def InterchangeSenderId=(arg)
+        @isa06.value = arg
       end
 
       # (see Eddy::Elements::InterchangeIdQualifier)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeIdQualifier2=(val)
-        @isa07.value = val
+      def InterchangeIdQualifier2=(arg)
+        @isa07.value = arg
       end
 
       # (see Eddy::Elements::InterchangeReceiverId)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeReceiverId=(val)
-        @isa08.value = val
-      end
-
-      # (see Eddy::Elements::InterchangeDate)
-      #
-      # @param val [Object]
-      # @return [void]
-      def InterchangeDate=(val)
-        @isa09.value = val
-      end
-
-      # (see Eddy::Elements::InterchangeTime)
-      #
-      # @param val [Object]
-      # @return [void]
-      def InterchangeTime=(val)
-        @isa10.value = val
+      def InterchangeReceiverId=(arg)
+        @isa08.value = arg
       end
 
       # (see Eddy::Elements::InterchangeControlNumber)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeControlStandardsIdentifier=(val)
-        @isa11.value = val
+      def InterchangeControlStandardsIdentifier=(arg)
+        @isa11.value = arg
       end
 
-      # (see Eddy::Elements::)
+      # (see Eddy::Elements::InterchangeControlVersionNumber)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def InterchangeControlVersionNumber=(val)
-        @isa12.value = val
+      def InterchangeControlVersionNumber=(arg)
+        @isa12.value = arg
       end
 
-      # (see Eddy::Elements::)
+      # (see Eddy::Elements::InterchangeControlNumber)
       #
-      # @param val [Object]
+      # @param arg [Integer]
       # @return [void]
-      def InterchangeControlNumber=(val)
-        @isa13.value = val
+      def InterchangeControlNumber=(arg)
+        @isa13.value = arg
       end
 
       # (see Eddy::Elements::AcknowledgmentRequested)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def AcknowledgmentRequested=(val)
-        @isa14.value = val
+      def AcknowledgmentRequested=(arg)
+        @isa14.value = arg
       end
 
       # (see Eddy::Elements::UsageIndicator)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def UsageIndicator=(val)
-        @isa15.value = val
+      def UsageIndicator=(arg)
+        @isa15.value = arg
       end
 
       # (see Eddy::Elements::ComponentElementSeparator)
       #
-      # @param val [Object]
+      # @param arg [String]
       # @return [void]
-      def ComponentElementSeparator=(val)
-        @isa16.value = val
+      def ComponentElementSeparator=(arg)
+        @isa16.value = arg
       end
 
     end
