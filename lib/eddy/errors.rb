@@ -12,5 +12,8 @@ module Eddy
 
     # Exception raised when a class inherits from {Element} and doesn't set all instance attributes properly.
     class ElementNilAttributeError < Error; end
+
+    # Exception raised when an issue occurs while generating code.
+    class BuildError < Error; end
   end
 end
