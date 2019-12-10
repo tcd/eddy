@@ -1,7 +1,10 @@
 module Eddy
   module Segments
-    # Id: N2
-    # Description: Additional Name Information
+    # ### Segment Summary:
+    #
+    # - Id: N2
+    # - Description: Additional Name Information
+    # - Purpose: To identify a party by type of organization, name, and code
     class N2 < Eddy::Segment
 
       # @return [void]
@@ -13,7 +16,7 @@ module Eddy
         super(@n201, @n202)
       end
 
-      # (see Eddy::Elements::Name)
+      # (see Eddy::Elements::E93)
       #
       # @param arg [String]
       # @return [void]
@@ -21,7 +24,7 @@ module Eddy
         @n201.value = arg
       end
 
-      # (see Eddy::Elements::Name)
+      # (see Eddy::Elements::E93)
       #
       # @param arg [String]
       # @return [void]

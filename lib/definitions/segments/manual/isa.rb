@@ -1,8 +1,10 @@
 module Eddy
   module Segments
-    # Id: ISA
-    # Description: Interchange Control Header
-    # Purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
+    # ### Segment Summary:
+    #
+    # - Id: ISA
+    # - Description: Interchange Control Header
+    # - Purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
     class ISA < Eddy::Segment
 
       # @param time [Time] Time of the interchange for use by `DT` and `TM` elements.
@@ -46,7 +48,7 @@ module Eddy
       )
       end
 
-      # (see Eddy::Elements::AuthorizationInformationQualifier)
+      # (see Eddy::Elements::I01)
       #
       # @param arg [String]
       # @return [void]
@@ -54,7 +56,7 @@ module Eddy
         @isa01.value = arg
       end
 
-      # (see Eddy::Elements::AuthorizationInformation)
+      # (see Eddy::Elements::I02)
       #
       # @param arg [String]
       # @return [void]
@@ -62,7 +64,7 @@ module Eddy
         @isa02.value = arg
       end
 
-      # (see Eddy::Elements::SecurityInformationQualifier)
+      # (see Eddy::Elements::I03)
       #
       # @param arg [String]
       # @return [void]
@@ -70,7 +72,7 @@ module Eddy
         @isa03.value = arg
       end
 
-      # (see Eddy::Elements::SecurityInformation)
+      # (see Eddy::Elements::I04)
       #
       # @param arg [String]
       # @return [void]
@@ -78,7 +80,7 @@ module Eddy
         @isa04.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeIdQualifier)
+      # (see Eddy::Elements::I05)
       #
       # @param arg [String]
       # @return [void]
@@ -86,7 +88,7 @@ module Eddy
         @isa05.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeSenderId)
+      # (see Eddy::Elements::I06)
       #
       # @param arg [String]
       # @return [void]
@@ -94,7 +96,7 @@ module Eddy
         @isa06.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeIdQualifier)
+      # (see Eddy::Elements::I05)
       #
       # @param arg [String]
       # @return [void]
@@ -102,7 +104,7 @@ module Eddy
         @isa07.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeReceiverId)
+      # (see Eddy::Elements::I07)
       #
       # @param arg [String]
       # @return [void]
@@ -110,7 +112,7 @@ module Eddy
         @isa08.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeControlNumber)
+      # (see Eddy::Elements::I10)
       #
       # @param arg [String]
       # @return [void]
@@ -118,7 +120,7 @@ module Eddy
         @isa11.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeControlVersionNumber)
+      # (see Eddy::Elements::I11)
       #
       # @param arg [String]
       # @return [void]
@@ -126,7 +128,7 @@ module Eddy
         @isa12.value = arg
       end
 
-      # (see Eddy::Elements::InterchangeControlNumber)
+      # (see Eddy::Elements::I12)
       #
       # @param arg [Integer]
       # @return [void]
@@ -134,7 +136,7 @@ module Eddy
         @isa13.value = arg
       end
 
-      # (see Eddy::Elements::AcknowledgmentRequested)
+      # (see Eddy::Elements::I13)
       #
       # @param arg [String]
       # @return [void]
@@ -142,7 +144,7 @@ module Eddy
         @isa14.value = arg
       end
 
-      # (see Eddy::Elements::UsageIndicator)
+      # (see Eddy::Elements::I14)
       #
       # @param arg [String]
       # @return [void]
@@ -150,7 +152,7 @@ module Eddy
         @isa15.value = arg
       end
 
-      # (see Eddy::Elements::ComponentElementSeparator)
+      # (see Eddy::Elements::I15)
       #
       # @param arg [String]
       # @return [void]

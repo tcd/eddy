@@ -1,8 +1,10 @@
 module Eddy
   module Segments
-    # Id: GS
-    # Description: Functional Group Header
-    # Purpose: To indicate the beginning of a functional group and to provide control information.
+    # ### Segment Summary:
+    #
+    # - Id: GS
+    # - Description: Functional Group Header
+    # - Purpose: To indicate the beginning of a functional group and to provide control information.
     class GS < Eddy::Segment
 
       # @return [void]
