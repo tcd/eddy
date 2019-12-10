@@ -13,7 +13,7 @@ module Eddy
         super(
           min: 10,
           max: 10,
-          val:  (" " * 10), # "          "
+          val: (" " * 10), # "          "
         )
       end
     end

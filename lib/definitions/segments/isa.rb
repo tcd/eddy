@@ -7,22 +7,22 @@ module Eddy
       def initialize()
         @id = "ISA"
         @description = "Interchange Control Header"
-        @isa01 = Eddy::Elements::AuthorizationInformationQualifier.new() # I01
-        @isa02 = Eddy::Elements::AuthorizationInformation.new() # I02
-        @isa03 = Eddy::Elements::SecurityInformationQualifier.new()
-        @isa04 = Eddy::Elements::SecurityInformation.new() # I04
-        @isa05 = Eddy::Elements::InterchangeIDQualifier.new() # I05
-        @isa06 = Eddy::Elements::InterchangeSenderID.new() # I06
-        @isa07 = Eddy::Elements::InterchangeIDQualifier.new() # I05
-        @isa08 = Eddy::Elements::InterchangeReceiverID.new() # I07
-        @isa09 = Eddy::Elements::InterchangeDate.new() # I08
-        @isa10 = Eddy::Elements::InterchangeTime.new() # I09
-        @isa11 = Eddy::Elements::InterchangeControlStandards.new() # I10
-        @isa12 = Eddy::Elements::InterchangeControlVersionNumber.new() # I11
-        @isa13 = Eddy::Elements::InterchangeControlNumber.new() # I12
-        @isa14 = Eddy::Elements::AcknowledgmentRequested.new() # I13
-        @isa15 = Eddy::Elements::UsageIndicator.new() # I14
-        @isa16 = Eddy::Elements::ComponentElementSeparator.new() # I15
+        @isa01 = Eddy::Elements::AuthorizationInformationQualifier.new()     # I01
+        @isa02 = Eddy::Elements::AuthorizationInformation.new()              # I02
+        @isa03 = Eddy::Elements::SecurityInformationQualifier.new()          # I03
+        @isa04 = Eddy::Elements::SecurityInformation.new()                   # I04
+        @isa05 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
+        @isa07 = Eddy::Elements::InterchangeIdQualifier.new()                # I05
+        @isa06 = Eddy::Elements::InterchangeSenderId.new()                   # I06
+        @isa08 = Eddy::Elements::InterchangeReceiverId.new()                 # I07
+        @isa09 = Eddy::Elements::InterchangeDate.new()                       # I08
+        @isa10 = Eddy::Elements::InterchangeTime.new()                       # I09
+        @isa11 = Eddy::Elements::InterchangeControlStandardsIdentifier.new() # I10
+        @isa12 = Eddy::Elements::InterchangeControlVersionNumber.new()       # I11
+        @isa13 = Eddy::Elements::InterchangeControlNumber.new()              # I12
+        @isa14 = Eddy::Elements::AcknowledgmentRequested.new()               # I13
+        @isa15 = Eddy::Elements::UsageIndicator.new()                        # I14
+        @isa16 = Eddy::Elements::ComponentElementSeparator.new()             # I15
         super(
           @isa01,
           @isa02,
@@ -75,35 +75,35 @@ module Eddy
         @isa04 = val
       end
 
-      # (see Eddy::Elements::InterchangeIDQualifier)
+      # (see Eddy::Elements::InterchangeIdQualifier)
       #
       # @param val [Object]
       # @return [void]
-      def InterchangeIDQualifier1=(val)
+      def InterchangeIdQualifier1=(val)
         @isa05 = val
       end
 
-      # (see Eddy::Elements::InterchangeSenderID)
+      # (see Eddy::Elements::InterchangeSenderId)
       #
       # @param val [Object]
       # @return [void]
-      def InterchangeSenderID=(val)
+      def InterchangeSenderId=(val)
         @isa06 = val
       end
 
-      # (see Eddy::Elements::InterchangeIDQualifier)
+      # (see Eddy::Elements::InterchangeIdQualifier)
       #
       # @param val [Object]
       # @return [void]
-      def InterchangeIDQualifier2=(val)
+      def InterchangeIdQualifier2=(val)
         @isa07 = val
       end
 
-      # (see Eddy::Elements::InterchangeReceiverID)
+      # (see Eddy::Elements::InterchangeReceiverId)
       #
       # @param val [Object]
       # @return [void]
-      def InterchangeReceiverID=(val)
+      def InterchangeReceiverId=(val)
         @isa08 = val
       end
 

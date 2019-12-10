@@ -1,3 +1,5 @@
+require "time"
+
 module Eddy
   module Elements
     # - Id: I08
@@ -14,7 +16,7 @@ module Eddy
           min: 6,
           max: 6,
           fmt: :yymmdd,
-          date: Time.now.utc,
+          val: Time.now.utc,
         )
       end
     end

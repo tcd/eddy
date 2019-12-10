@@ -21,9 +21,10 @@ module Eddy
         return ">"
       end
 
+      # @param arg [String]
       # @return [void]
-      def value=(_arg)
-        # FIXME: Need to implement this...
+      def value=(arg)
+        @val = arg
       end
     end
   end
