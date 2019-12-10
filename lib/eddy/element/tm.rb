@@ -84,6 +84,17 @@ module Eddy
         end
       end
 
+      # @return [String]
+      def format_string()
+        case self.max
+        when 4 then return "%H%M"
+        when 6 then return "%H%M%S"
+        when 7 then return "%H%M%S%1N"
+        when 8 then return "%H%M%S%2N"
+        else raise Eddy::Errors::Error, "unable to determine format for tm element"
+        end
+      end
+
       # @param time [Time] A *UTC* formatted `Time` object.
       # @return [String]
       def self.hhmm(time = Time.now.utc)
