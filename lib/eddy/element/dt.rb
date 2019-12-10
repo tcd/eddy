@@ -50,7 +50,7 @@ module Eddy
       end
 
       # @raise [ElementValidationError] Unless passed a *UTC* formatted `Time` object.
-      # @param date [Time] A *UTC* formatted [Time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object.
+      # @param arg [Time] A *UTC* formatted [Time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object.
       # @return [void]
       def value=(arg)
         if arg.nil?
