@@ -20,29 +20,6 @@ class DataTest < Minitest::Test
     assert_equal("I420", Eddy::Data.normalize_id("I420"))
   end
 
-  def test_name_normalized?
-    skip("Write `name_normalized?` method")
-    cases = [
-      "Number of Accepted Transaction Sets",
-      "Free Form Message",
-      "Free-Form Message",
-      "Harbor Maintenance Fee (HMF) Exemption Code",
-      "Product/Service Substitution Code",
-      "Bill of Lading/Waybill Number",
-      "Pre-Cooled (Rule 710) Code",
-      "Surface/Layer/Position Code",
-      "U.P.C./EAN Consumer Package Code",
-      "D-U-N-S Number",
-      "Service, Promotion, Allowance, or Charge Code",
-      "Shipper's Export Declaration Requirements",
-      "Resource Code (or Identifier)",
-      "Interchange ID Qualifier",
-    ]
-    cases.each do |name|
-      refute(Eddy::Build.name_normalized?(name), name)
-    end
-  end
-
   def test_normalize_name
     cases = {
       "Number of Accepted Transaction Sets" => "NumberOfAcceptedTransactionSets",
