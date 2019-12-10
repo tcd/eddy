@@ -17,15 +17,14 @@ module Eddy
           super(min: #{el[:min]}, max: #{el[:max]})
         FUNC_BODY
       }).render()
-      data = {
+      c = Ginny::Class.create({
         name: el[:name],
         description: el[:description],
         parent: "Eddy::Element::ID",
         modules: ["Eddy", "Elements"],
         body: "\n" + constructor + "\n\n" + code_list + "\n",
         file_prefix: "#{el[:id]}.id.",
-      }
-      c = Ginny::Class.create(data)
+      })
       return c.render if test
       c.generate(File.join(Eddy.root_dir, "build", "elements", "id"))
       return nil
