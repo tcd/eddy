@@ -22,7 +22,7 @@ module Eddy
         parent: "Eddy::Element::N",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{el[:id]}.",
+        file_prefix: "#{el[:id]}.n.",
       }
       c = Ginny::Class.create(data)
       return c.render if test

@@ -82,8 +82,8 @@ class BuildTest < Minitest::Test
             # @return [Array<String>]
             def code_list()
               return [
-                "00",
-                "01"
+                "00", # No Security Information Present (No Meaningful Information in I04)
+                "01", # Password
               ]
             end
           end

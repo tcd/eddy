@@ -21,7 +21,7 @@ module Eddy
         parent: "Eddy::Element::R",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{el[:id]}.",
+        file_prefix: "#{el[:id]}.r.",
       }
       c = Ginny::Class.create(data)
       return c.render if test

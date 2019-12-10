@@ -23,7 +23,7 @@ module Eddy
         parent: "Eddy::Element::ID",
         modules: ["Eddy", "Elements"],
         body: constructor + "\n\n" + code_list + "\n",
-        file_prefix: "#{el[:id]}.",
+        file_prefix: "#{el[:id]}.id.",
       }
       c = Ginny::Class.create(data)
       return c.render if test
@@ -44,7 +44,13 @@ module Eddy
         puts("Error reading csv file '#{file}':#{e}")
         return nil
       end
-      body = "return [\n" + data.map { |c| %("#{c[:id]}").indent(2) }.join(",\n") + "\n]\n"
+      # body = "return [\n" + data.map { |c| %("#{c[:id]}").indent(2) }.join(",\n") + "\n]\n"
+      body = ""
+      body << "return [\n"
+      data.each do |c|
+        body << %("#{c[:id]}", # #{c[:definition]}\n).indent(2)
+      end
+      body << "]\n"
       return Ginny::Func.create({
         name: "code_list",
         return_type: "Array<String>",
