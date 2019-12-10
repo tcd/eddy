@@ -24,7 +24,7 @@ class AnTest < Minitest::Test
   end
 
   def test_descendent
-    e93 = Eddy::Elements::Name.new()
+    e93 = Eddy::Elements::E93.new()
     e93.value = "Clay"
     assert_equal("Clay", e93.value)
   end

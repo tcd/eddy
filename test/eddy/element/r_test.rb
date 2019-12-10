@@ -39,14 +39,14 @@ class RTest < Minitest::Test
   end
 
   def test_descendent
-    r = Eddy::Elements::Weight.new()
+    r = Eddy::Elements::E81.new()
     r.value = 420.69
     assert_equal("420.69", r.value)
   end
 
   def test_descendent_rejects_value_over_max_length
     skip("Store the entire value for `R` elements.")
-    r = Eddy::Elements::Weight.new()
+    r = Eddy::Elements::E81.new()
     assert_raises(Eddy::Errors::ElementValidationError) { r.value = 1234567.89 }
   end
 

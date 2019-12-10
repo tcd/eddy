@@ -28,13 +28,13 @@ class NTest < Minitest::Test
   end
 
   def test_descendent
-    n = Eddy::Elements::LengthOfBinaryData.new()
+    n = Eddy::Elements::E784.new()
     n.value = 420
     assert_equal("420", n.value)
   end
 
   def test_descendent_rejects_value_over_max_length
-    n = Eddy::Elements::LengthOfBinaryData.new()
+    n = Eddy::Elements::E784.new()
     assert_raises(Eddy::Errors::ElementValidationError) { n.value = 123_456_789_123_456_789 }
   end
 
