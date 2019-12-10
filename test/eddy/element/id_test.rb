@@ -3,20 +3,20 @@ require "test_helper"
 class IdTest < Minitest::Test
 
   def test_init
-    a = Eddy::Elements::AuthorizationInformationQualifier.new()
-    assert_equal("ID", a.type)
+    i01 = Eddy::Elements::AuthorizationInformationQualifier.new()
+    assert_equal("ID", i01.type)
   end
 
   def test_value_getter
-    a = Eddy::Elements::AuthorizationInformationQualifier.new()
-    assert_nil(a.value(required: false))
-    assert_raises(Eddy::Errors::ElementNilValueError) {a.value(required: true) }
+    i05 = Eddy::Elements::InterchangeIdQualifier.new()
+    assert_nil(i05.value(required: false))
+    assert_raises(Eddy::Errors::ElementNilValueError) { i05.value(required: true) }
   end
 
   def test_value_setter
-    a = Eddy::Elements::AuthorizationInformationQualifier.new()
-    a.value = "00"
-    assert_equal("00", a.value)
+    i01 = Eddy::Elements::AuthorizationInformationQualifier.new()
+    i01.value = "00"
+    assert_equal("00", i01.value)
   end
 
 end
