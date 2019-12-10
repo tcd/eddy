@@ -5,8 +5,7 @@ module Eddy
     #
     # @return [Array<Hash>]
     def self.generate_element_data()
-      elements_file = File.join(Eddy.data_dir, "004010", "elements.tsv")
-      data = Eddy.parse_tsv(elements_file)
+      data = self.raw_element_data()
       elements = data.map do |el|
         next if el[:type].nil? || el[:description].nil?
         self.extract_element_data(el)
@@ -14,11 +13,9 @@ module Eddy
       return elements.compact
     end
 
-    # ElementData = Struct.new(:id, :min, :max, :name, :desc, :type)
-
     # Build a hash with data that can be used to generate an element class.
     #
-    # @param e [Hash]
+    # @param el [Hash]
     # @return [Hash]
     def self.extract_element_data(el)
       return {
@@ -28,7 +25,7 @@ module Eddy
         type:        el[:type].strip,
         raw_name:    el[:name].strip,
         name:        self.normalize_id(el[:id]),
-        description: self.generate_description(el),
+        description: self.element_description(el),
       }
     end
 
@@ -63,17 +60,17 @@ module Eddy
 
     # Generate a description to use as a doc comment for an element.
     #
-    # @param element [Hash]
+    # @param el [Hash]
     # @return [Hash]
-    def self.generate_description(element)
+    def self.element_description(el)
       return <<~END.strip
         ### Element Summary:
 
-        - Id: #{element[:id].strip}
-        - Name: #{element[:name].strip}
-        - Type: #{element[:type].strip}
-        - Min/Max: #{element[:min]}/#{element[:max]}
-        - Description: #{element[:description].strip}
+        - Id: #{el[:id].strip}
+        - Name: #{el[:name].strip}
+        - Type: #{el[:type].strip}
+        - Min/Max: #{el[:min]}/#{el[:max]}
+        - Description: #{el[:description].strip}
       END
     end
 

@@ -15,14 +15,13 @@ class BuildSegmentsTest < Minitest::Test
   end
 
   def test_segment_constructor
-    skip()
     want = <<~RB.strip
       # @return [void]
       def initialize()
         @id = "N2"
         @description = "Additional Name Information"
-        @n201 = Eddy::Elements::Name.new()
-        @n202 = Eddy::Elements::Name.new()
+        @n201 = Eddy::Elements::E93.new
+        @n202 = Eddy::Elements::E93.new
         super(
           @n201,
           @n202,
@@ -33,37 +32,56 @@ class BuildSegmentsTest < Minitest::Test
     assert_equal(want, have)
   end
 
+  def test_element_accessor
+    want = <<~RB.strip
+      # (see Eddy::Elements::E93)
+      #
+      # @param arg [String]
+      # @return [void]
+      def N201=(arg)
+        @n201.value = arg
+      end
+    RB
+    have = Eddy::Build.element_accessor("n201", "93")
+    assert_equal(want, have)
+  end
+
   def test_segment
-    skip()
     want = <<~RB.strip
       module Eddy
         module Segments
-          # Id: N2
-          # Description: Additional Name Information
+          # ### Segment Summary:
+          #
+          # - Id: N2
+          # - Description: Additional Name Information
+          # - Purpose: To identify a party by type of organization, name, and code
           class N2 < Eddy::Segment
 
             # @return [void]
             def initialize()
               @id = "N2"
               @description = "Additional Name Information"
-              @n201 = Eddy::Elements::Name.new()
-              @n202 = Eddy::Elements::Name.new()
-              super(@n201, @n202)
+              @n201 = Eddy::Elements::E93.new
+              @n202 = Eddy::Elements::E93.new
+              super(
+                @n201,
+                @n202,
+              )
             end
 
-            # (see Eddy::Elements::Name)
+            # (see Eddy::Elements::E93)
             #
             # @param arg [String]
             # @return [void]
-            def name_1=(arg)
+            def N201=(arg)
               @n201.value = arg
             end
 
-            # (see Eddy::Elements::Name)
+            # (see Eddy::Elements::E93)
             #
             # @param arg [String]
             # @return [void]
-            def name_2=(arg)
+            def N202=(arg)
               @n202.value = arg
             end
 
@@ -71,9 +89,7 @@ class BuildSegmentsTest < Minitest::Test
         end
       end
     RB
-    raw_data = @data.find { |d| d[:id] == "93" }
-    processed_data = Eddy::Data.extract_element_data(raw_data)
-    have = Eddy::Build.an(processed_data, test: true)
+    have = Eddy::Build.segment(@data, test: true)
     assert_equal(want, have)
   end
 
