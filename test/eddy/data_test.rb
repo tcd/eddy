@@ -14,6 +14,12 @@ class DataTest < Minitest::Test
     skip()
   end
 
+  def test_normalize_id
+    assert_equal("E420", Eddy::Data.normalize_id("420"))
+    assert_equal("I420", Eddy::Data.normalize_id("i420"))
+    assert_equal("I420", Eddy::Data.normalize_id("I420"))
+  end
+
   def test_name_normalized?
     skip("Write `name_normalized?` method")
     cases = [

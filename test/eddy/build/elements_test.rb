@@ -22,7 +22,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: AN
           # - Min/Max: 1/60
           # - Description: Free-form name
-          class Name < Eddy::Element::AN
+          class E93 < Eddy::Element::AN
             # @return [void]
             def initialize()
               @id = "93"
@@ -50,7 +50,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: DT
           # - Min/Max: 8/8
           # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
-          class PickUpDate < Eddy::Element::DT
+          class E109 < Eddy::Element::DT
             # @return [void]
             def initialize()
               @id = "109"
@@ -78,7 +78,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: ID
           # - Min/Max: 2/2
           # - Description: Code to identify the type of information in the Security Information
-          class SecurityInformationQualifier < Eddy::Element::ID
+          class I03 < Eddy::Element::ID
 
             # @return [void]
             def initialize()
@@ -116,7 +116,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: N0
           # - Min/Max: 1/15
           # - Description: The length in integral octets of the binary data
-          class LengthOfBinaryData < Eddy::Element::N
+          class E784 < Eddy::Element::N
             # @return [void]
             def initialize()
               @id = "784"
@@ -144,7 +144,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: R
           # - Min/Max: 1/10
           # - Description: Numeric value of weight
-          class Weight < Eddy::Element::R
+          class E81 < Eddy::Element::R
             # @return [void]
             def initialize()
               @id = "81"
@@ -172,7 +172,7 @@ class BuildElementsTest < Minitest::Test
           # - Type: TM
           # - Min/Max: 4/4
           # - Description: Time (HHMM) that the carrier is to pick up the shipment
-          class PickUpTime < Eddy::Element::TM
+          class E111 < Eddy::Element::TM
             # @return [void]
             def initialize()
               @id = "111"

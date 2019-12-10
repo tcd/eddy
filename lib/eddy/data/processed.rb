@@ -7,9 +7,9 @@ module Eddy
     def self.generate_element_data()
       elements_file = File.join(Eddy.data_dir, "004010", "elements.tsv")
       data = Eddy.parse_tsv(elements_file)
-      elements = data.map do |e|
-        next if e[:type].nil? || e[:description].nil?
-        self.extract_element_data(e)
+      elements = data.map do |el|
+        next if el[:type].nil? || el[:description].nil?
+        self.extract_element_data(el)
       end
       return elements.compact
     end
@@ -20,15 +20,15 @@ module Eddy
     #
     # @param e [Hash]
     # @return [Hash]
-    def self.extract_element_data(e)
+    def self.extract_element_data(el)
       return {
-        id:          e[:id].strip,
-        min:         e[:min].to_i,
-        max:         e[:max].to_i,
-        type:        e[:type].strip,
-        raw_name:    e[:name].strip,
-        name:        self.normalize_name(e[:name]),
-        description: self.generate_description(e),
+        id:          el[:id].strip,
+        min:         el[:min].to_i,
+        max:         el[:max].to_i,
+        type:        el[:type].strip,
+        raw_name:    el[:name].strip,
+        name:        self.normalize_id(el[:id]),
+        description: self.generate_description(el),
       }
     end
 
@@ -42,6 +42,23 @@ module Eddy
                  .split(" ")
                  .map(&:capitalize)
                  .join("")
+    end
+
+    # @param id [String]
+    # @return [String]
+    def self.normalize_id(id)
+      name_regex = /\A(?<prefix>[iI]{1})?(?<numbers>\d+)\Z/
+      res = ""
+      if matches = id.match(name_regex)
+        if matches[:prefix]
+          res << "I"
+        else
+          res << "E"
+        end
+        res << matches[:numbers]
+      else
+        raise Eddy::Errors::BuildError, "invalid element id"
+      end
     end
 
     # Generate a description to use as a doc comment for an element.
