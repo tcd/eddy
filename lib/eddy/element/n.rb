@@ -22,12 +22,8 @@ module Eddy
       # @param required [Boolean] (false)
       # @return [String]
       def value(required: false)
-        return @value.to_s unless @value.nil?
-        if required
-          # raise Eddy::Errors::ElementNilValueError if @value.nil?
-          # TODO: pad string if the element is required?
-          return ""
-        end
+        return sprintf("%0#{self.min}d", @value) unless @value.nil?
+        raise Eddy::Errors::ElementNilValueError if required
         return nil
       end
 
@@ -40,7 +36,7 @@ module Eddy
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be an integer" unless arg.is_a?(Integer)
-        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.to_s.length < self.min
+        # raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.to_s.length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.to_s.length > self.max
         @value = arg
       end

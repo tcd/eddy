@@ -24,11 +24,12 @@ And then execute:
 bundle
 ```
 
-Or install it yourself as:
+## Validation
 
-```sh
-gem install eddy
-```
+- Ensures values passed to `ID` elements are acceptable.
+- Accepts `Time` objects for `DT` and `TM` elements.
+- Makes sure element values aren't set above `max` length.
+- Pads strings and numbers to ensure `min` length is met.
 
 ## Contributing
 

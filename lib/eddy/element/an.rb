@@ -17,13 +17,8 @@ module Eddy
       # @param required [Boolean] (false)
       # @return [String]
       def value(required: false)
-        return @value unless @value.nil?
-        if required
-          # raise Eddy::Errors::ElementNilValueError
-          return ""
-          # TODO: pad string if the element is required?
-          # return "".ljust(@min) if required
-        end
+        return @value.ljust(self.min) unless @value.nil?
+        raise Eddy::Errors::ElementNilValueError if required
         return nil
       end
 
@@ -36,7 +31,7 @@ module Eddy
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be a string" unless arg.is_a?(String)
-        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
+        # raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
         @value = arg
       end
