@@ -15,5 +15,12 @@ module Eddy
     # - Semantic:  Provide additional information about the data element including any dependence based on the data value in another data element in the segment
     # - Comments:  Clarify the intended use of the segment - comments are not part of the standard
     class Note; end
+
+    # code, description
+    # M, Mandatory
+    # O, Optional
+    # X, Syntax note applies
+    # Z, Semantic note applies
+    class Req; end
   end
 end
