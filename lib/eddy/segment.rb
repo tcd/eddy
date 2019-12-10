@@ -16,7 +16,6 @@ module Eddy
     # @return [void]
     def initialize(*elements)
       elements.flatten!
-      # return 0 unless paths.length.positive?()
       self.elements = elements || []
     end
 
