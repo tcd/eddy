@@ -1,19 +1,21 @@
 require "ginny"
+require "yaml"
 
 module Eddy
   module Build
+
+    # @param path [String] Path to a YAML file containing a Segment definition.
+    # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
+    # @return [void]
+    def self.segment_from_yaml(path, test: false)
+      data = YAML.safe_load(File.read(path), symbolize_names: true)
+      Eddy::Build.segment(data, test: test)
+    end
 
     # @param data [Hash<Symbol>]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @return [void]
     def self.segment(data, test: false)
-      # body = ""
-      # body << "\n"
-      # body << self.segment_constructor(data)
-      # body << "\n\n"
-      # body << data[:elements].map { |k, v| self.element_accessor(k, v) }.join("\n\n")
-      # body << "\n"
-
       c = Ginny::Class.create({
         modules: ["Eddy", "Segments"],
         parent: "Eddy::Segment",
@@ -23,7 +25,7 @@ module Eddy
 
           #{self.segment_constructor(data)}
 
-          #{data[:elements].map { |k, v| self.element_accessor(k, v) }.join("\n\n")}
+          #{data[:elements].map { |e| self.element_accessor(e[:ref], e[:id]) }.join("\n\n")}
         STR
       })
       return c.render if test
@@ -37,23 +39,24 @@ module Eddy
       declarations = ""
       super_call = "super(\n"
 
-      data[:elements].each do |k, v|
-        declarations << "@#{k.to_s.downcase} = Eddy::Elements::#{Eddy::Helpers.normalize_id(v)}.new\n"
-        super_call << "  @#{k.to_s.downcase},\n"
+      data[:elements].each do |e|
+        declarations << "@#{e[:ref].to_s.downcase} = Eddy::Elements::#{Eddy::Helpers.normalize_id(e[:id])}.new\n"
+        super_call << "  @#{e[:ref].to_s.downcase},\n"
       end
 
       super_call << ")"
 
-      body = ""
-      body << %(@id = "#{data[:id]}"\n)
-      body << %(@description = "#{data[:description]}"\n)
-      body << declarations
-      body << "\n"
-      body << super_call
-
       return Ginny::Func.create({
         name: "initialize",
-        body: body,
+        body: <<~RB,
+          @id = "#{data[:id]}"
+          @name = "#{data[:name]}"
+          #{declarations}
+
+
+
+          #{super_call}
+        RB
       }).render()
     end
 
@@ -64,11 +67,13 @@ module Eddy
         ### Segment Summary:
 
         - Id: #{data[:id]}
-        - Description: #{data[:description]}
+        - Name: #{data[:name]}
         - Purpose: #{data[:purpose]}
       END
     end
 
+    # @param ref [String]
+    # @param element_id [String]
     # @return [String]
     def self.element_accessor(ref, element_id)
       return <<~RB.strip
@@ -77,19 +82,24 @@ module Eddy
         # @param arg [String]
         # @return [void]
         def #{ref.upcase}=(arg)
-          @#{ref}.value = arg
+          @#{ref.downcase}.value = arg
         end
       RB
     end
 
+    # @param ref [String]
+    # @param element_id [String]
     # @return [String]
     def self.element_accessor_v2(ref, element_id)
+      data = Eddy::Data.element_data_by_id(element_id)
+      name = Eddy::Helpers.normalize_name(data[:name])
       return <<~RB.strip
+        # Set value for #{ref.upcase}
         # (see Eddy::Elements::#{Eddy::Helpers.normalize_id(element_id)})
         #
         # @param arg [String]
         # @return [void]
-        def #{ref.upcase}=(arg)
+        def #{name}=(arg)
           @#{ref}.value = arg
         end
       RB

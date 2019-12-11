@@ -3,7 +3,7 @@ module Eddy
     # ### Segment Summary:
     #
     # - Id: ISA
-    # - Description: Interchange Control Header
+    # - Name: Interchange Control Header
     # - Purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
     class ISA < Eddy::Segment
 
@@ -11,7 +11,7 @@ module Eddy
       # @return [void]
       def initialize(time:)
         @id = "ISA"
-        @description = "Interchange Control Header"
+        @name = "Interchange Control Header"
         @isa01 = Eddy::Elements::I01.new
         @isa02 = Eddy::Elements::I02.new
         @isa03 = Eddy::Elements::I03.new
@@ -24,10 +24,10 @@ module Eddy
         @isa10 = Eddy::Elements::I09.new(time)
         @isa11 = Eddy::Elements::I10.new
         @isa12 = Eddy::Elements::I11.new
-        @isa13 = Eddy::Elements::I12.new
+        @isa13 = Eddy::Elements::I12.new()
         @isa14 = Eddy::Elements::I13.new
         @isa15 = Eddy::Elements::I14.new
-        @isa16 = Eddy::Elements::I15.new
+        @isa16 = Eddy::Elements::I15.new()
         super(
           @isa01,
           @isa02,

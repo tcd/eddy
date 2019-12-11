@@ -5,7 +5,7 @@ class SegmentTest < Minitest::Test
 
   def test_n2
     x = Eddy::Segments::N2.new()
-    x.name_1 = "x"
+    x.N201 = "x"
     assert_equal("N2*x", x.render("*"))
   end
 

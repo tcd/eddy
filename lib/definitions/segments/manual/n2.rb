@@ -3,14 +3,14 @@ module Eddy
     # ### Segment Summary:
     #
     # - Id: N2
-    # - Description: Additional Name Information
+    # - Name: Additional Name Information
     # - Purpose: To identify a party by type of organization, name, and code
     class N2 < Eddy::Segment
 
       # @return [void]
       def initialize()
         @id = "N2"
-        @description = "Additional Name Information"
+        @name = "Additional Name Information"
         @n201 = Eddy::Elements::E93.new
         @n202 = Eddy::Elements::E93.new
         super(@n201, @n202)
@@ -20,7 +20,7 @@ module Eddy
       #
       # @param arg [String]
       # @return [void]
-      def name_1=(arg)
+      def N201=(arg)
         @n201.value = arg
       end
 
@@ -28,7 +28,7 @@ module Eddy
       #
       # @param arg [String]
       # @return [void]
-      def name_2=(arg)
+      def N202=(arg)
         @n202.value = arg
       end
 
