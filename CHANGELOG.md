@@ -4,9 +4,11 @@
 
 ### Added
 
-- Code list for element 26 (Country Code).
-- Code list for element 100 (Currency Code).
-- Code list for element 156 (State or Province Code).
+- JSON Schema files for EDI Transaction Sets, Segments, and Data Elements.
+- Code Lists
+  - Element 26 (Country Code).
+  - Element 100 (Currency Code).
+  - Element 156 (State or Province Code).
 
 ### 0.1.0 (2019-11-26)
 
