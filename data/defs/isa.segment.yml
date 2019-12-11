@@ -1,0 +1,22 @@
+---
+id: ISA
+name: Interchange Control Header
+purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
+elements:
+  - { ref: ISA01, id: 'I01' }
+  - { ref: ISA02, id: 'I02' }
+  - { ref: ISA03, id: 'I03' }
+  - { ref: ISA04, id: 'I04' }
+  - { ref: ISA05, id: 'I05' }
+  - { ref: ISA06, id: 'I06' }
+  - { ref: ISA07, id: 'I05' }
+  - { ref: ISA08, id: 'I07' }
+  - { ref: ISA09, id: 'I08' }
+  - { ref: ISA10, id: 'I09' }
+  - { ref: ISA11, id: 'I10' }
+  - { ref: ISA12, id: 'I11' }
+  - { ref: ISA13, id: 'I12' }
+  - { ref: ISA14, id: 'I13' }
+  - { ref: ISA15, id: 'I14' }
+  - { ref: ISA16, id: 'I15' }
+
