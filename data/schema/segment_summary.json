@@ -58,68 +58,7 @@
     "elements": {
       "description": "Number of Data Elements included in the Segment.",
       "type" : "array",
-      "items": {"$ref": "#/definitions/element_summary"}
+      "items": {"$ref": "https://github.com/tcd/eddy/blob/master/data/schema/element_summary.json#"}
     }
-  },
-  "definitions": {
-
-    "element_summary": {
-      "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "ref":         {
-          "description": "Indicates the order in which Elements should appear in their Segment.",
-          "type": "string"
-        },
-        "id": {
-          "description": "Short string used to identify the Element.",
-          "type": "string"
-        },
-        "name": {
-          "description": "Full name of the Element.",
-          "type": "string"
-        },
-        "min": {
-          "description": "Minimum length for a valid Element value. Used for validation.",
-          "type": "integer",
-          "minimum": 1
-        },
-        "max": {
-          "description": "Maximum length for a valid Element value. Used for validation.",
-          "type": "integer",
-          "minimum": 1
-        },
-        "description": {
-          "description": "Description of the Element.",
-          "type": "string"
-        },
-        "req": {
-          "description": "Defines if/how the Element is required.",
-          "type": "string",
-          "enum": ["M", "O", "X", "Z"]
-        },
-        "usage": {
-          "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
-          "type": "string",
-          "enum": ["Must Use", "Used"]
-        },
-        "default": {
-          "description": "Default value for the Element",
-          "type": ["string", "integer", "number"]
-        },
-        "valid_values": {
-          "description": "A list of valid values for the Element.",
-          "type": "array",
-          "items": {"type": "string"}
-        },
-        "type": {
-          "description": "The kind of value the Element will contain.",
-          "type": "string",
-          "enum": [ "AN", "B", "DT", "TM", "ID", "R", "N", "N0", "N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8" ]
-        }
-      }
-    }
-
   }
 }

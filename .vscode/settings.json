@@ -4,10 +4,11 @@
       "fileMatch": [
         "*.edi.json"
       ],
-      "url": "./data/schema/transaction_set.json"
+      "url": "./data/schema/transaction_set_summary.json"
     }
   ],
   "yaml.schemas": {
-    "./data/schema/transaction_set.json": "*.edi.yml"
+    "./data/schema/transaction_set_summary.json": "*.edi.yml",
+    "./data/schema/segment_summary.json": "*.segment.yml",
   }
 }
