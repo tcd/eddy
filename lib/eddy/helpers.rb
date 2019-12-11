@@ -59,23 +59,5 @@ module Eddy
                  .join("")
     end
 
-    # Determine the parent class for an element.
-    #
-    # @param data [String]
-    # @return [String]
-    def self.type_string(data)
-      return case data.upcase
-             when "AN"   then "AN"
-             when "B"    then "B"
-             when "DT"   then "DT"
-             when "ID"   then "ID"
-             when /N\d*/ then "N" # N, N0, N1, N2, N4, N6
-             when /R\d*/ then "R"
-             when "TM"   then "TM"
-             else
-               raise Eddy::Errors::Error, "unable to determine element type (#{data.capitalize})"
-             end
-    end
-
   end
 end
