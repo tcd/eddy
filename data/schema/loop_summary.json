@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/tcd/eddy/blob/master/data/schema/loop_summary.json",
+  "$id": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/loop_summary.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Loop Summary",
   "description": "A repeated collection of Segments and/or other Loops. Used in Companion Guides.",
@@ -39,10 +39,10 @@
       "enum": ["M", "O", "X", "Z"]
     },
     "components": {
-      "description": "A List of `segment_summary`s for the Segments present in the Loop.",
+      "description": "An array of Segments and/or Loops that comprise the Loop.",
       "type" : "array", "items": { "anyOf": [
-        { "$ref": "#/definitions/loop_summary" },
-        { "$ref": "#/definitions/segment_summary" }
+        { "$ref": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/loop_summary.json" },
+        { "$ref": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/segment_summary.json" }
       ]}
     }
   }

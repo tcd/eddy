@@ -1,9 +1,11 @@
 {
-  "$id": "https://github.com/tcd/eddy/blob/master/data/schema/segment_summary.json",
+  "$id": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/segment_summary.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Segment Summary",
   "description": "A collection of Data Elements. Used in Companion Guides to define a Transaction Set.",
-  "required": [],
+  "required": [
+    "id"
+  ],
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -56,9 +58,9 @@
       "enum": ["Heading", "Detail", "Summary", "Not Defined"]
     },
     "elements": {
-      "description": "Number of Data Elements included in the Segment.",
+      "description": "Data Elements that comprise the Segment.",
       "type" : "array",
-      "items": {"$ref": "https://github.com/tcd/eddy/blob/master/data/schema/element_summary.json#"}
+      "items": {"$ref": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/element_summary.json"}
     }
   }
 }

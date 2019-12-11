@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/tcd/eddy/blob/master/data/schema/element_summary.json",
+  "$id": "https://raw.githubusercontent.com/tcd/eddy/master/data/schema/element_summary.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Element Summary",
   "description": "An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.",
