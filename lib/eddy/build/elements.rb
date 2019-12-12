@@ -28,7 +28,7 @@ module Eddy
     #
     # @return [Array<Hash>]
     def self.generate_elements()
-      elements = Eddy::Data.generate_element_data()
+      elements = self.generate_element_data()
       elements.each do |el|
         case el[:type]
         when "AN"   then self.an(el)
