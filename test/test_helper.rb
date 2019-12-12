@@ -14,6 +14,12 @@ SimpleCov.start do
   add_filter "/build/"
   add_filter "/lib/definitions/"
 
+  # add_group 'Build', ['lib/eddy', 'app/workers']
+  add_group "Build", "lib/eddy/build"
+  add_group "Models", "lib/eddy/models"
+  add_group "Data", "lib/eddy/data.rb"
+  add_group "Helpers", "lib/eddy/helpers.rb"
+
   track_files "lib/**/*.rb"
 end
 
