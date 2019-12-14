@@ -1,0 +1,68 @@
+---
+"$id": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/element_summary.json
+"$schema": http://json-schema.org/draft-07/schema#
+title: Element Summary
+description: An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.
+required: []
+type: object
+additionalProperties: false
+properties:
+  default:
+    description: Default value for the Element
+    type:
+    - string
+    - integer
+    - number
+  description:
+    description: Description of the Element.
+    type: string
+  id:
+    description: Short string used to identify the Element.
+    type: string
+  max:
+    description: Maximum length for a valid Element value. Used for validation.
+    type: integer
+    minimum: 1
+  min:
+    description: Minimum length for a valid Element value. Used for validation.
+    type: integer
+    minimum: 1
+  name:
+    description: Full name of the Element.
+    type: string
+  ref:
+    description: Indicates the order in which Elements should appear in their Segment.
+    type: string
+  req:
+    description: Defines if/how the Element is required.
+    type: string
+    enum:
+    - M
+    - O
+    - X
+    - Z
+  type:
+    description: The kind of value the Element will contain.
+    type: string
+    enum:
+    - AN
+    - B
+    - DT
+    - TM
+    - ID
+    - R
+    - N
+    - N0
+    - N1
+    - N2
+    - N3
+    - N4
+    - N5
+    - N6
+    - N7
+    - N8
+  valid_values:
+    description: A list of valid values for the Element.
+    type: array
+    items:
+      type: string

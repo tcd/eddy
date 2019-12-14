@@ -43,7 +43,7 @@
       "type": "string"
     },
     "element_count": {
-      "description": "Number of Data Elements included in the Segment.",
+      "description": "Number of Data Elements included in the Segment. Used for comparison against standard segment definitions.",
       "type": "integer",
       "minimum": 1
     },

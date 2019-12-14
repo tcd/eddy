@@ -1,0 +1,53 @@
+---
+"$id": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/segment_summary.json
+"$schema": http://json-schema.org/draft-07/schema#
+title: Segment Summary
+description: A collection of Data Elements. Used in Companion Guides to define a Transaction Set.
+required:
+- id
+type: object
+additionalProperties: false
+properties:
+  pos:
+    description: Indicates the order in which Segments should appear in their Level of the Transaction Set.
+    type: string
+  id:
+    description: Short string identifying the Segment.
+    type: string
+  name:
+    description: Full name of the Segment.
+    type: string
+  purpose:
+    description: Documents the purpose of a Segment.
+    type: string
+  max_use:
+    description: Number of times a particular Segment may be repeated at its location in the Transaction Set.
+    type: integer
+    minimum: 1
+  notes:
+    description: "*Syntax*, *Semantic*, or *Comment* notes on a Segment."
+    type: string
+  loop:
+    description: Loop in which the Segment appears.
+    type: string
+  element_count:
+    description: Number of Data Elements included in the Segment. Used for comparison against standard segment definitions.
+    type: integer
+    minimum: 1
+  req:
+    description: Defines if/how the Segment is required.
+    type: string
+    enum: [M, O, X, Z]
+  level:
+    description: Indicates where the Segment is located in the Transaction Set.
+    type: string
+    enum:
+    - Heading
+    - Detail
+    - Summary
+    - Not Defined
+  elements:
+    description: Data Elements that comprise the Segment.
+    type: array
+    items:
+      "$ref": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/element_summary.json

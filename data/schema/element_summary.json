@@ -7,30 +7,34 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "ref": {
-      "description": "Indicates the order in which Elements should appear in their Segment.",
+    "default": {
+      "description": "Default value for the Element",
+      "type": ["string", "integer", "number"]
+    },
+    "description": {
+      "description": "Description of the Element.",
       "type": "string"
     },
     "id": {
       "description": "Short string used to identify the Element.",
       "type": "string"
     },
-    "name": {
-      "description": "Full name of the Element.",
-      "type": "string"
+    "max": {
+      "description": "Maximum length for a valid Element value. Used for validation.",
+      "type": "integer",
+      "minimum": 1
     },
     "min": {
       "description": "Minimum length for a valid Element value. Used for validation.",
       "type": "integer",
       "minimum": 1
     },
-    "max": {
-      "description": "Maximum length for a valid Element value. Used for validation.",
-      "type": "integer",
-      "minimum": 1
+    "name": {
+      "description": "Full name of the Element.",
+      "type": "string"
     },
-    "description": {
-      "description": "Description of the Element.",
+    "ref": {
+      "description": "Indicates the order in which Elements should appear in their Segment.",
       "type": "string"
     },
     "req": {
@@ -38,24 +42,15 @@
       "type": "string",
       "enum": ["M", "O", "X", "Z"]
     },
-    "usage": {
-      "description": " Indicates whether or not the Element must contain a value; Somewhat redundant due to `Req`.",
+    "type": {
+      "description": "The kind of value the Element will contain.",
       "type": "string",
-      "enum": ["Must Use", "Used"]
-    },
-    "default": {
-      "description": "Default value for the Element",
-      "type": ["string", "integer", "number"]
+      "enum": [ "AN", "B", "DT", "TM", "ID", "R", "N", "N0", "N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8" ]
     },
     "valid_values": {
       "description": "A list of valid values for the Element.",
       "type": "array",
       "items": {"type": "string"}
-    },
-    "type": {
-      "description": "The kind of value the Element will contain.",
-      "type": "string",
-      "enum": [ "AN", "B", "DT", "TM", "ID", "R", "N", "N0", "N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8" ]
     }
   }
 }

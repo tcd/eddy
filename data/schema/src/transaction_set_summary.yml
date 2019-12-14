@@ -1,0 +1,27 @@
+---
+"$id": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/transaction_set_summary.json
+"$schema": http://json-schema.org/draft-07/schema#
+title: Transaction Set Summary
+description: An outline of all required components for an EDI transaction set implementation.
+required:
+- code
+- functional_group
+- components
+type: object
+properties:
+  code:
+    description: A short code identifying the Transaction Set.
+    type: number
+  name:
+    description: A descriptive name for the Transaction Set.
+    type: string
+  functional_group:
+    description: A short string used to group related Transaction Sets.
+    type: string
+  components:
+    description: The components that make up the Transaction Set.
+    type: array
+    items:
+      anyOf:
+      - "$ref": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/loop_summary.json
+      - "$ref": https://raw.githubusercontent.com/tcd/eddy/master/data/schema/segment_summary.json
