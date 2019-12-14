@@ -27,6 +27,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "93"
               @name = "Name"
+              @description = "Free-form name"
               super(min: 1, max: 60)
             end
           end
@@ -55,6 +56,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "109"
               @name = "Pick-up Date"
+              @description = "Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD"
               super(min: 8, max: 8, fmt: :ccyymmdd)
             end
           end
@@ -84,6 +86,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "I03"
               @name = "Security Information Qualifier"
+              @description = "Code to identify the type of information in the Security Information"
               super(min: 2, max: 2)
             end
 
@@ -121,6 +124,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "784"
               @name = "Length of Binary Data"
+              @description = "The length in integral octets of the binary data"
               super(min: 1, max: 15, decimals: 0)
             end
           end
@@ -149,6 +153,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "81"
               @name = "Weight"
+              @description = "Numeric value of weight"
               super(min: 1, max: 10)
             end
           end
@@ -177,6 +182,7 @@ class BuildElementsTest < Minitest::Test
             def initialize()
               @id = "111"
               @name = "Pick-up Time"
+              @description = "Time (HHMM) that the carrier is to pick up the shipment"
               super(min: 4, max: 4, fmt: :hhmm)
             end
           end

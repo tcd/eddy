@@ -13,6 +13,7 @@ module Eddy
         body: <<~FUNC_BODY,
           @id = "#{el[:id]}"
           @name = "#{el[:raw_name]}"
+          @description = "#{el[:raw_description]}"
           super(min: #{el[:min]}, max: #{el[:max]}, decimals: #{decimal_points})
         FUNC_BODY
       }).render()

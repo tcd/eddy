@@ -63,13 +63,14 @@ module Eddy
     # @return [Hash]
     def self.extract_element_data(el)
       return {
-        id:          el[:id].strip,
-        min:         el[:min].to_i,
-        max:         el[:max].to_i,
-        type:        el[:type].strip,
-        raw_name:    el[:name].strip,
-        name:        Eddy::Helpers.normalize_id(el[:id]),
-        description: self.element_description(el),
+        id:              el[:id].strip,
+        min:             el[:min].to_i,
+        max:             el[:max].to_i,
+        type:            el[:type].strip,
+        raw_name:        el[:name].strip,
+        raw_description: el[:description].strip,
+        name:            Eddy::Helpers.normalize_id(el[:id]),
+        description:     self.doc_comment(el),
       }
     end
 
@@ -77,7 +78,7 @@ module Eddy
     #
     # @param el [Hash]
     # @return [Hash]
-    def self.element_description(el)
+    def self.doc_comment(el)
       return <<~END.strip
         ### Element Summary:
 
