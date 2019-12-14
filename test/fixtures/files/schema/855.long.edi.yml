@@ -1,0 +1,303 @@
+---
+code: 855
+functional_group: PR
+name: Purchase Order Acknowledgement
+components:
+
+- id: ISA
+  max_use: 1
+  req: M
+  element_count: 16
+- id: GS
+  max_use: 1
+  req: M
+  element_count: 8
+- id: ST
+  max_use: 1
+  req: M
+  element_count: 2
+
+- id: BAK
+  max_use: 1
+  req: M
+  element_count: 4
+  elements:
+    - ref: BAK01
+      id: '353'
+      name: Transaction Set Purpose Code
+      default: '00'
+      min: 2
+      max: 2
+      req: M
+      type: ID
+    - ref: BAK02
+      id: '587'
+      name: Acknowledgment Type
+      min: 2
+      max: 2
+      req: M
+      type: ID
+    - ref: BAK03
+      id: '324'
+      name: Purchase Order Number
+      min: 1
+      max: 22
+      req: M
+      type: AN
+    - ref: BAK04
+      id: '373'
+      name: Date
+      min: 8
+      max: 8
+      req: M
+      type: DT
+
+- loop_id: LN1
+  repeat: 200
+  components:
+    - id: N1
+      max_use: 1
+      req: O
+      element_count: 4
+      elements:
+        - ref: N101
+          id: '98'
+          name: Entity Identifier Code
+          min: 2
+          max: 3
+          req: M
+          type: ID
+        - ref: N102
+          id: '93'
+          name: Name
+          min: 1
+          max: 60
+          req: X
+          type: AN
+        - ref: N103
+          id: '66'
+          name: Identification Code Qualifier
+          min: 1
+          max: 2
+          req: X
+          type: ID
+        - ref: N104
+          id: '67'
+          name: Identification Code
+          min: 2
+          max: 80
+          req: X
+          type: AN
+    - id: N3
+      max_use: 2
+      req: O
+      element_count: 1
+      elements:
+        - ref: N301
+          id: '166'
+          name: Address Information
+          min: 1
+          max: 55
+          req: M
+          type: AN
+    - id: N4
+      max_use: 1
+      req: O
+      element_count: 3
+      elements:
+        - ref: N401
+          id: '19'
+          name: City Name
+          min: 2
+          max: 30
+          req: O
+          type: AN
+        - ref: N402
+          id: '156'
+          name: State or Province Code
+          min: 2
+          max: 2
+          req: O
+          type: ID
+        - ref: N403
+          id: '116'
+          name: Postal Code
+          min: 3
+          max: 15
+          req: O
+          type: ID
+
+- loop_id: LPO1
+  repeat: 100000
+  components:
+    - id: PO1
+      max_use: 1
+      req: M
+      element_count: 8
+      elements:
+        - ref: PO101
+          id: '350'
+          name: Assigned Identification
+          min: 1
+          max: 20
+          req: O
+          type: AN
+        - ref: PO102
+          id: '330'
+          name: Quantity Ordered
+          min: 1
+          max: 15
+          req: X
+          type: R
+        - ref: PO103
+          id: '355'
+          name: Unit or Basis for Measurement Code
+          min: 2
+          max: 2
+          req: O
+          type: ID
+          description: Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken
+        - ref: PO104
+          id: '212'
+          name: Unit Price
+          min: 1
+          max: 17
+          req: X
+          type: R
+        - ref: PO106
+          id: '235'
+          name: Product/Service ID Qualifier
+          min: 2
+          max: 2
+          req: X
+          type: ID
+        - ref: PO107
+          id: '234'
+          name: Product/Service ID
+          min: 1
+          max: 48
+          req: X
+          type: AN
+        - ref: PO108
+          id: '235'
+          name: Product/Service ID Qualifier
+          min: 2
+          max: 2
+          req: X
+          type: ID
+        - ref: PO109
+          id: '234'
+          name: Product/Service ID
+          min: 1
+          max: 48
+          req: X
+          type: AN
+    - loop_id: LPID
+      repeat: 1000
+      components:
+        - id: PID
+          max_use: 1
+          req: O
+          element_count: 2
+          elements:
+            - ref: PID01
+              id: '349'
+              name: Item Description Type
+              default: F
+              min: 1
+              max: 1
+              req: M
+              type: ID
+            - ref: PID05
+              id: '352'
+              name: Description
+              min: 1
+              max: 80
+              req: X
+              type: AN
+    - loop_id: LACK
+      repeat: 104
+      components:
+        - id: ACK
+          max_use: 1
+          req: O
+          element_count: 7
+          elements:
+            - ref: ACK01
+              id: '668'
+              name: Line Item Status Code
+              min: 2
+              max: 2
+              req: M
+              type: ID
+            - ref: ACK02
+              id: '380'
+              name: Quantity
+              min: 1
+              max: 15
+              req: X
+              type: R
+            - ref: ACK03
+              id: '355'
+              name: Unit or Basis for Measurement Code
+              min: 2
+              max: 2
+              req: X
+              type: ID
+            - ref: ACK07
+              id: '235'
+              name: Product/Service ID Qualifier
+              min: 2
+              max: 2
+              req: X
+              type: ID
+            - ref: ACK08
+              id: '234'
+              name: Product/Service ID
+              min: 1
+              max: 48
+              req: X
+              type: AN
+            - ref: ACK09
+              id: '235'
+              name: Product/Service ID Qualifier
+              min: 2
+              max: 2
+              req: X
+              type: ID
+            - ref: ACK10
+              id: '234'
+              name: Product/Service ID
+              min: 1
+              max: 48
+              req: X
+              type: AN
+
+- loop_id: LCTT
+  repeat: 1
+  components:
+    - id: CTT
+      max_use: 1
+      req: O
+      element_count: 1
+      elements:
+        - ref: CTT01
+          id: '354'
+          name: Number of Line Items
+          min: 1
+          max: 6
+          req: M
+          type: N0
+
+- id: SE
+  max_use: 1
+  req: M
+  element_count: 2
+- id: GE
+  max_use: 1
+  req: M
+  element_count: 2
+- id: IEA
+  max_use: 1
+  req: M
+  element_count: 2

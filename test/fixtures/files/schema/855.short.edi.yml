@@ -1,0 +1,80 @@
+---
+code: 855
+functional_group: PR
+name: Purchase Order Acknowledgement
+components:
+- { id: ISA, req: M }
+- { id: GS,  req: M }
+- { id: ST,  req: M }
+- id: BAK
+  req: M
+  elements:
+    - { ref: BAK01, id: '353', req: M }
+    - { ref: BAK02, id: '587', req: M }
+    - { ref: BAK03, id: '324', req: M }
+    - { ref: BAK04, id: '373', req: M }
+- loop_id: L_N1
+  repeat: 200
+  components:
+    - id: N1
+      req: O
+      elements:
+        - { ref: N101, id: '98', req: M }
+        - { ref: N102, id: '93', req: X }
+        - { ref: N103, id: '66', req: X }
+        - { ref: N104, id: '67', req: X }
+    - id: N3
+      req: O
+      elements:
+        - { ref: N301, id: '166', req: M }
+    - id: N4
+      req: O
+      elements:
+        - { ref: N401, id: '19',  req: O }
+        - { ref: N402, id: '156', req: O }
+        - { ref: N403, id: '116', req: O }
+- loop_id: L_PO1
+  repeat: 100000
+  components:
+    - id: PO1
+      req: M
+      elements:
+        - { ref: PO101, id: '350', req: O }
+        - { ref: PO102, id: '330', req: X }
+        - { ref: PO103, id: '355', req: O }
+        - { ref: PO104, id: '212', req: X }
+        - { ref: PO106, id: '235', req: X }
+        - { ref: PO107, id: '234', req: X }
+        - { ref: PO108, id: '235', req: X }
+        - { ref: PO109, id: '234', req: X }
+    - loop_id: L_PID
+      repeat: 1000
+      components:
+        - id: PID
+          req: O
+          elements:
+            - { ref: PID01, id: '349', req: M }
+            - { ref: PID05, id: '352', req: X }
+    - loop_id: L_ACK
+      repeat: 104
+      components:
+        - id: ACK
+          req: O
+          elements:
+            - { ref: ACK01, id: '668', req: M }
+            - { ref: ACK02, id: '380', req: X }
+            - { ref: ACK03, id: '355', req: X }
+            - { ref: ACK07, id: '235', req: X }
+            - { ref: ACK08, id: '234', req: X }
+            - { ref: ACK09, id: '235', req: X }
+            - { ref: ACK10, id: '234', req: X }
+- loop_id: L_CTT
+  repeat: 1
+  components:
+    - id: CTT
+      req: O
+      elements:
+        - { ref: CTT01, id: '354', req: M }
+- { id: SE,  req: M }
+- { id: GE,  req: M }
+- { id: IEA, req: M }
