@@ -4,12 +4,12 @@
 title: Transaction Set Summary
 description: An outline of all required components for an EDI transaction set implementation.
 required:
-- code
+- id
 - functional_group
 - components
 type: object
 properties:
-  code:
+  id:
     description: A short code identifying the Transaction Set.
     type: number
   name:
