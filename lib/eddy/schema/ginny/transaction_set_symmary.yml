@@ -1,0 +1,21 @@
+---
+name: TransactionSetSummary
+description: An outline of all required components for an EDI transaction set implementation.
+modules: [Eddy, Schema]
+attrs:
+- name: id
+  description: A short code identifying the Transaction Set.
+  type: Integer
+  # read_only: true
+- name: name
+  description: A descriptive name for the Transaction Set.
+  type: String
+  # read_only: true
+- name: functional_group
+  description: A short string used to group related Transaction Sets.
+  type: String
+  # read_only: true
+- name: components
+  description: The components that make up the Transaction Set.
+  type: Array
+  # read_only: true
