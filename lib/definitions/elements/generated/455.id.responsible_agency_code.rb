@@ -13,6 +13,7 @@ module Eddy
       def initialize()
         @id = "455"
         @name = "Responsible Agency Code"
+        @description = "Code used in conjunction with Data Element 480 to identify the issuer of the standard"
         super(min: 1, max: 2)
       end
 

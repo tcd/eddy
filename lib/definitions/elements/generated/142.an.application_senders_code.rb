@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "142"
         @name = "Application Sender's Code"
+        @description = "Code identifying party sending transmission; codes agreed to by trading partners"
         super(min: 2, max: 15)
       end
     end

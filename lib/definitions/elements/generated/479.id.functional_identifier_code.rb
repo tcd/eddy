@@ -6,13 +6,14 @@ module Eddy
     # - Name: Functional Identifier Code
     # - Type: ID
     # - Min/Max: 2/2
-    # - Description: Code identifying a group of application related transaction sets
+    # - Description: (Functional Group) Code identifying a group of application related transaction sets
     class E479 < Eddy::Element::ID
 
       # @return [void]
       def initialize()
         @id = "479"
         @name = "Functional Identifier Code"
+        @description = "(Functional Group) Code identifying a group of application related transaction sets"
         super(min: 2, max: 2)
       end
 

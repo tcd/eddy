@@ -13,6 +13,7 @@ module Eddy
       def initialize(time)
         @id = "373"
         @name = "Date"
+        @description = "Date expressed as CCYYMMDD"
         super(
           min: 8,
           max: 8,
