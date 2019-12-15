@@ -60,34 +60,16 @@ module Eddy
     # Build a hash with data that can be used to generate an element class.
     #
     # @param el [Hash]
-    # @return [Hash]
+    # @return [Eddy::Schema::ElementSummary]
     def self.extract_element_data(el)
-      return {
-        id:              el[:id].strip,
-        min:             el[:min].to_i,
-        max:             el[:max].to_i,
-        type:            el[:type].strip,
-        raw_name:        el[:name].strip,
-        raw_description: el[:description].strip,
-        name:            Eddy::Util.normalize_id(el[:id]),
-        description:     self.doc_comment(el),
-      }
-    end
-
-    # Generate a description to use as a doc comment for an element.
-    #
-    # @param el [Hash]
-    # @return [Hash]
-    def self.doc_comment(el)
-      return <<~END.strip
-        ### Element Summary:
-
-        - Id: #{el[:id].strip}
-        - Name: #{el[:name].strip}
-        - Type: #{el[:type].strip}
-        - Min/Max: #{el[:min]}/#{el[:max]}
-        - Description: #{el[:description].strip}
-      END
+      return Eddy::Schema::ElementSummary.create({
+        id:          el[:id].strip,
+        min:         el[:min].to_i,
+        max:         el[:max].to_i,
+        type:        el[:type].strip,
+        name:        el[:name].strip,
+        description: el[:description].strip,
+      })
     end
 
   end

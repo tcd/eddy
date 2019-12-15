@@ -51,6 +51,11 @@ module Eddy
         return summary
       end
 
+      # @return [String]
+      def normalized_name
+        return Eddy::Util.normalize_name(self.name)
+      end
+
       # Generate a description to use as a doc comment for an element.
       #
       # @param _header [Boolean] (true) TODO: Implement header.
