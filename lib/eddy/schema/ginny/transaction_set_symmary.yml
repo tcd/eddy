@@ -2,6 +2,7 @@
 name: TransactionSetSummary
 description: An outline of all required components for an EDI transaction set implementation.
 modules: [Eddy, Schema]
+default_constructor: true
 attrs:
 - name: id
   description: A short code identifying the Transaction Set.

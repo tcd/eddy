@@ -2,6 +2,7 @@
 name: SegmentSummary
 description: A collection of Data Elements. Used in Companion Guides to define a Transaction Set.
 modules: [Eddy, Schema]
+default_constructor: true
 attrs:
 - name: pos
   description: Indicates the order in which Segments should appear in their Level of the Transaction Set.

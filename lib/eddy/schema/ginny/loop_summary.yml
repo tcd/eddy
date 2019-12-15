@@ -2,6 +2,7 @@
 name: LoopSummary
 description: A repeated collection of Segments and/or other Loops. Used in Companion Guides.
 modules: [Eddy, Schema]
+default_constructor: true
 attrs:
 - name: loop_id
   description: A unique string used to identify the Loop within its Transaction Set.
