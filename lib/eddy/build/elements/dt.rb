@@ -30,6 +30,7 @@ module Eddy
       return nil
     end
 
+    # FIXME: This code is redundant, it already exists in Eddy::Element::DT.determine_format
     # @param int [Integer]
     # @return [Symbol]
     def self.determine_dt_format(int)
