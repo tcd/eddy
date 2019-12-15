@@ -53,9 +53,9 @@ module Eddy
 
       # Generate a description to use as a doc comment for an element.
       #
-      # @param header [Boolean] (true) TODO: Implement header.
+      # @param _header [Boolean] (true) TODO: Implement header.
       # @return [Hash]
-      def doc_comment(header: true)
+      def doc_comment(_header: true)
         return <<~END.strip
           ### Element Summary:
 
