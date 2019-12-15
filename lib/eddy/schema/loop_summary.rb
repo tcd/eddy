@@ -2,6 +2,7 @@ module Eddy
   module Schema
     # A repeated collection of Segments and/or other Loops. Used in Companion Guides.
     class LoopSummary
+
       # A unique string used to identify the Loop within its Transaction Set.
       # @return [String]
       attr_accessor :loop_id
@@ -11,9 +12,6 @@ module Eddy
       # *Syntax*, *Semantic*, or *Comment* notes on a Loop.
       # @return [String]
       attr_accessor :notes
-      # Loop in which the Loop appears.
-      # @return [String]
-      attr_accessor :loop
       # Indicates where the Loop is located in the Transaction Set.
       # @return [String]
       attr_accessor :level
@@ -23,6 +21,20 @@ module Eddy
       # A List of `segment_summary`s for the Segments present in the Loop.
       # @return [Array]
       attr_accessor :components
+
+      # @param params [Hash]
+      # @return [self]
+      def self.create(params = {})
+        l = LoopSummary.new
+        l.loop_id = params[:loop_id]
+        l.repeat = params[:repeat]
+        l.notes = params[:notes]
+        l.level = params[:level]
+        l.req = params[:req]
+        l.components = params[:components]
+        return l
+      end
+
     end
   end
 end
