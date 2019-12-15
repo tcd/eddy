@@ -1353,7 +1353,7 @@ I11	Interchange Control Version Number	ID	5	5	This version number covers the int
 I12	Interchange Control Number	N0	9	9	A control number assigned by the interchange sender
 I13	Acknowledgment Requested	ID	1	1	Code sent by the sender to request an interchange acknowledgment (TA1)
 I14	Usage Indicator	ID	1	1	Code to indicate whether data enclosed by this interchange envelope is test, production or information
-I15	Component Element Separator	N/A	1	1	Type is not applicable; the component element separator is a delimiter and not a data element; this field provides the delimiter used to separate component data elements within a composite data structure; this value must be different than the data element separator and the segment terminator
+I15	Component Element Separator	AN	1	1	Type is not applicable; the component element separator is a delimiter and not a data element; this field provides the delimiter used to separate component data elements within a composite data structure; this value must be different than the data element separator and the segment terminator
 I16	Number of Included Functional Groups	N0	1	5	A count of the number of functional groups included in an interchange
 I17	Interchange Acknowledgment Code	ID	1	1	This indicates the status of the receipt of the interchange control structure
 I18	Interchange Note Code	ID	3	3	This numeric code indicates the error found processing the interchange control structure
