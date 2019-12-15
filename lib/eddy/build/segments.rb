@@ -12,24 +12,25 @@ module Eddy
     def self.segment_from_definition(path, test: false)
       raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
       data = Eddy::Util.read_json_or_yaml(path)
-      Eddy::Build.segment(data, test: test)
+      seg = Eddy::Schema::SegmentSummary.create(data)
+      Eddy::Build.segment(seg, test: test)
     end
 
-    # @param data [Hash<Symbol>]
+    # @param summary [Eddy::Schema::SegmentSummary]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @param folder [String] (nil)
     # @return [void]
-    def self.segment(data, test: false, folder: nil)
+    def self.segment(summary, test: false, folder: nil)
       c = Ginny::Class.create({
         modules: ["Eddy", "Segments"],
         parent: "Eddy::Segment",
-        name: data[:id],
-        description: self.segment_description(data),
+        name: summary.id,
+        description: summary.doc_comment,
         body: <<~STR,
 
-          #{self.segment_constructor(data)}
+          #{self.segment_constructor(summary)}
 
-          #{data[:elements].map { |e| self.element_accessor(e[:ref], e[:id]) }.join("\n\n")}
+          #{summary.elements.map { |e| self.element_accessor(e[:ref], e[:id]) }.join("\n\n")}
         STR
       })
       return c.render if test
@@ -41,13 +42,13 @@ module Eddy
       return nil
     end
 
-    # @param data [Hash<Symbol>]
+    # @param summary [Eddy::Schema::SegmentSummary]
     # @return [String]
-    def self.segment_constructor(data)
+    def self.segment_constructor(summary)
       declarations = ""
       super_call = "super(\n"
 
-      data[:elements].each do |e|
+      summary.elements.each do |e|
         declarations << "@#{e[:ref].to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(e[:id])}.new\n"
         super_call << "  @#{e[:ref].to_s.downcase},\n"
       end
@@ -57,8 +58,8 @@ module Eddy
       return Ginny::Func.create({
         name: "initialize",
         body: <<~RB,
-          @id = "#{data[:id]}"
-          @name = "#{data[:name]}"
+          @id = "#{summary.id}"
+          @name = "#{summary.name}"
           #{declarations}
 
 
@@ -66,18 +67,6 @@ module Eddy
           #{super_call}
         RB
       }).render()
-    end
-
-    # @param data [Hash<Symbol>]
-    # @return [String]
-    def self.segment_description(data)
-      return <<~END
-        ### Segment Summary:
-
-        - Id: #{data[:id]}
-        - Name: #{data[:name]}
-        - Purpose: #{data[:purpose]}
-      END
     end
 
     # @param ref [String]

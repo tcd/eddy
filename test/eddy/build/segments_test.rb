@@ -4,7 +4,7 @@ require "yaml"
 class BuildSegmentsTest < Minitest::Test
 
   def setup
-    @data = {
+    @data = Eddy::Schema::SegmentSummary.create({
       id: "N2",
       name: "Additional Name Information",
       purpose: "To identify a party by type of organization, name, and code",
@@ -12,7 +12,7 @@ class BuildSegmentsTest < Minitest::Test
         { ref: "n201", id: "93" },
         { ref: "n202", id: "93" },
       ],
-    }
+    })
     @n2_segment = <<~RB.strip
       module Eddy
         module Segments
