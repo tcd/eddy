@@ -10,11 +10,16 @@ module Eddy
     attr_reader :name
     # @return [Array<Element>]
     attr_accessor :elements
+    # @return [Eddy::Store] Data passed down from a Transaction Set.
+    attr_accessor :store
 
     # All of a Segment's elements need to be declared in its constructor.
     #
+    # @param store [Eddy::Store]
+    # @param elements [*Eddy::Element::Base]
     # @return [void]
-    def initialize(*elements)
+    def initialize(store, *elements)
+      self.store = store
       elements.flatten!
       self.elements = elements || []
     end

@@ -8,21 +8,10 @@ module Eddy
       attr_reader :functional_group
       # @return [String]
       attr_reader :description
-
       # @return [Array<Segment, Loop>]
       attr_accessor :components
-
-      # Time value for use by DT/TM Elements.
-      # @return [Time]
-      attr_accessor :time
-      # Component Element Separator
-      # @return [String] (">")
-      attr_accessor :component_separator
-      # @return [String] ("~")
-      attr_accessor :segment_separator
-      # Data Element Separator
-      # @return [String] ("*")
-      attr_accessor :element_separator
+      # @return [Eddy::Store] A Hash of data used to pass values through Loops and Segments to Elements
+      attr_accessor :store
 
       # @param component_separator [String]
       # @param segment_separator [String]
@@ -36,10 +25,11 @@ module Eddy
       )
         components.flatten!
         self.components = components || []
-        self.time = Time.now().utc()
-        self.component_separator = component_separator
-        self.segment_separator   = segment_separator
-        self.element_separator   = element_separator
+        self.store ||= Eddy::Store.new(time: Time.now().utc())
+        self.store.time ||= Time.now().utc()
+        self.store.component_separator = component_separator
+        self.store.segment_separator   = segment_separator
+        self.store.element_separator   = element_separator
       end
 
       # @return [String]

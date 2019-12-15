@@ -8,6 +8,7 @@ require "eddy/version"
 require "eddy/errors"
 require "eddy/util"
 Dir.glob(File.join(__dir__, "eddy", "schema", "*.rb")).each { |file| require file }
+require "eddy/models/store"
 require "eddy/models/element"
 require "eddy/models/segment"
 require "eddy/models/loop"

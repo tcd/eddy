@@ -4,14 +4,17 @@ require "time"
 class SegmentTest < Minitest::Test
 
   def test_n2
-    x = Eddy::Segments::N2.new()
+    x = Eddy::Segments::N2.new(nil)
     x.N201 = "x"
     assert_equal("N2*x", x.render("*"))
   end
 
   def test_isa
     Time.stub :now, Time.at(0).utc() do
-      isa = Eddy::Segments::ISA.new(time: Time.now.utc)
+      store = Eddy::Store.new(
+        time: Time.now.utc,
+      )
+      isa = Eddy::Segments::ISA.new(store)
       isa.AuthorizationInformationQualifier = "00"
       isa.SecurityInformationQualifier = "00"
       isa.InterchangeIdQualifier1 = "ZZ"
