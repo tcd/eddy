@@ -5,9 +5,9 @@ module Eddy
     # An alphanumeric code unique to each Segment type.
     # @return [String]
     attr_reader :id
-    # Short name of the Segment. Should probably be called `name`...
+    # Short name of the Segment.
     # @return [String]
-    attr_reader :description
+    attr_reader :name
     # @return [Array<Element>]
     attr_accessor :elements
 
