@@ -8,7 +8,9 @@
     }
   ],
   "yaml.schemas": {
-    "./data/schema/transaction_set_summary.json": "*.edi.yml",
-    "./data/schema/segment_summary.json": "*.segment.yml",
+    "./data/schema/transaction_set_summary.json": "/*.edi.yml",
+    "./data/schema/segment_summary.json": "/*.segment.yml",
+    "http://json-schema.org/draft-07/schema": "/*.schema.yml",
+    "https://raw.githubusercontent.com/tcd/ginny/master/schema/class.schema.json": "/*.gin.yml",
   }
 }
