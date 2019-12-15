@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 TD101	103	O	AN	3	5
 TD102	80	X	N0	1	7
 TD103

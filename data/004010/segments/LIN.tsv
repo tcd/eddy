@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 LIN01	350	O	AN	1	20
 LIN02	235	M	ID	2	2
 LIN03	234	M	AN	1	48

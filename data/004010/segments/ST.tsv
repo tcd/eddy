@@ -1,3 +1,3 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 ST01	143	M	ID	3	3	Transaction Set Identifier Code
 ST02	329	M	AN	4	9	Transaction Set Control Number

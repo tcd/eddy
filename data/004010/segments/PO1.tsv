@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 PO101	350	O	AN	1	20	Assigned Information
 PO102	330	X	R	1	15	Quantity Ordered
 PO103	355	O	ID	2	2	Unit or Basis for Measurement Codes

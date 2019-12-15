@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 ACK01	668	M	ID	2	2	Line Item Status Code
 ACK02	380	X	R	1	15	Quantity
 ACK03	355	X	ID	2	2	Unit or Basis for Measurement Code

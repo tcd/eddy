@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 BSN01	353	M	ID	2	2
 BSN02	396	M	AN	2	30
 BSN03	373	M	DT	8	8

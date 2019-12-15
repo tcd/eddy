@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName	Note
+ref	id	req	type	min	max	elementname	Note
 ISA01	I01	M	ID	2	2	Authorization Information Qualifier	
 ISA02	I02	M	AN	10	10	Information	Defaults to 10 blank spaces
 ISA03	I03	M	ID	2	2	Security Information Qualifier	

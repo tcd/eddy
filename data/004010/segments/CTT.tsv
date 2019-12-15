@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 CTT01	354	M	N0	1	6	Number of Line Items
 CTT02	347	O	R	1	10	Hash Total
 CTT03	81	X				Weight

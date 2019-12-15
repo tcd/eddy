@@ -1,4 +1,4 @@
-Ref	Id	Req	Type	Min	Max	ElementName
+ref	id	req	type	min	max	elementname
 PID01	349	M	ID	1	1	Item Description Type
 PID02
 PID03
