@@ -16,6 +16,14 @@ class HelpersTest < Minitest::Test
     assert_equal("a value", data[0][:value])
   end
 
+  def test_read_json_or_yaml
+    skip()
+  end
+
+  def test_timestamp
+    skip()
+  end
+
   def test_normalize_id
     assert_equal("E420", Eddy::Helpers.normalize_id("420"))
     assert_equal("I420", Eddy::Helpers.normalize_id("i420"))
