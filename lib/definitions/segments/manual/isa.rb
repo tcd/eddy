@@ -52,9 +52,10 @@ module Eddy
       #
       # @param arg [String]
       # @return [void]
-      def AuthorizationInformationQualifier=(arg)
+      def I01=(arg)
         @isa01.value = arg
       end
+      alias AuthorizationInformationQualifier= I01=
 
       # (see Eddy::Elements::I02)
       #

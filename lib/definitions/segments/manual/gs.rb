@@ -7,6 +7,7 @@ module Eddy
     # - Purpose: To indicate the beginning of a functional group and to provide control information.
     class GS < Eddy::Segment
 
+      # @param time [Time]
       # @return [void]
       def initialize(time:)
         @id = "GS"
