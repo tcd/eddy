@@ -15,5 +15,8 @@ module Eddy
 
     # Exception raised when an issue occurs while generating code.
     class BuildError < Error; end
+
+    # Exception raised from a `render` method.
+    class RenderError < Error; end
   end
 end
