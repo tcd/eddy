@@ -1,0 +1,16 @@
+---
+name: Store
+description: Container used to distribute state throughout an Interchange.
+attrs:
+  - name: component_separator
+    type: String
+    default: ">"
+  - name: segment_separator
+    type: String
+    default: "~"
+  - name: element_separator
+    type: String
+    default: "*"
+  - name: time
+    type: Time
+    description: Time value for use by DT/TM Elements.
