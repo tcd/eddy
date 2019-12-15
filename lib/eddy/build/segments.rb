@@ -16,21 +16,21 @@ module Eddy
       Eddy::Build.segment(seg, test: test)
     end
 
-    # @param summary [Eddy::Schema::SegmentSummary]
+    # @param seg [Eddy::Schema::SegmentSummary]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @param folder [String] (nil)
     # @return [void]
-    def self.segment(summary, test: false, folder: nil)
+    def self.segment(seg, test: false, folder: nil)
       c = Ginny::Class.create({
         modules: ["Eddy", "Segments"],
         parent: "Eddy::Segment",
-        name: summary.id,
-        description: summary.doc_comment,
+        name: seg.id,
+        description: seg.doc_comment,
         body: <<~STR,
 
-          #{self.segment_constructor(summary)}
+          #{self.segment_constructor(seg)}
 
-          #{summary.elements.map { |e| self.element_accessor(e[:ref], e[:id]) }.join("\n\n")}
+          #{seg.elements.map { |el| self.element_accessor_v2(el) }.join("\n\n")}
         STR
       })
       return c.render if test
@@ -42,15 +42,15 @@ module Eddy
       return nil
     end
 
-    # @param summary [Eddy::Schema::SegmentSummary]
+    # @param seg [Eddy::Schema::SegmentSummary]
     # @return [String]
-    def self.segment_constructor(summary)
+    def self.segment_constructor(seg)
       declarations = ""
       super_call = "super(\n"
 
-      summary.elements.each do |e|
-        declarations << "@#{e[:ref].to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(e[:id])}.new\n"
-        super_call << "  @#{e[:ref].to_s.downcase},\n"
+      seg.elements.each do |el|
+        declarations << "@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new\n"
+        super_call << "  @#{el.ref.to_s.downcase},\n"
       end
 
       super_call << ")"
@@ -58,8 +58,8 @@ module Eddy
       return Ginny::Func.create({
         name: "initialize",
         body: <<~RB,
-          @id = "#{summary.id}"
-          @name = "#{summary.name}"
+          @id = "#{seg.id}"
+          @name = "#{seg.name}"
           #{declarations}
 
 
@@ -69,37 +69,33 @@ module Eddy
       }).render()
     end
 
-    # @param ref [String]
-    # @param element_id [String]
+    # @param el [Eddy::Schema::ElementSummary]
     # @return [String]
-    def self.element_accessor(ref, element_id)
+    def self.element_accessor(el)
       return <<~RB.strip
-        # (see Eddy::Elements::#{Eddy::Util.normalize_id(element_id)})
+        # (see Eddy::Elements::#{Eddy::Util.normalize_id(el.id)})
         #
-        # @param arg [String]
+        # @param arg [#{el.yard_type}]
         # @return [void]
-        def #{ref.upcase}=(arg)
-          @#{ref.downcase}.value = arg
+        def #{el.ref.upcase}=(arg)
+          @#{el.ref.downcase}.value = arg
         end
       RB
     end
 
-    # @param ref [String]
-    # @param element_id [String]
+    # @param el [Eddy::Schema::ElementSummary]
     # @return [String]
-    def self.element_accessor_v2(ref, element_id)
-      data = Eddy::Util::Data.element_data_by_id(element_id)
-      name = Eddy::Util.normalize_name(data[:name])
+    def self.element_accessor_v2(el)
       return <<~RB.strip
-        # Set value for #{ref.upcase}
-        # (see Eddy::Elements::#{Eddy::Util.normalize_id(element_id)})
+        #{el.doc_comment.gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
         #
-        # @param arg [String]
+        # @param arg [#{el.yard_type}]
         # @return [void]
-        def #{name}=(arg)
-          @#{ref}.value = arg
+        def #{el.ref.upcase}=(arg)
+          @#{el.ref.downcase}.value = arg
         end
       RB
+      # alias #{el.normalized_name}= #{el.ref.upcase}
     end
 
   end

@@ -37,6 +37,11 @@ module Eddy
       # @return [Array]
       attr_accessor :elements
 
+      # @return [void]
+      def initialize()
+        self.elements = []
+      end
+
       # @param params [Hash]
       # @return [self]
       def self.create(params = {})
@@ -51,8 +56,21 @@ module Eddy
         s.element_count = params[:element_count]
         s.req           = params[:req]
         s.level         = params[:level]
-        s.elements      = params[:elements]
+        s.set_elements(params[:elements])
         return s
+      end
+
+      # TODO: Only use defaults if not enough info is provided.
+      # TODO: Define *enough info*.
+      #
+      # @param elements [Array<Hash>]
+      # @return [void]
+      def set_elements(elements)
+        elements.each do |el|
+          default_el = Eddy::Schema::ElementSummary.default_for_id(el[:id])
+          default_el.ref = el[:ref]
+          self.elements << default_el
+        end
       end
 
       # Generate a description to use as a doc comment for a segment.

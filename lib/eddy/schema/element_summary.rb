@@ -51,6 +51,16 @@ module Eddy
         return summary
       end
 
+      # @param id [String]
+      # @return [self]
+      def self.default_for_id(id)
+        data = Eddy::Util::Data.raw_element_data()
+        id.upcase!
+        result = data.find { |el| el[:id] == id }
+        raise Eddy::Errors::Error, "No element found with id #{id}" if result.nil?
+        return self.create(result)
+      end
+
       # @return [String]
       def normalized_name
         return Eddy::Util.normalize_name(self.name)
@@ -70,6 +80,20 @@ module Eddy
           - Min/Max: #{self.min}/#{self.max}
           - Description: #{self.description}
         END
+      end
+
+      # @return [String]
+      def yard_type()
+        return case self.type
+               when "AN"   then "String"
+               when "B"    then "String"
+               when "DT"   then "Time"
+               when "ID"   then "String"
+               when /N\d*/ then "Integer"
+               when /R\d*/ then "Float"
+               when "TM"   then "Time"
+               else raise Eddy::Errors::Error, "unable to determine element type"
+               end
       end
 
     end
