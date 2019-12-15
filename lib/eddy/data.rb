@@ -72,4 +72,3 @@ module Eddy
 
   end
 end
-
