@@ -26,11 +26,11 @@ module Eddy
 
     # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
     #
-    # @return [Array<Hash>]
+    # @return [Array<Eddy::Schema::ElementSummary>]
     def self.generate_elements()
       elements = self.generate_element_data()
       elements.each do |el|
-        case el[:type]
+        case el.type
         when "AN"   then self.an(el)
         when "B"    then next
         when "DT"   then self.dt(el)
@@ -47,7 +47,7 @@ module Eddy
 
     # Generate usable data from `data/004010/elements.tsv`.
     #
-    # @return [Array<Hash>]
+    # @return [Array<Eddy::Schema::ElementSummary>]
     def self.generate_element_data()
       data = Eddy::Util::Data.raw_element_data()
       elements = data.map do |el|
