@@ -16,6 +16,7 @@ module Eddy
       def initialize()
         @id = "I11"
         @name = "Interchange Control Version Number"
+        @description = "This version number covers the interchange control segments"
         super(min: 5, max: 5, val: "00401")
       end
 

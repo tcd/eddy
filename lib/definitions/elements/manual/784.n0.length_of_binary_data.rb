@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "784"
         @name = "Length of Binary Data"
+        @description = "The length in integral octets of the binary data"
         super(min: 1, max: 15, decimals: 0)
       end
     end

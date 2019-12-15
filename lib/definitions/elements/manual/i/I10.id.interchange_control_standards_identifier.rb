@@ -17,6 +17,7 @@ module Eddy
       def initialize()
         @id = "I10"
         @name = "Interchange Control Standards Identifier"
+        @description = "Code to identify the agency responsible for the control standard used by the message that is enclosed by the interchange header and trailer"
         super(min: 1, max: 1, val: "U")
       end
 

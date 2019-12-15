@@ -19,6 +19,7 @@ module Eddy
       def initialize()
         @id = "I15"
         @name = "Component Element Separator"
+        @description = "The delimiter used to separate component data elements within a composite data structure."
         super(min: 1, max: 1, val: ">")
       end
     end

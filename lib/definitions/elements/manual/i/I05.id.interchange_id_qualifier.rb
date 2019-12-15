@@ -13,6 +13,7 @@ module Eddy
       def initialize()
         @id = "I05"
         @name = "Interchange ID Qualifier"
+        @description = "Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified"
         super(min: 2, max: 2)
       end
 

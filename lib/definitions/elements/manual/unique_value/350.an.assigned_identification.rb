@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "350"
         @name = "Assigned Identification"
+        @description = "Alphanumeric characters assigned for differentiation within a transaction set"
         super(min: 1, max: 20)
       end
     end

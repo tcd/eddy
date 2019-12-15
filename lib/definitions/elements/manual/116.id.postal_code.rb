@@ -18,6 +18,7 @@ module Eddy
       def initialize()
         @id = "116"
         @name = "Postal Code"
+        @description = "Code defining international postal zone code excluding punctuation and blanks (zip code for United States)"
         super(min: 3, max: 15)
       end
 

@@ -13,6 +13,7 @@ module Eddy
       def initialize()
         @id = "I13"
         @name = "Acknowledgment Requested"
+        @description = "Code sent by the sender to request an interchange acknowledgment (`TA1`)"
         super(min: 1, max: 1)
       end
 

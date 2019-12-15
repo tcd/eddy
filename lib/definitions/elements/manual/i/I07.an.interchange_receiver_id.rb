@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "I07"
         @name = "Interchange Receiver ID"
+        @description = "Identification code published by the receiver of the data; When sending, it is used by the sender as their sending ID, thus other parties sending to them will use this as a receiving ID to route data to them"
         super(min: 15, max: 15)
       end
     end

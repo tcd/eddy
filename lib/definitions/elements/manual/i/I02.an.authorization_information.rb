@@ -16,6 +16,7 @@ module Eddy
       def initialize()
         @id = "I02"
         @name = "Authorization Information"
+        @description = "Information used for additional identification or authorization of the interchange sender or the data in the interchange; the type of information is set by the Authorization Information Qualifier (`I01`)"
         super(
           min: 10,
           max: 10,

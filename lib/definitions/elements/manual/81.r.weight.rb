@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "81"
         @name = "Weight"
+        @description = "Numeric value of weight"
         super(min: 1, max: 10)
       end
     end

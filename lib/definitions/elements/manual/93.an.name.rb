@@ -12,6 +12,7 @@ module Eddy
       def initialize()
         @id = "93"
         @name = "Name"
+        @desctiption = "Free-form name"
         super(min: 1, max: 60)
       end
     end

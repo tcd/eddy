@@ -1,5 +1,3 @@
-require "time"
-
 module Eddy
   module Elements
     # ### Element Summary:
@@ -20,6 +18,7 @@ module Eddy
       def initialize(time)
         @id = "I08"
         @name = "Interchange Date"
+        @description = "Date of the interchange"
         super(
           min: 6,
           max: 6,

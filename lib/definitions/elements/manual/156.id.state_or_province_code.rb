@@ -17,6 +17,7 @@ module Eddy
       def initialize()
         @id = "156"
         @name = "State or Province Code"
+        @description = "(Standard State/Province) as defined by appropriate government agency."
         super(min: 2, max: 2)
       end
 

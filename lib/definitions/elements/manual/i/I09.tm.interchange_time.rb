@@ -20,6 +20,7 @@ module Eddy
       def initialize(time)
         @id = "I09"
         @name = "Interchange Time"
+        @description = "Time of the interchange"
         super(
           min: 4,
           max: 4,

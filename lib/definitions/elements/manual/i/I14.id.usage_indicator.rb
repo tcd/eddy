@@ -13,6 +13,7 @@ module Eddy
       def initialize()
         @id = "I14"
         @name = "Usage Indicator"
+        @description = "Code to indicate whether data enclosed by this interchange envelope is test, production or information"
         super(min: 1, max: 1)
       end
 

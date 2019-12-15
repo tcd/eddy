@@ -17,6 +17,7 @@ module Eddy
       def initialize()
         @id = "I03"
         @name = "Security Information Qualifier"
+        @description = "Code to identify the type of information in the Security Information"
         super(min: 2, max: 2, val: "00")
       end
 
