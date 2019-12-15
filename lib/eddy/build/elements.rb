@@ -6,7 +6,7 @@ module Eddy
     #
     # @return [void]
     def self.make_element_folders()
-      build_dir = File.join(Eddy::Helpers.root_dir, "build")
+      build_dir = File.join(Eddy::Util.root_dir, "build")
       ["an", "dt", "id", "n", "r", "tm"].each do |dir|
         FileUtils.mkdir_p(File.join(build_dir, "elements", dir))
       end
@@ -18,7 +18,7 @@ module Eddy
     # @return [void]
     def self.clean_element_folders()
       ["an", "dt", "id", "n", "r", "tm"].each do |dir|
-        files = Dir.glob(File.join(Eddy::Helpers.root_dir, "build", "elements", dir, "*.rb"))
+        files = Dir.glob(File.join(Eddy::Util.root_dir, "build", "elements", dir, "*.rb"))
         File.delete(*files)
       end
       return nil
@@ -49,7 +49,7 @@ module Eddy
     #
     # @return [Array<Hash>]
     def self.generate_element_data()
-      data = Eddy::Data.raw_element_data()
+      data = Eddy::Util::Data.raw_element_data()
       elements = data.map do |el|
         next if el[:type].nil? || el[:description].nil?
         self.extract_element_data(el)
@@ -69,7 +69,7 @@ module Eddy
         type:            el[:type].strip,
         raw_name:        el[:name].strip,
         raw_description: el[:description].strip,
-        name:            Eddy::Helpers.normalize_id(el[:id]),
+        name:            Eddy::Util.normalize_id(el[:id]),
         description:     self.doc_comment(el),
       }
     end

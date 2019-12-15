@@ -94,7 +94,7 @@ class BuildSegmentsTest < Minitest::Test
     assert_equal(@n2_segment, have)
   end
 
-  def test_segment_from_yaml
+  def test_segment_from_definition
     have = Eddy::Build.segment_from_definition(file_fixture("schema/n2.segment.yml"), test: true)
     assert_equal(@n2_segment, have)
   end

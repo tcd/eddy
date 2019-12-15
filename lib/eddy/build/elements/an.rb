@@ -25,7 +25,7 @@ module Eddy
         file_prefix: "#{el[:id]}.an.",
       })
       return c.render if test
-      c.generate(File.join(Eddy::Helpers.root_dir, "build", "elements", "an"))
+      c.generate(File.join(Eddy::Util.root_dir, "build", "elements", "an"))
       return nil
     end
 

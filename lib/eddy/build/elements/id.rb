@@ -27,16 +27,16 @@ module Eddy
         file_prefix: "#{el[:id]}.id.",
       })
       return c.render if test
-      c.generate(File.join(Eddy::Helpers.root_dir, "build", "elements", "id"))
+      c.generate(File.join(Eddy::Util.root_dir, "build", "elements", "id"))
       return nil
     end
 
     # @param id [String]
     # @return [String]
     def self.build_code_list(id)
-      file = File.join(Eddy::Helpers.data_dir, "004010", "code-lists", "#{id}.tsv")
+      file = File.join(Eddy::Util.data_dir, "004010", "code-lists", "#{id}.tsv")
       begin
-        data = Eddy::Helpers.parse_tsv(file)
+        data = Eddy::Util.parse_tsv(file)
       rescue Errno::ENOENT
         puts("Missing code-list for element #{id}")
         return nil

@@ -4,7 +4,7 @@ require "ginny"
 class BuildElementsTest < Minitest::Test
 
   def setup
-    @data = Eddy::Helpers.parse_tsv(file_fixture("build_test_elements.tsv"))
+    @data = Eddy::Util.parse_tsv(file_fixture("build_test_elements.tsv"))
   end
 
   def test_generate_elements

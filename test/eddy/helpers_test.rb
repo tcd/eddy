@@ -1,17 +1,17 @@
 require "test_helper"
 
-class HelpersTest < Minitest::Test
+class UtilTest < Minitest::Test
 
   def test_root_dir
-    assert_equal(Dir.pwd, Eddy::Helpers.root_dir())
+    assert_equal(Dir.pwd, Eddy::Util.root_dir())
   end
 
   def test_data_dir
-    assert_equal(File.join(Dir.pwd, "data"), Eddy::Helpers.data_dir())
+    assert_equal(File.join(Dir.pwd, "data"), Eddy::Util.data_dir())
   end
 
   def test_parse_tsv
-    data = Eddy::Helpers.parse_tsv(file_fixture("test.tsv"))
+    data = Eddy::Util.parse_tsv(file_fixture("test.tsv"))
     assert_equal("a key", data[0][:key])
     assert_equal("a value", data[0][:value])
   end
@@ -25,9 +25,9 @@ class HelpersTest < Minitest::Test
   end
 
   def test_normalize_id
-    assert_equal("E420", Eddy::Helpers.normalize_id("420"))
-    assert_equal("I420", Eddy::Helpers.normalize_id("i420"))
-    assert_equal("I420", Eddy::Helpers.normalize_id("I420"))
+    assert_equal("E420", Eddy::Util.normalize_id("420"))
+    assert_equal("I420", Eddy::Util.normalize_id("i420"))
+    assert_equal("I420", Eddy::Util.normalize_id("I420"))
   end
 
   def test_normalize_name
@@ -53,7 +53,7 @@ class HelpersTest < Minitest::Test
     cases.each do |key, val|
       want = val
       input = key
-      have = Eddy::Helpers.normalize_name(input)
+      have = Eddy::Util.normalize_name(input)
       message = <<~END
         input:  #{input}
         wanted: #{want}

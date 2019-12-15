@@ -95,10 +95,10 @@ namespace :misc do
         "I38",
       ]
 
-      elements_file = File.join(Eddy::Helpers.data_dir, "004010", "elements.tsv")
-      data = Eddy::Helpers.parse_tsv(elements_file)
+      elements_file = File.join(Eddy::Util.data_dir, "004010", "elements.tsv")
+      data = Eddy::Util.parse_tsv(elements_file)
 
-      File.open(File.join(Eddy::Helpers.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
+      File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
         f.write(%w[id name min max description].join("\t") + "\n")
         data.each do |d|
           if missing.include?(d[:id].strip)
@@ -114,7 +114,7 @@ namespace :misc do
         end
       end
 
-      File.open(File.join(Eddy::Helpers.root_dir, "tmp", "missing_lists.md"), "a") do |f|
+      File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.md"), "a") do |f|
         data.each { |d| f.write("- #{d[:id]} (#{d[:name]})\n") if missing.include?(d[:id].strip) }
       end
 
@@ -212,10 +212,10 @@ namespace :misc do
         "I38",
       ]
 
-      elements_file = File.join(Eddy::Helpers.data_dir, "004010", "elements.tsv")
-      data = Eddy::Helpers.parse_tsv(elements_file)
+      elements_file = File.join(Eddy::Util.data_dir, "004010", "elements.tsv")
+      data = Eddy::Util.parse_tsv(elements_file)
 
-      File.open(File.join(Eddy::Helpers.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
+      File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
         f.write(%w[id name min max description].join("\t") + "\n")
         data.each do |d|
           if missing.include?(d[:id].strip)
@@ -231,7 +231,7 @@ namespace :misc do
         end
       end
 
-      File.open(File.join(Eddy::Helpers.root_dir, "tmp", "missing_lists.md"), "a") do |f|
+      File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.md"), "a") do |f|
         data.each { |d| f.write("- #{d[:id]} (#{d[:name]})\n") if missing.include?(d[:id].strip) }
       end
 
