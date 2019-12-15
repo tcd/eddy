@@ -4,18 +4,22 @@ require "yaml"
 module Eddy
   module Build
 
-    # @param path [String] Path to a YAML file containing a Segment definition.
+    # Generate Ruby code from JSON/YAML EDI definitions.
+    #
+    # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @return [void]
-    def self.segment_from_yaml(path, test: false)
-      data = YAML.safe_load(File.read(path), symbolize_names: true)
+    def self.segment_from_definition(path, test: false)
+      raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
+      data = Eddy::Helpers.read_json_or_yaml(path)
       Eddy::Build.segment(data, test: test)
     end
 
     # @param data [Hash<Symbol>]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
+    # @param folder [String] (nil)
     # @return [void]
-    def self.segment(data, test: false)
+    def self.segment(data, test: false, folder: nil)
       c = Ginny::Class.create({
         modules: ["Eddy", "Segments"],
         parent: "Eddy::Segment",
@@ -29,7 +33,11 @@ module Eddy
         STR
       })
       return c.render if test
-      c.generate(File.join(Eddy::Helpers.root_dir, "build", "segments"))
+      if folder
+        c.generate(File.join(Eddy::Helpers.root_dir, "build", folder, "segments"))
+      else
+        c.generate(File.join(Eddy::Helpers.root_dir, "build", "segments"))
+      end
       return nil
     end
 
