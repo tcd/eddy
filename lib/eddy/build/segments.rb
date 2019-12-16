@@ -90,7 +90,7 @@ module Eddy
     # @return [String]
     def self.element_accessor_v2(el)
       return <<~RB.strip
-        #{el.doc_comment.gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
+        #{el.doc_comment(header: true).gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
         #
         # @param arg [#{el.yard_type}]
         # @return [void]
