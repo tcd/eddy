@@ -48,6 +48,7 @@ module Eddy
     def self.segment_constructor(seg)
       declarations = ""
       super_call = "super(\n"
+      super_call << "  store,\n"
 
       seg.elements.each do |el|
         declarations << "@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new\n"
@@ -58,6 +59,7 @@ module Eddy
 
       return Ginny::Func.create({
         name: "initialize",
+        params: [{ name: "store", type: "Eddy::Store" }],
         body: <<~RB,
           @id = "#{seg.id}"
           @name = "#{seg.name}"
