@@ -75,16 +75,24 @@ module Eddy
 
       # Generate a description to use as a doc comment for a segment.
       #
-      # @param _header [Boolean] (true) TODO: Implement header.
+      # @param header [Boolean] (true)
       # @return [Hash]
-      def doc_comment(_header: true)
-        return <<~END.strip
-          ### Segment Summary:
+      def doc_comment(header: true)
+        if header
+          return <<~END.strip
+            ### Segment Summary:
 
-          - Id: #{self.id}
-          - Name: #{self.name}
-          - Purpose: #{self.purpose}
-        END
+            - Id: #{self.id}
+            - Name: #{self.name}
+            - Purpose: #{self.purpose}
+          END
+        else
+          return <<~END.strip
+            - Id: #{self.id}
+            - Name: #{self.name}
+            - Purpose: #{self.purpose}
+          END
+        end
       end
 
     end
