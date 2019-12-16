@@ -22,6 +22,7 @@ module Eddy
     # @return [void]
     def self.segment(seg, test: false, folder: nil)
       c = Ginny::Class.create({
+        classify_name: false,
         modules: ["Eddy", "Segments"],
         parent: "Eddy::Segment",
         name: seg.id,

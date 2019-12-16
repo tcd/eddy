@@ -19,6 +19,7 @@ module Eddy
         FUNC_BODY
       }).render()
       c = Ginny::Class.create({
+        classify_name: false,
         name: Eddy::Util.normalize_id(el.id),
         description: el.doc_comment,
         parent: "Eddy::Element::ID",
