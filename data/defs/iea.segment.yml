@@ -1,7 +1,7 @@
 ---
 id: IEA
 name: Interchange Control Trailer
-purpose: ​To define the end of an interchange of zero or more functional groups and interchange-related control segments.
+purpose: To define the end of an interchange of zero or more functional groups and interchange-related control segments.
 elements:
   - { ref: IEA01, id: 'I16' }
   - { ref: IEA02, id: 'I12' }
