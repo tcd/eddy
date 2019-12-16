@@ -7,20 +7,21 @@ module Eddy
     # - Purpose: To indicate the beginning of a functional group and to provide control information.
     class GS < Eddy::Segment
 
-      # @param time [Time]
+      # @param store [Eddy::Store]
       # @return [void]
-      def initialize(time:)
+      def initialize(store)
         @id = "GS"
         @name = "Functional Group Header"
-        @gs01 = Eddy::Elements::E479.new
+        @gs01 = Eddy::Elements::E479.new()
         @gs02 = Eddy::Elements::E142.new
         @gs03 = Eddy::Elements::E124.new
-        @gs04 = Eddy::Elements::E373.new(time)
-        @gs05 = Eddy::Elements::E337.new(time)
-        @gs06 = Eddy::Elements::E28.new
+        @gs04 = Eddy::Elements::E373.new(store.time)
+        @gs05 = Eddy::Elements::E337.new(store.time)
+        @gs06 = Eddy::Elements::E28.new()
         @gs07 = Eddy::Elements::E455.new
-        @gs08 = Eddy::Elements::E480.new
+        @gs08 = Eddy::Elements::E480.new()
         super(
+          store,
           @gs01,
           @gs02,
           @gs03,

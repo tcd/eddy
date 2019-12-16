@@ -24,10 +24,12 @@ module Eddy
       self.elements = elements || []
     end
 
+    # FIXME: Remove param and use `self.store.element_separator` directly.
+    #
     # @param element_separator [String] String used to delimit elements within a segment.
     # @return [String]
-    def render(element_separator)
-      return self.id + element_separator + self.elements.map(&:value).compact.join(element_separator)
+    def render(element_separator = self.store.element_separator)
+      return [self.id, self.elements.map(&:value).compact].join(element_separator)
     end
 
   end

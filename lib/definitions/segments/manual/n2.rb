@@ -8,15 +8,21 @@ module Eddy
     class N2 < Eddy::Segment
 
       # @return [void]
-      def initialize()
+      def initialize(store)
         @id = "N2"
         @name = "Additional Name Information"
         @n201 = Eddy::Elements::E93.new
         @n202 = Eddy::Elements::E93.new
-        super(@n201, @n202)
+        super(store, @n201, @n202)
       end
 
-      # (see Eddy::Elements::E93)
+      # ### Element Summary:
+      #
+      # - Id: 93
+      # - Name: Name
+      # - Type: AN
+      # - Min/Max: 1/60
+      # - Description: Free-form name
       #
       # @param arg [String]
       # @return [void]
@@ -24,7 +30,13 @@ module Eddy
         @n201.value = arg
       end
 
-      # (see Eddy::Elements::E93)
+      # ### Element Summary:
+      #
+      # - Id: 93
+      # - Name: Name
+      # - Type: AN
+      # - Min/Max: 1/60
+      # - Description: Free-form name
       #
       # @param arg [String]
       # @return [void]
