@@ -4,6 +4,7 @@ PATH
     eddy (0.1.0)
       ginny (~> 0.6.2)
       json_schemer (~> 0.2.8)
+      thor (~> 0.20.3)
 
 GEM
   remote: https://rubygems.org/

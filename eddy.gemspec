@@ -39,4 +39,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "ginny", "~> 0.6.2"
   spec.add_runtime_dependency "json_schemer", "~> 0.2.8"
+  spec.add_runtime_dependency "thor", "~> 0.20.3"
 end

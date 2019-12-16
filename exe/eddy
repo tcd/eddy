@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require "eddy"
+
+# if ["-v", "--version", "version"].include?(ARGV[0].strip)
+#   puts("Eddy version #{Eddy::VERSION}")
+#   exit(0)
+# end
+
+# optparse:
+# Eddy::CLI.new()
+
+# thor:
+Eddy::CLI.start()
