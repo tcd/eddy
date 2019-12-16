@@ -18,6 +18,13 @@ module Eddy
     # @return [Time]
     attr_accessor :time
 
+    # Total number of transaction sets included in the functional group or interchange (transmission) group.
+    # @return [Integer]
+    attr_accessor :number_of_transaction_sets_included
+    # A count of the number of functional groups included in an interchange.
+    # @return [Integer]
+    attr_accessor :number_of_included_functional_groups
+
     # @param time [Time]
     # @return [void]
     def initialize(time:)
@@ -38,13 +45,13 @@ module Eddy
       raise NotImplementedError
     end
 
-    # @return [Integer]
-    def number_of_transaction_sets()
-      raise NotImplementedError
-      old_count = @number_of_transaction_sets.dup
-      @number_of_transaction_sets += 1
-      return old_count
-    end
+    # # @return [Integer]
+    # def number_of_transaction_sets()
+    #   raise NotImplementedError
+    #   old_count = @number_of_transaction_sets.dup
+    #   @number_of_transaction_sets += 1
+    #   return old_count
+    # end
 
     # Returns an incremended value every time it's called.
     #

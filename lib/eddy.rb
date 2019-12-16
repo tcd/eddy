@@ -7,12 +7,19 @@ end
 require "eddy/version"
 require "eddy/errors"
 require "eddy/util"
+
 Dir.glob(File.join(__dir__, "eddy", "schema", "*.rb")).each { |file| require file }
-require "eddy/models/store"
+
 require "eddy/models/element"
 require "eddy/models/segment"
 require "eddy/models/loop"
 require "eddy/models/transaction_set"
+
+require "eddy/write/methods"
+require "eddy/write/store"
+require "eddy/write/interchange"
+require "eddy/write/functional_group"
+
 Dir.glob(File.join(__dir__, "eddy", "build", "elements", "*.rb")).each { |file| require file }
 require "eddy/build/elements"
 require "eddy/build/segments"

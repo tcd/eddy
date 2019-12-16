@@ -1,5 +1,5 @@
 module Eddy
-  module TransactionSet
+  module Write
 
     # @return [Integer]
     def self.new_interchange_control_number

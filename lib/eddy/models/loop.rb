@@ -18,7 +18,7 @@ module Eddy
       # @return [Eddy::Store] Data passed down from a Transaction Set.
       attr_accessor :store
 
-      # All of a Segment's elements need to be declared in its constructor.
+      # All of a Loop's elements need to be declared in its constructor.
       #
       # @return [void]
       def initialize(*components)
