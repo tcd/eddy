@@ -7,14 +7,18 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code used in conjunction with Data Element 480 to identify the issuer of the standard
+    #
+    # ### Notes:
+    #
+    # - (Default value: `"X"`)
     class E455 < Eddy::Element::ID
 
       # @return [void]
-      def initialize()
+      def initialize(val = "X")
         @id = "455"
         @name = "Responsible Agency Code"
         @description = "Code used in conjunction with Data Element 480 to identify the issuer of the standard"
-        super(min: 1, max: 2)
+        super(min: 1, max: 2, val: val)
       end
 
       # @return [Array<String>]
