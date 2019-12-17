@@ -1,13 +1,13 @@
 index	pos	section	loop	segment	ref	id	req	type	min	max	default	options	note	name	description
-1		Not Defined		ISA	ISA01	I01	M	ID	2	2	00			Authorization Information Qualifier	
-2		Not Defined		ISA	ISA02	I02	M	AN	10	10				Authorization Information	
-3		Not Defined		ISA	ISA03	I03	M	ID	2	2	00			Security Information Qualifier	
-4		Not Defined		ISA	ISA04	I04	M	AN	10	10				Security Information	
-5		Not Defined		ISA	ISA05	I05	M	ID	2	2	01			Interchange ID Qualifier	
-6		Not Defined		ISA	ISA06	I06	M	AN	15	15				Interchange Sender ID	
-7		Not Defined		ISA	ISA07	I05	M	ID	2	2	01			Interchange ID Qualifier	
-8		Not Defined		ISA	ISA08	I07	M	AN	15	15				Interchange Receiver ID	
-9		Not Defined		ISA	ISA09	I08	M	DT	6	6				Interchange Date	
+01		Not Defined		ISA	ISA01	I01	M	ID	2	2	00			Authorization Information Qualifier	
+02		Not Defined		ISA	ISA02	I02	M	AN	10	10				Authorization Information	
+03		Not Defined		ISA	ISA03	I03	M	ID	2	2	00			Security Information Qualifier	
+04		Not Defined		ISA	ISA04	I04	M	AN	10	10				Security Information	
+05		Not Defined		ISA	ISA05	I05	M	ID	2	2	01			Interchange ID Qualifier	
+06		Not Defined		ISA	ISA06	I06	M	AN	15	15				Interchange Sender ID	
+07		Not Defined		ISA	ISA07	I05	M	ID	2	2	01			Interchange ID Qualifier	
+08		Not Defined		ISA	ISA08	I07	M	AN	15	15				Interchange Receiver ID	
+09		Not Defined		ISA	ISA09	I08	M	DT	6	6				Interchange Date	
 10		Not Defined		ISA	ISA10	I09	M	TM	4	4				Interchange Time	
 11		Not Defined		ISA	ISA11	I10	M	ID	1	1			???	Interchange Control Standards Identifier	
 12		Not Defined		ISA	ISA12	I11	M	ID	5	5	00401			Interchange Control Version Number	

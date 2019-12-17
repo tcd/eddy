@@ -3,5 +3,5 @@ id: GE
 name: Functional Group Trailer
 purpose: To indicate the end of a functional group and to provide control information.
 elements:
-  - { ref: GE01, id: '97' }
-  - { ref: GE02, id: '28' }
+  - { ref: GE01, id: '97', req: M }
+  - { ref: GE02, id: '28', req: M }

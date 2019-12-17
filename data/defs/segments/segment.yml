@@ -1,0 +1,6 @@
+---
+id:
+name:
+purpose:
+elements:
+  - { ref: x, id: '' }

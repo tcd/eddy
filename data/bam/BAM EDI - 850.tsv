@@ -1,0 +1,28 @@
+Section	Loop	Segment	Ref	Id	Req	Type	Min	Max	Default	Options	Note	Name	Description
+Heading		ST	ST01	143	M	ID	3	3	850			Transaction Set Identifier Code	
+Heading		ST	ST02	329	M	AN	4	9				Transaction Set Control Number	
+Heading		BEG	BEG01	353	M	ID	2	2	00			Transaction Set Purpose Code	
+Heading		BEG	BEG02	92	M	ID	2	2	DS			Purchase Order Type Code	
+Heading		BEG	BEG03	324	M	AN	1	22				Purchase Order Number	
+Heading		BEG	BEG05	373	M	DT	8	8			CCYYMMDD	Date	
+Heading		TD5	TD505	387	X	AN	1	35				Routing	​Free-form description of the routing or requested routing for shipment, or the originating carrier's identity
+Heading	N1	N1	N101	98	M	ID	2	3	ST			Entity Identifier Code	​Code identifying an organizational entity, a physical location, property or an individual
+Heading	N1	N1	N102	93	X	AN	1	60				Name	Free-form name
+Heading	N1	N3	N301	166	O	AN	1	55				Address Information	Address information
+Heading	N1	N3	N302	166	O	AN	1	55				Address Information	Address information
+Heading	N1	N4	N401	19	O	AN	2	30				City Name	
+Heading	N1	N4	N402	156	O	ID	2	2				State or Province Code	
+Heading	N1	N4	N403	116	O	ID	3	15				Postal Code	
+Heading	N1	N4	N404	26	O	ID	2	3				Country Code	
+Detail	PO1	PO1	PO101	350	O	AN	1	20				Assigned Information	Alphanumeric characters assigned for differentiation within a transaction set
+Detail	PO1	PO1	PO102	330	X	R	1	15				Quantity Ordered	​Quantity ordered
+Detail	PO1	PO1	PO103	355	O	ID	2	2	EA			Unit or Basis for Measurement Codes	​Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken
+Detail	PO1	PO1	PO104	212	X	R	1	17				Unit Price	Price per unit of product, service, commodity, etc.
+Detail	PO1	PO1	PO105	639	O	ID	2	2	PE			Basis of Unit Price Code	​Code identifying the type of unit price for an item
+Detail	PO1	PO1	PO106	235	X	ID	2	2		IB,UP		Product/Service ID Qualifier	​Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+Detail	PO1	PO1	PO107	234	X	AN	1	48				Product/Service ID	Identifying number for a product or service
+Detail	PO1	PO1	PO108	235	X	ID	2	2		IN,VP,ZZ		Product/Service ID Qualifier	​Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+Detail	PO1	PO1	PO109	234	X	AN	1	48				Product/Service ID	Identifying number for a product or service
+Summary	CTT	CTT	CTT01	354	M	N0	1	6				Number of Line Items	Total number of line items in the transaction set
+Summary		SE	SE01	96	M	N0	1	10				Number of Included Segments	
+Summary		SE	SE02	329	M	AN	4	9				Transaction Set Control Number	

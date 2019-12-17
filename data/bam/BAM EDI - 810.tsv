@@ -1,0 +1,53 @@
+Section	Loop	Segment	Ref	Id	Req	Type	Min	Max	Default	Options	Note	Name	Description
+Heading		ST	ST01	143	M	ID	3	3	810				
+Heading		ST	ST02	329	M	AN	4	9					
+Heading		BIG	BIG01	373	M	DT	8	8				Date	
+Heading		BIG	BIG02	76	M	AN	1	22				Invoice Number	
+Heading		BIG	BIG03	373	O	DT	8	8				Date	
+Heading		BIG	BIG04	324	O	AN	1	22				Purchase Order Number	
+Heading		BIG	BIG05	328	O	AN	1	30				Release Number	
+Heading		REF	REF01	128	M	ID	2	3	IO				
+Heading		REF	REF02	127	X	AN	1	30					
+Heading	N1	N1	N101	98	M	ID	2	3		BT,ST,VN		Entity Identifier Code	
+Heading	N1	N1	N103	66	X	ID	1	2		15,57,92		Identification Code Qualifier	
+Heading	N1	N1	N104	67	X	AN	2	80				Identification Code	
+Heading	N1	N3	N301	166	M	AN	1	55				Address Information	
+Heading	N1	N3	N302	166	O	AN	1	55				Address Information	
+Heading	N1	N4	N401	19	O	AN	2	30				City Name	
+Heading	N1	N4	N402	156	O	ID	2	2				State or Province Code	
+Heading	N1	N4	N403	116	O	ID	3	15				Postal Code	
+Heading		DTM	DTM01	374	M	ID	3	3	011			Date/Time Qualifier	
+Heading		DTM	DTM02	373	X	DT	8	8				Date	
+Detail	IT1	IT1	IT101	350	O	AN	1	20					
+Detail	IT1	IT1	IT102	358	X	R	1	10					
+Detail	IT1	IT1	IT103	355	X	ID	2	2		EA,UN			
+Detail	IT1	IT1	IT104	212	X	R	1	17					
+Detail	IT1	IT1	IT106	235	X	ID	2	2		IB,UP			
+Detail	IT1	IT1	IT107	234	X	AN	1	48					
+Detail	IT1	IT1	IT108	235	X	ID	2	2		IN,PO,VP,ZZ			
+Detail	IT1	IT1	IT109	234	X	AN	1	48					
+Detail	IT1	IT1	IT110	235	X	ID	2	2	A3				
+Detail	IT1	IT1	IT111	234	X	AN	1	48					
+Detail	IT1	IT1	IT112	235	X	ID	2	2	ZZ				
+Detail	IT1	IT1	IT113	234	X	AN	1	48					
+Detail	IT1	IT1	IT114	235	X	ID	2	2	EN				
+Detail	IT1	IT1	IT115	234	X	AN	1	48					
+Detail	IT1,CTP	CTP	CTP02	236	X	ID	3	3	DPR				
+Detail	IT1,CTP	CTP	CTP03	212	X	R	1	17					
+Detail	IT1,CTP	CTP	CTP04	380	X	R	1	15					
+Detail	IT1,CTP	CTP	CTP06	648	O	ID	3	3	DIS				
+Detail	IT1,CTP	CTP	CTP07	649	X	R	1	10					
+Detail	IT1,CTP	CTP	CTP08	782	O	R	1	18					
+Detail	IT1,PID	PID	PID01	359	M	ID	1	1	F				
+Detail	IT1,PID	PID	PID05	352	X	AN	1	80					
+Detail	IT1,SAC	SAC	SAC01	248	M	ID	1	1	C			Allowance or Charge Indicator	
+Detail	IT1,SAC	SAC	SAC02	1300	X	ID	4	4	ZZZZ			Service, Promotion, Allowance, or Charge Code	
+Detail	IT1,SAC	SAC	SAC05	610	O	N2	1	15				Amount	
+Summary		TDS	TDS01	610	M	N2	1	15				Amount	
+Summary		CAD	CAD05	387	X	AN	1	35		UPSN,UPS2,UPS3,UPSG			
+Summary	SAC	SAC	SAC01	248	M	ID	1	1	C				
+Summary	SAC	SAC	SAC02	1300	X	ID	4	4	ZZZZ				
+Summary	SAC	SAC	SAC05	610	O	N2	1	15					
+Summary		CTT	CTT01	354	M	N0	1	6					
+Summary		SE	SE01	96	M	N0	1	10					
+Summary		SE	SE02	329	M	AN	4	9					

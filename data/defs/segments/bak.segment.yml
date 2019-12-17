@@ -1,0 +1,9 @@
+---
+id: BAK
+name: Beginning Segment for Purchase Order Acknowledgment
+purpose: To indicate the beginning of the Purchase Order Acknowledgment Transaction Set and transmit identifying numbers and date.
+elements:
+  - { ref: BAK01, id: '353', req: M }
+  - { ref: BAK02, id: '587', req: M }
+  - { ref: BAK03, id: '324', req: M }
+  - { ref: BAK04, id: '373', req: M }

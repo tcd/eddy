@@ -1,0 +1,6 @@
+---
+id: N3
+name: Address Information
+purpose: To specify the location of the named party
+elements:
+  - { ref: N301, id: '166', req: M }

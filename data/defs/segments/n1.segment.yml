@@ -1,0 +1,9 @@
+---
+id: N1
+name: Name
+purpose: To identify a party by type of organization, name, and code
+elements:
+  - { ref: N101, id: '98', req: M }
+  - { ref: N102, id: '93', req: X }
+  - { ref: N103, id: '66', req: X }
+  - { ref: N104, id: '67', req: X }

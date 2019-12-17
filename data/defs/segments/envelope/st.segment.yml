@@ -3,5 +3,5 @@ id: ST
 name: Transaction Set Header
 purpose: To indicate the start of a transaction set and to assign a control number.
 elements:
-  - { ref: ST01, id: '143' }
-  - { ref: ST02, id: '329' }
+  - { ref: ST01, id: '143', req: M }
+  - { ref: ST02, id: '329', req: M }

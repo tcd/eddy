@@ -1,0 +1,12 @@
+---
+id: ACK
+name: Line Item Acknowledgement
+purpose: To acknowledge the ordered quantities and specify the ready date for a specific line item
+elements:
+  - { ref: ACK01, id: '668', req: M }
+  - { ref: ACK02, id: '380', req: X }
+  - { ref: ACK03, id: '355', req: X }
+  - { ref: ACK07, id: '235', req: X }
+  - { ref: ACK08, id: '234', req: X }
+  - { ref: ACK09, id: '235', req: X }
+  - { ref: ACK10, id: '234', req: X }

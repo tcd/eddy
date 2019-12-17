@@ -1,0 +1,12 @@
+---
+id: CTT
+name: Transaction Totals
+purpose: To transmit a hash total for a specific element in the transaction set
+elements:
+  - { ref: CTT01, id: '354', req: M }
+  - { ref: CTT02, id: '347', req: O }
+  - { ref: CTT03, id: '81',  req: X }
+  - { ref: CTT04, id: '355', req: X }
+  - { ref: CTT05, id: '183', req: X }
+  - { ref: CTT06, id: '355', req: X }
+  - { ref: CTT07, id: '352', req: O }

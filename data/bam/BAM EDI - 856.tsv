@@ -1,0 +1,95 @@
+Section	Loop	Segment	Ref	Id	Req	Type	Min	Max	Default	Options	Note	Name	Description
+Not Defined		ISA	ISA01	I01	M	ID	2	2	00				
+Not Defined		ISA	ISA02	I02	M	AN	10	10					
+Not Defined		ISA	ISA03	I03	M	ID	2	2	00				
+Not Defined		ISA	ISA04	I04	M	AN	10	10					
+Not Defined		ISA	ISA05	I05	M	ID	2	2	01				
+Not Defined		ISA	ISA06	I06	M	AN	15	15					​Identification code published by the sender for other parties to use as the receiver ID to route data to them; the sender always codes this value in the sender ID element
+Not Defined		ISA	ISA07	I05	M	ID	2	2	01				
+Not Defined		ISA	ISA08	I07	M	AN	15	15					
+Not Defined		ISA	ISA09	I08	M	DT	6	6					​Identification code published by the receiver of the data; When sending, it is used by the sender as their sending ID, thus other parties sending to them will use this as a receiving ID to route data to them
+Not Defined		ISA	ISA10	I09	M	TM	4	4					
+Not Defined		ISA	ISA11	I10	M	ID	1	1			Not sure on this one.		
+Not Defined		ISA	ISA12	I11	M	ID	5	5	00401				
+Not Defined		ISA	ISA13	I12	M	N0	9	9					
+Not Defined		ISA	ISA14	I13	M	ID	1	1	0				Code sent by the sender to request an interchange acknowledgment (TA1)
+Not Defined		ISA	ISA15	I14	M	ID	1	1	P				​Code to indicate whether data enclosed by this interchange envelope is test, production or information
+Not Defined		ISA	ISA16	I15	M	N/A	1	1					
+Not Defined		GS	GS01	479	M	ID	2	2	SH				
+Not Defined		GS	GS02	142	M	AN	2	15					
+Not Defined		GS	GS03	124	M	AN	2	15					
+Not Defined		GS	GS04	373	M	DT	8	8					
+Not Defined		GS	GS05	337	M	TM	4	8					
+Not Defined		GS	GS06	28	M	N0	1	9					
+Not Defined		GS	GS07	445	M	ID	1	2	X				
+Not Defined		GS	GS08	480	M	AN	1	12	004010				
+Heading		ST	ST01	143	M	ID	3	3	856				Code uniquely identifying a Transaction Set
+Heading		ST	ST02	329	M	AN	4	9					
+Heading		BSN	BSN01	353	M	ID	2	2	00				Code identifying purpose of transaction set
+Heading		BSN	BSN02	396	M	AN	2	30					A unique control number assigned by the original shipper to identify a specific shipment
+Heading		BSN	BSN03	373	M	DT	8	8			CCYYMMDD		
+Heading		BSN	BSN04	337	M	TM	4	8					
+Heading		BSN	BSN05	1005	O	ID	4	4	0001				Code indicating the hierarchical application structure of a transaction set that utilizes the HL segment to define the structure of the transaction set
+Heading		DTM	DTM01	374	M	ID	3	3	001				
+Heading		DTM	DTM02	373	X	DT	8	8			CCYYMMDD		
+Detail	HL	HL	HL01	628	M	AN	1	12					A unique number assigned by the sender to identify a particular data segment in a hierarchical structure
+Detail	HL	HL	HL02	734	O	AN	1	12					​Identification number of the next higher hierarchical data segment that the data segment being described is subordinate to
+Detail	HL	HL	HL03	735	M	ID	1	2	S				Code defining the characteristic of a level in a hierarchical structure
+Detail	HL	TD1	TD101	103	O	AN	3	5		CTN,25	Think this might be a composite element		
+Detail	HL	TD1	TD102	80	X	N0	1	7					Number of units (pieces) of the lading commodity
+Detail	HL	TD1	TD106	187	O	ID	1	2	G				
+Detail	HL	TD1	TD107	81	X	R	1	10					
+Detail	HL	TD1	TD108	355	X	ID	2	2	LB				Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken
+Detail	HL	TD5	TD502	66	X	ID	1	2	2				
+Detail	HL	TD5	TD503	67	X	AN	2	80					
+Detail	HL	TD5	TD505	387	X	AN	1	35					
+Detail	HL	REF	REF01	128	M	ID	2	3		CN,PK			
+Detail	HL	REF	REF02	127	X	AN	1	30					
+Detail	HL	DTM	DTM01	374	M	ID	3	3	011				
+Detail	HL	DTM	DTM02	373	X	DT	8	8			CCYYMMDD		
+Detail	HL,N1	N1	N101	98	M	ID	2	3	ST				
+Detail	HL,N1	N1	N103	66	X	ID	1	2	15				
+Detail	HL,N1	N1	N104	67	X	AN	2	80					
+Detail	HL,N1	N3	N301	166	M	AN	1	55					
+Detail	HL,N1	N3	N302	166	O	AN	1	55					
+Detail	HL,N1	N4	N401	19	O	AN	2	30					
+Detail	HL,N1	N4	N402	156	O	ID	2	2					
+Detail	HL,N1	N4	N403	116	O	ID	3	15					
+Detail	HL	HL	HL101	628	M	AN	1	12					
+Detail	HL	HL	HL102	734	O	AN	1	12					
+Detail	HL	HL	HL103	735	M	ID	1	2	O				
+Detail	HL	PRF	PRF01	324	M	AN	1	22					
+Detail	HL	PRF	PRF04	373	O	DT	8	8			CCYYMMDD		
+Detail	HL	HL	HL01	628	M	AN	1	12					
+Detail	HL	HL	HL02	734	O	AN	1	12					
+Detail	HL	HL	HL03	735	M	ID	1	2	P				
+Detail	HL	MAN	MAN01	88	M	ID	1	2		GM,SM			
+Detail	HL	MAN	MAN02	87	M	AN	1	48					
+Detail	HL	HL	HL01	628	M	AN	1	12					
+Detail	HL	HL	HL02	734	O	AN	1	12					
+Detail	HL	HL	HL03	735	M	ID	1	2	I				
+Detail	HL	LIN	LIN01	350	O	AN	1	20					
+Detail	HL	LIN	LIN02	235	M	ID	2	2		IB,UP			
+Detail	HL	LIN	LIN03	234	M	AN	1	48					
+Detail	HL	LIN	LIN04	235	X	ID	2	2		EN,IN,VP			
+Detail	HL	LIN	LIN05	234	X	AN	1	48					
+Detail	HL	SN1	SN101	350	O	AN	1	20					
+Detail	HL	SN1	SN102	382	M	R	1	10					
+Detail	HL	SN1	SN103	355	M	ID	2	2	EA				
+Detail	HL	SN1	SN105	330	X	R	1	15					
+Detail	HL	SN1	SN106	355	X	ID	2	2	EA				
+Detail	HL	SLN	SLN01	350	M	AN	1	20					
+Detail	HL	SLN	SLN03	662	M	ID	1	1	O				
+Detail	HL	SLN	SLN04	380	X	R	1	15					
+Detail	HL	SLN	SLN05	C001	X	Comp	???	???			Don't know what this guy is		
+Detail	HL	SLN	SLN05-01	355	M	ID	2	2					
+Detail	HL	SLN	SLN06	212	X	R	1	17					
+Detail	HL	SLN	SLN07	639	O	ID	2	2	PE				
+Summary		CTT	CTT01	354	M	N0	1	6					
+Summary		CTT	CTT02	347	O	R	1	10					Sum of values of the specified data element. All values in the data element will be summed without regard to decimal points (explicit or implicit) or signs. Truncation will occur on the left most digits if the sum is greater than the maximum size of the hash total of the data element. Example: -.0018 First occurrence of value being hashed. .18 Second occurrence of value being hashed. 1.8 Third occurrence of value being hashed. 18.01 Fourth occurrence of value being hashed. --------- 1855 Hash total prior to truncation. 855 Hash total after truncation to three-digit field.
+Summary		SE	SE01	96	M	N0	1	10					
+Summary		SE	SE02	329	M	AN	4	9					
+Not Defined		GE	GE01	97	M	N0	1	6					Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element
+Not Defined		GE	GE02	28	M	N0	1	9					Assigned number originated and maintained by the sender
+Not Defined		IEA	IEA01	I16	M	N0	1	5					A count of the number of functional groups included in an interchange
+Not Defined		IEA	IEA02	I12	M	N0	9	9					 ​A control number assigned by the interchange sender
