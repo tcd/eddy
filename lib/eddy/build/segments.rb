@@ -8,18 +8,18 @@ module Eddy
     #
     # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
-    # @return [void]
+    # @return [String]
     def self.segment_from_definition(path, test: false)
       raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
       data = Eddy::Util.read_json_or_yaml(path)
       seg = Eddy::Schema::SegmentSummary.create(data)
-      Eddy::Build.segment(seg, test: test)
+      return Eddy::Build.segment(seg, test: test)
     end
 
     # @param seg [Eddy::Schema::SegmentSummary]
     # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
     # @param folder [String] (nil)
-    # @return [void]
+    # @return [String]
     def self.segment(seg, test: false, folder: nil)
       c = Ginny::Class.create({
         classify_name: false,
@@ -35,12 +35,13 @@ module Eddy
         STR
       })
       return c.render if test
-      if folder
-        c.generate(File.join(Eddy::Util.root_dir, "build", folder, "segments"))
-      else
-        c.generate(File.join(Eddy::Util.root_dir, "build", "segments"))
-      end
-      return nil
+      path = if folder
+               File.join(Eddy::Util.root_dir, "build", folder, "segments")
+             else
+               File.join(Eddy::Util.root_dir, "build", "segments")
+             end
+      c.generate(path)
+      return path
     end
 
     # @param seg [Eddy::Schema::SegmentSummary]
@@ -98,7 +99,6 @@ module Eddy
           @#{el.ref.downcase}.value = arg
         end
       RB
-      # alias #{el.normalized_name}= #{el.ref.upcase}
     end
 
   end

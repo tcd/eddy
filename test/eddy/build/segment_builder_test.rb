@@ -1,7 +1,7 @@
 require "test_helper"
 require "yaml"
 
-class BuildSegmentsTest < Minitest::Test
+class SegmentBuilderTest < Minitest::Test
 
   def setup
     @summary = Eddy::Schema::SegmentSummary.create({
@@ -57,7 +57,7 @@ class BuildSegmentsTest < Minitest::Test
         end
       end
     RB
-    @n2_segment = <<~RB.strip
+    @n2_segment_v2 = <<~RB.strip
       module Eddy
         module Segments
           # ### Segment Summary:
@@ -131,11 +131,11 @@ class BuildSegmentsTest < Minitest::Test
         )
       end
     RB
-    have = Eddy::Build.segment_constructor(@summary)
+    have = Eddy::Build::SegmentBuilder.from_summary(@summary).constructor()
     assert_equal(want, have)
   end
 
-  def test_element_accessor
+  def test_element_accessor_v1
     want = <<~RB.strip
       # (see Eddy::Elements::E93)
       #
@@ -147,7 +147,7 @@ class BuildSegmentsTest < Minitest::Test
     RB
     el = Eddy::Schema::ElementSummary.default_for_id("93")
     el.ref = "n201"
-    have = Eddy::Build.element_accessor(el)
+    have = Eddy::Build::SegmentBuilder.element_accessor_v1(el)
     assert_equal(want, have)
   end
 
@@ -169,18 +169,24 @@ class BuildSegmentsTest < Minitest::Test
     RB
     el = Eddy::Schema::ElementSummary.default_for_id("93")
     el.ref = "n201"
-    have = Eddy::Build.element_accessor_v2(el)
+    have = Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: true)
     assert_equal(want, have)
   end
 
   def test_segment
-    have = Eddy::Build.segment(@summary, test: true)
-    assert_equal(@n2_segment, have)
+    have = Eddy::Build::SegmentBuilder.from_summary(
+      @summary,
+      headers: true,
+    ).ginny_class().render()
+    assert_equal(@n2_segment_v2, have)
   end
 
   def test_segment_from_definition
-    have = Eddy::Build.segment_from_definition(file_fixture("schema/n2.segment.yml"), test: true)
-    assert_equal(@n2_segment, have)
+    have = Eddy::Build::SegmentBuilder.from_file(
+      file_fixture("schema/n2.segment.yml"),
+      headers: true,
+    ).ginny_class().render()
+    assert_equal(@n2_segment_v2, have)
   end
 
 end
