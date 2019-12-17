@@ -11,14 +11,16 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(formatters)
 SimpleCov.start do
   add_filter "/bin/"
   add_filter "/test/"
-  add_filter "/build/"
   add_filter "/lib/definitions/"
 
-  # add_group 'Build', ['lib/eddy', 'app/workers']
   add_group "Build", "lib/eddy/build"
+  add_group "CLI", "lib/eddy/cli"
   add_group "Models", "lib/eddy/models"
-  add_group "Data", "lib/eddy/data.rb"
-  add_group "Util", "lib/eddy/util.rb"
+  add_group "Read", "lib/eddy/read"
+  add_group "Schema", "lib/eddy/schema"
+  add_group "Util", "lib/eddy/util"
+  add_group "Data", "lib/eddy/util/data.rb"
+  add_group "Write", "lib/eddy/write"
 
   track_files "lib/**/*.rb"
 end
