@@ -9,11 +9,12 @@ module Eddy
     def self.an(el, test: false)
       constructor = Ginny::Func.create({
         name: "initialize",
+        params: [{ name: "val", type: el.yard_type, optional: true }],
         body: <<~FUNC_BODY,
           @id = "#{el.id}"
           @name = "#{el.name}"
           @description = "#{el.description}"
-          super(min: #{el.min}, max: #{el.max})
+          super(min: #{el.min}, max: #{el.max}, val: val)
         FUNC_BODY
       }).render()
       c = Ginny::Class.create({
@@ -26,7 +27,7 @@ module Eddy
         file_prefix: "#{el.id}.an.",
       })
       return c.render if test
-      c.generate(File.join(Eddy::Util.root_dir, "build", "elements", "an"))
+      c.generate(File.join(Eddy::Util.root_dir, "build", "elements"))
       return nil
     end
 

@@ -10,11 +10,12 @@ module Eddy
       fmt = determine_tm_format(el.max)
       constructor = Ginny::Func.create({
         name: "initialize",
+        params: [{ name: "val", type: el.yard_type, optional: true }],
         body: <<~FUNC_BODY,
           @id = "#{el.id}"
           @name = "#{el.name}"
           @description = "#{el.description}"
-          super(min: #{el.min}, max: #{el.max}, fmt: :#{fmt})
+          super(min: #{el.min}, max: #{el.max}, fmt: :#{fmt}, val: val)
         FUNC_BODY
       }).render()
       c = Ginny::Class.create({

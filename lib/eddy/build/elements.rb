@@ -2,28 +2,6 @@ module Eddy
   # Generate Ruby classes for modeling Data Element logic, notes, and validation.
   module Build
 
-    # Create folders in `build/elements`.
-    #
-    # @return [void]
-    def self.make_element_folders()
-      build_dir = File.join(Eddy::Util.root_dir, "build")
-      ["an", "dt", "id", "n", "r", "tm"].each do |dir|
-        FileUtils.mkdir_p(File.join(build_dir, "elements", dir))
-      end
-      return nil
-    end
-
-    # Delete all ruby files in `build/elements/**`.
-    #
-    # @return [void]
-    def self.clean_element_folders()
-      ["an", "dt", "id", "n", "r", "tm"].each do |dir|
-        files = Dir.glob(File.join(Eddy::Util.root_dir, "build", "elements", dir, "*.rb"))
-        File.delete(*files)
-      end
-      return nil
-    end
-
     # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
     #
     # @return [Array<Eddy::Schema::ElementSummary>]
