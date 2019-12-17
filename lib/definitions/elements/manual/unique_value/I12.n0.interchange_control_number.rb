@@ -12,12 +12,13 @@ module Eddy
     #
     # - Values for this element need to be generated and have their uniqueness ensured.
     class I12 < Eddy::Element::N
+      # @param val [Integer] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "I12"
         @name = "Interchange Control Number"
         @description = "A control number assigned by the interchange sender"
-        super(min: 9, max: 9, decimals: 0)
+        super(min: 9, max: 9, decimals: 0, val: val)
       end
     end
   end

@@ -12,12 +12,13 @@ module Eddy
     #
     # - Values for this element need to be generated and have their uniqueness ensured.
     class E329 < Eddy::Element::AN
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "329"
         @name = "Transaction Set Control Number"
         @description = "Identifying control number that must be unique within the transaction set functional group assigned by the originator for a transaction set"
-        super(min: 4, max: 9)
+        super(min: 4, max: 9, val: val)
       end
     end
   end

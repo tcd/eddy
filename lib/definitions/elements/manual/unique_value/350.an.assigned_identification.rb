@@ -8,12 +8,13 @@ module Eddy
     # - Min/Max: 1/20
     # - Description: Alphanumeric characters assigned for differentiation within a transaction set
     class E350 < Eddy::Element::AN
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "350"
         @name = "Assigned Identification"
         @description = "Alphanumeric characters assigned for differentiation within a transaction set"
-        super(min: 1, max: 20)
+        super(min: 1, max: 20, val: val)
       end
     end
   end
