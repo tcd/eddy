@@ -8,12 +8,13 @@ module Eddy
     # - Min/Max: 2/15
     # - Description: Code identifying party sending transmission; codes agreed to by trading partners
     class E142 < Eddy::Element::AN
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "142"
         @name = "Application Sender's Code"
         @description = "Code identifying party sending transmission; codes agreed to by trading partners"
-        super(min: 2, max: 15)
+        super(min: 2, max: 15, val: val)
       end
     end
   end
