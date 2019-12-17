@@ -1,5 +1,4 @@
 require "ginny"
-require "yaml"
 
 module Eddy
   module Build
