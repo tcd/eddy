@@ -1,3 +1,5 @@
+require "time"
+
 module Eddy
   # Container used to distribute state throughout an Interchange.
   class Store
@@ -27,12 +29,14 @@ module Eddy
 
     # @param time [Time]
     # @return [void]
-    def initialize(time:)
+    def initialize(time: Time.now().utc())
       self.time = time
       self.component_separator = ">"
       self.segment_separator   = "~"
       self.element_separator   = "*"
-      @group_control_number    = 1
+      self.number_of_included_functional_groups = 0
+      self.number_of_transaction_sets_included = 0
+      @group_control_number = 1
     end
 
     # @return [Integer]
@@ -57,9 +61,8 @@ module Eddy
     #
     # @return [Integer]
     def group_control_number()
-      raise NotImplementedError
       old_count = @group_control_number.dup
-      @number_of_transaction_sets += 1
+      @group_control_number += 1
       return old_count
     end
 
