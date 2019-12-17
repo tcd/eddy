@@ -8,12 +8,13 @@ module Eddy
     class GE < Eddy::Segment
 
       # @param store [Eddy::Store]
+      # @param group_control_number [Integer]
       # @return [void]
-      def initialize(store)
+      def initialize(store, group_control_number)
         @id = "GE"
         @name = "Functional Group Trailer"
-        @ge01 = Eddy::Elements::E97.new
-        @ge02 = Eddy::Elements::E28.new
+        @ge01 = Eddy::Elements::E97.new(store.number_of_transaction_sets_included)
+        @ge02 = Eddy::Elements::E28.new(group_control_number)
         super(store, @ge01, @ge02)
       end
 

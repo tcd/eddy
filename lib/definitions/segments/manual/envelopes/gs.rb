@@ -8,8 +8,9 @@ module Eddy
     class GS < Eddy::Segment
 
       # @param store [Eddy::Store]
+      # @param group_control_number [Integer]
       # @return [void]
-      def initialize(store)
+      def initialize(store, group_control_number)
         @id = "GS"
         @name = "Functional Group Header"
         @gs01 = Eddy::Elements::E479.new
@@ -17,7 +18,7 @@ module Eddy
         @gs03 = Eddy::Elements::E124.new
         @gs04 = Eddy::Elements::E373.new(store.time)
         @gs05 = Eddy::Elements::E337.new(store.time)
-        @gs06 = Eddy::Elements::E28.new
+        @gs06 = Eddy::Elements::E28.new(group_control_number)
         @gs07 = Eddy::Elements::E455.new
         @gs08 = Eddy::Elements::E480.new
         super(
@@ -125,6 +126,9 @@ module Eddy
       # - Min/Max: 1/2
       # - Description: Code used in conjunction with Data Element 480 to identify the issuer of the standard
       #
+      # ### Notes:
+      #
+      # - (Default value: `"X"`)
       # @param arg [String]
       # @return [void]
       def GS07=(arg)
