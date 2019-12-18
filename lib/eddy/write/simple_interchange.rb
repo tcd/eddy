@@ -21,16 +21,18 @@ module Eddy
       self.store.number_of_included_functional_groups = 1
     end
 
+    # @yieldparam [Eddy::Segments::ISA] isa
+    # @yieldparam [Eddy::Segments::IEA] iea
+    # @yieldparam [Eddy::Segments::GS] gs
+    # @yieldparam [Eddy::Segments::GE] ge
     # @return [String]
     def render()
       isa = Eddy::Segments::ISA.new(store)
-      isa.ISA05 = "ZZ"
-      isa.ISA07 = "ZZ"
-      isa.ISA15 = "T"
       iea = Eddy::Segments::IEA.new(store)
       number_of_included_functional_groups = self.store.number_of_included_functional_groups
       gs = Eddy::Segments::GS.new(store, number_of_included_functional_groups, self.transaction_set)
       ge = Eddy::Segments::GE.new(store, number_of_included_functional_groups)
+      yield(isa, iea, gs, ge) if block_given?
       self.components.prepend(gs)
       self.components.prepend(isa)
       self.components.append(ge)

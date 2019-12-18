@@ -1,8 +1,8 @@
 require "test_helper"
 
-class WriteTest < Minitest::Test
+class SimpleInterchangeTest < Minitest::Test
 
-  def test_empty_interchange
+  def test_render_with_block
     want = <<~EDI.gsub(/\n/, "")
       ISA*00*          *00*          *ZZ*sender_id      *ZZ*receiver_id    *700101*0000*U*00401*000000001*0*T*>~
       GS*PR*sender_id*receiver_id*19700101*00000000*1*X*004010~
@@ -14,7 +14,12 @@ class WriteTest < Minitest::Test
     )
     store.segment_separator = "~"
     itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::TS855, store: store)
-    assert_equal(want, itch.render())
+    have = itch.render do |isa|
+      isa.ISA05 = "ZZ"
+      isa.ISA07 = "ZZ"
+      isa.ISA15 = "T"
+    end
+    assert_equal(want, have)
   end
 
   def test_new_interchange_control_number
