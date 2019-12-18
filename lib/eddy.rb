@@ -18,6 +18,7 @@ require "eddy/models/transaction_set"
 require "eddy/write/methods"
 require "eddy/write/store"
 require "eddy/write/interchange"
+require "eddy/write/simple_interchange"
 require "eddy/write/functional_group"
 
 Dir.glob(File.join(__dir__, "eddy", "build", "elements", "*.rb")).each { |file| require file }
