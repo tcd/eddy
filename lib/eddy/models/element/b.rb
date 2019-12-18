@@ -1,6 +1,10 @@
 module Eddy
   module Element
     # Binary Data
+    #
+    # See:
+    #
+    # - [Maximum Length of Binary Data Element - X12 RFI](http://www.x12.org/rfis/Maximum%20Length%20of%20Binary%20Data%20Element.pdf)
     class B < Base
 
       # @param min [Integer]

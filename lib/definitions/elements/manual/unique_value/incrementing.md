@@ -11,3 +11,7 @@ Different categories for unique values:
     - 350 (Assigned Identification)
 
 - 28 (Group Control Number)
+
+## Links
+
+- [Control Numbers in Interchange - X12 RFI](http://www.x12.org/rfis/Control%20Numbers%20in%20Interchange.pdf)

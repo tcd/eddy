@@ -12,6 +12,7 @@ module Eddy
     #
     # - There are too many valid values for this, so it uses a regular expression instead of a codelist.
     # - FIXME: Implement that ☝
+    # - See [Segment and Data Element Definitions - X12 RFI](http://www.x12.org/rfis/Segment%20and%20Data%20Element%20Definitions.pdf)
     class E116 < Eddy::Element::ID
 
       # @param val [String] (nil)
