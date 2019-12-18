@@ -15,6 +15,7 @@ module Eddy
     class TM < Base
 
       # Format for the date. Valid values: `:hhmm`, `:hhmmss`, `:hhmmssd`, and `:hhmmssdd`
+      # TODO: Decide if this should be an attr_accessor
       # @return [Symbol<:hhmm, :hhmmss, :hhmmssd, :hhmmssdd>]
       attr_reader :fmt
 
@@ -23,22 +24,41 @@ module Eddy
       # @raise [ArgumentError] If an invalid format argument is passed.
       # @param min [Integer] (nil)
       # @param max [Integer] (nil)
+      # @param req [Boolean] (nil)
+      # @param val [Time] (nil) A [time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object in `UTC` format.
       # @param fmt [Symbol] (nil) Format for the date. Valid values: `:hhmm`, `:hhmmss`, `:hhmmssd`, and `:hhmmssdd`
-      # @param val [Time] A [time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object in `UTC` format.
       # @return [void]
-      def initialize(min: nil, max: nil, fmt: nil, val: nil)
+      def initialize(
+        min: nil,
+        max: nil,
+        req: nil,
+        val: nil,
+        fmt: nil
+      )
         @type = "TM"
         @min = min
         @max = max
+        @req = req
         if fmt.nil?
           raise ArgumentError, "TM elements require either a `fmt` value, or `min` and `max` values." if min.nil? || max.nil?
           @fmt = determine_format()
         else
-          fmt = fmt.to_sym.downcase
-          raise ArgumentError unless accepted_formats.include?(fmt)
-          @fmt = fmt
+          self.fmt = fmt
         end
         self.value = val
+      end
+
+      # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
+      # @return [String]
+      def value()
+        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        case self.fmt
+        when :hhmm then return TM.hhmm(@val)
+        when :hhmmss then return TM.hhmmss(@val)
+        when :hhmmssd then return TM.hhmmssd(@val)
+        when :hhmmssdd then return TM.hhmmssdd(@val)
+        else raise Eddy::Errors::Error, "invalid fmt value for TM object"
+        end
       end
 
       # @raise [ElementValidationError] Unless passed a *UTC* formatted Time object.
@@ -46,26 +66,21 @@ module Eddy
       # @return [void]
       def value=(arg)
         if arg.nil?
-          @value = arg
+          @val = arg
           return
         end
         raise Eddy::Errors::ElementValidationError unless arg.is_a?(Time)
         raise Eddy::Errors::ElementValidationError, "argument is not in UTC format" unless arg.utc?()
-        @value = arg
+        @val = arg
       end
 
-      # @raise [ElementNilValueError] if `time` is `nil`
-      # @param required [Boolean] (false)
-      # @return [String]
-      def value(required: false)
-        raise Eddy::Errors::ElementNilValueError if @value.nil?
-        case self.fmt
-        when :hhmm then return TM.hhmm(@value)
-        when :hhmmss then return TM.hhmmss(@value)
-        when :hhmmssd then return TM.hhmmssd(@value)
-        when :hhmmssdd then return TM.hhmmssdd(@value)
-        else raise Eddy::Errors::Error, "invalid fmt value for TM object"
-        end
+      # @param fmt [Symbol]
+      # @return [void]
+      def fmt=(fmt)
+        return if fmt.nil?
+        fmt = fmt.to_sym.downcase
+        raise ArgumentError unless accepted_formats.include?(fmt)
+        @fmt = fmt
       end
 
       # @return [Array<Symbol>]

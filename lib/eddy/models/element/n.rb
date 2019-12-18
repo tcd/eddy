@@ -9,21 +9,23 @@ module Eddy
 
       # @param min [Integer]
       # @param max [Integer]
+      # @param req [Boolean] (nil)
+      # @param val [Integer] (nil)
       # @param decimals [Integer]
-      # @param val [Integer,nil] (nil)
       # @return [void]
-      def initialize(min:, max:, decimals:, val: nil)
+      def initialize(min:, max:, req: nil, val: nil, decimals:)
         @min = min
         @max = max
+        @req = req
         self.decimals = decimals
         self.value = val
       end
 
-      # @param required [Boolean] (false)
+      # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
-      def value(required: false)
-        return sprintf("%0#{self.min}d", @value) unless @value.nil?
-        raise Eddy::Errors::ElementNilValueError if required
+      def value()
+        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        return sprintf("%0#{self.min}d", @val) unless @val.nil?
         return nil
       end
 
@@ -32,13 +34,12 @@ module Eddy
       # @return [void]
       def value=(arg)
         if arg.nil?
-          @value = nil
+          @val = nil
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be an integer" unless arg.is_a?(Integer)
-        # raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.to_s.length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.to_s.length > self.max
-        @value = arg
+        @val = arg
       end
 
     end

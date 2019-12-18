@@ -8,15 +8,15 @@ class IdTest < Minitest::Test
   end
 
   def test_value_getter
-    i05 = Eddy::Elements::I05.new()
-    assert_nil(i05.value(required: false))
-    assert_raises(Eddy::Errors::ElementNilValueError) { i05.value(required: true) }
+    i05_not_required = Eddy::Elements::I05.new(req: false)
+    assert_nil(i05_not_required.value())
+    i05_required = Eddy::Elements::I05.new(req: true)
+    assert_raises(Eddy::Errors::ElementNilValueError) { i05_required.value() }
   end
 
   def test_value_setter
-    i01 = Eddy::Elements::I01.new()
-    i01.value = "00"
-    assert_equal("00", i01.value)
+    i01 = Eddy::Elements::I01.new(val: "01")
+    assert_equal("01", i01.value)
   end
 
 end

@@ -24,12 +24,13 @@ class BuildElementsTest < Minitest::Test
           # - Description: Free-form name
           class E93 < Eddy::Element::AN
             # @param val [String]
+            # @param req [Boolean]
             # @return [void]
-            def initialize(val = nil)
+            def initialize(val: nil, req: nil)
               @id = "93"
               @name = "Name"
               @description = "Free-form name"
-              super(min: 1, max: 60, val: val)
+              super(min: 1, max: 60, req: req, val: val)
             end
           end
         end
@@ -38,36 +39,6 @@ class BuildElementsTest < Minitest::Test
     raw_data = @data.find { |d| d[:id] == "93" }
     processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.an(processed_data, test: true)
-    assert_equal(want, have)
-  end
-
-  def test_dt
-    want = <<~RUBY.strip
-      module Eddy
-        module Elements
-          # ### Element Summary:
-          #
-          # - Id: 109
-          # - Name: Pick-up Date
-          # - Type: DT
-          # - Min/Max: 8/8
-          # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
-          class E109 < Eddy::Element::DT
-            # @param val [Time]
-            # @return [void]
-            def initialize(val = nil)
-              @id = "109"
-              @name = "Pick-up Date"
-              @description = "Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD"
-              super(min: 8, max: 8, fmt: :ccyymmdd, val: val)
-            end
-          end
-        end
-      end
-    RUBY
-    raw_data = @data.find { |d| d[:id] == "109" }
-    processed_data = Eddy::Build.extract_element_data(raw_data)
-    have = Eddy::Build.dt(processed_data, test: true)
     assert_equal(want, have)
   end
 
@@ -85,12 +56,13 @@ class BuildElementsTest < Minitest::Test
           class I03 < Eddy::Element::ID
 
             # @param val [String]
+            # @param req [Boolean]
             # @return [void]
-            def initialize(val = nil)
+            def initialize(val: nil, req: nil)
               @id = "I03"
               @name = "Security Information Qualifier"
               @description = "Code to identify the type of information in the Security Information"
-              super(min: 2, max: 2, val: val)
+              super(min: 2, max: 2, req: req, val: val)
             end
 
             # @return [Array<String>]
@@ -124,12 +96,13 @@ class BuildElementsTest < Minitest::Test
           # - Description: The length in integral octets of the binary data
           class E784 < Eddy::Element::N
             # @param val [Integer]
+            # @param req [Boolean]
             # @return [void]
-            def initialize(val = nil)
+            def initialize(val: nil, req: nil)
               @id = "784"
               @name = "Length of Binary Data"
               @description = "The length in integral octets of the binary data"
-              super(min: 1, max: 15, decimals: 0, val: val)
+              super(min: 1, max: 15, req: req, val: val, decimals: 0)
             end
           end
         end
@@ -154,12 +127,13 @@ class BuildElementsTest < Minitest::Test
           # - Description: Numeric value of weight
           class E81 < Eddy::Element::R
             # @param val [Float]
+            # @param req [Boolean]
             # @return [void]
-            def initialize(val = nil)
+            def initialize(val: nil, req: nil)
               @id = "81"
               @name = "Weight"
               @description = "Numeric value of weight"
-              super(min: 1, max: 10, val: val)
+              super(min: 1, max: 10, req: req, val: val)
             end
           end
         end
@@ -168,6 +142,37 @@ class BuildElementsTest < Minitest::Test
     raw_data = @data.find { |d| d[:id] == "81" }
     processed_data = Eddy::Build.extract_element_data(raw_data)
     have = Eddy::Build.r(processed_data, test: true)
+    assert_equal(want, have)
+  end
+
+  def test_dt
+    want = <<~RUBY.strip
+      module Eddy
+        module Elements
+          # ### Element Summary:
+          #
+          # - Id: 109
+          # - Name: Pick-up Date
+          # - Type: DT
+          # - Min/Max: 8/8
+          # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
+          class E109 < Eddy::Element::DT
+            # @param val [Time]
+            # @param req [Boolean]
+            # @return [void]
+            def initialize(val: nil, req: nil)
+              @id = "109"
+              @name = "Pick-up Date"
+              @description = "Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD"
+              super(min: 8, max: 8, req: req, val: val)
+            end
+          end
+        end
+      end
+    RUBY
+    raw_data = @data.find { |d| d[:id] == "109" }
+    processed_data = Eddy::Build.extract_element_data(raw_data)
+    have = Eddy::Build.dt(processed_data, test: true)
     assert_equal(want, have)
   end
 
@@ -184,12 +189,13 @@ class BuildElementsTest < Minitest::Test
           # - Description: Time (HHMM) that the carrier is to pick up the shipment
           class E111 < Eddy::Element::TM
             # @param val [Time]
+            # @param req [Boolean]
             # @return [void]
-            def initialize(val = nil)
+            def initialize(val: nil, req: nil)
               @id = "111"
               @name = "Pick-up Time"
               @description = "Time (HHMM) that the carrier is to pick up the shipment"
-              super(min: 4, max: 4, fmt: :hhmm, val: val)
+              super(min: 4, max: 4, req: req, val: val)
             end
           end
         end

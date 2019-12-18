@@ -11,12 +11,15 @@ module Eddy
       return nil if code_list.nil?
       constructor = Ginny::Func.create({
         name: "initialize",
-        params: [{ name: "val", type: el.yard_type, optional: true }],
+        params: [
+          { name: "val", type: el.yard_type, optional: true, keyword: true },
+          { name: "req", type: "Boolean",    optional: true, keyword: true },
+        ],
         body: <<~FUNC_BODY,
           @id = "#{el.id}"
           @name = "#{el.name}"
           @description = "#{el.description}"
-          super(min: #{el.min}, max: #{el.max}, val: val)
+          super(min: #{el.min}, max: #{el.max}, req: req, val: val)
         FUNC_BODY
       }).render()
       c = Ginny::Class.create({

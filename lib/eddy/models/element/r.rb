@@ -5,20 +5,21 @@ module Eddy
 
       # @param min [Integer]
       # @param max [Integer]
+      # @param req [Boolean] (nil)
       # @param val [Float] (nil)
       # @return [void]
-      def initialize(min:, max:, val: nil)
+      def initialize(min:, max:, req: nil, val: nil)
         @type = "R"
         @min = min
         @max = max
+        @req = req
         self.value = val
       end
 
-      # @param required [Boolean] (false)
       # @return [String]
-      def value(required: false)
-        # raise Eddy::Errors::ElementNilValueError if @value.nil?
-        return process(@value)
+      def value()
+        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        return process(@val)
       end
 
       # @param arg [Float]
@@ -26,17 +27,16 @@ module Eddy
       # @return [void]
       def value=(arg)
         if arg.nil?
-          @value = arg
+          @val = arg
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be a float" unless arg.is_a?(Float)
-        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if process(arg).length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if process(arg).length > self.max
-        @value = arg
+        @val = arg
       end
 
       # Stringify a float value and trim to the element's `max` attribute.
-      # TODO: Use `printf` here.
+      # TODO: Use `sprintf` here.
       #
       # @param float [Float]
       # @return [String]

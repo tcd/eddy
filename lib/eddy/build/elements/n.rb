@@ -10,12 +10,15 @@ module Eddy
       decimal_points = self.determine_decimals(el.type)
       constructor = Ginny::Func.create({
         name: "initialize",
-        params: [{ name: "val", type: el.yard_type, optional: true }],
+        params: [
+          { name: "val", type: el.yard_type, optional: true, keyword: true },
+          { name: "req", type: "Boolean",    optional: true, keyword: true },
+        ],
         body: <<~FUNC_BODY,
           @id = "#{el.id}"
           @name = "#{el.name}"
           @description = "#{el.description}"
-          super(min: #{el.min}, max: #{el.max}, decimals: #{decimal_points}, val: val)
+          super(min: #{el.min}, max: #{el.max}, req: req, val: val, decimals: #{decimal_points})
         FUNC_BODY
       }).render()
       c = Ginny::Class.create({

@@ -1,5 +1,4 @@
 module Eddy
-  # Base types for EDI Data Elements.
   module Element
     # Base class for EDI Data Element types.
     class Base
@@ -20,7 +19,8 @@ module Eddy
       # Maximum length for a valid value
       # @return [Integer]
       attr_reader :max
-      # TODO: Define me. Indicates whether the value must be present in it's segment.
+      # Indicates whether the value must be present in it's segment.
+      # TODO: another attr that specifies whether to render if empty may be needed.
       # @return [Boolean]
       attr_reader :req
 
@@ -38,17 +38,28 @@ module Eddy
 
       # Generate a description to use as a doc comment for an element.
       #
+      # @param header [Boolean] (true)
       # @return [Hash]
-      def doc_comment()
-        return <<~END.strip
-          ### Element Summary:
+      def doc_comment(header: true)
+        if header
+          return <<~END.strip
+            ### Element Summary:
 
-          - Id: #{self.id}
-          - Name: #{self.name}
-          - Type: #{self.type}
-          - Min/Max: #{self.min}/#{self.max}
-          - Description: #{self.description}
-        END
+            - Id: #{self.id}
+            - Name: #{self.name}
+            - Type: #{self.type}
+            - Min/Max: #{self.min}/#{self.max}
+            - Description: #{self.description}
+          END
+        else
+          return <<~END.strip
+            - Id: #{self.id}
+            - Name: #{self.name}
+            - Type: #{self.type}
+            - Min/Max: #{self.min}/#{self.max}
+            - Description: #{self.description}
+          END
+        end
       end
 
     end

@@ -10,38 +10,44 @@ module Eddy
     class DT < Base
 
       # Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`
+      # TODO: Decide if this should be an attr_accessor
       # @return [Symbol<:yymmdd, :ccyymmdd>]
       attr_reader :fmt
 
       # @raise [ArgumentError] If an invalid format argument is passed.
       # @param min [Integer] (nil)
       # @param max [Integer] (nil)
-      # @param fmt [Symbol] (nil) Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`.
+      # @param req [Boolean] (nil)
       # @param val [Time] (nil) A *UTC* formatted Time object.
+      # @param fmt [Symbol] (nil) Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`.
       # @return [void]
-      def initialize(min: nil, max: nil, fmt: nil, val: nil)
+      def initialize(
+        min: nil,
+        max: nil,
+        req: nil,
+        val: nil,
+        fmt: nil
+      )
         @type = "DT"
         @min = min
         @max = max
+        @req = req
         if fmt.nil?
           raise ArgumentError, "DT elements require either a `fmt` value, or `min` and `max` values." if min.nil? || max.nil?
           @fmt = determine_format()
         else
-          fmt = fmt.to_sym.downcase
-          raise ArgumentError unless accepted_formats.include?(fmt)
-          @fmt = fmt
+          self.fmt = fmt
         end
         self.value = val
       end
 
-      # @raise [ElementNilValueError] if `date` is `nil`
-      # @param required [Boolean] (false)
+      # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
-      def value(required: false)
-        raise Eddy::Errors::ElementNilValueError if @value.nil?
+      def value()
+        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
         case self.fmt
-        when :yymmdd then return DT.yymmdd(@value)
-        when :ccyymmdd then return DT.ccyymmdd(@value)
+        when :yymmdd then return DT.yymmdd(@val)
+        when :ccyymmdd then return DT.ccyymmdd(@val)
         else raise Eddy::Errors::Error "invalid fmt value for DT object"
         end
       end
@@ -51,12 +57,21 @@ module Eddy
       # @return [void]
       def value=(arg)
         if arg.nil?
-          @value = arg
+          @val = arg
           return
         end
         raise Eddy::Errors::ElementValidationError unless arg.is_a?(Time)
         raise Eddy::Errors::ElementValidationError "argument is not in UTC format" unless arg.utc?()
-        @value = arg
+        @val = arg
+      end
+
+      # @param fmt [Symbol]
+      # @return [void]
+      def fmt=(fmt)
+        return if fmt.nil?
+        fmt = fmt.to_sym.downcase
+        raise ArgumentError unless accepted_formats.include?(fmt)
+        @fmt = fmt
       end
 
       # @return [Array<Symbol>]
