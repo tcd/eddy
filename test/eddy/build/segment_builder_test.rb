@@ -1,5 +1,4 @@
 require "test_helper"
-require "yaml"
 
 class SegmentBuilderTest < Minitest::Test
 
