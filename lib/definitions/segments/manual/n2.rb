@@ -7,6 +7,7 @@ module Eddy
     # - Purpose: To identify a party by type of organization, name, and code
     class N2 < Eddy::Segment
 
+      # @param store [Eddy::Store]
       # @return [void]
       def initialize(store)
         @id = "N2"
