@@ -13,12 +13,13 @@ module Eddy
     # - FIXME: Currently only accepts states in the USA.
     class E156 < Eddy::Element::ID
 
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "156"
         @name = "State or Province Code"
         @description = "(Standard State/Province) as defined by appropriate government agency."
-        super(min: 2, max: 2)
+        super(min: 2, max: 2, val: val)
       end
 
       # @return [Array<String>]

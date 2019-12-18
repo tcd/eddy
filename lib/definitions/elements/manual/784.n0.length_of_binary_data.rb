@@ -8,12 +8,13 @@ module Eddy
     # - Min/Max: 1/15
     # - Description: The length in integral octets of the binary data
     class E784 < Eddy::Element::N
+      # @param val [Integer] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "784"
         @name = "Length of Binary Data"
         @description = "The length in integral octets of the binary data"
-        super(min: 1, max: 15, decimals: 0)
+        super(min: 1, max: 15, decimals: 0, val: val)
       end
     end
   end

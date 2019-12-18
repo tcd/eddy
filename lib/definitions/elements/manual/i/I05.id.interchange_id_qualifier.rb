@@ -9,12 +9,13 @@ module Eddy
     # - Description: Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified
     class I05 < Eddy::Element::ID
 
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "I05"
         @name = "Interchange ID Qualifier"
         @description = "Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified"
-        super(min: 2, max: 2)
+        super(min: 2, max: 2, val: val)
       end
 
       # @return [Array<String>]

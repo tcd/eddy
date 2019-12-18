@@ -9,12 +9,13 @@ module Eddy
     # - Description: Code sent by the sender to request an interchange acknowledgment (`TA1`)
     class I13 < Eddy::Element::ID
 
+      # @param val [String] ("0")
       # @return [void]
-      def initialize()
+      def initialize(val = "0")
         @id = "I13"
         @name = "Acknowledgment Requested"
         @description = "Code sent by the sender to request an interchange acknowledgment (`TA1`)"
-        super(min: 1, max: 1)
+        super(min: 1, max: 1, val: val)
       end
 
       # @return [Array<String>]

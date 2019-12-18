@@ -9,7 +9,7 @@ module Eddy
     # - Description: Code uniquely identifying a Transaction Set
     class E143 < Eddy::Element::ID
 
-      # @param val [String]
+      # @param val [String] (nil)
       # @return [void]
       def initialize(val = nil)
         @id = "143"

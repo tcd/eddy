@@ -13,6 +13,7 @@ module Eddy
     # - (Default value: `"X"`)
     class E455 < Eddy::Element::ID
 
+      # @param val [String] ("X")
       # @return [void]
       def initialize(val = "X")
         @id = "455"

@@ -12,8 +12,9 @@ module Eddy
     #
     # - By default, this element's value is just 10 empty spaces.
     class I02 < Eddy::Element::AN
+      # @param val [String]
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "I02"
         @name = "Authorization Information"
         @description = "Information used for additional identification or authorization of the interchange sender or the data in the interchange; the type of information is set by the Authorization Information Qualifier (`I01`)"

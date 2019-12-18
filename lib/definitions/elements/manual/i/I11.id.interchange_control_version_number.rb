@@ -12,12 +12,14 @@ module Eddy
     #
     # - (Default value: `"00401"`)
     class I11 < Eddy::Element::ID
+
+      # @param val [String] ("00401")
       # @return [void]
-      def initialize()
+      def initialize(val = "00401")
         @id = "I11"
         @name = "Interchange Control Version Number"
         @description = "This version number covers the interchange control segments"
-        super(min: 5, max: 5, val: "00401")
+        super(min: 5, max: 5, val: val)
       end
 
       # @return [Array<String>]
@@ -39,6 +41,7 @@ module Eddy
           "00402", # Draft Standards for Trial Use Approved for Publication by ASC X12 Procedures Review Board through October 1998
         ]
       end
+
     end
   end
 end

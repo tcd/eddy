@@ -9,12 +9,13 @@ module Eddy
     # - Description: Code to indicate whether data enclosed by this interchange envelope is test, production or information
     class I14 < Eddy::Element::ID
 
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "I14"
         @name = "Usage Indicator"
         @description = "Code to indicate whether data enclosed by this interchange envelope is test, production or information"
-        super(min: 1, max: 1)
+        super(min: 1, max: 1, val: val)
       end
 
       # @return [Array<String>]

@@ -9,12 +9,13 @@ module Eddy
     # - Description: A string of octets which can assume any binary pattern from hexadecimal 00 to FF
     class E785 < Eddy::Element::B
       # @param max [Integer] Value set in preceeding `784` element.
+      # @param val [String] (nil)
       # @return [void]
-      def initialize(max)
+      def initialize(max, val: nil)
         @id = "785"
         @name = "Binary Data"
         @description = "A string of octets which can assume any binary pattern from hexadecimal 00 to FF"
-        super(min: 1, max: max)
+        super(min: 1, max: max, val: val)
       end
     end
   end

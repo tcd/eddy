@@ -4,7 +4,7 @@ module Eddy
     #
     # - Id: I15
     # - Name: Component Element Separator
-    # - Type: N/A (Type is not applicable (*but it's totally a string/AN*))
+    # - Type: N/A (Type is not applicable (*but it's functionally AN*))
     # - Min/Max: 1/1
     # - Description:
     #   - The component element separator is a delimiter and not a data element.
@@ -15,7 +15,7 @@ module Eddy
     #
     # - (Default value: `">"`)
     class I15 < Eddy::Element::AN
-      # @param val [String]
+      # @param val [String] (">")
       # @return [void]
       def initialize(val = ">")
         @id = "I15"

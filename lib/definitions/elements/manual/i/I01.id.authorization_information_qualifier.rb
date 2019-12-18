@@ -13,12 +13,13 @@ module Eddy
     # - (Default value: `"00"`)
     class I01 < Eddy::Element::ID
 
+      # @param val [String] ("00")
       # @return [void]
-      def initialize()
+      def initialize(val = "00")
         @id = "I01"
         @name = "Authorization Information Qualifier"
         @description = "Code to identify the type of information in the Authorization Information"
-        super(min: 2, max: 2, val: "00")
+        super(min: 2, max: 2, val: val)
       end
 
       # @return [Array<String>]

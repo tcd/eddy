@@ -13,6 +13,7 @@ module Eddy
     #         - Positions 7-12 are the industry or trade association identifiers (optionally assigned by user)
     #     - If code in DE455 in GS segment is T, then other formats are allowed
     class E480 < Eddy::Element::AN
+
       # @param val [String] (nil)
       # @return [void]
       def initialize(val = nil)
@@ -127,7 +128,6 @@ module Eddy
           "007060", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through December 2018
           "007061", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through April 2019
           "007062", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through August 2019
-
         ]
       end
 

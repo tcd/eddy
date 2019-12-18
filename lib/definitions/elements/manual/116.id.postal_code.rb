@@ -14,12 +14,13 @@ module Eddy
     # - FIXME: Implement that ☝
     class E116 < Eddy::Element::ID
 
+      # @param val [String] (nil)
       # @return [void]
-      def initialize()
+      def initialize(val = nil)
         @id = "116"
         @name = "Postal Code"
         @description = "Code defining international postal zone code excluding punctuation and blanks (zip code for United States)"
-        super(min: 3, max: 15)
+        super(min: 3, max: 15, val: val)
       end
 
       # @return [Regexp]
