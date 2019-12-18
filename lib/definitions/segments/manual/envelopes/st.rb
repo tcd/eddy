@@ -13,7 +13,7 @@ module Eddy
         @id = "ST"
         @name = "Transaction Set Header"
         @st01 = Eddy::Elements::E143.new
-        @st02 = Eddy::Elements::E329.new
+        @st02 = Eddy::Elements::E329.new() # TODO: store.transaction_set_control_number
         super(store, @st01, @st02)
       end
 

@@ -23,7 +23,7 @@ module Eddy
         @isa09 = Eddy::Elements::I08.new(store.time)
         @isa10 = Eddy::Elements::I09.new(store.time)
         @isa11 = Eddy::Elements::I10.new
-        @isa12 = Eddy::Elements::I11.new
+        @isa12 = Eddy::Elements::I11.new(store.edi_version)
         @isa13 = Eddy::Elements::I12.new() # TODO: store.interchange_control_number
         @isa14 = Eddy::Elements::I13.new
         @isa15 = Eddy::Elements::I14.new

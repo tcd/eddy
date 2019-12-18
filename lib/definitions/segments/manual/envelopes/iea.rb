@@ -13,7 +13,7 @@ module Eddy
         @id = "IEA"
         @name = "Interchange Control Trailer"
         @iea01 = Eddy::Elements::I16.new(store.number_of_included_functional_groups)
-        @iea02 = Eddy::Elements::I12.new(store.interchange_control_number)
+        @iea02 = Eddy::Elements::I12.new() # TODO: store.interchange_control_numbor
         super(store, @iea01, @iea02)
       end
 

@@ -13,7 +13,7 @@ module Eddy
         @id = "SE"
         @name = "Transaction Set Trailer"
         @se01 = Eddy::Elements::E143.new
-        @se02 = Eddy::Elements::E329.new
+        @se02 = Eddy::Elements::E329.new() # TODO: store.transaction_set_control_number
         super(store, @se01, @se02)
       end
 
