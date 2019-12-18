@@ -23,7 +23,6 @@ require "eddy/write/functional_group"
 
 Dir.glob(File.join(__dir__, "eddy", "build", "elements", "*.rb")).each { |file| require file }
 require "eddy/build/elements"
-require "eddy/build/segments"
 require "eddy/build/segment_builder"
 
 Dir.glob(File.join(__dir__, "definitions", "elements", "manual", "**", "*.rb")).each { |file| require file }

@@ -10,7 +10,9 @@ namespace :build do
   desc "Build a segment from a YAML definition"
   task :segment, [:path] do |_, arg|
     path = File.expand_path(arg[:path])
-    Eddy::Build.segment_from_definition(path)
+    builder = Eddy::Build::SegmentBuilder.from_file(path)
+    result = builder.build()
+    puts("Segment class generated: #{result}")
   end
 
 end

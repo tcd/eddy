@@ -47,15 +47,13 @@ module Eddy
         return sb
       end
 
+      # Generated the Segment and return the name of the file where it was written.
+      #
       # @return [String]
       def build()
-        path = if folder
-                 File.join(Eddy::Util.root_dir, "build", folder, "segments")
-               else
-                 File.join(Eddy::Util.root_dir, "build", "segments")
-               end
-        self.ginny_class.generate(path)
-        return path
+        path = self.folder || File.join(Eddy::Util.root_dir, "build", "segments")
+        result = self.ginny_class.generate(path)
+        return result
       end
 
       # @return [Ginny::Class]

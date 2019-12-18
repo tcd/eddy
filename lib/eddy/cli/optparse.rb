@@ -41,5 +41,14 @@ module Eddy
       end
     end
 
+    # @param path [String]
+    # @return [void]
+    def segment(path)
+      path = File.expand_path(path)
+      builder = Eddy::Build::SegmentBuilder.from_file(path)
+      result = builder.build()
+      puts("Segment class generated: #{result}")
+    end
+
   end
 end

@@ -17,8 +17,9 @@ module Eddy
     # @return [void]
     def segment(path)
       path = File.expand_path(path)
-      Eddy::Build.segment_from_definition(path)
-      puts("Generating segment class from '#{path}'")
+      builder = Eddy::Build::SegmentBuilder.from_file(path)
+      result = builder.build()
+      puts("Segment class generated: #{result}")
     end
 
   end
