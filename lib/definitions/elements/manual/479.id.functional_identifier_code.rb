@@ -10,12 +10,13 @@ module Eddy
     class E479 < Eddy::Element::ID
 
       # @param val [String]
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "479"
         @name = "Functional Identifier Code"
         @description = "(Functional Group) Code identifying a group of application related transaction sets"
-        super(min: 2, max: 2, val: val)
+        super(min: 2, max: 2, req: req, val: val)
       end
 
       # @return [Array<String>]

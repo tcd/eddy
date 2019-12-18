@@ -13,12 +13,13 @@ module Eddy
     # - Values for this element need to be generated and have their uniqueness ensured.
     class E28 < Eddy::Element::N
       # @param val [Integer] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "28"
         @name = "Group Control Number"
         @description = "Assigned number originated and maintained by the sender"
-        super(min: 1, max: 9, decimals: 0, val: val)
+        super(min: 1, max: 9, req: req, val: val, decimals: 0)
       end
     end
   end

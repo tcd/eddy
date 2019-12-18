@@ -14,12 +14,13 @@ module Eddy
     class I10 < Eddy::Element::ID
 
       # @param val [String] ("U")
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = "U")
+      def initialize(val: "U", req: nil)
         @id = "I10"
         @name = "Interchange Control Standards Identifier"
         @description = "Code to identify the agency responsible for the control standard used by the message that is enclosed by the interchange header and trailer"
-        super(min: 1, max: 1, val: val)
+        super(min: 1, max: 1, req: req, val: val)
       end
 
       # @return [Array<String>]

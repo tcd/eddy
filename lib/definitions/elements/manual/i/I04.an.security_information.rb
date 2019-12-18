@@ -13,14 +13,16 @@ module Eddy
     # - By default, this element's value is just 10 empty spaces.
     class I04 < Eddy::Element::AN
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "I04"
         @name = "Security Information"
         @description = "This is used for identifying the security information about the interchange sender or the data in the interchange; the type of information is set by the Security Information Qualifier (`I03`)"
         super(
           min: 10,
           max: 10,
+          req: req,
           val: (" " * 10), # "          "
         )
       end

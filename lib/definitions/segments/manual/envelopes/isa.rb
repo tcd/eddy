@@ -17,17 +17,17 @@ module Eddy
         @isa03 = Eddy::Elements::I03.new
         @isa04 = Eddy::Elements::I04.new
         @isa05 = Eddy::Elements::I05.new
-        @isa06 = Eddy::Elements::I06.new(store.application_senders_code)
+        @isa06 = Eddy::Elements::I06.new(val: store.application_senders_code)
         @isa07 = Eddy::Elements::I05.new
-        @isa08 = Eddy::Elements::I07.new(store.application_receivers_code)
-        @isa09 = Eddy::Elements::I08.new(store.time)
-        @isa10 = Eddy::Elements::I09.new(store.time)
+        @isa08 = Eddy::Elements::I07.new(val: store.application_receivers_code)
+        @isa09 = Eddy::Elements::I08.new(val: store.time)
+        @isa10 = Eddy::Elements::I09.new(val: store.time)
         @isa11 = Eddy::Elements::I10.new
-        @isa12 = Eddy::Elements::I11.new(store.edi_version)
-        @isa13 = Eddy::Elements::I12.new(store.interchange_control_number)
+        @isa12 = Eddy::Elements::I11.new(val: store.edi_version)
+        @isa13 = Eddy::Elements::I12.new(val: store.interchange_control_number)
         @isa14 = Eddy::Elements::I13.new
         @isa15 = Eddy::Elements::I14.new
-        @isa16 = Eddy::Elements::I15.new(store.component_separator)
+        @isa16 = Eddy::Elements::I15.new(val: store.component_separator)
         super(
           store,
           @isa01,

@@ -7,15 +7,20 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code sent by the sender to request an interchange acknowledgment (`TA1`)
+    #
+    # ### Notes:
+    #
+    # - Default value: `"0"`
     class I13 < Eddy::Element::ID
 
       # @param val [String] ("0")
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = "0")
+      def initialize(val: "0", req: nil)
         @id = "I13"
         @name = "Acknowledgment Requested"
         @description = "Code sent by the sender to request an interchange acknowledgment (`TA1`)"
-        super(min: 1, max: 1, val: val)
+        super(min: 1, max: 1, req: req, val: val)
       end
 
       # @return [Array<String>]

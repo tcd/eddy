@@ -8,17 +8,19 @@ module Eddy
     # - Min/Max: 8/8
     # - Description: Date expressed as CCYYMMDD
     class E373 < Eddy::Element::DT
-      # @param time [Time]
+      # @param val [Time]
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(time)
+      def initialize(val:, req: nil)
         @id = "373"
         @name = "Date"
         @description = "Date expressed as CCYYMMDD"
+        self.fmt = :ccyymmdd
         super(
           min: 8,
           max: 8,
-          fmt: :ccyymmdd,
-          val: time,
+          req: req,
+          val: val,
         )
       end
     end

@@ -10,12 +10,18 @@ module Eddy
     class E785 < Eddy::Element::B
       # @param max [Integer] Value set in preceeding `784` element.
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(max, val: nil)
+      def initialize(max:, val: nil, req: nil)
         @id = "785"
         @name = "Binary Data"
         @description = "A string of octets which can assume any binary pattern from hexadecimal 00 to FF"
-        super(min: 1, max: max, val: val)
+        super(
+          min: 1,
+          max: max,
+          req: req,
+          val: val
+        )
       end
     end
   end

@@ -9,12 +9,13 @@ module Eddy
     # - Description: A count of the number of functional groups included in an interchange
     class I16 < Eddy::Element::N
       # @param val [Integer] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "I16"
         @name = "Number of Included Functional Groups"
         @description = "A count of the number of functional groups included in an interchange"
-        super(min: 1, max: 5, decimals: 0, val: val)
+        super(min: 1, max: 5, req: req, val: val, decimals: 0)
       end
     end
   end

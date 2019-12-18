@@ -10,12 +10,13 @@ module Eddy
     class E143 < Eddy::Element::ID
 
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "143"
         @name = "Transaction Set Identifier Code"
         @description = "Code uniquely identifying a Transaction Set"
-        super(min: 3, max: 3, val: val)
+        super(min: 3, max: 3, req: req, val: val)
       end
 
       # @return [Array<String>]

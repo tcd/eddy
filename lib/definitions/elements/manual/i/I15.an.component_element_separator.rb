@@ -13,15 +13,16 @@ module Eddy
     #
     # ### Notes:
     #
-    # - (Default value: `">"`)
+    # - Default value: `">"`
     class I15 < Eddy::Element::AN
       # @param val [String] (">")
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = ">")
+      def initialize(val: ">", req: nil)
         @id = "I15"
         @name = "Component Element Separator"
         @description = "The delimiter used to separate component data elements within a composite data structure."
-        super(min: 1, max: 1, val: val)
+        super(min: 1, max: 1, req: req, val: val)
       end
     end
   end

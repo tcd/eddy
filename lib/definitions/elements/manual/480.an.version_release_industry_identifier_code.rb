@@ -15,11 +15,12 @@ module Eddy
     class E480 < Eddy::Element::AN
 
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "480"
         @name = "Version / Release / Industry Identifier Code"
-        super(min: 1, max: 12, val: val)
+        super(min: 1, max: 12, req: req, val: val)
       end
 
       # See http://x12.org/resources/release-schedule/

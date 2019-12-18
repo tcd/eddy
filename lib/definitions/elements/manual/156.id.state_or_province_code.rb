@@ -14,12 +14,13 @@ module Eddy
     class E156 < Eddy::Element::ID
 
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "156"
         @name = "State or Province Code"
         @description = "(Standard State/Province) as defined by appropriate government agency."
-        super(min: 2, max: 2, val: val)
+        super(min: 2, max: 2, req: req, val: val)
       end
 
       # @return [Array<String>]

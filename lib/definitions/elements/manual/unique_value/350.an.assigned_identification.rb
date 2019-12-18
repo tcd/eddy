@@ -13,12 +13,13 @@ module Eddy
     # - These don't nessecarily need to be generated.
     class E350 < Eddy::Element::AN
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "350"
         @name = "Assigned Identification"
         @description = "Alphanumeric characters assigned for differentiation within a transaction set"
-        super(min: 1, max: 20, val: val)
+        super(min: 1, max: 20, req: req, val: val)
       end
     end
   end

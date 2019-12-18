@@ -10,12 +10,13 @@ module Eddy
     class I14 < Eddy::Element::ID
 
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "I14"
         @name = "Usage Indicator"
         @description = "Code to indicate whether data enclosed by this interchange envelope is test, production or information"
-        super(min: 1, max: 1, val: val)
+        super(min: 1, max: 1, req: req, val: val)
       end
 
       # @return [Array<String>]

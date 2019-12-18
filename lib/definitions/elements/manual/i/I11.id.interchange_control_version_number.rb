@@ -10,16 +10,17 @@ module Eddy
     #
     # ### Notes:
     #
-    # - (Default value: `"00401"`)
+    # - Default value: `"00401"`
     class I11 < Eddy::Element::ID
 
       # @param val [String] ("00401")
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = "00401")
+      def initialize(val: "00401", req: nil)
         @id = "I11"
         @name = "Interchange Control Version Number"
         @description = "This version number covers the interchange control segments"
-        super(min: 5, max: 5, val: val)
+        super(min: 5, max: 5, req: req, val: val)
       end
 
       # @return [Array<String>]

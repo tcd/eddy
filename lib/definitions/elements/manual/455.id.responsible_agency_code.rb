@@ -10,16 +10,17 @@ module Eddy
     #
     # ### Notes:
     #
-    # - (Default value: `"X"`)
+    # - Default value: `"X"`
     class E455 < Eddy::Element::ID
 
       # @param val [String] ("X")
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = "X")
+      def initialize(val: "X", req: nil)
         @id = "455"
         @name = "Responsible Agency Code"
         @description = "Code used in conjunction with Data Element 480 to identify the issuer of the standard"
-        super(min: 1, max: 2, val: val)
+        super(min: 1, max: 2, req: req, val: val)
       end
 
       # @return [Array<String>]

@@ -15,14 +15,17 @@ module Eddy
     class E116 < Eddy::Element::ID
 
       # @param val [String] (nil)
+      # @param req [Boolean] (nil)
       # @return [void]
-      def initialize(val = nil)
+      def initialize(val: nil, req: nil)
         @id = "116"
         @name = "Postal Code"
         @description = "Code defining international postal zone code excluding punctuation and blanks (zip code for United States)"
-        super(min: 3, max: 15, val: val)
+        super(min: 3, max: 15, req: req, val: val)
       end
 
+      # Matches any valid US zip code.
+      #
       # @return [Regexp]
       def pattern
         return /^[0-9]{5}(?:-[0-9]{4})?$/
