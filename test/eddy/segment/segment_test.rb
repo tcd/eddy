@@ -33,25 +33,23 @@ class SegmentTest < Minitest::Test
   end
 
   def test_isa_v2
-    Time.stub :now, Time.at(0).utc() do
-      store = Eddy::Store.new(
-        time: Time.now.utc,
-      )
-      isa = Eddy::Segments::ISA.new(store)
-      isa.ISA01 = "00"
-      isa.ISA03 = "00"
-      isa.ISA05 = "ZZ"
-      isa.ISA06 = "Some Sender"
-      isa.ISA07 = "01"
-      isa.ISA08 = "Some Receiver"
-      isa.ISA13 = 272_619
-      isa.ISA14 = "0"
-      isa.ISA15 = "P"
-      assert_equal(
-        "ISA*00*          *00*          *ZZ*Some Sender    *01*Some Receiver  *700101*0000*U*00401*000272619*0*P*>",
-        isa.render("*"),
-      )
-    end
+    store = Eddy::Store.new(
+      time: Time.at(0).utc(),
+    )
+    isa = Eddy::Segments::ISA.new(store)
+    isa.ISA01 = "00"
+    isa.ISA03 = "00"
+    isa.ISA05 = "ZZ"
+    isa.ISA06 = "Some Sender"
+    isa.ISA07 = "01"
+    isa.ISA08 = "Some Receiver"
+    isa.ISA13 = 272_619
+    isa.ISA14 = "0"
+    isa.ISA15 = "P"
+    assert_equal(
+      "ISA*00*          *00*          *ZZ*Some Sender    *01*Some Receiver  *700101*0000*U*00401*000272619*0*P*>",
+      isa.render("*"),
+    )
   end
 
   def test_gs
