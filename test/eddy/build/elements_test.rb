@@ -23,12 +23,13 @@ class BuildElementsTest < Minitest::Test
           # - Min/Max: 1/60
           # - Description: Free-form name
           class E93 < Eddy::Element::AN
+            # @param val [String]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "93"
               @name = "Name"
               @description = "Free-form name"
-              super(min: 1, max: 60)
+              super(min: 1, max: 60, val: val)
             end
           end
         end
@@ -52,12 +53,13 @@ class BuildElementsTest < Minitest::Test
           # - Min/Max: 8/8
           # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
           class E109 < Eddy::Element::DT
+            # @param val [Time]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "109"
               @name = "Pick-up Date"
               @description = "Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD"
-              super(min: 8, max: 8, fmt: :ccyymmdd)
+              super(min: 8, max: 8, fmt: :ccyymmdd, val: val)
             end
           end
         end
@@ -82,12 +84,13 @@ class BuildElementsTest < Minitest::Test
           # - Description: Code to identify the type of information in the Security Information
           class I03 < Eddy::Element::ID
 
+            # @param val [String]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "I03"
               @name = "Security Information Qualifier"
               @description = "Code to identify the type of information in the Security Information"
-              super(min: 2, max: 2)
+              super(min: 2, max: 2, val: val)
             end
 
             # @return [Array<String>]
@@ -120,12 +123,13 @@ class BuildElementsTest < Minitest::Test
           # - Min/Max: 1/15
           # - Description: The length in integral octets of the binary data
           class E784 < Eddy::Element::N
+            # @param val [Integer]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "784"
               @name = "Length of Binary Data"
               @description = "The length in integral octets of the binary data"
-              super(min: 1, max: 15, decimals: 0)
+              super(min: 1, max: 15, decimals: 0, val: val)
             end
           end
         end
@@ -149,12 +153,13 @@ class BuildElementsTest < Minitest::Test
           # - Min/Max: 1/10
           # - Description: Numeric value of weight
           class E81 < Eddy::Element::R
+            # @param val [Float]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "81"
               @name = "Weight"
               @description = "Numeric value of weight"
-              super(min: 1, max: 10)
+              super(min: 1, max: 10, val: val)
             end
           end
         end
@@ -178,12 +183,13 @@ class BuildElementsTest < Minitest::Test
           # - Min/Max: 4/4
           # - Description: Time (HHMM) that the carrier is to pick up the shipment
           class E111 < Eddy::Element::TM
+            # @param val [Time]
             # @return [void]
-            def initialize()
+            def initialize(val = nil)
               @id = "111"
               @name = "Pick-up Time"
               @description = "Time (HHMM) that the carrier is to pick up the shipment"
-              super(min: 4, max: 4, fmt: :hhmm)
+              super(min: 4, max: 4, fmt: :hhmm, val: val)
             end
           end
         end
