@@ -7,6 +7,10 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/20
     # - Description: Alphanumeric characters assigned for differentiation within a transaction set
+    #
+    # ### Notes:
+    #
+    # - These don't nessecarily need to be generated.
     class E350 < Eddy::Element::AN
       # @param val [String] (nil)
       # @return [void]
