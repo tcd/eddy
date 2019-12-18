@@ -70,7 +70,7 @@ module Eddy
 
             #{self.constructor()}
 
-            #{summary.elements.map { |el| Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: self.headers) }.join("\n\n")}
+            #{self.accessors()}
           STR
         })
       end
@@ -108,6 +108,14 @@ module Eddy
         self.summary.elements.each { |el| super_call << "  @#{el.ref.to_s.downcase},\n" }
         super_call << ")"
         return super_call
+      end
+
+      # @return [String]
+      def accessors()
+        defs = self.summary.elements.map do |el|
+          Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: self.headers)
+        end
+        return defs.join("\n\n")
       end
 
       # @param el [Eddy::Schema::ElementSummary]
