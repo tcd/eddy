@@ -1,33 +1,27 @@
-require "time"
-
 module Eddy
   # Top level EDI interchange.
   class Interchange
-    # @return [Eddy::Store] Data store for the Interchange and all encompassed components.
+    # @return [Eddy::Store] Data store for the Interchange.
     attr_accessor :store
-    # @return [Array<Eddy::TransactionSet::Base>]
-    attr_accessor :transaction_sets
-    # @return [Eddy::Segments::ISA]
-    attr_accessor :isa
-    # @return [Eddy::Segments::IEA]
-    attr_accessor :iea
+    # @return [Array<Eddy::Write::FunctionalGroup>]
+    attr_accessor :functional_groups
 
     # @return [void]
     def initialize()
-      self.store = Eddy::Store.new(time: Time.now().utc())
-      self.isa = Eddy::Segments::ISA.new()
-      self.iea = Eddy::Segments::IEA.new()
+      self.store = Eddy::Store.new()
+      self.functional_groups = []
     end
 
-    # @return [self]
-    def self.create(transaction_set_ids)
+    # @param _transaction_sets [Array<Eddy::TransactionSet>]
+    # @return [Eddy::Interchange]
+    def self.create(_transaction_sets)
       itch = Eddy::Interchange.new()
       return itch
     end
 
-    # @return [Eddy::Interchange]
-    def self.create_single(transaction_set_id)
-      itch = Eddy::Interchange.new()
+    # @return [String]
+    def render()
+      raise NotImplementedError
     end
 
   end
