@@ -1,6 +1,7 @@
 module Eddy
   # Configuration for Eddy
   class Config
+
     # test, development, or production
     # @return [String]
     attr_accessor :env
