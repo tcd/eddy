@@ -38,16 +38,16 @@ module Eddy
       # @return [self]
       def self.create(params = {})
         summary = new()
-        summary.ref          = params[:ref]
-        summary.id           = params[:id]
-        summary.name         = params[:name]
-        summary.min          = params[:min]
-        summary.max          = params[:max]
-        summary.description  = params[:description]
-        summary.req          = params[:req]
-        summary.default      = params[:default]
+        summary.ref          = params[:ref]&.strip
+        summary.id           = params[:id]&.strip
+        summary.name         = params[:name]&.strip
+        summary.min          = params[:min]&.to_i
+        summary.max          = params[:max]&.to_i
+        summary.description  = params[:description]&.strip
+        summary.req          = params[:req]&.strip
+        summary.default      = params[:default]&.strip
         summary.valid_values = params[:valid_values]
-        summary.type         = params[:type]
+        summary.type         = params[:type]&.strip
         return summary
       end
 

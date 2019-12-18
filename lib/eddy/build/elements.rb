@@ -30,24 +30,9 @@ module Eddy
       data = Eddy::Util::Data.raw_element_data()
       elements = data.map do |el|
         next if el[:type].nil? || el[:description].nil?
-        self.extract_element_data(el)
+        Eddy::Schema::ElementSummary.create(el)
       end
       return elements.compact
-    end
-
-    # Build a hash with data that can be used to generate an element class.
-    #
-    # @param el [Hash]
-    # @return [Eddy::Schema::ElementSummary]
-    def self.extract_element_data(el)
-      return Eddy::Schema::ElementSummary.create({
-        id:          el[:id].strip,
-        min:         el[:min].to_i,
-        max:         el[:max].to_i,
-        type:        el[:type].strip,
-        name:        el[:name].strip,
-        description: el[:description].strip,
-      })
     end
 
   end
