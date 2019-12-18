@@ -20,10 +20,10 @@ module Eddy
       # @return [Integer]
       attr_reader :max
 
-      # @note Classes inheriting from `Eddy::Element::Base` must define the method `value=`.
+      # @note Classes inheriting from `Eddy::Element::Base` must define the method `value`.
       # @return [void]
       def value(*)
-        raise NotImplementedError, "Classes inheriting from `Eddy::Element::Base` must define a `value=` method."
+        raise NotImplementedError, "Classes inheriting from `Eddy::Element::Base` must define a `value` method."
       end
 
       # @note Classes inheriting from `Eddy::Element::Base` must define the method `value=`.
