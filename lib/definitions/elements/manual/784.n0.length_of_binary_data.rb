@@ -9,7 +9,7 @@ module Eddy
     # - Description: The length in integral octets of the binary data
     class E784 < Eddy::Element::N
       # @param val [Integer] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "784"

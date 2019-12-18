@@ -12,7 +12,7 @@ module Eddy
         name: "initialize",
         params: [
           { name: "val", type: el.yard_type, optional: true, keyword: true },
-          { name: "req", type: "Boolean",    optional: true, keyword: true },
+          { name: "req", type: "String",     optional: true, keyword: true },
         ],
         body: <<~FUNC_BODY,
           @id = "#{el.id}"

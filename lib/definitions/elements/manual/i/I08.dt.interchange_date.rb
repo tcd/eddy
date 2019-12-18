@@ -14,7 +14,7 @@ module Eddy
     # No call to `value=` is needed.
     class I08 < Eddy::Element::DT
       # @param val [Time]
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val:, req: nil)
         @id = "I08"

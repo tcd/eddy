@@ -24,7 +24,7 @@ class BuildElementsTest < Minitest::Test
           # - Description: Free-form name
           class E93 < Eddy::Element::AN
             # @param val [String]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "93"
@@ -56,7 +56,7 @@ class BuildElementsTest < Minitest::Test
           class I03 < Eddy::Element::ID
 
             # @param val [String]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "I03"
@@ -96,7 +96,7 @@ class BuildElementsTest < Minitest::Test
           # - Description: The length in integral octets of the binary data
           class E784 < Eddy::Element::N
             # @param val [Integer]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "784"
@@ -127,7 +127,7 @@ class BuildElementsTest < Minitest::Test
           # - Description: Numeric value of weight
           class E81 < Eddy::Element::R
             # @param val [Float]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "81"
@@ -158,7 +158,7 @@ class BuildElementsTest < Minitest::Test
           # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
           class E109 < Eddy::Element::DT
             # @param val [Time]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "109"
@@ -189,7 +189,7 @@ class BuildElementsTest < Minitest::Test
           # - Description: Time (HHMM) that the carrier is to pick up the shipment
           class E111 < Eddy::Element::TM
             # @param val [Time]
-            # @param req [Boolean]
+            # @param req [String]
             # @return [void]
             def initialize(val: nil, req: nil)
               @id = "111"

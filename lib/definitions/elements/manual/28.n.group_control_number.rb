@@ -9,7 +9,7 @@ module Eddy
     # - Description: Assigned number originated and maintained by the sender
     class E28 < Eddy::Element::N
       # @param val [Integer]
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "28"

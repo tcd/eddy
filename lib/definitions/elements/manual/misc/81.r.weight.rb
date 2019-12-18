@@ -9,7 +9,7 @@ module Eddy
     # - Description: Numeric value of weight
     class E81 < Eddy::Element::R
       # @param val [Float] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "81"

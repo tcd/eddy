@@ -9,7 +9,7 @@ module Eddy
     # - Description: Identification code published by the sender for other parties to use as the receiver ID to route data to them; the sender always codes this value in the sender ID element
     class I06 < Eddy::Element::AN
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "I06"

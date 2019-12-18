@@ -19,10 +19,6 @@ module Eddy
       # Maximum length for a valid value
       # @return [Integer]
       attr_reader :max
-      # Indicates whether the value must be present in it's segment.
-      # TODO: another attr that specifies whether to render if empty may be needed.
-      # @return [Boolean]
-      attr_reader :req
 
       # @note Classes inheriting from `Eddy::Element::Base` must define the method `value=`.
       # @return [void]
@@ -34,6 +30,43 @@ module Eddy
       # @return [void]
       def value=(*)
         raise NotImplementedError, "Classes inheriting from `Eddy::Element::Base` must define a `value=` method."
+      end
+
+      # Indicates whether the value must be present in its segment.
+      #
+      # | code | description |
+      # | ---- | ----------- |
+      # | M    | Mandatory   |
+      # | O    | Optional    |
+      # | C    | Conditional |
+      # | F    | Floating    |
+      #
+      # See:
+      #
+      # - [Required vs Mandatory in Code Descriptions - X12 RFI](http://www.x12.org/rfis/Required%20vs%20Mandatory%20in%20Code%20Descriptions.pdf)
+      #
+      # @return [String]
+      def req
+        return @req
+      end
+
+      # (see #req)
+      #
+      # @param req [String, nil]
+      # @return [void]
+      def req=(req)
+        if req.nil?
+          @req = "O"
+          return
+        end
+        raise ArgumentError, req.to_s unless req.is_a?(String)
+        case req.upcase
+        when "M" then @req = "M"
+        when "O" then @req = "O"
+        when "C" then @req = "C"
+        when "F" then raise Eddy::Errors::Error, "Req value 'F' not supported"
+        else raise Eddy::Errors::Error, "Invalid argument for `req=`: #{req}"
+        end
       end
 
       # Generate a description to use as a doc comment for an element.

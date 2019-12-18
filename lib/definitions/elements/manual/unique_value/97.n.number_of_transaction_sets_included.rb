@@ -9,7 +9,7 @@ module Eddy
     # - Description: Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element
     class E97 < Eddy::Element::N
       # @param val [Integer] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "97"

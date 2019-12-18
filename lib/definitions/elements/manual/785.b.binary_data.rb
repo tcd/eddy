@@ -10,7 +10,7 @@ module Eddy
     class E785 < Eddy::Element::B
       # @param max [Integer] Value set in preceeding `784` element.
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(max:, val: nil, req: nil)
         @id = "785"

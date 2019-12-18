@@ -14,7 +14,7 @@ module Eddy
     class E455 < Eddy::Element::ID
 
       # @param val [String] ("X")
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: "X", req: nil)
         @id = "455"

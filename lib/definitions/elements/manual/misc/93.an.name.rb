@@ -9,7 +9,7 @@ module Eddy
     # - Description: Free-form name
     class E93 < Eddy::Element::AN
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "93"

@@ -13,7 +13,7 @@ module Eddy
     # - These don't nessecarily need to be generated.
     class E350 < Eddy::Element::AN
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "350"

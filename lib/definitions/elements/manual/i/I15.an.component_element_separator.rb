@@ -16,7 +16,7 @@ module Eddy
     # - Default value: `">"`
     class I15 < Eddy::Element::AN
       # @param val [String] (">")
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: ">", req: nil)
         @id = "I15"

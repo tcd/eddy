@@ -9,7 +9,7 @@ module Eddy
     # - Description: Code identifying party sending transmission; codes agreed to by trading partners
     class E142 < Eddy::Element::AN
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "142"

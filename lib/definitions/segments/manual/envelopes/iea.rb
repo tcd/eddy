@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "IEA"
         @name = "Interchange Control Trailer"
-        @iea01 = Eddy::Elements::I16.new(val: store.number_of_included_functional_groups)
-        @iea02 = Eddy::Elements::I12.new(val: store.interchange_control_number)
+        @iea01 = Eddy::Elements::I16.new(req: "M", val: store.number_of_included_functional_groups)
+        @iea02 = Eddy::Elements::I12.new(req: "M", val: store.interchange_control_number)
         super(store, @iea01, @iea02)
       end
 

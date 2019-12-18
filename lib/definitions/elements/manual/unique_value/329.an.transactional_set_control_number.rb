@@ -13,7 +13,7 @@ module Eddy
     # - Values for this element need to be generated and have their uniqueness ensured.
     class E329 < Eddy::Element::AN
       # @param val [String] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val: nil, req: nil)
         @id = "329"

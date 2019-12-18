@@ -12,13 +12,13 @@ module Eddy
         @type = "R"
         @min = min
         @max = max
-        @req = req
+        self.req = req
         self.value = val
       end
 
       # @return [String]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
         return process(@val)
       end
 

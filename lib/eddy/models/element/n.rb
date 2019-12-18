@@ -16,7 +16,7 @@ module Eddy
       def initialize(min:, max:, req: nil, val: nil, decimals:)
         @min = min
         @max = max
-        @req = req
+        self.req = req
         self.decimals = decimals
         self.value = val
       end
@@ -24,7 +24,7 @@ module Eddy
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
         return sprintf("%0#{self.min}d", @val) unless @val.nil?
         return nil
       end

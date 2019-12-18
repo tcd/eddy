@@ -12,14 +12,14 @@ module Eddy
         @type = "B"
         @min = min
         @max = max
-        @req = req
+        self.req = req
         self.value = val
       end
 
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String<Binary>]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
         super()
       end
 

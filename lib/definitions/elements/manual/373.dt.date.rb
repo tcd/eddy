@@ -9,7 +9,7 @@ module Eddy
     # - Description: Date expressed as CCYYMMDD
     class E373 < Eddy::Element::DT
       # @param val [Time]
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @return [void]
       def initialize(val:, req: nil)
         @id = "373"

@@ -8,9 +8,9 @@ class IdTest < Minitest::Test
   end
 
   def test_value_getter
-    i05_not_required = Eddy::Elements::I05.new(req: false)
+    i05_not_required = Eddy::Elements::I05.new(req: "O")
     assert_nil(i05_not_required.value())
-    i05_required = Eddy::Elements::I05.new(req: true)
+    i05_required = Eddy::Elements::I05.new(req: "M")
     assert_raises(Eddy::Errors::ElementNilValueError) { i05_required.value() }
   end
 

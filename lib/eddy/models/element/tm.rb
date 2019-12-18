@@ -38,7 +38,7 @@ module Eddy
         @type = "TM"
         @min = min
         @max = max
-        @req = req
+        self.req = req
         if fmt.nil?
           raise ArgumentError, "TM elements require either a `fmt` value, or `min` and `max` values." if min.nil? || max.nil?
           @fmt = determine_format()
@@ -51,7 +51,7 @@ module Eddy
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req && @val.nil?
+        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
         case self.fmt
         when :hhmm then return TM.hhmm(@val)
         when :hhmmss then return TM.hhmmss(@val)

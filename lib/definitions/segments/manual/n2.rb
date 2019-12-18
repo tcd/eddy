@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "N2"
         @name = "Additional Name Information"
-        @n201 = Eddy::Elements::E93.new
-        @n202 = Eddy::Elements::E93.new
+        @n201 = Eddy::Elements::E93.new(req: "M")
+        @n202 = Eddy::Elements::E93.new(req: "O")
         super(store, @n201, @n202)
       end
 

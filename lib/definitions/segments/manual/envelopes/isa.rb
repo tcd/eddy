@@ -12,22 +12,22 @@ module Eddy
       def initialize(store)
         @id = "ISA"
         @name = "Interchange Control Header"
-        @isa01 = Eddy::Elements::I01.new
-        @isa02 = Eddy::Elements::I02.new
-        @isa03 = Eddy::Elements::I03.new
-        @isa04 = Eddy::Elements::I04.new
-        @isa05 = Eddy::Elements::I05.new
-        @isa06 = Eddy::Elements::I06.new(val: store.application_senders_code)
-        @isa07 = Eddy::Elements::I05.new
-        @isa08 = Eddy::Elements::I07.new(val: store.application_receivers_code)
-        @isa09 = Eddy::Elements::I08.new(val: store.time)
-        @isa10 = Eddy::Elements::I09.new(val: store.time)
-        @isa11 = Eddy::Elements::I10.new
-        @isa12 = Eddy::Elements::I11.new(val: store.edi_version)
-        @isa13 = Eddy::Elements::I12.new(val: store.interchange_control_number)
-        @isa14 = Eddy::Elements::I13.new
-        @isa15 = Eddy::Elements::I14.new
-        @isa16 = Eddy::Elements::I15.new(val: store.component_separator)
+        @isa01 = Eddy::Elements::I01.new(req: "M")
+        @isa02 = Eddy::Elements::I02.new(req: "M")
+        @isa03 = Eddy::Elements::I03.new(req: "M")
+        @isa04 = Eddy::Elements::I04.new(req: "M")
+        @isa05 = Eddy::Elements::I05.new(req: "M")
+        @isa06 = Eddy::Elements::I06.new(req: "M", val: store.application_senders_code)
+        @isa07 = Eddy::Elements::I05.new(req: "M")
+        @isa08 = Eddy::Elements::I07.new(req: "M", val: store.application_receivers_code)
+        @isa09 = Eddy::Elements::I08.new(req: "M", val: store.time)
+        @isa10 = Eddy::Elements::I09.new(req: "M", val: store.time)
+        @isa11 = Eddy::Elements::I10.new(req: "M")
+        @isa12 = Eddy::Elements::I11.new(req: "M", val: store.edi_version)
+        @isa13 = Eddy::Elements::I12.new(req: "M", val: store.interchange_control_number)
+        @isa14 = Eddy::Elements::I13.new(req: "M")
+        @isa15 = Eddy::Elements::I14.new(req: "M")
+        @isa16 = Eddy::Elements::I15.new(req: "M", val: store.component_separator)
         super(
           store,
           @isa01,
