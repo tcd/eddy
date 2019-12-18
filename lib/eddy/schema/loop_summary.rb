@@ -22,6 +22,11 @@ module Eddy
       # @return [Array]
       attr_accessor :components
 
+      # @return [void]
+      def initialize()
+        self.components = []
+      end
+
       # @param params [Hash]
       # @return [self]
       def self.create(params = {})
@@ -33,6 +38,18 @@ module Eddy
         l.req = params[:req]
         l.components = params[:components]
         return l
+      end
+
+      # @param components [Array<Hash>]
+      # @return [void]
+      def process_components(components)
+        components.each do |comp|
+          if comp.key?(:loop_id)
+            self.components << Eddy::Schema::LoopSummary.create(comp)
+          else
+            self.components << Eddy::Schema::SegmentSummary.create(comp)
+          end
+        end
       end
 
     end
