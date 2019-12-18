@@ -1,8 +1,10 @@
 module Eddy
   module TransactionSets
-    # Id: 850
-    # Name: Purchase Order
-    # Functional Group: PO
+    # ### Transaction Set Summary:
+    #
+    # - Id: 850
+    # - Name: Purchase Order
+    # - Functional Group: PO
     class TS850 < Eddy::TransactionSet
 
       ID = "850".freeze

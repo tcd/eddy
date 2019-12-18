@@ -1,8 +1,10 @@
 module Eddy
   module TransactionSets
-    # Id: 855
-    # Name: Purchase Order Acknowledgement
-    # Functional Group: PR
+    # ### Transaction Set Summary:
+    #
+    # - Id: 855
+    # - Name: Purchase Order Acknowledgement
+    # - Functional Group: PR
     class TS855 < Eddy::TransactionSet
 
       ID = "855".freeze
