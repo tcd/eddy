@@ -17,6 +17,7 @@ module Eddy
     def initialize(store, transaction_set)
       self.store = store
       self.transaction_set = transaction_set
+      self.transaction_sets = []
     end
 
     # @return [String]
@@ -24,6 +25,8 @@ module Eddy
       number_of_included_functional_groups = self.store.number_of_included_functional_groups
       gs = Eddy::Segments::GS.new(store, number_of_included_functional_groups, self.transaction_set)
       ge = Eddy::Segments::GE.new(store, number_of_included_functional_groups, self.transaction_set)
+      segments = [gs, self.transaction_sets, ge].flatten
+      return segments.join(self.store.segment_separator) + segment_separator
     end
 
   end
