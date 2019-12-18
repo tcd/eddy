@@ -70,23 +70,21 @@ module Eddy
       @group_control_number = 1
     end
 
+    # FIXME: not implemented
+    #
     # @return [Integer]
     def interchange_control_number()
-      raise NotImplementedError
+      # raise NotImplementedError
+      return 1
     end
 
+    # FIXME: not implemented
+    #
     # @return [Integer]
     def transaction_set_control_number()
-      raise NotImplementedError
+      # raise NotImplementedError
+      return 1
     end
-
-    # # @return [Integer]
-    # def number_of_transaction_sets()
-    #   raise NotImplementedError
-    #   old_count = @number_of_transaction_sets.dup
-    #   @number_of_transaction_sets += 1
-    #   return old_count
-    # end
 
     # Returns an incremended value every time it's called.
     #

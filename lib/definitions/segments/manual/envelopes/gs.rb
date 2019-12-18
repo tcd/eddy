@@ -18,7 +18,7 @@ module Eddy
         @gs02 = Eddy::Elements::E142.new(store.application_senders_code)
         @gs03 = Eddy::Elements::E124.new(store.application_receivers_code)
         @gs04 = Eddy::Elements::E373.new(store.time)
-        @gs05 = Eddy::Elements::E337.new(store.time)
+        @gs05 = Eddy::Elements::E337.new(store.time) # TODO: Define time for this.
         @gs06 = Eddy::Elements::E28.new(group_control_number)
         @gs07 = Eddy::Elements::E455.new
         @gs08 = Eddy::Elements::E480.new(store.version_release_industry_id_code)
