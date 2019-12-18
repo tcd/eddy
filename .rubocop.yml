@@ -59,6 +59,9 @@ Style/FrozenStringLiteralComment:
 Naming/HeredocDelimiterNaming:
   Enabled: false
 
+Style/FormatString:
+  EnforcedStyle: sprintf
+
 # ==============================================================================
 # Numbers
 # ==============================================================================
