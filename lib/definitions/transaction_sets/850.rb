@@ -1,18 +1,19 @@
 module Eddy
   module TransactionSets
     # Id: 850
-    # Description: Purchase Order
+    # Name: Purchase Order
+    # Functional Group: PO
     class TS850 < Eddy::TransactionSet
+
+      ID = "850".freeze
+      NAME = "Purchase Order".freeze
+      FUNCTIONAL_GROUP = "PO".freeze
+
+      # @param store [Eddy::Store]
       # @return [void]
-      def initialize()
-        @id = "850"
-        @functional_group = "PO"
-        @description = "Purchase Order"
-        @st = Eddy::Segments::ST.new()
-        @se = Eddy::Segments::SE.new()
+      def initialize(store)
         super(
-          @st,
-          @se,
+          store,
         )
       end
     end

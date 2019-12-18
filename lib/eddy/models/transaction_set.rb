@@ -1,12 +1,14 @@
 module Eddy
   # Base class for EDI Transaction Sets.
   class TransactionSet
+
     # @return [Integer]
-    attr_reader :id
+    ID = nil
     # @return [String]
-    attr_reader :functional_group
+    NAME = nil
     # @return [String]
-    attr_reader :description
+    FUNCTIONAL_GROUP = nil
+
     # @return [Array<Segment, Loop>]
     attr_accessor :components
     # @return [Eddy::Store] Container used to distribute state throughout an Interchange.
@@ -19,6 +21,48 @@ module Eddy
       self.store = store
       components.flatten!
       self.components = components || []
+    end
+
+    # @return [String]
+    def id
+      return self.class::ID
+    end
+
+    # @return [String]
+    def self.id
+      return self::ID
+    end
+
+    # @return [String]
+    def functional_group
+      return self.class::FUNCTIONAL_GROUP
+    end
+
+    # @return [String]
+    def self.functional_group
+      return self::FUNCTIONAL_GROUP
+    end
+
+    # @return [String]
+    def name
+      return self.class::NAME
+    end
+
+    # @return [String]
+    def self.name
+      return self::NAME
+    end
+
+    # Add `ST` and `SE` segments to the `components` array.
+    #
+    # @return [void]
+    def add_envelope
+      st = Eddy::Segments::ST.new(self.store)
+      st.ST01 = self.id
+      self.components.unshift(st)
+      se = Eddy::Segments::SE.new(self.store)
+      se.SE01 = self.id
+      self.components.push(se)
     end
 
     # @return [String]
