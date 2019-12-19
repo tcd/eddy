@@ -1,6 +1,0 @@
-ref	id	req	type	min	max	elementname
-BIG01	373	M	DT	8	8	Date
-BIG02	76	M	AN	1	22	Invoice Number
-BIG03	373	O	DT	8	8	Date
-BIG04	324	O	AN	1	22	Purchase Order Number
-BIG05	328	O	AN	1	30	Release Number

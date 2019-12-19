@@ -1,0 +1,10 @@
+---
+id: LIN
+name: Item Identification
+purpose: To specify basic item identification data.
+elements:
+  - { ref: LIN01, id: '350', req: O }
+  - { ref: LIN02, id: '235', req: M }
+  - { ref: LIN03, id: '234', req: M }
+  - { ref: LIN04, id: '235', req: X }
+  - { ref: LIN05, id: '234', req: X }

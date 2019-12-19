@@ -1,0 +1,12 @@
+---
+id: SLN
+name: Subline Item Detail
+purpose: To specify product subline detail item data.
+elements:
+  - { ref: SLN01, id: '350', req: M }
+  # - { ref: SLN02, id: '', req: M }
+  - { ref: SLN03, id: '662', req: M }
+  - { ref: SLN04, id: '380', req: X }
+  # - { ref: SLN05, id: '', req: M }
+  - { ref: SLN06, id: '212', req: X }
+  - { ref: SLN07, id: '639', req: O }

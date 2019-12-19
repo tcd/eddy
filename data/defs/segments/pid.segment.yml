@@ -4,4 +4,7 @@ name: Product/Item Description
 purpose: To describe a product or process in coded or free-form format
 elements:
   - { ref: PID01, id: '349', req: M }
+  # - { ref: PID02, id: '', req: '' }
+  # - { ref: PID03, id: '', req: '' }
+  # - { ref: PID04, id: '', req: '' }
   - { ref: PID05, id: '352', req: X }

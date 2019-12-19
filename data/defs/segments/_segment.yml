@@ -3,4 +3,4 @@ id:
 name:
 purpose:
 elements:
-  - { ref: x, id: '' }
+  - { ref: x, id: '', req: M }

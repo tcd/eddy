@@ -1,0 +1,7 @@
+---
+id: MAN
+name: Marks and Numbers
+purpose: To indicate identifying marks and numbers for shipping containers.
+elements:
+  - { ref: MAN01, id: '88', req: M }
+  - { ref: MAN02, id: '87', req: M }

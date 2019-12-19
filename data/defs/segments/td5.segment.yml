@@ -1,0 +1,11 @@
+---
+id: TD5
+name: Carrier Details (Routing Sequence/Transit Time)
+purpose: To specify the carrier and sequence of routing and provide transit time information.
+elements:
+  - { ref: TD501, id: '133', req: M }
+  - { ref: TD502, id: '66' , req: X }
+  - { ref: TD503, id: '67' , req: X }
+  - { ref: TD504, id: '91' , req: M }
+  - { ref: TD505, id: '387', req: X }
+

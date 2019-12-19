@@ -1,7 +1,0 @@
-ref	id	req	type	min	max	elementname
-SN101	350	O	AN	1	20
-SN102	382	M	R	1	10
-SN103	355	M	ID	2	2
-SN104
-SN105	330	X	R	1	15
-SN106	355	X	ID	2	2

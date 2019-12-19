@@ -1,0 +1,11 @@
+---
+id: SN1
+name: Item Detail (Shipment)
+purpose: To specify line-item detail relative to shipment.
+elements:
+  - { ref: SN101, id: '350', req: O }
+  - { ref: SN102, id: '382', req: M }
+  - { ref: SN103, id: '355', req: M }
+  # - { ref: SN104, id: '', req:  }
+  - { ref: SN105, id: '330', req: X }
+  - { ref: SN106, id: '355', req: X }

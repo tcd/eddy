@@ -1,7 +1,0 @@
-ref	id	req	type	min	max	elementname
-N101	98	M	ID	2	3	Entity Identifier Code
-N102	93	X	AN	1	60	Name
-N103	66	X	ID	1	2	Identification Code Qualifier
-N104	67	X	AN	2	80	Identification Code
-N105	706	O	AN	2	2	Entity Relationship Code
-N106	98	O	ID	2	3	Entity Identifier Code

@@ -1,5 +1,0 @@
-ref	id	req	type	min	max	elementname
-N401	19	O	AN	2	30	City Name
-N402	156	O	ID	2	2	State or Province Code
-N403	116	O	ID	3	15	Postal Code
-N404	26	O	ID	2	3	Country Code

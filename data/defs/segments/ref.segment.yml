@@ -1,0 +1,7 @@
+---
+id: REF
+name: Reference Identification
+purpose: To specify identifying information.
+elements:
+  - { ref: REF01, id: '128', req: M }
+  - { ref: REF02, id: '127', req: X }

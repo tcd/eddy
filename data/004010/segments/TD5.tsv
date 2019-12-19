@@ -1,6 +1,0 @@
-ref	id	req	type	min	max	elementname
-TD501	133	M	ID			Routing Sequence Code
-TD502	66	X	ID	1	2	
-TD503	67	X	AN	2	80	
-TD504	91	M	ID			Transportation Method/Type Code 
-TD505	387	X	AN	1	35	Routing

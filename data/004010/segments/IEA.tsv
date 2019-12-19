@@ -1,3 +1,0 @@
-ref	id	req	type	min	max	elementname
-IEA01	I16	M	N0	1	5	Number of Included Functional Groups
-IEA02	I12	M	N0	9	9	Interchange Control Number
