@@ -13,22 +13,26 @@ module Eddy
       attr_accessor :aliases
       # @return [Boolean] (false)
       attr_accessor :headers
+      # @return [Boolean] (false)
+      attr_accessor :build_elements
       # @return [Hash]
       attr_accessor :el_names
 
       # @param folder [String] (nil)
       # @param aliases [Boolean] (false)
       # @param headers [Boolean] (false)
+      # @param build_elements [Boolean] (false)
       # @return [void]
-      def initialize(folder: nil, aliases: false, headers: false)
-        self.folder   = folder
-        self.aliases  = aliases
-        self.headers  = headers
+      def initialize(folder: nil, aliases: false, headers: false, build_elements: false)
+        self.folder = folder
+        self.aliases = aliases
+        self.headers = headers
+        self.build_elements = build_elements
         self.el_names = {}
       end
 
-      # (see #initialize)
       # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
+      # @param (see #initialize)
       # @return [Eddy::Build::SegmentBuilder]
       def self.from_file(path, **kwargs)
         raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
@@ -38,8 +42,8 @@ module Eddy
         return sb
       end
 
-      # (see #initialize)
       # @param summary [Eddy::Schema::SegmentSummary]
+      # @param (see #initialize)
       # @return [Eddy::Build::SegmentBuilder]
       def self.from_summary(summary, **kwargs)
         sb = Eddy::Build::SegmentBuilder.new(**kwargs)
@@ -51,7 +55,11 @@ module Eddy
       #
       # @return [String]
       def build()
-        path = self.folder || File.join(Eddy::Util.root_dir, "build", "segments")
+        Eddy::Build.make_folders()
+        if self.build_elements
+          Eddy::Build.generate_elements(self.summary.elements)
+        end
+        path = self.folder || File.join(Eddy.config.build_dir, "segments")
         result = self.ginny_class.generate(path)
         return result
       end
