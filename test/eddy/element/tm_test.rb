@@ -2,11 +2,40 @@ require "test_helper"
 
 class TmTest < Minitest::Test
 
-  def test_setter_and_getter
-    time = Time.at(0).utc()
+  def test_setter
     tm = Eddy::Element::TM.new(min: 4, max: 4)
-    tm.value = time
+    tm.value = Time.at(0).utc()
     assert_equal("0000", tm.value)
+  end
+
+  def test_setter_and_getter
+    tm = Eddy::Element::TM.new(min: 4, max: 4)
+    tm.value = Time.at(0).utc()
+    assert_equal("0000", tm.value)
+  end
+
+  def test_getter_when_mandatory
+    tm = Eddy::Element::TM.new(
+      fmt: :hhmm,
+      req: "M",
+      val: Time.at(0).utc(),
+    )
+    assert_equal("0000", tm.value)
+  end
+
+  def test_getter_when_mandatory_and_nil
+    tm = Eddy::Element::TM.new(fmt: :hhmm, req: "M")
+    assert_raises(Eddy::Errors::ElementNilValueError) { tm.value() }
+  end
+
+  def test_getter_when_optional
+    tm = Eddy::Element::TM.new(fmt: :hhmm, req: "O")
+    assert_equal("", tm.value)
+  end
+
+  # FIXME: This test could fail for multiple reasons.
+  def test_that_an_invalid_fmt_argument_raises_an_exception
+    assert_raises(ArgumentError) { Eddy::Element::TM.new(fmt: :not_valid, val: Time.at(0).utc()) }
   end
 
   def test_determine_format
@@ -22,32 +51,23 @@ class TmTest < Minitest::Test
   end
 
   def test_hhmm
-    time = Time.at(0).utc()
-    dt = Eddy::Element::TM.new(min: 4, max: 4, fmt: :hhmm, val: time)
-    assert_equal("0000", dt.value)
+    tm = Eddy::Element::TM.new(fmt: :hhmm, val: Time.at(0).utc())
+    assert_equal("0000", tm.value)
   end
 
   def test_hhmmss
-    time = Time.at(0).utc()
-    dt = Eddy::Element::TM.new(min: 6, max: 6, fmt: :hhmmss, val: time)
-    assert_equal("000000", dt.value)
+    tm = Eddy::Element::TM.new(fmt: :hhmmss, val: Time.at(0).utc())
+    assert_equal("000000", tm.value)
   end
 
   def test_hhmmssd
-    time = Time.at(0).utc()
-    dt = Eddy::Element::TM.new(min: 7, max: 7, fmt: :hhmmssd, val: time)
-    assert_equal("0000000", dt.value)
+    tm = Eddy::Element::TM.new(fmt: :hhmmssd, val: Time.at(0).utc())
+    assert_equal("0000000", tm.value)
   end
 
   def test_hhmmssdd
-    time = Time.at(0).utc()
-    dt = Eddy::Element::TM.new(min: 8, max: 8, fmt: :hhmmssdd, val: time)
-    assert_equal("00000000", dt.value)
-  end
-
-  def test_that_an_invalid_fmt_argument_raises_an_exception
-    time = Time.at(0).utc()
-    assert_raises(ArgumentError) { Eddy::Element::TM.new(:not_valid, time) }
+    tm = Eddy::Element::TM.new(fmt: :hhmmssdd, val: Time.at(0).utc())
+    assert_equal("00000000", tm.value)
   end
 
 end

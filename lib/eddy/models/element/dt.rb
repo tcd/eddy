@@ -10,14 +10,12 @@ module Eddy
     class DT < Base
 
       # Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`
-      # TODO: Decide if this should be an attr_accessor
       # @return [Symbol<:yymmdd, :ccyymmdd>]
       attr_reader :fmt
 
-      # @raise [ArgumentError] If an invalid format argument is passed.
       # @param min [Integer] (nil)
       # @param max [Integer] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @param val [Time] (nil) A *UTC* formatted Time object.
       # @param fmt [Symbol] (nil) Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`.
       # @return [void]
@@ -44,7 +42,13 @@ module Eddy
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
+        if @val.nil?
+          case self.req
+          when "M"      then raise Eddy::Errors::ElementNilValueError
+          when "O", "C" then return ""
+          else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+          end
+        end
         case self.fmt
         when :yymmdd then return DT.yymmdd(@val)
         when :ccyymmdd then return DT.ccyymmdd(@val)
@@ -70,7 +74,7 @@ module Eddy
       def fmt=(fmt)
         return if fmt.nil?
         fmt = fmt.to_sym.downcase
-        raise ArgumentError unless accepted_formats.include?(fmt)
+        raise ArgumentError, "Invalid fmt for DT value: #{fmt}" unless accepted_formats.include?(fmt)
         @fmt = fmt
       end
 

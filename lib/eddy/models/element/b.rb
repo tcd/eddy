@@ -9,7 +9,7 @@ module Eddy
 
       # @param min [Integer]
       # @param max [Integer]
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @param val [String] (nil)
       # @return [void]
       def initialize(min:, max:, req: nil, val: nil)
@@ -23,8 +23,14 @@ module Eddy
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String<Binary>]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
         super()
+        if @val.nil?
+          case self.req
+          when "M"      then raise Eddy::Errors::ElementNilValueError
+          when "O", "C" then return ""
+          else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+          end
+        end
       end
 
       # @param _arg [Object] Whatever is to be assigned to `value`

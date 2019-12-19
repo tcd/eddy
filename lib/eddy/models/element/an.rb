@@ -5,7 +5,7 @@ module Eddy
 
       # @param min [Integer]
       # @param max [Integer]
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @param val [String] (nil)
       # @return [void]
       def initialize(min:, max:, req: nil, val: nil)
@@ -19,9 +19,14 @@ module Eddy
       # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
       # @return [String]
       def value()
-        raise Eddy::Errors::ElementNilValueError if self.req == "M" && @val.nil?
-        return @val.ljust(self.min) unless @val.nil?
-        return nil
+        if @val.nil?
+          case self.req
+          when "M"      then raise Eddy::Errors::ElementNilValueError
+          when "O", "C" then return ""
+          else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+          end
+        end
+        return @val.ljust(self.min)
       end
 
       # @raise [Eddy::Errors::ElementValidationError]
@@ -33,7 +38,6 @@ module Eddy
           return
         end
         raise Eddy::Errors::ElementValidationError, "value needs to be a string" unless arg.is_a?(String)
-        # raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
         @val = arg
       end

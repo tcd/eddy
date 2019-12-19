@@ -34,12 +34,19 @@ module Eddy
 
       # Indicates whether the value must be present in its segment.
       #
-      # | code | description |
-      # | ---- | ----------- |
-      # | M    | Mandatory   |
-      # | O    | Optional    |
-      # | C    | Conditional |
-      # | F    | Floating    |
+      # | code  | description |  official  |
+      # | ----- | ----------- | ---------- |
+      # | **M** | Mandatory   | yes        |
+      # | **O** | Optional    | yes        |
+      # | **C** | Conditional | yes        |
+      # | F     | Floating    | deprecated |
+      # | R     | Required    | no         |
+      # | S     | Situational | no         |
+      # | A     | Advised     | no         |
+      # | N     | Not Advised | no         |
+      # | N     | Not Used    | no         |
+      # | X     | Not Used    | no         |
+      # | X     | Conditional | no         |
       #
       # See:
       #
@@ -61,9 +68,9 @@ module Eddy
         end
         raise ArgumentError, req.to_s unless req.is_a?(String)
         case req.upcase
-        when "M" then @req = "M"
-        when "O" then @req = "O"
-        when "C" then @req = "C"
+        when "M", "R" then @req = "M"
+        when "O"      then @req = "O"
+        when "C", "X" then @req = "C"
         when "F" then raise Eddy::Errors::Error, "Req value 'F' not supported"
         else raise Eddy::Errors::Error, "Invalid argument for `req=`: #{req}"
         end
