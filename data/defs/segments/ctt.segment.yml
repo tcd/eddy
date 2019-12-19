@@ -2,6 +2,7 @@
 id: CTT
 name: Transaction Totals
 purpose: To transmit a hash total for a specific element in the transaction set
+notes: http://www.x12.org/rfis/Hash%20Totals.pdf
 elements:
   - { ref: CTT01, id: '354', req: M }
   - { ref: CTT02, id: '347', req: O }
