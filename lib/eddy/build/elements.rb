@@ -27,7 +27,7 @@ module Eddy
     #
     # @return [Array<Eddy::Schema::ElementSummary>]
     def self.generate_element_data()
-      data = Eddy::Util::Data.raw_element_data()
+      data = Eddy::Util.raw_element_data()
       elements = data.map do |el|
         next if el[:type].nil? || el[:description].nil?
         Eddy::Schema::ElementSummary.create(el)

@@ -54,7 +54,7 @@ module Eddy
       # @param id [String]
       # @return [self]
       def self.default_for_id(id)
-        data = Eddy::Util::Data.raw_element_data()
+        data = Eddy::Util.raw_element_data()
         id.upcase!
         result = data.find { |el| el[:id] == id }
         raise Eddy::Errors::Error, "No element found with id #{id}" if result.nil?
