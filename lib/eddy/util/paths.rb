@@ -7,7 +7,7 @@ module Eddy
       return File.expand_path("../../../..", __FILE__)
     end
 
-    # Directory for writing out files.
+    # Directory containing EDI data & definitions.
     # @return [String]
     def self.data_dir
       return File.join(self.root_dir, "data")
