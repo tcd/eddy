@@ -4,9 +4,9 @@ module Eddy
 
     # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
     #
-    # @return [Array<Eddy::Schema::ElementSummary>]
-    def self.generate_elements()
-      elements = self.generate_element_data()
+    # @param elements [Array<Eddy::Schema::ElementSummary>]
+    # @return [void]
+    def self.generate_elements(elements = self.generate_element_data())
       elements.each do |el|
         case el.type
         when "AN"   then self.an(el)
