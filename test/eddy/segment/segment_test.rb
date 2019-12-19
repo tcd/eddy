@@ -4,10 +4,16 @@ require "time"
 class SegmentTest < Minitest::Test
 
   def test_n2
-    store = Eddy::Store.new(time: nil)
-    x = Eddy::Segments::N2.new(store)
+    x = Eddy::Segments::N2.new(nil)
     x.N201 = "x"
     assert_equal("N2*x", x.render("*"))
+  end
+
+  def test_n2_2
+    x = Eddy::Segments::N2.new(nil)
+    x.N201 = "x"
+    x.N202 = "x"
+    assert_equal("N2*x*x", x.render("*"))
   end
 
   def test_isa_v1
