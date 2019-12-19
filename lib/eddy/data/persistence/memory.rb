@@ -7,13 +7,9 @@ module Eddy
         # @return [void]
         def initialize()
           @data = {
-            interchange_control_numbers: [0, 1],
-            functional_group_control_numbers: {
-              "PO" => [0],
-            },
-            transaction_set_control_numbers: {
-              "850" => [1, 2],
-            },
+            interchange_control_numbers: [],
+            functional_group_control_numbers: {},
+            transaction_set_control_numbers: {},
           }
         end
 

@@ -14,7 +14,6 @@ require "eddy/models/segment"
 require "eddy/models/loop"
 require "eddy/models/transaction_set"
 
-require "eddy/write/methods"
 require "eddy/write/store"
 require "eddy/write/interchange"
 require "eddy/write/simple_interchange"
