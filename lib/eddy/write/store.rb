@@ -21,6 +21,13 @@ module Eddy
     # Data Element Separator
     # @return [String] ("*")
     attr_accessor :element_separator
+    # QUESTION: is this the same as `component_separator`?
+    #
+    # See:
+    #
+    # - [Repeating Data Elements - X12 RFI](http://www.x12.org/rfis/Repeating%20Data%20Elements.pdf)
+    # @return [String]
+    attr_accessor :repitition_separator
 
     # Used by:
     #
