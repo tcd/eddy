@@ -34,11 +34,7 @@ properties:
   req:
     description: Defines if/how the Loop is required.
     type: string
-    enum:
-    - M
-    - O
-    - X
-    - Z
+    enum: [M, O, X, Z]
   components:
     description: An array of Segments and/or Loops that comprise the Loop.
     type: array

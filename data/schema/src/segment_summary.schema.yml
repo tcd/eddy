@@ -9,7 +9,7 @@ type: object
 additionalProperties: false
 properties:
   pos:
-    description: Indicates the order in which Segments should appear in their Level of the Transaction Set.
+    description: Specifies the order (usually in multiples of ten) in which the Segment appears in the Transaction Set.
     type: string
   id:
     description: Short string identifying the Segment.
