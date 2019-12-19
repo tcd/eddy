@@ -1,8 +1,5 @@
 # EDI Toolkit.
-module Eddy
-  # Generate Ruby classes for modeling Semgents & Data Element logic, notes, and validation.
-  module Build; end
-end
+module Eddy; end
 
 require "eddy/version"
 require "eddy/errors"
@@ -22,10 +19,7 @@ require "eddy/write/interchange"
 require "eddy/write/simple_interchange"
 require "eddy/write/functional_group"
 
-Dir.glob(File.join(__dir__, "eddy", "build", "elements", "*.rb")).each { |file| require file }
-require "eddy/build/elements"
-require "eddy/build/segment_builder"
-require "eddy/build/transaction_set_builder"
+require "eddy/build/build"
 
 Dir.glob(File.join(__dir__, "definitions", "elements", "manual", "**", "*.rb")).each { |file| require file }
 Dir.glob(File.join(__dir__, "definitions", "segments", "manual", "**", "*.rb")).each { |file| require file }
