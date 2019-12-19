@@ -27,8 +27,8 @@ module Eddy
         self.headers = headers
       end
 
-      # (see #initialize)
       # @param path [String] Path to a JSON or YAML file containing a valid Transaction Set definition.
+      # @param (see #initialize)
       # @return [Eddy::Build::TransactionSetBuilder]
       def self.from_file(path, **kwargs)
         raise Eddy::Errors::Error, "Invalid transaction set definition" unless Eddy::Schema.valid_transaction_set_data?(path)
@@ -38,8 +38,8 @@ module Eddy
         return builder
       end
 
-      # (see #initialize)
       # @param summary [Eddy::Schema::TransactionSetSummary]
+      # @param (see #initialize)
       # @return [Eddy::Build::TransactionSetBuilder]
       def self.from_summary(summary, **kwargs)
         builder = Eddy::Build::TransactionSetBuilder.new(**kwargs)
