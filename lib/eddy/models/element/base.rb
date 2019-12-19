@@ -50,6 +50,7 @@ module Eddy
       #
       # See:
       #
+      # - [The Data Segment - EDIdEv](https://secure.edidev.net/edidev-ca/help/Using/Using_EDI/Using_AscX12/DataStructures/DataSegment/DataSegment.htm)
       # - [Required vs Mandatory in Code Descriptions - X12 RFI](http://www.x12.org/rfis/Required%20vs%20Mandatory%20in%20Code%20Descriptions.pdf)
       #
       # @return [String]
