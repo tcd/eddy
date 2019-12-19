@@ -19,6 +19,8 @@ require "eddy/write/interchange"
 require "eddy/write/simple_interchange"
 require "eddy/write/functional_group"
 
+require "eddy/parse"
+
 require "eddy/build/build"
 
 Dir.glob(File.join(__dir__, "definitions", "elements", "manual", "**", "*.rb")).each { |file| require file }
