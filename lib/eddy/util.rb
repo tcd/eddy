@@ -5,6 +5,7 @@ end
 
 require "eddy/util/paths"
 require "eddy/util/normalize"
+require "eddy/util/trim"
 require "eddy/util/read"
 require "eddy/util/tsv_to_yaml"
 require "eddy/util/timestamp"
