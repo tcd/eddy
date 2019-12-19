@@ -24,6 +24,10 @@ class UtilTest < Minitest::Test
     skip()
   end
 
+  def test_find_element_by_id
+    skip("Write `find_element_by_id` method")
+  end
+
   def test_normalize_id
     assert_equal("E420", Eddy::Util.normalize_id("420"))
     assert_equal("I420", Eddy::Util.normalize_id("i420"))
