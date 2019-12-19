@@ -24,7 +24,7 @@ module Eddy
       # @raise [ArgumentError] If an invalid format argument is passed.
       # @param min [Integer] (nil)
       # @param max [Integer] (nil)
-      # @param req [Boolean] (nil)
+      # @param req [String] (nil)
       # @param val [Time] (nil) A [time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object in `UTC` format.
       # @param fmt [Symbol] (nil) Format for the date. Valid values: `:hhmm`, `:hhmmss`, `:hhmmssd`, and `:hhmmssdd`
       # @return [void]
