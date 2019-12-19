@@ -1,6 +1,11 @@
 module Eddy
   module Loop
     # A repeated collection of Segments and/or other Loops.
+    #
+    # See:
+    #
+    # - [HL Loop Structure in TS 837 - X12 RFI](http://www.x12.org/rfis/HL%20Loop%20Structure%20in%20TS%20837.pdf)
+    # - [HL Segment Content - X12 RFI](http://www.x12.org/rfis/HL%20Segment%20Content.pdf)
     class Base
 
       # (Name) A unique string used to identify the Loop within its Transaction Set.
