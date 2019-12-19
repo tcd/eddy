@@ -1,0 +1,10 @@
+---
+id: CAD
+name: Carrier Detail
+purpose: To specify transportation details for the transaction.
+elements:
+  # - { ref: CAD01, id: '', req:  }
+  # - { ref: CAD02, id: '', req:  }
+  # - { ref: CAD03, id: '', req:  }
+  # - { ref: CAD04, id: '', req:  }
+  - { ref: CAD05, id: '387', req: X }

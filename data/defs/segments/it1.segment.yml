@@ -1,0 +1,20 @@
+---
+id: IT1
+name: Baseline Item Data (Invoice)
+purpose: To specify the basic and most frequently used line item data for the invoice and related transactions.
+elements:
+  - { ref: IT101, id: '350', req: O }
+  - { ref: IT102, id: '358', req: X }
+  - { ref: IT103, id: '355', req: X }
+  - { ref: IT104, id: '212', req: X }
+  # - { ref: IT105, id: '', req:  }
+  - { ref: IT106, id: '235', req: X }
+  - { ref: IT107, id: '234', req: X }
+  - { ref: IT108, id: '235', req: X }
+  - { ref: IT109, id: '234', req: X }
+  - { ref: IT110, id: '235', req: X }
+  - { ref: IT111, id: '234', req: X }
+  - { ref: IT112, id: '235', req: X }
+  - { ref: IT113, id: '234', req: X }
+  - { ref: IT114, id: '235', req: X }
+  - { ref: IT115, id: '234', req: X }
