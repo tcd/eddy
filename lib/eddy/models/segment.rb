@@ -16,7 +16,7 @@ module Eddy
     # All of a Segment's elements need to be declared in its constructor.
     #
     # @param store [Eddy::Store]
-    # @param elements [*Eddy::Element::Base]
+    # @param elements [Eddy::Element::Base]
     # @return [void]
     def initialize(store, *elements)
       self.store = store
@@ -29,7 +29,8 @@ module Eddy
     # @param element_separator [String] String used to delimit elements within a segment.
     # @return [String]
     def render(element_separator = self.store.element_separator)
-      return [self.id, self.elements.map(&:value).compact].join(element_separator)
+      segment = [self.id, self.elements.map(&:value).compact].join(element_separator)
+      return Eddy::Util.trim_delims_from_segment(segment, element_separator: element_separator)
     end
 
   end
