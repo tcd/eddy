@@ -5,7 +5,13 @@ module Eddy
     class Error < StandardError; end
 
     # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element} class.
-    class ElementValidationError < Error; end
+    class ElementValidationError < Error
+      # @param msg [String] ("")
+      # @return [void]
+      def initialize(msg = "")
+        super(msg)
+      end
+    end
 
     # Exception raised when `value` has been called before `value=` and no default value is set.
     class ElementNilValueError < Error; end
