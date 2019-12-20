@@ -37,23 +37,26 @@ module Eddy
         end
 
         # @param new_ctrl_num [Integer]
-        # @return [Array<Integer>]
+        # @return [void]
         def add_interchange_control_number(new_ctrl_num)
           self.interchange_control_numbers.append(new_ctrl_num)
+          return nil
         end
 
         # @param functional_group [String]
         # @param new_ctrl_num [Integer]
-        # @return [Array<Integer>]
+        # @return [void]
         def add_functional_group_control_number(functional_group, new_ctrl_num)
           self.functional_group_control_numbers(functional_group).append(new_ctrl_num)
+          return nil
         end
 
         # @param transaction_set_id [String]
         # @param new_ctrl_num [Integer]
-        # @return [Array<Integer>]
+        # @return [void]
         def add_transaction_set_control_number(transaction_set_id, new_ctrl_num)
           self.transaction_set_control_numbers(transaction_set_id).append(new_ctrl_num)
+          return nil
         end
 
       end
