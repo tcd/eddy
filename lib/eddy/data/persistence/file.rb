@@ -41,9 +41,7 @@ module Eddy
         #
         # @return [void]
         def write()
-          File.open(self.path(), "w") do |f|
-            f.write(@data.to_json)
-          end
+          File.open(self.path(), "w") { |f| f.write(@data.to_json) }
         end
 
       end
