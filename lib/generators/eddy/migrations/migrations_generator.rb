@@ -42,6 +42,12 @@ module Eddy
         return "[#{ActiveRecord::VERSION::MAJOR}.#{ActiveRecord::VERSION::MINOR}]"
       end
 
+      # for generating a timestamp when using `create_migration`
+      # Sole from - https://github.com/thoughtbot/clearance/blob/master/lib/generators/clearance/install/install_generator.rb#L116
+      def self.next_migration_number(dir)
+        ActiveRecord::Generators::Base.next_migration_number(dir)
+      end
+
     end
   end
 end
