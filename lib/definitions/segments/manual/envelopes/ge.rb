@@ -46,7 +46,7 @@ module Eddy
       def GE02=(arg)
         @ge02.value = arg
       end
-      alias GroupControlNumber= GS02=
+      alias GroupControlNumber= GE02=
 
     end
   end
