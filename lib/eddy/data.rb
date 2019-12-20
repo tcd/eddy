@@ -7,7 +7,7 @@ module Eddy
   # Persistent data used by Eddy.
   # @return [Eddy::Data::Persistence::Base]
   def self.data
-    return @data if @data
+    return @data if defined? @data
     case Eddy.config.persistence_method
     when :memory then @data = Eddy::Data::Persistence::Memory.new()
     when :file   then raise NotImplementedError
