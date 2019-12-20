@@ -40,5 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "anyway_config", "2.0.0.pre"
   spec.add_runtime_dependency "ginny", "~> 0.6.3"
   spec.add_runtime_dependency "json_schemer", "~> 0.2.8"
-  spec.add_runtime_dependency "thor", "~> 0.20.3"
+  spec.add_runtime_dependency "thor", "~> 1.0.1"
 end
