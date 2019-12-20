@@ -29,7 +29,7 @@ module Eddy
         parent: "Eddy::Element::ID",
         modules: ["Eddy", "Elements"],
         body: "\n" + constructor + "\n\n" + code_list + "\n",
-        file_prefix: "#{el.id}.id.",
+        file_prefix: "#{el.id}.",
       })
       return c.render if test
       c.generate(File.join(Eddy::Util.root_dir, "build", "elements"))

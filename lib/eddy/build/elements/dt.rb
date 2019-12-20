@@ -27,7 +27,7 @@ module Eddy
         parent: "Eddy::Element::DT",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{el.id}.dt.",
+        file_prefix: "#{el.id}.",
       })
       return c.render if test
       c.generate(File.join(Eddy::Util.root_dir, "build", "elements"))
