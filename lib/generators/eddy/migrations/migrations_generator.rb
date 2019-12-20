@@ -14,7 +14,7 @@ module Eddy
     class MigrationsGenerator < Rails::Generators::Base
 
       include Rails::Generators::Migration
-      desc "This generator creates a migration in db/migrate to set up database tables for use by Eddy"
+      desc "This generator creates a migration file in db/migrate that will set up database tables for use by Eddy"
       source_root File.expand_path("templates", __dir__)
 
       # @return [void]

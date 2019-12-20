@@ -2,19 +2,14 @@ require "rails/generators"
 
 module Eddy
   module Generators
-    # Generate config & initializer files for Eddy.
-    class InstallGenerator < Rails::Generators::Base
-
+    # Generate an initializer file for Eddy.
+    class InitializersGenerator < Rails::Generators::Base
+      desc "This generator creates an initializer file at config/initializers/eddy.rb for Eddy"
       source_root File.expand_path("templates", __dir__)
 
       # @return [void]
       def copy_initializer
         template "eddy.rb.erb", "config/initializers/eddy.rb"
-      end
-
-      # @return [void]
-      def copy_config
-        template "eddy.yml.erb", "config/eddy.yml"
       end
 
     end
