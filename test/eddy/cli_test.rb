@@ -1,5 +1,3 @@
 require "test_helper"
 
-class CLITest < Minitest::Test
-
-end
+class CLITest < Minitest::Test; end
