@@ -1,0 +1,32 @@
+class EddyCreateTables < ActiveRecord::Migration<%= migration_version %>
+  def self.up
+    create_table :eddy_interchange_control_numbers do |t|
+      t.integer :control_number, null: false
+      t.boolean :received
+      t.boolean :sent
+      t.timestamps null: false
+    end
+    create_table :eddy_functional_group_control_numbers do |t|
+      t.integer :control_number,   null: false
+      t.string  :functional_group, null: false
+      t.boolean :received
+      t.boolean :sent
+      t.timestamps null: false
+    end
+    create_table :eddy_transaction_set_control_numbers do |t|
+      t.integer :control_number,  null: false
+      t.string  :transaction_set, null: false
+      t.boolean :received
+      t.boolean :sent
+      t.timestamps null: false
+    end
+    add_index :eddy_interchange_control_numbers,      :control_number, unique: true
+    add_index :eddy_functional_group_control_numbers, :control_number, unique: true
+    add_index :eddy_transaction_set_control_numbers,  :control_number, unique: true
+  end
+  def self.down
+    drop_table :eddy_interchange_control_numbers
+    drop_table :eddy_functional_group_control_numbers
+    drop_table :eddy_transaction_set_control_numbers
+  end
+end

@@ -1,0 +1,6 @@
+Eddy.configure do |config|
+  config.env = Rails.env
+  config.persistence_method = :memory
+  config.tmp_dir = Rails.root.join("tmp")
+  config.tmp_dir = Rails.root.join("tmp", "build")
+end
