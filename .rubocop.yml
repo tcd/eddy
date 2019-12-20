@@ -157,6 +157,9 @@ Layout/HashAlignment:
 Style/SafeNavigation:
   Enabled: false
 
+Style/NegatedIf:
+  EnforcedStyle: postfix
+
 # TODO: File issue to ignore enums when using `EnforcedStyle: assign_inside_condition`.
 Style/ConditionalAssignment:
   Enabled: false
