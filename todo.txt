@@ -1,4 +1,6 @@
+2019-12-20 Finish TransactionSetBuilder.
 2019-12-20 Figure out how to deal with loops.
 2019-12-20 Reset `Eddy.data` when `Eddy.config.persistence_method` changes.
 2019-12-20 Add a DB persistence_method.
 2019-12-20 Write rails migration generators.
+2019-12-20 Check for conflicts in generators.
