@@ -37,12 +37,12 @@ module Eddy
           @data = JSON.parse(File.read(self.path()), symbolize_names: symbolize)
         end
 
-        # Write `@data` out to the JSON file.
+        # Write `@data` out to the JSON file. This will overwrite the file's contents.
         #
         # @return [void]
         def write()
           File.open(self.path(), "w") do |f|
-            f.write(tempHash.to_json)
+            f.write(@data.to_json)
           end
         end
 
