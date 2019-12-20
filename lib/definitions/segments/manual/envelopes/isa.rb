@@ -8,8 +8,9 @@ module Eddy
     class ISA < Eddy::Segment
 
       # @param store [Eddy::Store]
+      # @param interchange_control_number [Integer]
       # @return [void]
-      def initialize(store)
+      def initialize(store, interchange_control_number)
         @id = "ISA"
         @name = "Interchange Control Header"
         @isa01 = Eddy::Elements::I01.new(req: "M")
@@ -24,7 +25,7 @@ module Eddy
         @isa10 = Eddy::Elements::I09.new(req: "M", val: store.time)
         @isa11 = Eddy::Elements::I10.new(req: "M")
         @isa12 = Eddy::Elements::I11.new(req: "M", val: store.edi_version)
-        @isa13 = Eddy::Elements::I12.new(req: "M", val: store.interchange_control_number)
+        @isa13 = Eddy::Elements::I12.new(req: "M", val: interchange_control_number)
         @isa14 = Eddy::Elements::I13.new(req: "M")
         @isa15 = Eddy::Elements::I14.new(req: "M")
         @isa16 = Eddy::Elements::I15.new(req: "M", val: store.component_separator)

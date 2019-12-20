@@ -8,12 +8,13 @@ module Eddy
     class IEA < Eddy::Segment
 
       # @param store [Eddy::Store]
+      # @param interchange_control_number [Integer]
       # @return [void]
-      def initialize(store)
+      def initialize(store, interchange_control_number)
         @id = "IEA"
         @name = "Interchange Control Trailer"
         @iea01 = Eddy::Elements::I16.new(req: "M", val: store.number_of_included_functional_groups)
-        @iea02 = Eddy::Elements::I12.new(req: "M", val: store.interchange_control_number)
+        @iea02 = Eddy::Elements::I12.new(req: "M", val: interchange_control_number)
         super(store, @iea01, @iea02)
       end
 

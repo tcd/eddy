@@ -3,7 +3,11 @@ require "test_helper"
 class EddyTest < Minitest::Test
 
   def test_new_interchange_control_number
-    assert_equal(1, Eddy::Data.new_interchange_control_number())
+    old_numbers = Eddy.data.interchange_control_numbers().dup
+    new_ctrl_number = Eddy::Data.new_interchange_control_number()
+    new_numbers = Eddy.data.interchange_control_numbers()
+    refute_includes(old_numbers, new_ctrl_number)
+    assert_includes(new_numbers, new_ctrl_number)
   end
 
 end

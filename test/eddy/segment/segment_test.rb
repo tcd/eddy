@@ -21,7 +21,7 @@ class SegmentTest < Minitest::Test
       store = Eddy::Store.new(
         time: Time.now.utc,
       )
-      isa = Eddy::Segments::ISA.new(store)
+      isa = Eddy::Segments::ISA.new(store, nil)
       isa.AuthorizationInformationQualifier = "00"
       isa.SecurityInformationQualifier = "00"
       isa.InterchangeIdQualifier1 = "ZZ"
@@ -42,7 +42,7 @@ class SegmentTest < Minitest::Test
     store = Eddy::Store.new(
       time: Time.at(0).utc(),
     )
-    isa = Eddy::Segments::ISA.new(store)
+    isa = Eddy::Segments::ISA.new(store, nil)
     isa.ISA01 = "00"
     isa.ISA03 = "00"
     isa.ISA05 = "ZZ"

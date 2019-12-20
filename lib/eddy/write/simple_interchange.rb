@@ -27,8 +27,9 @@ module Eddy
     # @yieldparam [Eddy::Segments::GE] ge
     # @return [String]
     def render()
-      isa = Eddy::Segments::ISA.new(store)
-      iea = Eddy::Segments::IEA.new(store)
+      itch_ctrl_num = Eddy::Data.new_interchange_control_number()
+      isa = Eddy::Segments::ISA.new(store, itch_ctrl_num)
+      iea = Eddy::Segments::IEA.new(store, itch_ctrl_num)
       number_of_included_functional_groups = self.store.number_of_included_functional_groups
       gs = Eddy::Segments::GS.new(store, number_of_included_functional_groups, self.transaction_set)
       ge = Eddy::Segments::GE.new(store, number_of_included_functional_groups)

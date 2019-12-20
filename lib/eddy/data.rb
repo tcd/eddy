@@ -35,6 +35,7 @@ module Eddy
       Eddy.data.add_interchange_control_number(new_ctrl_num)
       return new_ctrl_num
     end
+
   end
 
 end
