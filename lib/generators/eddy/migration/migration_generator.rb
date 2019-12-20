@@ -11,7 +11,7 @@ module Eddy
     # - [`Rails::Generators::Migration`](https://api.rubyonrails.org/classes/Rails/Generators/Migration.html)
     # - [StackOverflow Question](https://stackoverflow.com/questions/53212961/how-to-make-a-custom-generator-which-also-generates-a-migration-in-rails)
     # - ["index: true" in Rails migrations does not work as you'd expect](https://makandracards.com/makandra/32353-psa-index-true-in-rails-migrations-does-not-work-as-you-d-expect)
-    class MigrationsGenerator < Rails::Generators::Base
+    class MigrationGenerator < Rails::Generators::Base
 
       include Rails::Generators::Migration
       desc "This generator creates a migration file in db/migrate that will set up database tables for use by Eddy"
