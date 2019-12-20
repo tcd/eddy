@@ -23,7 +23,7 @@ class TransactionSetBuilderTest < Minitest::Test
             NAME = "Purchase Order Acknowledgement".freeze
             FUNCTIONAL_GROUP = "PR".freeze
 
-            # @param store [Eddy::Store]
+            # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
               super(

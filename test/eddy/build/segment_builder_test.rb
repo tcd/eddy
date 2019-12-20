@@ -22,7 +22,7 @@ class SegmentBuilderTest < Minitest::Test
           # - Purpose: To identify a party by type of organization, name, and code
           class N2 < Eddy::Segment
 
-            # @param store [Eddy::Store]
+            # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
               @id = "N2"
@@ -66,7 +66,7 @@ class SegmentBuilderTest < Minitest::Test
           # - Purpose: To identify a party by type of organization, name, and code
           class N2 < Eddy::Segment
 
-            # @param store [Eddy::Store]
+            # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
               @id = "N2"
@@ -116,7 +116,7 @@ class SegmentBuilderTest < Minitest::Test
 
   def test_segment_constructor
     want = <<~RB.strip
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @return [void]
       def initialize(store)
         @id = "N2"

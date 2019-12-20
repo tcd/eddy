@@ -1,7 +1,7 @@
 module Eddy
   # An EDI interchange with one Transaction Set.
   class SimpleInterchange
-    # @return [Eddy::Store] Data store for the Interchange and all encompassed components.
+    # @return [Eddy::Data::Store] Data store for the Interchange and all encompassed components.
     attr_accessor :store
     # @return [Eddy::TransactionSet]
     attr_accessor :transaction_set
@@ -11,9 +11,9 @@ module Eddy
     # Initialize an interchange with one Functional Group containing one Transaction Set.
     #
     # @param transaction_set [Eddy::TransactionSet]
-    # @param store [Eddy::Store] (Eddy::Store.new)
+    # @param store [Eddy::Data::Store] (Eddy::Data::Store.new)
     # @return [void]
-    def initialize(transaction_set, store: Eddy::Store.new())
+    def initialize(transaction_set, store: Eddy::Data::Store.new())
       self.components = []
       self.transaction_set = transaction_set
       self.store = store

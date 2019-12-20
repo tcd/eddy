@@ -18,7 +18,7 @@ class SegmentTest < Minitest::Test
 
   def test_isa_v1
     Time.stub :now, Time.at(0).utc() do
-      store = Eddy::Store.new(
+      store = Eddy::Data::Store.new(
         time: Time.now.utc,
       )
       isa = Eddy::Segments::ISA.new(store, nil)
@@ -39,7 +39,7 @@ class SegmentTest < Minitest::Test
   end
 
   def test_isa_v2
-    store = Eddy::Store.new(
+    store = Eddy::Data::Store.new(
       time: Time.at(0).utc(),
     )
     isa = Eddy::Segments::ISA.new(store, nil)

@@ -7,7 +7,7 @@ module Eddy
     # - Purpose: To indicate the beginning of a functional group and to provide control information.
     class GS < Eddy::Segment
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @param group_control_number [Integer]
       # @param transaction_set [Eddy::TransactionSet]
       # @return [void]

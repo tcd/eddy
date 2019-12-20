@@ -14,15 +14,17 @@ class SimpleInterchangeTest < Minitest::Test
       GE*1*1~
       IEA*1*000000001~
     EDI
-    store = Eddy::Store.new(
+    store = Eddy::Data::Store.new(
       time: Time.at(0).utc(),
     )
     store.segment_separator = "~"
     itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::TS855, store: store)
-    have = itch.render do |isa|
+    have = itch.render do |isa, iea|
       isa.ISA05 = "ZZ"
       isa.ISA07 = "ZZ"
       isa.ISA15 = "T"
+      isa.InterchangeControlNumber = 1
+      iea.InterchangeControlNumber = 1
     end
     assert_equal(want, have)
   end

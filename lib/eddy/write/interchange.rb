@@ -1,14 +1,14 @@
 module Eddy
   # Top level EDI interchange.
   class Interchange
-    # @return [Eddy::Store] Data store for the Interchange.
+    # @return [Eddy::Data::Store] Data store for the Interchange.
     attr_accessor :store
     # @return [Array<Eddy::Write::FunctionalGroup>]
     attr_accessor :functional_groups
 
     # @return [void]
     def initialize()
-      self.store = Eddy::Store.new()
+      self.store = Eddy::Data::Store.new()
       self.functional_groups = []
     end
 

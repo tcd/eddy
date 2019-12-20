@@ -11,10 +11,10 @@ module Eddy
 
     # @return [Array<Segment, Loop>]
     attr_accessor :components
-    # @return [Eddy::Store] Container used to distribute state throughout an Interchange.
+    # @return [Eddy::Data::Store] Container used to distribute state throughout an Interchange.
     attr_accessor :store
 
-    # @param store [Eddy::Store]
+    # @param store [Eddy::Data::Store]
     # @param components [Array<Segment, Loop>]
     # @return [void]
     def initialize(store, *components)

@@ -2,7 +2,7 @@ module Eddy
   # A group of `Eddy::TransactionSet::Base` classes.
   class FunctionalGroup
 
-    # @return [Eddy::Store] Data store for the Interchange and all encompassed components.
+    # @return [Eddy::Data::Store] Data store for the Interchange and all encompassed components.
     attr_accessor :store
     # Class for making new Transaction Sets.
     # @return [Eddy::TransactionSet]
@@ -11,7 +11,7 @@ module Eddy
     # @return [Array<Eddy::TransactionSet>]
     attr_accessor :transaction_sets
 
-    # @param store [Eddy::Store]
+    # @param store [Eddy::Data::Store]
     # @param transaction_set [Eddy::TransactionSet]
     # @return [void]
     def initialize(store, transaction_set)

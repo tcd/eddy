@@ -1,3 +1,4 @@
+require "eddy/data/store"
 require "eddy/data/persistence/base"
 require "eddy/data/persistence/memory"
 

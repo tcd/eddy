@@ -7,7 +7,7 @@ module Eddy
     # - Purpose: To indicate the end of the transaction set and provide the count of the transmitted segments (including the beginning (ST) and ending (SE) segments).
     class SE < Eddy::Segment
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @return [void]
       def initialize(store)
         @id = "SE"

@@ -11,7 +11,7 @@ module Eddy
       NAME = "Purchase Order".freeze
       FUNCTIONAL_GROUP = "PO".freeze
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @return [void]
       def initialize(store)
         super(

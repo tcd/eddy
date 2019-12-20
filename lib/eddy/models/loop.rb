@@ -20,7 +20,7 @@ module Eddy
       # An array of Segments and/or other Loops.
       # @return [Array<Segment, Loop>]
       attr_accessor :components
-      # @return [Eddy::Store] Data passed down from a Transaction Set.
+      # @return [Eddy::Data::Store] Data passed down from a Transaction Set.
       attr_accessor :store
 
       # All of a Loop's elements need to be declared in its constructor.

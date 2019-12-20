@@ -7,7 +7,7 @@ module Eddy
     # - Purpose: To define the end of an interchange of zero or more functional groups and interchange-related control segments.
     class IEA < Eddy::Segment
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @param interchange_control_number [Integer]
       # @return [void]
       def initialize(store, interchange_control_number)

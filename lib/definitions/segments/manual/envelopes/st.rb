@@ -7,7 +7,7 @@ module Eddy
     # - Purpose: To indicate the start of a transaction set and to assign a control number.
     class ST < Eddy::Segment
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @return [void]
       def initialize(store)
         @id = "ST"

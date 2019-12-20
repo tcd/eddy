@@ -7,7 +7,7 @@ module Eddy
     # - Purpose: To indicate the end of a functional group and to provide control information.
     class GE < Eddy::Segment
 
-      # @param store [Eddy::Store]
+      # @param store [Eddy::Data::Store]
       # @param group_control_number [Integer]
       # @return [void]
       def initialize(store, group_control_number)

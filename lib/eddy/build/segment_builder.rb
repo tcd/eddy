@@ -85,7 +85,7 @@ module Eddy
       def constructor()
         return Ginny::Func.create({
           name: "initialize",
-          params: [{ name: "store", type: "Eddy::Store" }],
+          params: [{ name: "store", type: "Eddy::Data::Store" }],
           body: <<~RB,
             @id = "#{summary.id}"
             @name = "#{summary.name}"
