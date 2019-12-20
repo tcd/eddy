@@ -1,4 +1,5 @@
 class EddyCreateTables < ActiveRecord::Migration<%= migration_version %>
+
   def self.up
     create_table :eddy_interchange_control_numbers do |t|
       t.integer :control_number, null: false
@@ -24,9 +25,11 @@ class EddyCreateTables < ActiveRecord::Migration<%= migration_version %>
     add_index :eddy_functional_group_control_numbers, :control_number, unique: true
     add_index :eddy_transaction_set_control_numbers,  :control_number, unique: true
   end
+
   def self.down
     drop_table :eddy_interchange_control_numbers
     drop_table :eddy_functional_group_control_numbers
     drop_table :eddy_transaction_set_control_numbers
   end
+
 end
