@@ -31,6 +31,7 @@ module Eddy
       def GE01=(arg)
         @ge01.value = arg
       end
+      alias NumberOfTransactionSetsIncluded= GE01=
 
       # ### Element Summary:
       #
@@ -45,6 +46,7 @@ module Eddy
       def GE02=(arg)
         @ge02.value = arg
       end
+      alias GroupControlNumber= GS02=
 
     end
   end

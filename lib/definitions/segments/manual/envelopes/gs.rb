@@ -48,6 +48,7 @@ module Eddy
       def GS01=(arg)
         @gs01.value = arg
       end
+      alias FunctionalIdentifierCode= GS01=
 
       # ### Element Summary:
       #
@@ -62,6 +63,7 @@ module Eddy
       def GS02=(arg)
         @gs02.value = arg
       end
+      alias ApplicationSendersCode= GS02=
 
       # ### Element Summary:
       #
@@ -76,6 +78,7 @@ module Eddy
       def GS03=(arg)
         @gs03.value = arg
       end
+      alias ApplicationReceiversCode= GS03=
 
       # ### Element Summary:
       #
@@ -90,6 +93,7 @@ module Eddy
       def GS04=(arg)
         @gs04.value = arg
       end
+      alias Date= GS04=
 
       # ### Element Summary:
       #
@@ -104,6 +108,7 @@ module Eddy
       def GS05=(arg)
         @gs05.value = arg
       end
+      alias Time= GS05=
 
       # ### Element Summary:
       #
@@ -118,6 +123,7 @@ module Eddy
       def GS06=(arg)
         @gs06.value = arg
       end
+      alias GroupControlNumber= GS06=
 
       # ### Element Summary:
       #
@@ -135,6 +141,7 @@ module Eddy
       def GS07=(arg)
         @gs07.value = arg
       end
+      alias ResponsibleAgencyCode= GS07=
 
       # ### Element Summary:
       #
@@ -149,6 +156,7 @@ module Eddy
       def GS08=(arg)
         @gs08.value = arg
       end
+      alias VersionReleaseIndustryIdentifierCode= GS08=
 
     end
   end

@@ -30,6 +30,7 @@ module Eddy
       def ST01=(arg)
         @st01.value = arg
       end
+      alias TransactionSetIdentifierCode= ST01=
 
       # ### Element Summary:
       #
@@ -44,6 +45,7 @@ module Eddy
       def ST02=(arg)
         @st02.value = arg
       end
+      alias TransactionSetControlNumber= ST02=
 
     end
   end

@@ -31,6 +31,7 @@ module Eddy
       def IEA01=(arg)
         @iea01.value = arg
       end
+      alias NumberOfIncludedFunctionalGroups= IEA01=
 
       # ### Element Summary:
       #
@@ -45,6 +46,7 @@ module Eddy
       def IEA02=(arg)
         @iea02.value = arg
       end
+      alias InterchangeControlNumber= IEA02=
 
     end
   end
