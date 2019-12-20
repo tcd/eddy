@@ -6,17 +6,18 @@ module Eddy
     # @param existing [Array<Integer>]
     # @return [Integer]
     def self.new_number(existing)
-      new_ctrl_num = nil
+      n = nil
       i = 1
       loop do
         if existing.include?(i)
           i += 1
           next
         else
-          new_ctrl_num = i
+          n = i
           break
         end
       end
+      return n
     end
 
   end
