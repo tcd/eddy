@@ -22,18 +22,26 @@ module Eddy
     # @return [Integer]
     def self.new_interchange_control_number
       existing = Eddy.data.interchange_control_numbers()
-      new_ctrl_num = nil
-      i = 1
-      loop do
-        if existing.include?(i)
-          i += 1
-          next
-        else
-          new_ctrl_num = i
-          break
-        end
-      end
+      new_ctrl_num = Eddy::Util.new_number(existing)
       Eddy.data.add_interchange_control_number(new_ctrl_num)
+      return new_ctrl_num
+    end
+
+    # @param functional_group [String]
+    # @return [Integer]
+    def self.new_functional_group_control_number(functional_group)
+      existing = Eddy.data.functional_group_control_numbers(functional_group)
+      new_ctrl_num = Eddy::Util.new_number(existing)
+      Eddy.data.add_functional_group_control_number(functional_group, new_ctrl_num)
+      return new_ctrl_num
+    end
+
+    # @param transaction_set_id [String]
+    # @return [Integer]
+    def self.new_transaction_set_control_number(transaction_set_id)
+      existing = Eddy.data.transaction_set_control_numbers(transaction_set_id)
+      new_ctrl_num = Eddy::Util.new_number(existing)
+      Eddy.data.transaction_set_control_numbers(transaction_set_id, new_ctrl_num)
       return new_ctrl_num
     end
 
