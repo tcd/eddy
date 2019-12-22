@@ -30,6 +30,7 @@ module Eddy
       def N201=(arg)
         @n201.value = arg
       end
+      alias Name1= N201=
 
       # ### Element Summary:
       #
@@ -44,6 +45,7 @@ module Eddy
       def N202=(arg)
         @n202.value = arg
       end
+      alias Name2= N202=
 
     end
   end
