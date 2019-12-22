@@ -3,11 +3,11 @@ id: CTP
 name: Pricing Information
 purpose: To specify pricing information.
 elements:
-  # - { ref: CTP01, id: '', req:  }
+  - { ref: CTP01, id: '687', req: O }
   - { ref: CTP02, id: '236', req: X }
   - { ref: CTP03, id: '212', req: X }
   - { ref: CTP04, id: '380', req: X }
-  # - { ref: CTP05, id: '', req:  }
+  - { ref: CTP05, id: '355', req: X }
   - { ref: CTP06, id: '648', req: O }
   - { ref: CTP07, id: '649', req: X }
   - { ref: CTP08, id: '782', req: O }

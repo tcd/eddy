@@ -3,5 +3,5 @@ id: N2
 name: Additional Name Information
 purpose: To identify a party by type of organization, name, and code.
 elements:
-  - { ref: N202, id: '93', req: M }
+  - { ref: N201, id: '93', req: M }
   - { ref: N202, id: '93', req: O }

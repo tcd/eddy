@@ -5,9 +5,9 @@ purpose: To specify the transportation details relative to commodity, weight, an
 elements:
   - { ref: TD101, id: '103', req: O }
   - { ref: TD102, id: '80',  req: X }
-  # - { ref: TD103, id: '' }
-  # - { ref: TD104, id: '' }
-  # - { ref: TD105, id: '' }
+  - { ref: TD103, id: '23',  req: O }
+  - { ref: TD104, id: '22',  req: X }
+  - { ref: TD105, id: '79',  req: O }
   - { ref: TD106, id: '187', req: O }
   - { ref: TD107, id: '81',  req: X }
   - { ref: TD108, id: '355', req: X }

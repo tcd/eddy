@@ -3,8 +3,15 @@ id: BEG
 name: Beginning Segment for Purchase Order
 purpose: To indicate the beginning of the Purchase Order Transaction Set and transmit identifying numbers and dates
 elements:
-  - { ref: BEG01, id: '353' }
-  - { ref: BEG02, id: '92'  }
-  - { ref: BEG03, id: '324' }
-  # - { ref: BEG04, id: ''    }
-  - { ref: BEG05, id: '373' }
+  - { ref: BEG01, id: '353',  req: M }
+  - { ref: BEG02, id: '92',   req: M }
+  - { ref: BEG03, id: '324',  req: M }
+  - { ref: BEG04, id: '328',  req: O }
+  - { ref: BEG05, id: '373',  req: M }
+  - { ref: BEG06, id: '367',  req: O }
+  - { ref: BEG07, id: '587',  req: O }
+  - { ref: BEG08, id: '1019', req: O }
+  - { ref: BEG09, id: '1166', req: O }
+  - { ref: BEG10, id: '1232', req: O }
+  - { ref: BEG11, id: '786',  req: O }
+  - { ref: BEG12, id: '640',  req: O }

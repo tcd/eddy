@@ -4,6 +4,6 @@ name: Purchase Order Reference
 purpose: To provide reference to a specific purchase order.
 elements:
   - { ref: PRF01, id: '324', req: M }
-  # - { ref: PRF02, id: '', req: M }
-  # - { ref: PRF03, id: '', req: M }
+  - { ref: PRF02, id: '328', req: O }
+  - { ref: PRF03, id: '327', req: O }
   - { ref: PRF04, id: '373', req: O }

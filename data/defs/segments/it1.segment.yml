@@ -7,7 +7,7 @@ elements:
   - { ref: IT102, id: '358', req: X }
   - { ref: IT103, id: '355', req: X }
   - { ref: IT104, id: '212', req: X }
-  # - { ref: IT105, id: '', req:  }
+  - { ref: IT105, id: '639', req: O }
   - { ref: IT106, id: '235', req: X }
   - { ref: IT107, id: '234', req: X }
   - { ref: IT108, id: '235', req: X }

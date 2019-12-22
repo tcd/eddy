@@ -6,6 +6,6 @@ elements:
   - { ref: SN101, id: '350', req: O }
   - { ref: SN102, id: '382', req: M }
   - { ref: SN103, id: '355', req: M }
-  # - { ref: SN104, id: '', req:  }
+  - { ref: SN104, id: '646', req: O }
   - { ref: SN105, id: '330', req: X }
   - { ref: SN106, id: '355', req: X }

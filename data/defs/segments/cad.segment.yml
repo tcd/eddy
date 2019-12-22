@@ -3,8 +3,12 @@ id: CAD
 name: Carrier Detail
 purpose: To specify transportation details for the transaction.
 elements:
-  # - { ref: CAD01, id: '', req:  }
-  # - { ref: CAD02, id: '', req:  }
-  # - { ref: CAD03, id: '', req:  }
-  # - { ref: CAD04, id: '', req:  }
+  - { ref: CAD01, id: '91',  req: O } # FIXME: req probably should be M
+  - { ref: CAD02, id: '206', req: O }
+  - { ref: CAD03, id: '207', req: O }
+  - { ref: CAD04, id: '140', req: X }
   - { ref: CAD05, id: '387', req: X }
+  - { ref: CAD06, id: '368', req: O }
+  - { ref: CAD07, id: '128', req: O }
+  - { ref: CAD08, id: '127', req: X }
+  - { ref: CAD09, id: '284', req: O }

@@ -5,8 +5,8 @@ purpose: To request or identify a service, promotion, allowance, or charge; to s
 elements:
   - { ref: SAC01, id: '248',  req: M  }
   - { ref: SAC02, id: '1300', req: X }
-  # - { ref: SAC03, id: '', id:  }
-  # - { ref: SAC04, id: '', id:  }
+  # - { ref: SAC03, id: '559', id: X }
+  # - { ref: SAC04, id: '1301', id: X }
   - { ref: SAC05, id: '610',  req: O  }
 notes: |
   1.R0203 - At least one of SAC02 or SAC03 is required.
@@ -17,3 +17,4 @@ notes: |
   6.L130204 - If SAC13 is present, then at least one of SAC02 or SAC04 is required.
   7.C1413 - If SAC14 is present, then SAC13 is required.
   8.C1615 - If SAC16 is present, then SAC15 is required.
+  https://www.jobisez.com/edi/documents/elements-codes.aspx?segment=SAC

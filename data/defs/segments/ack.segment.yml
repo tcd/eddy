@@ -6,9 +6,9 @@ elements:
   - { ref: ACK01, id: '668', req: M }
   - { ref: ACK02, id: '380', req: X }
   - { ref: ACK03, id: '355', req: X }
-  # - { ref: ACK04, id: '' }
-  # - { ref: ACK05, id: '' }
-  # - { ref: ACK06, id: '' }
+  - { ref: ACK04, id: '374', req: O }
+  - { ref: ACK05, id: '373', req: X }
+  - { ref: ACK06, id: '326', req: O }
   - { ref: ACK07, id: '235', req: X }
   - { ref: ACK08, id: '234', req: X }
   - { ref: ACK09, id: '235', req: X }
