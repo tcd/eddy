@@ -24,6 +24,15 @@ And then execute:
 bundle
 ```
 
+### With Rails
+
+Once installed, run
+
+```sh
+rails g eddy:install eddy:migration
+rails db:migrate
+```
+
 ## Validation
 
 - Ensures values passed to `ID` elements are acceptable.
