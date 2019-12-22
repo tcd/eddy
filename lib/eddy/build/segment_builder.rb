@@ -1,3 +1,4 @@
+require "set"
 require "ginny"
 
 module Eddy
@@ -9,26 +10,22 @@ module Eddy
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
-      # @return [Boolean] (false)
+      # @return [Boolean] (true)
       attr_accessor :aliases
       # @return [Boolean] (false)
       attr_accessor :headers
-      # @return [Boolean] (false)
-      attr_accessor :build_elements
-      # @return [Hash]
-      attr_accessor :el_names
+      # A hash of element names that appear more than once in the segment.
+      # @return [Hash{String => Integer}]
+      attr_accessor :duplicate_elements
 
       # @param folder [String] (nil)
-      # @param aliases [Boolean] (false)
+      # @param aliases [Boolean] (true)
       # @param headers [Boolean] (false)
-      # @param build_elements [Boolean] (false)
       # @return [void]
-      def initialize(folder: nil, aliases: false, headers: false, build_elements: false)
-        self.folder = folder
+      def initialize(folder: nil, aliases: true, headers: false)
+        self.folder  = folder
         self.aliases = aliases
         self.headers = headers
-        self.build_elements = build_elements
-        self.el_names = {}
       end
 
       # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
@@ -53,10 +50,11 @@ module Eddy
 
       # Generated the Segment and return the name of the file where it was written.
       #
+      # @param build_elements [Boolean] (false)
       # @return [String]
-      def build()
+      def build(build_elements: false)
         Eddy::Build.make_folders()
-        if self.build_elements
+        if build_elements
           Eddy::Build.generate_elements(self.summary.elements)
         end
         path = self.folder || File.join(Eddy.config.build_dir, "segments")
@@ -118,8 +116,15 @@ module Eddy
 
       # @return [String]
       def accessors()
-        defs = self.summary.elements.map do |el|
-          Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: self.headers)
+        if self.aliases
+          self.find_duplicate_elements()
+          defs = self.summary.elements.map do |el|
+            Eddy::Build::SegmentBuilder.element_accessor_v3(el, self.duplicate_elements, header: self.headers)
+          end
+        else
+          defs = self.summary.elements.map do |el|
+            Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: self.headers)
+          end
         end
         return defs.join("\n\n")
       end
@@ -154,26 +159,36 @@ module Eddy
       end
 
       # @param el [Eddy::Schema::ElementSummary]
+      # @param dupes [Hash]
+      # @param header [Boolean] (false)
       # @return [String]
-      def self.element_accessor_v3(el)
-        # Get normalized name
-        normal_name = el.normalized_name
-        # See if name has been used
-        count = self.el_names.fetch(normal_name, 0)
-        # Add a number on the end if the name already exists
-        normal_name += count.to_s if count > 0
-        # Increment name use count.
-        self.el_names[normal_name] = count + 1
+      def self.element_accessor_v3(el, dupes, header: false)
+        if dupes.key?(el.name)
+          normal_name = el.normalized_name + dupes[el.name].to_s
+          dupes[el.name] += 1
+        else
+          normal_name = el.name
+        end
         return <<~RB.strip
-          #{el.doc_comment.gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
+          #{el.doc_comment(header: header).gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
           #
           # @param arg [#{el.yard_type}]
           # @return [void]
           def #{el.ref.upcase}=(arg)
             @#{el.ref.downcase}.value = arg
           end
-          alias #{normal_name}= #{el.ref.upcase}
+          alias #{normal_name}= #{el.ref.upcase}=
         RB
+      end
+
+      # @return [void]
+      def find_duplicate_elements()
+        names = self.summary.elements.map(&:name)
+        s = Set.new()
+        dupes = names.reject { |e| s.add?(e) }.uniq
+        self.duplicate_elements = {}
+        dupes.each { |d| self.duplicate_elements[d] = 1 }
+        return nil
       end
 
     end
