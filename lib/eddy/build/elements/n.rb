@@ -28,10 +28,12 @@ module Eddy
         parent: "Eddy::Element::N",
         modules: ["Eddy", "Elements"],
         body: constructor,
-        file_prefix: "#{el.id}.",
       })
       return c.render if test
-      c.generate(File.join(Eddy::Util.root_dir, "build", "elements"))
+      c.generate(
+        File.join(Eddy::Util.root_dir, "build", "elements"),
+        file: "#{el.id}.#{Eddy::Util.snake_case(el.name)}.rb",
+      )
       return nil
     end
 
