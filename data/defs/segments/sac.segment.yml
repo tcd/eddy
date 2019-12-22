@@ -3,11 +3,11 @@ id: SAC
 name: Service, Promotion, Allowance, or Charge Information
 purpose: To request or identify a service, promotion, allowance, or charge; to specify the amount or percentage for the service,promotion, allowance, or charge.
 elements:
-  - { ref: SAC01, id: '248', id: M  }
-  - { ref: SAC02, id: '1300', id: X }
+  - { ref: SAC01, id: '248',  req: M  }
+  - { ref: SAC02, id: '1300', req: X }
   # - { ref: SAC03, id: '', id:  }
   # - { ref: SAC04, id: '', id:  }
-  - { ref: SAC05, id: '610', id: O  }
+  - { ref: SAC05, id: '610',  req: O  }
 notes: |
   1.R0203 - At least one of SAC02 or SAC03 is required.
   2.P0304 - If either SAC03 or SAC04 is present, then the other is required.
