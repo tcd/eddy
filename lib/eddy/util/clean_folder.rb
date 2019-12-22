@@ -8,7 +8,7 @@ module Eddy
       dir = File.expand_path(path)
       children = Dir.entries(dir).select { |f| File.file?(File.join(dir, f)) }
       deleted = File.unlink(*children)
-      return deleted&.length
+      return deleted
     end
   end
 end
