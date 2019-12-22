@@ -22,6 +22,15 @@ module Eddy
       folders.each { |f| Eddy::Util.clean_folder(f) }
     end
 
+    # @return [void]
+    def self.build_all_segments()
+      files = Eddy::Util.list_segment_definitions()
+      files.each do |f|
+        builder = Eddy::Build::SegmentBuilder.from_file(f)
+        builder.build(build_elements: true)
+      end
+    end
+
   end
 end
 

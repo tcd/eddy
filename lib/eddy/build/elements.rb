@@ -7,7 +7,10 @@ module Eddy
     # @param elements [Array<Eddy::Schema::ElementSummary>]
     # @return [void]
     def self.generate_elements(elements = self.generate_element_data())
+      existing = (Eddy::Util.list_element_classes() + Eddy::Util.list_built_elements()).uniq()
       elements.each do |el|
+        next if existing.include?(el.id)
+        existing.append(el.id)
         case el.type
         when "AN"   then self.an(el)
         when "B"    then next
