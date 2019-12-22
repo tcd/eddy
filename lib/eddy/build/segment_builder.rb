@@ -167,7 +167,7 @@ module Eddy
           normal_name = el.normalized_name + dupes[el.name].to_s
           dupes[el.name] += 1
         else
-          normal_name = el.name
+          normal_name = el.normalized_name
         end
         return <<~RB.strip
           #{el.doc_comment(header: header).gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
