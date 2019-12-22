@@ -56,5 +56,41 @@ module Eddy
       raise Eddy::Errors::Error, "No segment found with id #{id}"
     end
 
+    # List the names of Elements for which Ruby classes have already been built.
+    #
+    # @return [Array<String>]
+    def self.list_element_classes()
+      dir = File.join(Eddy::Util.root_dir, "lib", "definitions", "elements", "**", "*.rb")
+      files = Dir.glob(dir)
+      return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
+    end
+
+    # List the names of Segments for which Ruby classes have already been built.
+    #
+    # @return [Array<String>]
+    def self.list_segment_classes()
+      dir = File.join(Eddy::Util.root_dir, "lib", "definitions", "segments", "**", "*.rb")
+      files = Dir.glob(dir)
+      return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
+    end
+
+    # List Segment definition files in `data/defs.segments`.
+    #
+    # @return [Array<String>]
+    def self.list_segment_definitions()
+      dir = File.join(Eddy::Util.data_dir, "defs", "segments")
+      files = Dir.entries(dir).select { |f| File.file?(File.join(dir, f)) }
+      return files.map { |f| File.join(dir, f) }
+    end
+
+    # List names of Elements with Ruby files currently in `Eddy.config.build_dir/elements`.
+    #
+    # @return [Array<String>]
+    def self.list_built_elements()
+      dir = File.join(Eddy.config.build_dir, "elements", "**", "*.rb")
+      files = Dir.glob(dir)
+      return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
+    end
+
   end
 end
