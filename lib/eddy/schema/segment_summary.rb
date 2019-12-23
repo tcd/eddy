@@ -34,7 +34,7 @@ module Eddy
       # @return [String]
       attr_accessor :level
       # Number of Data Elements included in the Segment.
-      # @return [Array]
+      # @return [Array<Eddy::Schema::ElementSummary>]
       attr_accessor :elements
 
       # @return [void]
@@ -69,6 +69,7 @@ module Eddy
         elements.each do |el|
           default_el = Eddy::Schema::ElementSummary.default_for_id(el[:id])
           default_el.ref = el[:ref]
+          default_el.req = el[:req] || nil
           self.elements << default_el
         end
       end

@@ -100,7 +100,8 @@ module Eddy
       def declarations()
         decs = ""
         self.summary.elements.each do |el|
-          decs << "@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new\n"
+          req = el.req.nil? ? "nil" : '"' + el.req + '"'
+          decs << "@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new(req: #{req})\n"
         end
         return decs
       end

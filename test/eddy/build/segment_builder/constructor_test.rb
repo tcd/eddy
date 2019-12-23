@@ -8,7 +8,7 @@ module BuildTest
         @summary = Eddy::Schema::SegmentSummary.create({
           id: "N2",
           name: "Additional Name Information",
-          purpose: "To identify a party by type of organization, name, and code",
+          purpose: "To identify a party by type of organization, name, and code.",
           elements: [
             { ref: "n201", id: "93" },
             { ref: "n202", id: "93" },
@@ -23,8 +23,8 @@ module BuildTest
           def initialize(store)
             @id = "N2"
             @name = "Additional Name Information"
-            @n201 = Eddy::Elements::E93.new
-            @n202 = Eddy::Elements::E93.new
+            @n201 = Eddy::Elements::E93.new(req: nil)
+            @n202 = Eddy::Elements::E93.new(req: nil)
             super(
               store,
               @n201,
