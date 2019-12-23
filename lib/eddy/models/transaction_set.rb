@@ -59,9 +59,9 @@ module Eddy
     def add_envelope
       st = Eddy::Segments::ST.new(self.store)
       st.ST01 = self.id
-      self.components.unshift(st)
       se = Eddy::Segments::SE.new(self.store)
       se.SE01 = self.id
+      self.components.unshift(st)
       self.components.push(se)
     end
 
