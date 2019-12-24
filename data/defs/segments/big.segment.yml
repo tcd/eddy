@@ -3,8 +3,8 @@ id: BIG
 name: Beginning Segment for Invoice
 purpose: To indicate the beginning of an invoice transaction set and transmit identifying numbers and dates.
 elements:
-  - { ref: BIG01, id: '373' }
-  - { ref: BIG02, id: '76'  }
-  - { ref: BIG03, id: '373' }
-  - { ref: BIG04, id: '324' }
-  - { ref: BIG05, id: '328' }
+  - { ref: BIG01, id: '373', req: M }
+  - { ref: BIG02, id: '76',  req: M }
+  - { ref: BIG03, id: '373', req: O }
+  - { ref: BIG04, id: '324', req: O }
+  - { ref: BIG05, id: '328', req: O }

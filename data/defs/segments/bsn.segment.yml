@@ -3,8 +3,8 @@ id: BSN
 name: Beginning Segment for Ship Notice
 purpose: To transmit identifying numbers, dates, and other basic data relating to the transaction set.
 elements:
-  - { ref: BSN01, id: '353'  }
-  - { ref: BSN02, id: '396'  }
-  - { ref: BSN03, id: '373'  }
-  - { ref: BSN04, id: '337'  }
-  - { ref: BSN05, id: '1005' }
+  - { ref: BSN01, id: '353',  req: M }
+  - { ref: BSN02, id: '396',  req: M }
+  - { ref: BSN03, id: '373',  req: M }
+  - { ref: BSN04, id: '337',  req: M }
+  - { ref: BSN05, id: '1005', req: O }
