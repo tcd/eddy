@@ -11,10 +11,10 @@ namespace :misc do
           else ""
           end
     base_name = File.basename(path, ext)
-    dir = File.dirname(path)
-    out_file = File.join(dir, "#{base_name}.json")
-    input = YAML.load_file(path)
-    output = JSON.pretty_generate(input)
+    dir       = File.dirname(path)
+    out_file  = File.join(dir, "#{base_name}.json")
+    input     = YAML.load_file(path)
+    output    = JSON.pretty_generate(input)
     File.open(out_file, "a") { |f| f.write(output) }
   end
 end
