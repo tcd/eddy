@@ -1,10 +1,12 @@
 # Eddy
 
+[![Gem](https://img.shields.io/gem/v/eddy)][rubygems]
 [![Build Status](https://travis-ci.org/tcd/eddy.svg?branch=master)][travis-ci]
 [![Coverage Status](https://coveralls.io/repos/github/tcd/eddy/badge.svg?branch=master)][coveralls]
 [![License](https://img.shields.io/github/license/tcd/eddy)][license]
 [![Documentation](http://img.shields.io/badge/docs-rubydoc.info-blue.svg)][docs]
 
+[rubygems]: https://rubygems.org/gems/eddy
 [travis-ci]: https://travis-ci.org/tcd/eddy
 [coveralls]: https://coveralls.io/github/tcd/eddy?branch=master
 [license]: https://github.com/tcd/eddy/blob/master/LICENSE.txt
