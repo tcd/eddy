@@ -1,5 +1,6 @@
 module Eddy
   module TransactionSets
+
     class L_N1 < Eddy::Loop::Base
       # @param store [Eddy::Data::Store]
       # @return [void]
@@ -14,6 +15,7 @@ module Eddy
         ]
       end
     end
+
     class L_PO1 < Eddy::Loop::Base
       # @param store [Eddy::Data::Store]
       # @return [void]
@@ -28,6 +30,7 @@ module Eddy
         ]
       end
     end
+
     class L_PID < Eddy::Loop::Base
       # @param store [Eddy::Data::Store]
       # @return [void]
@@ -38,6 +41,7 @@ module Eddy
         self.components = []
       end
     end
+
     class L_ACK < Eddy::Loop::Base
       # @param store [Eddy::Data::Store]
       # @return [void]
@@ -50,6 +54,7 @@ module Eddy
         ]
       end
     end
+
     # ### Transaction Set Summary:
     #
     # - Id: 855
@@ -65,14 +70,15 @@ module Eddy
       # @return [void]
       def initialize(store)
         self.store = store
-        @bak = nil
+        @bak = Eddy::Segments::BAK.new(store)
         @l_n1 = nil
         @l_po1 = nil
-        @ctt = nil
+        @ctt = Eddy::Segments::CTT.new(store)
         super(
           store,
         )
       end
+
     end
   end
 end
