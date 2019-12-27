@@ -48,7 +48,7 @@ module Eddy
         elements.each_with_index do |value, index|
           next if value == ""
           key = sprintf("%s%02d", name, index + 1)
-          res[:elements][key.to_sym] = value
+          res[:elements][key] = value
         end
         return res
       end
