@@ -74,11 +74,11 @@ module Eddy
       return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
     end
 
-    # List Segment definition files in `data/defs.segments`.
+    # List Segment definition files in `data/004010/segments`.
     #
     # @return [Array<String>]
     def self.list_segment_definitions()
-      dir = File.join(Eddy::Util.data_dir, "defs", "segments")
+      dir = File.join(Eddy::Util.data_dir, "004010", "segments")
       files = Dir.entries(dir).select { |f| File.file?(File.join(dir, f)) }
       return files.map { |f| File.join(dir, f) }
     end
