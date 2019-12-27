@@ -16,6 +16,14 @@ module SchemaTest
       skip()
     end
 
+    def test_from_file
+      skip()
+    end
+
+    def test_default_for_id
+      skip()
+    end
+
     def test_doc_comment
       skip("There be mystery characters in these strings...")
       want = <<~STR

@@ -313,7 +313,7 @@ id	name	type	min	max	description
 370	Terms Discount Due Date	DT	8	8	Date payment is due if discount is to be earned expressed in format CCYYMMDD
 371	Change Reason Code	ID	2	2	Code specifying the reason for price or quantity change
 372	Lading Liability Code	ID	1	1	Code identifying limits of liability
-373	Date	DT	8	8	Date expressed as CCYYMMDD 
+373	Date	DT	8	8	Date expressed as CCYYMMDD
 374	Date/Time Qualifier	ID	3	3	Code specifying type of date or time, or both date and time
 375	Tariff Service Code	ID	2	2	Code specifying the types of services for rating purposes
 376	Test Indicator	ID	1	1	Code indicating whether data enclosed by this interchange envelope is test or production

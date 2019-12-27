@@ -3,9 +3,6 @@ id: 855
 functional_group: PR
 name: Purchase Order Acknowledgement
 components:
-- { id: ISA, req: M }
-- { id: GS,  req: M }
-- { id: ST,  req: M }
 - id: BAK
   req: M
   elements:
@@ -75,6 +72,3 @@ components:
       req: O
       elements:
         - { ref: CTT01, id: '354', req: M }
-- { id: SE,  req: M }
-- { id: GE,  req: M }
-- { id: IEA, req: M }

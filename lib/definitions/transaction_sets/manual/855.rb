@@ -76,6 +76,10 @@ module Eddy
         @ctt = Eddy::Segments::CTT.new(store)
         super(
           store,
+          @bak,
+          @l_n1,
+          @l_po1,
+          @ctt,
         )
       end
 

@@ -60,6 +60,27 @@ module Eddy
         return s
       end
 
+      # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
+      # @return [self]
+      def self.from_file(path)
+        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
+        data = Eddy::Util.read_json_or_yaml(path)
+        return Eddy::Schema::SegmentSummary.create(data)
+      end
+
+      # @param id [String]
+      # @return [self]
+      def self.default_for_id(id)
+        id.downcase!
+        if ["ge", "gs", "iea", "isa", "se", "st"].include?(id)
+          path = File.join(Eddy::Util.data_dir, "004010", "segments", "envelope", "#{id}.segment.yml")
+          return self.from_file(path)
+        end
+        path = File.join(Eddy::Util.data_dir, "004010", "segments", "#{id}.segment.yml")
+        raise Eddy::Errors::Error, "No segment found with id #{id}" unless File.file?(path)
+        return self.from_file(path)
+      end
+
       # TODO: Only use defaults if not enough info is provided.
       # TODO: Define *enough info*.
       #

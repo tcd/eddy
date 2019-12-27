@@ -7,7 +7,7 @@ elements:
   - { ref: BEG02, id: '92',   req: M }
   - { ref: BEG03, id: '324',  req: M }
   - { ref: BEG04, id: '328',  req: O }
-  - { ref: BEG05, id: '373',  req: M }
+  - { ref: BEG05, id: '373',  req: M, description: The date assigned to the purchase order by the purchaser. }
   - { ref: BEG06, id: '367',  req: O }
   - { ref: BEG07, id: '587',  req: O }
   - { ref: BEG08, id: '1019', req: O }
