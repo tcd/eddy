@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    eddy (0.1.0)
+    eddy (0.2.0)
       ginny (~> 0.6.3)
       json_schemer (~> 0.2.8)
       thor (~> 1.0.1)
