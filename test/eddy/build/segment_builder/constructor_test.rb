@@ -23,8 +23,8 @@ module BuildTest
           def initialize(store)
             @id = "N2"
             @name = "Additional Name Information"
-            @n201 = Eddy::Elements::E93.new(req: nil)
-            @n202 = Eddy::Elements::E93.new(req: nil)
+            @n201 = Eddy::Elements::E93.new(ref: "N201", req: nil)
+            @n202 = Eddy::Elements::E93.new(ref: "N202", req: nil)
             super(
               store,
               @n201,

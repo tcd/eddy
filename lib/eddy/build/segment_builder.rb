@@ -101,7 +101,7 @@ module Eddy
         decs = ""
         self.summary.elements.each do |el|
           req = el.req.nil? ? "nil" : '"' + el.req + '"'
-          decs << "@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new(req: #{req})\n"
+          decs << %(@#{el.ref.to_s.downcase} = Eddy::Elements::#{Eddy::Util.normalize_id(el.id)}.new(ref: "#{el.ref.to_s.upcase}", req: #{req})\n)
         end
         return decs
       end
