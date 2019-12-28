@@ -45,8 +45,8 @@ module Eddy
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError, "value needs to be a string" unless arg.is_a?(String)
-        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
+        raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(String)
+        raise Eddy::Errors::LengthValidationError.new(element: self, arg: arg) if arg.length > self.max
         @val = arg
       end
 

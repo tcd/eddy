@@ -44,11 +44,7 @@ module Eddy
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError, "value not present in code list: #{arg}" unless self.code_list().include?(arg)
-        # I'm not sure we need to validate length if it's in the code list.
-        # Better safe than sorry though.
-        raise Eddy::Errors::ElementValidationError, "value can't be shorter than #{self.min}" if arg.length < self.min
-        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.length > self.max
+        raise Eddy::Errors::ElementValidationError.new("Value not present in code list: #{arg}", element: self) unless self.code_list().include?(arg)
         @val = arg
       end
 

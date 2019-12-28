@@ -3,34 +3,102 @@ module Eddy
     # Exceptions raised by Eddy inherit from Error.
     class Error < StandardError; end
 
-    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element} class.
+    # @!group Element Validation Errors
+
+    # Exception raised by descendents of {Eddy::Element::Base}.
     class ElementValidationError < Error
+      # @return [Eddy::Element::Base] Element instance that raised the exception.
+      attr_accessor :element
+      # Argument that caused the exception when passed to `value=`. (if applicable)
+      # @return [Object]
+      attr_accessor :arg
+
       # @param msg [String] ("")
+      # @param element [Eddy::Element::Base] (nil) Element instance that raised the exception.
       # @return [void]
-      def initialize(msg = "")
+      def initialize(msg = "", element: nil)
+        self.element = element unless element.nil?
+        msg = "Invalid value assigned to element #{element_description()}. " << msg
         super(msg)
+      end
+
+      # @return [String]
+      def element_description()
+        el = self.element
+        return "" if el.nil?
+        description = ""
+        if !el.ref.nil? && el.ref.length > 0
+          description << el.ref
+        else
+          description << el.class.name.split("::").last
+        end
+        description << " (#{el.name})"
+        return description
       end
     end
 
     # Exception raised when `value` has been called before `value=` and no default value is set.
-    class ElementNilValueError < Error
-      # @param element [Eddy::Element::Base] Element instance that raised the error.
+    class ElementNilValueError < ElementValidationError
+      # @param element [Eddy::Element::Base] Element instance that raised the exception.
       # @param msg [String] (nil)
       # @return [void]
-      def initialize(element:, msg: nil)
-        if !msg.nil?
-          msg = msg
-        elsif !element.ref.nil? && element.ref.length > 0
-          msg = "No value set for '#{element.ref}'"
-        else
-          msg = "No value set for '#{element.name}'"
+      def initialize(element:, msg: "")
+        self.element = element
+        if msg.length == 0
+          msg << "This element requires a value but none was set."
         end
         super(msg)
       end
     end
 
-    # Exception raised when a class inherits from {Element} and doesn't set all instance attributes properly.
-    class ElementNilAttributeError < Error; end
+    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element::Base} class.
+    class TypeValidationError < ElementValidationError
+      # @param element [Eddy::Element::Base] Element instance that raised the exception.
+      # @param arg [Object] Passed argument that caused the exception.
+      # @param msg [String] ("")
+      # @return [void]
+      def initialize(element:, arg:, msg: "")
+        self.element = element
+        self.arg = arg
+        if msg.length == 0
+          msg << "Value must to be a #{wanted_type(element)}; recieved #{self.arg} (#{self.arg.class.name})"
+        end
+        super(msg)
+      end
+
+      # @param el [Eddy::Element::Base] Element instance that raised the exception.
+      # @return [String]
+      def wanted_type(el)
+        return case el
+               when Eddy::Element::AN then "String"
+               when Eddy::Element::B  then "String"
+               when Eddy::Element::DT then "Time"
+               when Eddy::Element::TM then "Time"
+               when Eddy::Element::N  then "Numeric"
+               when Eddy::Element::R  then "Numeric"
+               end
+      end
+    end
+
+    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element::Base} class.
+    class LengthValidationError < ElementValidationError
+
+      # @param element [Eddy::Element::Base] Element instance that raised the exception.
+      # @param arg [Object] Passed argument that caused the exception.
+      # @param msg [String] ("")
+      # @return [void]
+      def initialize(element:, arg:, msg: "")
+        self.element = element
+        self.arg = arg
+        if msg.length == 0
+          msg << "Value can't be longer than #{self.element.max}. "
+          msg << "Length of recieved value: #{self.arg.to_s.length}"
+        end
+        super(msg)
+      end
+    end
+
+    # @!endgroup Element Validation Errors
 
     # Exception raised when an issue occurs while generating code.
     class BuildError < Error; end

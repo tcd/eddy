@@ -46,8 +46,8 @@ module Eddy
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError, "value needs to be a numeric" unless arg.is_a?(Numeric)
-        raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if process(arg).length > self.max
+        raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Numeric)
+        raise Eddy::Errors::LengthValidationError.new(element: self, arg: arg) if arg.to_s.length > self.max
         @val = arg
       end
 

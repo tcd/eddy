@@ -26,7 +26,7 @@ module Eddy
       # @param max [Integer] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)
-      # @param val [Time] (nil) A [time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object in `UTC` format.
+      # @param val [Time] (nil)
       # @param fmt [Symbol] (nil) Format for the date. Valid values: `:hhmm`, `:hhmmss`, `:hhmmssd`, and `:hhmmssdd`
       # @return [void]
       def initialize(
@@ -78,8 +78,8 @@ module Eddy
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError unless arg.is_a?(Time)
-        raise Eddy::Errors::ElementValidationError, "argument is not in UTC format" unless arg.utc?()
+        raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Time)
+        raise Eddy::Errors::ElementValidationError.new("Argument is not in UTC format", element: self) unless arg.utc?()
         @val = arg
       end
 
@@ -104,7 +104,7 @@ module Eddy
         when 6 then return :hhmmss
         when 7 then return :hhmmssd
         when 8 then return :hhmmssdd
-        else raise Eddy::Errors::Error, "unable to determine format for tm element"
+        else raise Eddy::Errors::Error, "unable to determine format for TM element"
         end
       end
 

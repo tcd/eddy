@@ -67,8 +67,8 @@ module Eddy
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError unless arg.is_a?(Time)
-        raise Eddy::Errors::ElementValidationError "argument is not in UTC format" unless arg.utc?()
+        raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Time)
+        raise Eddy::Errors::ElementValidationError.new("Argument passed is not in UTC format", element: self) unless arg.utc?()
         @val = arg
       end
 

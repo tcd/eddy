@@ -25,7 +25,7 @@ module ModelsTest
 
     def test_value_setter_validates_length
       an = ExampleAN.new()
-      assert_raises(Eddy::Errors::ElementValidationError) { an.value = "Clay123456789101010" }
+      assert_raises(Eddy::Errors::LengthValidationError) { an.value = "Clay123456789101010" }
     end
 
     def test_value_getter_when_mandatory
