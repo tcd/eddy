@@ -4,17 +4,17 @@ module UtilTest
   class EDIDataTest < Minitest::Test
 
     def test_raw_element_data
-      data = Eddy::Util.raw_element_data()
+      # data = Eddy::Util.raw_element_data()
       skip()
     end
 
     def test_element_ids
-      data = Eddy::Util.element_ids()
+      # data = Eddy::Util.element_ids()
       skip()
     end
 
     def test_segment_ids
-      data = Eddy::Util.segment_ids()
+      # data = Eddy::Util.segment_ids()
       skip()
     end
 
@@ -37,22 +37,22 @@ module UtilTest
     end
 
     def test_list_element_classes
-      data = Eddy::Util.list_element_classes()
+      # data = Eddy::Util.list_element_classes()
       skip()
     end
 
     def test_list_segment_classes
-      data = Eddy::Util.list_segment_classes()
+      # data = Eddy::Util.list_segment_classes()
       skip()
     end
 
     def test_list_segment_definitions
-      data = Eddy::Util.list_segment_definitions()
+      # data = Eddy::Util.list_segment_definitions()
       skip()
     end
 
     def test_list_built_elements
-      data = Eddy::Util.list_built_elements()
+      # data = Eddy::Util.list_built_elements()
       skip()
     end
 
