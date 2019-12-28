@@ -33,46 +33,60 @@ module Eddy
         )
       end
 
+      # (see Eddy::Segments::BEG)
       # @yieldparam [Eddy::Segments::BEG] beg
-      # @return [void]
+      # @return [Eddy::Segments::BEG]
       def BEG()
         yield(@beg) if block_given?
+        return @beg
       end
 
+      # (see Eddy::Segments::TD5)
       # @yieldparam [Eddy::Segments::TD5] td5
-      # @return [void]
+      # @return [Eddy::Segments::TD5]
       def TD5()
         yield(@td5) if block_given?
+        return @td5
       end
 
+      # (see Eddy::Segments::N1)
       # @yieldparam [Eddy::Segments::N1] n1
-      # @return [void]
+      # @return [Eddy::Segments::N1]
       def N1()
         yield(@n1) if block_given?
+        return @n1
       end
 
+      # (see Eddy::Segments::N3)
       # @yieldparam [Eddy::Segments::N3] n3
-      # @return [void]
+      # @return [Eddy::Segments::N3]
       def N3()
         yield(@n3) if block_given?
+        return @n3
       end
 
+      # (see Eddy::Segments::N4)
       # @yieldparam [Eddy::Segments::N4] n4
-      # @return [void]
+      # @return [Eddy::Segments::N4]
       def N4()
         yield(@n4) if block_given?
+        return @n4
       end
 
+      # (see Eddy::Segments::PO1)
       # @yieldparam [Eddy::Segments::PO1] po1
-      # @return [void]
+      # @return [Eddy::Segments::PO1]
       def PO1()
         yield(@po1) if block_given?
+        return @po1
       end
 
+      # (see Eddy::Segments::CTT)
       # @yieldparam [Eddy::Segments::CTT] ctt
-      # @return [void]
+      # @return [Eddy::Segments::CTT]
       def CTT()
         yield(@ctt) if block_given?
+        return @ctt
       end
 
     end
