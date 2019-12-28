@@ -34,7 +34,7 @@ module Eddy
         super()
         if @val.nil?
           case self.req
-          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.ref}'"
+          when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
           when "O", "C" then return ""
           else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
           end

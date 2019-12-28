@@ -13,7 +13,21 @@ module Eddy
     end
 
     # Exception raised when `value` has been called before `value=` and no default value is set.
-    class ElementNilValueError < Error; end
+    class ElementNilValueError < Error
+      # @param element [Eddy::Element::Base] Element instance that raised the error.
+      # @param msg [String] (nil)
+      # @return [void]
+      def initialize(element:, msg: nil)
+        if !msg.nil?
+          msg = msg
+        elsif !element.ref.nil? && element.ref.length > 0
+          msg = "No value set for '#{element.ref}'"
+        else
+          msg = "No value set for '#{element.name}'"
+        end
+        super(msg)
+      end
+    end
 
     # Exception raised when a class inherits from {Element} and doesn't set all instance attributes properly.
     class ElementNilAttributeError < Error; end

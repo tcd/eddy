@@ -72,12 +72,12 @@ Style/ZeroLengthPredicate:
 Style/NumericPredicate:
   Enabled: false
 
+# preferably `EnforcedStyle: snake_case`, but it varies.
 Naming/VariableNumber:
-  # EnforcedStyle: snake_case
   Enabled: false
 
 # ==============================================================================
-# Braces, Brackets, & Parens
+# Braces, Brackets, and Parentheses
 # ==============================================================================
 
 Style/DefWithParentheses:
@@ -136,6 +136,16 @@ Style/RedundantSelf:
   Enabled: false
 
 # ==============================================================================
+# Exceptions
+# ==============================================================================
+
+Lint/SuppressedException:
+  AllowComments: true
+
+Style/RaiseArgs:
+  EnforcedStyle: exploded
+
+# ==============================================================================
 # Unsorted
 # ==============================================================================
 
@@ -166,9 +176,6 @@ Style/ConditionalAssignment:
 
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
-
-Lint/SuppressedException:
-  AllowComments: true
 
 Metrics/AbcSize:
   Enabled: false
