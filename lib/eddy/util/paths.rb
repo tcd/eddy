@@ -1,5 +1,6 @@
 module Eddy
   module Util
+    # @!group Paths
 
     # Directory where the gem is located.
     # @return [String]
@@ -13,5 +14,6 @@ module Eddy
       return File.join(self.root_dir, "data")
     end
 
+    # @!endgroup Paths
   end
 end

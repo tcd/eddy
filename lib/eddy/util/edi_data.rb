@@ -1,5 +1,6 @@
 module Eddy
   module Util
+    # @!group EDI Data
 
     # Return raw data from `data/004010/elements.tsv`.
     #
@@ -147,5 +148,6 @@ module Eddy
       return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
     end
 
+    # @!endgroup EDI Data
   end
 end

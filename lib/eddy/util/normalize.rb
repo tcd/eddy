@@ -1,5 +1,6 @@
 module Eddy
   module Util
+    # @!group Normalize
 
     # Given an Element Id (positive number under 1688, or I01-I64), returns a string sutable for use as a Ruby class name.
     #
@@ -45,5 +46,6 @@ module Eddy
                  .join("_")
     end
 
+    # @!endgroup Normalize
   end
 end

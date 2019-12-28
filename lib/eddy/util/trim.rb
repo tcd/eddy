@@ -1,5 +1,6 @@
 module Eddy
   module Util
+    # @!group Normalize
 
     # See: [Trailing delimiters and 999 response - X12 RFI](http://www.x12.org/rfis/Trailing%20delimiters%20and%20999%20response.pdf)
     #
@@ -23,5 +24,6 @@ module Eddy
       return segment.gsub(/#{e_sep}+(?=$)/, "")
     end
 
+    # @!endgroup Normalize
   end
 end
