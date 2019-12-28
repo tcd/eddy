@@ -1,17 +1,18 @@
 require "test_helper"
 
-# Example class for testing inheritence for `Eddy::Element::Id`
-class ExampleIdElement < Eddy::Element::ID
-  def initialize(val: nil, req: nil)
-    @id = @name = @description = "Example"
-    super(min: 2, max: 2, req: req, val: val)
-  end
-  def code_list()
-    return ["00", "01", "02"]
-  end
-end
-
 module ModelsTest
+
+  # Example class for testing inheritence of `Eddy::Element::ID`
+  class ExampleIdElement < Eddy::Element::ID
+    def initialize(val: nil, req: nil)
+      @id = @name = @description = "Example"
+      super(min: 2, max: 2, req: req, val: val)
+    end
+    def code_list()
+      return ["00", "01", "02"]
+    end
+  end
+
   class IdTest < Minitest::Test
 
     def test_init

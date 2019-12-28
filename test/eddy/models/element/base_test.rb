@@ -5,9 +5,9 @@ class Example1 < Eddy::Element::Base; end
 
 # Example class for testing inheritence for `Eddy::Element::Base`
 class Example2 < Eddy::Element::Base
-  def initialize() @value = nil end
-  def value() return @value     end
-  def value=(arg) @value = arg  end
+  def initialize() @val = nil end
+  def value() return @val     end
+  def value=(arg) @val = arg  end
 end
 
 module ModelsTest
