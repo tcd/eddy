@@ -13,8 +13,8 @@ module Eddy
       def initialize(store, group_control_number)
         @id = "GE"
         @name = "Functional Group Trailer"
-        @ge01 = Eddy::Elements::E97.new(req: "M", val: store.number_of_transaction_sets_included)
-        @ge02 = Eddy::Elements::E28.new(req: "M", val: group_control_number)
+        @ge01 = Eddy::Elements::E97.new(ref: "GE01", req: "M", val: store.number_of_transaction_sets_included)
+        @ge02 = Eddy::Elements::E28.new(ref: "GE02", req: "M", val: group_control_number)
         super(store, @ge01, @ge02)
       end
 

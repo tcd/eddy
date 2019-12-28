@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "SE"
         @name = "Transaction Set Trailer"
-        @se01 = Eddy::Elements::E143.new(req: "M")
-        @se02 = Eddy::Elements::E329.new(req: "M") # TODO: store.transaction_set_control_number
+        @se01 = Eddy::Elements::E143.new(ref: "SE01", req: "M")
+        @se02 = Eddy::Elements::E329.new(ref: "SE02", req: "M") # TODO: store.transaction_set_control_number
         super(store, @se01, @se02)
       end
 

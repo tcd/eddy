@@ -14,14 +14,14 @@ module Eddy
       def initialize(store, group_control_number, transaction_set)
         @id = "GS"
         @name = "Functional Group Header"
-        @gs01 = Eddy::Elements::E479.new(req: "M", val: transaction_set.functional_group)
-        @gs02 = Eddy::Elements::E142.new(req: "M", val: store.application_senders_code)
-        @gs03 = Eddy::Elements::E124.new(req: "M", val: store.application_receivers_code)
-        @gs04 = Eddy::Elements::E373.new(req: "M", val: store.time)
-        @gs05 = Eddy::Elements::E337.new(req: "M", val: store.time) # TODO: Define time fmt for this.
-        @gs06 = Eddy::Elements::E28.new(req: "M", val: group_control_number)
-        @gs07 = Eddy::Elements::E455.new(req: "M")
-        @gs08 = Eddy::Elements::E480.new(req: "M", val: store.version_release_industry_id_code)
+        @gs01 = Eddy::Elements::E479.new(ref: "GS01", req: "M", val: transaction_set.functional_group)
+        @gs02 = Eddy::Elements::E142.new(ref: "GS02", req: "M", val: store.application_senders_code)
+        @gs03 = Eddy::Elements::E124.new(ref: "GS03", req: "M", val: store.application_receivers_code)
+        @gs04 = Eddy::Elements::E373.new(ref: "GS04", req: "M", val: store.time)
+        @gs05 = Eddy::Elements::E337.new(ref: "GS05", req: "M", val: store.time) # TODO: Define time fmt for this.
+        @gs06 = Eddy::Elements::E28.new(ref:  "GS06", req: "M", val: group_control_number)
+        @gs07 = Eddy::Elements::E455.new(ref: "GS07", req: "M")
+        @gs08 = Eddy::Elements::E480.new(ref: "GS08", req: "M", val: store.version_release_industry_id_code)
         super(
           store,
           @gs01,
