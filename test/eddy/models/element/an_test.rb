@@ -24,7 +24,7 @@ module ModelsTest
       assert_raises(Eddy::Errors::ElementNilValueError) { an.value() }
     end
 
-    def test_value_getter_when_optional
+    def test_value_getter_when_optional_and_nil
       an = Eddy::Element::AN.new(min: 1, max: 10)
       assert_equal("", an.value)
     end

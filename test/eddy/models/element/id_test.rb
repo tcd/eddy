@@ -41,6 +41,11 @@ module ModelsTest
     end
 
     def test_getter_when_optional
+      id = ExampleIdElement.new(req: "O", val: "02")
+      assert_equal("02", id.value())
+    end
+
+    def test_getter_when_optional_and_nil
       id = ExampleIdElement.new(req: "O")
       assert_equal("", id.value())
     end

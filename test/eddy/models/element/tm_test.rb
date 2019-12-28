@@ -28,7 +28,7 @@ class TmTest < Minitest::Test
     assert_raises(Eddy::Errors::ElementNilValueError) { tm.value() }
   end
 
-  def test_getter_when_optional
+  def test_getter_when_optional_and_nil
     tm = Eddy::Element::TM.new(fmt: :hhmm, req: "O")
     assert_equal("", tm.value)
   end

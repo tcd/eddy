@@ -49,7 +49,7 @@ module ModelsTest
       assert_raises(Eddy::Errors::ElementNilValueError) { r.value() }
     end
 
-    def test_getter_when_optional
+    def test_getter_when_optional_and_nil
       r = Eddy::Element::R.new(min: 1, max: 10, req: "O")
       assert_equal("", r.value)
     end
