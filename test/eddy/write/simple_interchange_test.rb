@@ -4,7 +4,7 @@ module WriteTest
   class SimpleInterchangeTest < Minitest::Test
 
     def test_render_without_block
-      itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::TS855)
+      itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::V2::TS855)
       assert_raises(Eddy::Errors::ElementNilValueError) { itch.render() }
     end
 
@@ -19,7 +19,7 @@ module WriteTest
         time: Time.at(0).utc(),
       )
       store.segment_separator = "~"
-      itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::TS855, store: store)
+      itch = Eddy::SimpleInterchange.new(Eddy::TransactionSets::V2::TS855, store: store)
       have = itch.render do |isa, iea|
         isa.ISA05 = "ZZ"
         isa.ISA07 = "ZZ"
