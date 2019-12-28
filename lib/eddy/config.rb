@@ -11,6 +11,10 @@ module Eddy
     attr_accessor :tmp_dir
     # @return [String]
     attr_accessor :build_dir
+    # @return [Boolean] (true)
+    attr_accessor :colorize_errors
+    # @return [Boolean] (true)
+    attr_accessor :validate
 
     # @return [void]
     def initialize()
@@ -18,22 +22,27 @@ module Eddy
       self.persistence_method = :memory
       self.tmp_dir = File.join(Eddy::Util.root_dir, "tmp")
       self.build_dir = File.join(Eddy::Util.root_dir, "build")
+      self.colorize_errors = true
+      self.validate = true
     end
 
   end
 
   # Configuration for Eddy
+  #
   # @return [Eddy::Config]
   def self.config()
     @config ||= Config.new
   end
 
   # Modify Eddy's current config
-  # @yieldparam [Eddy::Config] config current Eddy config
+  #
   # @example
   #   Eddy.configure do |config|
   #     config.persistence_method = :file
   #   end
+  #
+  # @yieldparam [Eddy::Config] config current Eddy config
   # @return [void]
   def self.configure()
     yield self.config
