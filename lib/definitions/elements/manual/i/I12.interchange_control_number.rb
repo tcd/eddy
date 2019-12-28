@@ -26,7 +26,7 @@ module Eddy
           req: req,
           ref: ref,
           val: val,
-          decimals: 0
+          decimals: 0,
         )
       end
     end

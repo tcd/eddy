@@ -26,7 +26,7 @@ module Eddy
           max: 5,
           req: req,
           ref: ref,
-          val: val
+          val: val,
         )
       end
 
