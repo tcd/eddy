@@ -10,12 +10,20 @@ module Eddy
     class I16 < Eddy::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "I16"
         @name = "Number of Included Functional Groups"
         @description = "A count of the number of functional groups included in an interchange"
-        super(min: 1, max: 5, req: req, val: val, decimals: 0)
+        super(
+          min: 1,
+          max: 5,
+          req: req,
+          ref: ref,
+          val: val,
+          decimals: 0
+        )
       end
     end
   end

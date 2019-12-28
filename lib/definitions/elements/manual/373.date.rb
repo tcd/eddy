@@ -10,8 +10,9 @@ module Eddy
     class E373 < Eddy::Element::DT
       # @param val [Time] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "373"
         @name = "Date"
         @description = "Date expressed as CCYYMMDD"
@@ -20,6 +21,7 @@ module Eddy
           min: 8,
           max: 8,
           req: req,
+          ref: ref,
           val: val,
         )
       end

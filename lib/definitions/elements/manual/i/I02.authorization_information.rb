@@ -14,8 +14,9 @@ module Eddy
     class I02 < Eddy::Element::AN
       # @param val [String] (nil) ("          ")
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: (" " * 10), req: nil)
+      def initialize(val: (" " * 10), req: nil, ref: nil)
         @id = "I02"
         @name = "Authorization Information"
         @description = "Information used for additional identification or authorization of the interchange sender or the data in the interchange; the type of information is set by the Authorization Information Qualifier (`I01`)"
@@ -23,6 +24,7 @@ module Eddy
           min: 10,
           max: 10,
           req: req,
+          ref: ref,
           val: val,
         )
       end

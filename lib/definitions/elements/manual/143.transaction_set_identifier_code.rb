@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "143"
         @name = "Transaction Set Identifier Code"
         @description = "Code uniquely identifying a Transaction Set"
-        super(min: 3, max: 3, req: req, val: val)
+        super(
+          min: 3,
+          max: 3,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

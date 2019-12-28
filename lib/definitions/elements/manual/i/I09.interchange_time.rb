@@ -16,8 +16,9 @@ module Eddy
     class I09 < Eddy::Element::TM
       # @param val [Time]
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val:, req: nil)
+      def initialize(val:, req: nil, ref: nil)
         @id = "I09"
         @name = "Interchange Time"
         @description = "Time of the interchange"
@@ -26,6 +27,7 @@ module Eddy
           min: 4,
           max: 4,
           req: req,
+          ref: ref,
           val: val,
         )
       end

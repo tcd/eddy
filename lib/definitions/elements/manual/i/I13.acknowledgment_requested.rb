@@ -15,12 +15,19 @@ module Eddy
 
       # @param val [String] ("0")
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: "0", req: nil)
+      def initialize(val: "0", req: nil, ref: nil)
         @id = "I13"
         @name = "Acknowledgment Requested"
         @description = "Code sent by the sender to request an interchange acknowledgment (`TA1`)"
-        super(min: 1, max: 1, req: req, val: val)
+        super(
+          min: 1,
+          max: 1,
+          req: req,
+          ref: ref,
+          val: val
+        )
       end
 
       # @return [Array<String>]

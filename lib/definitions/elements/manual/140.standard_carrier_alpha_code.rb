@@ -18,12 +18,19 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "140"
         @name = "Standard Carrier Alpha Code"
         @description = "Standard Carrier Alpha Code"
-        super(min: 2, max: 4, req: req, val: val)
+        super(
+          min: 2,
+          max: 4,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

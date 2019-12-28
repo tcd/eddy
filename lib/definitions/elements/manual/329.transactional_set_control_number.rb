@@ -14,12 +14,19 @@ module Eddy
     class E329 < Eddy::Element::AN
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "329"
         @name = "Transaction Set Control Number"
         @description = "Identifying control number that must be unique within the transaction set functional group assigned by the originator for a transaction set"
-        super(min: 4, max: 9, req: req, val: val)
+        super(
+          min: 4,
+          max: 9,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

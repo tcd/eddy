@@ -15,12 +15,19 @@ module Eddy
 
       # @param val [String] ("X")
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: "X", req: nil)
+      def initialize(val: "X", req: nil, ref: nil)
         @id = "455"
         @name = "Responsible Agency Code"
         @description = "Code used in conjunction with Data Element 480 to identify the issuer of the standard"
-        super(min: 1, max: 2, req: req, val: val)
+        super(
+          min: 1,
+          max: 2,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

@@ -16,11 +16,18 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "480"
         @name = "Version / Release / Industry Identifier Code"
-        super(min: 1, max: 12, req: req, val: val)
+        super(
+          min: 1,
+          max: 12,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # See http://x12.org/resources/release-schedule/

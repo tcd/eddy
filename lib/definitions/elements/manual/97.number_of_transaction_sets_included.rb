@@ -10,12 +10,20 @@ module Eddy
     class E97 < Eddy::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "97"
         @name = "Number of Transaction Sets Included"
         @description = "Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element"
-        super(min: 1, max: 6, req: req, val: val, decimals: 0)
+        super(
+          min: 1,
+          max: 6,
+          req: req,
+          ref: ref,
+          val: val,
+          decimals: 0,
+        )
       end
     end
   end

@@ -15,12 +15,19 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "156"
         @name = "State or Province Code"
         @description = "(Standard State/Province) as defined by appropriate government agency."
-        super(min: 2, max: 2, req: req, val: val)
+        super(
+          min: 2,
+          max: 2,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "I05"
         @name = "Interchange ID Qualifier"
         @description = "Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified"
-        super(min: 2, max: 2, req: req, val: val)
+        super(
+          min: 2,
+          max: 2,
+          req: req,
+          ref: ref,
+          val: val
+        )
       end
 
       # @return [Array<String>]

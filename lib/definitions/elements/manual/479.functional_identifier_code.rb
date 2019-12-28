@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String]
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "479"
         @name = "Functional Identifier Code"
         @description = "(Functional Group) Code identifying a group of application related transaction sets"
-        super(min: 2, max: 2, req: req, val: val)
+        super(
+          min: 2,
+          max: 2,
+          req: req,
+          ref: ref,
+          val: val
+        )
       end
 
       # @return [Array<String>]

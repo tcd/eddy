@@ -15,12 +15,19 @@ module Eddy
 
       # @param val [String] ("00401")
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: "00401", req: nil)
+      def initialize(val: "00401", req: nil, ref: nil)
         @id = "I11"
         @name = "Interchange Control Version Number"
         @description = "This version number covers the interchange control segments"
-        super(min: 5, max: 5, req: req, val: val)
+        super(
+          min: 5,
+          max: 5,
+          req: req,
+          ref: ref,
+          val: val
+        )
       end
 
       # @return [Array<String>]

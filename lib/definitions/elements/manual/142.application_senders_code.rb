@@ -10,12 +10,19 @@ module Eddy
     class E142 < Eddy::Element::AN
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "142"
         @name = "Application Sender's Code"
         @description = "Code identifying party sending transmission; codes agreed to by trading partners"
-        super(min: 2, max: 15, req: req, val: val)
+        super(
+          min: 2,
+          max: 15,
+          req: req,
+          ref: ref,
+          val: val
+        )
       end
     end
   end

@@ -10,12 +10,20 @@ module Eddy
     class E784 < Eddy::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "784"
         @name = "Length of Binary Data"
         @description = "The length in integral octets of the binary data"
-        super(min: 1, max: 15, req: req, val: val, decimals: 0)
+        super(
+          min: 1,
+          max: 15,
+          req: req,
+          ref: ref,
+          val: val,
+          decimals: 0,
+        )
       end
     end
   end

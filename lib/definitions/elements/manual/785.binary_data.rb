@@ -11,8 +11,9 @@ module Eddy
       # @param max [Integer] Value set in preceeding `784` element.
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(max:, val: nil, req: nil)
+      def initialize(max:, val: nil, req: nil, ref: nil)
         @id = "785"
         @name = "Binary Data"
         @description = "A string of octets which can assume any binary pattern from hexadecimal 00 to FF"
@@ -20,6 +21,7 @@ module Eddy
           min: 1,
           max: max,
           req: req,
+          ref: ref,
           val: val
         )
       end

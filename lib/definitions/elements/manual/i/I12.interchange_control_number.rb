@@ -14,12 +14,20 @@ module Eddy
     class I12 < Eddy::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "I12"
         @name = "Interchange Control Number"
         @description = "A control number assigned by the interchange sender"
-        super(min: 9, max: 9, req: req, val: val, decimals: 0)
+        super(
+          min: 9,
+          max: 9,
+          req: req,
+          ref: ref,
+          val: val,
+          decimals: 0
+        )
       end
     end
   end

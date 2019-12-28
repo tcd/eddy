@@ -17,12 +17,19 @@ module Eddy
 
       # @param val [String] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "116"
         @name = "Postal Code"
         @description = "Code defining international postal zone code excluding punctuation and blanks (zip code for United States)"
-        super(min: 3, max: 15, req: req, val: val)
+        super(
+          min: 3,
+          max: 15,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # Matches any valid US zip code.
