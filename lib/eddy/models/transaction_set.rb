@@ -75,8 +75,8 @@ module Eddy
         else
           raise Eddy::Errors::RenderError
         end
-        return segments.flatten.map { |s| s.render(self.store.element_separator) }
       end
+      return segments.flatten.map { |s| s.render(self.store.element_separator) }
     end
 
   end
