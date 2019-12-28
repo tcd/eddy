@@ -1,7 +1,7 @@
 module Eddy
   module Element
     # Alphanumeric string including special characters
-    class AN < Eddy::Element::Base
+    class AN < Base
 
       # @param min [Integer]
       # @param max [Integer]
@@ -21,7 +21,7 @@ module Eddy
       def value()
         if @val.nil?
           case self.req
-          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.name}'"
+          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.normalized_name}'"
           when "O", "C" then return ""
           else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
           end

@@ -103,6 +103,12 @@ module Eddy
         end
       end
 
+      # @return [String]
+      def normalized_name
+        return "" if self.name.nil? # For testing base elements.
+        return Eddy::Util.normalize_name(self.name)
+      end
+
     end
   end
 end
