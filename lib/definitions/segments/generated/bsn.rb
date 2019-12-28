@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "BSN"
         @name = "Beginning Segment for Ship Notice"
-        @bsn01 = Eddy::Elements::E353.new(req: "M")
-        @bsn02 = Eddy::Elements::E396.new(req: "M")
-        @bsn03 = Eddy::Elements::E373.new(req: "M")
-        @bsn04 = Eddy::Elements::E337.new(req: "M")
-        @bsn05 = Eddy::Elements::E1005.new(req: "O")
+        @bsn01 = Eddy::Elements::E353.new(ref:  "BSN01", req: "M")
+        @bsn02 = Eddy::Elements::E396.new(ref:  "BSN02", req: "M")
+        @bsn03 = Eddy::Elements::E373.new(ref:  "BSN03", req: "M")
+        @bsn04 = Eddy::Elements::E337.new(ref:  "BSN04", req: "M")
+        @bsn05 = Eddy::Elements::E1005.new(ref: "BSN05", req: "O")
         super(
           store,
           @bsn01,

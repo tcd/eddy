@@ -10,12 +10,19 @@ module Eddy
     class E207 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "207"
         @name = "Equipment Number"
         @description = "Sequencing or serial part of an equipment unit's identifying number (pure numeric form for equipment number is preferred)"
-        super(min: 1, max: 10, req: req, val: val)
+        super(
+          min: 1,
+          max: 10,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

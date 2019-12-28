@@ -12,13 +12,13 @@ module Eddy
       def initialize(store)
         @id = "SLN"
         @name = "Subline Item Detail"
-        @sln01 = Eddy::Elements::E350.new(req: "M")
-        @sln02 = Eddy::Elements::E350.new(req: "O")
-        @sln03 = Eddy::Elements::E662.new(req: "M")
-        @sln04 = Eddy::Elements::E380.new(req: "X")
-        @sln05 = Eddy::Elements::E355.new(req: "O")
-        @sln06 = Eddy::Elements::E212.new(req: "X")
-        @sln07 = Eddy::Elements::E639.new(req: "O")
+        @sln01 = Eddy::Elements::E350.new(ref: "SLN01", req: "M")
+        @sln02 = Eddy::Elements::E350.new(ref: "SLN02", req: "O")
+        @sln03 = Eddy::Elements::E662.new(ref: "SLN03", req: "M")
+        @sln04 = Eddy::Elements::E380.new(ref: "SLN04", req: "X")
+        @sln05 = Eddy::Elements::E355.new(ref: "SLN05", req: "O")
+        @sln06 = Eddy::Elements::E212.new(ref: "SLN06", req: "X")
+        @sln07 = Eddy::Elements::E639.new(ref: "SLN07", req: "O")
         super(
           store,
           @sln01,

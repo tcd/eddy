@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "BAK"
         @name = "Beginning Segment for Purchase Order Acknowledgment"
-        @bak01 = Eddy::Elements::E353.new(req: "M")
-        @bak02 = Eddy::Elements::E587.new(req: "M")
-        @bak03 = Eddy::Elements::E324.new(req: "M")
-        @bak04 = Eddy::Elements::E373.new(req: "M")
+        @bak01 = Eddy::Elements::E353.new(ref: "BAK01", req: "M")
+        @bak02 = Eddy::Elements::E587.new(ref: "BAK02", req: "M")
+        @bak03 = Eddy::Elements::E324.new(ref: "BAK03", req: "M")
+        @bak04 = Eddy::Elements::E373.new(ref: "BAK04", req: "M")
         super(
           store,
           @bak01,

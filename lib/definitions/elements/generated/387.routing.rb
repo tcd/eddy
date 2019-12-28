@@ -10,12 +10,19 @@ module Eddy
     class E387 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "387"
         @name = "Routing"
         @description = "Free-form description of the routing or requested routing for shipment, or the originating carrier's identity"
-        super(min: 1, max: 35, req: req, val: val)
+        super(
+          min: 1,
+          max: 35,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

@@ -10,12 +10,19 @@ module Eddy
     class E352 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "352"
         @name = "Description"
         @description = "A free-form description to clarify the related data elements and their content"
-        super(min: 1, max: 80, req: req, val: val)
+        super(
+          min: 1,
+          max: 80,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

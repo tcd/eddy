@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "128"
         @name = "Reference Identification Qualifier"
         @description = "Code qualifying the Reference Identification"
-        super(min: 2, max: 3, req: req, val: val)
+        super(
+          min: 2,
+          max: 3,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

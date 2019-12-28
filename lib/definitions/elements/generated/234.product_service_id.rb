@@ -10,12 +10,19 @@ module Eddy
     class E234 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "234"
         @name = "Product/Service ID"
         @description = "Identifying number for a product or service"
-        super(min: 1, max: 48, req: req, val: val)
+        super(
+          min: 1,
+          max: 48,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

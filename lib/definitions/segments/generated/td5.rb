@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "TD5"
         @name = "Carrier Details (Routing Sequence/Transit Time)"
-        @td501 = Eddy::Elements::E133.new(req: "M")
-        @td502 = Eddy::Elements::E66.new(req: "X")
-        @td503 = Eddy::Elements::E67.new(req: "X")
-        @td504 = Eddy::Elements::E91.new(req: "M")
-        @td505 = Eddy::Elements::E387.new(req: "X")
+        @td501 = Eddy::Elements::E133.new(ref: "TD501", req: "M")
+        @td502 = Eddy::Elements::E66.new(ref:  "TD502", req: "X")
+        @td503 = Eddy::Elements::E67.new(ref:  "TD503", req: "X")
+        @td504 = Eddy::Elements::E91.new(ref:  "TD504", req: "M")
+        @td505 = Eddy::Elements::E387.new(ref: "TD505", req: "X")
         super(
           store,
           @td501,

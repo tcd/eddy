@@ -12,14 +12,14 @@ module Eddy
       def initialize(store)
         @id = "TD1"
         @name = "Carrier Details (Quantity and Weight)"
-        @td101 = Eddy::Elements::E103.new(req: "O")
-        @td102 = Eddy::Elements::E80.new(req: "X")
-        @td103 = Eddy::Elements::E23.new(req: "O")
-        @td104 = Eddy::Elements::E22.new(req: "X")
-        @td105 = Eddy::Elements::E79.new(req: "O")
-        @td106 = Eddy::Elements::E187.new(req: "O")
-        @td107 = Eddy::Elements::E81.new(req: "X")
-        @td108 = Eddy::Elements::E355.new(req: "X")
+        @td101 = Eddy::Elements::E103.new(ref: "TD101", req: "O")
+        @td102 = Eddy::Elements::E80.new(ref:  "TD102", req: "X")
+        @td103 = Eddy::Elements::E23.new(ref:  "TD103", req: "O")
+        @td104 = Eddy::Elements::E22.new(ref:  "TD104", req: "X")
+        @td105 = Eddy::Elements::E79.new(ref:  "TD105", req: "O")
+        @td106 = Eddy::Elements::E187.new(ref: "TD106", req: "O")
+        @td107 = Eddy::Elements::E81.new(ref:  "TD107", req: "X")
+        @td108 = Eddy::Elements::E355.new(ref: "TD108", req: "X")
         super(
           store,
           @td101,

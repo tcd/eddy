@@ -10,12 +10,19 @@ module Eddy
     class E327 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "327"
         @name = "Change Order Sequence Number"
         @description = "Number assigned by the orderer identifying a specific change or revision to a previously transmitted transaction set"
-        super(min: 1, max: 8, req: req, val: val)
+        super(
+          min: 1,
+          max: 8,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

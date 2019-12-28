@@ -12,15 +12,15 @@ module Eddy
       def initialize(store)
         @id = "PO1"
         @name = "Baseline Item Data"
-        @po101 = Eddy::Elements::E350.new(req: "O")
-        @po102 = Eddy::Elements::E330.new(req: "X")
-        @po103 = Eddy::Elements::E355.new(req: "O")
-        @po104 = Eddy::Elements::E212.new(req: "X")
-        @po105 = Eddy::Elements::E639.new(req: "O")
-        @po106 = Eddy::Elements::E235.new(req: "X")
-        @po107 = Eddy::Elements::E234.new(req: "X")
-        @po108 = Eddy::Elements::E235.new(req: "X")
-        @po109 = Eddy::Elements::E234.new(req: "X")
+        @po101 = Eddy::Elements::E350.new(ref: "PO101", req: "O")
+        @po102 = Eddy::Elements::E330.new(ref: "PO102", req: "X")
+        @po103 = Eddy::Elements::E355.new(ref: "PO103", req: "O")
+        @po104 = Eddy::Elements::E212.new(ref: "PO104", req: "X")
+        @po105 = Eddy::Elements::E639.new(ref: "PO105", req: "O")
+        @po106 = Eddy::Elements::E235.new(ref: "PO106", req: "X")
+        @po107 = Eddy::Elements::E234.new(ref: "PO107", req: "X")
+        @po108 = Eddy::Elements::E235.new(ref: "PO108", req: "X")
+        @po109 = Eddy::Elements::E234.new(ref: "PO109", req: "X")
         super(
           store,
           @po101,

@@ -10,12 +10,19 @@ module Eddy
     class E326 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "326"
         @name = "Request Reference Number"
         @description = "Reference number or RFQ number to use to identify a particular transaction set and query (additional reference number or description which can be used with contract number)"
-        super(min: 1, max: 45, req: req, val: val)
+        super(
+          min: 1,
+          max: 45,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

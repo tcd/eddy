@@ -10,12 +10,19 @@ module Eddy
     class E127 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "127"
         @name = "Reference Identification"
         @description = "Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier"
-        super(min: 1, max: 30, req: req, val: val)
+        super(
+          min: 1,
+          max: 30,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

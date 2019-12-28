@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "1005"
         @name = "Hierarchical Structure Code"
         @description = "Code indicating the hierarchical application structure of a transaction set that utilizes the HL segment to define the structure of the transaction set"
-        super(min: 4, max: 4, req: req, val: val)
+        super(
+          min: 4,
+          max: 4,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

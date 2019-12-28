@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "248"
         @name = "Allowance or Charge Indicator"
         @description = "Code which indicates an allowance or charge for the service specified"
-        super(min: 1, max: 1, req: req, val: val)
+        super(
+          min: 1,
+          max: 1,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

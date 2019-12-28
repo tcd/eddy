@@ -12,13 +12,13 @@ module Eddy
       def initialize(store)
         @id = "CTT"
         @name = "Transaction Totals"
-        @ctt01 = Eddy::Elements::E354.new(req: "M")
-        @ctt02 = Eddy::Elements::E347.new(req: "O")
-        @ctt03 = Eddy::Elements::E81.new(req: "X")
-        @ctt04 = Eddy::Elements::E355.new(req: "X")
-        @ctt05 = Eddy::Elements::E183.new(req: "X")
-        @ctt06 = Eddy::Elements::E355.new(req: "X")
-        @ctt07 = Eddy::Elements::E352.new(req: "O")
+        @ctt01 = Eddy::Elements::E354.new(ref: "CTT01", req: "M")
+        @ctt02 = Eddy::Elements::E347.new(ref: "CTT02", req: "O")
+        @ctt03 = Eddy::Elements::E81.new(ref:  "CTT03", req: "X")
+        @ctt04 = Eddy::Elements::E355.new(ref: "CTT04", req: "X")
+        @ctt05 = Eddy::Elements::E183.new(ref: "CTT05", req: "X")
+        @ctt06 = Eddy::Elements::E355.new(ref: "CTT06", req: "X")
+        @ctt07 = Eddy::Elements::E352.new(ref: "CTT07", req: "O")
         super(
           store,
           @ctt01,

@@ -10,12 +10,19 @@ module Eddy
     class E324 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "324"
         @name = "Purchase Order Number"
         @description = "Identifying number for Purchase Order assigned by the orderer/purchaser"
-        super(min: 1, max: 22, req: req, val: val)
+        super(
+          min: 1,
+          max: 22,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

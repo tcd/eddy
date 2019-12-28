@@ -10,12 +10,19 @@ module Eddy
     class E367 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "367"
         @name = "Contract Number"
         @description = "Contract number"
-        super(min: 1, max: 30, req: req, val: val)
+        super(
+          min: 1,
+          max: 30,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

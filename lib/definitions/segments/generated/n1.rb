@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "N1"
         @name = "Name"
-        @n101 = Eddy::Elements::E98.new(req: "M")
-        @n102 = Eddy::Elements::E93.new(req: "X")
-        @n103 = Eddy::Elements::E66.new(req: "X")
-        @n104 = Eddy::Elements::E67.new(req: "X")
+        @n101 = Eddy::Elements::E98.new(ref: "N101", req: "M")
+        @n102 = Eddy::Elements::E93.new(ref: "N102", req: "X")
+        @n103 = Eddy::Elements::E66.new(ref: "N103", req: "X")
+        @n104 = Eddy::Elements::E67.new(ref: "N104", req: "X")
         super(
           store,
           @n101,

@@ -10,12 +10,19 @@ module Eddy
     class E212 < Eddy::Element::R
       # @param val [Float]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "212"
         @name = "Unit Price"
         @description = "Price per unit of product, service, commodity, etc."
-        super(min: 1, max: 17, req: req, val: val)
+        super(
+          min: 1,
+          max: 17,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

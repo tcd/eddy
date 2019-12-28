@@ -12,7 +12,7 @@ module Eddy
       def initialize(store)
         @id = "N3"
         @name = "Address Information"
-        @n301 = Eddy::Elements::E166.new(req: "M")
+        @n301 = Eddy::Elements::E166.new(ref: "N301", req: "M")
         super(
           store,
           @n301,

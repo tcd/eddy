@@ -10,12 +10,20 @@ module Eddy
     class E354 < Eddy::Element::N
       # @param val [Integer]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "354"
         @name = "Number of Line Items"
         @description = "Total number of line items in the transaction set"
-        super(min: 1, max: 6, req: req, val: val, decimals: 0)
+        super(
+          min: 1,
+          max: 6,
+          req: req,
+          ref: ref,
+          val: val,
+          decimals: 0,
+        )
       end
     end
   end

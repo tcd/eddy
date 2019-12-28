@@ -11,12 +11,19 @@ module Eddy
 
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "349"
         @name = "Item Description Type"
         @description = "Code indicating the format of a description"
-        super(min: 1, max: 1, req: req, val: val)
+        super(
+          min: 1,
+          max: 1,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]

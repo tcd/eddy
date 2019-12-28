@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "N4"
         @name = "Geographic Location"
-        @n401 = Eddy::Elements::E19.new(req: "O")
-        @n402 = Eddy::Elements::E156.new(req: "O")
-        @n403 = Eddy::Elements::E116.new(req: "O")
-        @n404 = Eddy::Elements::E26.new(req: "O")
+        @n401 = Eddy::Elements::E19.new(ref:  "N401", req: "O")
+        @n402 = Eddy::Elements::E156.new(ref: "N402", req: "O")
+        @n403 = Eddy::Elements::E116.new(ref: "N403", req: "O")
+        @n404 = Eddy::Elements::E26.new(ref:  "N404", req: "O")
         super(
           store,
           @n401,

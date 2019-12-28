@@ -12,15 +12,15 @@ module Eddy
       def initialize(store)
         @id = "CAD"
         @name = "Carrier Detail"
-        @cad01 = Eddy::Elements::E91.new(req: "O")
-        @cad02 = Eddy::Elements::E206.new(req: "O")
-        @cad03 = Eddy::Elements::E207.new(req: "O")
-        @cad04 = Eddy::Elements::E140.new(req: "X")
-        @cad05 = Eddy::Elements::E387.new(req: "X")
-        @cad06 = Eddy::Elements::E368.new(req: "O")
-        @cad07 = Eddy::Elements::E128.new(req: "O")
-        @cad08 = Eddy::Elements::E127.new(req: "X")
-        @cad09 = Eddy::Elements::E284.new(req: "O")
+        @cad01 = Eddy::Elements::E91.new(ref:  "CAD01", req: "O")
+        @cad02 = Eddy::Elements::E206.new(ref: "CAD02", req: "O")
+        @cad03 = Eddy::Elements::E207.new(ref: "CAD03", req: "O")
+        @cad04 = Eddy::Elements::E140.new(ref: "CAD04", req: "X")
+        @cad05 = Eddy::Elements::E387.new(ref: "CAD05", req: "X")
+        @cad06 = Eddy::Elements::E368.new(ref: "CAD06", req: "O")
+        @cad07 = Eddy::Elements::E128.new(ref: "CAD07", req: "O")
+        @cad08 = Eddy::Elements::E127.new(ref: "CAD08", req: "X")
+        @cad09 = Eddy::Elements::E284.new(ref: "CAD09", req: "O")
         super(
           store,
           @cad01,

@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "PRF"
         @name = "Purchase Order Reference"
-        @prf01 = Eddy::Elements::E324.new(req: "M")
-        @prf02 = Eddy::Elements::E328.new(req: "O")
-        @prf03 = Eddy::Elements::E327.new(req: "O")
-        @prf04 = Eddy::Elements::E373.new(req: "O")
+        @prf01 = Eddy::Elements::E324.new(ref: "PRF01", req: "M")
+        @prf02 = Eddy::Elements::E328.new(ref: "PRF02", req: "O")
+        @prf03 = Eddy::Elements::E327.new(ref: "PRF03", req: "O")
+        @prf04 = Eddy::Elements::E373.new(ref: "PRF04", req: "O")
         super(
           store,
           @prf01,

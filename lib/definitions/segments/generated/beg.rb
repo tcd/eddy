@@ -12,18 +12,18 @@ module Eddy
       def initialize(store)
         @id = "BEG"
         @name = "Beginning Segment for Purchase Order"
-        @beg01 = Eddy::Elements::E353.new(req: "M")
-        @beg02 = Eddy::Elements::E92.new(req: "M")
-        @beg03 = Eddy::Elements::E324.new(req: "M")
-        @beg04 = Eddy::Elements::E328.new(req: "O")
-        @beg05 = Eddy::Elements::E373.new(req: "M")
-        @beg06 = Eddy::Elements::E367.new(req: "O")
-        @beg07 = Eddy::Elements::E587.new(req: "O")
-        @beg08 = Eddy::Elements::E1019.new(req: "O")
-        @beg09 = Eddy::Elements::E1166.new(req: "O")
-        @beg10 = Eddy::Elements::E1232.new(req: "O")
-        @beg11 = Eddy::Elements::E786.new(req: "O")
-        @beg12 = Eddy::Elements::E640.new(req: "O")
+        @beg01 = Eddy::Elements::E353.new(ref:  "BEG01", req: "M")
+        @beg02 = Eddy::Elements::E92.new(ref:   "BEG02", req: "M")
+        @beg03 = Eddy::Elements::E324.new(ref:  "BEG03", req: "M")
+        @beg04 = Eddy::Elements::E328.new(ref:  "BEG04", req: "O")
+        @beg05 = Eddy::Elements::E373.new(ref:  "BEG05", req: "M")
+        @beg06 = Eddy::Elements::E367.new(ref:  "BEG06", req: "O")
+        @beg07 = Eddy::Elements::E587.new(ref:  "BEG07", req: "O")
+        @beg08 = Eddy::Elements::E1019.new(ref: "BEG08", req: "O")
+        @beg09 = Eddy::Elements::E1166.new(ref: "BEG09", req: "O")
+        @beg10 = Eddy::Elements::E1232.new(ref: "BEG10", req: "O")
+        @beg11 = Eddy::Elements::E786.new(ref:  "BEG11", req: "O")
+        @beg12 = Eddy::Elements::E640.new(ref:  "BEG12", req: "O")
         super(
           store,
           @beg01,

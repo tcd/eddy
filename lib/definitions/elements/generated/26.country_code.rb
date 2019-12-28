@@ -11,514 +11,521 @@ module Eddy
 
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "26"
         @name = "Country Code"
         @description = "Code identifying the country"
-        super(min: 2, max: 3, req: req, val: val)
+        super(
+          min: 2,
+          max: 3,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
 
       # @return [Array<String>]
       def code_list()
         return [
-          "AF",  # Afghanistan
+          "AF", # Afghanistan
           "AFG", # Afghanistan
-          "AX",  # Åland Islands
+          "AX", # Åland Islands
           "ALA", # Åland Islands
-          "AL",  # Albania
+          "AL", # Albania
           "ALB", # Albania
-          "DZ",  # Algeria
+          "DZ", # Algeria
           "DZA", # Algeria
-          "AS",  # American Samoa
+          "AS", # American Samoa
           "ASM", # American Samoa
-          "AD",  # Andorra
+          "AD", # Andorra
           "AND", # Andorra
-          "AO",  # Angola
+          "AO", # Angola
           "AGO", # Angola
-          "AI",  # Anguilla
+          "AI", # Anguilla
           "AIA", # Anguilla
-          "AQ",  # Antarctica
+          "AQ", # Antarctica
           "ATA", # Antarctica
-          "AG",  # Antigua and Barbuda
+          "AG", # Antigua and Barbuda
           "ATG", # Antigua and Barbuda
-          "AR",  # Argentina
+          "AR", # Argentina
           "ARG", # Argentina
-          "AM",  # Armenia
+          "AM", # Armenia
           "ARM", # Armenia
-          "AW",  # Aruba
+          "AW", # Aruba
           "ABW", # Aruba
-          "AU",  # Australia
+          "AU", # Australia
           "AUS", # Australia
-          "AT",  # Austria
+          "AT", # Austria
           "AUT", # Austria
-          "AZ",  # Azerbaijan
+          "AZ", # Azerbaijan
           "AZE", # Azerbaijan
-          "BS",  # Bahamas
+          "BS", # Bahamas
           "BHS", # Bahamas
-          "BH",  # Bahrain
+          "BH", # Bahrain
           "BHR", # Bahrain
-          "BD",  # Bangladesh
+          "BD", # Bangladesh
           "BGD", # Bangladesh
-          "BB",  # Barbados
+          "BB", # Barbados
           "BRB", # Barbados
-          "BY",  # Belarus
+          "BY", # Belarus
           "BLR", # Belarus
-          "BE",  # Belgium
+          "BE", # Belgium
           "BEL", # Belgium
-          "BZ",  # Belize
+          "BZ", # Belize
           "BLZ", # Belize
-          "BJ",  # Benin
+          "BJ", # Benin
           "BEN", # Benin
-          "BM",  # Bermuda
+          "BM", # Bermuda
           "BMU", # Bermuda
-          "BT",  # Bhutan
+          "BT", # Bhutan
           "BTN", # Bhutan
-          "BO",  # Bolivia (Plurinational State of)
+          "BO", # Bolivia (Plurinational State of)
           "BOL", # Bolivia (Plurinational State of)
-          "BQ",  # Bonaire, Sint Eustatius and Saba
+          "BQ", # Bonaire, Sint Eustatius and Saba
           "BES", # Bonaire, Sint Eustatius and Saba
-          "BA",  # Bosnia and Herzegovina
+          "BA", # Bosnia and Herzegovina
           "BIH", # Bosnia and Herzegovina
-          "BW",  # Botswana
+          "BW", # Botswana
           "BWA", # Botswana
-          "BV",  # Bouvet Island
+          "BV", # Bouvet Island
           "BVT", # Bouvet Island
-          "BR",  # Brazil
+          "BR", # Brazil
           "BRA", # Brazil
-          "IO",  # British Indian Ocean Territory
+          "IO", # British Indian Ocean Territory
           "IOT", # British Indian Ocean Territory
-          "BN",  # Brunei Darussalam
+          "BN", # Brunei Darussalam
           "BRN", # Brunei Darussalam
-          "BG",  # Bulgaria
+          "BG", # Bulgaria
           "BGR", # Bulgaria
-          "BF",  # Burkina Faso
+          "BF", # Burkina Faso
           "BFA", # Burkina Faso
-          "BI",  # Burundi
+          "BI", # Burundi
           "BDI", # Burundi
-          "CV",  # Cabo Verde
+          "CV", # Cabo Verde
           "CPV", # Cabo Verde
-          "KH",  # Cambodia
+          "KH", # Cambodia
           "KHM", # Cambodia
-          "CM",  # Cameroon
+          "CM", # Cameroon
           "CMR", # Cameroon
-          "CA",  # Canada
+          "CA", # Canada
           "CAN", # Canada
-          "KY",  # Cayman Islands
+          "KY", # Cayman Islands
           "CYM", # Cayman Islands
-          "CF",  # Central African Republic
+          "CF", # Central African Republic
           "CAF", # Central African Republic
-          "TD",  # Chad
+          "TD", # Chad
           "TCD", # Chad
-          "CL",  # Chile
+          "CL", # Chile
           "CHL", # Chile
-          "CN",  # China
+          "CN", # China
           "CHN", # China
-          "CX",  # Christmas Island
+          "CX", # Christmas Island
           "CXR", # Christmas Island
-          "CC",  # Cocos (Keeling) Islands
+          "CC", # Cocos (Keeling) Islands
           "CCK", # Cocos (Keeling) Islands
-          "CO",  # Colombia
+          "CO", # Colombia
           "COL", # Colombia
-          "KM",  # Comoros
+          "KM", # Comoros
           "COM", # Comoros
-          "CG",  # Congo
+          "CG", # Congo
           "COG", # Congo
-          "CD",  # Congo, Democratic Republic of the
+          "CD", # Congo, Democratic Republic of the
           "COD", # Congo, Democratic Republic of the
-          "CK",  # Cook Islands
+          "CK", # Cook Islands
           "COK", # Cook Islands
-          "CR",  # Costa Rica
+          "CR", # Costa Rica
           "CRI", # Costa Rica
-          "CI",  # Côte d'Ivoire
+          "CI", # Côte d'Ivoire
           "CIV", # Côte d'Ivoire
-          "HR",  # Croatia
+          "HR", # Croatia
           "HRV", # Croatia
-          "CU",  # Cuba
+          "CU", # Cuba
           "CUB", # Cuba
-          "CW",  # Curaçao
+          "CW", # Curaçao
           "CUW", # Curaçao
-          "CY",  # Cyprus
+          "CY", # Cyprus
           "CYP", # Cyprus
-          "CZ",  # Czechia
+          "CZ", # Czechia
           "CZE", # Czechia
-          "DK",  # Denmark
+          "DK", # Denmark
           "DNK", # Denmark
-          "DJ",  # Djibouti
+          "DJ", # Djibouti
           "DJI", # Djibouti
-          "DM",  # Dominica
+          "DM", # Dominica
           "DMA", # Dominica
-          "DO",  # Dominican Republic
+          "DO", # Dominican Republic
           "DOM", # Dominican Republic
-          "EC",  # Ecuador
+          "EC", # Ecuador
           "ECU", # Ecuador
-          "EG",  # Egypt
+          "EG", # Egypt
           "EGY", # Egypt
-          "SV",  # El Salvador
+          "SV", # El Salvador
           "SLV", # El Salvador
-          "GQ",  # Equatorial Guinea
+          "GQ", # Equatorial Guinea
           "GNQ", # Equatorial Guinea
-          "ER",  # Eritrea
+          "ER", # Eritrea
           "ERI", # Eritrea
-          "EE",  # Estonia
+          "EE", # Estonia
           "EST", # Estonia
-          "SZ",  # Eswatini
+          "SZ", # Eswatini
           "SWZ", # Eswatini
-          "ET",  # Ethiopia
+          "ET", # Ethiopia
           "ETH", # Ethiopia
-          "FK",  # Falkland Islands (Malvinas)
+          "FK", # Falkland Islands (Malvinas)
           "FLK", # Falkland Islands (Malvinas)
-          "FO",  # Faroe Islands
+          "FO", # Faroe Islands
           "FRO", # Faroe Islands
-          "FJ",  # Fiji
+          "FJ", # Fiji
           "FJI", # Fiji
-          "FI",  # Finland
+          "FI", # Finland
           "FIN", # Finland
-          "FR",  # France
+          "FR", # France
           "FRA", # France
-          "GF",  # French Guiana
+          "GF", # French Guiana
           "GUF", # French Guiana
-          "PF",  # French Polynesia
+          "PF", # French Polynesia
           "PYF", # French Polynesia
-          "TF",  # French Southern Territories
+          "TF", # French Southern Territories
           "ATF", # French Southern Territories
-          "GA",  # Gabon
+          "GA", # Gabon
           "GAB", # Gabon
-          "GM",  # Gambia
+          "GM", # Gambia
           "GMB", # Gambia
-          "GE",  # Georgia
+          "GE", # Georgia
           "GEO", # Georgia
-          "DE",  # Germany
+          "DE", # Germany
           "DEU", # Germany
-          "GH",  # Ghana
+          "GH", # Ghana
           "GHA", # Ghana
-          "GI",  # Gibraltar
+          "GI", # Gibraltar
           "GIB", # Gibraltar
-          "GR",  # Greece
+          "GR", # Greece
           "GRC", # Greece
-          "GL",  # Greenland
+          "GL", # Greenland
           "GRL", # Greenland
-          "GD",  # Grenada
+          "GD", # Grenada
           "GRD", # Grenada
-          "GP",  # Guadeloupe
+          "GP", # Guadeloupe
           "GLP", # Guadeloupe
-          "GU",  # Guam
+          "GU", # Guam
           "GUM", # Guam
-          "GT",  # Guatemala
+          "GT", # Guatemala
           "GTM", # Guatemala
-          "GG",  # Guernsey
+          "GG", # Guernsey
           "GGY", # Guernsey
-          "GN",  # Guinea
+          "GN", # Guinea
           "GIN", # Guinea
-          "GW",  # Guinea-Bissau
+          "GW", # Guinea-Bissau
           "GNB", # Guinea-Bissau
-          "GY",  # Guyana
+          "GY", # Guyana
           "GUY", # Guyana
-          "HT",  # Haiti
+          "HT", # Haiti
           "HTI", # Haiti
-          "HM",  # Heard Island and McDonald Islands
+          "HM", # Heard Island and McDonald Islands
           "HMD", # Heard Island and McDonald Islands
-          "VA",  # Holy See
+          "VA", # Holy See
           "VAT", # Holy See
-          "HN",  # Honduras
+          "HN", # Honduras
           "HND", # Honduras
-          "HK",  # Hong Kong
+          "HK", # Hong Kong
           "HKG", # Hong Kong
-          "HU",  # Hungary
+          "HU", # Hungary
           "HUN", # Hungary
-          "IS",  # Iceland
+          "IS", # Iceland
           "ISL", # Iceland
-          "IN",  # India
+          "IN", # India
           "IND", # India
-          "ID",  # Indonesia
+          "ID", # Indonesia
           "IDN", # Indonesia
-          "IR",  # Iran (Islamic Republic of)
+          "IR", # Iran (Islamic Republic of)
           "IRN", # Iran (Islamic Republic of)
-          "IQ",  # Iraq
+          "IQ", # Iraq
           "IRQ", # Iraq
-          "IE",  # Ireland
+          "IE", # Ireland
           "IRL", # Ireland
-          "IM",  # Isle of Man
+          "IM", # Isle of Man
           "IMN", # Isle of Man
-          "IL",  # Israel
+          "IL", # Israel
           "ISR", # Israel
-          "IT",  # Italy
+          "IT", # Italy
           "ITA", # Italy
-          "JM",  # Jamaica
+          "JM", # Jamaica
           "JAM", # Jamaica
-          "JP",  # Japan
+          "JP", # Japan
           "JPN", # Japan
-          "JE",  # Jersey
+          "JE", # Jersey
           "JEY", # Jersey
-          "JO",  # Jordan
+          "JO", # Jordan
           "JOR", # Jordan
-          "KZ",  # Kazakhstan
+          "KZ", # Kazakhstan
           "KAZ", # Kazakhstan
-          "KE",  # Kenya
+          "KE", # Kenya
           "KEN", # Kenya
-          "KI",  # Kiribati
+          "KI", # Kiribati
           "KIR", # Kiribati
-          "KP",  # Korea (Democratic People's Republic of)
+          "KP", # Korea (Democratic People's Republic of)
           "PRK", # Korea (Democratic People's Republic of)
-          "KR",  # Korea, Republic of
+          "KR", # Korea, Republic of
           "KOR", # Korea, Republic of
-          "KW",  # Kuwait
+          "KW", # Kuwait
           "KWT", # Kuwait
-          "KG",  # Kyrgyzstan
+          "KG", # Kyrgyzstan
           "KGZ", # Kyrgyzstan
-          "LA",  # Lao People's Democratic Republic
+          "LA", # Lao People's Democratic Republic
           "LAO", # Lao People's Democratic Republic
-          "LV",  # Latvia
+          "LV", # Latvia
           "LVA", # Latvia
-          "LB",  # Lebanon
+          "LB", # Lebanon
           "LBN", # Lebanon
-          "LS",  # Lesotho
+          "LS", # Lesotho
           "LSO", # Lesotho
-          "LR",  # Liberia
+          "LR", # Liberia
           "LBR", # Liberia
-          "LY",  # Libya
+          "LY", # Libya
           "LBY", # Libya
-          "LI",  # Liechtenstein
+          "LI", # Liechtenstein
           "LIE", # Liechtenstein
-          "LT",  # Lithuania
+          "LT", # Lithuania
           "LTU", # Lithuania
-          "LU",  # Luxembourg
+          "LU", # Luxembourg
           "LUX", # Luxembourg
-          "MO",  # Macao
+          "MO", # Macao
           "MAC", # Macao
-          "MG",  # Madagascar
+          "MG", # Madagascar
           "MDG", # Madagascar
-          "MW",  # Malawi
+          "MW", # Malawi
           "MWI", # Malawi
-          "MY",  # Malaysia
+          "MY", # Malaysia
           "MYS", # Malaysia
-          "MV",  # Maldives
+          "MV", # Maldives
           "MDV", # Maldives
-          "ML",  # Mali
+          "ML", # Mali
           "MLI", # Mali
-          "MT",  # Malta
+          "MT", # Malta
           "MLT", # Malta
-          "MH",  # Marshall Islands
+          "MH", # Marshall Islands
           "MHL", # Marshall Islands
-          "MQ",  # Martinique
+          "MQ", # Martinique
           "MTQ", # Martinique
-          "MR",  # Mauritania
+          "MR", # Mauritania
           "MRT", # Mauritania
-          "MU",  # Mauritius
+          "MU", # Mauritius
           "MUS", # Mauritius
-          "YT",  # Mayotte
+          "YT", # Mayotte
           "MYT", # Mayotte
-          "MX",  # Mexico
+          "MX", # Mexico
           "MEX", # Mexico
-          "FM",  # Micronesia (Federated States of)
+          "FM", # Micronesia (Federated States of)
           "FSM", # Micronesia (Federated States of)
-          "MD",  # Moldova, Republic of
+          "MD", # Moldova, Republic of
           "MDA", # Moldova, Republic of
-          "MC",  # Monaco
+          "MC", # Monaco
           "MCO", # Monaco
-          "MN",  # Mongolia
+          "MN", # Mongolia
           "MNG", # Mongolia
-          "ME",  # Montenegro
+          "ME", # Montenegro
           "MNE", # Montenegro
-          "MS",  # Montserrat
+          "MS", # Montserrat
           "MSR", # Montserrat
-          "MA",  # Morocco
+          "MA", # Morocco
           "MAR", # Morocco
-          "MZ",  # Mozambique
+          "MZ", # Mozambique
           "MOZ", # Mozambique
-          "MM",  # Myanmar
+          "MM", # Myanmar
           "MMR", # Myanmar
-          "NA",  # Namibia
+          "NA", # Namibia
           "NAM", # Namibia
-          "NR",  # Nauru
+          "NR", # Nauru
           "NRU", # Nauru
-          "NP",  # Nepal
+          "NP", # Nepal
           "NPL", # Nepal
-          "NL",  # Netherlands
+          "NL", # Netherlands
           "NLD", # Netherlands
-          "NC",  # New Caledonia
+          "NC", # New Caledonia
           "NCL", # New Caledonia
-          "NZ",  # New Zealand
+          "NZ", # New Zealand
           "NZL", # New Zealand
-          "NI",  # Nicaragua
+          "NI", # Nicaragua
           "NIC", # Nicaragua
-          "NE",  # Niger
+          "NE", # Niger
           "NER", # Niger
-          "NG",  # Nigeria
+          "NG", # Nigeria
           "NGA", # Nigeria
-          "NU",  # Niue
+          "NU", # Niue
           "NIU", # Niue
-          "NF",  # Norfolk Island
+          "NF", # Norfolk Island
           "NFK", # Norfolk Island
-          "MK",  # North Macedonia
+          "MK", # North Macedonia
           "MKD", # North Macedonia
-          "MP",  # Northern Mariana Islands
+          "MP", # Northern Mariana Islands
           "MNP", # Northern Mariana Islands
-          "NO",  # Norway
+          "NO", # Norway
           "NOR", # Norway
-          "OM",  # Oman
+          "OM", # Oman
           "OMN", # Oman
-          "PK",  # Pakistan
+          "PK", # Pakistan
           "PAK", # Pakistan
-          "PW",  # Palau
+          "PW", # Palau
           "PLW", # Palau
-          "PS",  # Palestine, State of
+          "PS", # Palestine, State of
           "PSE", # Palestine, State of
-          "PA",  # Panama
+          "PA", # Panama
           "PAN", # Panama
-          "PG",  # Papua New Guinea
+          "PG", # Papua New Guinea
           "PNG", # Papua New Guinea
-          "PY",  # Paraguay
+          "PY", # Paraguay
           "PRY", # Paraguay
-          "PE",  # Peru
+          "PE", # Peru
           "PER", # Peru
-          "PH",  # Philippines
+          "PH", # Philippines
           "PHL", # Philippines
-          "PN",  # Pitcairn
+          "PN", # Pitcairn
           "PCN", # Pitcairn
-          "PL",  # Poland
+          "PL", # Poland
           "POL", # Poland
-          "PT",  # Portugal
+          "PT", # Portugal
           "PRT", # Portugal
-          "PR",  # Puerto Rico
+          "PR", # Puerto Rico
           "PRI", # Puerto Rico
-          "QA",  # Qatar
+          "QA", # Qatar
           "QAT", # Qatar
-          "RE",  # Réunion
+          "RE", # Réunion
           "REU", # Réunion
-          "RO",  # Romania
+          "RO", # Romania
           "ROU", # Romania
-          "RU",  # Russian Federation
+          "RU", # Russian Federation
           "RUS", # Russian Federation
-          "RW",  # Rwanda
+          "RW", # Rwanda
           "RWA", # Rwanda
-          "BL",  # Saint Barthélemy
+          "BL", # Saint Barthélemy
           "BLM", # Saint Barthélemy
-          "SH",  # Saint Helena, Ascension and Tristan da Cunha
+          "SH", # Saint Helena, Ascension and Tristan da Cunha
           "SHN", # Saint Helena, Ascension and Tristan da Cunha
-          "KN",  # Saint Kitts and Nevis
+          "KN", # Saint Kitts and Nevis
           "KNA", # Saint Kitts and Nevis
-          "LC",  # Saint Lucia
+          "LC", # Saint Lucia
           "LCA", # Saint Lucia
-          "MF",  # Saint Martin (French part)
+          "MF", # Saint Martin (French part)
           "MAF", # Saint Martin (French part)
-          "PM",  # Saint Pierre and Miquelon
+          "PM", # Saint Pierre and Miquelon
           "SPM", # Saint Pierre and Miquelon
-          "VC",  # Saint Vincent and the Grenadines
+          "VC", # Saint Vincent and the Grenadines
           "VCT", # Saint Vincent and the Grenadines
-          "WS",  # Samoa
+          "WS", # Samoa
           "WSM", # Samoa
-          "SM",  # San Marino
+          "SM", # San Marino
           "SMR", # San Marino
-          "ST",  # Sao Tome and Principe
+          "ST", # Sao Tome and Principe
           "STP", # Sao Tome and Principe
-          "SA",  # Saudi Arabia
+          "SA", # Saudi Arabia
           "SAU", # Saudi Arabia
-          "SN",  # Senegal
+          "SN", # Senegal
           "SEN", # Senegal
-          "RS",  # Serbia
+          "RS", # Serbia
           "SRB", # Serbia
-          "SC",  # Seychelles
+          "SC", # Seychelles
           "SYC", # Seychelles
-          "SL",  # Sierra Leone
+          "SL", # Sierra Leone
           "SLE", # Sierra Leone
-          "SG",  # Singapore
+          "SG", # Singapore
           "SGP", # Singapore
-          "SX",  # Sint Maarten (Dutch part)
+          "SX", # Sint Maarten (Dutch part)
           "SXM", # Sint Maarten (Dutch part)
-          "SK",  # Slovakia
+          "SK", # Slovakia
           "SVK", # Slovakia
-          "SI",  # Slovenia
+          "SI", # Slovenia
           "SVN", # Slovenia
-          "SB",  # Solomon Islands
+          "SB", # Solomon Islands
           "SLB", # Solomon Islands
-          "SO",  # Somalia
+          "SO", # Somalia
           "SOM", # Somalia
-          "ZA",  # South Africa
+          "ZA", # South Africa
           "ZAF", # South Africa
-          "GS",  # South Georgia and the South Sandwich Islands
+          "GS", # South Georgia and the South Sandwich Islands
           "SGS", # South Georgia and the South Sandwich Islands
-          "SS",  # South Sudan
+          "SS", # South Sudan
           "SSD", # South Sudan
-          "ES",  # Spain
+          "ES", # Spain
           "ESP", # Spain
-          "LK",  # Sri Lanka
+          "LK", # Sri Lanka
           "LKA", # Sri Lanka
-          "SD",  # Sudan
+          "SD", # Sudan
           "SDN", # Sudan
-          "SR",  # Suriname
+          "SR", # Suriname
           "SUR", # Suriname
-          "SJ",  # Svalbard and Jan Mayen
+          "SJ", # Svalbard and Jan Mayen
           "SJM", # Svalbard and Jan Mayen
-          "SE",  # Sweden
+          "SE", # Sweden
           "SWE", # Sweden
-          "CH",  # Switzerland
+          "CH", # Switzerland
           "CHE", # Switzerland
-          "SY",  # Syrian Arab Republic
+          "SY", # Syrian Arab Republic
           "SYR", # Syrian Arab Republic
-          "TW",  # Taiwan
+          "TW", # Taiwan
           "TWN", # Taiwan
-          "TJ",  # Tajikistan
+          "TJ", # Tajikistan
           "TJK", # Tajikistan
-          "TZ",  # Tanzania, United Republic of
+          "TZ", # Tanzania, United Republic of
           "TZA", # Tanzania, United Republic of
-          "TH",  # Thailand
+          "TH", # Thailand
           "THA", # Thailand
-          "TL",  # Timor-Leste
+          "TL", # Timor-Leste
           "TLS", # Timor-Leste
-          "TG",  # Togo
+          "TG", # Togo
           "TGO", # Togo
-          "TK",  # Tokelau
+          "TK", # Tokelau
           "TKL", # Tokelau
-          "TO",  # Tonga
+          "TO", # Tonga
           "TON", # Tonga
-          "TT",  # Trinidad and Tobago
+          "TT", # Trinidad and Tobago
           "TTO", # Trinidad and Tobago
-          "TN",  # Tunisia
+          "TN", # Tunisia
           "TUN", # Tunisia
-          "TR",  # Turkey
+          "TR", # Turkey
           "TUR", # Turkey
-          "TM",  # Turkmenistan
+          "TM", # Turkmenistan
           "TKM", # Turkmenistan
-          "TC",  # Turks and Caicos Islands
+          "TC", # Turks and Caicos Islands
           "TCA", # Turks and Caicos Islands
-          "TV",  # Tuvalu
+          "TV", # Tuvalu
           "TUV", # Tuvalu
-          "UG",  # Uganda
+          "UG", # Uganda
           "UGA", # Uganda
-          "UA",  # Ukraine
+          "UA", # Ukraine
           "UKR", # Ukraine
-          "AE",  # United Arab Emirates
+          "AE", # United Arab Emirates
           "ARE", # United Arab Emirates
-          "GB",  # United Kingdom of Great Britain and Northern Ireland
+          "GB", # United Kingdom of Great Britain and Northern Ireland
           "GBR", # United Kingdom of Great Britain and Northern Ireland
-          "UM",  # United States Minor Outlying Islands
+          "UM", # United States Minor Outlying Islands
           "UMI", # United States Minor Outlying Islands
-          "US",  # United States of America
+          "US", # United States of America
           "USA", # United States of America
-          "UY",  # Uruguay
+          "UY", # Uruguay
           "URY", # Uruguay
-          "UZ",  # Uzbekistan
+          "UZ", # Uzbekistan
           "UZB", # Uzbekistan
-          "VU",  # Vanuatu
+          "VU", # Vanuatu
           "VUT", # Vanuatu
-          "VE",  # Venezuela (Bolivarian Republic of)
+          "VE", # Venezuela (Bolivarian Republic of)
           "VEN", # Venezuela (Bolivarian Republic of)
-          "VN",  # Viet Nam
+          "VN", # Viet Nam
           "VNM", # Viet Nam
-          "VG",  # Virgin Islands (British)
+          "VG", # Virgin Islands (British)
           "VGB", # Virgin Islands (British)
-          "VI",  # Virgin Islands (U.S.)
+          "VI", # Virgin Islands (U.S.)
           "VIR", # Virgin Islands (U.S.)
-          "WF",  # Wallis and Futuna
+          "WF", # Wallis and Futuna
           "WLF", # Wallis and Futuna
-          "EH",  # Western Sahara
+          "EH", # Western Sahara
           "ESH", # Western Sahara
-          "YE",  # Yemen
+          "YE", # Yemen
           "YEM", # Yemen
-          "ZM",  # Zambia
+          "ZM", # Zambia
           "ZMB", # Zambia
-          "ZW",  # Zimbabwe
+          "ZW", # Zimbabwe
           "ZWE", # Zimbabwe
         ]
       end

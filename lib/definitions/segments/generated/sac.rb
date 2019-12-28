@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "SAC"
         @name = "Service, Promotion, Allowance, or Charge Information"
-        @sac01 = Eddy::Elements::E248.new(req: "M")
-        @sac02 = Eddy::Elements::E1300.new(req: "X")
-        @sac03 = Eddy::Elements::E559.new(req: "X")
-        @sac04 = Eddy::Elements::E1301.new(req: "X")
-        @sac05 = Eddy::Elements::E610.new(req: "O")
+        @sac01 = Eddy::Elements::E248.new(ref:  "SAC01", req: "M")
+        @sac02 = Eddy::Elements::E1300.new(ref: "SAC02", req: "X")
+        @sac03 = Eddy::Elements::E559.new(ref:  "SAC03", req: "X")
+        @sac04 = Eddy::Elements::E1301.new(ref: "SAC04", req: "X")
+        @sac05 = Eddy::Elements::E610.new(ref:  "SAC05", req: "O")
         super(
           store,
           @sac01,

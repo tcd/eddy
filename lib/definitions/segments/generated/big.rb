@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "BIG"
         @name = "Beginning Segment for Invoice"
-        @big01 = Eddy::Elements::E373.new(req: "M")
-        @big02 = Eddy::Elements::E76.new(req: "M")
-        @big03 = Eddy::Elements::E373.new(req: "O")
-        @big04 = Eddy::Elements::E324.new(req: "O")
-        @big05 = Eddy::Elements::E328.new(req: "O")
+        @big01 = Eddy::Elements::E373.new(ref: "BIG01", req: "M")
+        @big02 = Eddy::Elements::E76.new(ref:  "BIG02", req: "M")
+        @big03 = Eddy::Elements::E373.new(ref: "BIG03", req: "O")
+        @big04 = Eddy::Elements::E324.new(ref: "BIG04", req: "O")
+        @big05 = Eddy::Elements::E328.new(ref: "BIG05", req: "O")
         super(
           store,
           @big01,

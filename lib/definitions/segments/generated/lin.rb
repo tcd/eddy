@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "LIN"
         @name = "Item Identification"
-        @lin01 = Eddy::Elements::E350.new(req: "O")
-        @lin02 = Eddy::Elements::E235.new(req: "M")
-        @lin03 = Eddy::Elements::E234.new(req: "M")
-        @lin04 = Eddy::Elements::E235.new(req: "X")
-        @lin05 = Eddy::Elements::E234.new(req: "X")
+        @lin01 = Eddy::Elements::E350.new(ref: "LIN01", req: "O")
+        @lin02 = Eddy::Elements::E235.new(ref: "LIN02", req: "M")
+        @lin03 = Eddy::Elements::E234.new(ref: "LIN03", req: "M")
+        @lin04 = Eddy::Elements::E235.new(ref: "LIN04", req: "X")
+        @lin05 = Eddy::Elements::E234.new(ref: "LIN05", req: "X")
         super(
           store,
           @lin01,

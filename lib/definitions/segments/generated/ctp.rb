@@ -12,14 +12,14 @@ module Eddy
       def initialize(store)
         @id = "CTP"
         @name = "Pricing Information"
-        @ctp01 = Eddy::Elements::E687.new(req: "O")
-        @ctp02 = Eddy::Elements::E236.new(req: "X")
-        @ctp03 = Eddy::Elements::E212.new(req: "X")
-        @ctp04 = Eddy::Elements::E380.new(req: "X")
-        @ctp05 = Eddy::Elements::E355.new(req: "X")
-        @ctp06 = Eddy::Elements::E648.new(req: "O")
-        @ctp07 = Eddy::Elements::E649.new(req: "X")
-        @ctp08 = Eddy::Elements::E782.new(req: "O")
+        @ctp01 = Eddy::Elements::E687.new(ref: "CTP01", req: "O")
+        @ctp02 = Eddy::Elements::E236.new(ref: "CTP02", req: "X")
+        @ctp03 = Eddy::Elements::E212.new(ref: "CTP03", req: "X")
+        @ctp04 = Eddy::Elements::E380.new(ref: "CTP04", req: "X")
+        @ctp05 = Eddy::Elements::E355.new(ref: "CTP05", req: "X")
+        @ctp06 = Eddy::Elements::E648.new(ref: "CTP06", req: "O")
+        @ctp07 = Eddy::Elements::E649.new(ref: "CTP07", req: "X")
+        @ctp08 = Eddy::Elements::E782.new(ref: "CTP08", req: "O")
         super(
           store,
           @ctp01,

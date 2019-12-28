@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "MAN"
         @name = "Marks and Numbers"
-        @man01 = Eddy::Elements::E88.new(req: "M")
-        @man02 = Eddy::Elements::E87.new(req: "M")
+        @man01 = Eddy::Elements::E88.new(ref: "MAN01", req: "M")
+        @man02 = Eddy::Elements::E87.new(ref: "MAN02", req: "M")
         super(
           store,
           @man01,

@@ -10,12 +10,19 @@ module Eddy
     class E19 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "19"
         @name = "City Name"
         @description = "Free-form text for city name"
-        super(min: 2, max: 30, req: req, val: val)
+        super(
+          min: 2,
+          max: 30,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

@@ -10,12 +10,19 @@ module Eddy
     class E1301 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "1301"
         @name = "Agency Service, Promotion, Allowance, or Charge Code"
         @description = "Agency maintained code identifying the service, promotion, allowance, or charge"
-        super(min: 1, max: 10, req: req, val: val)
+        super(
+          min: 1,
+          max: 10,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

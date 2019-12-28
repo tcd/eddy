@@ -10,12 +10,19 @@ module Eddy
     class E76 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "76"
         @name = "Invoice Number"
         @description = "Identifying number assigned by issuer"
-        super(min: 1, max: 22, req: req, val: val)
+        super(
+          min: 1,
+          max: 22,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

@@ -10,12 +10,19 @@ module Eddy
     class E67 < Eddy::Element::AN
       # @param val [String]
       # @param req [String]
+      # @param ref [String]
       # @return [void]
-      def initialize(val: nil, req: nil)
+      def initialize(val: nil, req: nil, ref: nil)
         @id = "67"
         @name = "Identification Code"
         @description = "Code identifying a party or other code"
-        super(min: 2, max: 80, req: req, val: val)
+        super(
+          min: 2,
+          max: 80,
+          req: req,
+          ref: ref,
+          val: val,
+        )
       end
     end
   end

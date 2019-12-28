@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "DTM"
         @name = "Date/Time Reference"
-        @dtm01 = Eddy::Elements::E347.new(req: "M")
-        @dtm02 = Eddy::Elements::E373.new(req: "X")
+        @dtm01 = Eddy::Elements::E347.new(ref: "DTM01", req: "M")
+        @dtm02 = Eddy::Elements::E373.new(ref: "DTM02", req: "X")
         super(
           store,
           @dtm01,

@@ -12,16 +12,16 @@ module Eddy
       def initialize(store)
         @id = "ACK"
         @name = "Line Item Acknowledgement"
-        @ack01 = Eddy::Elements::E668.new(req: "M")
-        @ack02 = Eddy::Elements::E380.new(req: "X")
-        @ack03 = Eddy::Elements::E355.new(req: "X")
-        @ack04 = Eddy::Elements::E374.new(req: "O")
-        @ack05 = Eddy::Elements::E373.new(req: "X")
-        @ack06 = Eddy::Elements::E326.new(req: "O")
-        @ack07 = Eddy::Elements::E235.new(req: "X")
-        @ack08 = Eddy::Elements::E234.new(req: "X")
-        @ack09 = Eddy::Elements::E235.new(req: "X")
-        @ack10 = Eddy::Elements::E234.new(req: "X")
+        @ack01 = Eddy::Elements::E668.new(ref: "ACK01", req: "M")
+        @ack02 = Eddy::Elements::E380.new(ref: "ACK02", req: "X")
+        @ack03 = Eddy::Elements::E355.new(ref: "ACK03", req: "X")
+        @ack04 = Eddy::Elements::E374.new(ref: "ACK04", req: "O")
+        @ack05 = Eddy::Elements::E373.new(ref: "ACK05", req: "X")
+        @ack06 = Eddy::Elements::E326.new(ref: "ACK06", req: "O")
+        @ack07 = Eddy::Elements::E235.new(ref: "ACK07", req: "X")
+        @ack08 = Eddy::Elements::E234.new(ref: "ACK08", req: "X")
+        @ack09 = Eddy::Elements::E235.new(ref: "ACK09", req: "X")
+        @ack10 = Eddy::Elements::E234.new(ref: "ACK10", req: "X")
         super(
           store,
           @ack01,

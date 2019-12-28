@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "PID"
         @name = "Product/Item Description"
-        @pid01 = Eddy::Elements::E349.new(req: "M")
-        @pid02 = Eddy::Elements::E750.new(req: "O")
-        @pid03 = Eddy::Elements::E559.new(req: "O")
-        @pid04 = Eddy::Elements::E751.new(req: "O")
-        @pid05 = Eddy::Elements::E352.new(req: "X")
+        @pid01 = Eddy::Elements::E349.new(ref: "PID01", req: "M")
+        @pid02 = Eddy::Elements::E750.new(ref: "PID02", req: "O")
+        @pid03 = Eddy::Elements::E559.new(ref: "PID03", req: "O")
+        @pid04 = Eddy::Elements::E751.new(ref: "PID04", req: "O")
+        @pid05 = Eddy::Elements::E352.new(ref: "PID05", req: "X")
         super(
           store,
           @pid01,

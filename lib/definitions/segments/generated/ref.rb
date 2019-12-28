@@ -12,8 +12,8 @@ module Eddy
       def initialize(store)
         @id = "REF"
         @name = "Reference Identification"
-        @ref01 = Eddy::Elements::E128.new(req: "M")
-        @ref02 = Eddy::Elements::E127.new(req: "X")
+        @ref01 = Eddy::Elements::E128.new(ref: "REF01", req: "M")
+        @ref02 = Eddy::Elements::E127.new(ref: "REF02", req: "X")
         super(
           store,
           @ref01,
