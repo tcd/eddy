@@ -1,3 +1,5 @@
+require "bigdecimal"
+
 module Eddy
   module Element
     # Decimal Numeric (decimal points must be transmitted if used).
@@ -7,7 +9,7 @@ module Eddy
       # @param max [Integer]
       # @param req [String] (nil)
       # @param ref [String] (nil)
-      # @param val [Float] (nil)
+      # @param val [Numeric] (nil)
       # @return [void]
       def initialize(
         min:,
@@ -36,26 +38,46 @@ module Eddy
         return process(@val)
       end
 
-      # @param arg [Float]
-      # @raise [ArgumentError] Unless passed a Float value.
+      # @param arg [Numeric]
+      # @raise [ArgumentError] Unless passed a Numeric value.
       # @return [void]
       def value=(arg)
         if arg.nil?
           @val = arg
           return
         end
-        raise Eddy::Errors::ElementValidationError, "value needs to be a float" unless arg.is_a?(Float)
+        raise Eddy::Errors::ElementValidationError, "value needs to be a numeric" unless arg.is_a?(Numeric)
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if process(arg).length > self.max
         @val = arg
       end
 
       # Stringify a float value and trim to the element's `max` attribute.
+      #
       # TODO: Use `sprintf` here.
       #
-      # @param float [Float]
+      # TODO: Handle different value types.
+      #
+      # See:
+      #
+      # - [Ruby class types and case statements (Stack Overflow)](https://stackoverflow.com/questions/3908380/ruby-class-types-and-case-statements)
+      # - [Numbers and Class Hierarchy in Ruby (Medium)](https://medium.com/rubyinside/numbers-and-class-hierarchy-in-ruby-8c93c4749316)
+      #
+      # @param val [Numeric]
       # @return [String]
-      def process(float)
-        return float.to_s.slice(0..(self.max + 1))
+      def process(val)
+        # case val
+        # when Integer
+        #   # TODO: Handle case
+        # when Float
+        #   # TODO: Handle case
+        # when Complex
+        #   # TODO: Handle case
+        # when Rational
+        #   # TODO: Handle case
+        # when BigDecimal
+        #   # TODO: Handle case
+        # end
+        return val.to_s.slice(0..(self.max + 1))
       end
 
     end

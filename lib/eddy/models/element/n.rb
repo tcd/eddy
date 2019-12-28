@@ -11,7 +11,7 @@ module Eddy
       # @param max [Integer]
       # @param req [String] (nil)
       # @param ref [String] (nil)
-      # @param val [Integer] (nil)
+      # @param val [Numeric] (nil)
       # @param decimals [Integer] (0)
       # @return [void]
       def initialize(
@@ -44,14 +44,14 @@ module Eddy
       end
 
       # @raise [Eddy::Errors::ElementValidationError]
-      # @param arg [Integer]
+      # @param arg [Numeric]
       # @return [void]
       def value=(arg)
         if arg.nil?
           @val = nil
           return
         end
-        raise Eddy::Errors::ElementValidationError, "value needs to be an integer" unless arg.is_a?(Integer)
+        raise Eddy::Errors::ElementValidationError, "value needs to be an integer" unless arg.is_a?(Numeric)
         raise Eddy::Errors::ElementValidationError, "value can't be longer than #{self.max}" if arg.to_s.length > self.max
         @val = arg
       end

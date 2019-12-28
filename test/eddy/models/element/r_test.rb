@@ -25,7 +25,6 @@ module ModelsTest
     end
 
     def test_setter_rejects_non_float_arguments
-      assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::R.new(min: 1, max: 10, val: 420)   }
       assert_raises(Eddy::Errors::ElementValidationError) { Eddy::Element::R.new(min: 1, max: 10, val: "420") }
     end
 
