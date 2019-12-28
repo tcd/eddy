@@ -1,7 +1,6 @@
 module Eddy
   module Errors
     # Exceptions raised by Eddy inherit from Error.
-    # @abstract
     class Error < StandardError; end
 
     # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element} class.
@@ -24,5 +23,8 @@ module Eddy
 
     # Exception raised from a `render` method.
     class RenderError < Error; end
+
+    # Exception raised when a definition file can't be found.
+    class MissingDefinitionError < Error; end
   end
 end
