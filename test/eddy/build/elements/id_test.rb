@@ -23,12 +23,19 @@ module BuildTest
 
                 # @param val [String]
                 # @param req [String]
+                # @param ref [String]
                 # @return [void]
-                def initialize(val: nil, req: nil)
+                def initialize(val: nil, req: nil, ref: nil)
                   @id = "I03"
                   @name = "Security Information Qualifier"
                   @description = "Code to identify the type of information in the Security Information"
-                  super(min: 2, max: 2, req: req, val: val)
+                  super(
+                    min: 2,
+                    max: 2,
+                    req: req,
+                    ref: ref,
+                    val: val,
+                  )
                 end
 
                 # @return [Array<String>]

@@ -22,12 +22,19 @@ module BuildTest
               class E111 < Eddy::Element::TM
                 # @param val [Time]
                 # @param req [String]
+                # @param ref [String]
                 # @return [void]
-                def initialize(val: nil, req: nil)
+                def initialize(val: nil, req: nil, ref: nil)
                   @id = "111"
                   @name = "Pick-up Time"
                   @description = "Time (HHMM) that the carrier is to pick up the shipment"
-                  super(min: 4, max: 4, req: req, val: val)
+                  super(
+                    min: 4,
+                    max: 4,
+                    req: req,
+                    ref: ref,
+                    val: val,
+                  )
                 end
               end
             end

@@ -22,12 +22,19 @@ module BuildTest
               class E93 < Eddy::Element::AN
                 # @param val [String]
                 # @param req [String]
+                # @param ref [String]
                 # @return [void]
-                def initialize(val: nil, req: nil)
+                def initialize(val: nil, req: nil, ref: nil)
                   @id = "93"
                   @name = "Name"
                   @description = "Free-form name"
-                  super(min: 1, max: 60, req: req, val: val)
+                  super(
+                    min: 1,
+                    max: 60,
+                    req: req,
+                    ref: ref,
+                    val: val,
+                  )
                 end
               end
             end
