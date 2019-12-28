@@ -4,9 +4,13 @@ require "time"
 module ModelsTest
   class DtTest < Minitest::Test
 
+    def setup
+      @epoch = Time.at(0).utc()
+    end
+
     def test_setter
       dt = Eddy::Element::DT.new(fmt: :yymmdd)
-      dt.value = Time.at(0).utc()
+      dt.value = @epoch
       assert_equal("700101", dt.value)
     end
 
@@ -14,7 +18,7 @@ module ModelsTest
       dt = Eddy::Element::DT.new(
         fmt: :yymmdd,
         req: "M",
-        val: Time.at(0).utc(),
+        val: @epoch,
       )
       assert_equal("700101", dt.value)
     end
@@ -39,20 +43,7 @@ module ModelsTest
 
     # FIXME: This test could fail for multiple reasons.
     def test_that_an_invalid_fmt_argument_raises
-      time = Time.at(0).utc()
-      assert_raises(ArgumentError) { Eddy::Element::DT.new(fmt: :not_valid, val: time) }
-    end
-
-    def test_ccyymmdd
-      time = Time.at(0).utc()
-      dt = Eddy::Element::DT.new(fmt: :yymmdd, val: time)
-      assert_equal("700101", dt.value)
-    end
-
-    def test_yymmdd
-      time = Time.at(0).utc()
-      dt = Eddy::Element::DT.new(fmt: :ccyymmdd, val: time)
-      assert_equal("19700101", dt.value)
+      assert_raises(ArgumentError) { Eddy::Element::DT.new(fmt: :not_valid, val: @epoch) }
     end
 
   end

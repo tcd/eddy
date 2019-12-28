@@ -62,10 +62,10 @@ module Eddy
           end
         end
         case self.fmt
-        when :hhmm then return TM.hhmm(@val)
-        when :hhmmss then return TM.hhmmss(@val)
-        when :hhmmssd then return TM.hhmmssd(@val)
-        when :hhmmssdd then return TM.hhmmssdd(@val)
+        when :hhmm then return Eddy::Util::Time.hhmm(@val)
+        when :hhmmss then return Eddy::Util::Time.hhmmss(@val)
+        when :hhmmssd then return Eddy::Util::Time.hhmmssd(@val)
+        when :hhmmssdd then return Eddy::Util::Time.hhmmssdd(@val)
         else raise Eddy::Errors::Error, "invalid fmt value for TM object"
         end
       end
@@ -106,41 +106,6 @@ module Eddy
         when 8 then return :hhmmssdd
         else raise Eddy::Errors::Error, "unable to determine format for tm element"
         end
-      end
-
-      # @return [String]
-      def format_string()
-        case self.max
-        when 4 then return "%H%M"
-        when 6 then return "%H%M%S"
-        when 7 then return "%H%M%S%1N"
-        when 8 then return "%H%M%S%2N"
-        else raise Eddy::Errors::Error, "unable to determine format for tm element"
-        end
-      end
-
-      # @param time [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.hhmm(time = Time.now.utc)
-        return time.strftime("%H%M")
-      end
-
-      # @param time [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.hhmmss(time = Time.now.utc)
-        return time.strftime("%H%M%S")
-      end
-
-      # @param time [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.hhmmssd(time = Time.now.utc)
-        return time.strftime("%H%M%S%1N")
-      end
-
-      # @param time [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.hhmmssdd(time = Time.now.utc)
-        return time.strftime("%H%M%S%2N")
       end
 
     end

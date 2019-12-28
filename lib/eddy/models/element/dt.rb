@@ -53,8 +53,8 @@ module Eddy
           end
         end
         case self.fmt
-        when :yymmdd then return DT.yymmdd(@val)
-        when :ccyymmdd then return DT.ccyymmdd(@val)
+        when :yymmdd then return Eddy::Util::Time.yymmdd(@val)
+        when :ccyymmdd then return Eddy::Util::Time.ccyymmdd(@val)
         else raise Eddy::Errors::Error "invalid fmt value for DT object"
         end
       end
@@ -93,22 +93,6 @@ module Eddy
         when 8 then return :ccyymmdd
         else raise Eddy::Errors::Error, "unable to determine format for dt element"
         end
-      end
-
-      # Generates an timestamp in `CCYYMMDD` format.
-      #
-      # @param date [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.ccyymmdd(date = Time.now.utc)
-        return date.strftime("%Y%m%d")
-      end
-
-      # Generates an timestamp in `YYMMDD` format.
-      #
-      # @param date [Time] A *UTC* formatted `Time` object.
-      # @return [String]
-      def self.yymmdd(date = Time.now.utc)
-        return date.strftime("%y%m%d")
       end
 
     end
