@@ -19,6 +19,14 @@ module Eddy
       # Maximum length for a valid value
       # @return [Integer]
       attr_reader :max
+      # String used to identify a data element within a Segment.
+      # @return [String]
+      attr_accessor :ref
+
+      # # @return [void]
+      # def initialize(**kwargs)
+
+      # end
 
       # @note Classes inheriting from `Eddy::Element::Base` must define the method `value`.
       # @return [void]
@@ -101,12 +109,6 @@ module Eddy
             - Description: #{self.description}
           END
         end
-      end
-
-      # @return [String]
-      def normalized_name
-        return "" if self.name.nil? # For testing base elements.
-        return Eddy::Util.normalize_name(self.name)
       end
 
     end

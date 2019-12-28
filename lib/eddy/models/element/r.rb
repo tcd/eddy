@@ -6,13 +6,21 @@ module Eddy
       # @param min [Integer]
       # @param max [Integer]
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @param val [Float] (nil)
       # @return [void]
-      def initialize(min:, max:, req: nil, val: nil)
+      def initialize(
+        min:,
+        max:,
+        req: nil,
+        ref: nil,
+        val: nil
+      )
         @type = "R"
         @min = min
         @max = max
         self.req = req
+        self.ref = ref
         self.value = val
       end
 
@@ -20,7 +28,7 @@ module Eddy
       def value()
         if @val.nil?
           case self.req
-          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.normalized_name}'"
+          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.ref}'"
           when "O", "C" then return ""
           else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
           end

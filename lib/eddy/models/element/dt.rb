@@ -16,6 +16,7 @@ module Eddy
       # @param min [Integer] (nil)
       # @param max [Integer] (nil)
       # @param req [String] (nil)
+      # @param ref [String] (nil)
       # @param val [Time] (nil) A *UTC* formatted Time object.
       # @param fmt [Symbol] (nil) Format for the date. Valid values: `:yymmdd` or `:ccyymmdd`.
       # @return [void]
@@ -23,6 +24,7 @@ module Eddy
         min: nil,
         max: nil,
         req: nil,
+        ref: nil,
         val: nil,
         fmt: nil
       )
@@ -30,6 +32,7 @@ module Eddy
         @min = min
         @max = max
         self.req = req
+        self.ref = ref
         if fmt.nil?
           raise ArgumentError, "DT elements require either a `fmt` value, or `min` and `max` values." if min.nil? || max.nil?
           @fmt = determine_format()
@@ -44,7 +47,7 @@ module Eddy
       def value()
         if @val.nil?
           case self.req
-          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.normalized_name}'"
+          when "M"      then raise Eddy::Errors::ElementNilValueError, "No value set for '#{self.ref}'"
           when "O", "C" then return ""
           else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
           end
