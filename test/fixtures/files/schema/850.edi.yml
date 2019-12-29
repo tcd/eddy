@@ -26,7 +26,7 @@ components:
       min: 1
       max: 35
 
-- loop_id: L1 # N1
+- loop_id: N1
   repeat: 200
   req: O
   components:
@@ -49,7 +49,7 @@ components:
     req: O
     element_count: 4
 
-- loop_id: L2 # PO1
+- loop_id: PO1
   repeat: 100000
   req: M
   components:
@@ -58,7 +58,7 @@ components:
     req: M
     element_count: 9
 
-- loop_id: L3 # CTT
+- loop_id: CTT
   repeat: 1
   components:
   - id: CTT

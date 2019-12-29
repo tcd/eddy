@@ -12,7 +12,7 @@ components:
   req: O
   element_count: 2
 
-- loop_id: L_N1
+- loop_id: N1
   repeat: 200
   components:
     - id: N1
@@ -46,7 +46,7 @@ components:
     - { ref: DTM01, id: '374', req: M }
     - { ref: DTM02, id: '373', req: X }
 
-- loop_id: L_IT1
+- loop_id: IT1
   repeat: 200000
   components:
     - id: IT1
@@ -55,14 +55,14 @@ components:
     - id: CTP
       req: O
       element_count: 6
-    - loop_id: L_PID
+    - loop_id: PID
       repeat: 1000
       req: M
       components:
         - id: PID
           req: O
           element_count: 2
-    - loop_id: L_SAC
+    - loop_id: SAC
       repeat: 25
       req: O
       components:
@@ -70,7 +70,7 @@ components:
           req: O
           element_count: 3
 
-- id: TDS
+- id: TD5
   req: M
   element_count: 1
 
@@ -78,7 +78,7 @@ components:
   req: O
   element_count: 1
 
-- loop_id: L_SAC
+- loop_id: SAC
   repeat: 25
   req: O
   components:
