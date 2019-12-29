@@ -55,28 +55,44 @@ module Eddy
 
     # Add `ST` and `SE` segments to the `components` array.
     #
+    # @param t_set_control_number [Integer] (Eddy::Data::Store#transaction_set_control_number)
     # @return [void]
-    def add_envelope
+    def add_envelope(t_set_control_number = self.store.transaction_set_control_number)
       st = Eddy::Segments::ST.new(self.store)
-      st.ST01 = self.id
+      st.TransactionSetIdentifierCode = self.id
+      st.TransactionSetControlNumber  = t_set_control_number
+
       se = Eddy::Segments::SE.new(self.store)
-      se.SE01 = self.id
+      se.NumberOfIncludedSegments    = self.all_components.length + 2
+      se.TransactionSetControlNumber = t_set_control_number
+
       self.components.unshift(st)
       self.components.push(se)
     end
 
+    # This shouldn't be used.
+    # An Interchange or FunctionalGroup should call `all_components` and render those itself.
+    #
     # @return [String]
     def render()
-      segments = self.components.map do |c|
+      add_envelope()
+      return self.all_components.map { |s| s.render(self.store.element_separator) }.join(self.store.segment_separator) + self.store.segment_separator
+    end
+
+    # Return all contained Segments in a single, flattened array.
+    #
+    # @return [Array<Eddy::Segment>]
+    def all_components()
+      comps = self.components.map do |c|
         if c.is_a?(Eddy::Loop::Base)
-          c.render
+          c.all_components()
         elsif c.is_a?(Eddy::Segment)
           c
         else
           raise Eddy::Errors::RenderError
         end
       end
-      return segments.flatten.map { |s| s.render(self.store.element_separator) }
+      return comps.flatten
     end
 
   end

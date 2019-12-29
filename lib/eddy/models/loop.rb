@@ -31,18 +31,20 @@ module Eddy
         self.components = components || []
       end
 
+      # Return all contained Segments in a single, flattened array.
+      #
       # @return [Array<Eddy::Segment>]
-      def render()
-        segments = self.components.map do |c|
+      def all_components()
+        components = self.components.map do |c|
           if c.is_a?(Eddy::Loop::Base)
-            c.render
+            c.all_components()
           elsif c.is_a?(Eddy::Segment)
             c
           else
             raise Eddy::Errors::RenderError
           end
         end
-        return segments.flatten
+        return components.flatten
       end
 
     end
