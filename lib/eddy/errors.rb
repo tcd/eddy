@@ -42,7 +42,7 @@ module Eddy
       # @param element [Eddy::Element::Base] Element instance that raised the exception.
       # @param msg [String] (nil)
       # @return [void]
-      def initialize(element:, msg: "")
+      def initialize(msg = "", element:)
         self.element = element
         if msg.length == 0
           msg << "This element requires a value but none was set."
@@ -57,7 +57,7 @@ module Eddy
       # @param arg [Object] Passed argument that caused the exception.
       # @param msg [String] ("")
       # @return [void]
-      def initialize(element:, arg:, msg: "")
+      def initialize(msg = "", element:, arg:)
         self.element = element
         self.arg = arg
         if msg.length == 0
@@ -87,7 +87,7 @@ module Eddy
       # @param arg [Object] Passed argument that caused the exception.
       # @param msg [String] ("")
       # @return [void]
-      def initialize(element:, arg:, msg: "")
+      def initialize(msg = "", element:, arg:)
         self.element = element
         self.arg = arg
         if msg.length == 0
