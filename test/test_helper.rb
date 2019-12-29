@@ -15,11 +15,11 @@ SimpleCov.start do
 
   add_group "Build", "lib/eddy/build"
   add_group "CLI", "lib/eddy/cli"
+  add_group "Data", "lib/eddy/Data"
   add_group "Models", "lib/eddy/models"
   add_group "Read", "lib/eddy/read"
   add_group "Schema", "lib/eddy/schema"
   add_group "Util", "lib/eddy/util"
-  add_group "Data", "lib/eddy/util/data.rb"
   add_group "Write", "lib/eddy/write"
 
   track_files "lib/**/*.rb"
@@ -27,13 +27,14 @@ end
 
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
 require "eddy"
+require "pry"
 
 require "minitest/autorun"
 require "minitest/focus"
 require "minitest/reporters"
 Minitest::Reporters.use!([
-  # Minitest::Reporters::DefaultReporter.new(color: true),
-  Minitest::Reporters::SpecReporter.new,
+  Minitest::Reporters::DefaultReporter.new(color: true),
+  # Minitest::Reporters::SpecReporter.new,
 ])
 
 # Return path of a file to be used in tests.
