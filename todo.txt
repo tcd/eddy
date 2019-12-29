@@ -1,9 +1,10 @@
 x 2019-12-20 2019-12-20 Write rails migration generators.
 x 2019-12-20 2019-12-20 Write code to check what element files already exist.
+x 2019-12-20 Write code to build all segments.
 
-2019-12-20 Write code to build all segments.
-2019-12-20 Add a DB persistence_method.
 2019-12-20 Figure out how to deal with loops.
+2019-12-28 If a loop can only repeat once, dont treat it as a loop.
+2019-12-20 Add a DB persistence_method.
 2019-12-20 Finish TransactionSetBuilder.
 2019-12-20 Reset `Eddy.data` when `Eddy.config.persistence_method` changes.
 2019-12-20 Check for conflicts in Rails generators.
