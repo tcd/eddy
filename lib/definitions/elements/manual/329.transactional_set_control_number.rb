@@ -11,7 +11,8 @@ module Eddy
     # ### Notes:
     #
     # - Values for this element need to be generated and have their uniqueness ensured.
-    class E329 < Eddy::Element::AN
+    # - This element inherits from {Eddy::Element::N}, even though it is technically an `AN`.
+    class E329 < Eddy::Element::N
       # @param val [String] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)
@@ -26,6 +27,7 @@ module Eddy
           req: req,
           ref: ref,
           val: val,
+          decimals: 0,
         )
       end
     end
