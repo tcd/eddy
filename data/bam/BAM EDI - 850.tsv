@@ -1,6 +1,4 @@
 Section	Loop	Segment	Ref	Id	Req	Type	Min	Max	Default	Options	Note	Name	Description
-Heading		ST	ST01	143	M	ID	3	3	850			Transaction Set Identifier Code	
-Heading		ST	ST02	329	M	AN	4	9				Transaction Set Control Number	
 Heading		BEG	BEG01	353	M	ID	2	2	00			Transaction Set Purpose Code	
 Heading		BEG	BEG02	92	M	ID	2	2	DS			Purchase Order Type Code	
 Heading		BEG	BEG03	324	M	AN	1	22				Purchase Order Number	
@@ -24,5 +22,3 @@ Detail	PO1	PO1	PO107	234	X	AN	1	48				Product/Service ID	Identifying number for 
 Detail	PO1	PO1	PO108	235	X	ID	2	2		IN,VP,ZZ		Product/Service ID Qualifier	​Code identifying the type/source of the descriptive number used in Product/Service ID (234)
 Detail	PO1	PO1	PO109	234	X	AN	1	48				Product/Service ID	Identifying number for a product or service
 Summary	CTT	CTT	CTT01	354	M	N0	1	6				Number of Line Items	Total number of line items in the transaction set
-Summary		SE	SE01	96	M	N0	1	10				Number of Included Segments	
-Summary		SE	SE02	329	M	AN	4	9				Transaction Set Control Number	

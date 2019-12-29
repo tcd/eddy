@@ -1,4 +1,4 @@
-Section	Loop	Segment	Ref	Id	Req	Type	Min	Max	Default	Options	Note	Name	Description
+section	loop	segment	ref	id	req	type	min	max	default	options	note	name	description
 Heading		BIG	BIG01	373	M	DT	8	8				Date	
 Heading		BIG	BIG02	76	M	AN	1	22				Invoice Number	
 Heading		BIG	BIG03	373	O	DT	8	8				Date	
