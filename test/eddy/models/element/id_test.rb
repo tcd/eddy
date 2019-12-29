@@ -19,7 +19,7 @@ module ModelsTest
     end
   end
 
-  class IdTest < Minitest::Test
+  class IDTest < Minitest::Test
 
     def test_init
       id = ExampleID.new()

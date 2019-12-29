@@ -15,7 +15,7 @@ module ModelsTest
     end
   end
 
-  class AnTest < Minitest::Test
+  class ANTest < Minitest::Test
 
     def test_setter
       an = ExampleAN.new()

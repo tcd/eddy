@@ -1,16 +1,17 @@
 require "test_helper"
 
-# Example class for testing inheritence for `Eddy::Element::Base`
-class Example1 < Eddy::Element::Base; end
-
-# Example class for testing inheritence for `Eddy::Element::Base`
-class Example2 < Eddy::Element::Base
-  def initialize() @val = nil end
-  def value() return @val     end
-  def value=(arg) @val = arg  end
-end
-
 module ModelsTest
+
+  # Example class for testing inheritence for `Eddy::Element::Base`
+  class Example1 < Eddy::Element::Base; end
+
+  # Example class for testing inheritence for `Eddy::Element::Base`
+  class Example2 < Eddy::Element::Base
+    def initialize() @val = nil end
+    def value() return @val     end
+    def value=(arg) @val = arg  end
+  end
+
   class BaseTest < Minitest::Test
 
     def test_base_raises_on_get_value

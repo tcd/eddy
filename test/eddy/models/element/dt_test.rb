@@ -2,7 +2,7 @@ require "test_helper"
 require "time"
 
 module ModelsTest
-  class DtTest < Minitest::Test
+  class DTTest < Minitest::Test
 
     def setup
       @epoch = Time.at(0).utc()

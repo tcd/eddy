@@ -5,12 +5,11 @@ module ModelsTest
   # Example class for testing inheritence of `Eddy::Element::N`.
   class ExampleN < Eddy::Element::N
     def initialize(val: nil, req: nil)
-      @id = @name = @description = "Example"
+      @id = @name = @description = @ref = "Example"
       super(
         min: 1,
         max: 10,
         req: req,
-        ref: "Example",
         decimals: 0,
         val: val,
       )
