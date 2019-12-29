@@ -85,7 +85,7 @@ module Eddy
     def all_components()
       comps = self.components.map do |c|
         if c.is_a?(Eddy::Loop::Base)
-          c.all_components()
+          c.all_contents()
         elsif c.is_a?(Eddy::Segment)
           c
         else

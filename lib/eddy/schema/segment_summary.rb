@@ -56,7 +56,7 @@ module Eddy
         s.element_count = params[:element_count]
         s.req           = params[:req]
         s.level         = params[:level]
-        s.set_elements(params[:elements])
+        s.process_elements(params[:elements])
         return s
       end
 
@@ -86,7 +86,7 @@ module Eddy
       #
       # @param elements [Array<Hash>]
       # @return [void]
-      def set_elements(elements)
+      def process_elements(elements)
         elements.each do |el|
           default_el = Eddy::Schema::ElementSummary.default_for_id(el[:id])
           default_el.ref = el[:ref]
