@@ -70,7 +70,7 @@ components:
           req: O
           element_count: 3
 
-- id: TD5
+- id: TDS
   req: M
   element_count: 1
 

@@ -1,0 +1,10 @@
+---
+id: TDS
+name: Total Monetary Value Summary
+purpose: To specify the total invoice discounts and amounts.
+elements:
+  - { ref: TDS01, id: '610', req: M }
+  # - { ref: TDS02, id: '', req: X }
+  # - { ref: TDS03, id: '', req: O }
+  # - { ref: TDS04, id: '', req: O }
+
