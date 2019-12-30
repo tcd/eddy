@@ -20,6 +20,18 @@ module Eddy
       builder = Eddy::Build::SegmentBuilder.from_file(path)
       result = builder.build()
       puts("Segment class generated: #{result}")
+      exit(0)
+    end
+
+    desc "set PATH", "Build a Transaction Set from a JSON or YAML definition"
+    # @param path [String]
+    # @return [void]
+    def set(path)
+      path = File.expand_path(path)
+      builder = Eddy::Build::TransactionSetBuilder.from_file(path)
+      result = builder.build()
+      puts("Transaction Set class generated: #{result}")
+      exit(0)
     end
 
   end
