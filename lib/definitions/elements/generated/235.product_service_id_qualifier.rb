@@ -178,7 +178,7 @@ module Eddy
           "EK", # Settlement/Payout Option
           "EL", # Buyer's Subline Item Number
           "EM", # Equipment Identification Number
-          "EN", # European Article Number (EAN) (2-5-5-1)
+          "EN", # European Article Number (EAN) (2-5-5-1) (https://en.wikipedia.org/wiki/International_Article_Number)
           "EP", # Buyer's End Product Number
           "EQ", # Equipment Type
           "ER", # Jurisdiction Specific Procedure and Supply Codes
