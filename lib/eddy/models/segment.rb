@@ -25,6 +25,7 @@ module Eddy
     end
 
     # FIXME: Remove param and use `self.store.element_separator` directly.
+    # FIXME: Remove the compact call, there shouldn't be nil values anymore.
     #
     # @param element_separator [String] String used to delimit elements within a segment.
     # @return [String]

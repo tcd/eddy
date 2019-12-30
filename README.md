@@ -37,8 +37,9 @@ rails db:migrate
 
 ## Validation
 
-- Ensures values passed to `ID` elements are acceptable.
-- Accepts `Time` objects for `DT` and `TM` elements.
+- Ensures mandatory elements have assigned an value.
+- Ensures values passed to `ID` elements are included in the associated code list.
+- Accepts `Time#utc` objects for `DT` and `TM` elements.
 - Makes sure element values aren't set above `max` length.
 - Pads strings and numbers to ensure `min` length is met.
 
@@ -49,6 +50,22 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/tcd/ed
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Dependencies
+
+- [tcd/ginny](https://github.com/tcd/ginny)
+    - [tcd/coolkit](https://github.com/tcd/coolkit)
+    - [dry-rb/dry-inflector](https://github.com/dry-rb/dry-inflector)
+- [davishmcclurg/json_schemer](https://github.com/davishmcclurg/json_schemer)
+    - [gjtorikian/ecma-re-validator](https://github.com/gjtorikian/ecma-re-validator)
+        - [ammar/regexp_parser](https://github.com/ammar/regexp_parser)
+    - [tenderlove/hana](https://github.com/tenderlove/hana)
+    - [hannesg/uri_template](https://github.com/hannesg/uri_template)
+    - [ammar/regexp_parser](https://github.com/ammar/regexp_parser)
+- [erikhuda/thor](https://github.com/erikhuda/thor)
+- [piotrmurach/pastel](https://github.com/piotrmurach/pastel)
+    - [piotrmurach/equatable](https://github.com/piotrmurach/equatable)
+    - [piotrmurach/tty-color](https://github.com/piotrmurach/tty-color)
 
 ## Alternatives (in Ruby)
 

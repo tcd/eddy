@@ -10,3 +10,5 @@ x 2019-12-20 Write code to build all segments.
 2019-12-20 Check for conflicts in Rails generators.
 2019-12-20 Write a Rails model generator.
 2019-12-27 Generate "ref map" files.
+2019-12-30 Logging
+2019-12-30 JSON schema validation errors.
