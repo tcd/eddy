@@ -32,6 +32,14 @@ module Eddy
         return summary
       end
 
+      # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
+      # @return [self]
+      def self.from_file(path)
+        raise Eddy::Errors::Error, "Invalid transaction set definition" unless Eddy::Schema.valid_transaction_set_data?(path)
+        data = Eddy::Util.read_json_or_yaml(path)
+        return Eddy::Schema::TransactionSetSummary.create(data)
+      end
+
       # @param components [Array<Hash>]
       # @return [void]
       def process_components(components)

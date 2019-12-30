@@ -57,7 +57,7 @@ module Eddy
       def ginny_class()
         return Ginny::Class.create({
           classify_name: false,
-          modules: ["Eddy", "TransactionSets"],
+          modules: ["Eddy", "TransactionSets", self.summary.normalized_name],
           parent: "Eddy::TransactionSet",
           name: self.summary.normalized_name,
           description: self.summary.doc_comment(header: true),
@@ -68,9 +68,13 @@ module Eddy
             FUNCTIONAL_GROUP = "#{self.summary.functional_group}".freeze
 
             #{self.constructor()}
+
+            #{self.accessors()}
           STR
         })
       end
+
+      # @!group Initialize
 
       # @return [String]
       def constructor()
@@ -90,11 +94,14 @@ module Eddy
       def declarations()
         decs = ""
         self.summary.components.each do |comp|
-          case comp.class
-          when Eddy::Schema::LoopSummary then puts("LoopSummary")
-          when Eddy::Schema::SegmentSummary then puts("SegmentSummary")
+          if comp.key?(:loop_id)
+            if comp[:repeat] == 1
+              decs << "@#{comp[:loop_id].downcase} = Eddy::Segments::#{comp[:loop_id].upcase}.new(store)\n"
+            else
+              decs << "@l_#{comp[:loop_id].downcase} = Eddy::TransactionSets::#{self.summary.normalized_name}::Loops::#{comp[:loop_id].upcase}.new(store)\n"
+            end
           else
-            raise Eddy::Errors::BuildError
+            decs << "@#{comp[:id].downcase} = Eddy::Segments::#{comp[:id].upcase}.new(store)\n"
           end
         end
         return decs
@@ -104,8 +111,79 @@ module Eddy
       def super_call()
         super_call = "super(\n"
         super_call << "  store,\n"
+        self.summary.components.each do |comp|
+          if comp.key?(:loop_id)
+            if comp[:repeat] == 1
+              super_call << "  @#{comp[:loop_id].downcase},\n"
+            else
+              super_call << "  @l_#{comp[:loop_id].downcase},\n"
+            end
+          else
+            super_call << "  @#{comp[:id].downcase},\n"
+          end
+        end
         super_call << ")"
         return super_call
+      end
+
+      # @!endgroup Initialize
+
+      # @return [String]
+      def accessors()
+        segments = self.summary.components.reject { |c| c.key?(:loop_id) }
+        defs = segments.map do |el|
+          Eddy::Build::TransactionSetBuilder.segment_accessor(el[:id])
+        end
+        return defs.join("\n\n")
+      end
+
+      # @param segment_id [String]
+      # @return [String]
+      def self.segment_accessor(segment_id)
+        upper = segment_id.upcase
+        lower = segment_id.downcase
+        return <<~RB.strip
+          # (see Eddy::Segments::#{upper})
+          # @yieldparam [Eddy::Segments::#{upper}] #{lower}
+          # @return [Eddy::Segments::#{upper}]
+          def #{upper}()
+            yield(@#{lower}) if block_given?
+            return @#{lower}
+          end
+        RB
+      end
+
+      # @param looop [Hash]
+      # @return [String]
+      def self.loop_class(looop)
+        upper = looop[:loop_id].upcase
+        return <<~RB
+          class #{upper} < Eddy::Loop::Base
+            # @param store [Eddy::Data::Store]
+            # @return [void]
+            def initialize(store)
+              super(store)
+              @loop_id = "#{upper}"
+              @repeat = #{looop[:repeat]}
+              @components = [
+                #{self.loop_components()}
+              ]
+            end
+          end
+        RB
+      end
+
+      # @return [String]
+      def self.loop_components()
+        result = ""
+        self.summary.components.each do |comp|
+          if comp.key?(:loop_id)
+            decs << "Eddy::TransactionSets::TS#{self.summary.id}::Loops#{comp[:loop_id].upcase},\n"
+          else
+            decs << "Eddy::Segments::#{comp[:id].upcase},\n"
+          end
+        end
+        return result
       end
 
     end
