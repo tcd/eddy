@@ -46,17 +46,15 @@ def file_fixture(path)
   return File.expand_path(File.join(File.dirname(__dir__), "test", "fixtures", "files", path))
 end
 
-module Minitest::Assertions
-  def assert_nothing_raised(*)
-    yield
-  end
-end
-
 # ==============================================================================
 # Custom Assertions
 # ==============================================================================
 
 module MiniTest::Assertions
+  def assert_nothing_raised(*)
+    yield
+  end
+
   # Calls `assert_equal`; prints arguments if the assertion fails.
   #
   # @raise [ArgumentError] unless both arguments are strings
