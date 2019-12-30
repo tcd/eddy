@@ -12,7 +12,7 @@ module Eddy
       def initialize(store)
         @id = "DTM"
         @name = "Date/Time Reference"
-        @dtm01 = Eddy::Elements::E347.new(ref: "DTM01", req: "M")
+        @dtm01 = Eddy::Elements::E374.new(ref: "DTM01", req: "M")
         @dtm02 = Eddy::Elements::E373.new(ref: "DTM02", req: "X")
         super(
           store,
@@ -21,18 +21,18 @@ module Eddy
         )
       end
 
-      # - Id: 347
-      # - Name: Hash Total
-      # - Type: R
-      # - Min/Max: 1/10
-      # - Description: Sum of values of the specified data element. All values in the data element will be summed without regard to decimal points (explicit or implicit) or signs. Truncation will occur on the left most digits if the sum is greater than the maximum size of the hash total of the data element.
+      # - Id: 374
+      # - Name: Date/Time Qualifier
+      # - Type: ID
+      # - Min/Max: 3/3
+      # - Description: Code specifying type of date or time, or both date and time
       #
-      # @param arg [Float]
+      # @param arg [String]
       # @return [void]
       def DTM01=(arg)
         @dtm01.value = arg
       end
-      alias HashTotal= DTM01=
+      alias DateTimeQualifier= DTM01=
 
       # - Id: 373
       # - Name: Date

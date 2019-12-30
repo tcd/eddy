@@ -3,5 +3,5 @@ id: DTM
 name: Date/Time Reference
 purpose: To specify pertinent dates and times.
 elements:
-  - { ref: DTM01, id: '347', req: M }
+  - { ref: DTM01, id: '374', req: M }
   - { ref: DTM02, id: '373', req: X }
