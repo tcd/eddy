@@ -9,6 +9,7 @@ module Eddy
       folders = [
         File.join(Eddy.config.build_dir, "segments"),
         File.join(Eddy.config.build_dir, "elements"),
+        File.join(Eddy.config.build_dir, "transaction_sets"),
       ]
       folders.each { |f| FileUtils.mkdir_p(f) }
     end
@@ -18,6 +19,7 @@ module Eddy
       folders = [
         File.join(Eddy.config.build_dir, "segments"),
         File.join(Eddy.config.build_dir, "elements"),
+        File.join(Eddy.config.build_dir, "transaction_sets"),
       ]
       folders.each { |f| Eddy::Util.clean_folder(f) }
     end
