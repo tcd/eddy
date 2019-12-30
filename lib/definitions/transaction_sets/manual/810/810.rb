@@ -22,7 +22,7 @@ module Eddy
           @l_n1  = Eddy::TransactionSets::TS810::Loops::N1.new(store)
           @dtm   = Eddy::Segments::DTM.new(store)
           @l_it1 = Eddy::TransactionSets::TS810::Loops::IT1.new(store)
-          @td5   = Eddy::Segments::TD5.new(store)
+          @tds   = Eddy::Segments::TDS.new(store)
           @cad   = Eddy::Segments::CAD.new(store)
           @l_sac = Eddy::TransactionSets::TS810::Loops::SAC.new(store)
           @ctt   = Eddy::Segments::CTT.new(store)
@@ -33,7 +33,7 @@ module Eddy
             @l_n1,
             @dtm,
             @l_it1,
-            @td5,
+            @tds,
             @cad,
             @l_sac,
             @ctt,
@@ -57,6 +57,20 @@ module Eddy
         return @ref
       end
 
+      # (see Eddy::TransactionSets::TS810::Loops::N1)
+      # @yieldparam [Eddy::Segments::N1] n1
+      # @yieldparam [Eddy::Segments::N3] n3
+      # @yieldparam [Eddy::Segments::N4] n4
+      # @return [void]
+      def L_N1(&block)
+        if block_given?
+          @l_n1.add_iteration(&block)
+        else
+          raise Eddy::Errors::Error, "No block given in loop iteration"
+        end
+        return nil
+      end
+
       # (see Eddy::Segments::DTM)
       # @yieldparam [Eddy::Segments::DTM] dtm
       # @return [Eddy::Segments::DTM]
@@ -65,12 +79,27 @@ module Eddy
         return @dtm
       end
 
-      # (see Eddy::Segments::TD5)
-      # @yieldparam [Eddy::Segments::TD5] td5
-      # @return [Eddy::Segments::TD5]
-      def TD5()
-        yield(@td5) if block_given?
-        return @td5
+      # (see Eddy::TransactionSets::TS810::Loops::IT1)
+      # @yieldparam [Eddy::Segments::IT1] it1
+      # @yieldparam [Eddy::Segments::CTP] ctp
+      # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID] l_pid
+      # @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC] l_sac
+      # @return [void]
+      def L_IT1(&block)
+        if block_given?
+          @l_it1.add_iteration(&block)
+        else
+          raise Eddy::Errors::Error, "No block given in loop iteration"
+        end
+        return nil
+      end
+
+      # (see Eddy::Segments::TDS)
+      # @yieldparam [Eddy::Segments::TDS] tds
+      # @return [Eddy::Segments::TDS]
+      def TDS()
+        yield(@tds) if block_given?
+        return @tds
       end
 
       # (see Eddy::Segments::CAD)
@@ -79,6 +108,18 @@ module Eddy
       def CAD()
         yield(@cad) if block_given?
         return @cad
+      end
+
+      # (see Eddy::TransactionSets::TS810::Loops::SAC)
+      # @yieldparam [Eddy::Segments::SAC] sac
+      # @return [void]
+      def L_SAC(&block)
+        if block_given?
+          @l_sac.add_iteration(&block)
+        else
+          raise Eddy::Errors::Error, "No block given in loop iteration"
+        end
+        return nil
       end
 
       # (see Eddy::Segments::CTT)
