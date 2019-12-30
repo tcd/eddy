@@ -17,19 +17,19 @@ module WriteTest
       EDI
       epoch = Time.at(0).utc()
       store = Eddy::Data::Store.new(time: epoch)
-      itch = Eddy::TransactionSets::TS850::TS850.new(store)
-      itch.BEG do |beg|
+      ts = Eddy::TransactionSets::TS850::TS850.new(store)
+      ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"
         beg.BEG03 = "00000007397108"
         beg.BEG05 = epoch
       end
-      itch.TD5 do |td5|
+      ts.TD5 do |td5|
         td5.TD501 = "Z"
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      itch.L_N1 do |n1, n3, n4|
+      ts.L_N1 do |n1, n3, n4|
         # N1
         n1.N101 = "ST"
         n1.Name = "Sweeney Todd"
@@ -41,7 +41,7 @@ module WriteTest
         n4.PostalCode = "35226"
         n4.CountryCode = "US"
       end
-      itch.L_PO1 do |po1|
+      ts.L_PO1 do |po1|
         po1.AssignedIdentification = "1"
         po1.QuantityOrdered = 2
         po1.UnitOrBasisForMeasurementCode = "EA"
@@ -51,8 +51,8 @@ module WriteTest
         po1.ProductServiceIdQualifier2 = "VN"
         po1.ProductServiceId2 = "860001662184"
       end
-      itch.CTT.NumberOfLineItems = 1
-      result = itch.render()
+      ts.CTT.NumberOfLineItems = 1
+      result = ts.render()
       assert_equal(want, result)
     end
 
@@ -71,19 +71,19 @@ module WriteTest
       EDI
       epoch = Time.at(0).utc()
       store = Eddy::Data::Store.new(time: epoch)
-      itch = Eddy::TransactionSets::TS850::TS850.new(store)
-      itch.BEG do |beg|
+      ts = Eddy::TransactionSets::TS850::TS850.new(store)
+      ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"
         beg.BEG03 = "00000007397108"
         beg.BEG05 = epoch
       end
-      itch.TD5 do |td5|
+      ts.TD5 do |td5|
         td5.TD501 = "Z"
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      itch.L_N1 do |n1, n3, n4|
+      ts.L_N1 do |n1, n3, n4|
         # N1
         n1.N101 = "ST"
         n1.Name = "Sweeney Todd"
@@ -95,7 +95,7 @@ module WriteTest
         n4.PostalCode = "35226"
         n4.CountryCode = "US"
       end
-      itch.L_PO1 do |po1|
+      ts.L_PO1 do |po1|
         po1.AssignedIdentification = "1"
         po1.QuantityOrdered = 2
         po1.UnitOrBasisForMeasurementCode = "EA"
@@ -105,7 +105,7 @@ module WriteTest
         po1.ProductServiceIdQualifier2 = "VN"
         po1.ProductServiceId2 = "860001662184"
       end
-      itch.L_PO1 do |po1|
+      ts.L_PO1 do |po1|
         po1.AssignedIdentification = "2"
         po1.QuantityOrdered = 2
         po1.UnitOrBasisForMeasurementCode = "EA"
@@ -115,8 +115,8 @@ module WriteTest
         po1.ProductServiceIdQualifier2 = "VN"
         po1.ProductServiceId2 = "860001662184"
       end
-      itch.CTT.NumberOfLineItems = 1
-      result = itch.render()
+      ts.CTT.NumberOfLineItems = 1
+      result = ts.render()
       assert_equal(want, result)
     end
 
