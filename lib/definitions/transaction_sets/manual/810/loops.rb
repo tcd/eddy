@@ -15,7 +15,7 @@ module Eddy
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
-            @store = store
+            super(store)
             @repeat = 200
             @components = [
               Eddy::Segments::N1,
@@ -37,7 +37,7 @@ module Eddy
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
-            @store = store
+            super(store)
             @repeat = 200_000
             @components = [
               Eddy::Segments::IT1,
@@ -57,7 +57,7 @@ module Eddy
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
-            @store = store
+            super(store)
             @repeat = 1_000
             @components = [
               Eddy::Segments::PID,
@@ -74,7 +74,7 @@ module Eddy
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
-            @store = store
+            super(store)
             @repeat = 25
             @components = [
               Eddy::Segments::SAC,
