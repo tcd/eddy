@@ -50,8 +50,7 @@ module Eddy
       # @return [String]
       def build()
         path = folder || File.join(Eddy::Util.root_dir, "build", "transaction_sets")
-        self.ginny_class.generate(path)
-        return path
+        return self.ginny_class.generate(path)
       end
 
       # @return [Ginny::Class]
