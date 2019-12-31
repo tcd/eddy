@@ -136,6 +136,7 @@ module Eddy
           "007060", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through December 2018
           "007061", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through April 2019
           "007062", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through August 2019
+          "008010", # Draft Standards Approved for Publication by ASC X12 Procedures Review Board through December 2019
         ]
       end
 
