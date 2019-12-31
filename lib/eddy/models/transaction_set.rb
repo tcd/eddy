@@ -73,10 +73,12 @@ module Eddy
     # This shouldn't be used.
     # An Interchange or FunctionalGroup should call `all_components` and render those itself.
     #
+    # @param s_sep [String] (self.store.segment_separator)
     # @return [String]
-    def render()
+    def render(s_sep = self.store.segment_separator)
       add_envelope()
-      return self.all_components.map { |s| s.render(self.store.element_separator) }.join(self.store.segment_separator) + self.store.segment_separator
+      e_sep = self.store.element_separator
+      return self.all_components.map { |s| s.render(e_sep) }.join(s_sep) + s_sep
     end
 
     # Return all contained Segments in a single, flattened array.
