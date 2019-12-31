@@ -47,7 +47,6 @@ module Eddy
           return
         end
         raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Numeric)
-        raise Eddy::Errors::LengthValidationError.new(element: self, arg: arg) if arg.to_s.length > self.max
         @val = arg
       end
 

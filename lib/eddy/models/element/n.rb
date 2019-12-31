@@ -3,7 +3,7 @@ module Eddy
     # Numeric (implies the number of decimal points, e.g., N2 would be two decimal positions)
     class N < Base
 
-      # Number of decimal points.
+      # *Implied* number of decimal points.
       # @return [Integer]
       attr_accessor :decimals
 
@@ -40,7 +40,7 @@ module Eddy
           else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
           end
         end
-        return sprintf("%0#{self.min}d", @val)
+        return self.process_value()
       end
 
       # @raise [Eddy::Errors::ElementValidationError]
@@ -52,8 +52,33 @@ module Eddy
           return
         end
         raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Numeric)
-        raise Eddy::Errors::LengthValidationError.new(element: self, arg: arg) if arg.to_s.length > self.max
         @val = arg
+      end
+
+      # @return [String]
+      def process_value()
+        return self.class.process_value(
+          val: @val,
+          decimals: self.decimals,
+          min: self.min,
+          max: self.max,
+        )
+      end
+
+      # Convert a Float or Integer value to a valid EDI string representation.
+      # [Stas Spiridonov is a wizard](https://github.com/spiridonov/baldr/blob/master/lib/baldr/types.rb#L43).
+      #
+      # @param val [Numeric] Original value.
+      # @param decimals [Integer] *Implied* number of decimal points.
+      # @param min [Integer] (1) Minimum length for a valid value.
+      # @param max [Integer] (15) Maximum length for a valid value.
+      # @return [String]
+      def self.process_value(val:, decimals:, min: 1, max: 15)
+        if val.to_s.include?(".")
+          return (val * (10.0**decimals)).round.to_s
+        else
+          return sprintf("%0#{min}d", val)
+        end
       end
 
     end

@@ -31,19 +31,8 @@ module ModelsTest
       assert_equal("0.0", r.value)
     end
 
-    def test_setter_validates_length
-      r = Eddy::Element::R.new(min: 1, max: 3)
-      assert_raises(Eddy::Errors::ElementValidationError) { r.value = 420.0 }
-    end
-
     def test_setter_rejects_non_float_arguments
       assert_raises(Eddy::Errors::ElementValidationError) { ExampleR.new(val: "420") }
-    end
-
-    def test_descendent_rejects_over_max_length
-      skip("Store the entire value for `R` elements.")
-      r = ExampleR.new()
-      assert_raises(Eddy::Errors::ElementValidationError) { r.value = 1_234_567.890_11 }
     end
 
     def test_getter_with_two_decimals
