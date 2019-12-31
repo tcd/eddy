@@ -1,7 +1,6 @@
 require "test_helper"
 
 module ModelsTest
-
   class TMTest < Minitest::Test
 
     def setup

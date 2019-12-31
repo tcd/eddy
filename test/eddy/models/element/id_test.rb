@@ -6,12 +6,7 @@ module ModelsTest
   class ExampleID < Eddy::Element::ID
     def initialize(val: nil, req: nil)
       @id = @name = @description = @ref = "Example"
-      super(
-        min: 2,
-        max: 2,
-        req: req,
-        val: val,
-      )
+      super(min: 2, max: 2, req: req, val: val)
     end
 
     def code_list()
@@ -20,11 +15,6 @@ module ModelsTest
   end
 
   class IDTest < Minitest::Test
-
-    def test_init
-      id = ExampleID.new()
-      assert_equal("ID", id.type)
-    end
 
     def test_setter
       id = ExampleID.new()

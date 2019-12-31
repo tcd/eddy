@@ -6,20 +6,11 @@ module ModelsTest
   class ExampleR < Eddy::Element::R
     def initialize(val: nil, req: nil)
       @id = @name = @description = @ref = "Example"
-      super(
-        min: 1,
-        max: 10,
-        req: req,
-        val: val,
-      )
+      super(min: 1, max: 10, req: req, val: val)
     end
   end
 
   class RTest < Minitest::Test
-
-    def test_init
-      ExampleR.new(val: 420.69)
-    end
 
     def test_setter_with_two_decimals
       r = ExampleR.new(val: 69.420)

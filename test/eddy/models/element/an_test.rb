@@ -6,12 +6,7 @@ module ModelsTest
   class ExampleAN < Eddy::Element::AN
     def initialize(val: nil, req: nil)
       @id = @name = @description = @ref = "Example"
-      super(
-        min: 1,
-        max: 10,
-        req: req,
-        val: val,
-      )
+      super(min: 1, max: 10, req: req, val: val)
     end
   end
 
