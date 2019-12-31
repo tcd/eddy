@@ -1,6 +1,7 @@
 module Eddy
   module Element
-    # Binary Data
+    # Binary Data.
+    # This type only occurs in the BIN segment.
     #
     # See:
     #

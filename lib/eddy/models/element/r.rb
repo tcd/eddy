@@ -52,7 +52,7 @@ module Eddy
 
       # Stringify a float value and trim to the element's `max` attribute.
       #
-      # TODO: Use `sprintf` here.
+      # TODO: Use `sprintf` here?
       #
       # TODO: Handle different value types.
       #
