@@ -16,8 +16,8 @@ Gem::Specification.new do |spec|
   spec.metadata = {
     "homepage_uri" => spec.homepage,
     "source_code_uri" => spec.homepage,
-    "changelog_uri" => "https://github.com/tcd/eddy/blob/master/CHANGELOG.md",
-    "documentation_uri" => "https://www.rubydoc.info/gems/eddy/#{spec.version}",
+    "changelog_uri" => "#{spec.homepage}/blob/master/CHANGELOG.md",
+    "documentation_uri" => "https://www.rubydoc.info/gems/#{spec.name}/#{spec.version}",
     "yard.run" => "yri", # use "yard" to build full HTML docs.
   }
 
