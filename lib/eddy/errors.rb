@@ -74,8 +74,8 @@ module Eddy
                when Eddy::Element::B  then "String"
                when Eddy::Element::DT then "Time"
                when Eddy::Element::TM then "Time"
-               when Eddy::Element::N  then "Numeric"
-               when Eddy::Element::R  then "Numeric"
+               when Eddy::Element::N  then "Float or Integer"
+               when Eddy::Element::R  then "Float or Integer"
                end
       end
     end
