@@ -10,8 +10,8 @@ module ModelsTest
         assert_equal("420", n.value)
       end
 
-      def test_setter_validates_length
-        assert_raises(Eddy::Errors::ElementValidationError) { ExN0.new.value = 123_456_789_111 }
+      def test_setter_validates_argument_type
+        assert_raises(Eddy::Errors::TypeValidationError) { ExN0.new(val: "420") }
       end
 
       def test_getter_when_mandatory
@@ -27,10 +27,6 @@ module ModelsTest
       def test_getter_when_optional_and_nil
         n = ExN0.new(req: "O")
         assert_equal("", n.value)
-      end
-
-      def test_setter_rejects_non_numeric_argument
-        assert_raises(Eddy::Errors::ElementValidationError) { ExN0.new(val: "420") }
       end
 
     end

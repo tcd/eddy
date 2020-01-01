@@ -54,8 +54,6 @@ module Eddy
       #
       # TODO: Use `sprintf` here?
       #
-      # TODO: Handle different value types.
-      #
       # See:
       #
       # - [Ruby class types and case statements (Stack Overflow)](https://stackoverflow.com/questions/3908380/ruby-class-types-and-case-statements)
@@ -64,19 +62,21 @@ module Eddy
       # @param val [Numeric]
       # @return [String]
       def process(val)
-        # case val
-        # when Integer
-        #   # TODO: Handle case
-        # when Float
-        #   # TODO: Handle case
-        # when Complex
-        #   # TODO: Handle case
-        # when Rational
-        #   # TODO: Handle case
-        # when BigDecimal
-        #   # TODO: Handle case
-        # end
-        return val.to_s.slice(0..(self.max + 1))
+        case val
+        when Integer
+          return val.to_s.slice(0..self.max)
+        when Float
+          return val.to_s.slice(0..(self.max + 1))
+        when Complex
+          # TODO: Handle case
+          raise NotImplementedError
+        when Rational
+          # TODO: Handle case
+          raise NotImplementedError
+        when BigDecimal
+          # TODO: Handle case
+          raise NotImplementedError
+        end
       end
 
     end

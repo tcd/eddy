@@ -71,13 +71,21 @@ module Eddy
       # @param val [Numeric] Original value.
       # @param decimals [Integer] *Implied* number of decimal points.
       # @param min [Integer] (1) Minimum length for a valid value.
-      # @param max [Integer] (15) Maximum length for a valid value.
+      # @param max [Integer] (nil) Maximum length for a valid value.
       # @return [String]
-      def self.process_value(val:, decimals:, min: 1, max: 15)
-        if val.to_s.include?(".")
+      def self.process_value(val:, decimals:, min: 1, max: nil)
+        case val
+        when Integer
+          if (val - val.floor) == 0
+            return sprintf("%0#{min}d", val.truncate)
+          else
+            return sprintf("%0#{min}d", val.round(2))
+          end
+          # return sprintf("%0#{min}d", val)
+        when Float
           return (val * (10.0**decimals)).round.to_s
         else
-          return sprintf("%0#{min}d", val)
+          raise ArgumentError, "'val' must be a Float or an Integer."
         end
       end
 
