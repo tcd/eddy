@@ -58,8 +58,8 @@ module Eddy
       # @return [String]
       def process_value()
         return self.class.process_value(
-          val: @val,
-          decimals: self.decimals,
+          @val,
+          self.decimals,
           min: self.min,
           max: self.max,
         )
@@ -73,7 +73,7 @@ module Eddy
       # @param min [Integer] (1) Minimum length for a valid value.
       # @param max [Integer] (nil) Maximum length for a valid value.
       # @return [String]
-      def self.process_value(val:, decimals:, min: 1, max: nil)
+      def self.process_value(val, decimals, min: 1, max: nil)
         case val
         when Integer
           if (val - val.floor) == 0
