@@ -125,6 +125,10 @@ Metrics/MethodLength:
 Metrics/BlockLength:
   Enabled: false
 
+# TODO: Look into adding an `EnforcedStyle` to not use guard clauses.
+Style/GuardClause:
+  Enabled: false
+
 # ==============================================================================
 # Explicit, not redundant
 # ==============================================================================
