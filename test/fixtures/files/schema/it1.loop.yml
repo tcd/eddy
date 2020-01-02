@@ -1,0 +1,24 @@
+---
+loop_id: IT1
+repeat: 200000
+components:
+  - id: IT1
+    req: O
+    element_count: 14
+  - id: CTP
+    req: O
+    element_count: 6
+  - loop_id: PID
+    repeat: 1000
+    req: M
+    components:
+      - id: PID
+        req: O
+        element_count: 2
+  - loop_id: SAC
+    repeat: 25
+    req: O
+    components:
+      - id: SAC
+        req: O
+        element_count: 3
