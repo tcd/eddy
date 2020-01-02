@@ -24,14 +24,11 @@ module Eddy
       self.elements = elements || []
     end
 
-    # FIXME: Remove param and use `self.store.element_separator` directly.
-    # FIXME: Remove the compact call, there shouldn't be nil values anymore.
-    #
-    # @param element_separator [String] String used to delimit elements within a segment.
+    # @param separator [String] (self.store.element_separator) String used to delimit elements within a segment.
     # @return [String]
-    def render(element_separator = self.store.element_separator)
-      segment = [self.id, self.elements.map(&:value).compact].join(element_separator)
-      return Eddy::Util.trim_delims_from_segment(segment, element_separator: element_separator)
+    def render(separator = self.store.element_separator)
+      segment = [self.id, self.elements.map(&:value)].join(separator)
+      return Eddy::Util.trim_delims_from_segment(segment, separator: separator)
     end
 
   end

@@ -17,10 +17,10 @@ module Eddy
     # See: [Trailing delimiters and 999 response - X12 RFI](http://www.x12.org/rfis/Trailing%20delimiters%20and%20999%20response.pdf)
     #
     # @param segment [String] String containing an EDI segment.
-    # @param element_separator [String] ("*")
+    # @param separator [String] ("*")
     # @return [String]
-    def self.trim_delims_from_segment(segment, element_separator: "*")
-      e_sep = Regexp.escape(element_separator)
+    def self.trim_delims_from_segment(segment, separator: "*")
+      e_sep = Regexp.escape(separator)
       return segment.gsub(/#{e_sep}+(?=$)/, "")
     end
 
