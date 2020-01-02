@@ -63,6 +63,9 @@ module Eddy
               Eddy::Segments::PID,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::PID] pid
+          #   @return [void]
         end
 
         # ### Loop Summary:
@@ -80,6 +83,9 @@ module Eddy
               Eddy::Segments::SAC,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::SAC] sac
+          #   @return [void]
         end
 
       end
