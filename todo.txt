@@ -1,8 +1,8 @@
 x 2019-12-20 2019-12-20 Write rails migration generators.
 x 2019-12-20 2019-12-20 Write code to check what element files already exist.
 x 2019-12-20 Write code to build all segments.
+x 2020-01-02 2019-12-20 Figure out how to deal with loops.
 
-2019-12-20 Figure out how to deal with loops.
 2019-12-28 If a loop can only repeat once, dont treat it as a loop.
 2019-12-20 Add a DB persistence_method.
 2019-12-20 Finish TransactionSetBuilder.
@@ -12,3 +12,4 @@ x 2019-12-20 Write code to build all segments.
 2019-12-27 Generate "ref map" files.
 2019-12-30 Logging
 2019-12-30 JSON schema validation errors.
+2020-01-02 Ensure loops dont go over repeat limit.
