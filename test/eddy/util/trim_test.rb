@@ -53,5 +53,10 @@ module UtilTest
       end
     end
 
+    def test_trim_delims_from_segment_accepts_a_custom_separator
+      have = Eddy::Util.trim_delims_from_segment("one$two$three$$", separator: "$")
+      assert_equal("one$two$three", have)
+    end
+
   end
 end
