@@ -27,8 +27,7 @@ module Eddy
         summary.id = params[:id]
         summary.name = params[:name]
         summary.functional_group = params[:functional_group]
-        # summary.process_components(params[:components])
-        summary.components = params[:components]
+        summary.process_components(params[:components])
         return summary
       end
 

@@ -96,14 +96,15 @@ module Eddy
       def declarations()
         decs = ""
         self.summary.components.each do |comp|
-          if comp.key?(:loop_id)
-            if comp[:repeat] == 1
-              decs << "@#{comp[:loop_id].downcase} = Eddy::Segments::#{comp[:loop_id].upcase}.new(store)\n"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            decs << "@#{comp.id.downcase} = Eddy::Segments::#{comp.id.upcase}.new(store)\n"
+          when Eddy::Schema::LoopSummary
+            if comp.repeat == 1
+              decs << "@#{comp.loop_id.downcase} = Eddy::Segments::#{comp.loop_id.upcase}.new(store)\n"
             else
-              decs << "@l_#{comp[:loop_id].downcase} = Eddy::TransactionSets::#{self.summary.normalized_name}::Loops::#{comp[:loop_id].upcase}.new(store)\n"
+              decs << "@l_#{comp.loop_id.downcase} = Eddy::TransactionSets::#{self.summary.normalized_name}::Loops::#{comp.loop_id.upcase}.new(store)\n"
             end
-          else
-            decs << "@#{comp[:id].downcase} = Eddy::Segments::#{comp[:id].upcase}.new(store)\n"
           end
         end
         return decs
@@ -114,14 +115,15 @@ module Eddy
         super_call = "super(\n"
         super_call << "  store,\n"
         self.summary.components.each do |comp|
-          if comp.key?(:loop_id)
-            if comp[:repeat] == 1
-              super_call << "  @#{comp[:loop_id].downcase},\n"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            super_call << "  @#{comp.id.downcase},\n"
+          when Eddy::Schema::LoopSummary
+            if comp.repeat == 1
+              super_call << "  @#{comp.loop_id.downcase},\n"
             else
-              super_call << "  @l_#{comp[:loop_id].downcase},\n"
+              super_call << "  @l_#{comp.loop_id.downcase},\n"
             end
-          else
-            super_call << "  @#{comp[:id].downcase},\n"
           end
         end
         super_call << ")"
@@ -132,15 +134,16 @@ module Eddy
 
       # @return [String]
       def accessors()
-        defs = self.summary.components.map do |c|
-          if c.key?(:loop_id)
-            if c[:repeat] == 1
-              Eddy::Build::TransactionSetBuilder.segment_accessor(c[:loop_id])
+        defs = self.summary.components.map do |comp|
+          case comp
+          when Eddy::Schema::SegmentSummary
+            Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
+          when Eddy::Schema::LoopSummary
+            if comp.repeat == 1
+              Eddy::Build::TransactionSetBuilder.segment_accessor(comp.loop_id)
             else
-              Eddy::Build::TransactionSetBuilder.loop_accessor(c, self.summary.normalized_name)
+              Eddy::Build::TransactionSetBuilder.loop_accessor(comp, self.summary.normalized_name)
             end
-          else
-            Eddy::Build::TransactionSetBuilder.segment_accessor(c[:id])
           end
         end
         return defs.join("\n\n")
@@ -162,12 +165,12 @@ module Eddy
         RB
       end
 
-      # @param summary [Hash] LoopSummary
+      # @param summary [Eddy::Schema::LoopSummary]
       # @param t_set_name [String]
       # @return [String]
       def self.loop_accessor(summary, t_set_name)
-        upper = summary[:loop_id].upcase
-        lower = summary[:loop_id].downcase
+        upper = summary.loop_id.upcase
+        lower = summary.loop_id.downcase
         return <<~RB.strip
           # (see Eddy::TransactionSets::#{t_set_name}::Loops::#{upper})
           #{self.loop_components(summary, t_set_name)}
@@ -183,14 +186,14 @@ module Eddy
         RB
       end
 
-      # @param summary [Hash] LoopSummary
+      # @param summary [Eddy::Schema::LoopSummary]
       # @param t_set_name [String]
       # @return [String]
       def self.loop_components(summary, t_set_name)
         comps = []
-        summary[:components].each do |comp|
+        summary.components.each do |comp|
           if comp.key?(:loop_id)
-            comps << "# @yieldparam [Eddy::TransactionSets::TS#{t_set_name}::Loops#{comp[:loop_id].upcase}] l_#{comp[:id].downcase}"
+            comps << "# @yieldparam [Eddy::TransactionSets::#{t_set_name}::Loops::#{comp[:loop_id].upcase}] l_#{comp[:loop_id].downcase}"
           else
             comps << "# @yieldparam [Eddy::Segments::#{comp[:id].upcase}] #{comp[:id].downcase}"
           end
