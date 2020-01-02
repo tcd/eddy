@@ -87,6 +87,7 @@ module Eddy
       # @param elements [Array<Hash>]
       # @return [void]
       def process_elements(elements)
+        return if elements.nil?
         elements.each do |el|
           default_el = Eddy::Schema::ElementSummary.default_for_id(el[:id])
           default_el.ref = el[:ref]
