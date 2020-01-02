@@ -45,4 +45,5 @@ require "eddy/build/elements/tm"
 
 require "eddy/build/elements"
 require "eddy/build/segment_builder"
+require "eddy/build/loop_builder"
 require "eddy/build/transaction_set_builder"
