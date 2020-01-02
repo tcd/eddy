@@ -5,7 +5,7 @@ module Eddy
 
     # @return [String]
     def self.timestamp
-      return Time.new.strftime("%m-%d-%y-%H-%M-%S")
+      return ::Time.now.strftime("%m-%d-%Y-%H-%M-%S")
     end
 
   end

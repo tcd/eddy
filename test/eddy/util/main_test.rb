@@ -28,7 +28,9 @@ module UtilTest
     end
 
     def test_timestamp
-      skip()
+      Time.stub :now, Time.at(0).utc() do
+        assert_equal("01-01-1970-00-00-00", Eddy::Util.timestamp())
+      end
     end
 
   end
