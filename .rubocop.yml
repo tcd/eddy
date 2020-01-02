@@ -129,6 +129,10 @@ Metrics/BlockLength:
 Style/GuardClause:
   Enabled: false
 
+# TODO: Look into adding an `EnforcedStyle` to not use if/unless modifiers.
+Style/IfUnlessModifier:
+  Enabled: false
+
 # ==============================================================================
 # Explicit, not redundant
 # ==============================================================================
