@@ -56,20 +56,20 @@ module BuildTest
               @components = [
                 Eddy::Segments::IT1,
                 Eddy::Segments::CTP,
-                PID,
-                SAC,
+                Eddy::TransactionSets::TS810::Loops::PID,
+                Eddy::TransactionSets::TS810::Loops::SAC,
               ]
             end
             # @!method add_iteration(&block)
             #   @yieldparam [Eddy::Segments::IT1] it1
             #   @yieldparam [Eddy::Segments::CTP] ctp
-            #   @yieldparam [Eddy::TransactionSets::::Loops::PID] l_pid
-            #   @yieldparam [Eddy::TransactionSets::::Loops::SAC] l_sac
+            #   @yieldparam [Eddy::TransactionSets::TS810::Loops::PID] l_pid
+            #   @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC] l_sac
             #   @return [void]
           end
         RB
         summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/it1.loop.yml"))
-        have = Eddy::Build::LoopBuilder.from_summary(summary, t_set_id: "").ginny_class.render()
+        have = Eddy::Build::LoopBuilder.from_summary(summary, t_set_id: "TS810").ginny_class.render()
         assert_equal(want, have)
       end
 

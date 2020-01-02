@@ -61,11 +61,11 @@ module Eddy
       def components(t_set_id)
         comps = []
         self.summary.components.each do |comp|
-          if comp.key?(:loop_id)
-            # comps << "  Eddy::TransactionSets::#{t_set_id}::Loops::#{comp[:loop_id].upcase},"
-            comps << "  #{comp[:loop_id].upcase},"
-          else
-            comps << "  Eddy::Segments::#{comp[:id].upcase},"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            comps << "  Eddy::Segments::#{comp.id.upcase},"
+          when Eddy::Schema::LoopSummary
+            comps << "  Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.loop_id.upcase},"
           end
         end
         return comps.join("\n  ")
@@ -77,10 +77,11 @@ module Eddy
       def self.add_ideration(summary, t_set_id)
         yield_params = []
         summary.components.each do |comp|
-          if comp.key?(:loop_id)
-            yield_params << "#   @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp[:loop_id].upcase}] l_#{comp[:loop_id].downcase}"
-          else
-            yield_params << "#   @yieldparam [Eddy::Segments::#{comp[:id].upcase}] #{comp[:id].downcase}"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            yield_params << "#   @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
+          when Eddy::Schema::LoopSummary
+            yield_params << "#   @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.loop_id.upcase}] l_#{comp.loop_id.downcase}"
           end
         end
         return <<~YARD.strip

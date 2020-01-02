@@ -192,10 +192,11 @@ module Eddy
       def self.loop_components(summary, t_set_name)
         comps = []
         summary.components.each do |comp|
-          if comp.key?(:loop_id)
-            comps << "# @yieldparam [Eddy::TransactionSets::#{t_set_name}::Loops::#{comp[:loop_id].upcase}] l_#{comp[:loop_id].downcase}"
-          else
-            comps << "# @yieldparam [Eddy::Segments::#{comp[:id].upcase}] #{comp[:id].downcase}"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            comps << "# @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
+          when Eddy::Schema::LoopSummary
+            comps << "# @yieldparam [Eddy::TransactionSets::#{t_set_name}::Loops::#{comp.loop_id.upcase}] l_#{comp.loop_id.downcase}"
           end
         end
         return comps.join("\n")

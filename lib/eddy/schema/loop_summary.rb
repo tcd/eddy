@@ -36,7 +36,7 @@ module Eddy
         l.notes = params[:notes]
         l.level = params[:level]
         l.req = params[:req]
-        l.components = params[:components]
+        l.process_components(params[:components])
         return l
       end
 
@@ -51,6 +51,7 @@ module Eddy
       # @param components [Array<Hash>]
       # @return [void]
       def process_components(components)
+        return if components.nil?
         components.each do |comp|
           if comp.key?(:loop_id)
             self.components << Eddy::Schema::LoopSummary.create(comp)
@@ -67,10 +68,11 @@ module Eddy
       def doc_comment(header: true)
         comps = ""
         self.components.each do |comp|
-          if comp.key?(:loop_id)
-            comps << "  - #{comp[:loop_id].upcase} (loop)\n"
-          else
-            comps << "  - #{comp[:id].upcase}\n"
+          case comp
+          when Eddy::Schema::SegmentSummary
+            comps << "  - #{comp.id.upcase}\n"
+          when Eddy::Schema::LoopSummary
+            comps << "  - #{comp.loop_id.upcase} (loop)\n"
           end
         end
         if header
