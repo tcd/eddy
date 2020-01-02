@@ -60,6 +60,12 @@ properties:
     - N6
     - N7
     - N8
+  usage:
+    description: Indicates whether or not the Segment is required by a specific business partner. This value takes precedence over `req` for validation.
+    type: string
+    enum:
+    - Must Use
+    - Used
   valid_values:
     description: A list of valid values for the Element.
     type: array

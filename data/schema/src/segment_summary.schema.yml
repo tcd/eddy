@@ -46,6 +46,12 @@ properties:
     - Detail
     - Summary
     - Not Defined
+  usage:
+    description: Indicates whether or not the Segment is required by a specific business partner. This value takes precedence over `req` for validation.
+    type: string
+    enum:
+    - Must Use
+    - Used
   elements:
     description: Data Elements that comprise the Segment.
     type: array
