@@ -1,8 +1,6 @@
 module Eddy
   module TransactionSets
-    # Namespace for TS810 and its loops.
     module TS810
-
       # ### Transaction Set Summary:
       #
       # - Id: 810
@@ -17,15 +15,15 @@ module Eddy
         # @param store [Eddy::Data::Store]
         # @return [void]
         def initialize(store)
-          @big   = Eddy::Segments::BIG.new(store)
-          @ref   = Eddy::Segments::REF.new(store)
-          @l_n1  = Eddy::TransactionSets::TS810::Loops::N1.new(store)
-          @dtm   = Eddy::Segments::DTM.new(store)
+          @big = Eddy::Segments::BIG.new(store)
+          @ref = Eddy::Segments::REF.new(store)
+          @l_n1 = Eddy::TransactionSets::TS810::Loops::N1.new(store)
+          @dtm = Eddy::Segments::DTM.new(store)
           @l_it1 = Eddy::TransactionSets::TS810::Loops::IT1.new(store)
-          @tds   = Eddy::Segments::TDS.new(store)
-          @cad   = Eddy::Segments::CAD.new(store)
+          @tds = Eddy::Segments::TDS.new(store)
+          @cad = Eddy::Segments::CAD.new(store)
           @l_sac = Eddy::TransactionSets::TS810::Loops::SAC.new(store)
-          @ctt   = Eddy::Segments::CTT.new(store)
+          @ctt = Eddy::Segments::CTT.new(store)
           super(
             store,
             @big,

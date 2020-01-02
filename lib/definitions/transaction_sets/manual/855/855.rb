@@ -15,10 +15,10 @@ module Eddy
         # @param store [Eddy::Data::Store]
         # @return [void]
         def initialize(store)
-          @bak   = Eddy::Segments::BAK.new(store)
-          @l_n1  = Eddy::TransactionSets::TS855::Loops::N1.new(store)
+          @bak = Eddy::Segments::BAK.new(store)
+          @l_n1 = Eddy::TransactionSets::TS855::Loops::N1.new(store)
           @l_po1 = Eddy::TransactionSets::TS855::Loops::PO1.new(store)
-          @ctt   = Eddy::Segments::CTT.new(store)
+          @ctt = Eddy::Segments::CTT.new(store)
           super(
             store,
             @bak,
