@@ -18,7 +18,7 @@ module Eddy
       # Defines if/how the Loop is required.
       # @return [String]
       attr_accessor :req
-      # A List of `segment_summary`s for the Segments present in the Loop.
+      # TODO: define this
       # @return [Array]
       attr_accessor :components
 
@@ -40,6 +40,14 @@ module Eddy
         return l
       end
 
+      # @param path [String] Path to a JSON or YAML file containing a valid Loop definition.
+      # @return [self]
+      def self.from_file(path)
+        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_loop_data?(path)
+        data = Eddy::Util.read_json_or_yaml(path)
+        return Eddy::Schema::LoopSummary.create(data)
+      end
+
       # @param components [Array<Hash>]
       # @return [void]
       def process_components(components)
@@ -49,6 +57,36 @@ module Eddy
           else
             self.components << Eddy::Schema::SegmentSummary.create(comp)
           end
+        end
+      end
+
+      # Generate a description to use as a doc comment for a Loop.
+      #
+      # @param header [Boolean] (true)
+      # @return [Hash]
+      def doc_comment(header: true)
+        comps = ""
+        self.components.each do |comp|
+          if comp.key?(:loop_id)
+            comps << "  - #{comp[:loop_id].upcase} (loop)\n"
+          else
+            comps << "  - #{comp[:id].upcase}\n"
+          end
+        end
+        if header
+          return <<~END.strip
+            ### Loop Summary:
+
+            - Repeat: #{self.repeat}
+            - Components:
+            #{comps}
+          END
+        else
+          return <<~END.strip
+            - Repeat: #{self.repeat}
+            - Components:
+            #{comps}
+          END
         end
       end
 
