@@ -13,3 +13,4 @@ x 2020-01-02 2019-12-20 Figure out how to deal with loops.
 2019-12-30 Logging
 2019-12-30 JSON schema validation errors.
 2020-01-02 Ensure loops dont go over repeat limit.
+2020-01-02 Implement `Segment.max_use` & `Segment.min_use`.
