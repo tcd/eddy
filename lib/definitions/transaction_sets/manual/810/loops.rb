@@ -1,6 +1,6 @@
 module Eddy
   module TransactionSets
-    # Namespace for TS810 and its loops.
+    # Namespace for 810 Transaction Set and its loops.
     module TS810
       module Loops
 
@@ -46,6 +46,12 @@ module Eddy
               SAC,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::IT1] it1
+          #   @yieldparam [Eddy::Segments::CTP] ctp
+          #   @yieldparam [Eddy::TransactionSets::::Loops::PID] l_pid
+          #   @yieldparam [Eddy::TransactionSets::::Loops::SAC] l_sac
+          #   @return [void]
         end
 
         # ### Loop Summary:
