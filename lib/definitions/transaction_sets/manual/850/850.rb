@@ -81,7 +81,6 @@ module Eddy
         end
 
       end
-
     end
   end
 end
