@@ -64,32 +64,23 @@ module Eddy
       # Generate a description to use as a doc comment for a Loop.
       #
       # @param header [Boolean] (true)
-      # @return [Hash]
+      # @return [String]
       def doc_comment(header: true)
         comps = ""
         self.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
-            comps << "  - #{comp.id.upcase}\n"
-          when Eddy::Schema::LoopSummary
-            comps << "  - #{comp.loop_id.upcase} (loop)\n"
+          when Eddy::Schema::SegmentSummary then comps << "  - #{comp.id.upcase}\n"
+          when Eddy::Schema::LoopSummary    then comps << "  - #{comp.loop_id.upcase} (loop)\n"
           end
         end
-        if header
-          return <<~END.strip
-            ### Loop Summary:
-
-            - Repeat: #{self.repeat}
-            - Components:
-            #{comps}
-          END
-        else
-          return <<~END.strip
-            - Repeat: #{self.repeat}
-            - Components:
-            #{comps}
-          END
-        end
+        parts = []
+        parts << "### Loop Summary:\n" if header
+        parts << <<~YARD.strip
+          - Repeat: #{self.repeat}
+          - Components:
+          #{comps}
+        YARD
+        return parts.compact.join("\n")
       end
 
       # Return all components in a single, flattened array.

@@ -99,23 +99,16 @@ module Eddy
       # Generate a description to use as a doc comment for a segment.
       #
       # @param header [Boolean] (true)
-      # @return [Hash]
+      # @return [String]
       def doc_comment(header: true)
-        if header
-          return <<~END.strip
-            ### Segment Summary:
-
-            - Id: #{self.id}
-            - Name: #{self.name}
-            - Purpose: #{self.purpose}
-          END
-        else
-          return <<~END.strip
-            - Id: #{self.id}
-            - Name: #{self.name}
-            - Purpose: #{self.purpose}
-          END
-        end
+        parts = []
+        parts << "### Segment Summary:\n" if header
+        parts << <<~YARD.strip
+          - Id: #{self.id}
+          - Name: #{self.name}
+          - Purpose: #{self.purpose}
+        YARD
+        return parts.compact.join("\n")
       end
 
     end

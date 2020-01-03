@@ -69,27 +69,19 @@ module Eddy
       # Generate a description to use as a doc comment for an element.
       #
       # @param header [Boolean] (true)
-      # @return [Hash]
+      # @return [String]
       def doc_comment(header: true)
-        if header
-          return <<~END.strip
-            ### Element Summary:
-
-            - Id: #{self.id}
-            - Name: #{self.name}
-            - Type: #{self.type}
-            - Min/Max: #{self.min}/#{self.max}
-            - Description: #{self.description}
-          END
-        else
-          return <<~END.strip
-            - Id: #{self.id}
-            - Name: #{self.name}
-            - Type: #{self.type}
-            - Min/Max: #{self.min}/#{self.max}
-            - Description: #{self.description}
-          END
-        end
+        parts = []
+        parts << "### Element Summary:\n" if header
+        # parts << "- Ref: #{self.ref.upcase}" unless self.ref.nil?
+        parts << <<~YARD.strip
+          - Id: #{self.id}
+          - Name: #{self.name}
+          - Type: #{self.type}
+          - Min/Max: #{self.min}/#{self.max}
+          - Description: #{self.description}
+        YARD
+        return parts.compact.join("\n")
       end
 
       # @return [String]
