@@ -91,6 +91,13 @@ module Eddy
         end.flatten
       end
 
+      # Return one of each kind of loop in the Transaction Set.
+      #
+      # @return [Array<Eddy::Schema::SegmentSummary, Eddy::Schema::LoopSummary>]
+      def unique_loops()
+        return self.all_components.select { |c| c.is_a?(Eddy::Schema::LoopSummary) }.uniq(&:loop_id)
+      end
+
     end
   end
 end

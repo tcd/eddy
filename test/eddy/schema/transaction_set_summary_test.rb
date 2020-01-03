@@ -23,8 +23,16 @@ module SchemaTest
       assert_equal(19, @summary_810.all_components.length)
     end
 
+    def test_unique_loops_in_810
+      assert_equal(4, @summary_810.unique_loops.length)
+    end
+
     def test_all_components_in_856
       assert_equal(24, @summary_856.all_components.length)
+    end
+
+    def test_all_unique_loops_in_856
+      assert_equal(5, @summary_856.unique_loops.length)
     end
 
   end
