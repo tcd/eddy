@@ -7,7 +7,7 @@ components:
   req: M
 - id: DTM
   req: O
-- loop_id: HL
+- loop_id: HL_Shipment
   repeat: 200000
   req: M
   components:
@@ -35,7 +35,7 @@ components:
           req: O
         - id: N4
           req: O
-    - loop_id: HL
+    - loop_id: HL_Order
       repeat: 1
       req: M
       components:
@@ -43,7 +43,7 @@ components:
           req: M
         - id: PRF
           req: O
-    - loop_id: HL
+    - loop_id: HL_Tare
       repeat: 1
       req: M
       components:
@@ -52,7 +52,7 @@ components:
         - id: MAN
           req: O
           # max_use: >1
-    - loop_id: HL
+    - loop_id: HL_Item
       repeat: 1
       req: M
       components:

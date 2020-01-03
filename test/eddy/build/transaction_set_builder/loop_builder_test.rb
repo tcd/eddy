@@ -32,7 +32,7 @@ module BuildTest
             #   @return [void]
           end
         RB
-        summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/n1.loop.yml"))
+        summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/loops/n1.loop.yml"))
         have = Eddy::Build::LoopBuilder.from_summary(summary).ginny_class.render()
         assert_equal(want, have)
       end
@@ -68,7 +68,7 @@ module BuildTest
             #   @return [void]
           end
         RB
-        summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/it1.loop.yml"))
+        summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/loops/it1.loop.yml"))
         have = Eddy::Build::LoopBuilder.from_summary(summary, t_set_id: "TS810").ginny_class.render()
         assert_equal(want, have)
       end
