@@ -42,6 +42,7 @@ module WriteTest
         n4.CountryCode = "US"
       end
       ts.L_PO1 do |po1|
+        # CBD Topical Cream 400mg THC Free
         po1.AssignedIdentification = "1"
         po1.QuantityOrdered = 1
         po1.UnitOrBasisForMeasurementCode = "EA"
@@ -65,7 +66,7 @@ module WriteTest
         N3*2705 Fleet St~
         N4*Birmingham*AL*35226*US~
         PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
-        PO1*2*2*EA*59.95**UP*860001662184*VN*860001662184~
+        PO1*2*2*EA*49.95**UP*860001662108*VN*860001662108~
         CTT*2~
         SE*10*0001~
       EDI
@@ -96,6 +97,7 @@ module WriteTest
         n4.CountryCode = "US"
       end
       ts.L_PO1 do |po1|
+        # CBD Topical Cream 400mg THC Free
         po1.AssignedIdentification = "1"
         po1.QuantityOrdered = 1
         po1.UnitOrBasisForMeasurementCode = "EA"
@@ -106,14 +108,15 @@ module WriteTest
         po1.ProductServiceId2 = "860001662184"
       end
       ts.L_PO1 do |po1|
+        # 500mg Full Spectrum Garden Mint Oil Tincture
         po1.AssignedIdentification = "2"
         po1.QuantityOrdered = 2
         po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 59.95
+        po1.UnitPrice = 49.95
         po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662184"
+        po1.ProductServiceId1 = "860001662108"
         po1.ProductServiceIdQualifier2 = "VN"
-        po1.ProductServiceId2 = "860001662184"
+        po1.ProductServiceId2 = "860001662108"
       end
       ts.CTT.NumberOfLineItems = 2
       result = ts.render()
