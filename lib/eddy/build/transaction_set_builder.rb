@@ -50,9 +50,18 @@ module Eddy
       # @return [String]
       def build()
         root_path = self.folder || File.join(Eddy::Util.root_dir, "build", "transaction_sets")
-        path = File.join(root_path, self.summary.normalized_name)
+        path = File.join(root_path, self.summary.id.to_s)
         FileUtils.mkdir_p(path)
+        File.open(File.join(path, "loops.rb"), "a") { |f| f.write(self.render_loops) }
         return self.ginny_class.generate(path)
+      end
+
+      # @return [String]
+      def render_loops()
+        loops = self.summary.unique_loops.map do |l|
+          Eddy::Build::LoopBuilder.from_summary(l, t_set_id: self.summary.normalized_name).ginny_class.render()
+        end.join("\n\n")
+        return Ginny.mod(("\n" + loops + "\n"), "Eddy", "TransactionSets", self.summary.normalized_name, "Loops")
       end
 
       # @return [Ginny::Class]
