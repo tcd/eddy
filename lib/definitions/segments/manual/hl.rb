@@ -25,6 +25,8 @@ module Eddy
         )
       end
 
+      # ### HL01
+      #
       # - Id: 628
       # - Name: Hierarchical ID Number
       # - Type: AN
@@ -38,6 +40,8 @@ module Eddy
       end
       alias HierarchicalIdNumber= HL01=
 
+      # ### HL02
+      #
       # - Id: 734
       # - Name: Hierarchical Parent ID Number
       # - Type: AN
@@ -51,6 +55,8 @@ module Eddy
       end
       alias HierarchicalParentIdNumber= HL02=
 
+      # ### HL03
+      #
       # - Id: 735
       # - Name: Hierarchical Level Code
       # - Type: ID
@@ -64,6 +70,8 @@ module Eddy
       end
       alias HierarchicalLevelCode= HL03=
 
+      # ### HL04
+      #
       # - Id: 736
       # - Name: Hierarchical Child Code
       # - Type: ID

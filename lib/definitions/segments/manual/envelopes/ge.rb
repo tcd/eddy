@@ -18,7 +18,7 @@ module Eddy
         super(store, @ge01, @ge02)
       end
 
-      # ### Element Summary:
+      # ### GE01
       #
       # - Id: 97
       # - Name: Number of Transaction Sets Included
@@ -33,7 +33,7 @@ module Eddy
       end
       alias NumberOfTransactionSetsIncluded= GE01=
 
-      # ### Element Summary:
+      # ### GE02
       #
       # - Id: 28
       # - Name: Group Control Number

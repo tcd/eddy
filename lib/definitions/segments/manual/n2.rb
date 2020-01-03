@@ -17,7 +17,7 @@ module Eddy
         super(store, @n201, @n202)
       end
 
-      # ### Element Summary:
+      # ### N201
       #
       # - Id: 93
       # - Name: Name
@@ -32,7 +32,7 @@ module Eddy
       end
       alias Name1= N201=
 
-      # ### Element Summary:
+      # ### N202
       #
       # - Id: 93
       # - Name: Name

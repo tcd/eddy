@@ -18,7 +18,7 @@ module Eddy
         super(store, @iea01, @iea02)
       end
 
-      # ### Element Summary:
+      # ### ISA01
       #
       # - Id: I16
       # - Name: Number of Included Functional Groups
@@ -33,7 +33,7 @@ module Eddy
       end
       alias NumberOfIncludedFunctionalGroups= IEA01=
 
-      # ### Element Summary:
+      # ### ISA02
       #
       # - Id: I12
       # - Name: Interchange Control Number

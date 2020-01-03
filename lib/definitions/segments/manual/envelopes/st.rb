@@ -17,7 +17,7 @@ module Eddy
         super(store, @st01, @st02)
       end
 
-      # ### Element Summary:
+      # ### ST01
       #
       # - Id: 143
       # - Name: Transaction Set Identifier Code
@@ -32,7 +32,7 @@ module Eddy
       end
       alias TransactionSetIdentifierCode= ST01=
 
-      # ### Element Summary:
+      # ### ST02
       #
       # - Id: 329
       # - Name: Transaction Set Control Number

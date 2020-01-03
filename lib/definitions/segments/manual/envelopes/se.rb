@@ -17,7 +17,7 @@ module Eddy
         super(store, @se01, @se02)
       end
 
-      # ### Element Summary:
+      # ### SE01
       #
       # - Id: 96
       # - Name: Number of Included Segments
@@ -32,7 +32,7 @@ module Eddy
       end
       alias NumberOfIncludedSegments= SE01=
 
-      # ### Element Summary:
+      # ### SE02
       #
       # - Id: 329
       # - Name: Transaction Set Control Number

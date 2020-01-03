@@ -35,7 +35,7 @@ module Eddy
         )
       end
 
-      # ### Element Summary:
+      # ### GS01
       #
       # - Id: 479
       # - Name: Functional Identifier Code
@@ -50,7 +50,7 @@ module Eddy
       end
       alias FunctionalIdentifierCode= GS01=
 
-      # ### Element Summary:
+      # ### GS02
       #
       # - Id: 142
       # - Name: Application Sender's Code
@@ -65,7 +65,7 @@ module Eddy
       end
       alias ApplicationSendersCode= GS02=
 
-      # ### Element Summary:
+      # ### GS03
       #
       # - Id: 124
       # - Name: Application Receiver's Code
@@ -80,7 +80,7 @@ module Eddy
       end
       alias ApplicationReceiversCode= GS03=
 
-      # ### Element Summary:
+      # ### GS04
       #
       # - Id: 373
       # - Name: Date
@@ -95,7 +95,7 @@ module Eddy
       end
       alias Date= GS04=
 
-      # ### Element Summary:
+      # ### GS05
       #
       # - Id: 337
       # - Name: Time
@@ -110,7 +110,7 @@ module Eddy
       end
       alias Time= GS05=
 
-      # ### Element Summary:
+      # ### GS06
       #
       # - Id: 28
       # - Name: Group Control Number
@@ -125,7 +125,7 @@ module Eddy
       end
       alias GroupControlNumber= GS06=
 
-      # ### Element Summary:
+      # ### GS07
       #
       # - Id: 455
       # - Name: Responsible Agency Code
@@ -143,7 +143,7 @@ module Eddy
       end
       alias ResponsibleAgencyCode= GS07=
 
-      # ### Element Summary:
+      # ### GS08
       #
       # - Id: 480
       # - Name: Version / Release / Industry Identifier Code

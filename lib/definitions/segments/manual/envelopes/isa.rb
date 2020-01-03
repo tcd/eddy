@@ -50,7 +50,7 @@ module Eddy
         )
       end
 
-      # ### Element Summary:
+      # ### ISA01
       #
       # - Id: I01
       # - Name: Authorization Information Qualifier
@@ -65,7 +65,7 @@ module Eddy
       end
       alias AuthorizationInformationQualifier= ISA01=
 
-      # ### Element Summary:
+      # ### ISA02
       #
       # - Id: I02
       # - Name: Authorization Information
@@ -80,7 +80,7 @@ module Eddy
       end
       alias AuthorizationInformation= ISA02=
 
-      # ### Element Summary:
+      # ### ISA03
       #
       # - Id: I03
       # - Name: Security Information Qualifier
@@ -95,7 +95,7 @@ module Eddy
       end
       alias SecurityInformationQualifier= ISA03=
 
-      # ### Element Summary:
+      # ### ISA04
       #
       # - Id: I04
       # - Name: Security Information
@@ -110,7 +110,7 @@ module Eddy
       end
       alias SecurityInformation= ISA04=
 
-      # ### Element Summary:
+      # ### ISA05
       #
       # - Id: I05
       # - Name: Interchange ID Qualifier
@@ -125,7 +125,7 @@ module Eddy
       end
       alias InterchangeIdQualifier1= ISA05=
 
-      # ### Element Summary:
+      # ### ISA06
       #
       # - Id: I06
       # - Name: Interchange Sender ID
@@ -140,7 +140,7 @@ module Eddy
       end
       alias InterchangeSenderId= ISA06=
 
-      # ### Element Summary:
+      # ### ISA07
       #
       # - Id: I05
       # - Name: Interchange ID Qualifier
@@ -155,7 +155,7 @@ module Eddy
       end
       alias InterchangeIdQualifier2= ISA07=
 
-      # ### Element Summary:
+      # ### ISA08
       #
       # - Id: I07
       # - Name: Interchange Receiver ID
@@ -170,7 +170,7 @@ module Eddy
       end
       alias InterchangeReceiverId= ISA08=
 
-      # ### Element Summary:
+      # ### ISA09
       #
       # - Id: I08
       # - Name: Interchange Date
@@ -185,7 +185,7 @@ module Eddy
       end
       alias InterchangeDate= ISA09=
 
-      # ### Element Summary:
+      # ### ISA10
       #
       # - Id: I09
       # - Name: Interchange Time
@@ -200,7 +200,7 @@ module Eddy
       end
       alias InterchangeTime= ISA10=
 
-      # ### Element Summary:
+      # ### ISA11
       #
       # - Id: I10
       # - Name: Interchange Control Standards Identifier
@@ -215,7 +215,7 @@ module Eddy
       end
       alias InterchangeControlStandardsIdentifier= ISA11=
 
-      # ### Element Summary:
+      # ### ISA12
       #
       # - Id: I11
       # - Name: Interchange Control Version Number
@@ -230,7 +230,7 @@ module Eddy
       end
       alias InterchangeControlVersionNumber= ISA12=
 
-      # ### Element Summary:
+      # ### ISA13
       #
       # - Id: I12
       # - Name: Interchange Control Number
@@ -245,7 +245,7 @@ module Eddy
       end
       alias InterchangeControlNumber= ISA13=
 
-      # ### Element Summary:
+      # ### ISA14
       #
       # - Id: I13
       # - Name: Acknowledgment Requested
@@ -260,7 +260,7 @@ module Eddy
       end
       alias AcknowledgmentRequested= ISA14=
 
-      # ### Element Summary:
+      # ### ISA15
       #
       # - Id: I14
       # - Name: Usage Indicator
@@ -275,7 +275,7 @@ module Eddy
       end
       alias UsageIndicator= ISA15=
 
-      # ### Element Summary:
+      # ### ISA16
       #
       # - Id: I15
       # - Name: Component Element Separator
