@@ -133,6 +133,9 @@ Style/GuardClause:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/Next:
+  Enabled: false
+
 # ==============================================================================
 # Explicit, not redundant
 # ==============================================================================
