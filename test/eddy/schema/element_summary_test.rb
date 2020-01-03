@@ -31,5 +31,20 @@ module SchemaTest
       assert_equal(want, @summary_93.doc_comment(header: false))
     end
 
+    def test_doc_comment_with_ref_header
+      want = <<~RB.strip
+        ### N201
+
+        - Id: 93
+        - Name: Name
+        - Type: AN
+        - Min/Max: 1/60
+        - Description: Free-form name
+      RB
+      s = Eddy::Schema::ElementSummary.default_for_id("93")
+      s.ref = "N201"
+      assert_equal(want, s.doc_comment(ref_header: true))
+    end
+
   end
 end

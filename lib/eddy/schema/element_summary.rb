@@ -69,11 +69,12 @@ module Eddy
       # Generate a description to use as a doc comment for an element.
       #
       # @param header [Boolean] (true)
+      # @param ref_header [Boolean] (true)
       # @return [String]
-      def doc_comment(header: true)
+      def doc_comment(header: true, ref_header: false)
         parts = []
-        parts << "### Element Summary:\n" if header
-        # parts << "- Ref: #{self.ref.upcase}" unless self.ref.nil?
+        parts << "### Element Summary:\n" if header && !ref_header
+        parts << "### #{self.ref.upcase}\n" if ref_header
         parts << <<~YARD.strip
           - Id: #{self.id}
           - Name: #{self.name}
