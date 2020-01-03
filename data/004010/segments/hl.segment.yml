@@ -1,0 +1,9 @@
+---
+id: HL
+name: Hierarchical Level
+purpose: To identify dependencies among and the content of hierarchically related groups of data segments.
+elements:
+  - { ref: HL01, id: '628', req: M }
+  - { ref: HL02, id: '734', req: O }
+  - { ref: HL03, id: '735', req: M }
+  - { ref: HL04, id: '736', req: O }
