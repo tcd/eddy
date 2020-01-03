@@ -23,6 +23,11 @@ module Eddy
               Eddy::Segments::N4,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::N1] n1
+          #   @yieldparam [Eddy::Segments::N3] n3
+          #   @yieldparam [Eddy::Segments::N4] n4
+          #   @return [void]
         end
 
         # ### Loop Summary:
@@ -40,6 +45,9 @@ module Eddy
               Eddy::Segments::PO1,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::PO1] po1
+          #   @return [void]
         end
 
       end

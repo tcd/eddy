@@ -49,6 +49,11 @@ module Eddy
               Eddy::TransactionSets::TS855::Loops::ACK,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::PO1] po1
+          #   @yieldparam [Eddy::TransactionSets::TS855::Loops::PID] pid
+          #   @yieldparam [Eddy::TransactionSets::TS855::Loops::ACK] ack
+          #   @return [void]
         end
 
         # ### Loop Summary:
@@ -66,6 +71,9 @@ module Eddy
               Eddy::Segments::PID,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::PID] pid
+          #   @return [void]
         end
 
         # ### Loop Summary:
@@ -83,6 +91,9 @@ module Eddy
               Eddy::Segments::ACK,
             ]
           end
+          # @!method add_iteration(&block)
+          #   @yieldparam [Eddy::Segments::ACK] ack
+          #   @return [void]
         end
 
       end
