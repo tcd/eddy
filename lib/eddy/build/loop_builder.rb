@@ -9,19 +9,15 @@ module Eddy
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
-      # @return [Boolean] (false)
-      attr_accessor :headers
       # Namespace the Loop is within.
       # @return [String]
       attr_accessor :t_set_id
 
       # @param folder [String] (nil)
-      # @param headers [Boolean] (false)
       # @param t_set_id [Boolean] ("")
       # @return [void]
-      def initialize(folder: nil, headers: false, t_set_id: "")
+      def initialize(folder: nil, t_set_id: "")
         self.folder   = folder
-        self.headers  = headers
         self.t_set_id = t_set_id
       end
 
