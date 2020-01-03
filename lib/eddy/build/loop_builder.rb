@@ -47,6 +47,7 @@ module Eddy
               #{self.components(self.t_set_id)}
               ]
             end
+
             #{self.class.add_ideration(self.summary, self.t_set_id)}
           STR
         })

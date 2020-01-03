@@ -25,6 +25,7 @@ module BuildTest
                 Eddy::Segments::N4,
               ]
             end
+
             # @!method add_iteration(&block)
             #   @yieldparam [Eddy::Segments::N1] n1
             #   @yieldparam [Eddy::Segments::N3] n3
@@ -60,6 +61,7 @@ module BuildTest
                 Eddy::TransactionSets::TS810::Loops::SAC,
               ]
             end
+
             # @!method add_iteration(&block)
             #   @yieldparam [Eddy::Segments::IT1] it1
             #   @yieldparam [Eddy::Segments::CTP] ctp

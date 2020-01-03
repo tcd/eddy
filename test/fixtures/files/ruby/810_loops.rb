@@ -22,6 +22,7 @@ module Eddy
               Eddy::Segments::N4,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::N1] n1
           #   @yieldparam [Eddy::Segments::N3] n3
@@ -50,6 +51,7 @@ module Eddy
               Eddy::TransactionSets::TS810::Loops::SAC,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::IT1] it1
           #   @yieldparam [Eddy::Segments::CTP] ctp
@@ -73,6 +75,7 @@ module Eddy
               Eddy::Segments::PID,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::PID] pid
           #   @return [void]
@@ -93,6 +96,7 @@ module Eddy
               Eddy::Segments::SAC,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::SAC] sac
           #   @return [void]

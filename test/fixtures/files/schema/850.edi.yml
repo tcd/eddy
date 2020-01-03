@@ -58,12 +58,9 @@ components:
     req: M
     element_count: 9
 
-- loop_id: CTT
-  repeat: 1
-  components:
-  - id: CTT
-    max_use: 1
-    req: O
-    element_count: 1
-    elements:
-      - { ref: CTT01, id: '354', req: M }
+- id: CTT
+  max_use: 1
+  req: O
+  element_count: 1
+  elements:
+    - { ref: CTT01, id: '354', req: M }

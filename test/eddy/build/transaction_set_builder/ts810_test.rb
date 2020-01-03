@@ -6,13 +6,13 @@ module BuildTest
 
       def setup
         @summary = Eddy::Schema::TransactionSetSummary.from_file(file_fixture("schema/810.edi.yml"))
-        @ts810 = File.read(File.join(Eddy::Util.root_dir, "lib/definitions/transaction_sets/manual/810/810.rb")).strip
-        @loops = File.read(file_fixture("ruby/810_loops.rb")).strip
+        @ts      = File.read(file_fixture("ruby/810_ts.rb")).strip
+        @loops   = File.read(file_fixture("ruby/810_loops.rb")).strip
       end
 
       def test_transaction_set_builder
         have = Eddy::Build::TransactionSetBuilder.from_summary(@summary).ginny_class.render()
-        assert_equal(@ts810, have)
+        assert_equal(@ts, have)
       end
 
       def test_build_loops
