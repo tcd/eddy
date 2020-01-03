@@ -19,6 +19,15 @@ module SchemaTest
       assert_equal(want, @summary_810.doc_comment)
     end
 
+    def test_doc_comment_without_header
+      want = <<~YARD.strip
+        - Id: 810
+        - Name: Invoice
+        - Functional Group: IN
+      YARD
+      assert_equal(want, @summary_810.doc_comment(header: false))
+    end
+
     def test_all_components_in_810
       assert_equal(19, @summary_810.all_components.length)
     end

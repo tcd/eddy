@@ -21,6 +21,17 @@ module SchemaTest
       assert_equal(want, @summary_n1.doc_comment)
     end
 
+    def test_doc_comment_without_header
+      want = <<~RB.strip
+        - Repeat: 200
+        - Components:
+          - N1
+          - N3
+          - N4
+      RB
+      assert_equal(want, @summary_n1.doc_comment(header: false))
+    end
+
     def test_all_components_in_n1
       assert_equal(3, @summary_n1.all_components.length)
     end
