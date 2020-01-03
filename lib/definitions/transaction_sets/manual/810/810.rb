@@ -1,5 +1,6 @@
 module Eddy
   module TransactionSets
+    # Namespace for Transaction Set 810 and its loops.
     module TS810
       # ### Transaction Set Summary:
       #

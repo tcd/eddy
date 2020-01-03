@@ -1,5 +1,6 @@
 module Eddy
   module TransactionSets
+    # Namespace for Transaction Set 855 and its loops.
     module TS855
       # ### Transaction Set Summary:
       #

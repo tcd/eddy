@@ -1,6 +1,6 @@
 module Eddy
   module TransactionSets
-    # Namespace for 850 Transaction Set and its loops.
+    # Namespace for Transaction Set 850 and its loops.
     module TS850
       module Loops
 
@@ -16,13 +16,14 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat_count = 200
+            @repeat= 200
             @components = [
               Eddy::Segments::N1,
               Eddy::Segments::N3,
               Eddy::Segments::N4,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::N1] n1
           #   @yieldparam [Eddy::Segments::N3] n3
@@ -34,7 +35,7 @@ module Eddy
         #
         # - Repeat: 100,000
         # - Components:
-        #   - SAC
+        #   - PO1
         class PO1 < Eddy::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
@@ -45,6 +46,7 @@ module Eddy
               Eddy::Segments::PO1,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::PO1] po1
           #   @return [void]

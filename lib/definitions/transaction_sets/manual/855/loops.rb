@@ -1,6 +1,6 @@
 module Eddy
   module TransactionSets
-    # Namespace for 855 Transaction Set and its loops.
+    # Namespace for Transaction Set 855 and its loops.
     module TS855
       module Loops
 
@@ -23,6 +23,7 @@ module Eddy
               Eddy::Segments::N4,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::N1] n1
           #   @yieldparam [Eddy::Segments::N3] n3
@@ -49,6 +50,7 @@ module Eddy
               Eddy::TransactionSets::TS855::Loops::ACK,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::PO1] po1
           #   @yieldparam [Eddy::TransactionSets::TS855::Loops::PID] pid
@@ -71,6 +73,7 @@ module Eddy
               Eddy::Segments::PID,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::PID] pid
           #   @return [void]
@@ -91,6 +94,7 @@ module Eddy
               Eddy::Segments::ACK,
             ]
           end
+
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::ACK] ack
           #   @return [void]
