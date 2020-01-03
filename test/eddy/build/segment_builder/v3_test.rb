@@ -2,7 +2,7 @@ require "test_helper"
 
 module BuildTest
   module SegmentBuilderTest
-    class V3Test < Minitest::Test
+    class MainTest < Minitest::Test
 
       def setup
         @summary = Eddy::Schema::SegmentSummary.create({
@@ -14,7 +14,7 @@ module BuildTest
             { ref: "n202", id: "93", req: "O" },
           ],
         })
-        @n2_segment_v3 = <<~RB.strip
+        @n2_segment = <<~RB.strip
           module Eddy
             module Segments
               # ### Segment Summary:
@@ -80,16 +80,16 @@ module BuildTest
           headers: true,
           aliases: true,
         ).ginny_class().render()
-        assert_equal(@n2_segment_v3, have)
+        assert_equal(@n2_segment, have)
       end
 
       def test_from_definition
         have = Eddy::Build::SegmentBuilder.from_file(
-          file_fixture("schema/n2.segment.yml"),
+          file_fixture("schema/segments/n2.segment.yml"),
           headers: true,
           aliases: true,
         ).ginny_class().render()
-        assert_equal(@n2_segment_v3, have)
+        assert_equal(@n2_segment, have)
       end
 
     end

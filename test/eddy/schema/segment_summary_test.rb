@@ -4,36 +4,22 @@ module SchemaTest
   class SegmentSummaryTest < Minitest::Test
 
     def setup
-      @summary = Eddy::Schema::SegmentSummary.create({
-        id: "IEA",
-        name: "Interchange Control Trailer",
-        purpose: "To define the end of an interchange of zero or more functional groups and interchange-related control segments.",
-        elements: [],
-      })
+      @summary_n2 = Eddy::Schema::SegmentSummary.from_file(file_fixture("schema/segments/n2.segment.yml"))
     end
 
-    def test_valid_segment_data?
-      skip()
-    end
+    def test_doc_comment
+      want = <<~YARD.strip
+        ### Segment Summary:
 
-    def test_from_file
-      skip()
+        - Id: N2
+        - Name: Additional Name Information
+        - Purpose: To identify a party by type of organization, name, and code.
+      YARD
+      assert_equal(want, @summary_n2.doc_comment)
     end
 
     def test_default_for_id
       skip()
-    end
-
-    def test_doc_comment
-      skip("There be mystery characters in these strings...")
-      want = <<~STR
-        # ### Segment Summary:
-        #
-        # - Id: IEA
-        # - Name: Interchange Control Trailer
-        # - Purpose: To define the end of an interchange of zero or more functional groups and interchange-related control segments.
-      STR
-      assert_equal(want, @summary.doc_comment)
     end
 
   end

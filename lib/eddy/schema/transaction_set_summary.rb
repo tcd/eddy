@@ -78,6 +78,19 @@ module Eddy
         end
       end
 
+      # Return all components in a single, flattened array.
+      #
+      # @return [Array<Eddy::Schema::SegmentSummary, Eddy::Schema::LoopSummary>]
+      def all_components()
+        return self.components.map do |comp|
+          case comp
+          when Eddy::Schema::LoopSummary    then [comp, comp.all_components()]
+          when Eddy::Schema::SegmentSummary then comp
+          else raise Eddy::Errors::Error
+          end
+        end.flatten
+      end
+
     end
   end
 end
