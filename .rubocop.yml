@@ -24,6 +24,27 @@ Style/DocumentationMethod:
     - 'test/**/*.rb'
 
 # ==============================================================================
+# Naming
+# ==============================================================================
+
+Naming/MethodParameterName:
+  AllowedNames:
+    - el
+    - id
+
+Naming/MethodName:
+  Enabled: true
+  Exclude:
+    - 'lib/definitions/**/*.rb'
+    - 'build/**/*.rb'
+
+Naming/ClassAndModuleCamelCase:
+  Enabled: true
+  Exclude:
+    - 'lib/definitions/**/*.rb'
+    - 'build/**/*.rb'
+
+# ==============================================================================
 # Layout
 # ==============================================================================
 
@@ -199,11 +220,3 @@ Metrics/PerceivedComplexity:
 
 Style/CommentedKeyword:
   Enabled: False
-
-Naming/MethodParameterName:
-  AllowedNames:
-    - el
-    - id
-
-Naming/MethodName:
-  Enabled: false
