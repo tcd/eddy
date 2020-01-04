@@ -47,7 +47,7 @@ module Eddy
       def build(build_elements: false)
         Eddy::Build.make_folders()
         if build_elements
-          Eddy::Build.generate_elements(self.summary.elements)
+          Eddy::Build::Elements.generate_elements(self.summary.elements)
         end
         path = self.folder || File.join(Eddy.config.build_dir, "segments")
         result = self.ginny_class.generate(path)
