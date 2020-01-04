@@ -9,6 +9,7 @@ module UtilTest
     end
 
     def test_element_ids
+      # 1688, or I01-I64
       # data = Eddy::Util.element_ids()
       skip()
     end
