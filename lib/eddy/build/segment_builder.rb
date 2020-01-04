@@ -10,22 +10,14 @@ module Eddy
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
-      # @return [Boolean] (true)
-      attr_accessor :aliases
-      # @return [Boolean] (false)
-      attr_accessor :headers
       # A hash of element names that appear more than once in the segment.
       # @return [Hash{String => Integer}]
       attr_accessor :duplicate_elements
 
       # @param folder [String] (nil)
-      # @param aliases [Boolean] (true)
-      # @param headers [Boolean] (false)
       # @return [void]
-      def initialize(folder: nil, aliases: true, headers: false)
-        self.folder  = folder
-        self.aliases = aliases
-        self.headers = headers
+      def initialize(folder: nil)
+        self.folder = folder
       end
 
       # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
