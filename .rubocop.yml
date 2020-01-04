@@ -220,3 +220,6 @@ Metrics/PerceivedComplexity:
 
 Style/CommentedKeyword:
   Enabled: False
+
+Lint/EmptyWhen:
+  Enabled: false
