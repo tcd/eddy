@@ -5,6 +5,12 @@ module Eddy
     # - Id: HL
     # - Name: Hierarchical Level
     # - Purpose: To identify dependencies among and the content of hierarchically related groups of data segments.
+    #
+    # ### Notes
+    #
+    # - Related RFIs
+    #   - [HL SEGMENT CONTENT - RFI 31](http://www.x12.org/rfis/HL%20Segment%20Content.pdf)
+    #   - [HL Parent/Child relationship - RFI 610](http://rfi.x12.org/Request/Details/610?stateViewModel=WPC.RFI.Models.ViewModels.RequestViewModel)
     class HL < Eddy::Segment
 
       # @param store [Eddy::Data::Store]
