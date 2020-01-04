@@ -85,6 +85,30 @@ module Eddy
         return parts.compact.join("\n")
       end
 
+      # Generate a description to use as a doc comment for an element.
+      #
+      # @param header [Hash<:none, :ref, :see, :summary>] (true)
+      # @return [String]
+      def doc_comment_v2(header: :summary)
+        parts = []
+        case header
+        when :none, nil, false
+          # Nothing to do
+        when :ref     then parts << "### #{self.ref.upcase}\n"
+        when :see     then parts << "# (see Eddy::Elements::#{Eddy::Util.normalize_id(self.id)})"
+        when :summary then parts << "### Element Summary:\n"
+        else raise ArgumentError, "header must be a valid symbol"
+        end
+        parts << <<~YARD.strip
+          - Id: #{self.id}
+          - Name: #{self.name}
+          - Type: #{self.type}
+          - Min/Max: #{self.min}/#{self.max}
+          - Description: #{self.description}
+        YARD
+        return parts.compact.join("\n")
+      end
+
       # @return [String]
       def yard_type()
         return case self.type
@@ -95,6 +119,20 @@ module Eddy
                when /N\d*/ then "Integer"
                when /R\d*/ then "Float"
                when "TM"   then "Time"
+               else raise Eddy::Errors::Error, "unable to determine element type"
+               end
+      end
+
+      # @return [String]
+      def edi_type()
+        return case self.type
+               when "AN"   then "AN"
+               when "B"    then "B"
+               when "DT"   then "DT"
+               when "ID"   then "ID"
+               when /N\d*/ then "N"
+               when /R\d*/ then "R"
+               when "TM"   then "TM"
                else raise Eddy::Errors::Error, "unable to determine element type"
                end
       end
