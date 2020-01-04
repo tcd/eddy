@@ -19,6 +19,8 @@ module Eddy
         )
       end
 
+      # ### TDS01
+      #
       # - Id: 610
       # - Name: Amount
       # - Type: N2

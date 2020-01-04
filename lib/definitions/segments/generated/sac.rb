@@ -12,11 +12,11 @@ module Eddy
       def initialize(store)
         @id = "SAC"
         @name = "Service, Promotion, Allowance, or Charge Information"
-        @sac01 = Eddy::Elements::E248.new(ref:  "SAC01", req: "M")
+        @sac01 = Eddy::Elements::E248.new(ref: "SAC01", req: "M")
         @sac02 = Eddy::Elements::E1300.new(ref: "SAC02", req: "X")
-        @sac03 = Eddy::Elements::E559.new(ref:  "SAC03", req: "X")
+        @sac03 = Eddy::Elements::E559.new(ref: "SAC03", req: "X")
         @sac04 = Eddy::Elements::E1301.new(ref: "SAC04", req: "X")
-        @sac05 = Eddy::Elements::E610.new(ref:  "SAC05", req: "O")
+        @sac05 = Eddy::Elements::E610.new(ref: "SAC05", req: "O")
         super(
           store,
           @sac01,
@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### SAC01
+      #
       # - Id: 248
       # - Name: Allowance or Charge Indicator
       # - Type: ID
@@ -40,6 +42,8 @@ module Eddy
       end
       alias AllowanceOrChargeIndicator= SAC01=
 
+      # ### SAC02
+      #
       # - Id: 1300
       # - Name: Service, Promotion, Allowance, or Charge Code
       # - Type: ID
@@ -53,6 +57,8 @@ module Eddy
       end
       alias ServicePromotionAllowanceOrChargeCode= SAC02=
 
+      # ### SAC03
+      #
       # - Id: 559
       # - Name: Agency Qualifier Code
       # - Type: ID
@@ -66,6 +72,8 @@ module Eddy
       end
       alias AgencyQualifierCode= SAC03=
 
+      # ### SAC04
+      #
       # - Id: 1301
       # - Name: Agency Service, Promotion, Allowance, or Charge Code
       # - Type: AN
@@ -79,6 +87,8 @@ module Eddy
       end
       alias AgencyServicePromotionAllowanceOrChargeCode= SAC04=
 
+      # ### SAC05
+      #
       # - Id: 610
       # - Name: Amount
       # - Type: N2

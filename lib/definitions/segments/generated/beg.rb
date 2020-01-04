@@ -12,18 +12,18 @@ module Eddy
       def initialize(store)
         @id = "BEG"
         @name = "Beginning Segment for Purchase Order"
-        @beg01 = Eddy::Elements::E353.new(ref:  "BEG01", req: "M")
-        @beg02 = Eddy::Elements::E92.new(ref:   "BEG02", req: "M")
-        @beg03 = Eddy::Elements::E324.new(ref:  "BEG03", req: "M")
-        @beg04 = Eddy::Elements::E328.new(ref:  "BEG04", req: "O")
-        @beg05 = Eddy::Elements::E373.new(ref:  "BEG05", req: "M")
-        @beg06 = Eddy::Elements::E367.new(ref:  "BEG06", req: "O")
-        @beg07 = Eddy::Elements::E587.new(ref:  "BEG07", req: "O")
+        @beg01 = Eddy::Elements::E353.new(ref: "BEG01", req: "M")
+        @beg02 = Eddy::Elements::E92.new(ref: "BEG02", req: "M")
+        @beg03 = Eddy::Elements::E324.new(ref: "BEG03", req: "M")
+        @beg04 = Eddy::Elements::E328.new(ref: "BEG04", req: "O")
+        @beg05 = Eddy::Elements::E373.new(ref: "BEG05", req: "M")
+        @beg06 = Eddy::Elements::E367.new(ref: "BEG06", req: "O")
+        @beg07 = Eddy::Elements::E587.new(ref: "BEG07", req: "O")
         @beg08 = Eddy::Elements::E1019.new(ref: "BEG08", req: "O")
         @beg09 = Eddy::Elements::E1166.new(ref: "BEG09", req: "O")
         @beg10 = Eddy::Elements::E1232.new(ref: "BEG10", req: "O")
-        @beg11 = Eddy::Elements::E786.new(ref:  "BEG11", req: "O")
-        @beg12 = Eddy::Elements::E640.new(ref:  "BEG12", req: "O")
+        @beg11 = Eddy::Elements::E786.new(ref: "BEG11", req: "O")
+        @beg12 = Eddy::Elements::E640.new(ref: "BEG12", req: "O")
         super(
           store,
           @beg01,
@@ -41,6 +41,8 @@ module Eddy
         )
       end
 
+      # ### BEG01
+      #
       # - Id: 353
       # - Name: Transaction Set Purpose Code
       # - Type: ID
@@ -54,6 +56,8 @@ module Eddy
       end
       alias TransactionSetPurposeCode= BEG01=
 
+      # ### BEG02
+      #
       # - Id: 92
       # - Name: Purchase Order Type Code
       # - Type: ID
@@ -67,6 +71,8 @@ module Eddy
       end
       alias PurchaseOrderTypeCode= BEG02=
 
+      # ### BEG03
+      #
       # - Id: 324
       # - Name: Purchase Order Number
       # - Type: AN
@@ -80,6 +86,8 @@ module Eddy
       end
       alias PurchaseOrderNumber= BEG03=
 
+      # ### BEG04
+      #
       # - Id: 328
       # - Name: Release Number
       # - Type: AN
@@ -93,6 +101,8 @@ module Eddy
       end
       alias ReleaseNumber= BEG04=
 
+      # ### BEG05
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT
@@ -106,6 +116,8 @@ module Eddy
       end
       alias Date= BEG05=
 
+      # ### BEG06
+      #
       # - Id: 367
       # - Name: Contract Number
       # - Type: AN
@@ -119,6 +131,8 @@ module Eddy
       end
       alias ContractNumber= BEG06=
 
+      # ### BEG07
+      #
       # - Id: 587
       # - Name: Acknowledgment Type
       # - Type: ID
@@ -132,6 +146,8 @@ module Eddy
       end
       alias AcknowledgmentType= BEG07=
 
+      # ### BEG08
+      #
       # - Id: 1019
       # - Name: Invoice Type Code
       # - Type: ID
@@ -145,6 +161,8 @@ module Eddy
       end
       alias InvoiceTypeCode= BEG08=
 
+      # ### BEG09
+      #
       # - Id: 1166
       # - Name: Contract Type Code
       # - Type: ID
@@ -158,6 +176,8 @@ module Eddy
       end
       alias ContractTypeCode= BEG09=
 
+      # ### BEG10
+      #
       # - Id: 1232
       # - Name: Purchase Category
       # - Type: ID
@@ -171,6 +191,8 @@ module Eddy
       end
       alias PurchaseCategory= BEG10=
 
+      # ### BEG11
+      #
       # - Id: 786
       # - Name: Security Level Code
       # - Type: ID
@@ -184,6 +206,8 @@ module Eddy
       end
       alias SecurityLevelCode= BEG11=
 
+      # ### BEG12
+      #
       # - Id: 640
       # - Name: Transaction Type Code
       # - Type: ID

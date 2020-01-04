@@ -29,6 +29,8 @@ module Eddy
         )
       end
 
+      # ### SN101
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -42,6 +44,8 @@ module Eddy
       end
       alias AssignedIdentification= SN101=
 
+      # ### SN102
+      #
       # - Id: 382
       # - Name: Number of Units Shipped
       # - Type: R
@@ -55,6 +59,8 @@ module Eddy
       end
       alias NumberOfUnitsShipped= SN102=
 
+      # ### SN103
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -68,6 +74,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode1= SN103=
 
+      # ### SN104
+      #
       # - Id: 646
       # - Name: Quantity Shipped to Date
       # - Type: R
@@ -81,6 +89,8 @@ module Eddy
       end
       alias QuantityShippedToDate= SN104=
 
+      # ### SN105
+      #
       # - Id: 330
       # - Name: Quantity Ordered
       # - Type: R
@@ -94,6 +104,8 @@ module Eddy
       end
       alias QuantityOrdered= SN105=
 
+      # ### SN106
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID

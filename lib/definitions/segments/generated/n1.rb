@@ -25,6 +25,8 @@ module Eddy
         )
       end
 
+      # ### N101
+      #
       # - Id: 98
       # - Name: Entity Identifier Code
       # - Type: ID
@@ -38,6 +40,8 @@ module Eddy
       end
       alias EntityIdentifierCode= N101=
 
+      # ### N102
+      #
       # - Id: 93
       # - Name: Name
       # - Type: AN
@@ -51,6 +55,8 @@ module Eddy
       end
       alias Name= N102=
 
+      # ### N103
+      #
       # - Id: 66
       # - Name: Identification Code Qualifier
       # - Type: ID
@@ -64,6 +70,8 @@ module Eddy
       end
       alias IdentificationCodeQualifier= N103=
 
+      # ### N104
+      #
       # - Id: 67
       # - Name: Identification Code
       # - Type: AN

@@ -35,6 +35,8 @@ module Eddy
         )
       end
 
+      # ### PO101
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -48,6 +50,8 @@ module Eddy
       end
       alias AssignedIdentification= PO101=
 
+      # ### PO102
+      #
       # - Id: 330
       # - Name: Quantity Ordered
       # - Type: R
@@ -61,6 +65,8 @@ module Eddy
       end
       alias QuantityOrdered= PO102=
 
+      # ### PO103
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -74,6 +80,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode= PO103=
 
+      # ### PO104
+      #
       # - Id: 212
       # - Name: Unit Price
       # - Type: R
@@ -87,6 +95,8 @@ module Eddy
       end
       alias UnitPrice= PO104=
 
+      # ### PO105
+      #
       # - Id: 639
       # - Name: Basis of Unit Price Code
       # - Type: ID
@@ -100,6 +110,8 @@ module Eddy
       end
       alias BasisOfUnitPriceCode= PO105=
 
+      # ### PO106
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -113,6 +125,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier1= PO106=
 
+      # ### PO107
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -126,6 +140,8 @@ module Eddy
       end
       alias ProductServiceId1= PO107=
 
+      # ### PO108
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -139,6 +155,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier2= PO108=
 
+      # ### PO109
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN

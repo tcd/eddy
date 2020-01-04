@@ -21,6 +21,8 @@ module Eddy
         )
       end
 
+      # ### REF01
+      #
       # - Id: 128
       # - Name: Reference Identification Qualifier
       # - Type: ID
@@ -34,6 +36,8 @@ module Eddy
       end
       alias ReferenceIdentificationQualifier= REF01=
 
+      # ### REF02
+      #
       # - Id: 127
       # - Name: Reference Identification
       # - Type: AN

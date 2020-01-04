@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "N4"
         @name = "Geographic Location"
-        @n401 = Eddy::Elements::E19.new(ref:  "N401", req: "O")
+        @n401 = Eddy::Elements::E19.new(ref: "N401", req: "O")
         @n402 = Eddy::Elements::E156.new(ref: "N402", req: "O")
         @n403 = Eddy::Elements::E116.new(ref: "N403", req: "O")
-        @n404 = Eddy::Elements::E26.new(ref:  "N404", req: "O")
+        @n404 = Eddy::Elements::E26.new(ref: "N404", req: "O")
         super(
           store,
           @n401,
@@ -25,6 +25,8 @@ module Eddy
         )
       end
 
+      # ### N401
+      #
       # - Id: 19
       # - Name: City Name
       # - Type: AN
@@ -38,6 +40,8 @@ module Eddy
       end
       alias CityName= N401=
 
+      # ### N402
+      #
       # - Id: 156
       # - Name: State or Province Code
       # - Type: ID
@@ -51,6 +55,8 @@ module Eddy
       end
       alias StateOrProvinceCode= N402=
 
+      # ### N403
+      #
       # - Id: 116
       # - Name: Postal Code
       # - Type: ID
@@ -64,6 +70,8 @@ module Eddy
       end
       alias PostalCode= N403=
 
+      # ### N404
+      #
       # - Id: 26
       # - Name: Country Code
       # - Type: ID

@@ -12,7 +12,7 @@ module Eddy
       def initialize(store)
         @id = "CAD"
         @name = "Carrier Detail"
-        @cad01 = Eddy::Elements::E91.new(ref:  "CAD01", req: "O")
+        @cad01 = Eddy::Elements::E91.new(ref: "CAD01", req: "O")
         @cad02 = Eddy::Elements::E206.new(ref: "CAD02", req: "O")
         @cad03 = Eddy::Elements::E207.new(ref: "CAD03", req: "O")
         @cad04 = Eddy::Elements::E140.new(ref: "CAD04", req: "X")
@@ -35,6 +35,8 @@ module Eddy
         )
       end
 
+      # ### CAD01
+      #
       # - Id: 91
       # - Name: Transportation Method/Type Code
       # - Type: ID
@@ -48,6 +50,8 @@ module Eddy
       end
       alias TransportationMethodTypeCode= CAD01=
 
+      # ### CAD02
+      #
       # - Id: 206
       # - Name: Equipment Initial
       # - Type: AN
@@ -61,6 +65,8 @@ module Eddy
       end
       alias EquipmentInitial= CAD02=
 
+      # ### CAD03
+      #
       # - Id: 207
       # - Name: Equipment Number
       # - Type: AN
@@ -74,6 +80,8 @@ module Eddy
       end
       alias EquipmentNumber= CAD03=
 
+      # ### CAD04
+      #
       # - Id: 140
       # - Name: Standard Carrier Alpha Code
       # - Type: ID
@@ -87,6 +95,8 @@ module Eddy
       end
       alias StandardCarrierAlphaCode= CAD04=
 
+      # ### CAD05
+      #
       # - Id: 387
       # - Name: Routing
       # - Type: AN
@@ -100,6 +110,8 @@ module Eddy
       end
       alias Routing= CAD05=
 
+      # ### CAD06
+      #
       # - Id: 368
       # - Name: Shipment/Order Status Code
       # - Type: ID
@@ -113,6 +125,8 @@ module Eddy
       end
       alias ShipmentOrderStatusCode= CAD06=
 
+      # ### CAD07
+      #
       # - Id: 128
       # - Name: Reference Identification Qualifier
       # - Type: ID
@@ -126,6 +140,8 @@ module Eddy
       end
       alias ReferenceIdentificationQualifier= CAD07=
 
+      # ### CAD08
+      #
       # - Id: 127
       # - Name: Reference Identification
       # - Type: AN
@@ -139,6 +155,8 @@ module Eddy
       end
       alias ReferenceIdentification= CAD08=
 
+      # ### CAD09
+      #
       # - Id: 284
       # - Name: Service Level Code
       # - Type: ID

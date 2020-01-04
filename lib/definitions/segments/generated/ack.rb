@@ -37,6 +37,8 @@ module Eddy
         )
       end
 
+      # ### ACK01
+      #
       # - Id: 668
       # - Name: Line Item Status Code
       # - Type: ID
@@ -50,6 +52,8 @@ module Eddy
       end
       alias LineItemStatusCode= ACK01=
 
+      # ### ACK02
+      #
       # - Id: 380
       # - Name: Quantity
       # - Type: R
@@ -63,6 +67,8 @@ module Eddy
       end
       alias Quantity= ACK02=
 
+      # ### ACK03
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -76,6 +82,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode= ACK03=
 
+      # ### ACK04
+      #
       # - Id: 374
       # - Name: Date/Time Qualifier
       # - Type: ID
@@ -89,6 +97,8 @@ module Eddy
       end
       alias DateTimeQualifier= ACK04=
 
+      # ### ACK05
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT
@@ -102,6 +112,8 @@ module Eddy
       end
       alias Date= ACK05=
 
+      # ### ACK06
+      #
       # - Id: 326
       # - Name: Request Reference Number
       # - Type: AN
@@ -115,6 +127,8 @@ module Eddy
       end
       alias RequestReferenceNumber= ACK06=
 
+      # ### ACK07
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -128,6 +142,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier1= ACK07=
 
+      # ### ACK08
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -141,6 +157,8 @@ module Eddy
       end
       alias ProductServiceId1= ACK08=
 
+      # ### ACK09
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -154,6 +172,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier2= ACK09=
 
+      # ### ACK10
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN

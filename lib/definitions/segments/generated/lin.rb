@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### LIN01
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -40,6 +42,8 @@ module Eddy
       end
       alias AssignedIdentification= LIN01=
 
+      # ### LIN02
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -53,6 +57,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier1= LIN02=
 
+      # ### LIN03
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -66,6 +72,8 @@ module Eddy
       end
       alias ProductServiceId1= LIN03=
 
+      # ### LIN04
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -79,6 +87,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier2= LIN04=
 
+      # ### LIN05
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN

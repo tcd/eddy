@@ -21,6 +21,8 @@ module Eddy
         )
       end
 
+      # ### MAN01
+      #
       # - Id: 88
       # - Name: Marks and Numbers Qualifier
       # - Type: ID
@@ -34,6 +36,8 @@ module Eddy
       end
       alias MarksAndNumbersQualifier= MAN01=
 
+      # ### MAN02
+      #
       # - Id: 87
       # - Name: Marks and Numbers
       # - Type: AN

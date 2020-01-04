@@ -13,9 +13,9 @@ module Eddy
         @id = "TD5"
         @name = "Carrier Details (Routing Sequence/Transit Time)"
         @td501 = Eddy::Elements::E133.new(ref: "TD501", req: "M")
-        @td502 = Eddy::Elements::E66.new(ref:  "TD502", req: "X")
-        @td503 = Eddy::Elements::E67.new(ref:  "TD503", req: "X")
-        @td504 = Eddy::Elements::E91.new(ref:  "TD504", req: "M")
+        @td502 = Eddy::Elements::E66.new(ref: "TD502", req: "X")
+        @td503 = Eddy::Elements::E67.new(ref: "TD503", req: "X")
+        @td504 = Eddy::Elements::E91.new(ref: "TD504", req: "M")
         @td505 = Eddy::Elements::E387.new(ref: "TD505", req: "X")
         super(
           store,
@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### TD501
+      #
       # - Id: 133
       # - Name: Routing Sequence Code
       # - Type: ID
@@ -40,6 +42,8 @@ module Eddy
       end
       alias RoutingSequenceCode= TD501=
 
+      # ### TD502
+      #
       # - Id: 66
       # - Name: Identification Code Qualifier
       # - Type: ID
@@ -53,6 +57,8 @@ module Eddy
       end
       alias IdentificationCodeQualifier= TD502=
 
+      # ### TD503
+      #
       # - Id: 67
       # - Name: Identification Code
       # - Type: AN
@@ -66,6 +72,8 @@ module Eddy
       end
       alias IdentificationCode= TD503=
 
+      # ### TD504
+      #
       # - Id: 91
       # - Name: Transportation Method/Type Code
       # - Type: ID
@@ -79,6 +87,8 @@ module Eddy
       end
       alias TransportationMethodTypeCode= TD504=
 
+      # ### TD505
+      #
       # - Id: 387
       # - Name: Routing
       # - Type: AN

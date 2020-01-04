@@ -21,6 +21,8 @@ module Eddy
         )
       end
 
+      # ### DTM01
+      #
       # - Id: 374
       # - Name: Date/Time Qualifier
       # - Type: ID
@@ -34,6 +36,8 @@ module Eddy
       end
       alias DateTimeQualifier= DTM01=
 
+      # ### DTM02
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT

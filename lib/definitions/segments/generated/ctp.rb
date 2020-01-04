@@ -33,6 +33,8 @@ module Eddy
         )
       end
 
+      # ### CTP01
+      #
       # - Id: 687
       # - Name: Class of Trade Code
       # - Type: ID
@@ -46,6 +48,8 @@ module Eddy
       end
       alias ClassOfTradeCode= CTP01=
 
+      # ### CTP02
+      #
       # - Id: 236
       # - Name: Price Identifier Code
       # - Type: ID
@@ -59,6 +63,8 @@ module Eddy
       end
       alias PriceIdentifierCode= CTP02=
 
+      # ### CTP03
+      #
       # - Id: 212
       # - Name: Unit Price
       # - Type: R
@@ -72,6 +78,8 @@ module Eddy
       end
       alias UnitPrice= CTP03=
 
+      # ### CTP04
+      #
       # - Id: 380
       # - Name: Quantity
       # - Type: R
@@ -85,6 +93,8 @@ module Eddy
       end
       alias Quantity= CTP04=
 
+      # ### CTP05
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -98,6 +108,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode= CTP05=
 
+      # ### CTP06
+      #
       # - Id: 648
       # - Name: Price Multiplier Qualifier
       # - Type: ID
@@ -111,6 +123,8 @@ module Eddy
       end
       alias PriceMultiplierQualifier= CTP06=
 
+      # ### CTP07
+      #
       # - Id: 649
       # - Name: Multiplier
       # - Type: R
@@ -124,6 +138,8 @@ module Eddy
       end
       alias Multiplier= CTP07=
 
+      # ### CTP08
+      #
       # - Id: 782
       # - Name: Monetary Amount
       # - Type: R

@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### PID01
+      #
       # - Id: 349
       # - Name: Item Description Type
       # - Type: ID
@@ -40,6 +42,8 @@ module Eddy
       end
       alias ItemDescriptionType= PID01=
 
+      # ### PID02
+      #
       # - Id: 750
       # - Name: Product/Process Characteristic Code
       # - Type: ID
@@ -53,6 +57,8 @@ module Eddy
       end
       alias ProductProcessCharacteristicCode= PID02=
 
+      # ### PID03
+      #
       # - Id: 559
       # - Name: Agency Qualifier Code
       # - Type: ID
@@ -66,6 +72,8 @@ module Eddy
       end
       alias AgencyQualifierCode= PID03=
 
+      # ### PID04
+      #
       # - Id: 751
       # - Name: Product Description Code
       # - Type: AN
@@ -79,6 +87,8 @@ module Eddy
       end
       alias ProductDescriptionCode= PID04=
 
+      # ### PID05
+      #
       # - Id: 352
       # - Name: Description
       # - Type: AN

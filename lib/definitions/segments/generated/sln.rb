@@ -31,6 +31,8 @@ module Eddy
         )
       end
 
+      # ### SLN01
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -44,6 +46,8 @@ module Eddy
       end
       alias AssignedIdentification1= SLN01=
 
+      # ### SLN02
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -57,6 +61,8 @@ module Eddy
       end
       alias AssignedIdentification2= SLN02=
 
+      # ### SLN03
+      #
       # - Id: 662
       # - Name: Relationship Code
       # - Type: ID
@@ -70,6 +76,8 @@ module Eddy
       end
       alias RelationshipCode= SLN03=
 
+      # ### SLN04
+      #
       # - Id: 380
       # - Name: Quantity
       # - Type: R
@@ -83,6 +91,8 @@ module Eddy
       end
       alias Quantity= SLN04=
 
+      # ### SLN05
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -96,6 +106,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode= SLN05=
 
+      # ### SLN06
+      #
       # - Id: 212
       # - Name: Unit Price
       # - Type: R
@@ -109,6 +121,8 @@ module Eddy
       end
       alias UnitPrice= SLN06=
 
+      # ### SLN07
+      #
       # - Id: 639
       # - Name: Basis of Unit Price Code
       # - Type: ID

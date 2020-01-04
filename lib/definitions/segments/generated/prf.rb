@@ -25,6 +25,8 @@ module Eddy
         )
       end
 
+      # ### PRF01
+      #
       # - Id: 324
       # - Name: Purchase Order Number
       # - Type: AN
@@ -38,6 +40,8 @@ module Eddy
       end
       alias PurchaseOrderNumber= PRF01=
 
+      # ### PRF02
+      #
       # - Id: 328
       # - Name: Release Number
       # - Type: AN
@@ -51,6 +55,8 @@ module Eddy
       end
       alias ReleaseNumber= PRF02=
 
+      # ### PRF03
+      #
       # - Id: 327
       # - Name: Change Order Sequence Number
       # - Type: AN
@@ -64,6 +70,8 @@ module Eddy
       end
       alias ChangeOrderSequenceNumber= PRF03=
 
+      # ### PRF04
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT

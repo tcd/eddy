@@ -25,6 +25,8 @@ module Eddy
         )
       end
 
+      # ### BAK01
+      #
       # - Id: 353
       # - Name: Transaction Set Purpose Code
       # - Type: ID
@@ -38,6 +40,8 @@ module Eddy
       end
       alias TransactionSetPurposeCode= BAK01=
 
+      # ### BAK02
+      #
       # - Id: 587
       # - Name: Acknowledgment Type
       # - Type: ID
@@ -51,6 +55,8 @@ module Eddy
       end
       alias AcknowledgmentType= BAK02=
 
+      # ### BAK03
+      #
       # - Id: 324
       # - Name: Purchase Order Number
       # - Type: AN
@@ -64,6 +70,8 @@ module Eddy
       end
       alias PurchaseOrderNumber= BAK03=
 
+      # ### BAK04
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT

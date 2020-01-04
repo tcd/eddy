@@ -13,12 +13,12 @@ module Eddy
         @id = "TD1"
         @name = "Carrier Details (Quantity and Weight)"
         @td101 = Eddy::Elements::E103.new(ref: "TD101", req: "O")
-        @td102 = Eddy::Elements::E80.new(ref:  "TD102", req: "X")
-        @td103 = Eddy::Elements::E23.new(ref:  "TD103", req: "O")
-        @td104 = Eddy::Elements::E22.new(ref:  "TD104", req: "X")
-        @td105 = Eddy::Elements::E79.new(ref:  "TD105", req: "O")
+        @td102 = Eddy::Elements::E80.new(ref: "TD102", req: "X")
+        @td103 = Eddy::Elements::E23.new(ref: "TD103", req: "O")
+        @td104 = Eddy::Elements::E22.new(ref: "TD104", req: "X")
+        @td105 = Eddy::Elements::E79.new(ref: "TD105", req: "O")
         @td106 = Eddy::Elements::E187.new(ref: "TD106", req: "O")
-        @td107 = Eddy::Elements::E81.new(ref:  "TD107", req: "X")
+        @td107 = Eddy::Elements::E81.new(ref: "TD107", req: "X")
         @td108 = Eddy::Elements::E355.new(ref: "TD108", req: "X")
         super(
           store,
@@ -33,6 +33,8 @@ module Eddy
         )
       end
 
+      # ### TD101
+      #
       # - Id: 103
       # - Name: Packaging Code
       # - Type: AN
@@ -46,6 +48,8 @@ module Eddy
       end
       alias PackagingCode= TD101=
 
+      # ### TD102
+      #
       # - Id: 80
       # - Name: Lading Quantity
       # - Type: N0
@@ -59,6 +63,8 @@ module Eddy
       end
       alias LadingQuantity= TD102=
 
+      # ### TD103
+      #
       # - Id: 23
       # - Name: Commodity Code Qualifier
       # - Type: ID
@@ -72,6 +78,8 @@ module Eddy
       end
       alias CommodityCodeQualifier= TD103=
 
+      # ### TD104
+      #
       # - Id: 22
       # - Name: Commodity Code
       # - Type: AN
@@ -85,6 +93,8 @@ module Eddy
       end
       alias CommodityCode= TD104=
 
+      # ### TD105
+      #
       # - Id: 79
       # - Name: Lading Description
       # - Type: AN
@@ -98,6 +108,8 @@ module Eddy
       end
       alias LadingDescription= TD105=
 
+      # ### TD106
+      #
       # - Id: 187
       # - Name: Weight Qualifier
       # - Type: ID
@@ -111,6 +123,8 @@ module Eddy
       end
       alias WeightQualifier= TD106=
 
+      # ### TD107
+      #
       # - Id: 81
       # - Name: Weight
       # - Type: R
@@ -124,6 +138,8 @@ module Eddy
       end
       alias Weight= TD107=
 
+      # ### TD108
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID

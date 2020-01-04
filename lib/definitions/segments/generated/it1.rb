@@ -47,6 +47,8 @@ module Eddy
         )
       end
 
+      # ### IT101
+      #
       # - Id: 350
       # - Name: Assigned Identification
       # - Type: AN
@@ -60,6 +62,8 @@ module Eddy
       end
       alias AssignedIdentification= IT101=
 
+      # ### IT102
+      #
       # - Id: 358
       # - Name: Quantity Invoiced
       # - Type: R
@@ -73,6 +77,8 @@ module Eddy
       end
       alias QuantityInvoiced= IT102=
 
+      # ### IT103
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -86,6 +92,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode= IT103=
 
+      # ### IT104
+      #
       # - Id: 212
       # - Name: Unit Price
       # - Type: R
@@ -99,6 +107,8 @@ module Eddy
       end
       alias UnitPrice= IT104=
 
+      # ### IT105
+      #
       # - Id: 639
       # - Name: Basis of Unit Price Code
       # - Type: ID
@@ -112,6 +122,8 @@ module Eddy
       end
       alias BasisOfUnitPriceCode= IT105=
 
+      # ### IT106
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -125,6 +137,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier1= IT106=
 
+      # ### IT107
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -138,6 +152,8 @@ module Eddy
       end
       alias ProductServiceId1= IT107=
 
+      # ### IT108
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -151,6 +167,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier2= IT108=
 
+      # ### IT109
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -164,6 +182,8 @@ module Eddy
       end
       alias ProductServiceId2= IT109=
 
+      # ### IT110
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -177,6 +197,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier3= IT110=
 
+      # ### IT111
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -190,6 +212,8 @@ module Eddy
       end
       alias ProductServiceId3= IT111=
 
+      # ### IT112
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -203,6 +227,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier4= IT112=
 
+      # ### IT113
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN
@@ -216,6 +242,8 @@ module Eddy
       end
       alias ProductServiceId4= IT113=
 
+      # ### IT114
+      #
       # - Id: 235
       # - Name: Product/Service ID Qualifier
       # - Type: ID
@@ -229,6 +257,8 @@ module Eddy
       end
       alias ProductServiceIdQualifier5= IT114=
 
+      # ### IT115
+      #
       # - Id: 234
       # - Name: Product/Service ID
       # - Type: AN

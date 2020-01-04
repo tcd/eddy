@@ -14,7 +14,7 @@ module Eddy
         @name = "Transaction Totals"
         @ctt01 = Eddy::Elements::E354.new(ref: "CTT01", req: "M")
         @ctt02 = Eddy::Elements::E347.new(ref: "CTT02", req: "O")
-        @ctt03 = Eddy::Elements::E81.new(ref:  "CTT03", req: "X")
+        @ctt03 = Eddy::Elements::E81.new(ref: "CTT03", req: "X")
         @ctt04 = Eddy::Elements::E355.new(ref: "CTT04", req: "X")
         @ctt05 = Eddy::Elements::E183.new(ref: "CTT05", req: "X")
         @ctt06 = Eddy::Elements::E355.new(ref: "CTT06", req: "X")
@@ -31,6 +31,8 @@ module Eddy
         )
       end
 
+      # ### CTT01
+      #
       # - Id: 354
       # - Name: Number of Line Items
       # - Type: N0
@@ -44,6 +46,8 @@ module Eddy
       end
       alias NumberOfLineItems= CTT01=
 
+      # ### CTT02
+      #
       # - Id: 347
       # - Name: Hash Total
       # - Type: R
@@ -57,6 +61,8 @@ module Eddy
       end
       alias HashTotal= CTT02=
 
+      # ### CTT03
+      #
       # - Id: 81
       # - Name: Weight
       # - Type: R
@@ -70,6 +76,8 @@ module Eddy
       end
       alias Weight= CTT03=
 
+      # ### CTT04
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -83,6 +91,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode1= CTT04=
 
+      # ### CTT05
+      #
       # - Id: 183
       # - Name: Volume
       # - Type: R
@@ -96,6 +106,8 @@ module Eddy
       end
       alias Volume= CTT05=
 
+      # ### CTT06
+      #
       # - Id: 355
       # - Name: Unit or Basis for Measurement Code
       # - Type: ID
@@ -109,6 +121,8 @@ module Eddy
       end
       alias UnitOrBasisForMeasurementCode2= CTT06=
 
+      # ### CTT07
+      #
       # - Id: 352
       # - Name: Description
       # - Type: AN

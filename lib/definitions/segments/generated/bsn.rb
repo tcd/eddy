@@ -12,10 +12,10 @@ module Eddy
       def initialize(store)
         @id = "BSN"
         @name = "Beginning Segment for Ship Notice"
-        @bsn01 = Eddy::Elements::E353.new(ref:  "BSN01", req: "M")
-        @bsn02 = Eddy::Elements::E396.new(ref:  "BSN02", req: "M")
-        @bsn03 = Eddy::Elements::E373.new(ref:  "BSN03", req: "M")
-        @bsn04 = Eddy::Elements::E337.new(ref:  "BSN04", req: "M")
+        @bsn01 = Eddy::Elements::E353.new(ref: "BSN01", req: "M")
+        @bsn02 = Eddy::Elements::E396.new(ref: "BSN02", req: "M")
+        @bsn03 = Eddy::Elements::E373.new(ref: "BSN03", req: "M")
+        @bsn04 = Eddy::Elements::E337.new(ref: "BSN04", req: "M")
         @bsn05 = Eddy::Elements::E1005.new(ref: "BSN05", req: "O")
         super(
           store,
@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### BSN01
+      #
       # - Id: 353
       # - Name: Transaction Set Purpose Code
       # - Type: ID
@@ -40,6 +42,8 @@ module Eddy
       end
       alias TransactionSetPurposeCode= BSN01=
 
+      # ### BSN02
+      #
       # - Id: 396
       # - Name: Shipment Identification
       # - Type: AN
@@ -53,6 +57,8 @@ module Eddy
       end
       alias ShipmentIdentification= BSN02=
 
+      # ### BSN03
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT
@@ -66,6 +72,8 @@ module Eddy
       end
       alias Date= BSN03=
 
+      # ### BSN04
+      #
       # - Id: 337
       # - Name: Time
       # - Type: TM
@@ -79,6 +87,8 @@ module Eddy
       end
       alias Time= BSN04=
 
+      # ### BSN05
+      #
       # - Id: 1005
       # - Name: Hierarchical Structure Code
       # - Type: ID

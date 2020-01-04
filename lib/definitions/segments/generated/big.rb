@@ -13,7 +13,7 @@ module Eddy
         @id = "BIG"
         @name = "Beginning Segment for Invoice"
         @big01 = Eddy::Elements::E373.new(ref: "BIG01", req: "M")
-        @big02 = Eddy::Elements::E76.new(ref:  "BIG02", req: "M")
+        @big02 = Eddy::Elements::E76.new(ref: "BIG02", req: "M")
         @big03 = Eddy::Elements::E373.new(ref: "BIG03", req: "O")
         @big04 = Eddy::Elements::E324.new(ref: "BIG04", req: "O")
         @big05 = Eddy::Elements::E328.new(ref: "BIG05", req: "O")
@@ -27,6 +27,8 @@ module Eddy
         )
       end
 
+      # ### BIG01
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT
@@ -40,6 +42,8 @@ module Eddy
       end
       alias Date1= BIG01=
 
+      # ### BIG02
+      #
       # - Id: 76
       # - Name: Invoice Number
       # - Type: AN
@@ -53,6 +57,8 @@ module Eddy
       end
       alias InvoiceNumber= BIG02=
 
+      # ### BIG03
+      #
       # - Id: 373
       # - Name: Date
       # - Type: DT
@@ -66,6 +72,8 @@ module Eddy
       end
       alias Date2= BIG03=
 
+      # ### BIG04
+      #
       # - Id: 324
       # - Name: Purchase Order Number
       # - Type: AN
@@ -79,6 +87,8 @@ module Eddy
       end
       alias PurchaseOrderNumber= BIG04=
 
+      # ### BIG05
+      #
       # - Id: 328
       # - Name: Release Number
       # - Type: AN
