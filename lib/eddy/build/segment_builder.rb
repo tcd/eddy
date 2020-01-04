@@ -117,37 +117,17 @@ module Eddy
 
       # @return [String]
       def accessors()
-        if self.aliases
-          self.find_duplicate_elements()
-          defs = self.summary.elements.map do |el|
-            Eddy::Build::SegmentBuilder.element_accessor_v3(el, self.duplicate_elements, header: self.headers)
-          end
-        else
-          defs = self.summary.elements.map do |el|
-            Eddy::Build::SegmentBuilder.element_accessor_v2(el, header: self.headers)
-          end
+        self.find_duplicate_elements()
+        defs = self.summary.elements.map do |el|
+          Eddy::Build::SegmentBuilder.element_accessor_v2(el, self.duplicate_elements)
         end
         return defs.join("\n\n")
       end
 
       # @param el [Eddy::Schema::ElementSummary]
+      # @param header [Symbol] (see Eddy::Schema::ElementSummary#doc_comment)
       # @return [String]
-      def self.element_accessor_v1(el)
-        return <<~RB.strip
-          # (see Eddy::Elements::#{Eddy::Util.normalize_id(el.id)})
-          #
-          # @param arg [#{el.yard_type}]
-          # @return [void]
-          def #{el.ref.upcase}=(arg)
-            @#{el.ref.downcase}.value = arg
-          end
-        RB
-      end
-
-      # @param el [Eddy::Schema::ElementSummary]
-      # @param header [Boolean] (false)
-      # @return [String]
-      def self.element_accessor_v2(el, header: false)
+      def self.element_accessor_v1(el, header: :summary)
         return <<~RB.strip
           #{el.doc_comment(header: header).gsub(/^/, '# ').gsub(/([[:blank:]]+)$/, '')}
           #
@@ -163,7 +143,7 @@ module Eddy
       # @param dupes [Hash]
       # @param header [Boolean] (false)
       # @return [String]
-      def self.element_accessor_v3(el, dupes, header: false)
+      def self.element_accessor_v2(el, dupes, header: :ref)
         if dupes.key?(el.name)
           normal_name = el.normalized_name + dupes[el.name].to_s
           dupes[el.name] += 1

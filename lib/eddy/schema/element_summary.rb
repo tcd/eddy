@@ -68,34 +68,15 @@ module Eddy
 
       # Generate a description to use as a doc comment for an element.
       #
-      # @param header [Boolean] (true)
-      # @param ref_header [Boolean] (true)
+      # @param header [Hash<:none, :ref, :see, :summary>] (:summary)
       # @return [String]
-      def doc_comment(header: true, ref_header: false)
-        parts = []
-        parts << "### Element Summary:\n" if header && !ref_header
-        parts << "### #{self.ref.upcase}\n" if ref_header
-        parts << <<~YARD.strip
-          - Id: #{self.id}
-          - Name: #{self.name}
-          - Type: #{self.type}
-          - Min/Max: #{self.min}/#{self.max}
-          - Description: #{self.description}
-        YARD
-        return parts.compact.join("\n")
-      end
-
-      # Generate a description to use as a doc comment for an element.
-      #
-      # @param header [Hash<:none, :ref, :see, :summary>] (true)
-      # @return [String]
-      def doc_comment_v2(header: :summary)
+      def doc_comment(header: :summary)
         parts = []
         case header
         when :none, nil, false
           # Nothing to do
+        when :see     then return "(see Eddy::Elements::#{Eddy::Util.normalize_id(self.id)})"
         when :ref     then parts << "### #{self.ref.upcase}\n"
-        when :see     then parts << "# (see Eddy::Elements::#{Eddy::Util.normalize_id(self.id)})"
         when :summary then parts << "### Element Summary:\n"
         else raise ArgumentError, "header must be a valid symbol"
         end

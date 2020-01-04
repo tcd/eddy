@@ -5,15 +5,6 @@ module BuildTest
     class MainTest < Minitest::Test
 
       def setup
-        @summary = Eddy::Schema::SegmentSummary.create({
-          id: "N2",
-          name: "Additional Name Information",
-          purpose: "To identify a party by type of organization, name, and code.",
-          elements: [
-            { ref: "n201", id: "93", req: "M" },
-            { ref: "n202", id: "93", req: "O" },
-          ],
-        })
         @n2_segment = <<~RB.strip
           module Eddy
             module Segments
@@ -38,7 +29,7 @@ module BuildTest
                   )
                 end
 
-                # ### Element Summary:
+                # ### N201
                 #
                 # - Id: 93
                 # - Name: Name
@@ -53,7 +44,7 @@ module BuildTest
                 end
                 alias Name1= N201=
 
-                # ### Element Summary:
+                # ### N202
                 #
                 # - Id: 93
                 # - Name: Name
@@ -74,21 +65,8 @@ module BuildTest
         RB
       end
 
-      def test_from_summary
-        have = Eddy::Build::SegmentBuilder.from_summary(
-          @summary,
-          headers: true,
-          aliases: true,
-        ).ginny_class().render()
-        assert_equal(@n2_segment, have)
-      end
-
       def test_from_definition
-        have = Eddy::Build::SegmentBuilder.from_file(
-          file_fixture("schema/segments/n2.segment.yml"),
-          headers: true,
-          aliases: true,
-        ).ginny_class().render()
+        have = Eddy::Build::SegmentBuilder.from_file(file_fixture("schema/segments/n2.segment.yml")).ginny_class().render()
         assert_equal(@n2_segment, have)
       end
 

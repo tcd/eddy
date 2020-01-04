@@ -17,7 +17,7 @@ module SchemaTest
         - Min/Max: 1/60
         - Description: Free-form name
       RB
-      assert_equal(want, @summary_93.doc_comment)
+      assert_equal(want, @summary_93.doc_comment(header: :summary))
     end
 
     def test_doc_comment_without_header
@@ -28,7 +28,7 @@ module SchemaTest
         - Min/Max: 1/60
         - Description: Free-form name
       RB
-      assert_equal(want, @summary_93.doc_comment(header: false))
+      assert_equal(want, @summary_93.doc_comment(header: :none))
     end
 
     def test_doc_comment_with_ref_header
@@ -43,7 +43,7 @@ module SchemaTest
       RB
       s = Eddy::Schema::ElementSummary.default_for_id("93")
       s.ref = "N201"
-      assert_equal(want, s.doc_comment(ref_header: true))
+      assert_equal(want, s.doc_comment(header: :ref))
     end
 
   end
