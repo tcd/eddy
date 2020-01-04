@@ -5,7 +5,7 @@ name: Ship Notice/Manifest (Advance Ship Notice)
 components:
 - { id: BSN, req: M }
 - { id: DTM, req: O }
-- loop_id: HL_Shipment
+- loop_id: HL_SHIPMENT
   repeat: 200000
   req: M
   components:
@@ -20,19 +20,19 @@ components:
         - { id: N1, req: M }
         - { id: N3, req: O }
         - { id: N4, req: O }
-    - loop_id: HL_Order
+    - loop_id: HL_ORDER
       repeat: 1
       req: M
       components:
         - { id: HL,  req: M }
         - { id: PRF, req: O }
-    - loop_id: HL_Tare
+    - loop_id: HL_TARE
       repeat: 1
       req: M
       components:
         - { id: HL,  req: M }
         - { id: MAN, req: O, usage: must_use }
-    - loop_id: HL_Item
+    - loop_id: HL_ITEM
       repeat: 1
       req: M
       components:

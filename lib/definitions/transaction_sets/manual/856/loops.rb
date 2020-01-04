@@ -17,7 +17,7 @@ module Eddy
         #   - HL_ORDER (loop)
         #   - HL_TARE (loop)
         #   - HL_ITEM (loop)
-        class HL_Shipment < Eddy::Loop::Base
+        class HL_SHIPMENT < Eddy::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)

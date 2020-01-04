@@ -30,6 +30,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::BSN)
+        #
         # @yieldparam [Eddy::Segments::BSN] bsn
         # @return [Eddy::Segments::BSN]
         def BSN()
@@ -38,6 +39,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::DTM)
+        #
         # @yieldparam [Eddy::Segments::DTM] dtm
         # @return [Eddy::Segments::DTM]
         def DTM()
@@ -46,6 +48,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS856::Loops::HL_SHIPMENT)
+        #
         # @yieldparam [Eddy::Segments::HL] hl
         # @yieldparam [Eddy::Segments::TD1] td1
         # @yieldparam [Eddy::Segments::TD5] td5
@@ -58,7 +61,7 @@ module Eddy
         # @return [void]
         def HL_SHIPMENT(&block)
           if block_given?
-            @l_hl_shipment.add_iteration(&block)
+            @hl_shipment.add_iteration(&block)
           else
             raise Eddy::Errors::Error, "No block given in loop iteration"
           end
@@ -66,6 +69,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::CTT)
+        #
         # @yieldparam [Eddy::Segments::CTT] ctt
         # @return [Eddy::Segments::CTT]
         def CTT()
