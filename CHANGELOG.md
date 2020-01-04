@@ -7,17 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
-### Changed
-
-- Improved messages from validation errors.
-
-## 0.2.0 (2019-12-26)
-
-Version(s) 0.2.x exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
+Versions 0.x.x (0.2.0, 0.3.0) exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
 
 All code should be considered Work In Progress.
 
-While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (I wouldn't recommend use in production environments yet).
+While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
+
+## 0.3.0 (2020-01-04)
+
+### Added
+
+- Code for generating Transaction Set classes.
+- Code for writing the following transaction sets:
+    - 810
+    - 850
+    - 855
+    - 856
+
+### Changed
+
+- Improved messages from validation errors.
+- Improved YARD comments for all EDI classes.
+- Improved test coverage.
+
+## 0.2.0 (2019-12-26)
 
 ### Added
 
