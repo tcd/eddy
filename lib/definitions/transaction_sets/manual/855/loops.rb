@@ -73,8 +73,7 @@ module Eddy
               Eddy::Segments::PID,
             ]
           end
-
-          # @!method add_iteration(&block)
+          # @!method add_iteration()
           #   @yieldparam [Eddy::Segments::PID] pid
           #   @return [void]
         end
@@ -94,8 +93,7 @@ module Eddy
               Eddy::Segments::ACK,
             ]
           end
-
-          # @!method add_iteration(&block)
+          # @!method add_iteration()
           #   @yieldparam [Eddy::Segments::ACK] ack
           #   @return [void]
         end

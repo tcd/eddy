@@ -49,7 +49,7 @@ module Eddy
 
         # (see Eddy::TransactionSets::TS856::Loops::HL_SHIPMENT)
         #
-        # @yieldparam [Eddy::Segments::HL] hl
+        # @yieldparam [Eddy::Segments::HL] hl_s
         # @yieldparam [Eddy::Segments::TD1] td1
         # @yieldparam [Eddy::Segments::TD5] td5
         # @yieldparam [Eddy::Segments::REF] ref

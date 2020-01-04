@@ -35,9 +35,8 @@ module Eddy
               Eddy::TransactionSets::TS856::Loops::HL_ITEM,
             ]
           end
-
           # @!method add_iteration(&block)
-          #   @yieldparam [Eddy::Segments::HL] hl
+          #   @yieldparam [Eddy::Segments::HL] hl_s
           #   @yieldparam [Eddy::Segments::TD1] td1
           #   @yieldparam [Eddy::Segments::TD5] td5
           #   @yieldparam [Eddy::Segments::REF] ref
@@ -68,7 +67,6 @@ module Eddy
               Eddy::Segments::N4,
             ]
           end
-
           # @!method add_iteration(&block)
           #   @yieldparam [Eddy::Segments::N1] n1
           #   @yieldparam [Eddy::Segments::N3] n3
@@ -93,9 +91,8 @@ module Eddy
               Eddy::Segments::PRF,
             ]
           end
-
           # @!method add_iteration(&block)
-          #   @yieldparam [Eddy::Segments::HL] hl
+          #   @yieldparam [Eddy::Segments::HL] hl_o
           #   @yieldparam [Eddy::Segments::PRF] prf
           #   @return [void]
         end
@@ -117,9 +114,8 @@ module Eddy
               Eddy::Segments::MAN,
             ]
           end
-
           # @!method add_iteration(&block)
-          #   @yieldparam [Eddy::Segments::HL] hl
+          #   @yieldparam [Eddy::Segments::HL] hl_t
           #   @yieldparam [Eddy::Segments::MAN] man
           #   @return [void]
         end
@@ -145,9 +141,8 @@ module Eddy
               Eddy::Segments::SLN,
             ]
           end
-
           # @!method add_iteration(&block)
-          #   @yieldparam [Eddy::Segments::HL] hl
+          #   @yieldparam [Eddy::Segments::HL] hl_i
           #   @yieldparam [Eddy::Segments::LIN] lin
           #   @yieldparam [Eddy::Segments::SN1] sn1
           #   @yieldparam [Eddy::Segments::SLN] sln
