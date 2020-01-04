@@ -40,6 +40,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::BIG)
+        #
         # @yieldparam [Eddy::Segments::BIG] big
         # @return [Eddy::Segments::BIG]
         def BIG()
@@ -48,6 +49,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::REF)
+        #
         # @yieldparam [Eddy::Segments::REF] ref
         # @return [Eddy::Segments::REF]
         def REF()
@@ -56,6 +58,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS810::Loops::N1)
+        #
         # @yieldparam [Eddy::Segments::N1] n1
         # @yieldparam [Eddy::Segments::N3] n3
         # @yieldparam [Eddy::Segments::N4] n4
@@ -70,6 +73,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::DTM)
+        #
         # @yieldparam [Eddy::Segments::DTM] dtm
         # @return [Eddy::Segments::DTM]
         def DTM()
@@ -78,6 +82,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS810::Loops::IT1)
+        #
         # @yieldparam [Eddy::Segments::IT1] it1
         # @yieldparam [Eddy::Segments::CTP] ctp
         # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID] l_pid
@@ -93,6 +98,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::TDS)
+        #
         # @yieldparam [Eddy::Segments::TDS] tds
         # @return [Eddy::Segments::TDS]
         def TDS()
@@ -101,6 +107,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::CAD)
+        #
         # @yieldparam [Eddy::Segments::CAD] cad
         # @return [Eddy::Segments::CAD]
         def CAD()
@@ -109,6 +116,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS810::Loops::SAC)
+        #
         # @yieldparam [Eddy::Segments::SAC] sac
         # @return [void]
         def L_SAC(&block)
@@ -121,6 +129,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::CTT)
+        #
         # @yieldparam [Eddy::Segments::CTT] ctt
         # @return [Eddy::Segments::CTT]
         def CTT()

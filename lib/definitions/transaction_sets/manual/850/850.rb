@@ -32,6 +32,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::BEG)
+        #
         # @yieldparam [Eddy::Segments::BEG] beg
         # @return [Eddy::Segments::BEG]
         def BEG()
@@ -40,6 +41,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::TD5)
+        #
         # @yieldparam [Eddy::Segments::TD5] td5
         # @return [Eddy::Segments::TD5]
         def TD5()
@@ -48,6 +50,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS850::Loops::N1)
+        #
         # @yieldparam [Eddy::Segments::N1] n1
         # @yieldparam [Eddy::Segments::N3] n3
         # @yieldparam [Eddy::Segments::N4] n4
@@ -62,6 +65,7 @@ module Eddy
         end
 
         # (see Eddy::TransactionSets::TS850::Loops::PO1)
+        #
         # @yieldparam [Eddy::Segments::PO1] po1
         # @return [void]
         def L_PO1(&block)
@@ -74,6 +78,7 @@ module Eddy
         end
 
         # (see Eddy::Segments::CTT)
+        #
         # @yieldparam [Eddy::Segments::CTT] ctt
         # @return [Eddy::Segments::CTT]
         def CTT()

@@ -165,6 +165,7 @@ module Eddy
         lower = segment_id.downcase
         return <<~RB.strip
           # (see Eddy::Segments::#{upper})
+          #
           # @yieldparam [Eddy::Segments::#{upper}] #{lower}
           # @return [Eddy::Segments::#{upper}]
           def #{upper}()
@@ -182,6 +183,7 @@ module Eddy
         lower = summary.loop_id.downcase
         return <<~RB.strip
           # (see Eddy::TransactionSets::#{t_set_name}::Loops::#{upper})
+          #
           #{self.loop_components(summary, t_set_name)}
           # @return [void]
           def L_#{upper}(&block)
