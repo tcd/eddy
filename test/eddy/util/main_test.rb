@@ -24,7 +24,10 @@ module UtilTest
     end
 
     def test_read_json_or_yaml
-      skip()
+      assert_equal(
+        Eddy::Util.read_json_or_yaml(file_fixture("test.json")),
+        Eddy::Util.read_json_or_yaml(file_fixture("test.yml")),
+      )
     end
 
     def test_timestamp
