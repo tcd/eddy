@@ -13,6 +13,7 @@ module Eddy
         c = self.ginny_class(
           el,
           ("\n" + self.default_constructor(el) + "\n\n" + code_list + "\n"),
+          # "\n#{self.default_constructor(el)}\n\n#{code_list}\n",
         )
         return c.render if test
         c.generate(
