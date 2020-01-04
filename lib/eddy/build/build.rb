@@ -1,5 +1,10 @@
 require "fileutils"
 
+require "eddy/build/elements/elements"
+require "eddy/build/segment_builder"
+require "eddy/build/loop_builder"
+require "eddy/build/transaction_set_builder"
+
 module Eddy
   # Generate Ruby classes for modeling Semgents & Data Element logic, notes, and validation.
   module Build
@@ -33,10 +38,10 @@ module Eddy
       end
     end
 
+    # @return [void]
+    def self.build_all_elements()
+      Eddy::Build::Elements.generate_elements()
+    end
+
   end
 end
-
-require "eddy/build/elements/elements"
-require "eddy/build/segment_builder"
-require "eddy/build/loop_builder"
-require "eddy/build/transaction_set_builder"
