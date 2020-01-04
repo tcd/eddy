@@ -52,7 +52,7 @@ module BuildTest
         RUBY
         raw_data = @data.find { |d| d[:id] == "I03" }
         summary = Eddy::Schema::ElementSummary.create(raw_data)
-        have = Eddy::Build.id(summary, test: true)
+        have = Eddy::Build::Elements.id(summary, test: true)
         assert_equal(want, have)
       end
 
