@@ -10,7 +10,7 @@ module Eddy
       class TS855 < Eddy::TransactionSet
 
         ID = "855".freeze
-        NAME = "Purchase Order Acknowledgemen".freeze
+        NAME = "Purchase Order Acknowledgement".freeze
         FUNCTIONAL_GROUP = "PR".freeze
 
         # @param store [Eddy::Data::Store]
@@ -28,6 +28,55 @@ module Eddy
             @ctt,
           )
         end
+
+        # (see Eddy::Segments::BAK)
+        #
+        # @yieldparam [Eddy::Segments::BAK] bak
+        # @return [Eddy::Segments::BAK]
+        def BAK()
+          yield(@bak) if block_given?
+          return @bak
+        end
+
+        # (see Eddy::TransactionSets::TS855::Loops::N1)
+        #
+        # @yieldparam [Eddy::Segments::N1] n1
+        # @yieldparam [Eddy::Segments::N3] n3
+        # @yieldparam [Eddy::Segments::N4] n4
+        # @return [void]
+        def L_N1(&block)
+          if block_given?
+            @l_n1.add_iteration(&block)
+          else
+            raise Eddy::Errors::Error, "No block given in loop iteration"
+          end
+          return nil
+        end
+
+        # (see Eddy::TransactionSets::TS855::Loops::PO1)
+        #
+        # @yieldparam [Eddy::Segments::PO1] po1
+        # @yieldparam [Eddy::TransactionSets::TS855::Loops::PID] l_pid
+        # @yieldparam [Eddy::TransactionSets::TS855::Loops::ACK] l_ack
+        # @return [void]
+        def L_PO1(&block)
+          if block_given?
+            @l_po1.add_iteration(&block)
+          else
+            raise Eddy::Errors::Error, "No block given in loop iteration"
+          end
+          return nil
+        end
+
+        # (see Eddy::Segments::CTT)
+        #
+        # @yieldparam [Eddy::Segments::CTT] ctt
+        # @return [Eddy::Segments::CTT]
+        def CTT()
+          yield(@ctt) if block_given?
+          return @ctt
+        end
+
       end
     end
   end
