@@ -11,8 +11,7 @@ Dir.glob(File.join(__dir__, "eddy", "schema", "*.rb")).sort.each { |file| requir
 
 require "eddy/models"
 require "eddy/parse"
-
-require "eddy/build/build"
+require "eddy/build"
 
 # Dir.glob(File.join(__dir__, "definitions", "elements", "manual", "**", "*.rb")).sort.each         { |file| require file }
 # Dir.glob(File.join(__dir__, "definitions", "segments", "manual", "**", "*.rb")).sort.each         { |file| require file }
