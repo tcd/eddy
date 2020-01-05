@@ -7,7 +7,7 @@ module Eddy
   # Persistent data used by Eddy.
   # @return [Eddy::Data::Persistence::Base]
   def self.data
-    return @data if defined? @data
+    return @data if defined?(@data) && !@data.nil?
     case Eddy.config.persistence_method
     when :memory then @data = Eddy::Data::Persistence::Memory.new()
     when :file   then raise NotImplementedError
@@ -17,6 +17,14 @@ module Eddy
     return @data
   end
 
+  # Set `@data` to `nil` so that a new persistence_method can be set up.
+  #
+  # @return [void]
+  def self.clear_data()
+    @data = nil
+  end
+
+  # Code for storing & generating data used by Eddy when generating EDI documents.
   module Data
 
     # @return [Integer]
