@@ -7,11 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
-Versions 0.x.x (0.2.0, 0.3.0) exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
+Versions 0.x.x (0.2.0, 0.3.0, 0.4.0) exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
 
 All code should be considered Work In Progress.
 
 While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
+
+<!-- ## 0.4.0 (2020-01-05) -->
+
+### Added
+
+- Implemented `Eddy::Data::Persistence::ActiveRecord`.
+
+### Changed
+
+- Move generators to separate repo, [tcd/eddy-rails](https://github.com/tcd/eddy-rails).
+- Update `Eddy.data` when `Eddy.config.persistence_method` is changed.
 
 ## 0.3.0 (2020-01-04)
 
