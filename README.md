@@ -14,6 +14,8 @@
 
 ## Installation
 
+### Without Rails
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -28,12 +30,7 @@ bundle
 
 ### With Rails
 
-Once installed, run
-
-```sh
-rails g eddy:install eddy:migration
-rails db:migrate
-```
+Use [eddy-rails](https://github.com/tcd/eddy-rails).
 
 ## Validation
 
