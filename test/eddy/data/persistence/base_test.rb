@@ -2,10 +2,10 @@ require "test_helper"
 
 module DataTest
   module Persistence
-    class MemoryTest < Minitest::Test
+    class BaseTest < Minitest::Test
 
       def setup
-        Eddy.config.persistence_method = :memory
+        Eddy.config.persistence_method = :base
       end
 
       def teardown
