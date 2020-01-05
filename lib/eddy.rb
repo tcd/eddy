@@ -22,4 +22,4 @@ Dir.glob(File.join(__dir__, "definitions", "elements", "**", "*.rb")).sort.each 
 Dir.glob(File.join(__dir__, "definitions", "segments", "**", "*.rb")).sort.each         { |file| require file }
 Dir.glob(File.join(__dir__, "definitions", "transaction_sets", "**", "*.rb")).sort.each { |file| require file }
 
-require "eddy/cli/cli"
+require "eddy/cli"
