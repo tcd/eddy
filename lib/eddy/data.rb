@@ -11,7 +11,12 @@ module Eddy
     case Eddy.config.persistence_method
     when :memory then @data = Eddy::Data::Persistence::Memory.new()
     when :file   then raise NotImplementedError
-    when :db     then raise NotImplementedError
+    when :active_record
+      if defined?(Rails) && defined?(Eddy::Rails)
+        @data = Eddy::Data::Persistence::ActiveRecord.new()
+      else
+        raise Eddy::Errors::Error, "ActiveRecord persistence method can currently only be used with Ruby on Rails"
+      end
     else raise Eddy::Errors::Error, "Unsupported persistence method: #{Eddy.config.persistence_method}"
     end
     return @data
