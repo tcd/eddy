@@ -1,4 +1,5 @@
 module Eddy
+  # Exceptions raised by Eddy.
   module Errors
     # Exceptions raised by Eddy inherit from Error.
     class Error < StandardError; end

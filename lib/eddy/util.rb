@@ -1,8 +1,3 @@
-module Eddy
-  # Assorted helper functions.
-  module Util; end
-end
-
 require "eddy/util/new_number"
 require "eddy/util/normalize"
 require "eddy/util/trim"
@@ -14,3 +9,8 @@ require "eddy/util/time"
 require "eddy/util/paths"
 
 require "eddy/util/edi_data"
+
+module Eddy
+  # Assorted helper functions.
+  module Util; end
+end
