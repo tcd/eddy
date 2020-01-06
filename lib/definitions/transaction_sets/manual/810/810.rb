@@ -57,19 +57,9 @@ module Eddy
           return @ref
         end
 
-        # (see Eddy::TransactionSets::TS810::Loops::N1)
-        #
-        # @yieldparam [Eddy::Segments::N1] n1
-        # @yieldparam [Eddy::Segments::N3] n3
-        # @yieldparam [Eddy::Segments::N4] n4
-        # @return [void]
-        def L_N1(&block)
-          if block_given?
-            @l_n1.add_iteration(&block)
-          else
-            raise Eddy::Errors::Error, "No block given in loop iteration"
-          end
-          return nil
+        # @return [Eddy::TransactionSets::TS810::Loops::N1]
+        def L_N1()
+          return @l_n1
         end
 
         # (see Eddy::Segments::DTM)
@@ -81,20 +71,9 @@ module Eddy
           return @dtm
         end
 
-        # (see Eddy::TransactionSets::TS810::Loops::IT1)
-        #
-        # @yieldparam [Eddy::Segments::IT1] it1
-        # @yieldparam [Eddy::Segments::CTP] ctp
-        # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID] l_pid
-        # @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC] l_sac
-        # @return [void]
-        def L_IT1(&block)
-          if block_given?
-            @l_it1.add_iteration(&block)
-          else
-            raise Eddy::Errors::Error, "No block given in loop iteration"
-          end
-          return nil
+        # @return [Eddy::TransactionSets::TS810::Loops::IT1]
+        def L_IT1()
+          return @l_it1
         end
 
         # (see Eddy::Segments::TDS)
@@ -115,17 +94,9 @@ module Eddy
           return @cad
         end
 
-        # (see Eddy::TransactionSets::TS810::Loops::SAC)
-        #
-        # @yieldparam [Eddy::Segments::SAC] sac
-        # @return [void]
-        def L_SAC(&block)
-          if block_given?
-            @l_sac.add_iteration(&block)
-          else
-            raise Eddy::Errors::Error, "No block given in loop iteration"
-          end
-          return nil
+        # @return [Eddy::TransactionSets::TS810::Loops::SAC]
+        def L_SAC()
+          return @l_sac
         end
 
         # (see Eddy::Segments::CTT)

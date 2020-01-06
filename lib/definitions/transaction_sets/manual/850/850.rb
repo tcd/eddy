@@ -49,32 +49,14 @@ module Eddy
           return @td5
         end
 
-        # (see Eddy::TransactionSets::TS850::Loops::N1)
-        #
-        # @yieldparam [Eddy::Segments::N1] n1
-        # @yieldparam [Eddy::Segments::N3] n3
-        # @yieldparam [Eddy::Segments::N4] n4
-        # @return [void]
-        def L_N1(&block)
-          if block_given?
-            @l_n1.add_iteration(&block)
-          else
-            raise Eddy::Errors::Error, "No block given in loop iteration"
-          end
-          return nil
+        # @return [Eddy::TransactionSets::TS850::Loops::N1]
+        def L_N1()
+          return @l_n1
         end
 
-        # (see Eddy::TransactionSets::TS850::Loops::PO1)
-        #
-        # @yieldparam [Eddy::Segments::PO1] po1
-        # @return [void]
-        def L_PO1(&block)
-          if block_given?
-            @l_po1.add_iteration(&block)
-          else
-            raise Eddy::Errors::Error, "No block given in loop iteration"
-          end
-          return nil
+        # @return [Eddy::TransactionSets::TS850::Loops::PO1]
+        def L_PO1()
+          return @l_po1
         end
 
         # (see Eddy::Segments::CTT)

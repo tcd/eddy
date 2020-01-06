@@ -33,28 +33,28 @@ module WriteTest
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      ts.L_N1 do |n1, n3, n4|
+      ts.L_N1.repeat do |rep|
         # N1
-        n1.N101 = "ST"
-        n1.Name = "Sweeney Todd"
+        rep.N1.N101 = "ST"
+        rep.N1.Name = "Sweeney Todd"
         # N3
-        n3.AddressInformation = "2705 Fleet St"
+        rep.N3.AddressInformation = "2705 Fleet St"
         # N4
-        n4.CityName = "Birmingham"
-        n4.StateOrProvinceCode = "AL"
-        n4.PostalCode = "35226"
-        n4.CountryCode = "US"
+        rep.N4.CityName = "Birmingham"
+        rep.N4.StateOrProvinceCode = "AL"
+        rep.N4.PostalCode = "35226"
+        rep.N4.CountryCode = "US"
       end
-      ts.L_PO1 do |po1|
+      ts.L_PO1.repeat do |rep|
         # CBD Topical Cream 400mg THC Free
-        po1.AssignedIdentification = "1"
-        po1.QuantityOrdered = 1
-        po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 59.95
-        po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662184"
-        po1.ProductServiceIdQualifier2 = "VN"
-        po1.ProductServiceId2 = "860001662184"
+        rep.PO1.AssignedIdentification = "1"
+        rep.PO1.QuantityOrdered = 1
+        rep.PO1.UnitOrBasisForMeasurementCode = "EA"
+        rep.PO1.UnitPrice = 59.95
+        rep.PO1.ProductServiceIdQualifier1 = "UP"
+        rep.PO1.ProductServiceId1 = "860001662184"
+        rep.PO1.ProductServiceIdQualifier2 = "VN"
+        rep.PO1.ProductServiceId2 = "860001662184"
       end
       ts.CTT.NumberOfLineItems = 1
       result = ts.render()
@@ -87,39 +87,39 @@ module WriteTest
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      ts.L_N1 do |n1, n3, n4|
+      ts.L_N1.repeat do |rep|
         # N1
-        n1.N101 = "ST"
-        n1.Name = "Sweeney Todd"
+        rep.N1.N101 = "ST"
+        rep.N1.Name = "Sweeney Todd"
         # N3
-        n3.AddressInformation = "2705 Fleet St"
+        rep.N3.AddressInformation = "2705 Fleet St"
         # N4
-        n4.CityName = "Birmingham"
-        n4.StateOrProvinceCode = "AL"
-        n4.PostalCode = "35226"
-        n4.CountryCode = "US"
+        rep.N4.CityName = "Birmingham"
+        rep.N4.StateOrProvinceCode = "AL"
+        rep.N4.PostalCode = "35226"
+        rep.N4.CountryCode = "US"
       end
-      ts.L_PO1 do |po1|
+      ts.L_PO1.repeat do |rep|
         # CBD Topical Cream 400mg THC Free
-        po1.AssignedIdentification = "1"
-        po1.QuantityOrdered = 1
-        po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 59.95
-        po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662184"
-        po1.ProductServiceIdQualifier2 = "VN"
-        po1.ProductServiceId2 = "860001662184"
+        rep.PO1.AssignedIdentification = "1"
+        rep.PO1.QuantityOrdered = 1
+        rep.PO1.UnitOrBasisForMeasurementCode = "EA"
+        rep.PO1.UnitPrice = 59.95
+        rep.PO1.ProductServiceIdQualifier1 = "UP"
+        rep.PO1.ProductServiceId1 = "860001662184"
+        rep.PO1.ProductServiceIdQualifier2 = "VN"
+        rep.PO1.ProductServiceId2 = "860001662184"
       end
-      ts.L_PO1 do |po1|
+      ts.L_PO1.repeat do |rep|
         # 500mg Full Spectrum Garden Mint Oil Tincture
-        po1.AssignedIdentification = "2"
-        po1.QuantityOrdered = 2
-        po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 49.95
-        po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662108"
-        po1.ProductServiceIdQualifier2 = "VN"
-        po1.ProductServiceId2 = "860001662108"
+        rep.PO1.AssignedIdentification = "2"
+        rep.PO1.QuantityOrdered = 2
+        rep.PO1.UnitOrBasisForMeasurementCode = "EA"
+        rep.PO1.UnitPrice = 49.95
+        rep.PO1.ProductServiceIdQualifier1 = "UP"
+        rep.PO1.ProductServiceId1 = "860001662108"
+        rep.PO1.ProductServiceIdQualifier2 = "VN"
+        rep.PO1.ProductServiceId2 = "860001662108"
       end
       ts.CTT.NumberOfLineItems = 2
       result = ts.render()
