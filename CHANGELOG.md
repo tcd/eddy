@@ -13,6 +13,8 @@ All code should be considered Work In Progress.
 
 While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
 
+## 0.5.1 (2020-01-06)
+
 ### Changed
 
 - Rename variable `loop_id` to `id`.
