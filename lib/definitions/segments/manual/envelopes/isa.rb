@@ -8,7 +8,7 @@ module Eddy
     class ISA < Eddy::Segment
 
       # @param store [Eddy::Data::Store]
-      # @param interchange_control_number [Integer]
+      # @param interchange_control_number [Integer] A unique *interchange control number*.
       # @return [void]
       def initialize(store, interchange_control_number)
         @id = "ISA"

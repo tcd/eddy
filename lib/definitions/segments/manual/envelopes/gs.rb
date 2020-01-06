@@ -8,13 +8,13 @@ module Eddy
     class GS < Eddy::Segment
 
       # @param store [Eddy::Data::Store]
-      # @param group_control_number [Integer]
-      # @param transaction_set [Eddy::TransactionSet]
+      # @param group_control_number [Integer] A unique *functional group control number*.
+      # @param functional_group [String] A two-letter functional group id.
       # @return [void]
-      def initialize(store, group_control_number, transaction_set)
+      def initialize(store, group_control_number, functional_group)
         @id = "GS"
         @name = "Functional Group Header"
-        @gs01 = Eddy::Elements::E479.new(ref: "GS01", req: "M", val: transaction_set.functional_group)
+        @gs01 = Eddy::Elements::E479.new(ref: "GS01", req: "M", val: functional_group)
         @gs02 = Eddy::Elements::E142.new(ref: "GS02", req: "M", val: store.application_senders_code)
         @gs03 = Eddy::Elements::E124.new(ref: "GS03", req: "M", val: store.application_receivers_code)
         @gs04 = Eddy::Elements::E373.new(ref: "GS04", req: "M", val: store.time)
