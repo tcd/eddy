@@ -88,7 +88,7 @@ module Eddy
       #
       # @return [Array<Eddy::Schema::SegmentSummary, Eddy::Schema::LoopSummary>]
       def unique_loops()
-        return self.all_components.select { |c| c.is_a?(Eddy::Schema::LoopSummary) }.uniq(&:loop_id)
+        return self.all_components.select { |c| c.is_a?(Eddy::Schema::LoopSummary) }.uniq(&:id)
       end
 
     end

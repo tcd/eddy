@@ -35,7 +35,7 @@ module Eddy
         return Ginny::Class.create({
           classify_name: false,
           parent: "Eddy::Loop::Base",
-          name: self.summary.loop_id,
+          name: self.summary.id,
           description: summary.doc_comment(header: true),
           body: <<~STR.strip,
             # @param store [Eddy::Data::Store]
@@ -62,7 +62,7 @@ module Eddy
           when Eddy::Schema::SegmentSummary
             comps << "  Eddy::Segments::#{comp.id.upcase},"
           when Eddy::Schema::LoopSummary
-            comps << "  Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.loop_id.upcase},"
+            comps << "  Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.id.upcase},"
           end
         end
         return comps.join("\n  ")
@@ -78,7 +78,7 @@ module Eddy
           when Eddy::Schema::SegmentSummary
             yield_params << "#   @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
           when Eddy::Schema::LoopSummary
-            yield_params << "#   @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.loop_id.upcase}] l_#{comp.loop_id.downcase}"
+            yield_params << "#   @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.id.upcase}] l_#{comp.id.downcase}"
           end
         end
         return <<~YARD.strip

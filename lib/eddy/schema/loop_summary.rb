@@ -5,7 +5,7 @@ module Eddy
 
       # A unique string used to identify the Loop within its Transaction Set.
       # @return [String]
-      attr_accessor :loop_id
+      attr_accessor :id
       # Number of times a particular Loop may be repeated.
       # @return [Integer]
       attr_accessor :repeat
@@ -31,7 +31,7 @@ module Eddy
       # @return [self]
       def self.create(params = {})
         l = LoopSummary.new
-        l.loop_id = params[:loop_id]
+        l.id = params[:loop_id]
         l.repeat = params[:repeat]
         l.notes = params[:notes]
         l.level = params[:level]
@@ -70,7 +70,7 @@ module Eddy
         self.components.each do |comp|
           case comp
           when Eddy::Schema::SegmentSummary then comps << "  - #{comp.id.upcase}\n"
-          when Eddy::Schema::LoopSummary    then comps << "  - #{comp.loop_id.upcase} (loop)\n"
+          when Eddy::Schema::LoopSummary    then comps << "  - #{comp.id.upcase} (loop)\n"
           end
         end
         parts = []

@@ -9,8 +9,9 @@ module Eddy
     class Base
 
       # (Name) A unique string used to identify the Loop within its Transaction Set.
+      # This is not EDI standardized, any name will do.
       # @return [String]
-      attr_reader :loop_id
+      attr_reader :id
       # Number of times a particular Loop may be repeated.
       # @return [Integer]
       attr_reader :repeat
