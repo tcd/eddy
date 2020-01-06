@@ -13,6 +13,22 @@ All code should be considered Work In Progress.
 
 While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
 
+## 0.5.0 (2020-01-05)
+
+### Changed
+
+- Updated the implementation of `Eddy::Interchange` and `Eddy::FunctionalGroup`
+- Added arguments to the `initialize` methods of the following classes:
+    - `Eddy::Segments::GS`
+    - `Eddy::Segments::GE`
+    - `Eddy::Segments::ISA`
+    - `Eddy::Segments::IEA`
+- Slightly modified file/folder layout.
+
+### Removed
+
+- `Eddy::SimpleInterchange` and its associated test.
+
 ## 0.4.0 (2020-01-05)
 
 ### Added
