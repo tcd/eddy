@@ -3,6 +3,11 @@ require "test_helper"
 module WriteTest
   class TS850Test < Minitest::Test
 
+    def setup
+      @epoch = Time.at(0).utc()
+      Eddy.clear_data()
+    end
+
     def test_single_iteration
       want = <<~EDI.gsub(/\n/, "")
         ST*850*0001~
@@ -15,14 +20,13 @@ module WriteTest
         CTT*1~
         SE*9*0001
       EDI
-      epoch = Time.at(0).utc()
-      store = Eddy::Data::Store.new(time: epoch)
+      store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS850::TS850.new(store)
       ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"
         beg.BEG03 = "00000007397108"
-        beg.BEG05 = epoch
+        beg.BEG05 = @epoch
       end
       ts.TD5 do |td5|
         td5.TD501 = "Z"
@@ -70,14 +74,13 @@ module WriteTest
         CTT*2~
         SE*10*0001
       EDI
-      epoch = Time.at(0).utc()
-      store = Eddy::Data::Store.new(time: epoch)
+      store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS850::TS850.new(store)
       ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"
         beg.BEG03 = "00000007397108"
-        beg.BEG05 = epoch
+        beg.BEG05 = @epoch
       end
       ts.TD5 do |td5|
         td5.TD501 = "Z"

@@ -3,6 +3,10 @@ require "test_helper"
 module WriteTest
   class InterchangeTest < Minitest::Test
 
+    def setup
+      Eddy.clear_data()
+    end
+
     def test_the_real_thing
       want = <<~EDI.gsub(/\n/, "")
         ISA*00*          *00*          *ZZ*sender_id      *ZZ*receiver_id    *700101*0000*U*00401*000000001*0*T*>~

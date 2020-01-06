@@ -5,6 +5,7 @@ module WriteTest
 
     def setup
       @epoch = Time.at(0).utc()
+      Eddy.clear_data()
     end
 
     # Generate a valid Invoice for the following Purchase Order:
