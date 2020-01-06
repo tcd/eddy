@@ -6,12 +6,13 @@ Gem::Specification.new do |spec|
   spec.name          = "eddy"
   spec.version       = Eddy::VERSION
   spec.authors       = ["Clay Dunston"]
-  spec.required_ruby_version = ">= 2.5.0"
   spec.email         = ["dunstontc@gmail.com"]
   spec.summary       = "EDI toolkit"
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/tcd/eddy"
   spec.license       = "MIT"
+
+  spec.required_ruby_version = ">= 2.5.0"
 
   spec.metadata = {
     "homepage_uri" => spec.homepage,
