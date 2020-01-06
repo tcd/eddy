@@ -20,7 +20,7 @@ module Eddy
       # @return [String] ("~")
       attr_accessor :segment_separator
       # Data Element Separator
-      # @return [String] ("*")
+      # @return [String] ("\*")
       attr_accessor :element_separator
       # QUESTION: is this the same as `component_separator`?
       #
@@ -68,23 +68,17 @@ module Eddy
         self.version_release_industry_id_code = "004010"
       end
 
-      # (see Eddy::Data.new_interchange_control_number)
-      #
       # @return [Integer]
       def interchange_control_number()
         return Eddy::Data.new_interchange_control_number()
       end
 
-      # (see Eddy::Data.new_transaction_set_control_number)
-      #
       # @param transaction_set_id [String]
       # @return [Integer]
       def transaction_set_control_number(transaction_set_id)
         return Eddy::Data.new_transaction_set_control_number(transaction_set_id)
       end
 
-      # (see Eddy::Data.new_interchange_control_number)
-      #
       # @param functional_group [String]
       # @return [Integer]
       def functional_group_control_number(functional_group)

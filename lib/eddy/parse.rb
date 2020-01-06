@@ -12,13 +12,13 @@ module Eddy
       # @return [String] ("~")
       attr_accessor :segment_separator
       # Data Element Separator
-      # @return [String] ("*")
+      # @return [String] ("\*")
       attr_accessor :element_separator
 
       # @param doc [String] EDI document.
       # @param component_separator [String] (">")
       # @param segment_separator [String] ("~")
-      # @param element_separator [String] ("*")
+      # @param element_separator [String] ("\*")
       # @return [void]
       def initialize(doc, component_separator: ">", segment_separator: "~", element_separator: "*")
         self.document = doc

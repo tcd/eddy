@@ -5,7 +5,7 @@ module Eddy
     # See: [Trailing delimiters and 999 response - X12 RFI](http://www.x12.org/rfis/Trailing%20delimiters%20and%20999%20response.pdf)
     #
     # @param itch [String] String containing an EDI Interchange.
-    # @param element_separator [String] ("*")
+    # @param element_separator [String] ("\*")
     # @param segment_separator [String] ("~")
     # @return [String]
     def self.trim_delims_from_interchange(itch, element_separator: "*", segment_separator: "~")
@@ -17,7 +17,7 @@ module Eddy
     # See: [Trailing delimiters and 999 response - X12 RFI](http://www.x12.org/rfis/Trailing%20delimiters%20and%20999%20response.pdf)
     #
     # @param segment [String] String containing an EDI segment.
-    # @param separator [String] ("*")
+    # @param separator [String] ("\*")
     # @return [String]
     def self.trim_delims_from_segment(segment, separator: "*")
       e_sep = Regexp.escape(separator)
