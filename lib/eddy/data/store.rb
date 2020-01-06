@@ -46,13 +46,6 @@ module Eddy
       # @return [String]
       attr_accessor :version_release_industry_id_code
 
-      # Total number of transaction sets included in the functional group or interchange (transmission) group.
-      # @return [Integer]
-      attr_accessor :number_of_transaction_sets_included
-      # A count of the number of functional groups included in an interchange.
-      # @return [Integer]
-      attr_accessor :number_of_included_functional_groups
-
       # Application Sender's Code
       # Code identifying party sending transmission; codes agreed to by trading partners
       # @return [String]
@@ -70,39 +63,34 @@ module Eddy
         self.segment_separator   = "~"
         self.element_separator   = "*"
         self.edi_version = "00401"
-        self.number_of_included_functional_groups = 0
-        self.number_of_transaction_sets_included  = 0
         self.application_senders_code = "sender_id"
         self.application_receivers_code = "receiver_id"
         self.version_release_industry_id_code = "004010"
-        @group_control_number = 1
       end
 
-      # FIXME: not implemented
+      # (see Eddy::Data.new_interchange_control_number)
       #
       # @return [Integer]
       def interchange_control_number()
-        # raise NotImplementedError
-        return 1
+        return Eddy::Data.new_interchange_control_number()
       end
 
-      # FIXME: not implemented
+      # (see Eddy::Data.new_transaction_set_control_number)
       #
+      # @param transaction_set_id [String]
       # @return [Integer]
-      def transaction_set_control_number()
-        # raise NotImplementedError
-        return 1
+      def transaction_set_control_number(transaction_set_id)
+        return Eddy::Data.new_transaction_set_control_number(transaction_set_id)
       end
 
-      # Returns an incremended value every time it's called.
+      # (see Eddy::Data.new_interchange_control_number)
       #
+      # @param functional_group [String]
       # @return [Integer]
-      def group_control_number()
-        old_count = @group_control_number.dup
-        @group_control_number += 1
-        return old_count
+      def functional_group_control_number(functional_group)
+        return Eddy::Data.new_functional_group_control_number(functional_group)
       end
+
     end
-
   end
 end

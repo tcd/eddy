@@ -5,6 +5,7 @@ require "eddy/data/persistence/memory"
 module Eddy
 
   # Persistent data used by Eddy.
+  #
   # @return [Eddy::Data::Persistence::Base]
   def self.data
     return @data if defined?(@data) && !@data.nil?
@@ -32,6 +33,8 @@ module Eddy
   # Code for storing & generating data used by Eddy when generating EDI documents.
   module Data
 
+    # Return a new, unique number.
+    #
     # @return [Integer]
     def self.new_interchange_control_number
       existing = Eddy.data.interchange_control_numbers()
@@ -40,15 +43,8 @@ module Eddy
       return new_ctrl_num
     end
 
-    # @param functional_group [String]
-    # @return [Integer]
-    def self.new_functional_group_control_number(functional_group)
-      existing = Eddy.data.functional_group_control_numbers(functional_group)
-      new_ctrl_num = Eddy::Util.new_number(existing)
-      Eddy.data.add_functional_group_control_number(functional_group, new_ctrl_num)
-      return new_ctrl_num
-    end
-
+    # Return a new, unique number.
+    #
     # @param transaction_set_id [String]
     # @return [Integer]
     def self.new_transaction_set_control_number(transaction_set_id)
@@ -58,6 +54,16 @@ module Eddy
       return new_ctrl_num
     end
 
-  end
+    # Return a new, unique number.
+    #
+    # @param functional_group [String]
+    # @return [Integer]
+    def self.new_functional_group_control_number(functional_group)
+      existing = Eddy.data.functional_group_control_numbers(functional_group)
+      new_ctrl_num = Eddy::Util.new_number(existing)
+      Eddy.data.add_functional_group_control_number(functional_group, new_ctrl_num)
+      return new_ctrl_num
+    end
 
+  end
 end
