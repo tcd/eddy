@@ -5,7 +5,7 @@ module BuildTest
     class ConstructorTest < Minitest::Test
 
       def setup
-        @summary = Eddy::Schema::SegmentSummary.create({
+        @summary = Eddy::Summary::Segment.create({
           id: "N2",
           name: "Additional Name Information",
           purpose: "To identify a party by type of organization, name, and code.",

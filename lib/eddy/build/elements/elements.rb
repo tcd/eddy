@@ -9,7 +9,7 @@ module Eddy
 
       # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
       #
-      # @param elements [Array<Eddy::Schema::ElementSummary>]
+      # @param elements [Array<Eddy::Summary::Element>]
       # @return [void]
       def self.generate_elements(elements = self.generate_element_data())
         existing = (Eddy::Util.list_element_classes() + Eddy::Util.list_built_elements()).uniq()
@@ -31,12 +31,12 @@ module Eddy
 
       # Generate usable data from `data/004010/elements.tsv`.
       #
-      # @return [Array<Eddy::Schema::ElementSummary>]
+      # @return [Array<Eddy::Summary::Element>]
       def self.generate_element_data()
         data = Eddy::Util.raw_element_data()
         elements = data.map do |el|
           next if el[:type].nil? || el[:description].nil?
-          Eddy::Schema::ElementSummary.create(el)
+          Eddy::Summary::Element.create(el)
         end
         return elements.compact
       end

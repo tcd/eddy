@@ -6,7 +6,7 @@ module Eddy
     # Generate Ruby code from JSON/YAML EDI definitions.
     class SegmentBuilder
 
-      # @return [Eddy::Schema::SegmentSummary]
+      # @return [Eddy::Summary::Segment]
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
@@ -24,14 +24,14 @@ module Eddy
       # @param (see #initialize)
       # @return [Eddy::Build::SegmentBuilder]
       def self.from_file(path, **kwargs)
-        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
+        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Summary.valid_segment_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
         sb = Eddy::Build::SegmentBuilder.new(**kwargs)
-        sb.summary = Eddy::Schema::SegmentSummary.create(data)
+        sb.summary = Eddy::Summary::Segment.create(data)
         return sb
       end
 
-      # @param summary [Eddy::Schema::SegmentSummary]
+      # @param summary [Eddy::Summary::Segment]
       # @param (see #initialize)
       # @return [Eddy::Build::SegmentBuilder]
       def self.from_summary(summary, **kwargs)
@@ -116,8 +116,8 @@ module Eddy
         return defs.join("\n\n")
       end
 
-      # @param el [Eddy::Schema::ElementSummary]
-      # @param header [Symbol] (see Eddy::Schema::ElementSummary#doc_comment)
+      # @param el [Eddy::Summary::Element]
+      # @param header [Symbol] (see Eddy::Summary::Element#doc_comment)
       # @return [String]
       def self.element_accessor_v1(el, header: :summary)
         return <<~RB.strip
@@ -131,7 +131,7 @@ module Eddy
         RB
       end
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @param dupes [Hash]
       # @param header [Boolean] (false)
       # @return [String]

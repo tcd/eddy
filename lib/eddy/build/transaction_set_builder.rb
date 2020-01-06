@@ -12,7 +12,7 @@ module Eddy
     #     - Apply any input over default element attributes.
     class TransactionSetBuilder
 
-      # @return [Eddy::Schema::TransactionSetSummary]
+      # @return [Eddy::Summary::TransactionSet]
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
@@ -31,14 +31,14 @@ module Eddy
       # @param (see #initialize)
       # @return [Eddy::Build::TransactionSetBuilder]
       def self.from_file(path, **kwargs)
-        raise Eddy::Errors::Error, "Invalid transaction set definition" unless Eddy::Schema.valid_transaction_set_data?(path)
+        raise Eddy::Errors::Error, "Invalid transaction set definition" unless Eddy::Summary.valid_transaction_set_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
         builder = Eddy::Build::TransactionSetBuilder.new(**kwargs)
-        builder.summary = Eddy::Schema::TransactionSetSummary.create(data)
+        builder.summary = Eddy::Summary::TransactionSet.create(data)
         return builder
       end
 
-      # @param summary [Eddy::Schema::TransactionSetSummary]
+      # @param summary [Eddy::Summary::TransactionSet]
       # @param (see #initialize)
       # @return [Eddy::Build::TransactionSetBuilder]
       def self.from_summary(summary, **kwargs)
@@ -106,9 +106,9 @@ module Eddy
         decs = ""
         self.summary.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             decs << "@#{comp.id.downcase} = Eddy::Segments::#{comp.id.upcase}.new(store)\n"
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             if comp.repeat == 1
               decs << "@#{comp.id.downcase} = Eddy::Segments::#{comp.id.upcase}.new(store)\n"
             else
@@ -125,9 +125,9 @@ module Eddy
         super_call << "  store,\n"
         self.summary.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             super_call << "  @#{comp.id.downcase},\n"
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             if comp.repeat == 1
               super_call << "  @#{comp.id.downcase},\n"
             else
@@ -145,9 +145,9 @@ module Eddy
       def accessors()
         defs = self.summary.components.map do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             if comp.repeat == 1
               Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
             else
@@ -175,7 +175,7 @@ module Eddy
         RB
       end
 
-      # @param summary [Eddy::Schema::LoopSummary]
+      # @param summary [Eddy::Summary::Loop]
       # @param t_set_name [String]
       # @return [String]
       def self.loop_accessor(summary, t_set_name)
@@ -197,16 +197,16 @@ module Eddy
         RB
       end
 
-      # @param summary [Eddy::Schema::LoopSummary]
+      # @param summary [Eddy::Summary::Loop]
       # @param t_set_name [String]
       # @return [String]
       def self.loop_components(summary, t_set_name)
         comps = []
         summary.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             comps << "# @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             comps << "# @yieldparam [Eddy::TransactionSets::#{t_set_name}::Loops::#{comp.id.upcase}] l_#{comp.id.downcase}"
           end
         end

@@ -4,7 +4,7 @@ module SchemaTest
   class SegmentSummaryTest < Minitest::Test
 
     def setup
-      @summary_n2 = Eddy::Schema::SegmentSummary.from_file(file_fixture("schema/segments/n2.segment.yml"))
+      @summary_n2 = Eddy::Summary::Segment.from_file(file_fixture("schema/segments/n2.segment.yml"))
     end
 
     def test_doc_comment

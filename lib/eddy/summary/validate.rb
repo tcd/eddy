@@ -2,7 +2,7 @@ require "pathname"
 require "json_schemer"
 
 module Eddy
-  module Schema
+  module Summary
 
     # Check a Segment definition file against Eddy's JSON schema.
     #

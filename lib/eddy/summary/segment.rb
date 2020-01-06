@@ -1,7 +1,7 @@
 module Eddy
-  module Schema
+  module Summary
     # A collection of Data Elements. Used in Companion Guides to define a Transaction Set.
-    class SegmentSummary
+    class Segment
 
       # Indicates the order in which Segments should appear in their Level of the Transaction Set.
       # @return [String]
@@ -34,7 +34,7 @@ module Eddy
       # @return [String]
       attr_accessor :level
       # Number of Data Elements included in the Segment.
-      # @return [Array<Eddy::Schema::ElementSummary>]
+      # @return [Array<Eddy::Summary::Element>]
       attr_accessor :elements
 
       # @return [void]
@@ -63,9 +63,9 @@ module Eddy
       # @param path [String] Path to a JSON or YAML file containing a valid Segment definition.
       # @return [self]
       def self.from_file(path)
-        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_segment_data?(path)
+        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Summary.valid_segment_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
-        return Eddy::Schema::SegmentSummary.create(data)
+        return Eddy::Summary::Segment.create(data)
       end
 
       # @param id [String]
@@ -89,7 +89,7 @@ module Eddy
       def process_elements(elements)
         return if elements.nil?
         elements.each do |el|
-          default_el = Eddy::Schema::ElementSummary.default_for_id(el[:id])
+          default_el = Eddy::Summary::Element.default_for_id(el[:id])
           default_el.ref = el[:ref]
           default_el.req = el[:req] || nil
           self.elements << default_el

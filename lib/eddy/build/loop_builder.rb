@@ -5,7 +5,7 @@ module Eddy
     # Generate Ruby code from JSON/YAML EDI definitions.
     class LoopBuilder
 
-      # @return [Eddy::Schema::LoopSummary]
+      # @return [Eddy::Summary::Loop]
       attr_accessor :summary
       # @return [String] (nil)
       attr_accessor :folder
@@ -21,7 +21,7 @@ module Eddy
         self.t_set_id = t_set_id
       end
 
-      # @param summary [Eddy::Schema::LoopSummary]
+      # @param summary [Eddy::Summary::Loop]
       # @param (see #initialize)
       # @return [Eddy::Build::LoopBuilder]
       def self.from_summary(summary, **kwargs)
@@ -59,25 +59,25 @@ module Eddy
         comps = []
         self.summary.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             comps << "  Eddy::Segments::#{comp.id.upcase},"
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             comps << "  Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.id.upcase},"
           end
         end
         return comps.join("\n  ")
       end
 
-      # @param summary [Eddy::Schema::LoopSummary]
+      # @param summary [Eddy::Summary::Loop]
       # @param t_set_id [String]
       # @return [String]
       def self.add_ideration(summary, t_set_id)
         yield_params = []
         summary.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary
+          when Eddy::Summary::Segment
             yield_params << "#   @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
-          when Eddy::Schema::LoopSummary
+          when Eddy::Summary::Loop
             yield_params << "#   @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.id.upcase}] l_#{comp.id.downcase}"
           end
         end

@@ -5,7 +5,7 @@ module BuildTest
     class TS810Test < Minitest::Test
 
       def setup
-        @summary = Eddy::Schema::TransactionSetSummary.from_file(file_fixture("schema/810.edi.yml"))
+        @summary = Eddy::Summary::TransactionSet.from_file(file_fixture("schema/810.edi.yml"))
         @ts      = File.read(file_fixture("ruby/810_ts.rb")).strip
         @loops   = File.read(file_fixture("ruby/810_loops.rb")).strip
       end

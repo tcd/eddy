@@ -4,7 +4,7 @@ module Eddy
   module Build
     module Elements
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
       # @return [void]
       def self.id(el, test: false)

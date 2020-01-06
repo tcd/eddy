@@ -4,8 +4,8 @@ module SchemaTest
   class TransactionSetSummaryTest < Minitest::Test
 
     def setup
-      @summary_810 = Eddy::Schema::TransactionSetSummary.from_file(file_fixture("schema/810.edi.yml"))
-      @summary_856 = Eddy::Schema::TransactionSetSummary.from_file(file_fixture("schema/856.edi.yml"))
+      @summary_810 = Eddy::Summary::TransactionSet.from_file(file_fixture("schema/810.edi.yml"))
+      @summary_856 = Eddy::Summary::TransactionSet.from_file(file_fixture("schema/856.edi.yml"))
     end
 
     def test_doc_comment

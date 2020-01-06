@@ -11,9 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 > 
 > While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
 
-## feature/namespace-models (unreleased)
+## master (unreleased)
 
 ### Changed
+
+- Renamed `Eddy::Schema` to `Eddy::Summary` and removed `Summary` postfix from class names, resulting in the following changes:
+    - `Eddy::Schema::LoopSummary` -> `Eddy::Summary::Loop`
+    - `Eddy::Schema::ElementSummary` -> `Eddy::Summary::Element`
+    - `Eddy::Schema::SegmentSummary` -> `Eddy::Summary::Segment`
+    - `Eddy::Schema::TransactionSetSummary` -> `Eddy::Summary::TransactionSet`
 
 - Moved the following classes into the `Eddy::Models` module:
     - `Element::*`

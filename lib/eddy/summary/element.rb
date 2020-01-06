@@ -1,7 +1,7 @@
 module Eddy
-  module Schema
+  module Summary
     # An individual EDI Data Element. Used in Companion Guides to define requirements for a Segment.
-    class ElementSummary
+    class Element
 
       # Indicates the order in which Elements should appear in their Segment.
       # @return [String]
@@ -37,7 +37,7 @@ module Eddy
       # @param params [Hash] ({})
       # @return [self]
       def self.create(params = {})
-        summary = new()
+        summary = self.new()
         summary.ref          = params[:ref]&.strip
         summary.id           = params[:id]&.strip
         summary.name         = params[:name]&.strip

@@ -4,8 +4,8 @@ module SchemaTest
   class LoopSummaryTest < Minitest::Test
 
     def setup
-      @summary_hl_shipment = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/loops/hl_shipment.loop.yml"))
-      @summary_n1 = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/loops/n1.loop.yml"))
+      @summary_hl_shipment = Eddy::Summary::Loop.from_file(file_fixture("schema/loops/hl_shipment.loop.yml"))
+      @summary_n1 = Eddy::Summary::Loop.from_file(file_fixture("schema/loops/n1.loop.yml"))
     end
 
     def test_doc_comment

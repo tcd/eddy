@@ -4,7 +4,7 @@ module SchemaTest
   class ElementSummaryTest < Minitest::Test
 
     def setup
-      @summary_93 = Eddy::Schema::ElementSummary.default_for_id("93")
+      @summary_93 = Eddy::Summary::Element.default_for_id("93")
     end
 
     def test_doc_comment
@@ -41,7 +41,7 @@ module SchemaTest
         - Min/Max: 1/60
         - Description: Free-form name
       RB
-      s = Eddy::Schema::ElementSummary.default_for_id("93")
+      s = Eddy::Summary::Element.default_for_id("93")
       s.ref = "N201"
       assert_equal(want, s.doc_comment(header: :ref))
     end

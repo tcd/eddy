@@ -35,7 +35,7 @@ module BuildTest
             return nil
           end
         RB
-        summary = Eddy::Schema::LoopSummary.from_file(file_fixture("schema/loops/n1.loop.yml"))
+        summary = Eddy::Summary::Loop.from_file(file_fixture("schema/loops/n1.loop.yml"))
         assert_equal(want, Eddy::Build::TransactionSetBuilder.loop_accessor(summary, "TS810"))
       end
 

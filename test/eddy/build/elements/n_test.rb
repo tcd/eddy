@@ -42,7 +42,7 @@ module BuildTest
           end
         RUBY
         raw_data = @data.find { |d| d[:id] == "784" }
-        summary = Eddy::Schema::ElementSummary.create(raw_data)
+        summary = Eddy::Summary::Element.create(raw_data)
         have = Eddy::Build::Elements.n(summary, test: true)
         assert_equal(want, have)
       end

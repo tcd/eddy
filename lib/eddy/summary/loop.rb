@@ -1,7 +1,7 @@
 module Eddy
-  module Schema
+  module Summary
     # A repeated collection of Segments and/or other Loops. Used in Companion Guides.
-    class LoopSummary
+    class Loop
 
       # A unique string used to identify the Loop within its Transaction Set.
       # @return [String]
@@ -19,7 +19,7 @@ module Eddy
       # @return [String]
       attr_accessor :req
       # The components that make up the Loop.
-      # @return [Array<Eddy::Schema::SegmentSummary, Eddy::Schema::LoopSummary>]
+      # @return [Array<Eddy::Summary::Segment, Eddy::Summary::Loop>]
       attr_accessor :components
 
       # @return [void]
@@ -30,7 +30,7 @@ module Eddy
       # @param params [Hash]
       # @return [self]
       def self.create(params = {})
-        l = LoopSummary.new
+        l = new()
         l.id = params[:loop_id]
         l.repeat = params[:repeat]
         l.notes = params[:notes]
@@ -43,9 +43,9 @@ module Eddy
       # @param path [String] Path to a JSON or YAML file containing a valid Loop definition.
       # @return [self]
       def self.from_file(path)
-        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Schema.valid_loop_data?(path)
+        raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Summary.valid_loop_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
-        return Eddy::Schema::LoopSummary.create(data)
+        return Eddy::Summary::Loop.create(data)
       end
 
       # @param components [Array<Hash>]
@@ -54,9 +54,9 @@ module Eddy
         return if components.nil?
         components.each do |comp|
           if comp.key?(:loop_id)
-            self.components << Eddy::Schema::LoopSummary.create(comp)
+            self.components << Eddy::Summary::Loop.create(comp)
           else
-            self.components << Eddy::Schema::SegmentSummary.create(comp)
+            self.components << Eddy::Summary::Segment.create(comp)
           end
         end
       end
@@ -69,8 +69,8 @@ module Eddy
         comps = ""
         self.components.each do |comp|
           case comp
-          when Eddy::Schema::SegmentSummary then comps << "  - #{comp.id.upcase}\n"
-          when Eddy::Schema::LoopSummary    then comps << "  - #{comp.id.upcase} (loop)\n"
+          when Eddy::Summary::Segment then comps << "  - #{comp.id.upcase}\n"
+          when Eddy::Summary::Loop    then comps << "  - #{comp.id.upcase} (loop)\n"
           end
         end
         parts = []
@@ -85,12 +85,12 @@ module Eddy
 
       # Return all components in a single, flattened array.
       #
-      # @return [Array<Eddy::Schema::SegmentSummary, Eddy::Schema::LoopSummary>]
+      # @return [Array<Eddy::Summary::Segment, Eddy::Summary::Loop>]
       def all_components()
         return self.components.map do |comp|
           case comp
-          when Eddy::Schema::LoopSummary    then [comp, comp.all_components()]
-          when Eddy::Schema::SegmentSummary then comp
+          when Eddy::Summary::Loop    then [comp, comp.all_components()]
+          when Eddy::Summary::Segment then comp
           else raise Eddy::Errors::Error
           end
         end.flatten

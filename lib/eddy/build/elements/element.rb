@@ -4,7 +4,7 @@ module Eddy
   module Build
     module Elements
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @return [Array<Hash>]
       def self.element_params(el)
         return [
@@ -14,7 +14,7 @@ module Eddy
         ]
       end
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @return [String]
       def self.default_constructor(el)
         return Ginny::Func.create({
@@ -35,7 +35,7 @@ module Eddy
         }).render()
       end
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @param body [String]
       # @return [Ginny::Class]
       def self.ginny_class(el, body)
@@ -49,7 +49,7 @@ module Eddy
         })
       end
 
-      # @param el [Eddy::Schema::ElementSummary]
+      # @param el [Eddy::Summary::Element]
       # @param test [Boolean] (false) When true, returns output as a string instead of writing to a file.
       # @return [void]
       def self.element(el, test: false)
