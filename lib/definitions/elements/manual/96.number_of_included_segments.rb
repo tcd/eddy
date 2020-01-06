@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/10
     # - Description: Total number of segments included in a transaction set including ST and SE segments
-    class E96 < Eddy::Element::N
+    class E96 < Eddy::Models::Element::N
       # @param val [Integer]
       # @param req [String]
       # @param ref [String]

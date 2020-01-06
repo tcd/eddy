@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - Values for this element need to be generated and have their uniqueness ensured.
-    class E28 < Eddy::Element::N
+    class E28 < Eddy::Models::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

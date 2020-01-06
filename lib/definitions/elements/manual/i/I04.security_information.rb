@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - By default, this element's value is just 10 empty spaces.
-    class I04 < Eddy::Element::AN
+    class I04 < Eddy::Models::Element::AN
       # @param val [String] ("          ")
       # @param req [String] (nil)
       # @param ref [String] (nil)

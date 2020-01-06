@@ -69,7 +69,7 @@ module Eddy
         return Ginny::Class.create({
           classify_name: false,
           modules: ["Eddy", "TransactionSets", self.summary.normalized_name],
-          parent: "Eddy::TransactionSet",
+          parent: "Eddy::Models::TransactionSet",
           name: self.summary.normalized_name,
           description: self.summary.doc_comment(header: true),
           body: <<~STR,

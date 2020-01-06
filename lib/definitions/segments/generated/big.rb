@@ -5,7 +5,7 @@ module Eddy
     # - Id: BIG
     # - Name: Beginning Segment for Invoice
     # - Purpose: To indicate the beginning of an invoice transaction set and transmit identifying numbers and dates.
-    class BIG < Eddy::Segment
+    class BIG < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

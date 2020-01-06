@@ -2,8 +2,8 @@ require "test_helper"
 
 module ModelsTest
 
-  # Example class for testing inheritence of `Eddy::Element::AN`.
-  class ExampleAN < Eddy::Element::AN
+  # Example class for testing inheritence of `Eddy::Models::Element::AN`.
+  class ExampleAN < Eddy::Models::Element::AN
     def initialize(val: nil, req: nil)
       @id = @name = @description = @ref = "Example"
       super(min: 1, max: 10, req: req, val: val)

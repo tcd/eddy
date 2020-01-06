@@ -5,7 +5,7 @@ module Eddy
     # - Id: SLN
     # - Name: Subline Item Detail
     # - Purpose: To specify product subline detail item data.
-    class SLN < Eddy::Segment
+    class SLN < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

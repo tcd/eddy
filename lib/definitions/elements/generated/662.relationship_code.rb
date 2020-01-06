@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code indicating the relationship between entities
-    class E662 < Eddy::Element::ID
+    class E662 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

@@ -11,7 +11,7 @@ module Eddy
     # - Related RFIs
     #   - [HL SEGMENT CONTENT - RFI 31](http://www.x12.org/rfis/HL%20Segment%20Content.pdf)
     #   - [HL Parent/Child relationship - RFI 610](http://rfi.x12.org/Request/Details/610?stateViewModel=WPC.RFI.Models.ViewModels.RequestViewModel)
-    class HL < Eddy::Segment
+    class HL < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

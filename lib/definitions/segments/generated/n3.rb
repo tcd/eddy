@@ -5,7 +5,7 @@ module Eddy
     # - Id: N3
     # - Name: Address Information
     # - Purpose: To specify the location of the named party
-    class N3 < Eddy::Segment
+    class N3 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

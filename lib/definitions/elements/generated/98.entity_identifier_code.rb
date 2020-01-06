@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/3
     # - Description: Code identifying an organizational entity, a physical location, property or an individual
-    class E98 < Eddy::Element::ID
+    class E98 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

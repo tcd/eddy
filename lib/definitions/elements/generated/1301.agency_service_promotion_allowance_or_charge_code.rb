@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/10
     # - Description: Agency maintained code identifying the service, promotion, allowance, or charge
-    class E1301 < Eddy::Element::AN
+    class E1301 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

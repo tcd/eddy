@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/3
     # - Description: Code specifying type of date or time, or both date and time
-    class E374 < Eddy::Element::ID
+    class E374 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

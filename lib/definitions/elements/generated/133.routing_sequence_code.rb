@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code describing the relationship of a carrier to a specific shipment movement
-    class E133 < Eddy::Element::ID
+    class E133 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

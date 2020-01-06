@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/12
     # - Description: A unique number assigned by the sender to identify a particular data segment in a hierarchical structure
-    class E628 < Eddy::Element::AN
+    class E628 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code indicating the format of a description
-    class E349 < Eddy::Element::ID
+    class E349 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

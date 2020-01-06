@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 2/15
     # - Description: Code identifying party receiving transmission. Codes agreed to by trading partners
-    class E124 < Eddy::Element::AN
+    class E124 < Eddy::Models::Element::AN
       # @param val [String] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code indicating the level of transportation service or the billing service offered by the transportation carrier
-    class E284 < Eddy::Element::ID
+    class E284 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

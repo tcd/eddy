@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code specifying the method or type of transportation for the shipment
-    class E91 < Eddy::Element::ID
+    class E91 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

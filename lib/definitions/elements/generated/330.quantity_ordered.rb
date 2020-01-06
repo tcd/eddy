@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/15
     # - Description: Quantity ordered
-    class E330 < Eddy::Element::R
+    class E330 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

@@ -5,13 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## master (unreleased)
+> Versions 0.x (0.2, 0.3, 0.4, ...) exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
+> 
+> All code should be considered Work In Progress.
+> 
+> While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
 
-Versions 0.x (0.2, 0.3, 0.4, ...) exist to make it easier for me to test Eddy in other projects and figure out how best to move forward with development.
+## feature/namespace-models (unreleased)
 
-All code should be considered Work In Progress.
+### Changed
 
-While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
+- Moved the following classes into the `Eddy::Models` module:
+    - `Element::*`
+    - `Segment`
+    - `Loop::*`
+    - `FunctionalGroup`
+    - `TransactionSet`
+    - `Interchange`
 
 ## 0.5.1 (2020-01-06)
 

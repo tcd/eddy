@@ -5,16 +5,16 @@ module Eddy
 
     # @!group Element Validation Errors
 
-    # Exception raised by descendents of {Eddy::Element::Base}.
+    # Exception raised by descendents of {Eddy::Models::Element::Base}.
     class ElementValidationError < Error
-      # @return [Eddy::Element::Base] Element instance that raised the exception.
+      # @return [Eddy::Models::Element::Base] Element instance that raised the exception.
       attr_accessor :element
       # Argument that caused the exception when passed to `value=`. (if applicable)
       # @return [Object]
       attr_accessor :arg
 
       # @param msg [String] ("")
-      # @param element [Eddy::Element::Base] (nil) Element instance that raised the exception.
+      # @param element [Eddy::Models::Element::Base] (nil) Element instance that raised the exception.
       # @return [void]
       def initialize(msg = "", element: nil)
         self.element = element unless element.nil?
@@ -39,7 +39,7 @@ module Eddy
 
     # Exception raised when `value` has been called before `value=` and no default value is set.
     class ElementNilValueError < ElementValidationError
-      # @param element [Eddy::Element::Base] Element instance that raised the exception.
+      # @param element [Eddy::Models::Element::Base] Element instance that raised the exception.
       # @param msg [String] (nil)
       # @return [void]
       def initialize(msg = "", element:)
@@ -51,9 +51,9 @@ module Eddy
       end
     end
 
-    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element::Base} class.
+    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Models::Element::Base} class.
     class TypeValidationError < ElementValidationError
-      # @param element [Eddy::Element::Base] Element instance that raised the exception.
+      # @param element [Eddy::Models::Element::Base] Element instance that raised the exception.
       # @param arg [Object] Passed argument that caused the exception.
       # @param msg [String] ("")
       # @return [void]
@@ -66,24 +66,24 @@ module Eddy
         super(msg)
       end
 
-      # @param el [Eddy::Element::Base] Element instance that raised the exception.
+      # @param el [Eddy::Models::Element::Base] Element instance that raised the exception.
       # @return [String]
       def wanted_type(el)
         return case el
-               when Eddy::Element::AN then "String"
-               when Eddy::Element::B  then "String"
-               when Eddy::Element::DT then "Time"
-               when Eddy::Element::TM then "Time"
-               when Eddy::Element::N  then "Float or Integer"
-               when Eddy::Element::R  then "Float or Integer"
+               when Eddy::Models::Element::AN then "String"
+               when Eddy::Models::Element::B  then "String"
+               when Eddy::Models::Element::DT then "Time"
+               when Eddy::Models::Element::TM then "Time"
+               when Eddy::Models::Element::N  then "Float or Integer"
+               when Eddy::Models::Element::R  then "Float or Integer"
                end
       end
     end
 
-    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Element::Base} class.
+    # Exception raised when an invalid argument is passed to the `value=` method of an {Eddy::Models::Element::Base} class.
     class LengthValidationError < ElementValidationError
 
-      # @param element [Eddy::Element::Base] Element instance that raised the exception.
+      # @param element [Eddy::Models::Element::Base] Element instance that raised the exception.
       # @param arg [Object] Passed argument that caused the exception.
       # @param msg [String] ("")
       # @return [void]

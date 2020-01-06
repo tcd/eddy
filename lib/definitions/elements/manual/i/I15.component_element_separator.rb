@@ -14,7 +14,7 @@ module Eddy
     # ### Notes:
     #
     # - Default value: `">"`
-    class I15 < Eddy::Element::AN
+    class I15 < Eddy::Models::Element::AN
       # @param val [String] (">")
       # @param req [String] (nil)
       # @param ref [String] (nil)

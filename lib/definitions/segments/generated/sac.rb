@@ -5,7 +5,7 @@ module Eddy
     # - Id: SAC
     # - Name: Service, Promotion, Allowance, or Charge Information
     # - Purpose: To request or identify a service, promotion, allowance, or charge; to specify the amount or percentage for the service,promotion, allowance, or charge.
-    class SAC < Eddy::Segment
+    class SAC < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

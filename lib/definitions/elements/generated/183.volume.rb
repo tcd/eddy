@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/8
     # - Description: Value of volumetric measure
-    class E183 < Eddy::Element::R
+    class E183 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

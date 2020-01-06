@@ -5,7 +5,7 @@ module Eddy
     # - Id: TDS
     # - Name: Total Monetary Value Summary
     # - Purpose: To specify the total invoice discounts and amounts.
-    class TDS < Eddy::Segment
+    class TDS < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

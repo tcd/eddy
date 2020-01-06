@@ -19,7 +19,7 @@ module BuildTest
               # - Type: DT
               # - Min/Max: 8/8
               # - Description: Date the carrier picks up the shipment from the shipper or supplier expressed in format CCYYMMDD
-              class E109 < Eddy::Element::DT
+              class E109 < Eddy::Models::Element::DT
                 # @param val [Time]
                 # @param req [String]
                 # @param ref [String]

@@ -5,7 +5,7 @@ module Eddy
     # - Id: DTM
     # - Name: Date/Time Reference
     # - Purpose: To specify pertinent dates and times.
-    class DTM < Eddy::Segment
+    class DTM < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

@@ -5,7 +5,7 @@ module Eddy
     # - Id: PID
     # - Name: Product/Item Description
     # - Purpose: To describe a product or process in coded or free-form format
-    class PID < Eddy::Segment
+    class PID < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

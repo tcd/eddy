@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code defining the characteristic of a level in a hierarchical structure
-    class E735 < Eddy::Element::ID
+    class E735 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

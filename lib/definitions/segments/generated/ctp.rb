@@ -5,7 +5,7 @@ module Eddy
     # - Id: CTP
     # - Name: Pricing Information
     # - Purpose: To specify pricing information.
-    class CTP < Eddy::Segment
+    class CTP < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

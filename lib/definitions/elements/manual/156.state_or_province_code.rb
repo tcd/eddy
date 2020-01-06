@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - FIXME: Currently only accepts states in the USA.
-    class E156 < Eddy::Element::ID
+    class E156 < Eddy::Models::Element::ID
 
       # @param val [String] (nil)
       # @param req [String] (nil)

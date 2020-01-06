@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Qualifier to designate the system/method of code structure used to designate the sender or receiver ID element being qualified
-    class I05 < Eddy::Element::ID
+    class I05 < Eddy::Models::Element::ID
 
       # @param val [String] (nil)
       # @param req [String] (nil)

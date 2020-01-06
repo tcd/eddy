@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/3
     # - Description: Code identifying the country
-    class E26 < Eddy::Element::ID
+    class E26 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

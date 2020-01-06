@@ -5,7 +5,7 @@ module Eddy
     # - Id: TD1
     # - Name: Carrier Details (Quantity and Weight)
     # - Purpose: To specify the transportation details relative to commodity, weight, and quantity.
-    class TD1 < Eddy::Segment
+    class TD1 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

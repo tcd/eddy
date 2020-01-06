@@ -11,7 +11,7 @@ module Eddy
         #   - N1
         #   - N3
         #   - N4
-        class N1 < Eddy::Loop::Base
+        class N1 < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -36,7 +36,7 @@ module Eddy
         # - Repeat: 100,000
         # - Components:
         #   - PO1
-        class PO1 < Eddy::Loop::Base
+        class PO1 < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)

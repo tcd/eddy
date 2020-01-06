@@ -17,7 +17,7 @@ module Eddy
         #   - HL_ORDER (loop)
         #   - HL_TARE (loop)
         #   - HL_ITEM (loop)
-        class HL_SHIPMENT < Eddy::Loop::Base
+        class HL_SHIPMENT < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -55,7 +55,7 @@ module Eddy
         #   - N1
         #   - N3
         #   - N4
-        class N1 < Eddy::Loop::Base
+        class N1 < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -80,7 +80,7 @@ module Eddy
         # - Components:
         #   - HL
         #   - PRF
-        class HL_ORDER < Eddy::Loop::Base
+        class HL_ORDER < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -103,7 +103,7 @@ module Eddy
         # - Components:
         #   - HL
         #   - MAN
-        class HL_TARE < Eddy::Loop::Base
+        class HL_TARE < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -128,7 +128,7 @@ module Eddy
         #   - LIN
         #   - SN1
         #   - SLN
-        class HL_ITEM < Eddy::Loop::Base
+        class HL_ITEM < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)

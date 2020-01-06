@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/6
     # - Description: Total number of transaction sets included in the functional group or interchange (transmission) group terminated by the trailer containing this data element
-    class E97 < Eddy::Element::N
+    class E97 < Eddy::Models::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

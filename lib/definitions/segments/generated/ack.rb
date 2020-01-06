@@ -5,7 +5,7 @@ module Eddy
     # - Id: ACK
     # - Name: Line Item Acknowledgement
     # - Purpose: To acknowledge the ordered quantities and specify the ready date for a specific line item
-    class ACK < Eddy::Segment
+    class ACK < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

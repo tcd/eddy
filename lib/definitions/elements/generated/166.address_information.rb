@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/55
     # - Description: Address information
-    class E166 < Eddy::Element::AN
+    class E166 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

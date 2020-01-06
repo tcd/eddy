@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code specifying the action taken by the seller on a line item requested by the buyer
-    class E668 < Eddy::Element::ID
+    class E668 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

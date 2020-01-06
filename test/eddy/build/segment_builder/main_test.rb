@@ -13,7 +13,7 @@ module BuildTest
               # - Id: N2
               # - Name: Additional Name Information
               # - Purpose: To identify a party by type of organization, name, and code.
-              class N2 < Eddy::Segment
+              class N2 < Eddy::Models::Segment
 
                 # @param store [Eddy::Data::Store]
                 # @return [void]

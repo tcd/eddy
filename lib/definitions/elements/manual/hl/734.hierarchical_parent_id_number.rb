@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/12
     # - Description: Identification number of the next higher hierarchical data segment that the data segment being described is subordinate to
-    class E734 < Eddy::Element::AN
+    class E734 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

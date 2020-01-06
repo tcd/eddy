@@ -19,7 +19,7 @@ module BuildTest
               # - Type: AN
               # - Min/Max: 1/60
               # - Description: Free-form name
-              class E93 < Eddy::Element::AN
+              class E93 < Eddy::Models::Element::AN
                 # @param val [String]
                 # @param req [String]
                 # @param ref [String]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Value to be used as a multiplier to obtain a new value
-    class E649 < Eddy::Element::R
+    class E649 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

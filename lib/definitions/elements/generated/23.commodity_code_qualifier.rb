@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code identifying the commodity coding system used for Commodity Code
-    class E23 < Eddy::Element::ID
+    class E23 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

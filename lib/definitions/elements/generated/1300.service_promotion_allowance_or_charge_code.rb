@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 4/4
     # - Description: Code identifying the service, promotion, allowance, or charge
-    class E1300 < Eddy::Element::ID
+    class E1300 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

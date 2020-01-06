@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Numeric value of weight
-    class E81 < Eddy::Element::R
+    class E81 < Eddy::Models::Element::R
       # @param val [Float] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

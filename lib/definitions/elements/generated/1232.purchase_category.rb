@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying the broad category of products or services being acquired
-    class E1232 < Eddy::Element::ID
+    class E1232 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

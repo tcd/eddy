@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - Default value: `"X"`
-    class E455 < Eddy::Element::ID
+    class E455 < Eddy::Models::Element::ID
 
       # @param val [String] ("X")
       # @param req [String] (nil)

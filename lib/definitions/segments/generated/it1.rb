@@ -5,7 +5,7 @@ module Eddy
     # - Id: IT1
     # - Name: Baseline Item Data (Invoice)
     # - Purpose: To specify the basic and most frequently used line item data for the invoice and related transactions.
-    class IT1 < Eddy::Segment
+    class IT1 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

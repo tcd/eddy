@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/50
     # - Description: Description of an item as required for rating and billing purposes
-    class E79 < Eddy::Element::AN
+    class E79 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

@@ -2,8 +2,8 @@ require "test_helper"
 
 module ModelsTest
 
-  # Example class for testing inheritence of `Eddy::Element::ID`
-  class ExampleID < Eddy::Element::ID
+  # Example class for testing inheritence of `Eddy::Models::Element::ID`
+  class ExampleID < Eddy::Models::Element::ID
     def initialize(val: nil, req: nil)
       @id = @name = @description = @ref = "Example"
       super(min: 2, max: 2, req: req, val: val)

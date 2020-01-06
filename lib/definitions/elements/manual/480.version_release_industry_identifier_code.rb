@@ -12,7 +12,7 @@ module Eddy
     #         - Positions 4-6 are the release, subrelease, and level of the version
     #         - Positions 7-12 are the industry or trade association identifiers (optionally assigned by user)
     #     - If code in DE455 in GS segment is T, then other formats are allowed
-    class E480 < Eddy::Element::AN
+    class E480 < Eddy::Models::Element::AN
 
       # @param val [String] (nil)
       # @param req [String] (nil)

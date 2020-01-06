@@ -5,7 +5,7 @@ module Eddy
     # - Id: LIN
     # - Name: Item Identification
     # - Purpose: To specify basic item identification data.
-    class LIN < Eddy::Segment
+    class LIN < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

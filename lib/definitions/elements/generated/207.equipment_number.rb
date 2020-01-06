@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/10
     # - Description: Sequencing or serial part of an equipment unit's identifying number (pure numeric form for equipment number is preferred)
-    class E207 < Eddy::Element::AN
+    class E207 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

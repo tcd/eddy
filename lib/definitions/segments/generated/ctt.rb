@@ -5,7 +5,7 @@ module Eddy
     # - Id: CTT
     # - Name: Transaction Totals
     # - Purpose: To transmit a hash total for a specific element in the transaction set
-    class CTT < Eddy::Segment
+    class CTT < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

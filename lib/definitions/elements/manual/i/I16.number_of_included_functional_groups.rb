@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/5
     # - Description: A count of the number of functional groups included in an interchange
-    class I16 < Eddy::Element::N
+    class I16 < Eddy::Models::Element::N
       # @param val [Integer] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

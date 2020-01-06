@@ -19,7 +19,7 @@ module BuildTest
               # - Type: TM
               # - Min/Max: 4/4
               # - Description: Time (HHMM) that the carrier is to pick up the shipment
-              class E111 < Eddy::Element::TM
+              class E111 < Eddy::Models::Element::TM
                 # @param val [Time]
                 # @param req [String]
                 # @param ref [String]

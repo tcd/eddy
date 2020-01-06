@@ -13,7 +13,7 @@ module BuildTest
           #   - N1
           #   - N3
           #   - N4
-          class N1 < Eddy::Loop::Base
+          class N1 < Eddy::Models::Loop::Base
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
@@ -48,7 +48,7 @@ module BuildTest
           #   - CTP
           #   - PID (loop)
           #   - SAC (loop)
-          class IT1 < Eddy::Loop::Base
+          class IT1 < Eddy::Models::Loop::Base
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)

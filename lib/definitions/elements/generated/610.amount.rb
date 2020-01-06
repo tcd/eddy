@@ -7,7 +7,7 @@ module Eddy
     # - Type: N2
     # - Min/Max: 1/15
     # - Description: Monetary amount
-    class E610 < Eddy::Element::N
+    class E610 < Eddy::Models::Element::N
       # @param val [Integer]
       # @param req [String]
       # @param ref [String]

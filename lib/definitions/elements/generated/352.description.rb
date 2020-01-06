@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/80
     # - Description: A free-form description to clarify the related data elements and their content
-    class E352 < Eddy::Element::AN
+    class E352 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

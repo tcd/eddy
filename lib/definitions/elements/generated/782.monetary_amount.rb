@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/18
     # - Description: Monetary amount
-    class E782 < Eddy::Element::R
+    class E782 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

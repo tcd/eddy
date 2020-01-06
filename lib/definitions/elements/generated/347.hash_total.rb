@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Sum of values of the specified data element. All values in the data element will be summed without regard to decimal points (explicit or implicit) or signs. Truncation will occur on the left most digits if the sum is greater than the maximum size of the hash total of the data element.
-    class E347 < Eddy::Element::R
+    class E347 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

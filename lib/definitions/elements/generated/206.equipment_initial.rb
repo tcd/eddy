@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/4
     # - Description: Prefix or alphabetic part of an equipment unit's identifying number
-    class E206 < Eddy::Element::AN
+    class E206 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

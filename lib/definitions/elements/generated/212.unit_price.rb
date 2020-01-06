@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/17
     # - Description: Price per unit of product, service, commodity, etc.
-    class E212 < Eddy::Element::R
+    class E212 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code designating the system/method of code structure used for Identification Code (67)
-    class E66 < Eddy::Element::ID
+    class E66 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

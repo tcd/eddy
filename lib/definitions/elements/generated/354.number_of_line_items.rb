@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/6
     # - Description: Total number of line items in the transaction set
-    class E354 < Eddy::Element::N
+    class E354 < Eddy::Models::Element::N
       # @param val [Integer]
       # @param req [String]
       # @param ref [String]

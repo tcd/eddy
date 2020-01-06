@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/3
     # - Description: Code identifying pricing specification
-    class E236 < Eddy::Element::ID
+    class E236 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

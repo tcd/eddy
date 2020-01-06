@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/30
     # - Description: Code describing a commodity or group of commodities
-    class E22 < Eddy::Element::AN
+    class E22 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

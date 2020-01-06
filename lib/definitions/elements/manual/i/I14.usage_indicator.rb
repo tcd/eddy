@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code to indicate whether data enclosed by this interchange envelope is test, production or information
-    class I14 < Eddy::Element::ID
+    class I14 < Eddy::Models::Element::ID
 
       # @param val [String] (nil)
       # @param req [String] (nil)

@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code indicating the status of an order or shipment or the disposition of any difference between the quantity ordered and the quantity shipped for a line item or transaction
-    class E368 < Eddy::Element::ID
+    class E368 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/3
     # - Description: Code uniquely identifying a Transaction Set
-    class E143 < Eddy::Element::ID
+    class E143 < Eddy::Models::Element::ID
 
       # @param val [String] (nil)
       # @param req [String] (nil)

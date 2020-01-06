@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code indicating if there are hierarchical child data segments subordinate to the level being described
-    class E736 < Eddy::Element::ID
+    class E736 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

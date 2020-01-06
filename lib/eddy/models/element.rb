@@ -1,6 +1,8 @@
 module Eddy
-  # Base types for EDI Data Elements.
-  module Element; end
+  module Models
+    # Base types for EDI Data Elements.
+    module Element; end
+  end
 end
 
 require "eddy/models/element/base"

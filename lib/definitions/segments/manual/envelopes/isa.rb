@@ -5,7 +5,7 @@ module Eddy
     # - Id: ISA
     # - Name: Interchange Control Header
     # - Purpose: To start and identify an interchange of zero or more functional groups and interchange-related control segments.
-    class ISA < Eddy::Segment
+    class ISA < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @param interchange_control_number [Integer] A unique *interchange control number*.

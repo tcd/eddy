@@ -6,7 +6,7 @@ module Eddy
       # - Id: 850
       # - Name: Purchase Order
       # - Functional Group: PO
-      class TS850 < Eddy::TransactionSet
+      class TS850 < Eddy::Models::TransactionSet
 
         ID = "850".freeze
         NAME = "Purchase Order".freeze

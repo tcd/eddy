@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - Default value: `"00401"`
-    class I11 < Eddy::Element::ID
+    class I11 < Eddy::Models::Element::ID
 
       # @param val [String] ("00401")
       # @param req [String] (nil)

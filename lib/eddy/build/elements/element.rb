@@ -43,7 +43,7 @@ module Eddy
           classify_name: false,
           name:          Eddy::Util.normalize_id(el.id),
           description:   el.doc_comment,
-          parent:        "Eddy::Element::#{el.edi_type}",
+          parent:        "Eddy::Models::Element::#{el.edi_type}",
           modules:       ["Eddy", "Elements"],
           body:          body,
         })

@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/22
     # - Description: Identifying number for Purchase Order assigned by the orderer/purchaser
-    class E324 < Eddy::Element::AN
+    class E324 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

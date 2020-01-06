@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code specifying the type of transaction
-    class E640 < Eddy::Element::ID
+    class E640 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

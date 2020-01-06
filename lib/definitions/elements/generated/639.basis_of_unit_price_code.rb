@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying the type of unit price for an item
-    class E639 < Eddy::Element::ID
+    class E639 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

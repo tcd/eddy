@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying a contract type
-    class E1166 < Eddy::Element::ID
+    class E1166 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

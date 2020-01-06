@@ -5,7 +5,7 @@ module Eddy
     # - Id: N1
     # - Name: Name
     # - Purpose: To identify a party by type of organization, name, and code
-    class N1 < Eddy::Segment
+    class N1 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

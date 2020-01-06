@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code specifying the application or source of Marks and Numbers (87)
-    class E88 < Eddy::Element::ID
+    class E88 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

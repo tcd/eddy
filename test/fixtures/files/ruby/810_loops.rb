@@ -10,7 +10,7 @@ module Eddy
         #   - N1
         #   - N3
         #   - N4
-        class N1 < Eddy::Loop::Base
+        class N1 < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -38,7 +38,7 @@ module Eddy
         #   - CTP
         #   - PID (loop)
         #   - SAC (loop)
-        class IT1 < Eddy::Loop::Base
+        class IT1 < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -65,7 +65,7 @@ module Eddy
         # - Repeat: 1000
         # - Components:
         #   - PID
-        class PID < Eddy::Loop::Base
+        class PID < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)
@@ -86,7 +86,7 @@ module Eddy
         # - Repeat: 25
         # - Components:
         #   - SAC
-        class SAC < Eddy::Loop::Base
+        class SAC < Eddy::Models::Loop::Base
           # @param store [Eddy::Data::Store]
           # @return [void]
           def initialize(store)

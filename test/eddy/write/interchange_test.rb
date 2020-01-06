@@ -61,7 +61,7 @@ module WriteTest
         po1.ProductServiceId2 = "860001662184"
       end
       ts.CTT.NumberOfLineItems = 1
-      itch = Eddy::Interchange.new(store)
+      itch = Eddy::Models::Interchange.new(store)
       itch.transaction_sets << ts
       have = itch.render do |isa, iea|
         # ISA

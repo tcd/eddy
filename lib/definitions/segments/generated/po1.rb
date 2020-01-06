@@ -5,7 +5,7 @@ module Eddy
     # - Id: PO1
     # - Name: Baseline Item Data
     # - Purpose: To specify basic and most frequently used line item data
-    class PO1 < Eddy::Segment
+    class PO1 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

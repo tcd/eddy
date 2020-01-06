@@ -5,7 +5,7 @@ module Eddy
     # - Id: SE
     # - Name: Transaction Set Trailer
     # - Purpose: To indicate the end of the transaction set and provide the count of the transmitted segments (including the beginning (ST) and ending (SE) segments).
-    class SE < Eddy::Segment
+    class SE < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

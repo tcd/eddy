@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/3
     # - Description: Code qualifying the Reference Identification
-    class E128 < Eddy::Element::ID
+    class E128 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

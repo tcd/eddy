@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/12
     # - Description: A code from an industry code list which provides specific data about a product characteristic
-    class E751 < Eddy::Element::AN
+    class E751 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

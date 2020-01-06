@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying purpose of transaction set
-    class E353 < Eddy::Element::ID
+    class E353 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

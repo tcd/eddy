@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/15
     # - Description: Numeric value of quantity
-    class E380 < Eddy::Element::R
+    class E380 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

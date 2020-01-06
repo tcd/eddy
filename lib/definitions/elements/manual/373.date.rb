@@ -7,7 +7,7 @@ module Eddy
     # - Type: DT
     # - Min/Max: 8/8
     # - Description: Date expressed as CCYYMMDD
-    class E373 < Eddy::Element::DT
+    class E373 < Eddy::Models::Element::DT
       # @param val [Time] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

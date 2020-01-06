@@ -5,7 +5,7 @@ module Eddy
     # - Id: ST
     # - Name: Transaction Set Header
     # - Purpose: To indicate the start of a transaction set and to assign a control number.
-    class ST < Eddy::Segment
+    class ST < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

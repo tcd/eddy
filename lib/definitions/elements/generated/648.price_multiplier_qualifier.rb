@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/3
     # - Description: Code indicating the type of price multiplier
-    class E648 < Eddy::Element::ID
+    class E648 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

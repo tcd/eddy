@@ -5,7 +5,7 @@ module Eddy
     # - Id: BSN
     # - Name: Beginning Segment for Ship Notice
     # - Purpose: To transmit identifying numbers, dates, and other basic data relating to the transaction set.
-    class BSN < Eddy::Segment
+    class BSN < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

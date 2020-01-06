@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/3
     # - Description: Code identifying the general class of a product or process characteristic
-    class E750 < Eddy::Element::ID
+    class E750 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

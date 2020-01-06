@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Number of units invoiced (supplier units)
-    class E358 < Eddy::Element::R
+    class E358 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

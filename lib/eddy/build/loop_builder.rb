@@ -34,7 +34,7 @@ module Eddy
       def ginny_class()
         return Ginny::Class.create({
           classify_name: false,
-          parent: "Eddy::Loop::Base",
+          parent: "Eddy::Models::Loop::Base",
           name: self.summary.id,
           description: summary.doc_comment(header: true),
           body: <<~STR.strip,

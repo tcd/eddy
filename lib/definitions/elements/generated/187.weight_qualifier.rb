@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/2
     # - Description: Code defining the type of weight
-    class E187 < Eddy::Element::ID
+    class E187 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

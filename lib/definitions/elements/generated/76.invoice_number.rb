@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/22
     # - Description: Identifying number assigned by issuer
-    class E76 < Eddy::Element::AN
+    class E76 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

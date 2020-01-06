@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code specifying the type of acknowledgment
-    class E587 < Eddy::Element::ID
+    class E587 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

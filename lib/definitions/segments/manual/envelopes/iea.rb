@@ -5,7 +5,7 @@ module Eddy
     # - Id: IEA
     # - Name: Interchange Control Trailer
     # - Purpose: To define the end of an interchange of zero or more functional groups and interchange-related control segments.
-    class IEA < Eddy::Segment
+    class IEA < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @param interchange_control_number [Integer] A unique *interchange control number*.

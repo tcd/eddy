@@ -5,7 +5,7 @@ module Eddy
     # - Id: TD5
     # - Name: Carrier Details (Routing Sequence/Transit Time)
     # - Purpose: To specify the carrier and sequence of routing and provide transit time information.
-    class TD5 < Eddy::Segment
+    class TD5 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

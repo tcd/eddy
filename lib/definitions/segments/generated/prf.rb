@@ -5,7 +5,7 @@ module Eddy
     # - Id: PRF
     # - Name: Purchase Order Reference
     # - Purpose: To provide reference to a specific purchase order.
-    class PRF < Eddy::Segment
+    class PRF < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

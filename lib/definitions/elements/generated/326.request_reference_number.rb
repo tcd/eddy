@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/45
     # - Description: Reference number or RFQ number to use to identify a particular transaction set and query (additional reference number or description which can be used with contract number)
-    class E326 < Eddy::Element::AN
+    class E326 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

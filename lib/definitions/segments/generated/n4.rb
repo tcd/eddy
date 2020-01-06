@@ -5,7 +5,7 @@ module Eddy
     # - Id: N4
     # - Name: Geographic Location
     # - Purpose: To specify the geographic place of the named party
-    class N4 < Eddy::Segment
+    class N4 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/35
     # - Description: Free-form description of the routing or requested routing for shipment, or the originating carrier's identity
-    class E387 < Eddy::Element::AN
+    class E387 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

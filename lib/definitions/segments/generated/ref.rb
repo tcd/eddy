@@ -5,7 +5,7 @@ module Eddy
     # - Id: REF
     # - Name: Reference Identification
     # - Purpose: To specify identifying information.
-    class REF < Eddy::Segment
+    class REF < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

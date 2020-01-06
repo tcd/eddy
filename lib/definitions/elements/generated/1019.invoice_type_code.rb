@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 3/3
     # - Description: Code defining the method by which invoices are to be processed
-    class E1019 < Eddy::Element::ID
+    class E1019 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

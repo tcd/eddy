@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code specifying the units in which a value is being expressed, or manner in which a measurement has been taken
-    class E355 < Eddy::Element::ID
+    class E355 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

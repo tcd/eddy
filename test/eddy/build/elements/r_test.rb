@@ -19,7 +19,7 @@ module BuildTest
               # - Type: R
               # - Min/Max: 1/10
               # - Description: Numeric value of weight
-              class E81 < Eddy::Element::R
+              class E81 < Eddy::Models::Element::R
                 # @param val [Float]
                 # @param req [String]
                 # @param ref [String]

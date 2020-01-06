@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 1/1
     # - Description: Code which indicates an allowance or charge for the service specified
-    class E248 < Eddy::Element::ID
+    class E248 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

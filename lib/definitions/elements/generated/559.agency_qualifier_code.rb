@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying the agency assigning the code values
-    class E559 < Eddy::Element::ID
+    class E559 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

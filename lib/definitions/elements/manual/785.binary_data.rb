@@ -7,7 +7,7 @@ module Eddy
     # - Type: B
     # - Min/Max: 1/?
     # - Description: A string of octets which can assume any binary pattern from hexadecimal 00 to FF
-    class E785 < Eddy::Element::B
+    class E785 < Eddy::Models::Element::B
       # @param max [Integer] Value set in preceeding `784` element.
       # @param val [String] (nil)
       # @param req [String] (nil)

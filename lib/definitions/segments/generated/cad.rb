@@ -5,7 +5,7 @@ module Eddy
     # - Id: CAD
     # - Name: Carrier Detail
     # - Purpose: To specify transportation details for the transaction.
-    class CAD < Eddy::Segment
+    class CAD < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

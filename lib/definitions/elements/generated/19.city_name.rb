@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 2/30
     # - Description: Free-form text for city name
-    class E19 < Eddy::Element::AN
+    class E19 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

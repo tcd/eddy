@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/10
     # - Description: Numeric value of units shipped in manufacturer's shipping units for a line item or transaction set
-    class E382 < Eddy::Element::R
+    class E382 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

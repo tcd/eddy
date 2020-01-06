@@ -5,7 +5,7 @@ module Eddy
     # - Id: GE
     # - Name: Functional Group Trailer
     # - Purpose: To indicate the end of a functional group and to provide control information.
-    class GE < Eddy::Segment
+    class GE < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @param group_control_number [Integer] A unique *functional group control number*.

@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/30
     # - Description: Contract number
-    class E367 < Eddy::Element::AN
+    class E367 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

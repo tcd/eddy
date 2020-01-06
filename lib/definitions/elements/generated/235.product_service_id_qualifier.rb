@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code identifying the type/source of the descriptive number used in Product/Service ID (234)
-    class E235 < Eddy::Element::ID
+    class E235 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

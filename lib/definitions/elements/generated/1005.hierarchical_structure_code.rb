@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 4/4
     # - Description: Code indicating the hierarchical application structure of a transaction set that utilizes the HL segment to define the structure of the transaction set
-    class E1005 < Eddy::Element::ID
+    class E1005 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

@@ -7,7 +7,7 @@ module Eddy
     # - Type: N0
     # - Min/Max: 1/7
     # - Description: Number of units (pieces) of the lading commodity
-    class E80 < Eddy::Element::N
+    class E80 < Eddy::Models::Element::N
       # @param val [Integer]
       # @param req [String]
       # @param ref [String]

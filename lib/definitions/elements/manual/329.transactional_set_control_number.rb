@@ -11,8 +11,8 @@ module Eddy
     # ### Notes:
     #
     # - Values for this element need to be generated and have their uniqueness ensured.
-    # - This element inherits from {Eddy::Element::N}, even though it is technically an `AN`.
-    class E329 < Eddy::Element::N
+    # - This element inherits from {Eddy::Models::Element::N}, even though it is technically an `AN`.
+    class E329 < Eddy::Models::Element::N
       # @param val [String] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

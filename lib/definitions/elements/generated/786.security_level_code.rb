@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code indicating the level of confidentiality assigned by the sender to the information following
-    class E786 < Eddy::Element::ID
+    class E786 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

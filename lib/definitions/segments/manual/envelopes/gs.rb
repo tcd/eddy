@@ -5,7 +5,7 @@ module Eddy
     # - Id: GS
     # - Name: Functional Group Header
     # - Purpose: To indicate the beginning of a functional group and to provide control information.
-    class GS < Eddy::Segment
+    class GS < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @param group_control_number [Integer] A unique *functional group control number*.

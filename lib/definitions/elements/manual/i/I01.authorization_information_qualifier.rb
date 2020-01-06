@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - Default value: `"00"`
-    class I01 < Eddy::Element::ID
+    class I01 < Eddy::Models::Element::ID
 
       # @param val [String] ("00")
       # @param req [String] (nil)

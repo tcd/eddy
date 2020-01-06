@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/30
     # - Description: Reference information as defined for a particular Transaction Set or as specified by the Reference Identification Qualifier
-    class E127 < Eddy::Element::AN
+    class E127 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

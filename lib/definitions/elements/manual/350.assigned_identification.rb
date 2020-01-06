@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - These don't nessecarily need to be generated.
-    class E350 < Eddy::Element::AN
+    class E350 < Eddy::Models::Element::AN
       # @param val [String] (nil)
       # @param req [String] (nil)
       # @param ref [String] (nil)

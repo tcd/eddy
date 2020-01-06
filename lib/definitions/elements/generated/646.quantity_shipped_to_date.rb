@@ -7,7 +7,7 @@ module Eddy
     # - Type: R
     # - Min/Max: 1/15
     # - Description: Number of units shipped to date
-    class E646 < Eddy::Element::R
+    class E646 < Eddy::Models::Element::R
       # @param val [Float]
       # @param req [String]
       # @param ref [String]

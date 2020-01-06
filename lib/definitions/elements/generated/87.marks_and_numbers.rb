@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/48
     # - Description: Marks and numbers used to identify a shipment or parts of a shipment
-    class E87 < Eddy::Element::AN
+    class E87 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

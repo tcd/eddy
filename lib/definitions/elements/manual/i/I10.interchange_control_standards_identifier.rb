@@ -11,7 +11,7 @@ module Eddy
     # ### Notes:
     #
     # - (Default value: `"U"`)
-    class I10 < Eddy::Element::ID
+    class I10 < Eddy::Models::Element::ID
 
       # @param val [String] ("U")
       # @param req [String] (nil)

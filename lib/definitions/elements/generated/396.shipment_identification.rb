@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 2/30
     # - Description: A unique control number assigned by the original shipper to identify a specific shipment
-    class E396 < Eddy::Element::AN
+    class E396 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

@@ -59,7 +59,7 @@ module Eddy
         return Ginny::Class.create({
           classify_name: false,
           modules: ["Eddy", "Segments"],
-          parent: "Eddy::Segment",
+          parent: "Eddy::Models::Segment",
           name: summary.id,
           description: summary.doc_comment(header: true),
           body: <<~STR,

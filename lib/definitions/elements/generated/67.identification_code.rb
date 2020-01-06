@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 2/80
     # - Description: Code identifying a party or other code
-    class E67 < Eddy::Element::AN
+    class E67 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

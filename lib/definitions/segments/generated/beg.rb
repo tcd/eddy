@@ -5,7 +5,7 @@ module Eddy
     # - Id: BEG
     # - Name: Beginning Segment for Purchase Order
     # - Purpose: To indicate the beginning of the Purchase Order Transaction Set and transmit identifying numbers and dates
-    class BEG < Eddy::Segment
+    class BEG < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

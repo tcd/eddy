@@ -56,7 +56,7 @@ module ModelsTest
         decimals = c[:n]
         # define_method("test_n#{decimals}_conversion_for_#{input.to_s.gsub(/^-/, "negative_")}") do
         define_method("test_n#{decimals}_conversion_for_#{input}") do
-          have = Eddy::Element::N.process_value(input, decimals)
+          have = Eddy::Models::Element::N.process_value(input, decimals)
           assert_equal(output, have)
         end
       end

@@ -5,7 +5,7 @@ module Eddy
     # - Id: SN1
     # - Name: Item Detail (Shipment)
     # - Purpose: To specify line-item detail relative to shipment.
-    class SN1 < Eddy::Segment
+    class SN1 < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

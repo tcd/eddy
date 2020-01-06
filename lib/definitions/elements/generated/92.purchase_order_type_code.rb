@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: Code specifying the type of Purchase Order
-    class E92 < Eddy::Element::ID
+    class E92 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String]

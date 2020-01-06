@@ -7,7 +7,7 @@ module Eddy
     # - Type: AN
     # - Min/Max: 1/8
     # - Description: Number assigned by the orderer identifying a specific change or revision to a previously transmitted transaction set
-    class E327 < Eddy::Element::AN
+    class E327 < Eddy::Models::Element::AN
       # @param val [String]
       # @param req [String]
       # @param ref [String]

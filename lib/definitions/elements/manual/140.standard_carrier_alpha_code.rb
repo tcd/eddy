@@ -14,7 +14,7 @@ module Eddy
     #     - [Academic Dictionaries and Encyclopedias](https://enacademic.com/dic.nsf/enwiki/6012706)
     #     - [Harley Davidson EDI Implementation Guide](https://www.h-dsn.com/genbus/PublicDocServlet?docID=340&docExt=pdf)
     #     - [Standard Carrier Alpha Code - Wikipedia](https://en.wikipedia.org/wiki/Standard_Carrier_Alpha_Code)
-    class E140 < Eddy::Element::AN
+    class E140 < Eddy::Models::Element::AN
 
       # @param val [String] (nil)
       # @param req [String] (nil)

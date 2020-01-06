@@ -7,7 +7,7 @@ module Eddy
     # - Type: ID
     # - Min/Max: 2/2
     # - Description: (Functional Group) Code identifying a group of application related transaction sets
-    class E479 < Eddy::Element::ID
+    class E479 < Eddy::Models::Element::ID
 
       # @param val [String]
       # @param req [String] (nil)

@@ -5,7 +5,7 @@ module Eddy
     # - Id: MAN
     # - Name: Marks and Numbers
     # - Purpose: To indicate identifying marks and numbers for shipping containers.
-    class MAN < Eddy::Segment
+    class MAN < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]

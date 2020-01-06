@@ -5,7 +5,7 @@ module Eddy
     # - Id: BAK
     # - Name: Beginning Segment for Purchase Order Acknowledgment
     # - Purpose: To indicate the beginning of the Purchase Order Acknowledgment Transaction Set and transmit identifying numbers and date.
-    class BAK < Eddy::Segment
+    class BAK < Eddy::Models::Segment
 
       # @param store [Eddy::Data::Store]
       # @return [void]
