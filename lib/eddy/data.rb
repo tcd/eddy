@@ -50,7 +50,7 @@ module Eddy
     def self.new_transaction_set_control_number(transaction_set_id)
       existing = Eddy.data.transaction_set_control_numbers(transaction_set_id)
       new_ctrl_num = Eddy::Util.new_number(existing)
-      Eddy.data.transaction_set_control_numbers(transaction_set_id, new_ctrl_num)
+      Eddy.data.add_transaction_set_control_number(transaction_set_id, new_ctrl_num)
       return new_ctrl_num
     end
 
