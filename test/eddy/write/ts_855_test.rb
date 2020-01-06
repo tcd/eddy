@@ -21,7 +21,7 @@ module WriteTest
     #   SE*10*0001~
     #
     def test_855
-      want = <<~EDI #.gsub(/\n/, "")
+      want = <<~EDI.gsub(/\n/, "")
         ST*855*0001~
         BAK*00*AC*00000007397108*19700101~
         N1*ST*Sweeney Todd~
@@ -34,7 +34,7 @@ module WriteTest
         PID*F****500mg Full Spectrum Garden Mint Oil Tincture~
         ACK*IA*2*EA****UP*860001662108*VP*860001662108~
         CTT*2~
-        SE*13*0001~
+        SE*13*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS855::TS855.new(store)
@@ -103,7 +103,7 @@ module WriteTest
         end
       end
       ts.CTT.NumberOfLineItems = 2
-      result = ts.render("~\n")
+      result = ts.render()
       assert_equal(want, result)
     end
 

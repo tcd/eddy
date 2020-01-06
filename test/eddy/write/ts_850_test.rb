@@ -13,7 +13,7 @@ module WriteTest
         N4*Birmingham*AL*35226*US~
         PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
         CTT*1~
-        SE*9*0001~
+        SE*9*0001
       EDI
       epoch = Time.at(0).utc()
       store = Eddy::Data::Store.new(time: epoch)
@@ -68,7 +68,7 @@ module WriteTest
         PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
         PO1*2*2*EA*49.95**UP*860001662108*VN*860001662108~
         CTT*2~
-        SE*10*0001~
+        SE*10*0001
       EDI
       epoch = Time.at(0).utc()
       store = Eddy::Data::Store.new(time: epoch)

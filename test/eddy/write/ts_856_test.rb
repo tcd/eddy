@@ -21,7 +21,7 @@ module WriteTest
     #   SE*10*0001~
     #
     def test_hierarchical_loops
-      want = <<~EDI #.gsub(/\n/, "")
+      want = <<~EDI.gsub(/\n/, "")
         ST*856*0001~
         BSN*00*??*19700101*00000000*0001~
         DTM*011*19700101~
@@ -42,7 +42,7 @@ module WriteTest
         SN1*1*1*EA**1*EA~
         SLN*1**O*1*EA*59.95*PE~
         CTT*2*159.85~
-        SE*21*0001~
+        SE*21*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS856::TS856.new(store)
@@ -126,7 +126,7 @@ module WriteTest
         ctt.CTT01 = 2
         ctt.CTT02 = 159.85
       end
-      result = ts.render("~\n")
+      result = ts.render()
       assert_equal(want, result)
     end
 

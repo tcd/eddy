@@ -7,6 +7,19 @@ module WriteTest
       @epoch = Time.at(0).utc()
     end
 
+    # Generate a valid Invoice for the following Purchase Order:
+    #
+    #   ST*850*0001~
+    #   BEG*00*DS*00000007397108**19700101~
+    #   TD5*Z***ZZ*UPS3~
+    #   N1*ST*Sweeney Todd~
+    #   N3*2705 Fleet St~
+    #   N4*Birmingham*AL*35226*US~
+    #   PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
+    #   PO1*2*2*EA*49.95**UP*860001662108*VN*860001662108~
+    #   CTT*2~
+    #   SE*10*0001~
+    #
     def test_nested_loops
       want = <<~EDI.gsub(/\n/, "")
         ST*810*0001~
@@ -29,7 +42,7 @@ module WriteTest
         SAC*C*ZZZZ***5995~
         SAC*C*ZZZZ***9990~
         CTT*2~
-        SE*21*0001~
+        SE*21*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS810::TS810.new(store)

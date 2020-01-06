@@ -55,16 +55,16 @@ module Eddy
 
     # Add `ST` and `SE` segments to the `components` array.
     #
-    # @param t_set_control_number [Integer] (Eddy::Data::Store#transaction_set_control_number)
+    # @param control_number [Integer] (Eddy::Data.new_transaction_set_control_number())
     # @return [void]
-    def add_envelope(t_set_control_number = self.store.transaction_set_control_number)
+    def add_envelope(control_number = Eddy::Data.new_transaction_set_control_number(self.id))
       st = Eddy::Segments::ST.new(self.store)
       st.TransactionSetIdentifierCode = self.id
-      st.TransactionSetControlNumber  = t_set_control_number
+      st.TransactionSetControlNumber  = control_number
 
       se = Eddy::Segments::SE.new(self.store)
       se.NumberOfIncludedSegments    = self.all_components.length + 2
-      se.TransactionSetControlNumber = t_set_control_number
+      se.TransactionSetControlNumber = control_number
 
       self.components.unshift(st)
       self.components.push(se)
@@ -77,8 +77,7 @@ module Eddy
     # @return [String]
     def render(s_sep = self.store.segment_separator)
       add_envelope()
-      e_sep = self.store.element_separator
-      return self.all_components.map { |s| s.render(e_sep) }.join(s_sep) + s_sep
+      return self.all_components.map { |s| s.render(self.store.element_separator) }.join(s_sep)
     end
 
     # Return all contained Segments in a single, flattened array.
