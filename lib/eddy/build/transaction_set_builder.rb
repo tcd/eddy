@@ -109,7 +109,7 @@ module Eddy
           when Eddy::Summary::Segment
             decs << "@#{comp.id.downcase} = Eddy::Segments::#{comp.id.upcase}.new(store)\n"
           when Eddy::Summary::Loop
-            if comp.repeat == 1
+            if comp.repeat_limit == 1
               decs << "@#{comp.id.downcase} = Eddy::Segments::#{comp.id.upcase}.new(store)\n"
             else
               decs << "@l_#{comp.id.downcase} = Eddy::TransactionSets::#{self.summary.normalized_name}::Loops::#{comp.id.upcase}.new(store)\n"
@@ -128,7 +128,7 @@ module Eddy
           when Eddy::Summary::Segment
             super_call << "  @#{comp.id.downcase},\n"
           when Eddy::Summary::Loop
-            if comp.repeat == 1
+            if comp.repeat_limit == 1
               super_call << "  @#{comp.id.downcase},\n"
             else
               super_call << "  @l_#{comp.id.downcase},\n"
@@ -148,7 +148,7 @@ module Eddy
           when Eddy::Summary::Segment
             Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
           when Eddy::Summary::Loop
-            if comp.repeat == 1
+            if comp.repeat_limit == 1
               Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
             else
               Eddy::Build::TransactionSetBuilder.loop_accessor(comp, self.summary.normalized_name)

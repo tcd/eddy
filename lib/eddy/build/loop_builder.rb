@@ -42,7 +42,7 @@ module Eddy
             # @return [void]
             def initialize(store)
               super(store)
-              @repeat = #{self.summary.repeat}
+              @repeat_limit = #{self.summary.repeat_limit}
               @components = [
               #{self.components(self.t_set_id)}
               ]

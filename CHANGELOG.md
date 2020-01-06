@@ -15,13 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Renamed `Eddy::Schema` to `Eddy::Summary` and removed `Summary` postfix from class names, resulting in the following changes:
+- Renamed attribute `repeat` to `repeat_limit`
+
+- Rename `Eddy::Schema` to `Eddy::Summary` and remove `Summary` postfix from class names, resulting in the following changes:
     - `Eddy::Schema::LoopSummary` -> `Eddy::Summary::Loop`
     - `Eddy::Schema::ElementSummary` -> `Eddy::Summary::Element`
     - `Eddy::Schema::SegmentSummary` -> `Eddy::Summary::Segment`
     - `Eddy::Schema::TransactionSetSummary` -> `Eddy::Summary::TransactionSet`
 
-- Moved the following classes into the `Eddy::Models` module:
+- Move the following classes into the `Eddy::Models` module:
     - `Element::*`
     - `Segment`
     - `Loop::*`
@@ -33,7 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Rename variable `loop_id` to `id`.
+- Rename attribute `loop_id` to `id`.
 
 ### Fixed
 

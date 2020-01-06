@@ -15,7 +15,7 @@ module Eddy
         attr_reader :id
         # Number of times a particular Loop may be repeated.
         # @return [Integer]
-        attr_reader :repeat
+        attr_reader :repeat_limit
         # Defines if/how the Loop is required.
         # @return [String]
         attr_reader :req

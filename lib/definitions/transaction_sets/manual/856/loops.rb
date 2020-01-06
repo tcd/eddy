@@ -22,7 +22,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 200_000
+            @repeat_limit = 200_000
             @components = [
               Eddy::Segments::HL,
               Eddy::Segments::TD1,
@@ -60,7 +60,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 200
+            @repeat_limit = 200
             @components = [
               Eddy::Segments::N1,
               Eddy::Segments::N3,
@@ -85,7 +85,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 1
+            @repeat_limit = 1
             @components = [
               Eddy::Segments::HL,
               Eddy::Segments::PRF,
@@ -108,7 +108,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 1
+            @repeat_limit = 1
             @components = [
               Eddy::Segments::HL,
               Eddy::Segments::MAN,
@@ -133,7 +133,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 1
+            @repeat_limit = 1
             @components = [
               Eddy::Segments::HL,
               Eddy::Segments::LIN,

@@ -15,7 +15,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 200
+            @repeat_limit = 200
             @components = [
               Eddy::Segments::N1,
               Eddy::Segments::N3,
@@ -40,7 +40,7 @@ module Eddy
           # @return [void]
           def initialize(store)
             super(store)
-            @repeat = 100000
+            @repeat_limit = 100000
             @components = [
               Eddy::Segments::PO1,
             ]

@@ -8,7 +8,7 @@ module Eddy
       attr_accessor :id
       # Number of times a particular Loop may be repeated.
       # @return [Integer]
-      attr_accessor :repeat
+      attr_accessor :repeat_limit
       # *Syntax*, *Semantic*, or *Comment* notes on a Loop.
       # @return [String]
       attr_accessor :notes
@@ -32,7 +32,7 @@ module Eddy
       def self.create(params = {})
         l = new()
         l.id = params[:loop_id]
-        l.repeat = params[:repeat]
+        l.repeat_limit = params[:repeat]
         l.notes = params[:notes]
         l.level = params[:level]
         l.req = params[:req]
@@ -76,7 +76,7 @@ module Eddy
         parts = []
         parts << "### Loop Summary:\n" if header
         parts << <<~YARD.strip
-          - Repeat: #{self.repeat}
+          - Repeat: #{self.repeat_limit}
           - Components:
           #{comps}
         YARD

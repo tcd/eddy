@@ -18,7 +18,7 @@ module BuildTest
             # @return [void]
             def initialize(store)
               super(store)
-              @repeat = 200
+              @repeat_limit = 200
               @components = [
                 Eddy::Segments::N1,
                 Eddy::Segments::N3,
@@ -53,7 +53,7 @@ module BuildTest
             # @return [void]
             def initialize(store)
               super(store)
-              @repeat = 200000
+              @repeat_limit = 200000
               @components = [
                 Eddy::Segments::IT1,
                 Eddy::Segments::CTP,
