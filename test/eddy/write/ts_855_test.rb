@@ -45,62 +45,62 @@ module WriteTest
         bak.PurchaseOrderNumber = "00000007397108"
         bak.Date = @epoch
       end
-      ts.L_N1 do |n1, n3, n4|
+      ts.L_N1 do |rep|
         # N1
-        n1.EntityIdentifierCode = "ST"
-        n1.Name = "Sweeney Todd"
+        rep.N1.EntityIdentifierCode = "ST"
+        rep.N1.Name = "Sweeney Todd"
         # N3
-        n3.AddressInformation = "2705 Fleet St"
+        rep.N3.AddressInformation = "2705 Fleet St"
         # N4
-        n4.CityName = "Birmingham"
-        n4.StateOrProvinceCode = "AL"
-        n4.PostalCode = "35226"
-        n4.CountryCode = "US"
+        rep.N4.CityName = "Birmingham"
+        rep.N4.StateOrProvinceCode = "AL"
+        rep.N4.PostalCode = "35226"
+        rep.N4.CountryCode = "US"
       end
-      ts.L_PO1 do |po1, l_pid, l_ack|
-        po1.AssignedIdentification = "1"
-        po1.QuantityOrdered = 1
-        po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 59.95
-        po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662184"
-        po1.ProductServiceIdQualifier2 = "VP"
-        po1.ProductServiceId2 = "860001662184"
-        l_pid.add_iteration do |pid|
-          pid.ItemDescriptionType = "F"
-          pid.Description = "CBD Topical Cream 400mg THC Free"
+      ts.L_PO1 do |rep|
+        rep.PO1.AssignedIdentification = "1"
+        rep.PO1.QuantityOrdered = 1
+        rep.PO1.UnitOrBasisForMeasurementCode = "EA"
+        rep.PO1.UnitPrice = 59.95
+        rep.PO1.ProductServiceIdQualifier1 = "UP"
+        rep.PO1.ProductServiceId1 = "860001662184"
+        rep.PO1.ProductServiceIdQualifier2 = "VP"
+        rep.PO1.ProductServiceId2 = "860001662184"
+        rep.L_PID do |rep|
+          rep.PID.ItemDescriptionType = "F"
+          rep.PID.Description = "CBD Topical Cream 400mg THC Free"
         end
-        l_ack.add_iteration do |ack|
-          ack.LineItemStatusCode = "IA"
-          ack.Quantity = 1
-          ack.UnitOrBasisForMeasurementCode = "EA"
-          ack.ACK07 = "UP"
-          ack.ACK08 = "860001662184"
-          ack.ACK09 = "VP"
-          ack.ACK10 = "860001662184"
+        rep.L_ACK do |rep|
+          rep.ACK.LineItemStatusCode = "IA"
+          rep.ACK.Quantity = 1
+          rep.ACK.UnitOrBasisForMeasurementCode = "EA"
+          rep.ACK.ACK07 = "UP"
+          rep.ACK.ACK08 = "860001662184"
+          rep.ACK.ACK09 = "VP"
+          rep.ACK.ACK10 = "860001662184"
         end
       end
-      ts.L_PO1 do |po1, l_pid, l_ack|
-        po1.AssignedIdentification = "2"
-        po1.QuantityOrdered = 2
-        po1.UnitOrBasisForMeasurementCode = "EA"
-        po1.UnitPrice = 49.95
-        po1.ProductServiceIdQualifier1 = "UP"
-        po1.ProductServiceId1 = "860001662108"
-        po1.ProductServiceIdQualifier2 = "VP"
-        po1.ProductServiceId2 = "860001662108"
-        l_pid.add_iteration do |pid|
-          pid.ItemDescriptionType = "F"
-          pid.Description = "500mg Full Spectrum Garden Mint Oil Tincture"
+      ts.L_PO1 do |rep|
+        rep.PO1.AssignedIdentification = "2"
+        rep.PO1.QuantityOrdered = 2
+        rep.PO1.UnitOrBasisForMeasurementCode = "EA"
+        rep.PO1.UnitPrice = 49.95
+        rep.PO1.ProductServiceIdQualifier1 = "UP"
+        rep.PO1.ProductServiceId1 = "860001662108"
+        rep.PO1.ProductServiceIdQualifier2 = "VP"
+        rep.PO1.ProductServiceId2 = "860001662108"
+        rep.L_PID do |rep|
+          rep.PID.ItemDescriptionType = "F"
+          rep.PID.Description = "500mg Full Spectrum Garden Mint Oil Tincture"
         end
-        l_ack.add_iteration do |ack|
-          ack.LineItemStatusCode = "IA"
-          ack.Quantity = 2
-          ack.UnitOrBasisForMeasurementCode = "EA"
-          ack.ACK07 = "UP"
-          ack.ACK08 = "860001662108"
-          ack.ACK09 = "VP"
-          ack.ACK10 = "860001662108"
+        rep.L_ACK do |rep|
+          rep.ACK.LineItemStatusCode = "IA"
+          rep.ACK.Quantity = 2
+          rep.ACK.UnitOrBasisForMeasurementCode = "EA"
+          rep.ACK.ACK07 = "UP"
+          rep.ACK.ACK08 = "860001662108"
+          rep.ACK.ACK09 = "VP"
+          rep.ACK.ACK10 = "860001662108"
         end
       end
       ts.CTT.NumberOfLineItems = 2

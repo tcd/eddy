@@ -19,10 +19,10 @@ module Eddy
         # Defines if/how the Loop is required.
         # @return [String]
         attr_reader :req
-        # An array of Segments and/or other Loops.
-        # This is used as a template to populate `content`.
-        # @return [Array<Eddy::Models::Segment, Eddy::Models::Loop::Base>]
-        attr_reader :components
+        # Used to contain the components of a single loop iteration (or a single loop *repeat*).
+        # This value is a class, not an instance.
+        # @return [Eddy::Models::Loop::Repeat]
+        attr_reader :repeat_object
         # @return [Eddy::Data::Store] Data passed down from a Transaction Set.
         attr_reader :store
         # An array of loop iterations.
@@ -32,12 +32,11 @@ module Eddy
         # All of a Loop's elements need to be declared in its constructor.
         #
         # @param store [Eddy::Data::Store]
-        # @param components [Array<Eddy::Models::Loop, Eddy::Models::Segment>]
+        # @param repeat_object [Eddy::Models::Loop::Repeat]
         # @return [void]
-        def initialize(store, *components)
+        def initialize(store, repeat_object)
           @store = store
-          components.flatten!
-          @components = components || []
+          @repeat_object = repeat_object
           @content = []
         end
 
@@ -46,13 +45,11 @@ module Eddy
         # @return [Array<Eddy::Models::Segment>]
         def all_contents()
           contents = self.content.flatten.map do |c|
-            if c.is_a?(Eddy::Models::Loop::Base)
-              c.all_contents()
-            elsif c.is_a?(Eddy::Models::Segment)
-            # elsif c < Eddy::Models::Segment
-              c
-            else
-              raise Eddy::Errors::RenderError
+            case c
+            when Eddy::Models::Loop::Repeat then c.all_contents()
+            when Eddy::Models::Loop::Base   then c.all_contents()
+            when Eddy::Models::Segment      then c
+            else raise Eddy::Errors::RenderError
             end
           end
           return contents.flatten
@@ -60,14 +57,14 @@ module Eddy
 
         # @param block [Block]
         # @return [void]
-        def add_iteration(&block)
-          iteration = self.components.map { |c| c.new(self.store) }
+        def repeat(&block)
+          rep = self.repeat_object.new(self.store)
           if block_given?
-            yield(*iteration)
+            rep.repeat(&block)
           else
             raise Eddy::Errors::Error, "No block given in loop iteration"
           end
-          self.content << iteration
+          self.content << rep
           return nil
         end
 

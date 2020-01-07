@@ -2,7 +2,9 @@ require "fileutils"
 
 require "eddy/build/elements/elements"
 require "eddy/build/segment_builder"
-require "eddy/build/loop_builder"
+require "eddy/build/loop/base"
+require "eddy/build/loop/repeat"
+require "eddy/build/loop/render"
 require "eddy/build/transaction_set_builder"
 
 module Eddy

@@ -18,8 +18,8 @@ module Eddy
         def initialize(store)
           @beg = Eddy::Segments::BEG.new(store)
           @td5 = Eddy::Segments::TD5.new(store)
-          @l_n1 = Eddy::TransactionSets::TS850::Loops::N1.new(store)
-          @l_po1 = Eddy::TransactionSets::TS850::Loops::PO1.new(store)
+          @l_n1 = Eddy::TransactionSets::TS850::Loops::N1::Base.new(store)
+          @l_po1 = Eddy::TransactionSets::TS850::Loops::PO1::Base.new(store)
           @ctt = Eddy::Segments::CTT.new(store)
           super(
             store,
@@ -33,7 +33,7 @@ module Eddy
 
         # (see Eddy::Segments::BEG)
         #
-        # @yieldparam [Eddy::Segments::BEG] beg
+        # @yieldparam [Eddy::Segments::BEG]
         # @return [Eddy::Segments::BEG]
         def BEG()
           yield(@beg) if block_given?
@@ -42,35 +42,33 @@ module Eddy
 
         # (see Eddy::Segments::TD5)
         #
-        # @yieldparam [Eddy::Segments::TD5] td5
+        # @yieldparam [Eddy::Segments::TD5]
         # @return [Eddy::Segments::TD5]
         def TD5()
           yield(@td5) if block_given?
           return @td5
         end
 
-        # (see Eddy::TransactionSets::TS850::Loops::N1)
+        # (see Eddy::TransactionSets::TS850::Loops::N1::Base)
         #
-        # @yieldparam [Eddy::Segments::N1] n1
-        # @yieldparam [Eddy::Segments::N3] n3
-        # @yieldparam [Eddy::Segments::N4] n4
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
         # @return [void]
         def L_N1(&block)
           if block_given?
-            @l_n1.add_iteration(&block)
+            @l_n1.repeat(&block)
           else
             raise Eddy::Errors::Error, "No block given in loop iteration"
           end
           return nil
         end
 
-        # (see Eddy::TransactionSets::TS850::Loops::PO1)
+        # (see Eddy::TransactionSets::TS850::Loops::PO1::Base)
         #
-        # @yieldparam [Eddy::Segments::PO1] po1
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat]
         # @return [void]
         def L_PO1(&block)
           if block_given?
-            @l_po1.add_iteration(&block)
+            @l_po1.repeat(&block)
           else
             raise Eddy::Errors::Error, "No block given in loop iteration"
           end
@@ -79,7 +77,7 @@ module Eddy
 
         # (see Eddy::Segments::CTT)
         #
-        # @yieldparam [Eddy::Segments::CTT] ctt
+        # @yieldparam [Eddy::Segments::CTT]
         # @return [Eddy::Segments::CTT]
         def CTT()
           yield(@ctt) if block_given?

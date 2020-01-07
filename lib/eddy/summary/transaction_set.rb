@@ -87,7 +87,7 @@ module Eddy
 
       # Return one of each kind of loop in the Transaction Set.
       #
-      # @return [Array<Eddy::Summary::Segment, Eddy::Summary::Loop>]
+      # @return [Array<Eddy::Summary::Loop>]
       def unique_loops()
         return self.all_components.select { |c| c.is_a?(Eddy::Summary::Loop) }.uniq(&:id)
       end

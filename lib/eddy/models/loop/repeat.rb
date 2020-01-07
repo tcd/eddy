@@ -26,16 +26,26 @@ module Eddy
         #
         # @return [Array<Eddy::Models::Segment>]
         def all_contents()
-          contents = self.content.flatten.map do |c|
-            if c.is_a?(Eddy::Models::Loop::Base)
-              c.all_contents()
-            elsif c.is_a?(Eddy::Models::Segment)
-              c
-            else
-              raise Eddy::Errors::RenderError
+          contents = self.components.flatten.map do |c|
+            case c
+            when Eddy::Models::Loop::Repeat then c.all_contents()
+            when Eddy::Models::Loop::Base   then c.all_contents()
+            when Eddy::Models::Segment      then c
+            else raise Eddy::Errors::RenderError
             end
           end
           return contents.flatten
+        end
+
+        # @yieldparam [self] rep
+        # @return [self]
+        def repeat()
+          if block_given?
+            yield(self)
+          else
+            raise Eddy::Errors::Error, "No block given in loop iteration"
+          end
+          return self
         end
 
       end

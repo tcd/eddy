@@ -37,11 +37,11 @@ module SchemaTest
     end
 
     def test_all_components_in_856
-      assert_equal(24, @summary_856.all_components.length)
+      assert_equal(25, @summary_856.all_components.length)
     end
 
     def test_all_unique_loops_in_856
-      assert_equal(5, @summary_856.unique_loops.length)
+      assert_equal(6, @summary_856.unique_loops.length)
     end
 
   end
