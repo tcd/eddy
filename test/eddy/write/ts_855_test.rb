@@ -45,7 +45,7 @@ module WriteTest
         bak.PurchaseOrderNumber = "00000007397108"
         bak.Date = @epoch
       end
-      ts.L_N1.repeat do |rep|
+      ts.L_N1 do |rep|
         # N1
         rep.N1.EntityIdentifierCode = "ST"
         rep.N1.Name = "Sweeney Todd"
@@ -57,7 +57,7 @@ module WriteTest
         rep.N4.PostalCode = "35226"
         rep.N4.CountryCode = "US"
       end
-      ts.L_PO1.repeat do |rep|
+      ts.L_PO1 do |rep|
         rep.PO1.AssignedIdentification = "1"
         rep.PO1.QuantityOrdered = 1
         rep.PO1.UnitOrBasisForMeasurementCode = "EA"
@@ -66,11 +66,11 @@ module WriteTest
         rep.PO1.ProductServiceId1 = "860001662184"
         rep.PO1.ProductServiceIdQualifier2 = "VP"
         rep.PO1.ProductServiceId2 = "860001662184"
-        rep.L_PID.repeat do |rep|
+        rep.L_PID do |rep|
           rep.PID.ItemDescriptionType = "F"
           rep.PID.Description = "CBD Topical Cream 400mg THC Free"
         end
-        rep.L_ACK.repeat do |rep|
+        rep.L_ACK do |rep|
           rep.ACK.LineItemStatusCode = "IA"
           rep.ACK.Quantity = 1
           rep.ACK.UnitOrBasisForMeasurementCode = "EA"
@@ -80,7 +80,7 @@ module WriteTest
           rep.ACK.ACK10 = "860001662184"
         end
       end
-      ts.L_PO1.repeat do |rep|
+      ts.L_PO1 do |rep|
         rep.PO1.AssignedIdentification = "2"
         rep.PO1.QuantityOrdered = 2
         rep.PO1.UnitOrBasisForMeasurementCode = "EA"
@@ -89,11 +89,11 @@ module WriteTest
         rep.PO1.ProductServiceId1 = "860001662108"
         rep.PO1.ProductServiceIdQualifier2 = "VP"
         rep.PO1.ProductServiceId2 = "860001662108"
-        rep.L_PID.repeat do |rep|
+        rep.L_PID do |rep|
           rep.PID.ItemDescriptionType = "F"
           rep.PID.Description = "500mg Full Spectrum Garden Mint Oil Tincture"
         end
-        rep.L_ACK.repeat do |rep|
+        rep.L_ACK do |rep|
           rep.ACK.LineItemStatusCode = "IA"
           rep.ACK.Quantity = 2
           rep.ACK.UnitOrBasisForMeasurementCode = "EA"

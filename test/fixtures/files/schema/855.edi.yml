@@ -10,7 +10,7 @@ components:
     - { ref: BAK02, id: '587', req: M }
     - { ref: BAK03, id: '324', req: M }
     - { ref: BAK04, id: '373', req: M }
-- loop_id: L_N1
+- loop_id: N1
   repeat: 200
   components:
     - id: N1
@@ -30,7 +30,7 @@ components:
         - { ref: N401, id: '19',  req: O }
         - { ref: N402, id: '156', req: O }
         - { ref: N403, id: '116', req: O }
-- loop_id: L_PO1
+- loop_id: PO1
   repeat: 100000
   components:
     - id: PO1
@@ -44,7 +44,7 @@ components:
         - { ref: PO107, id: '234', req: X }
         - { ref: PO108, id: '235', req: X }
         - { ref: PO109, id: '234', req: X }
-    - loop_id: L_PID
+    - loop_id: PID
       repeat: 1000
       components:
         - id: PID
@@ -52,7 +52,7 @@ components:
           elements:
             - { ref: PID01, id: '349', req: M }
             - { ref: PID05, id: '352', req: X }
-    - loop_id: L_ACK
+    - loop_id: ACK
       repeat: 104
       components:
         - id: ACK
@@ -65,7 +65,7 @@ components:
             - { ref: ACK08, id: '234', req: X }
             - { ref: ACK09, id: '235', req: X }
             - { ref: ACK10, id: '234', req: X }
-- loop_id: L_CTT
+- loop_id: CTT
   repeat: 1
   components:
     - id: CTT
