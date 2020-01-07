@@ -96,6 +96,13 @@ module Eddy
         end.flatten
       end
 
+      # Return `id` with `"l_"` slapped on the front if it wasn't already there.
+      #
+      # @return [String]
+      def var_name()
+        return self.id.start_with?(/l_/i) ? self.id : "l_#{self.id.downcase}"
+      end
+
     end
   end
 end

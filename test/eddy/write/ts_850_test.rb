@@ -33,7 +33,7 @@ module WriteTest
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      ts.L_N1.repeat do |rep|
+      ts.L_N1 do |rep|
         # N1
         rep.N1.N101 = "ST"
         rep.N1.Name = "Sweeney Todd"
@@ -45,7 +45,7 @@ module WriteTest
         rep.N4.PostalCode = "35226"
         rep.N4.CountryCode = "US"
       end
-      ts.L_PO1.repeat do |rep|
+      ts.L_PO1 do |rep|
         # CBD Topical Cream 400mg THC Free
         rep.PO1.AssignedIdentification = "1"
         rep.PO1.QuantityOrdered = 1
@@ -87,7 +87,7 @@ module WriteTest
         td5.TD504 = "ZZ"
         td5.TD505 = "UPS3"
       end
-      ts.L_N1.repeat do |rep|
+      ts.L_N1 do |rep|
         # N1
         rep.N1.N101 = "ST"
         rep.N1.Name = "Sweeney Todd"
@@ -99,7 +99,7 @@ module WriteTest
         rep.N4.PostalCode = "35226"
         rep.N4.CountryCode = "US"
       end
-      ts.L_PO1.repeat do |rep|
+      ts.L_PO1 do |rep|
         # CBD Topical Cream 400mg THC Free
         rep.PO1.AssignedIdentification = "1"
         rep.PO1.QuantityOrdered = 1
@@ -110,7 +110,7 @@ module WriteTest
         rep.PO1.ProductServiceIdQualifier2 = "VN"
         rep.PO1.ProductServiceId2 = "860001662184"
       end
-      ts.L_PO1.repeat do |rep|
+      ts.L_PO1 do |rep|
         # 500mg Full Spectrum Garden Mint Oil Tincture
         rep.PO1.AssignedIdentification = "2"
         rep.PO1.QuantityOrdered = 2

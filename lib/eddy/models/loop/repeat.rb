@@ -37,9 +37,9 @@ module Eddy
           return contents.flatten
         end
 
-        # @param block [Block]
+        # @yieldparam [self] rep
         # @return [self]
-        def repeat(&block)
+        def repeat()
           if block_given?
             yield(self)
           else

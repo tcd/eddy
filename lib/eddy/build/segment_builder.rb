@@ -35,7 +35,7 @@ module Eddy
       # @param (see #initialize)
       # @return [Eddy::Build::SegmentBuilder]
       def self.from_summary(summary, **kwargs)
-        sb = Eddy::Build::SegmentBuilder.new(**kwargs)
+        sb = new(**kwargs)
         sb.summary = summary
         return sb
       end
@@ -52,6 +52,11 @@ module Eddy
         path = self.folder || File.join(Eddy.config.build_dir, "segments")
         result = self.ginny_class.generate(path)
         return result
+      end
+
+      # @return [String]
+      def render()
+        return self.ginny_class.render()
       end
 
       # @return [Ginny::Class]

@@ -20,15 +20,13 @@ module BuildTest
 
       def test_loop_accessor
         want = <<~RB.strip
-          # (see Eddy::TransactionSets::TS810::Loops::N1)
+          # (see Eddy::TransactionSets::TS810::Loops::N1::Base)
           #
-          # @yieldparam [Eddy::Segments::N1] n1
-          # @yieldparam [Eddy::Segments::N3] n3
-          # @yieldparam [Eddy::Segments::N4] n4
+          # @yieldparam [Eddy::TransactionSets::TS810::Loops::N1::Repeat]
           # @return [void]
-          def L_N1(&block)
+          def L_N1()
             if block_given?
-              @l_n1.add_iteration(&block)
+              @l_n1.repeat()
             else
               raise Eddy::Errors::Error, "No block given in loop iteration"
             end
