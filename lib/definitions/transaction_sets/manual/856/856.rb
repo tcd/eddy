@@ -18,7 +18,7 @@ module Eddy
         def initialize(store)
           @bsn = Eddy::Segments::BSN.new(store)
           @dtm = Eddy::Segments::DTM.new(store)
-          @hl_shipment = Eddy::TransactionSets::TS856::Loops::HL_SHIPMENT.new(store)
+          @hl_shipment = Eddy::TransactionSets::TS856::Loops::HL_Shipment::Base.new(store)
           @ctt = Eddy::Segments::CTT.new(store)
           super(
             store,
@@ -31,7 +31,7 @@ module Eddy
 
         # (see Eddy::Segments::BSN)
         #
-        # @yieldparam [Eddy::Segments::BSN] bsn
+        # @yieldparam [Eddy::Segments::BSN]
         # @return [Eddy::Segments::BSN]
         def BSN()
           yield(@bsn) if block_given?
@@ -40,28 +40,20 @@ module Eddy
 
         # (see Eddy::Segments::DTM)
         #
-        # @yieldparam [Eddy::Segments::DTM] dtm
+        # @yieldparam [Eddy::Segments::DTM]
         # @return [Eddy::Segments::DTM]
         def DTM()
           yield(@dtm) if block_given?
           return @dtm
         end
 
-        # (see Eddy::TransactionSets::TS856::Loops::HL_SHIPMENT)
+        # (see Eddy::TransactionSets::TS856::Loops::HL_Shipment::Base)
         #
-        # @yieldparam [Eddy::Segments::HL] hl_s
-        # @yieldparam [Eddy::Segments::TD1] td1
-        # @yieldparam [Eddy::Segments::TD5] td5
-        # @yieldparam [Eddy::Segments::REF] ref
-        # @yieldparam [Eddy::Segments::DTM] dtm
-        # @yieldparam [Eddy::TransactionSets::TS856::Loops::N1] l_n1
-        # @yieldparam [Eddy::TransactionSets::TS856::Loops::HL_ORDER] hl_order
-        # @yieldparam [Eddy::TransactionSets::TS856::Loops::HL_TARE] hl_tare
-        # @yieldparam [Eddy::TransactionSets::TS856::Loops::HL_ITEM] hl_item
+        # @yieldparam [Eddy::TransactionSets::TS856::Loops::HL_Shipment::Repeat]
         # @return [void]
         def HL_SHIPMENT(&block)
           if block_given?
-            @hl_shipment.add_iteration(&block)
+            @hl_shipment.repeat(&block)
           else
             raise Eddy::Errors::Error, "No block given in loop iteration"
           end
@@ -70,7 +62,7 @@ module Eddy
 
         # (see Eddy::Segments::CTT)
         #
-        # @yieldparam [Eddy::Segments::CTT] ctt
+        # @yieldparam [Eddy::Segments::CTT]
         # @return [Eddy::Segments::CTT]
         def CTT()
           yield(@ctt) if block_given?
