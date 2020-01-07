@@ -29,9 +29,7 @@ module BuildTest
                           super(store, Repeat)
                         end
 
-                        # Add a repeat of loop IT1.
-                        #
-                        # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat] rep
+                        # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat]
                         # @return [void]
                         def repeat(&block)
                           super(&block)
@@ -58,7 +56,7 @@ module BuildTest
 
                         # (see Eddy::Segments::IT1)
                         #
-                        # @yieldparam [Eddy::Segments::IT1] it1
+                        # @yieldparam [Eddy::Segments::IT1]
                         # @return [Eddy::Segments::IT1]
                         def IT1()
                           yield(@it1) if block_given?
@@ -67,7 +65,7 @@ module BuildTest
 
                         # (see Eddy::Segments::CTP)
                         #
-                        # @yieldparam [Eddy::Segments::CTP] ctp
+                        # @yieldparam [Eddy::Segments::CTP]
                         # @return [Eddy::Segments::CTP]
                         def CTP()
                           yield(@ctp) if block_given?

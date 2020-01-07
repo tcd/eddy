@@ -9,17 +9,13 @@ module Eddy
 
       # @return [Eddy::Summary::TransactionSet]
       attr_accessor :summary
-      # @return [String] (nil)
-      attr_accessor :folder
-      # @return [Boolean] (false)
-      attr_accessor :headers
 
+      # @param summary [Eddy::Summary::TransactionSet]
       # @param folder [String] (nil)
-      # @param headers [Boolean] (false)
       # @return [void]
-      def initialize(folder: nil, headers: false)
-        self.folder  = folder
-        self.headers = headers
+      def initialize(summary, folder: nil)
+        self.summary = summary
+        @folder = folder
       end
 
       def_delegators(
@@ -36,27 +32,21 @@ module Eddy
       def self.from_file(path, **kwargs)
         raise Eddy::Errors::Error, "Invalid transaction set definition" unless Eddy::Summary.valid_transaction_set_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
-        builder = new(**kwargs)
-        builder.summary = Eddy::Summary::TransactionSet.create(data)
-        return builder
+        return new(Eddy::Summary::TransactionSet.create(data), **kwargs)
       end
 
-      # @param summary [Eddy::Summary::TransactionSet]
-      # @param (see #initialize)
-      # @return [Eddy::Build::TransactionSetBuilder]
-      def self.from_summary(summary, **kwargs)
-        builder = new(**kwargs)
-        builder.summary = summary
-        return builder
+      # @return [String]
+      def folder()
+        root_path = @folder || File.join(Eddy::Util.root_dir, "build", "transaction_sets")
+        path = File.join(root_path, self.id.to_s)
+        FileUtils.mkdir_p(path)
+        return path
       end
 
       # @return [String]
       def build()
-        root_path = self.folder || File.join(Eddy::Util.root_dir, "build", "transaction_sets")
-        path = File.join(root_path, self.id.to_s)
-        FileUtils.mkdir_p(path)
-        File.open(File.join(path, "loops.rb"), "a") { |f| f.write(self.render_loops) }
-        return self.ginny_class.generate(path)
+        self.build_loops()
+        return self.ginny_class.generate(self.folder, "#{self.id}.rb")
       end
 
       # @return [String]
@@ -64,13 +54,15 @@ module Eddy
         return self.ginny_class.render()
       end
 
-      # # @return [String]
-      # def render_loops()
-      #   loops = self.summary.unique_loops.map do |l|
-      #     Eddy::Build::LoopBuilder.from_summary(l, t_set_id: self.normalized_name).ginny_class.render()
-      #   end.join("\n\n")
-      #   return Ginny.mod(("\n" + loops + "\n"), "Eddy", "TransactionSets", self.normalized_name, "Loops")
-      # end
+      # @return [String]
+      def build_loops()
+        FileUtils.mkdir_p(File.join(self.build_path, "loops"))
+        self.summary.unique_loops.each do |looop|
+          File.open(File.join(self.build_path, "loops", "#{looop.normalized_name}.rb"), "a") do |f|
+            f.write(Eddy::Build::Loop.render(looop, self.normalized_name) + "\n")
+          end
+        end
+      end
 
       # @return [Ginny::Class]
       def ginny_class()
@@ -159,7 +151,7 @@ module Eddy
         return <<~RB.strip
           # (see Eddy::Segments::#{upper})
           #
-          # @yieldparam [Eddy::Segments::#{upper}] #{lower}
+          # @yieldparam [Eddy::Segments::#{upper}]
           # @return [Eddy::Segments::#{upper}]
           def #{upper}()
             yield(@#{lower}) if block_given?
@@ -177,9 +169,9 @@ module Eddy
           #
           # @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{summary.id.upcase}::Repeat]
           # @return [void]
-          def #{summary.var_name.upcase}()
+          def #{summary.var_name.upcase}(&block)
             if block_given?
-              @#{summary.var_name}.repeat()
+              @#{summary.var_name}.repeat(&block)
             else
               raise Eddy::Errors::Error, \"No block given in loop iteration\"
             end

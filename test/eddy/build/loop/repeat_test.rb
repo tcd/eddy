@@ -24,7 +24,7 @@ module BuildTest
 
             # (see Eddy::Segments::N1)
             #
-            # @yieldparam [Eddy::Segments::N1] n1
+            # @yieldparam [Eddy::Segments::N1]
             # @return [Eddy::Segments::N1]
             def N1()
               yield(@n1) if block_given?
@@ -33,7 +33,7 @@ module BuildTest
 
             # (see Eddy::Segments::N3)
             #
-            # @yieldparam [Eddy::Segments::N3] n3
+            # @yieldparam [Eddy::Segments::N3]
             # @return [Eddy::Segments::N3]
             def N3()
               yield(@n3) if block_given?
@@ -42,7 +42,7 @@ module BuildTest
 
             # (see Eddy::Segments::N4)
             #
-            # @yieldparam [Eddy::Segments::N4] n4
+            # @yieldparam [Eddy::Segments::N4]
             # @return [Eddy::Segments::N4]
             def N4()
               yield(@n4) if block_given?
@@ -77,7 +77,7 @@ module BuildTest
 
             # (see Eddy::Segments::IT1)
             #
-            # @yieldparam [Eddy::Segments::IT1] it1
+            # @yieldparam [Eddy::Segments::IT1]
             # @return [Eddy::Segments::IT1]
             def IT1()
               yield(@it1) if block_given?
@@ -86,7 +86,7 @@ module BuildTest
 
             # (see Eddy::Segments::CTP)
             #
-            # @yieldparam [Eddy::Segments::CTP] ctp
+            # @yieldparam [Eddy::Segments::CTP]
             # @return [Eddy::Segments::CTP]
             def CTP()
               yield(@ctp) if block_given?

@@ -44,9 +44,7 @@ module Eddy
                 super(store, Repeat)
               end
 
-              # Add a repeat of loop #{self.summary.id}.
-              #
-              # @yieldparam [Eddy::TransactionSets::#{self.t_set_id}::Loops::#{self.summary.id}::Repeat] rep
+              # @yieldparam [Eddy::TransactionSets::#{self.t_set_id}::Loops::#{self.summary.id}::Repeat]
               # @return [void]
               def repeat(&block)
                 super(&block)

@@ -44,7 +44,7 @@ module BuildTest
 
                   # (see Eddy::Segments::BEG)
                   #
-                  # @yieldparam [Eddy::Segments::BEG] beg
+                  # @yieldparam [Eddy::Segments::BEG]
                   # @return [Eddy::Segments::BEG]
                   def BEG()
                     yield(@beg) if block_given?
@@ -53,7 +53,7 @@ module BuildTest
 
                   # (see Eddy::Segments::TD5)
                   #
-                  # @yieldparam [Eddy::Segments::TD5] td5
+                  # @yieldparam [Eddy::Segments::TD5]
                   # @return [Eddy::Segments::TD5]
                   def TD5()
                     yield(@td5) if block_given?
@@ -64,9 +64,9 @@ module BuildTest
                   #
                   # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
                   # @return [void]
-                  def L_N1()
+                  def L_N1(&block)
                     if block_given?
-                      @l_n1.repeat()
+                      @l_n1.repeat(&block)
                     else
                       raise Eddy::Errors::Error, "No block given in loop iteration"
                     end
@@ -77,9 +77,9 @@ module BuildTest
                   #
                   # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat]
                   # @return [void]
-                  def L_PO1()
+                  def L_PO1(&block)
                     if block_given?
-                      @l_po1.repeat()
+                      @l_po1.repeat(&block)
                     else
                       raise Eddy::Errors::Error, "No block given in loop iteration"
                     end
@@ -88,7 +88,7 @@ module BuildTest
 
                   # (see Eddy::Segments::CTT)
                   #
-                  # @yieldparam [Eddy::Segments::CTT] ctt
+                  # @yieldparam [Eddy::Segments::CTT]
                   # @return [Eddy::Segments::CTT]
                   def CTT()
                     yield(@ctt) if block_given?
@@ -100,7 +100,7 @@ module BuildTest
             end
           end
         RB
-        have = Eddy::Build::TransactionSetBuilder.from_summary(@summary).ginny_class.render()
+        have = Eddy::Build::TransactionSetBuilder.new(@summary).ginny_class.render()
         assert_equal(want, have)
       end
 

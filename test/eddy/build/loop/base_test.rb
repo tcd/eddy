@@ -21,9 +21,7 @@ module BuildTest
               super(store, Repeat)
             end
 
-            # Add a repeat of loop N1.
-            #
-            # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat] rep
+            # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
             # @return [void]
             def repeat(&block)
               super(&block)
@@ -53,9 +51,7 @@ module BuildTest
               super(store, Repeat)
             end
 
-            # Add a repeat of loop IT1.
-            #
-            # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat] rep
+            # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat]
             # @return [void]
             def repeat(&block)
               super(&block)

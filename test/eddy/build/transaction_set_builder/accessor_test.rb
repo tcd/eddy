@@ -8,7 +8,7 @@ module BuildTest
         want = <<~RB.strip
           # (see Eddy::Segments::CTT)
           #
-          # @yieldparam [Eddy::Segments::CTT] ctt
+          # @yieldparam [Eddy::Segments::CTT]
           # @return [Eddy::Segments::CTT]
           def CTT()
             yield(@ctt) if block_given?
@@ -24,9 +24,9 @@ module BuildTest
           #
           # @yieldparam [Eddy::TransactionSets::TS810::Loops::N1::Repeat]
           # @return [void]
-          def L_N1()
+          def L_N1(&block)
             if block_given?
-              @l_n1.repeat()
+              @l_n1.repeat(&block)
             else
               raise Eddy::Errors::Error, "No block given in loop iteration"
             end
