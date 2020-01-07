@@ -21,6 +21,8 @@ module Eddy
         return itch
       end
 
+      # @yieldparam [Eddy::Segments::ISA] isa
+      # @yieldparam [Eddy::Segments::IEA] iea
       # @return [String]
       def render()
         ctrl_num = Eddy::Data.new_interchange_control_number()
