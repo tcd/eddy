@@ -1,6 +1,6 @@
 require "test_helper"
 
-module SchemaTest
+module SummaryTest
   class SegmentSummaryTest < Minitest::Test
 
     def setup

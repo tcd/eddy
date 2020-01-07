@@ -1,6 +1,6 @@
 require "test_helper"
 
-module SchemaTest
+module SummaryTest
   class ValidationTest < Minitest::Test
 
     def test_valid_loop_data?
