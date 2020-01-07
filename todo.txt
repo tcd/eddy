@@ -4,14 +4,12 @@ x 2019-12-20 Write code to build all segments.
 x 2020-01-02 2019-12-20 Figure out how to deal with loops.
 x 2020-01-03 2019-12-20 Finish TransactionSetBuilder.
 x 2020-01-05 2019-12-20 Reset `Eddy.data` when `Eddy.config.persistence_method` changes.
+x 2019-12-20 Add a DB persistence_method. (see eddy-rails)
+x 2020-01-07 2019-12-28 If a loop can only repeat once, dont treat it as a loop.
 
-2019-12-28 If a loop can only repeat once, dont treat it as a loop.
-2019-12-20 Add a DB persistence_method.
-2019-12-20 Check for conflicts in Rails generators.
-2019-12-20 Write a Rails model generator.
 2019-12-27 Generate "ref map" files.
 2019-12-30 Logging
 2019-12-30 JSON schema validation errors.
 2020-01-02 Ensure loops dont go over repeat limit.
 2020-01-02 Implement `Segment.max_use` & `Segment.min_use`.
-2020-01-05 Move `Build` to `eddy-build`
+2020-01-05 Move `Build` to `eddy-build`?
