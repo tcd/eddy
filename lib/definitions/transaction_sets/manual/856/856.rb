@@ -7,7 +7,7 @@ module Eddy
       # - Id: 856
       # - Name: Ship Notice/Manifest (Advance Ship Notice)
       # - Functional Group: SH
-      class TS856 < Eddy::Models::TransactionSet
+      class TS < Eddy::Models::TransactionSet
 
         ID = "856".freeze
         NAME = "Ship Notice/Manifest (Advance Ship Notice)".freeze

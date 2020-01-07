@@ -46,7 +46,7 @@ module WriteTest
         SE*21*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
-      ts = Eddy::TransactionSets::TS856::TS856.new(store)
+      ts = Eddy::TransactionSets::TS856::TS.new(store)
       ts.BSN do |bsn|
         bsn.BSN01 = "00"
         bsn.BSN02 = "??"

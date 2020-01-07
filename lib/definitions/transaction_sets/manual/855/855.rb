@@ -7,7 +7,7 @@ module Eddy
       # - Id: 855
       # - Name: Purchase Order Acknowledgement
       # - Functional Group: PR
-      class TS855 < Eddy::Models::TransactionSet
+      class TS < Eddy::Models::TransactionSet
 
         ID = "855".freeze
         NAME = "Purchase Order Acknowledgement".freeze

@@ -21,7 +21,7 @@ module WriteTest
         SE*9*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
-      ts = Eddy::TransactionSets::TS850::TS850.new(store)
+      ts = Eddy::TransactionSets::TS850::TS.new(store)
       ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"
@@ -75,7 +75,7 @@ module WriteTest
         SE*10*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
-      ts = Eddy::TransactionSets::TS850::TS850.new(store)
+      ts = Eddy::TransactionSets::TS850::TS.new(store)
       ts.BEG do |beg|
         beg.TransactionSetPurposeCode = "00"
         beg.BEG02 = "DS"

@@ -38,7 +38,7 @@ module WriteTest
         SE*13*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
-      ts = Eddy::TransactionSets::TS855::TS855.new(store)
+      ts = Eddy::TransactionSets::TS855::TS.new(store)
       ts.BAK do |bak|
         bak.TransactionSetPurposeCode = "00"
         bak.AcknowledgmentType = "AC"

@@ -7,7 +7,7 @@ module Eddy
       # - Id: 810
       # - Name: Invoice
       # - Functional Group: IN
-      class TS810 < Eddy::Models::TransactionSet
+      class TS < Eddy::Models::TransactionSet
 
         ID = "810".freeze
         NAME = "Invoice".freeze

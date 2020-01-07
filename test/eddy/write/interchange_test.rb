@@ -1,9 +1,9 @@
 require "test_helper"
 
 # @param store [Eddy::Data::Store]
-# @return [Eddy::TransactionSets::TS850::TS850]
+# @return [Eddy::TransactionSets::TS850::TS]
 def generate_850(store)
-  ts = Eddy::TransactionSets::TS850::TS850.new(store)
+  ts = Eddy::TransactionSets::TS850::TS.new(store)
   ts.BEG do |beg|
     beg.TransactionSetPurposeCode = "00"
     beg.BEG02 = "DS"

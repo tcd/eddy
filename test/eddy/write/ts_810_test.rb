@@ -46,7 +46,7 @@ module WriteTest
         SE*21*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
-      ts = Eddy::TransactionSets::TS810::TS810.new(store)
+      ts = Eddy::TransactionSets::TS810::TS.new(store)
       ts.BIG do |big|
         big.BIG01 = @epoch
         big.BIG02 = "test"
