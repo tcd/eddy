@@ -13,16 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.6.0 (2020-01-07)
+
 ### Changed
 
-- Renamed attribute `repeat` to `repeat_limit`
-
+- Updated the implementation of `Loop`.
+- Renamed attribute `Loop#repeat` to `Loop#repeat_limit`
 - Rename `Eddy::Schema` to `Eddy::Summary` and remove `Summary` postfix from class names, resulting in the following changes:
     - `Eddy::Schema::LoopSummary` -> `Eddy::Summary::Loop`
     - `Eddy::Schema::ElementSummary` -> `Eddy::Summary::Element`
     - `Eddy::Schema::SegmentSummary` -> `Eddy::Summary::Segment`
     - `Eddy::Schema::TransactionSetSummary` -> `Eddy::Summary::TransactionSet`
-
 - Move the following classes into the `Eddy::Models` module:
     - `Element::*`
     - `Segment`
