@@ -46,7 +46,7 @@ module Eddy
       # @return [String]
       def build()
         self.build_loops()
-        return self.ginny_class.generate(self.folder, "#{self.id}.rb")
+        return self.ginny_class.generate(self.folder, file: "#{self.id}.rb")
       end
 
       # @return [String]
@@ -56,9 +56,9 @@ module Eddy
 
       # @return [String]
       def build_loops()
-        FileUtils.mkdir_p(File.join(self.build_path, "loops"))
+        FileUtils.mkdir_p(File.join(self.folder, "loops"))
         self.summary.unique_loops.each do |looop|
-          File.open(File.join(self.build_path, "loops", "#{looop.normalized_name}.rb"), "a") do |f|
+          File.open(File.join(self.folder, "loops", "#{looop.normalized_name}.rb"), "a") do |f|
             f.write(Eddy::Build::Loop.render(looop, self.normalized_name) + "\n")
           end
         end
