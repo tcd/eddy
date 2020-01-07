@@ -97,9 +97,9 @@ module BuildTest
             #
             # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID::Repeat]
             # @return [void]
-            def L_PID()
+            def L_PID(&block)
               if block_given?
-                @l_pid.repeat()
+                @l_pid.repeat(&block)
               else
                 raise Eddy::Errors::Error, "No block given in loop iteration"
               end
@@ -110,9 +110,9 @@ module BuildTest
             #
             # @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC::Repeat]
             # @return [void]
-            def L_SAC()
+            def L_SAC(&block)
               if block_given?
-                @l_sac.repeat()
+                @l_sac.repeat(&block)
               else
                 raise Eddy::Errors::Error, "No block given in loop iteration"
               end

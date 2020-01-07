@@ -72,49 +72,12 @@ module Eddy
         def accessors()
           defs = self.summary.components.map do |comp|
             if comp.is_a?(Eddy::Summary::Loop) && comp.repeat_limit > 1
-              self.class.loop_accessor(comp, self.t_set_id)
+              Eddy::Build::TransactionSetBuilder.loop_accessor(comp, self.t_set_id)
             else
-              self.class.segment_accessor(comp.id)
+              Eddy::Build::TransactionSetBuilder.segment_accessor(comp.id)
             end
           end
           return defs.join("\n\n")
-        end
-
-        # @param segment_id [String]
-        # @return [String]
-        def self.segment_accessor(segment_id)
-          upper = segment_id.upcase
-          lower = segment_id.downcase
-          return <<~RB.strip
-            # (see Eddy::Segments::#{upper})
-            #
-            # @yieldparam [Eddy::Segments::#{upper}]
-            # @return [Eddy::Segments::#{upper}]
-            def #{upper}()
-              yield(@#{lower}) if block_given?
-              return @#{lower}
-            end
-          RB
-        end
-
-        # @param summary [Eddy::Summary::Loop]
-        # @param t_set_id [String]
-        # @return [String]
-        def self.loop_accessor(summary, t_set_id)
-          return <<~RB.strip
-            # (see Eddy::TransactionSets::#{t_set_id}::Loops::#{summary.id.upcase}::Base)
-            #
-            # @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{summary.id.upcase}::Repeat]
-            # @return [void]
-            def #{summary.var_name.upcase}()
-              if block_given?
-                @#{summary.var_name}.repeat()
-              else
-                raise Eddy::Errors::Error, "No block given in loop iteration"
-              end
-              return nil
-            end
-          RB
         end
 
       end
