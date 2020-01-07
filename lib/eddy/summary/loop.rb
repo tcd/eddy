@@ -100,10 +100,8 @@ module Eddy
       #
       # @return [String]
       def var_name()
-        if self.id.start_with?(/\Al_/i)
-          return self.id
-        elsif self.id.start_with?(/\Ahl_/i)
-          return self.id
+        if self.id.start_with?(/\Ah?l_/i)
+          return self.id.downcase
         else
           return "l_#{self.id.downcase}"
         end
