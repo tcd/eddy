@@ -45,7 +45,7 @@ module Eddy
       def self.from_file(path)
         raise Eddy::Errors::Error, "Invalid segment definition" unless Eddy::Summary.valid_loop_data?(path)
         data = Eddy::Util.read_json_or_yaml(path)
-        return Eddy::Summary::Loop.create(data)
+        return self.create(data)
       end
 
       # @param components [Array<Hash>]
@@ -97,6 +97,7 @@ module Eddy
       end
 
       # Return `id` with `"l_"` slapped on the front if it wasn't already there.
+      # Meant to be used for instance variable names.
       #
       # @return [String]
       def var_name()
@@ -110,8 +111,26 @@ module Eddy
       # Return `id` with the prefixes `"l_"` or `"hl_" removed.
       #
       # @return [String]
-      def normalized_name()
+      def class_name()
         return self.id.downcase.gsub(/\Ah?l_/i, "")
+      end
+
+      # Returns `true` if the loop is a Hierarchical Loop.
+      # Meant to be used for class or module names.
+      #
+      # @return [Boolean]
+      def hierarchical?()
+        return self.id =~ /\Ahl_/i
+      end
+
+      # Returns `true` the loop should be treated as a segment when Generating ruby code.
+      # (For use in {Eddy::Build})
+      #
+      # @return [Boolean]
+      def build_as_segment?()
+        return false if self.hierarchical?
+        return false if self.repeat_limit > 1
+        return true
       end
 
     end

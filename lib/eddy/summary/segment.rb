@@ -111,6 +111,14 @@ module Eddy
         return parts.compact.join("\n")
       end
 
+      # Helper function to simplify conditional logic in {Eddy::Build}.
+      #
+      # @see {Eddy::Summary::Loop#treat_as_segment?}
+      # @return [Boolean] (true) Always returns true.
+      def build_as_segment?()
+        return true
+      end
+
     end
   end
 end

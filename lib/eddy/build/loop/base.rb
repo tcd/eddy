@@ -8,20 +8,16 @@ module Eddy
 
         # @return [Eddy::Summary::Loop]
         attr_accessor :summary
-        # @return [String] (nil)
-        attr_accessor :folder
         # Namespace the Loop is within.
         # @return [String]
         attr_accessor :t_set_id
 
         # @param summary [Eddy::Summary::Loop]
         # @param t_set_id [String]
-        # @param folder [String] (nil)
         # @return [void]
-        def initialize(summary, t_set_id, folder: nil)
+        def initialize(summary, t_set_id)
           self.summary  = summary
           self.t_set_id = t_set_id
-          self.folder   = folder
         end
 
         # @return [String]
