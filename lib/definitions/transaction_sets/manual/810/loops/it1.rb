@@ -17,16 +17,8 @@ module Eddy
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
-              super(store, Repeat)
               @repeat_limit = 200_000
-            end
-
-            # Add a repeat of loop IT1
-            #
-            # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat] rep
-            # @return [void]
-            def repeat(&block)
-              super(&block)
+              super(store, Repeat)
             end
           end
 
@@ -50,7 +42,7 @@ module Eddy
 
             # (see Eddy::Segments::IT1)
             #
-            # @yieldparam [Eddy::Segments::IT1] it1
+            # @yieldparam [Eddy::Segments::IT1]
             # @return [Eddy::Segments::IT1]
             def IT1()
               yield(@it1) if block_given?
@@ -59,14 +51,14 @@ module Eddy
 
             # (see Eddy::Segments::CTP)
             #
-            # @yieldparam [Eddy::Segments::CTP] ctp
+            # @yieldparam [Eddy::Segments::CTP]
             # @return [Eddy::Segments::CTP]
             def CTP()
               yield(@ctp) if block_given?
               return @ctp
             end
 
-            # (see Eddy::TransactionSets::TS810::Loops::PID::Repeat)
+            # (see Eddy::TransactionSets::TS810::Loops::PID::Base)
             #
             # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID::Repeat]
             # @return [void]
@@ -79,7 +71,7 @@ module Eddy
               return nil
             end
 
-            # (see Eddy::TransactionSets::TS810::Loops::SAC::Repeat)
+            # (see Eddy::TransactionSets::TS810::Loops::SAC::Base)
             #
             # @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC::Repeat]
             # @return [void]

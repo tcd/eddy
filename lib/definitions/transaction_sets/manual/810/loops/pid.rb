@@ -7,31 +7,19 @@ module Eddy
 
           # ### Loop Summary:
           #
-          # - Repeat: 1,000
+          # - Repeat: 1000
           # - Components:
           #   - PID
           class Base < Eddy::Models::Loop::Base
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
+              @repeat_limit = 1000
               super(store, Repeat)
-              @repeat_limit = 1_000
-            end
-
-            # Add a repeat of loop PID.
-            #
-            # @yieldparam [Eddy::TransactionSets::TS810::Loops::PID::Repeat] rep
-            # @return [void]
-            def repeat(&block)
-              super(&block)
             end
           end
 
-          # ### Loop Summary:
-          #
-          # - Repeat: 1,000
-          # - Components:
-          #   - PID
+          # (see Eddy::TransactionSets::TS810::Loops::PID::Base)
           class Repeat < Eddy::Models::Loop::Repeat
             # @param store [Eddy::Data::Store]
             # @return [void]

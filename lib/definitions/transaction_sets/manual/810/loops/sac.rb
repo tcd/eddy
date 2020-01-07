@@ -14,24 +14,12 @@ module Eddy
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
-              super(store, Repeat)
               @repeat_limit = 25
-            end
-
-            # Add a repeat of loop SAC.
-            #
-            # @yieldparam [Eddy::TransactionSets::TS810::Loops::SAC::Repeat] rep
-            # @return [void]
-            def repeat(&block)
-              super(&block)
+              super(store, Repeat)
             end
           end
 
-          # ### Loop Summary:
-          #
-          # - Repeat: 25
-          # - Components:
-          #   - SAC
+          # (see Eddy::TransactionSets::TS810::Loops::SAC::Base)
           class Repeat < Eddy::Models::Loop::Repeat
             # @param store [Eddy::Data::Store]
             # @return [void]
@@ -42,7 +30,7 @@ module Eddy
 
             # (see Eddy::Segments::SAC)
             #
-            # @yieldparam [Eddy::Segments::SAC] sac
+            # @yieldparam [Eddy::Segments::SAC]
             # @return [Eddy::Segments::SAC]
             def SAC()
               yield(@sac) if block_given?
