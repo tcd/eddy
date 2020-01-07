@@ -33,7 +33,7 @@ module Eddy
 
         # (see Eddy::Segments::BEG)
         #
-        # @yieldparam [Eddy::Segments::BEG] beg
+        # @yieldparam [Eddy::Segments::BEG]
         # @return [Eddy::Segments::BEG]
         def BEG()
           yield(@beg) if block_given?
@@ -42,16 +42,16 @@ module Eddy
 
         # (see Eddy::Segments::TD5)
         #
-        # @yieldparam [Eddy::Segments::TD5] td5
+        # @yieldparam [Eddy::Segments::TD5]
         # @return [Eddy::Segments::TD5]
         def TD5()
           yield(@td5) if block_given?
           return @td5
         end
 
-        # (see Eddy::TransactionSets::TS850::Loops::IT1::Base)
+        # (see Eddy::TransactionSets::TS850::Loops::N1::Base)
         #
-        # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat] n1
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
         # @return [void]
         def L_N1(&block)
           if block_given?
@@ -64,7 +64,7 @@ module Eddy
 
         # (see Eddy::TransactionSets::TS850::Loops::PO1::Base)
         #
-        # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat] po1
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat]
         # @return [void]
         def L_PO1(&block)
           if block_given?
@@ -77,7 +77,7 @@ module Eddy
 
         # (see Eddy::Segments::CTT)
         #
-        # @yieldparam [Eddy::Segments::CTT] ctt
+        # @yieldparam [Eddy::Segments::CTT]
         # @return [Eddy::Segments::CTT]
         def CTT()
           yield(@ctt) if block_given?

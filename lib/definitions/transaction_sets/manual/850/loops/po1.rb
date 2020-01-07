@@ -14,24 +14,18 @@ module Eddy
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
-              super(store, Repeat)
               @repeat_limit = 100_000
+              super(store, Repeat)
             end
 
-            # Add a repeat of loop PO1.
-            #
-            # @yieldparam [Eddy::TransactionSets::TS850::Loops::Repeat] rep
+            # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat]
             # @return [void]
             def repeat(&block)
               super(&block)
             end
           end
 
-          # ### Loop Summary:
-          #
-          # - Repeat: 100,000
-          # - Components:
-          #   - PO1
+          # (see Eddy::TransactionSets::TS850::Loops::PO1::Base)
           class Repeat < Eddy::Models::Loop::Repeat
             # @param store [Eddy::Data::Store]
             # @return [void]
@@ -42,7 +36,7 @@ module Eddy
 
             # (see Eddy::Segments::PO1)
             #
-            # @yieldparam [Eddy::Segments::PO1] po1
+            # @yieldparam [Eddy::Segments::PO1]
             # @return [Eddy::Segments::PO1]
             def PO1()
               yield(@po1) if block_given?
