@@ -100,14 +100,20 @@ module Eddy
       #
       # @return [String]
       def var_name()
-        return self.id.start_with?(/\Al_/i) ? self.id : "l_#{self.id.downcase}"
+        if self.id.start_with?(/\Al_/i)
+          return self.id
+        elsif self.id.start_with?(/\Ahl_/i)
+          return self.id
+        else
+          return "l_#{self.id.downcase}"
+        end
       end
 
-      # Return `id` with the prefix `"l_"` removed if it is present.
+      # Return `id` with the prefixes `"l_"` or `"hl_" removed.
       #
       # @return [String]
       def normalized_name()
-        return self.id.downcase.gsub(/\Al_/i, "")
+        return self.id.downcase.gsub(/\Ah?l_/i, "")
       end
 
     end
