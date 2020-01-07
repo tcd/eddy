@@ -221,5 +221,8 @@ Metrics/PerceivedComplexity:
 Style/CommentedKeyword:
   Enabled: False
 
+Style/AsciiComments:
+  Enabled: false
+
 Lint/EmptyWhen:
   Enabled: false
