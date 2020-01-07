@@ -4,3 +4,4 @@ name: Address Information
 purpose: To specify the location of the named party
 elements:
   - { ref: N301, id: '166', req: M }
+  - { ref: N302, id: '166', req: O }

@@ -13,9 +13,11 @@ module Eddy
         @id = "N3"
         @name = "Address Information"
         @n301 = Eddy::Elements::E166.new(ref: "N301", req: "M")
+        @n302 = Eddy::Elements::E166.new(ref: "N302", req: "O")
         super(
           store,
           @n301,
+          @n302,
         )
       end
 
@@ -32,7 +34,22 @@ module Eddy
       def N301=(arg)
         @n301.value = arg
       end
-      alias AddressInformation= N301=
+      alias AddressInformation1= N301=
+
+      # ### N302
+      #
+      # - Id: 166
+      # - Name: Address Information
+      # - Type: AN
+      # - Min/Max: 1/55
+      # - Description: Address information
+      #
+      # @param arg [String]
+      # @return [void]
+      def N302=(arg)
+        @n302.value = arg
+      end
+      alias AddressInformation2= N302=
 
     end
   end
