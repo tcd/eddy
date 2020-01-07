@@ -18,8 +18,8 @@ module Eddy
         def initialize(store)
           @beg = Eddy::Segments::BEG.new(store)
           @td5 = Eddy::Segments::TD5.new(store)
-          @l_n1 = Eddy::TransactionSets::TS850::Loops::N1.new(store)
-          @l_po1 = Eddy::TransactionSets::TS850::Loops::PO1.new(store)
+          @l_n1 = Eddy::TransactionSets::TS850::Loops::N1::Base.new(store)
+          @l_po1 = Eddy::TransactionSets::TS850::Loops::PO1::Base.new(store)
           @ctt = Eddy::Segments::CTT.new(store)
           super(
             store,
@@ -49,14 +49,30 @@ module Eddy
           return @td5
         end
 
-        # @return [Eddy::TransactionSets::TS850::Loops::N1]
-        def L_N1()
-          return @l_n1
+        # (see Eddy::TransactionSets::TS850::Loops::IT1::Base)
+        #
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat] n1
+        # @return [void]
+        def L_N1(&block)
+          if block_given?
+            @l_n1.repeat(&block)
+          else
+            raise Eddy::Errors::Error, "No block given in loop iteration"
+          end
+          return nil
         end
 
-        # @return [Eddy::TransactionSets::TS850::Loops::PO1]
-        def L_PO1()
-          return @l_po1
+        # (see Eddy::TransactionSets::TS850::Loops::PO1::Base)
+        #
+        # @yieldparam [Eddy::TransactionSets::TS850::Loops::PO1::Repeat] po1
+        # @return [void]
+        def L_PO1(&block)
+          if block_given?
+            @l_po1.repeat(&block)
+          else
+            raise Eddy::Errors::Error, "No block given in loop iteration"
+          end
+          return nil
         end
 
         # (see Eddy::Segments::CTT)
