@@ -49,25 +49,6 @@ module Eddy
         end
 
         # @return [String]
-        def repeat_method()
-          params = self.summary.components.map do |comp|
-            case comp
-            when Eddy::Summary::Segment then "# @yieldparam [Eddy::Segments::#{comp.id.upcase}] #{comp.id.downcase}"
-            when Eddy::Summary::Loop    then "# @yieldparam [Eddy::TransactionSets::#{t_set_id}::Loops::#{comp.id.upcase}::Base] #{comp.var_name}"
-            end
-          end.compact.join("\n")
-          return <<~RB
-            # Add a repeat of loop #{self.summary.id}.
-            #
-            #{params}
-            # @return [void]
-            def repeat(&block)
-              super(&block)
-            end
-          RB
-        end
-
-        # @return [String]
         def super_call()
           return self.summary.components.map do |comp|
             case comp
@@ -107,7 +88,7 @@ module Eddy
           return <<~RB.strip
             # (see Eddy::Segments::#{upper})
             #
-            # @yieldparam [Eddy::Segments::#{upper}] #{lower}
+            # @yieldparam [Eddy::Segments::#{upper}]
             # @return [Eddy::Segments::#{upper}]
             def #{upper}()
               yield(@#{lower}) if block_given?
