@@ -43,12 +43,6 @@ module Eddy
                 @repeat_limit = #{self.summary.repeat_limit}
                 super(store, Repeat)
               end
-
-              # @yieldparam [Eddy::TransactionSets::#{self.t_set_id}::Loops::#{self.summary.id}::Repeat]
-              # @return [void]
-              def repeat(&block)
-                super(&block)
-              end
             STR
           })
         end

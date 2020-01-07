@@ -28,12 +28,6 @@ module BuildTest
                           @repeat_limit = 200000
                           super(store, Repeat)
                         end
-
-                        # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat]
-                        # @return [void]
-                        def repeat(&block)
-                          super(&block)
-                        end
                       end
 
                       # (see Eddy::TransactionSets::TS810::Loops::IT1::Base)

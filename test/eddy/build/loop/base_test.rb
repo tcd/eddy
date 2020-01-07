@@ -20,12 +20,6 @@ module BuildTest
               @repeat_limit = 200
               super(store, Repeat)
             end
-
-            # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
-            # @return [void]
-            def repeat(&block)
-              super(&block)
-            end
           end
         RB
         summary = Eddy::Summary::Loop.from_file(file_fixture("schema/loops/n1.loop.yml"))
@@ -49,12 +43,6 @@ module BuildTest
             def initialize(store)
               @repeat_limit = 200000
               super(store, Repeat)
-            end
-
-            # @yieldparam [Eddy::TransactionSets::TS810::Loops::IT1::Repeat]
-            # @return [void]
-            def repeat(&block)
-              super(&block)
             end
           end
         RB
