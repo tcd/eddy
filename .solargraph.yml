@@ -14,5 +14,7 @@ reporters:
 - typecheck
 - rubocop
 # - typecheck:strict
-require_paths: []
+require:
+- minitest
+- minitest/autorun
 max_files: 5000
