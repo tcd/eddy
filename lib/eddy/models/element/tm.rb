@@ -56,7 +56,11 @@ module Eddy
         # @param arg [Time] A *UTC* formatted `Time` object.
         # @return [void]
         def value=(arg)
-          if arg.nil?
+          if arg == :skip
+            @val = :skip
+            return
+          end
+          if arg.nil?()
             @val = arg
             return
           end

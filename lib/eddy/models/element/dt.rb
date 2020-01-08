@@ -47,7 +47,11 @@ module Eddy
         # @param arg [Time] A *UTC* formatted [Time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object.
         # @return [void]
         def value=(arg)
-          if arg.nil?
+          if arg == :skip
+            @val = :skip
+            return
+          end
+          if arg.nil?()
             @val = arg
             return
           end

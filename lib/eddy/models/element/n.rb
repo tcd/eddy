@@ -35,7 +35,11 @@ module Eddy
         # @param arg [Numeric]
         # @return [void]
         def value=(arg)
-          if arg.nil?
+          if arg == :skip
+            @val = :skip
+            return
+          end
+          if arg.nil?()
             @val = nil
             return
           end

@@ -40,7 +40,9 @@ module Eddy
         # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value`.
         # @return [Object]
         def value()
-          if @val.nil?
+          if @val == :skip
+            return ""
+          elsif @val.nil?
             case self.req
             when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
             when "O", "C" then return ""
