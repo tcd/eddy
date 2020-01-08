@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Allow skipping of required elements by passing `:skip` to `#value=`
 - Clean up folder structure.
 - Updated segment definition for `Eddy::Segments::N3`; add missing element.
 - Assorted YARD fixes:
