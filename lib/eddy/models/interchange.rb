@@ -4,12 +4,16 @@ module Eddy
     class Interchange
       # @return [Eddy::Data::Store] Data store for the Interchange.
       attr_accessor :store
+      # A unique control number for the Interchange.
+      # @return [Integer]
+      attr_accessor :control_number
       # @return [Array<Eddy::Models::TransactionSet>]
       attr_accessor :transaction_sets
 
       # @param store [Eddy::Data::Store] (Eddy::Data::Store.new)
       # @return [void]
       def initialize(store = Eddy::Data::Store.new())
+        self.control_number = Eddy::Data.new_interchange_control_number()
         self.store = store
         self.transaction_sets = []
       end
@@ -25,11 +29,10 @@ module Eddy
       # @yieldparam [Eddy::Segments::IEA] iea
       # @return [String]
       def render()
-        ctrl_num = Eddy::Data.new_interchange_control_number()
         f_groups = self.functional_groups()
         sep = self.store.segment_separator
-        isa = Eddy::Segments::ISA.new(self.store, ctrl_num)
-        iea = Eddy::Segments::IEA.new(self.store, ctrl_num, f_groups.length)
+        isa = Eddy::Segments::ISA.new(self.store, self.control_number)
+        iea = Eddy::Segments::IEA.new(self.store, self.control_number, f_groups.length)
         yield(isa, iea) if block_given?
         return [isa, f_groups, iea].flatten.map(&:render).join(sep) + sep
       end

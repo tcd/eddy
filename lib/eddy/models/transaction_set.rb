@@ -12,8 +12,12 @@ module Eddy
 
       # @return [Array<Segment, Loop>]
       attr_accessor :components
-      # @return [Eddy::Data::Store] Container used to distribute state throughout an Interchange.
+      # Container used to distribute state throughout an Interchange.
+      # @return [Eddy::Data::Store]
       attr_accessor :store
+      # A unique control number for the Transaction Set.
+      # @return [Integer]
+      attr_accessor :control_number
 
       # @param store [Eddy::Data::Store]
       # @param components [Array<Segment, Loop>]
@@ -22,6 +26,7 @@ module Eddy
         self.store = store
         components.flatten!
         self.components = components || []
+        self.control_number = Eddy::Data.new_transaction_set_control_number(self.id)
       end
 
       # @return [String]
@@ -56,16 +61,15 @@ module Eddy
 
       # Add `ST` and `SE` segments to the `components` array.
       #
-      # @param control_number [Integer] (Eddy::Data.new_transaction_set_control_number())
       # @return [void]
-      def add_envelope(control_number = Eddy::Data.new_transaction_set_control_number(self.id))
+      def add_envelope()
         st = Eddy::Segments::ST.new(self.store)
         st.TransactionSetIdentifierCode = self.id
-        st.TransactionSetControlNumber  = control_number
+        st.TransactionSetControlNumber  = self.control_number
 
         se = Eddy::Segments::SE.new(self.store)
         se.NumberOfIncludedSegments    = self.all_components.length + 2
-        se.TransactionSetControlNumber = control_number
+        se.TransactionSetControlNumber = self.control_number
 
         self.components.unshift(st)
         self.components.push(se)

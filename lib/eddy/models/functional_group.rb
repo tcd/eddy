@@ -5,8 +5,12 @@ module Eddy
 
       # @return [String]
       attr_reader :id
-      # @return [Eddy::Data::Store] Data store for the Interchange and all encompassed components.
+      # Data store for the Interchange and all encompassed components.
+      # @return [Eddy::Data::Store]
       attr_accessor :store
+      # A unique control number for the Functional Group.
+      # @return [Integer]
+      attr_accessor :control_number
       # An array of Transaction Set instances.
       # @return [Array<Eddy::Models::TransactionSet>]
       attr_accessor :transaction_sets
@@ -22,13 +26,13 @@ module Eddy
           raise ArgumentError, "At least one transaction set is required to create a functional group"
         end
         @id = self.transaction_sets.first.functional_group
+        self.control_number = Eddy::Data.new_functional_group_control_number(@id)
       end
 
       # @return [Array<#render>]
       def render()
-        f_group_ctrl_num = Eddy::Data.new_functional_group_control_number(@id)
-        gs = Eddy::Segments::GS.new(store, f_group_ctrl_num, @id)
-        ge = Eddy::Segments::GE.new(store, f_group_ctrl_num, self.transaction_sets.length)
+        gs = Eddy::Segments::GS.new(self.store, self.control_number, @id)
+        ge = Eddy::Segments::GE.new(self.store, self.control_number, self.transaction_sets.length)
         return [gs, self.transaction_sets, ge].flatten.map(&:render)
       end
 

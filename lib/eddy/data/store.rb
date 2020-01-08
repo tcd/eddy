@@ -67,24 +67,6 @@ module Eddy
         self.application_receivers_code = "receiver_id"
         self.version_release_industry_id_code = "004010"
       end
-
-      # @return [Integer]
-      def interchange_control_number()
-        return Eddy::Data.new_interchange_control_number()
-      end
-
-      # @param transaction_set_id [String]
-      # @return [Integer]
-      def transaction_set_control_number(transaction_set_id)
-        return Eddy::Data.new_transaction_set_control_number(transaction_set_id)
-      end
-
-      # @param functional_group [String]
-      # @return [Integer]
-      def functional_group_control_number(functional_group)
-        return Eddy::Data.new_functional_group_control_number(functional_group)
-      end
-
     end
   end
 end
