@@ -73,10 +73,10 @@ module Eddy
       def self.default_for_id(id)
         id.downcase!
         if ["ge", "gs", "iea", "isa", "se", "st"].include?(id)
-          path = File.join(Eddy::Util.data_dir, "004010", "segments", "envelope", "#{id}.segment.yml")
+          path = File.join(Eddy::Util.data_dir, "segments", "envelope", "#{id}.segment.yml")
           return self.from_file(path)
         end
-        path = File.join(Eddy::Util.data_dir, "004010", "segments", "#{id}.segment.yml")
+        path = File.join(Eddy::Util.data_dir, "segments", "#{id}.segment.yml")
         raise Eddy::Errors::Error, "No segment found with id #{id}" unless File.file?(path)
         return self.from_file(path)
       end

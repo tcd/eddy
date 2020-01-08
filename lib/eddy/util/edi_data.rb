@@ -2,7 +2,7 @@ module Eddy
   module Util
     # @!group EDI Data
 
-    # Return raw data from `data/004010/elements.tsv`.
+    # Return raw data from `data/elements.tsv`.
     #
     #
     # @example Example return value
@@ -15,7 +15,7 @@ module Eddy
     #
     # @return [Array<Hash>]
     def self.raw_element_data()
-      return Eddy::Util.parse_tsv(File.join(Eddy::Util.data_dir, "004010", "elements.tsv"))
+      return Eddy::Util.parse_tsv(File.join(Eddy::Util.data_dir, "elements.tsv"))
     end
 
     # Returns a hash where the keys are Element ids and the values are unprocessed Element names.
@@ -36,7 +36,7 @@ module Eddy
     #
     # @return [Hash<String, String>]
     def self.element_ids()
-      file = File.join(Eddy::Util.data_dir, "004010", "elements-short.tsv")
+      file = File.join(Eddy::Util.data_dir, "elements-short.tsv")
       data = {}
       CSV.foreach(file, { col_sep: "\t", quote_char: "\x00", headers: false }) do |row|
         next if row ==  ["id", "name"]
@@ -61,7 +61,7 @@ module Eddy
     #
     # @return [Hash<String, String>]
     def self.segment_ids()
-      file = File.join(Eddy::Util.data_dir, "004010", "segments.tsv")
+      file = File.join(Eddy::Util.data_dir, "segments.tsv")
       data = {}
       CSV.foreach(file, { col_sep: "\t", quote_char: "\x00" }) do |row|
         next if row ==  ["id", "name"]
@@ -120,18 +120,18 @@ module Eddy
       return files.map { |f| File.basename(f).sub(/\..*/, "").upcase }
     end
 
-    # List Segment definition files in `data/004010/segments`.
+    # List Segment definition files in `data/segments`.
     #
     # @example Example return value
     #   [
-    #     "~/.rbenv/versions/2.6.5/lib/gems/eddy-0.0.0/data/004010/segments/ack.segment.yml",
-    #     "~/.rbenv/versions/2.6.5/lib/gems/eddy-0.0.0/data/004010/segments/bak.segment.yml",
+    #     "~/.rbenv/versions/2.6.5/lib/gems/eddy-0.0.0/data/segments/ack.segment.yml",
+    #     "~/.rbenv/versions/2.6.5/lib/gems/eddy-0.0.0/data/segments/bak.segment.yml",
     #     ...,
     #   ]
     #
     # @return [Array<String>]
     def self.list_segment_definitions()
-      dir = File.join(Eddy::Util.data_dir, "004010", "segments")
+      dir = File.join(Eddy::Util.data_dir, "segments")
       files = Dir.entries(dir).select { |f| File.file?(File.join(dir, f)) }
       return files.map { |f| File.join(dir, f) }.sort
     end

@@ -7,7 +7,7 @@ module Eddy
   module Build
     module Elements
 
-      # Generate `Eddy::Element` classes for all data elements defined in `data/004010/elements.tsv`
+      # Generate `Eddy::Element` classes for all data elements defined in `data/elements.tsv`
       #
       # @param elements [Array<Eddy::Summary::Element>]
       # @return [void]
@@ -29,7 +29,7 @@ module Eddy
         return nil
       end
 
-      # Generate usable data from `data/004010/elements.tsv`.
+      # Generate usable data from `data/elements.tsv`.
       #
       # @return [Array<Eddy::Summary::Element>]
       def self.generate_element_data()

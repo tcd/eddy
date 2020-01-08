@@ -95,7 +95,7 @@ namespace :misc do
         "I38",
       ]
 
-      elements_file = File.join(Eddy::Util.data_dir, "004010", "elements.tsv")
+      elements_file = File.join(Eddy::Util.data_dir, "elements.tsv")
       data = Eddy::Util.parse_tsv(elements_file)
 
       File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|
@@ -212,7 +212,7 @@ namespace :misc do
         "I38",
       ]
 
-      elements_file = File.join(Eddy::Util.data_dir, "004010", "elements.tsv")
+      elements_file = File.join(Eddy::Util.data_dir, "elements.tsv")
       data = Eddy::Util.parse_tsv(elements_file)
 
       File.open(File.join(Eddy::Util.root_dir, "tmp", "missing_lists.tsv"), "a") do |f|

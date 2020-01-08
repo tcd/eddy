@@ -26,7 +26,7 @@ module Eddy
       # @param id [String]
       # @return [String]
       def self.build_code_list(id)
-        file = File.join(Eddy::Util.data_dir, "004010", "code-lists", "#{id}.tsv")
+        file = File.join(Eddy::Util.data_dir, "code-lists", "#{id}.tsv")
         begin
           data = Eddy::Util.parse_tsv(file)
         rescue Errno::ENOENT
