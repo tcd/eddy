@@ -13,6 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.8.1 (2020-01-08)
+
+### Changed
+
+- Add `control_number` attribute to the following classes:
+    - `Eddy::Models::Interchange`
+    - `Eddy::Models::TransactionSet`
+    - `Eddy::Models::FunctionalGroup`
+
 ## 0.8.0 (2020-01-08)
 
 ### Added
