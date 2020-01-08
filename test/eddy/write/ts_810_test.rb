@@ -59,7 +59,7 @@ module WriteTest
       ts.L_N1 do |n1|
         n1.N1.N101 = "ST"
         n1.N1.Name = "Sweeney Todd"
-        n1.N3.AddressInformation = "2705 Fleet St"
+        n1.N3.AddressInformation1 = "2705 Fleet St"
         n1.N4.CityName = "Birmingham"
         n1.N4.StateOrProvinceCode = "AL"
         n1.N4.PostalCode = "35226"

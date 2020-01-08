@@ -80,7 +80,7 @@ module WriteTest
           n1.N1.N101 = "ST"
           n1.N1.Name = "Sweeney Todd"
           # N3
-          n1.N3.AddressInformation = "2705 Fleet St"
+          n1.N3.AddressInformation1 = "2705 Fleet St"
           # N4
           n1.N4.CityName = "Birmingham"
           n1.N4.StateOrProvinceCode = "AL"

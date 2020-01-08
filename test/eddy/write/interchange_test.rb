@@ -20,7 +20,7 @@ def generate_850(store)
     rep.N1.N101 = "ST"
     rep.N1.Name = "Sweeney Todd"
     # N3
-    rep.N3.AddressInformation = "2705 Fleet St"
+    rep.N3.AddressInformation1 = "2705 Fleet St"
     # N4
     rep.N4.CityName = "Birmingham"
     rep.N4.StateOrProvinceCode = "AL"
