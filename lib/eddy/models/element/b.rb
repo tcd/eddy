@@ -30,6 +30,12 @@ module Eddy
           self.value = val
         end
 
+        # @param _arg [Object] Whatever is to be assigned to `value`
+        # @return [void]
+        def value=(_arg)
+          super()
+        end
+
         # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
         # @return [String<Binary>]
         def value()
@@ -43,9 +49,13 @@ module Eddy
           end
         end
 
-        # @param _arg [Object] Whatever is to be assigned to `value`
-        # @return [void]
-        def value=(_arg)
+        # @return [String]
+        def process_value()
+          return self.class.process_value()
+        end
+
+        # @return [String]
+        def self.process_value()
           super()
         end
 

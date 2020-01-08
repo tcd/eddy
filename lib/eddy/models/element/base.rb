@@ -24,21 +24,32 @@ module Eddy
         # @return [String]
         attr_accessor :ref
 
-        # # @return [void]
-        # def initialize(**kwargs)
-
-        # end
-
-        # @note Classes inheriting from `Eddy::Models::Element::Base` must define the method `value`.
-        # @return [void]
-        def value(*)
-          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must define a `value` method."
-        end
-
-        # @note Classes inheriting from `Eddy::Models::Element::Base` must define the method `value=`.
+        # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value=`.
         # @return [void]
         def value=(*)
-          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must define a `value=` method."
+          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value=`"
+        end
+
+        # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value`.
+        # @return [void]
+        def value(*)
+          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value`"
+        end
+
+        # Return a valid EDI string representation of `@value`.
+        #
+        # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#process_value`.
+        # @return [void]
+        def process_value(*)
+          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must override the method `#process_value`"
+        end
+
+        # Return a valid EDI string representation of `@value`.
+        #
+        # @note Classes inheriting from `Eddy::Models::Element::Base` must override the class the method `process_value`.
+        # @return [void]
+        def self.process_value(*)
+          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must override the class the method `process_value`"
         end
 
         # Indicates whether the value must be present in its segment.

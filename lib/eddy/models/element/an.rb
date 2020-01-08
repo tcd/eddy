@@ -25,19 +25,6 @@ module Eddy
           self.value = val
         end
 
-        # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
-        # @return [String]
-        def value()
-          if @val.nil?
-            case self.req
-            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
-            when "O", "C" then return ""
-            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
-            end
-          end
-          return @val.ljust(self.min)
-        end
-
         # @raise [Eddy::Errors::ElementValidationError]
         # @param arg [String]
         # @return [void]
@@ -49,6 +36,34 @@ module Eddy
           raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(String)
           raise Eddy::Errors::LengthValidationError.new(element: self, arg: arg) if arg.length > self.max
           @val = arg
+        end
+
+        # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
+        # @return [String]
+        def value()
+          if @val.nil?
+            case self.req
+            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
+            when "O", "C" then return ""
+            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+            end
+          end
+          return self.process_value()
+        end
+
+        # @return [String]
+        def process_value()
+          return self.class.process_value(@val, self.min, self.max)
+        end
+
+        # Left justify a string (`val`) to `min`.
+        #
+        # @param val [String] Original value.
+        # @param min [Integer] Minimum length for a valid value.
+        # @param _max [Integer] Maximum length for a valid value.
+        # @return [String]
+        def self.process_value(val, min, _max)
+          return val.ljust(min)
         end
 
       end

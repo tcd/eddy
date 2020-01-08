@@ -31,6 +31,18 @@ module Eddy
           self.value = val
         end
 
+        # @raise [Eddy::Errors::ElementValidationError]
+        # @param arg [Numeric]
+        # @return [void]
+        def value=(arg)
+          if arg.nil?
+            @val = nil
+            return
+          end
+          raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Numeric)
+          @val = arg
+        end
+
         # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
         # @return [String]
         def value()
@@ -42,18 +54,6 @@ module Eddy
             end
           end
           return self.process_value()
-        end
-
-        # @raise [Eddy::Errors::ElementValidationError]
-        # @param arg [Numeric]
-        # @return [void]
-        def value=(arg)
-          if arg.nil?
-            @val = nil
-            return
-          end
-          raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Numeric)
-          @val = arg
         end
 
         # @return [String]
@@ -82,7 +82,6 @@ module Eddy
             else
               return sprintf("%0#{min}d", val.round(2))
             end
-            # return sprintf("%0#{min}d", val)
           when Float
             return (val * (10.0**decimals)).round.to_s
           else

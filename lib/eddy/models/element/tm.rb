@@ -52,25 +52,6 @@ module Eddy
           self.value = val
         end
 
-        # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
-        # @return [String]
-        def value()
-          if @val.nil?
-            case self.req
-            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
-            when "O", "C" then return ""
-            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
-            end
-          end
-          case self.fmt
-          when :hhmm then return Eddy::Util::Time.hhmm(@val)
-          when :hhmmss then return Eddy::Util::Time.hhmmss(@val)
-          when :hhmmssd then return Eddy::Util::Time.hhmmssd(@val)
-          when :hhmmssdd then return Eddy::Util::Time.hhmmssdd(@val)
-          else raise Eddy::Errors::Error, "invalid fmt value for TM object"
-          end
-        end
-
         # @raise [ElementValidationError] Unless passed a *UTC* formatted Time object.
         # @param arg [Time] A *UTC* formatted `Time` object.
         # @return [void]
@@ -82,6 +63,37 @@ module Eddy
           raise Eddy::Errors::TypeValidationError.new(element: self, arg: arg) unless arg.is_a?(Time)
           raise Eddy::Errors::ElementValidationError.new("Argument is not in UTC format", element: self) unless arg.utc?()
           @val = arg
+        end
+
+        # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
+        # @return [String]
+        def value()
+          if @val.nil?
+            case self.req
+            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
+            when "O", "C" then return ""
+            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+            end
+          end
+          return self.process_value()
+        end
+
+        # @return [String]
+        def process_value()
+          return self.class.process_value(@val, self.fmt)
+        end
+
+        # @param val [Time] A *UTC* formatted [Time](https://ruby-doc.org/stdlib-2.6.5/libdoc/time/rdoc/Time.html) object.
+        # @param fmt [Symbol]
+        # @return [String]
+        def self.process_value(val, fmt)
+          case fmt
+          when :hhmm then return Eddy::Util::Time.hhmm(val)
+          when :hhmmss then return Eddy::Util::Time.hhmmss(val)
+          when :hhmmssd then return Eddy::Util::Time.hhmmssd(val)
+          when :hhmmssdd then return Eddy::Util::Time.hhmmssdd(val)
+          else raise Eddy::Errors::Error, "invalid fmt value for TM object"
+          end
         end
 
         # @param fmt [Symbol]

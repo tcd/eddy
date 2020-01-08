@@ -25,6 +25,17 @@ module Eddy
           self.value = val
         end
 
+        # @param arg [String]
+        # return [void]
+        def value=(arg)
+          if arg.nil?
+            @val = arg
+            return
+          end
+          raise Eddy::Errors::ElementValidationError.new("Value not present in code list: #{arg}", element: self) unless self.code_list().include?(arg)
+          @val = arg
+        end
+
         # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
         # @return [String]
         def value()
@@ -35,18 +46,18 @@ module Eddy
             else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
             end
           end
-          return @val
+          return self.process_value()
         end
 
-        # @param arg [String]
-        # return [void]
-        def value=(arg)
-          if arg.nil?
-            @val = arg
-            return
-          end
-          raise Eddy::Errors::ElementValidationError.new("Value not present in code list: #{arg}", element: self) unless self.code_list().include?(arg)
-          @val = arg
+        # @return [String]
+        def process_value()
+          return self.class.process_value(@val)
+        end
+
+        # @param val [String] Original value.
+        # @return [String]
+        def self.process_value(val)
+          return val
         end
 
         # @return [Array<String>]
