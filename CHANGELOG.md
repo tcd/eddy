@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.8.0 (2020-01-08)
+
+### Added
+
+- Allow skipping of segments by setting `Eddy::Models::Segment.skip` to `true`.
+
 ## 0.7.0 (2020-01-08)
 
 ### Changed
