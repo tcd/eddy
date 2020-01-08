@@ -39,14 +39,7 @@ module Eddy
         # @raise [Eddy::Errors::ElementNilValueError] If the element is required and no value has been set.
         # @return [String<Binary>]
         def value()
-          super()
-          if @val.nil?
-            case self.req
-            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
-            when "O", "C" then return ""
-            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
-            end
-          end
+          return super()
         end
 
         # @return [String]

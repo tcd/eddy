@@ -2,6 +2,7 @@ module Eddy
   module Models
     module Element
       # Base class for EDI Data Element types.
+      # @abstract
       class Base
 
         # Positive number under 1688, or I01-I64
@@ -24,6 +25,12 @@ module Eddy
         # @return [String]
         attr_accessor :ref
 
+        # @return [void]
+        def initialize()
+          @val = nil
+          @req = nil
+        end
+
         # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value=`.
         # @return [void]
         def value=(*)
@@ -31,9 +38,16 @@ module Eddy
         end
 
         # @note Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value`.
-        # @return [void]
-        def value(*)
-          raise NotImplementedError, "Classes inheriting from `Eddy::Models::Element::Base` must override the method `#value`"
+        # @return [Object]
+        def value()
+          if @val.nil?
+            case self.req
+            when "M"      then raise Eddy::Errors::ElementNilValueError.new(element: self)
+            when "O", "C" then return ""
+            else raise Eddy::Errors::Error, "Invalid req value: #{self.req}"
+            end
+          end
+          return self.process_value()
         end
 
         # Return a valid EDI string representation of `@value`.
