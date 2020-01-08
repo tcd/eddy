@@ -13,15 +13,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.7.0 (2020-01-08)
+
 ### Changed
 
-- Updated doc comment for `Eddy::Models::Interchange#render` to include yielded params.
-- Update segment definition for `Eddy::Segments::N3`; add missing element.
-- Fix YARD issue:
-```
-[warn]: @see tag (#1) should not be wrapped in {} (causes rendering issues): 
-    in file `lib/eddy/summary/segment.rb' near line 118
-```
+- Clean up folder structure.
+- Updated segment definition for `Eddy::Segments::N3`; add missing element.
+- Assorted YARD fixes:
+    - Updated doc comment for `Eddy::Models::Interchange#render` to include yielded params.
+    - ```
+      [warn]: @see tag (#1) should not be wrapped in {} (causes rendering issues): 
+        in file `lib/eddy/summary/segment.rb' near line 118
+      ```
 
 ## 0.6.0 (2020-01-07)
 
