@@ -17,7 +17,7 @@ module WriteTest
         N4*Birmingham*AL*35226*US~
         PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
         CTT*1~
-        SE*9*0001
+        SE*8*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS850::TS.new(store)
@@ -57,16 +57,15 @@ module WriteTest
       assert_equal(want, result)
     end
 
-    def test_skipping_a_segment
+    def test_skipping_two_segments
       want = <<~EDI.gsub(/\n/, "")
         ST*850*0001~
         BEG*00*DS*00000007397108**19700101~
         N1*ST*Sweeney Todd~
-        N3*2705 Fleet St~
         N4*Birmingham*AL*35226*US~
         PO1*1*1*EA*59.95**UP*860001662184*VN*860001662184~
         CTT*1~
-        SE*9*0001
+        SE*7*0001
       EDI
       store = Eddy::Data::Store.new(time: @epoch)
       ts = Eddy::TransactionSets::TS850::TS.new(store)
@@ -82,7 +81,7 @@ module WriteTest
         rep.N1.N101 = "ST"
         rep.N1.Name = "Sweeney Todd"
         # N3
-        rep.N3.AddressInformation1 = "2705 Fleet St"
+        rep.N3.skip = true
         # N4
         rep.N4.CityName = "Birmingham"
         rep.N4.StateOrProvinceCode = "AL"

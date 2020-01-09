@@ -13,6 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.8.2 (2020-01-09)
+
+### Fixed
+
+- Account for skipped segments when calculating `SE.NumberOfIncludedSegments`.
+
+### Changed
+
+- Improve messages for `NotImplementedError` exceptions raised  from `R` elements.
+
 ## 0.8.1 (2020-01-08)
 
 ### Changed

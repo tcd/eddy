@@ -10,7 +10,7 @@
 [travis-ci]: https://travis-ci.org/tcd/eddy
 [coveralls]: https://coveralls.io/github/tcd/eddy?branch=master
 [license]: https://github.com/tcd/eddy/blob/master/LICENSE.txt
-[docs]: https://www.rubydoc.info/gems/eddy/0.8.1
+[docs]: https://www.rubydoc.info/gems/eddy/0.8.2
 
 ## Installation
 

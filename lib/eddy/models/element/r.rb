@@ -73,13 +73,14 @@ module Eddy
             return val.to_s.slice(0..(max + 1))
           when Complex
             # TODO: Handle case
-            raise NotImplementedError
+            raise NotImplementedError, "eddy: support for Complex types in R data elements has not been implemented."
           when Rational
             # TODO: Handle case
-            raise NotImplementedError
+            raise NotImplementedError, "eddy: support for Rational types in R data elements has not been implemented."
           when BigDecimal
             # TODO: Handle case
-            raise NotImplementedError
+            raise NotImplementedError, "eddy: support for BigDecimal types in R data elements has not been implemented."
+            # return val.to_f.to_s.slice(0..(max + 1))
           end
         end
 

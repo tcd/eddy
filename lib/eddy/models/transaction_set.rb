@@ -68,7 +68,7 @@ module Eddy
         st.TransactionSetControlNumber  = self.control_number
 
         se = Eddy::Segments::SE.new(self.store)
-        se.NumberOfIncludedSegments    = self.all_components.length + 2
+        se.NumberOfIncludedSegments    = self.number_of_included_segments()
         se.TransactionSetControlNumber = self.control_number
 
         self.components.unshift(st)
@@ -83,6 +83,14 @@ module Eddy
       def render(s_sep = self.store.segment_separator)
         add_envelope()
         return self.all_components.map { |s| s.render(self.store.element_separator) }.compact.join(s_sep)
+      end
+
+      # Return the count of Segments in the Transaction Set where `skip` is false,
+      # plus 2 for `ST` and `SE`.
+      #
+      # @return [Integer]
+      def number_of_included_segments()
+        return (self.all_components.reject(&:skip).length + 2)
       end
 
       # Return all contained Segments in a single, flattened array.
