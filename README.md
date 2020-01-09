@@ -50,6 +50,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Dependencies
 
+- [erikhuda/thor](https://github.com/erikhuda/thor)
 - [tcd/ginny](https://github.com/tcd/ginny)
     - [tcd/coolkit](https://github.com/tcd/coolkit)
     - [dry-rb/dry-inflector](https://github.com/dry-rb/dry-inflector)
@@ -59,10 +60,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
     - [tenderlove/hana](https://github.com/tenderlove/hana)
     - [hannesg/uri_template](https://github.com/hannesg/uri_template)
     - [ammar/regexp_parser](https://github.com/ammar/regexp_parser)
-- [erikhuda/thor](https://github.com/erikhuda/thor)
-- [piotrmurach/pastel](https://github.com/piotrmurach/pastel)
-    - [piotrmurach/equatable](https://github.com/piotrmurach/equatable)
-    - [piotrmurach/tty-color](https://github.com/piotrmurach/tty-color)
 
 ## Alternatives (in Ruby)
 
