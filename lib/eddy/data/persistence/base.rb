@@ -9,12 +9,6 @@ module Eddy
           raise NotImplementedError
         end
 
-        # @param _functional_group [String]
-        # @return [Array<Integer>]
-        def functional_group_control_numbers(_functional_group)
-          raise NotImplementedError
-        end
-
         # @param _transaction_set_id [String]
         # @return [Array<Integer>]
         def transaction_set_control_numbers(_transaction_set_id)
@@ -24,13 +18,6 @@ module Eddy
         # @param _new_ctrl_num [Integer]
         # @return [Array<Integer>]
         def add_interchange_control_number(_new_ctrl_num)
-          raise NotImplementedError
-        end
-
-        # @param _functional_group [String]
-        # @param _new_ctrl_num [Integer]
-        # @return [Array<Integer>]
-        def add_functional_group_control_number(_functional_group, _new_ctrl_num)
           raise NotImplementedError
         end
 

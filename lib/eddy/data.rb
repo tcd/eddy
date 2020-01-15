@@ -54,16 +54,5 @@ module Eddy
       return new_ctrl_num
     end
 
-    # Return a new, unique number.
-    #
-    # @param functional_group [String]
-    # @return [Integer]
-    def self.new_functional_group_control_number(functional_group)
-      existing = Eddy.data.functional_group_control_numbers(functional_group)
-      new_ctrl_num = Eddy::Util.new_number(existing)
-      Eddy.data.add_functional_group_control_number(functional_group, new_ctrl_num)
-      return new_ctrl_num
-    end
-
   end
 end

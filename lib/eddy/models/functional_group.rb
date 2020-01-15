@@ -16,17 +16,18 @@ module Eddy
       attr_accessor :transaction_sets
 
       # @param store [Eddy::Data::Store]
+      # @param control_number [Integer]
       # @param transaction_sets [Eddy::Models::TransactionSet]
       # @return [void]
-      def initialize(store, *transaction_sets)
+      def initialize(store, control_number, *transaction_sets)
         self.store = store
+        self.control_number = control_number
         transaction_sets.flatten!
         self.transaction_sets = transaction_sets || []
         if self.transaction_sets.length == 0
           raise ArgumentError, "At least one transaction set is required to create a functional group"
         end
         @id = self.transaction_sets.first.functional_group
-        self.control_number = Eddy::Data.new_functional_group_control_number(@id)
       end
 
       # @return [Array<#render>]

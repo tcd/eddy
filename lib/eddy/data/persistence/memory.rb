@@ -8,7 +8,6 @@ module Eddy
         def initialize()
           @data = {
             interchange_control_numbers: [],
-            functional_group_control_numbers: {},
             transaction_set_control_numbers: {},
           }
         end
@@ -16,15 +15,6 @@ module Eddy
         # @return [Array<Integer>]
         def interchange_control_numbers()
           return @data[:interchange_control_numbers]
-        end
-
-        # @param functional_group [String]
-        # @return [Array<Integer>]
-        def functional_group_control_numbers(functional_group)
-          unless @data[:functional_group_control_numbers].key?(functional_group)
-            @data[:functional_group_control_numbers][functional_group] = []
-          end
-          return @data[:functional_group_control_numbers][functional_group]
         end
 
         # @param transaction_set_id [String]
@@ -40,14 +30,6 @@ module Eddy
         # @return [void]
         def add_interchange_control_number(new_ctrl_num)
           self.interchange_control_numbers.append(new_ctrl_num)
-          return nil
-        end
-
-        # @param functional_group [String]
-        # @param new_ctrl_num [Integer]
-        # @return [void]
-        def add_functional_group_control_number(functional_group, new_ctrl_num)
-          self.functional_group_control_numbers(functional_group).append(new_ctrl_num)
           return nil
         end
 

@@ -16,19 +16,11 @@ module DataTest
         skip()
       end
 
-      def test_functional_group_control_numbers
-        skip()
-      end
-
       def test_transaction_set_control_numbers
         skip()
       end
 
       def test_add_interchange_control_number
-        skip()
-      end
-
-      def test_add_functional_group_control_number
         skip()
       end
 

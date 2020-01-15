@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.8.4 (2020-01-15)
+
+### Changed
+
+- Updated logic for generating functional group control numbers.
+
 ## 0.8.3 (2020-01-15)
 
 ### Changed

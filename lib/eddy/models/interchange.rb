@@ -44,7 +44,11 @@ module Eddy
           sorted_sets[ts.functional_group] ||= []
           sorted_sets[ts.functional_group] << ts
         end
-        return sorted_sets.map { |_, value| Eddy::Models::FunctionalGroup.new(self.store, *value) }
+        i = 0
+        return sorted_sets.map do |_, value|
+          i += 1
+          Eddy::Models::FunctionalGroup.new(self.store, i, *value)
+        end
       end
 
       private
