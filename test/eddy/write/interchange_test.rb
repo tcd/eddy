@@ -80,7 +80,7 @@ module WriteTest
     end
 
     def test_two_transaction_sets
-      want = <<~EDI #.gsub(/\n/, "")
+      want = <<~EDI.strip() # .gsub(/\n/, "")
         ISA*00*          *00*          *ZZ*sender_id      *ZZ*receiver_id    *700101*0000*U*00401*000000001*0*T*>~
         GS*PO*sender_id*receiver_id*19700101*00000000*1*X*004010~
         ST*850*0001~

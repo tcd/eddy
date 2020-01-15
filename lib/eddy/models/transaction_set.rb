@@ -82,7 +82,7 @@ module Eddy
       # @return [String]
       def render(s_sep = self.store.segment_separator)
         add_envelope()
-        return self.all_components.map { |s| s.render(self.store.element_separator) }.compact.join(s_sep)
+        return self.all_components.map { |s| s.render(self.store.element_separator) }.compact.join(s_sep).rstrip()
       end
 
       # Return the count of Segments in the Transaction Set where `skip` is false,

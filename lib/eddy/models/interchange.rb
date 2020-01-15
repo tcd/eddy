@@ -34,7 +34,7 @@ module Eddy
         isa = Eddy::Segments::ISA.new(self.store, self.control_number)
         iea = Eddy::Segments::IEA.new(self.store, self.control_number, f_groups.length)
         yield(isa, iea) if block_given?
-        return [isa, f_groups, iea].flatten.map(&:render).join(sep) + sep
+        return ([isa, f_groups, iea].flatten.map(&:render).join(sep) + sep).rstrip()
       end
 
       # @return [Array<Eddy::Models::FunctionalGroup>]

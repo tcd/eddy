@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.8.3 (2020-01-15)
+
+### Changed
+
+- Trim trailing newline from the return value of `Eddy::Models::Interchange#render` and `Eddy::Models::TransactionSet#render`.
+
 ## 0.8.2 (2020-01-09)
 
 ### Fixed
