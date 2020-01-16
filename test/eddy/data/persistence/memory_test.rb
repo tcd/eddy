@@ -13,19 +13,23 @@ module DataTest
       end
 
       def test_interchange_control_numbers
-        skip()
+        assert_equal([], Eddy.data.interchange_control_numbers())
       end
 
       def test_transaction_set_control_numbers
-        skip()
+        assert_equal([], Eddy.data.transaction_set_control_numbers("850"))
       end
 
       def test_add_interchange_control_number
-        skip()
+        assert_equal([1], Eddy.data.add_interchange_control_number(1))
+        assert_equal([1, 2], Eddy.data.add_interchange_control_number(2))
+        assert_equal([1, 2, 3], Eddy.data.add_interchange_control_number(3))
       end
 
       def test_add_transaction_set_control_number
-        skip()
+        assert_equal([1], Eddy.data.add_transaction_set_control_number("850", 1))
+        assert_equal([1, 2], Eddy.data.add_transaction_set_control_number("850", 2))
+        assert_equal([1, 2, 3], Eddy.data.add_transaction_set_control_number("850", 3))
       end
 
     end

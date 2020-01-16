@@ -27,18 +27,18 @@ module Eddy
         end
 
         # @param new_ctrl_num [Integer]
-        # @return [void]
+        # @return [Array<Integer>]
         def add_interchange_control_number(new_ctrl_num)
           self.interchange_control_numbers.append(new_ctrl_num)
-          return nil
+          return self.interchange_control_numbers()
         end
 
         # @param transaction_set_id [String]
         # @param new_ctrl_num [Integer]
-        # @return [void]
+        # @return [Array<Integer>]
         def add_transaction_set_control_number(transaction_set_id, new_ctrl_num)
           self.transaction_set_control_numbers(transaction_set_id).append(new_ctrl_num)
-          return nil
+          return self.transaction_set_control_numbers(transaction_set_id)
         end
 
       end
