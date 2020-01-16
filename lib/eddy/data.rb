@@ -1,5 +1,6 @@
 require "eddy/data/store"
 require "eddy/data/persistence/base"
+require "eddy/data/persistence/file"
 require "eddy/data/persistence/memory"
 
 module Eddy
@@ -11,7 +12,7 @@ module Eddy
     return @data if defined?(@data) && !@data.nil?
     case Eddy.config.persistence_method
     when :memory then @data = Eddy::Data::Persistence::Memory.new()
-    when :file   then raise NotImplementedError
+    when :file   then @data = Eddy::Data::Persistence::JSONFile.new()
     when :active_record
       if defined?(Rails) && defined?(Eddy::Rails)
         @data = Eddy::Data::Persistence::ActiveRecord.new()

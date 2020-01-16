@@ -6,7 +6,7 @@ module Eddy
   module Data
     module Persistence
       # Persist data to a local JSON file.
-      class File < Base
+      class JSONFile < Base
 
         # @return [Pathname]
         attr_accessor :path
@@ -21,14 +21,63 @@ module Eddy
           end
         end
 
+        # Clear persisted data.
+        #
+        # @return [void]
+        def reset()
+          self.write(self.default_data())
+          return nil
+        end
+
         # @return [Hash]
         def data()
           if self.path.file?()
-            return JSON.parse(File.read(self.path), symbolize_names: symbolize)
+            puts("reading persisted data")
+            return JSON.parse(File.read(self.path), symbolize_names: true)
           else
             return self.default_data()
           end
         end
+
+        # @return [Array<Integer>]
+        def interchange_control_numbers()
+          return self.data[:interchange_control_numbers]
+        end
+
+        # @param set_id [String]
+        # @return [Array<Integer>]
+        def transaction_set_control_numbers(set_id)
+          data = self.data()
+          unless data[:transaction_set_control_numbers].key?(set_id)
+            data[:transaction_set_control_numbers][set_id] = []
+          end
+          self.write(data)
+          return data[:transaction_set_control_numbers][set_id]
+        end
+
+        # @param number [Integer]
+        # @return [void]
+        def add_interchange_control_number(number)
+          data = self.data()
+          data[:interchange_control_numbers].append(number)
+          self.write(data)
+          return data[:interchange_control_numbers]
+        end
+
+        # @param set_id [String]
+        # @param number [Integer]
+        # @return [void]
+        def add_transaction_set_control_number(set_id, number)
+          dat = self.data().dup
+          unless dat[:transaction_set_control_numbers].key?(set_id)
+            dat[:transaction_set_control_numbers][set_id] = []
+          end
+          dat[:transaction_set_control_numbers][set_id].append(number)
+          self.write(dat)
+          return dat[:transaction_set_control_numbers][set_id]
+        end
+
+        protected
 
         # Write `data` out to the JSON file. This will overwrite the file's contents.
         #
@@ -38,68 +87,6 @@ module Eddy
           FileUtils.mkdir_p(self.path.dirname())
           File.open(self.path(), "w+") { |f| f.write(data.to_json) }
         end
-
-        # @return [Array<Integer>]
-        def interchange_control_numbers()
-          return self.data[:interchange_control_numbers]
-        end
-
-        # @param functional_group [String]
-        # @return [Array<Integer>]
-        def functional_group_control_numbers(functional_group)
-          data = self.data()
-          unless data[:functional_group_control_numbers].key?(functional_group)
-            data[:functional_group_control_numbers][functional_group] = []
-          end
-          return data[:functional_group_control_numbers][functional_group]
-        end
-
-        # @param transaction_set_id [String]
-        # @return [Array<Integer>]
-        def transaction_set_control_numbers(transaction_set_id)
-          data = self.data()
-          unless data[:transaction_set_control_numbers].key?(transaction_set_id)
-            data[:transaction_set_control_numbers][transaction_set_id] = []
-          end
-          return data[:transaction_set_control_numbers][transaction_set_id]
-        end
-
-        # @param new_ctrl_num [Integer]
-        # @return [void]
-        def add_interchange_control_number(new_ctrl_num)
-          data = self.data()
-          data[:interchange_control_numbers].append(new_ctrl_num)
-          self.write(data)
-          return nil
-        end
-
-        # @param functional_group [String]
-        # @param new_ctrl_num [Integer]
-        # @return [void]
-        def add_functional_group_control_number(functional_group, new_ctrl_num)
-          data = self.data()
-          unless data[:functional_group_control_numbers].key?(functional_group)
-            data[:functional_group_control_numbers][functional_group] = []
-          end
-          data[:functional_group_control_numbers][functional_group].append(new_ctrl_num)
-          self.write(data)
-          return nil
-        end
-
-        # @param transaction_set_id [String]
-        # @param new_ctrl_num [Integer]
-        # @return [void]
-        def add_transaction_set_control_number(transaction_set_id, new_ctrl_num)
-          data = self.data()
-          unless data[:transaction_set_control_numbers].key?(transaction_set_id)
-            data[:transaction_set_control_numbers][transaction_set_id] = []
-          end
-          data[:transaction_set_control_numbers][transaction_set_id].append(new_ctrl_num)
-          self.write(data)
-          return nil
-        end
-
-        protected
 
         # @return [Pathname]
         def default_path()
