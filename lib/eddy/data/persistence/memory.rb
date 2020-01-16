@@ -12,6 +12,16 @@ module Eddy
           }
         end
 
+        # Clear persisted data.
+        #
+        # @return [void]
+        def reset()
+          @data = {
+            interchange_control_numbers: [],
+            transaction_set_control_numbers: {},
+          }
+        end
+
         # @return [Array<Integer>]
         def interchange_control_numbers()
           return @data[:interchange_control_numbers]

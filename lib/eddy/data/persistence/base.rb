@@ -4,6 +4,13 @@ module Eddy
       # Base class for data persistence wrappers.
       class Base
 
+        # Clear persisted data.
+        #
+        # @return [void]
+        def reset()
+          raise NotImplementedError
+        end
+
         # @return [Array<Integer>]
         def interchange_control_numbers()
           raise NotImplementedError
