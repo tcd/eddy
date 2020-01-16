@@ -1,0 +1,13 @@
+---
+id: PO3
+name: Additional Item Detail
+purpose: To specify additional item-related data involving variations in normal price/quantity structure.
+elements:
+  - { ref: PO301, id: '371', req: M }
+  - { ref: PO302, id: '373', req: O }
+  - { ref: PO303, id: '236', req: X }
+  - { ref: PO304, id: '212', req: O }
+  - { ref: PO305, id: '639', req: X }
+  - { ref: PO306, id: '380', req: M }
+  - { ref: PO307, id: '355', req: M }
+  - { ref: PO308, id: '352', req: O }
