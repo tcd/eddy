@@ -41,25 +41,4 @@ module Eddy
     end
 
   end
-
-  # Configuration for Eddy
-  #
-  # @return [Eddy::Config]
-  def self.config()
-    @config ||= Config.new
-  end
-
-  # Modify Eddy's current config
-  #
-  # @example
-  #   Eddy.configure do |config|
-  #     config.persistence_method = :file
-  #   end
-  #
-  # @yieldparam [Eddy::Config] config current Eddy config
-  # @return [void]
-  def self.configure()
-    yield self.config
-  end
-
 end

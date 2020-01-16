@@ -3,36 +3,8 @@ require "eddy/data/persistence/base"
 require "eddy/data/persistence/memory"
 
 module Eddy
-
-  # Persistent data used by Eddy.
-  #
-  # @return [Eddy::Data::Persistence::Base]
-  def self.data
-    return @data if defined?(@data) && !@data.nil?
-    case Eddy.config.persistence_method
-    when :memory then @data = Eddy::Data::Persistence::Memory.new()
-    when :file   then raise NotImplementedError
-    when :active_record
-      if defined?(Rails) && defined?(Eddy::Rails)
-        @data = Eddy::Data::Persistence::ActiveRecord.new()
-      else
-        raise Eddy::Errors::Error, "ActiveRecord persistence method can currently only be used with Ruby on Rails"
-      end
-    else raise Eddy::Errors::Error, "Unsupported persistence method: #{Eddy.config.persistence_method}"
-    end
-    return @data
-  end
-
-  # Set `@data` to `nil` so that a new persistence_method can be set up.
-  #
-  # @return [void]
-  def self.clear_data()
-    @data = nil
-  end
-
   # Code for storing & generating data used by Eddy when generating EDI documents.
   module Data
-
     # Return a new, unique number.
     #
     # @return [Integer]
@@ -53,6 +25,5 @@ module Eddy
       Eddy.data.add_transaction_set_control_number(transaction_set_id, new_ctrl_num)
       return new_ctrl_num
     end
-
   end
 end
