@@ -83,6 +83,10 @@ Naming/HeredocDelimiterNaming:
 Style/FormatString:
   EnforcedStyle: sprintf
 
+Style/FormatStringToken:
+  # EnforcedStyle: template
+  Enabled: false
+
 # ==============================================================================
 # Numbers
 # ==============================================================================
