@@ -3,7 +3,7 @@ require "test_helper"
 class ReadTest < Minitest::Test
 
   def setup
-    @edi_file = file_fixture("edi/BAM850RL1Y_201912061702.edi")
+    @edi_file = file_fixture("edi/trump.850.edi")
   end
 
   # This doesn't test anything; it's mainly for debugging.
