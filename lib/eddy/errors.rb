@@ -4,6 +4,18 @@ module Eddy
     # Exceptions raised by Eddy inherit from Error.
     class Error < StandardError; end
 
+    # Exception raised when an issue occurs while generating code.
+    class BuildError < Error; end
+
+    # Exception raised from a `render` method.
+    class RenderError < Error; end
+
+    # Exception raised when a definition file can't be found.
+    class MissingDefinitionError < Error; end
+
+    # Exception raised when a definition file can't be found.
+    class ParseError < Error; end
+
     # @!group Element Validation Errors
 
     # Exception raised by descendents of {Eddy::Models::Element::Base}.
@@ -99,15 +111,7 @@ module Eddy
       end
     end
 
-    # @!endgroup Element Validation Errors
+    # @!endgroup
 
-    # Exception raised when an issue occurs while generating code.
-    class BuildError < Error; end
-
-    # Exception raised from a `render` method.
-    class RenderError < Error; end
-
-    # Exception raised when a definition file can't be found.
-    class MissingDefinitionError < Error; end
   end
 end
