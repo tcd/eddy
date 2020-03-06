@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest-focus", "~> 1.1"
   spec.add_development_dependency "minitest-reporters", "~> 1.4"
   spec.add_development_dependency "pry", "~> 0.12.2"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "simplecov", "~> 0.16"
 
   spec.add_runtime_dependency "ginny", "~> 0.6.3"
