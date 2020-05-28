@@ -70,6 +70,7 @@ module Eddy
           when Integer
             return val.to_s.slice(0..max)
           when Float
+            # FIXME: This isn't correct.
             return val.to_s.slice(0..(max + 1))
           when Complex
             # TODO: Handle case
