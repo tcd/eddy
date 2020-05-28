@@ -48,6 +48,8 @@ module ModelsTest
         { n: 2, out: "-10025",     in: -100.25      },
         { n: 9, out: "12345",      in:  0.000012345 },
         { n: 9, out: "1234567890", in:  1.234567890 },
+        # Other
+        { n: 2, out: "206655",     in: 2066.55      },
       ]
 
       cases.each do |c|
