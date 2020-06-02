@@ -1,0 +1,13 @@
+---
+id: PER
+name: Administrative Communications Contact
+purpose: To identify a person or office to whom administrative communications should be directed
+elements:
+  - { ref: PER01, id: '366', req: M }
+  - { ref: PER02, id: '93',  req: O }
+  - { ref: PER03, id: '365', req: X }
+  - { ref: PER04, id: '364', req: X }
+  - { ref: PER05, id: '365', req: X }
+  - { ref: PER06, id: '364', req: X }
+  - { ref: PER07, id: '365', req: X }
+  - { ref: PER08, id: '364', req: X }

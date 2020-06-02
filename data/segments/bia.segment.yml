@@ -1,0 +1,10 @@
+---
+id: BIA
+name: Beginning Segment for Inventory Inquiry/Advice
+purpose: To indicate the beginning of an Inventory Inquiry/Advice Transaction Set
+elements:
+  - { ref: BIA01, id: '353', req: M }
+  - { ref: BIA02, id: '755', req: M }
+  - { ref: BIA03, id: '127', req: M }
+  - { ref: BIA04, id: '373', req: M }
+  - { ref: BIA05, id: '337', req: O }

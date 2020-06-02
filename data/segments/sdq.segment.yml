@@ -1,0 +1,8 @@
+---
+id: SDQ
+name: Destination Quantity
+purpose: To specify destination and quantity detail
+elements:
+  - { ref: SDQ01, id: '355', req: M }
+  - { ref: SDQ02, id: '66',  req: O }
+  - { ref: SDQ23, id: '310', req: O }

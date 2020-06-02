@@ -1,0 +1,10 @@
+---
+id: QTY
+name: Quantity Information
+purpose: To specify quantity information
+elements:
+  - { ref: QTY01, id: '673', req: M }
+  - { ref: QTY02, id: '380', req: X }
+  - { ref: QTY03, id: '355', req: M }
+  # - { ref: QTY03,    id: 'C001', req: O }
+  # - { ref: QTY03-01, id: '355',  req: M }
