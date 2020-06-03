@@ -58,7 +58,7 @@ module Eddy
       def build_loops()
         FileUtils.mkdir_p(File.join(self.folder, "loops"))
         self.summary.unique_loops.each do |looop|
-          File.open(File.join(self.folder, "loops", "#{looop.normalized_name}.rb"), "a") do |f|
+          File.open(File.join(self.folder, "loops", "#{looop.class_name}.rb"), "a") do |f|
             f.write(Eddy::Build::Loop.render(looop, self.normalized_name) + "\n")
           end
         end
