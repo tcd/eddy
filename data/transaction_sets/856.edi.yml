@@ -1,0 +1,54 @@
+---
+id: 856
+functional_group: SH
+name: Ship Notice/Manifest (Advance Ship Notice)
+components:
+- { id: BSN, req: M }
+- { id: DTM, req: O }
+- loop_id: HL_Shipment
+  repeat: 200000
+  req: M
+  components:
+    - { id: HL,  req: M, max_use: 1 }
+    - { id: TD1, req: O, max_use: 20 }
+    - { id: TD5, req: O, max_use: 12 }
+    - { id: REF, req: O, usage: must_use }
+    - { id: DTM, req: O, max_use: 10 }
+    - loop_id: N1
+      repeat: 200
+      components:
+        - { id: N1, req: M }
+        - { id: N3, req: O }
+        - { id: N4, req: O }
+    - loop_id: HL_Order
+      repeat: 1
+      req: M
+      components:
+        - { id: HL,  req: M }
+        - { id: PRF, req: O }
+    - loop_id: HL_Tare
+      repeat: 1
+      req: M
+      components:
+        - { id: HL,  req: M }
+        - { id: MAN, req: O, usage: must_use }
+    - loop_id: HL_Item
+      repeat: 1
+      req: M
+      components:
+        - { id: HL,  req: M }
+        - { id: LIN, req: O }
+        - { id: SN1, req: O }
+        - loop_id: SLN
+          repeat: 1000
+          req: M
+          components:
+            - { id: SLN, req: O }
+
+- id: CTT
+  req: O
+  elements:
+    - { ref: CTT01, id: '354', req: M }
+    - { ref: CTT02, id: '347', req: O }
+
+

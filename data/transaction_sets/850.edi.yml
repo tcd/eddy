@@ -1,0 +1,66 @@
+---
+id: 850
+functional_group: PO
+name: Purchase Order
+components:
+
+- id: BEG
+  max_use: 1
+  req: M
+  element_count: 4
+  elements:
+    - { ref: BEG01, id: '353', req: M, default: '00' }
+    - { ref: BEG02, id: '92',  req: M, default: DS   }
+    - { ref: BEG03, id: '324', req: M }
+    - { ref: BEG05, id: '373', req: M, description: The date assigned to the purchase order by the purchaser. }
+
+- id: TD5
+  max_use: 12
+  req: O
+  element_count: 1
+  elements:
+    - ref: TD505
+      id: '387'
+      req: X
+      type: AN
+      min: 1
+      max: 35
+
+- loop_id: N1
+  repeat: 200
+  req: O
+  components:
+  - id: N1
+    max_use: 1
+    req: O
+    element_count: 2
+    elements:
+      - { ref: N101, id: '98', req: M, default: ST }
+      - { ref: N102, id: '93', req: M }
+  - id: N3
+    max_use: 2
+    req: O
+    element_count: 2
+    elements:
+      - { ref: N301, id: '166', req: M }
+      - { ref: N302, id: '166', req: O }
+  - id: N4
+    max_use: 1
+    req: O
+    element_count: 4
+
+- loop_id: PO1
+  repeat: 100000
+  req: M
+  components:
+  - id: PO1
+    max_use: 1
+    req: M
+    element_count: 9
+
+- id: CTT
+  max_use: 1
+  req: O
+  element_count: 1
+  elements:
+    - { ref: CTT01, id: '354', req: M }

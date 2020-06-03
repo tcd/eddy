@@ -1,0 +1,93 @@
+---
+id: 810
+functional_group: IN
+name: Invoice
+components:
+
+- id: BIG
+  req: M
+  element_count: 5
+
+- id: REF
+  req: O
+  element_count: 2
+
+- loop_id: N1
+  repeat: 200
+  components:
+    - id: N1
+      req: O
+      max_use: 1
+      element_count: 3
+      elements:
+        - { ref: N101, id: '98', req: M }
+        - { ref: N103, id: '66', req: X }
+        - { ref: N104, id: '67', req: X }
+    - id: N3
+      req: O
+      max_use: 2
+      element_count: 2
+      elements:
+        - { ref: N301, id: '166', req: M }
+        - { ref: N302, id: '166', req: O }
+    - id: N4
+      req: O
+      max_use: 2
+      element_count: 3
+      elements:
+        - { ref: N401, id: '19',  req: O }
+        - { ref: N402, id: '156', req: O }
+        - { ref: N403, id: '116', req: O }
+
+- id: DTM
+  req: O
+  element_count: 2
+  elements:
+    - { ref: DTM01, id: '374', req: M }
+    - { ref: DTM02, id: '373', req: X }
+
+- loop_id: IT1
+  repeat: 200000
+  components:
+    - id: IT1
+      req: O
+      element_count: 14
+    - id: CTP
+      req: O
+      element_count: 6
+    - loop_id: PID
+      repeat: 1000
+      req: M
+      components:
+        - id: PID
+          req: O
+          element_count: 2
+    - loop_id: SAC
+      repeat: 25
+      req: O
+      components:
+        - id: SAC
+          req: O
+          element_count: 3
+
+- id: TDS
+  req: M
+  element_count: 1
+
+- id: CAD
+  req: O
+  element_count: 1
+
+- loop_id: SAC
+  repeat: 25
+  req: O
+  components:
+    - id: SAC
+      req: O
+      element_count: 3
+
+- id: CTT
+  req: O
+  element_count: 1
+  elements:
+    - { ref: CTT01, id: '354', req: M }
