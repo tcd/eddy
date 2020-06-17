@@ -21,6 +21,12 @@ module Eddy
         @po107 = Eddy::Elements::E234.new(ref: "PO107", req: "X")
         @po108 = Eddy::Elements::E235.new(ref: "PO108", req: "X")
         @po109 = Eddy::Elements::E234.new(ref: "PO109", req: "X")
+        @po110 = Eddy::Elements::E235.new(ref: "PO110", req: "X")
+        @po111 = Eddy::Elements::E234.new(ref: "PO111", req: "X")
+        @po112 = Eddy::Elements::E235.new(ref: "PO112", req: "X")
+        @po113 = Eddy::Elements::E234.new(ref: "PO113", req: "X")
+        @po114 = Eddy::Elements::E235.new(ref: "PO114", req: "X")
+        @po115 = Eddy::Elements::E234.new(ref: "PO115", req: "X")
         super(
           store,
           @po101,
@@ -32,6 +38,12 @@ module Eddy
           @po107,
           @po108,
           @po109,
+          @po110,
+          @po111,
+          @po112,
+          @po113,
+          @po114,
+          @po115,
         )
       end
 
@@ -169,6 +181,96 @@ module Eddy
         @po109.value = arg
       end
       alias ProductServiceId2= PO109=
+
+      # ### PO110
+      #
+      # - Id: 235
+      # - Name: Product/Service ID Qualifier
+      # - Type: ID
+      # - Min/Max: 2/2
+      # - Description: Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO110=(arg)
+        @po110.value = arg
+      end
+      alias ProductServiceIdQualifier3= PO110=
+
+      # ### PO111
+      #
+      # - Id: 234
+      # - Name: Product/Service ID
+      # - Type: AN
+      # - Min/Max: 1/48
+      # - Description: Identifying number for a product or service
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO111=(arg)
+        @po111.value = arg
+      end
+      alias ProductServiceId3= PO111=
+
+      # ### PO112
+      #
+      # - Id: 235
+      # - Name: Product/Service ID Qualifier
+      # - Type: ID
+      # - Min/Max: 2/2
+      # - Description: Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO112=(arg)
+        @po112.value = arg
+      end
+      alias ProductServiceIdQualifier4= PO112=
+
+      # ### PO113
+      #
+      # - Id: 234
+      # - Name: Product/Service ID
+      # - Type: AN
+      # - Min/Max: 1/48
+      # - Description: Identifying number for a product or service
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO113=(arg)
+        @po113.value = arg
+      end
+      alias ProductServiceId4= PO113=
+
+      # ### PO114
+      #
+      # - Id: 235
+      # - Name: Product/Service ID Qualifier
+      # - Type: ID
+      # - Min/Max: 2/2
+      # - Description: Code identifying the type/source of the descriptive number used in Product/Service ID (234)
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO114=(arg)
+        @po114.value = arg
+      end
+      alias ProductServiceIdQualifier5= PO114=
+
+      # ### PO115
+      #
+      # - Id: 234
+      # - Name: Product/Service ID
+      # - Type: AN
+      # - Min/Max: 1/48
+      # - Description: Identifying number for a product or service
+      #
+      # @param arg [String]
+      # @return [void]
+      def PO115=(arg)
+        @po115.value = arg
+      end
+      alias ProductServiceId5= PO115=
 
     end
   end
