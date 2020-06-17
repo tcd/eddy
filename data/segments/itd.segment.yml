@@ -1,0 +1,13 @@
+---
+id: ITD
+name: Terms of Sale/Deferred Terms of Sale
+purpose: To specify terms of sale.
+elements:
+  - { ref: ITD01, id: '336', req: O }
+  - { ref: ITD02, id: '333', req: O }
+  - { ref: ITD03, id: '338', req: O }
+  - { ref: ITD04, id: '370', req: X }
+  - { ref: ITD05, id: '351', req: X }
+  - { ref: ITD06, id: '446', req: O }
+  - { ref: ITD07, id: '386', req: O }
+  - { ref: ITD12, id: '352', req: O }
