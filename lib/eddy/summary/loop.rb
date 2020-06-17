@@ -108,7 +108,7 @@ module Eddy
         end
       end
 
-      # Return `id` with the prefixes `"l_"` or `"hl_" removed.
+      # Return `id` with the prefixes `l_` or `"hl_"` removed.
       #
       # @return [String]
       def class_name()
