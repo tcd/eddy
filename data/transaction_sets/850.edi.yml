@@ -13,54 +13,61 @@ components:
     - { ref: BEG02, id: '92',  req: M, default: DS   }
     - { ref: BEG03, id: '324', req: M }
     - { ref: BEG05, id: '373', req: M, description: The date assigned to the purchase order by the purchaser. }
-
-- id: TD5
-  max_use: 12
-  req: O
-  element_count: 1
-  elements:
-    - ref: TD505
-      id: '387'
-      req: X
-      type: AN
-      min: 1
-      max: 35
-
+- { id: CUR, req: O, max_use: 1 }
+- { id: REF, req: M, max_use: 1 }
+- { id: FOB, req: M, max_use: 1 }
+- loop_id: SAC
+  repeat: 25
+  req: M
+  components:
+    - { id: SAC, req: O, max_use: 1  }
+- { id: ITD, req: M, max_use: 1  }
+- { id: DTM, req: O, max_use: 10 }
+- { id: TD5, req: M, max_use: 1  }
+- { id: TXI, req: M, max_use: 1  }
+- loop_id: N9
+  repeat: 1000
+  req: M
+  components:
+    - { id: N9,  req: O, max_use: 1 }
+    - { id: MTX, req: M, max_use: 1 }
 - loop_id: N1
   repeat: 200
-  req: O
+  req: M
   components:
-  - id: N1
-    max_use: 1
-    req: O
-    element_count: 2
-    elements:
-      - { ref: N101, id: '98', req: M, default: ST }
-      - { ref: N102, id: '93', req: M }
-  - id: N3
-    max_use: 2
-    req: O
-    element_count: 2
-    elements:
-      - { ref: N301, id: '166', req: M }
-      - { ref: N302, id: '166', req: O }
-  - id: N4
-    max_use: 1
-    req: O
-    element_count: 4
-
+    - { id: N1,  req: O, max_use: 1 }
+    - { id: N2,  req: O, max_use: 1 }
+    - { id: N3,  req: O, max_use: 1 }
+    - { id: N4,  req: O, max_use: 1 }
+    - { id: PER, req: M, max_use: 1 }
 - loop_id: PO1
   repeat: 100000
   req: M
   components:
-  - id: PO1
-    max_use: 1
-    req: M
-    element_count: 9
-
-- id: CTT
-  max_use: 1
-  req: O
-  element_count: 1
-  elements:
-    - { ref: CTT01, id: '354', req: M }
+    - { id: PO1, req: O, max_use: 1 }
+    - loop_id: CTP
+      repeat: 1 # no limit ?
+      req: M
+      components:
+        - { id: CTP, req: O, max_use: 1 }
+    - loop_id: PID
+      repeat: 1000
+      req: M
+      components:
+        - { id: PID, req: O, max_use: 1 }
+    - loop_id: SAC
+      repeat: 25
+      req: O
+      components:
+        - id: SAC
+          req: O
+          element_count: 3
+    - { id: TXI, req: M, max_use: 1 } # no limit ?
+    - loop_id: N9
+      repeat: 1000
+      req: M
+      components:
+        - { id: N9,  req: O, max_use: 1 }
+        - { id: MTX, req: M, max_use: 1 }
+- { id: CTT, req: O, max_use: 1 }
+- { id: AMT, req: O, max_use: 1 }
