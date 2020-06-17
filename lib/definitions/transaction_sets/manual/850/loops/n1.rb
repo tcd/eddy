@@ -1,6 +1,5 @@
 module Eddy
   module TransactionSets
-    # Namespace for Transaction Set 850 and its loops.
     module TS850
       module Loops
         module N1
@@ -10,33 +9,37 @@ module Eddy
           # - Repeat: 200
           # - Components:
           #   - N1
+          #   - N2
           #   - N3
           #   - N4
+          #   - PER
           class Base < Eddy::Models::Loop::Base
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
-              super(store, Repeat)
               @repeat_limit = 200
-            end
-
-            # @yieldparam [Eddy::TransactionSets::TS850::Loops::N1::Repeat]
-            # @return [void]
-            def repeat(&block)
-              super(&block)
+              super(store, Repeat)
             end
           end
 
           # (see Eddy::TransactionSets::TS850::Loops::N1::Base)
           class Repeat < Eddy::Models::Loop::Repeat
-
             # @param store [Eddy::Data::Store]
             # @return [void]
             def initialize(store)
               @n1 = Eddy::Segments::N1.new(store)
+              @n2 = Eddy::Segments::N2.new(store)
               @n3 = Eddy::Segments::N3.new(store)
               @n4 = Eddy::Segments::N4.new(store)
-              super(store, @n1, @n3, @n4)
+              @per = Eddy::Segments::PER.new(store)
+              super(
+                store,
+                @n1,
+                @n2,
+                @n3,
+                @n4,
+                @per,
+              )
             end
 
             # (see Eddy::Segments::N1)
@@ -46,6 +49,15 @@ module Eddy
             def N1()
               yield(@n1) if block_given?
               return @n1
+            end
+
+            # (see Eddy::Segments::N2)
+            #
+            # @yieldparam [Eddy::Segments::N2]
+            # @return [Eddy::Segments::N2]
+            def N2()
+              yield(@n2) if block_given?
+              return @n2
             end
 
             # (see Eddy::Segments::N3)
@@ -64,6 +76,15 @@ module Eddy
             def N4()
               yield(@n4) if block_given?
               return @n4
+            end
+
+            # (see Eddy::Segments::PER)
+            #
+            # @yieldparam [Eddy::Segments::PER]
+            # @return [Eddy::Segments::PER]
+            def PER()
+              yield(@per) if block_given?
+              return @per
             end
           end
 

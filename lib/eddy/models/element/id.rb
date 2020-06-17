@@ -1,7 +1,7 @@
 module Eddy
   module Models
     module Element
-      # Identifier (works with a code list specified by the dictionary).
+      # Identifier. Works with a code list specified by the dictionary.
       class ID < Base
 
         # @param min [Integer]

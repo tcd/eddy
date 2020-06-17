@@ -17,6 +17,10 @@ module Eddy
         @sac03 = Eddy::Elements::E559.new(ref: "SAC03", req: "X")
         @sac04 = Eddy::Elements::E1301.new(ref: "SAC04", req: "X")
         @sac05 = Eddy::Elements::E610.new(ref: "SAC05", req: "O")
+        @sac06 = Eddy::Elements::E378.new(ref: "SAC06", req: "X")
+        @sac07 = Eddy::Elements::E322.new(ref: "SAC07", req: "X")
+        @sac12 = Eddy::Elements::E311.new(ref: "SAC12", req: "O")
+        @sac15 = Eddy::Elements::E352.new(ref: "SAC15", req: "X")
         super(
           store,
           @sac01,
@@ -24,6 +28,10 @@ module Eddy
           @sac03,
           @sac04,
           @sac05,
+          @sac06,
+          @sac07,
+          @sac12,
+          @sac15,
         )
       end
 
@@ -101,6 +109,66 @@ module Eddy
         @sac05.value = arg
       end
       alias Amount= SAC05=
+
+      # ### SAC06
+      #
+      # - Id: 378
+      # - Name: Allowance/Charge Percent Qualifier
+      # - Type: ID
+      # - Min/Max: 1/1
+      # - Description: Code indicating on what basis allowance or charge percent is calculated
+      #
+      # @param arg [String]
+      # @return [void]
+      def SAC06=(arg)
+        @sac06.value = arg
+      end
+      alias AllowanceChargePercentQualifier= SAC06=
+
+      # ### SAC07
+      #
+      # - Id: 322
+      # - Name: Load/Empty Status Code
+      # - Type: ID
+      # - Min/Max: 1/1
+      # - Description: Code which specifies the loaded condition of transportation equipment
+      #
+      # @param arg [String]
+      # @return [void]
+      def SAC07=(arg)
+        @sac07.value = arg
+      end
+      alias LoadEmptyStatusCode= SAC07=
+
+      # ### SAC12
+      #
+      # - Id: 311
+      # - Name: Shipment Type Code
+      # - Type: ID
+      # - Min/Max: 1/2
+      # - Description: Code identifying shipment type
+      #
+      # @param arg [String]
+      # @return [void]
+      def SAC12=(arg)
+        @sac12.value = arg
+      end
+      alias ShipmentTypeCode= SAC12=
+
+      # ### SAC15
+      #
+      # - Id: 352
+      # - Name: Description
+      # - Type: AN
+      # - Min/Max: 1/80
+      # - Description: A free-form description to clarify the related data elements and their content
+      #
+      # @param arg [String]
+      # @return [void]
+      def SAC15=(arg)
+        @sac15.value = arg
+      end
+      alias Description= SAC15=
 
     end
   end

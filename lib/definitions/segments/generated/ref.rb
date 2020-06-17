@@ -14,10 +14,12 @@ module Eddy
         @name = "Reference Identification"
         @ref01 = Eddy::Elements::E128.new(ref: "REF01", req: "M")
         @ref02 = Eddy::Elements::E127.new(ref: "REF02", req: "X")
+        @ref03 = Eddy::Elements::E352.new(ref: "REF03", req: "X")
         super(
           store,
           @ref01,
           @ref02,
+          @ref03,
         )
       end
 
@@ -50,6 +52,21 @@ module Eddy
         @ref02.value = arg
       end
       alias ReferenceIdentification= REF02=
+
+      # ### REF03
+      #
+      # - Id: 352
+      # - Name: Description
+      # - Type: AN
+      # - Min/Max: 1/80
+      # - Description: A free-form description to clarify the related data elements and their content
+      #
+      # @param arg [String]
+      # @return [void]
+      def REF03=(arg)
+        @ref03.value = arg
+      end
+      alias Description= REF03=
 
     end
   end

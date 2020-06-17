@@ -113,7 +113,8 @@ module Eddy
 
       # Helper function to simplify conditional logic in {Eddy::Build}.
       #
-      # @see {Eddy::Summary::Loop#treat_as_segment?}
+      # See `Eddy::Summary::Loop#treat_as_segment?`
+      #
       # @return [Boolean] (true) Always returns true.
       def build_as_segment?()
         return true

@@ -14,10 +14,12 @@ module Eddy
         @name = "Date/Time Reference"
         @dtm01 = Eddy::Elements::E374.new(ref: "DTM01", req: "M")
         @dtm02 = Eddy::Elements::E373.new(ref: "DTM02", req: "X")
+        @dtm03 = Eddy::Elements::E337.new(ref: "DTM03", req: "X")
         super(
           store,
           @dtm01,
           @dtm02,
+          @dtm03,
         )
       end
 
@@ -50,6 +52,21 @@ module Eddy
         @dtm02.value = arg
       end
       alias Date= DTM02=
+
+      # ### DTM03
+      #
+      # - Id: 337
+      # - Name: Time
+      # - Type: TM
+      # - Min/Max: 4/8
+      # - Description: Time expressed in 24-hour clock time as follows: HHMM, or HHMMSS, or HHMMSSD, or HHMMSSDD, where H = hours (00-23), M = minutes (00-59), S = integer seconds (00-59) and DD = decimal seconds; decimal seconds are expressed as follows: D = tenths (0-9) and DD = hundredths (00-99)
+      #
+      # @param arg [Time]
+      # @return [void]
+      def DTM03=(arg)
+        @dtm03.value = arg
+      end
+      alias Time= DTM03=
 
     end
   end

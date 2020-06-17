@@ -1,0 +1,7 @@
+---
+id: AMT
+name: Monetary Amount Information
+purpose: To indicate the total monetary amount.
+elements:
+  - { ref: AMT01, id: '522', req: M }
+  - { ref: AMT02, id: '782', req: M }

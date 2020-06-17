@@ -1,0 +1,7 @@
+---
+id: SCH
+name: Line Item Schedule
+purpose: To specify the data for scheduling a specific line-item
+elements:
+  - { ref: SCH01, id: '380', req: M }
+  - { ref: SCH03, id: '98',  req: O }

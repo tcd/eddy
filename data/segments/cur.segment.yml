@@ -1,0 +1,8 @@
+---
+id: CUR
+name: Currency
+purpose: To specify the currency (dollars, pounds, francs, etc.) used in a transaction
+elements:
+  - { ref: CUR01, id: '98',  req: M }
+  - { ref: CUR02, id: '100', req: M }
+  - { ref: CUR03, id: '280', req: O }

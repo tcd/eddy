@@ -1,0 +1,7 @@
+---
+id: N9
+name: Extended Reference Information
+purpose: To transmit identifying information as specified by the Reference Identification Qualifier.
+elements:
+  - { ref: N901, id: '128', req: M }
+  - { ref: N903, id: '369', req: X }

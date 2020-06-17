@@ -13,6 +13,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## master (unreleased)
 
+## 0.9.0 (2020-07-03)
+
+### Added
+
+- New Transaction Set definition:
+    - 846
+- New Segment definitions:
+    - BIA
+    - CUR
+    - PER
+    - QTY
+    - SCH
+    - SDQ
+
+### Fixed
+
+- Updated method call in `Eddy::Build::TransactionSetBuilder#build_loops`.
+
 ## 0.8.4 (2020-01-15)
 
 ### Changed

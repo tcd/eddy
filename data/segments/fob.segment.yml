@@ -1,0 +1,8 @@
+---
+id: FOB
+name: F.O.B. Related Instructions
+purpose: To specify transportation instructions relating to shipment.
+elements:
+  - { ref: FOB01, id: '146', req: M }
+  - { ref: FOB02, id: '309', req: X }
+  - { ref: FOB03, id: '352', req: O }

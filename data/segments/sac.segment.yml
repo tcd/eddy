@@ -8,6 +8,10 @@ elements:
   - { ref: SAC03, id: '559',  req: X }
   - { ref: SAC04, id: '1301', req: X }
   - { ref: SAC05, id: '610',  req: O }
+  - { ref: SAC06, id: '378',  req: X }
+  - { ref: SAC07, id: '322',  req: X }
+  - { ref: SAC12, id: '311',  req: O }
+  - { ref: SAC15, id: '352',  req: X }
 notes: |
   1.R0203 - At least one of SAC02 or SAC03 is required.
   2.P0304 - If either SAC03 or SAC04 is present, then the other is required.

@@ -1,0 +1,7 @@
+---
+id: MTX
+name: Text
+purpose: To specify textual data.
+elements:
+  - { ref: MTX01, id: '363',  req: O }
+  - { ref: MTX02, id: '1551', req: X }

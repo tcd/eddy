@@ -1,0 +1,57 @@
+---
+id: 846
+functional_group: IB
+name: Inventory Inquiry/Advice
+components:
+- { id: BIA, req: M, max_use: 1  }
+- { id: CUR, req: O, max_use: 1  }
+- { id: DTM, req: O, max_use: 10 }
+- { id: REF, req: O, max_use: 12 }
+- { id: PER, req: O, max_use: 3  }
+- loop_id: N1
+  repeat: 5
+  components:
+    - { id: N1,  req: O, max_use: 1  }
+    - { id: N2,  req: O, max_use: 2  }
+    - { id: N3,  req: O, max_use: 2  }
+    - { id: N4,  req: O, max_use: 1  }
+    - { id: REF, req: O, max_use: 12 }
+    - { id: PER, req: O, max_use: 3  }
+- loop_id: LIN
+  repeat: 10000
+  components:
+    - { id: LIN, req: M, max_use: 1      }
+    - { id: PID, req: O, max_use: 200    }
+    - { id: DTM, req: O, max_use: 10     }
+    - { id: CTP, req: O, max_use: 25     }
+    - { id: REF, req: O, usage: must_use }
+    - { id: SDQ, req: O, max_use: 500    }
+    - loop_id: SLN
+      repeat: 1000
+      components:
+        - { id: SLN, req: O, max_use: 1   }
+        - { id: PID, req: O, max_use: 200 }
+    - loop_id: QTY
+      repeat: 99
+      components:
+        - { id: QTY, req: O, max_use: 1  }
+        - { id: DTM, req: O, max_use: 10 }
+        - loop_id: SCH
+          repeat: 25
+          components:
+            - { id: QTY, req: O, max_use: 1  }
+            - { id: DTM, req: O, max_use: 10 }
+    - loop_id: N1
+      repeat: 200
+      components:
+        - { id: N1,  req: O, max_use: 1  }
+        - { id: N2,  req: O, max_use: 2  }
+        - { id: N3,  req: O, max_use: 2  }
+        - { id: N4,  req: O, max_use: 1  }
+        - { id: REF, req: O, max_use: 12 }
+        - { id: PER, req: O, max_use: 3  }
+- id: CTT
+  req: O
+  elements:
+    - { ref: CTT01, id: '354', req: M }
+    - { ref: CTT02, id: '347', req: O }
