@@ -12,20 +12,20 @@ module Eddy
       def initialize(store)
         @id = "TXI"
         @name = "Tax Information"
-        @ack01 = Eddy::Elements::E963.new(ref: "ACK01", req: "M")
-        @ack02 = Eddy::Elements::E782.new(ref: "ACK02", req: "X")
-        @ack03 = Eddy::Elements::E954.new(ref: "ACK03", req: "X")
-        @ack09 = Eddy::Elements::E325.new(ref: "ACK09", req: "O")
+        @txi01 = Eddy::Elements::E963.new(ref: "TXI01", req: "M")
+        @txi02 = Eddy::Elements::E782.new(ref: "TXI02", req: "X")
+        @txi03 = Eddy::Elements::E954.new(ref: "TXI03", req: "X")
+        @txi09 = Eddy::Elements::E325.new(ref: "TXI09", req: "O")
         super(
           store,
-          @ack01,
-          @ack02,
-          @ack03,
-          @ack09,
+          @txi01,
+          @txi02,
+          @txi03,
+          @txi09,
         )
       end
 
-      # ### ACK01
+      # ### TXI01
       #
       # - Id: 963
       # - Name: Tax Type Code
@@ -35,12 +35,12 @@ module Eddy
       #
       # @param arg [String]
       # @return [void]
-      def ACK01=(arg)
-        @ack01.value = arg
+      def TXI01=(arg)
+        @txi01.value = arg
       end
-      alias TaxTypeCode= ACK01=
+      alias TaxTypeCode= TXI01=
 
-      # ### ACK02
+      # ### TXI02
       #
       # - Id: 782
       # - Name: Monetary Amount
@@ -50,12 +50,12 @@ module Eddy
       #
       # @param arg [Float]
       # @return [void]
-      def ACK02=(arg)
-        @ack02.value = arg
+      def TXI02=(arg)
+        @txi02.value = arg
       end
-      alias MonetaryAmount= ACK02=
+      alias MonetaryAmount= TXI02=
 
-      # ### ACK03
+      # ### TXI03
       #
       # - Id: 954
       # - Name: Percent
@@ -65,12 +65,12 @@ module Eddy
       #
       # @param arg [Float]
       # @return [void]
-      def ACK03=(arg)
-        @ack03.value = arg
+      def TXI03=(arg)
+        @txi03.value = arg
       end
-      alias Percent= ACK03=
+      alias Percent= TXI03=
 
-      # ### ACK09
+      # ### TXI09
       #
       # - Id: 325
       # - Name: Tax Identification Number
@@ -80,10 +80,10 @@ module Eddy
       #
       # @param arg [String]
       # @return [void]
-      def ACK09=(arg)
-        @ack09.value = arg
+      def TXI09=(arg)
+        @txi09.value = arg
       end
-      alias TaxIdentificationNumber= ACK09=
+      alias TaxIdentificationNumber= TXI09=
 
     end
   end

@@ -11,7 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 > 
 > While the API is still changing, enough code exists that EDI documents can currently be written with Eddy (though I wouldn't recommend use in production environments yet).
 
-## master (unreleased)
+<!-- ## master (unreleased) -->
+
+## 0.9.1 (2020-07-23)
+
+### Fixed
+
+- Fix incorrect element names in `TXI` segment.
+
 
 ## 0.9.0 (2020-07-03)
 
@@ -26,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - QTY
     - SCH
     - SDQ
+    - TXI
 
 ### Fixed
 

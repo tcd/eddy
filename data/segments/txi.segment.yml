@@ -3,7 +3,7 @@ id: TXI
 name: Tax Information
 purpose: To specify tax information.
 elements:
-  - { ref: ACK01, id: '963', req: M }
-  - { ref: ACK02, id: '782', req: X }
-  - { ref: ACK03, id: '954', req: X }
-  - { ref: ACK09, id: '325', req: O }
+  - { ref: TXI01, id: '963', req: M }
+  - { ref: TXI02, id: '782', req: X }
+  - { ref: TXI03, id: '954', req: X }
+  - { ref: TXI09, id: '325', req: O }
