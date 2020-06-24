@@ -47,6 +47,7 @@ module Eddy
           "00400", # Standard Issued as ANSI X12.5-1997
           "00401", # Draft Standards for Trial Use Approved for Publication by ASC X12 Procedures Review Board through October 1997
           "00402", # Draft Standards for Trial Use Approved for Publication by ASC X12 Procedures Review Board through October 1998
+          "00501",
         ]
       end
 

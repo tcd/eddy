@@ -13,6 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## master (unreleased) -->
 
+## 0.9.2 (2020-07-24)
+
+### Changed
+
+- Update allowed values for elements `I10` and `I11`
+
+
 ## 0.9.1 (2020-07-23)
 
 ### Fixed

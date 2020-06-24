@@ -4,14 +4,14 @@ module Eddy
     #
     # - Id: I10
     # - Name: Interchange Control Standards Identifier
-    # - Type: ID
+    # - Type: AN (Should be ID)
     # - Min/Max: 1/1
     # - Description: Code to identify the agency responsible for the control standard used by the message that is enclosed by the interchange header and trailer
     #
     # ### Notes:
     #
     # - (Default value: `"U"`)
-    class I10 < Eddy::Models::Element::ID
+    class I10 < Eddy::Models::Element::AN
 
       # @param val [String] ("U")
       # @param req [String] (nil)
