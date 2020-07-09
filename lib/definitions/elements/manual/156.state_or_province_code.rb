@@ -10,7 +10,7 @@ module Eddy
     #
     # ### Notes:
     #
-    # - FIXME: Currently only accepts states in the USA.
+    # - FIXME: Currently only accepts states in the USA and Canada.
     class E156 < Eddy::Models::Element::ID
 
       # @param val [String] (nil)
@@ -33,6 +33,7 @@ module Eddy
       # @return [Array<String>]
       def code_list()
         return [
+          # United States
           "AL",
           "AK",
           "AZ",
@@ -84,6 +85,20 @@ module Eddy
           "WV",
           "WI",
           "WY",
+          # Canada
+          "AB",
+          "BC",
+          "MB",
+          "NB",
+          "NL",
+          "NS",
+          "NT",
+          "NU",
+          "ON",
+          "PE",
+          "QC",
+          "SK",
+          "YT",
         ]
       end
 

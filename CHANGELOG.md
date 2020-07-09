@@ -13,21 +13,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## master (unreleased) -->
 
-## 0.9.2 (2020-07-24)
+## 0.10.0 (2020-07-09)
+
+### Added
+
+- Add abbreviations for Canadian provinces and territories as valid values for element `156` (*State or Province Code*).
+
+### Changed
+
+- Fix incorrect changelog dates.
+
+
+## 0.9.2 (2020-06-24)
 
 ### Changed
 
 - Update allowed values for elements `I10` and `I11`
 
 
-## 0.9.1 (2020-07-23)
+## 0.9.1 (2020-06-23)
 
 ### Fixed
 
 - Fix incorrect element names in `TXI` segment.
 
 
-## 0.9.0 (2020-07-03)
+## 0.9.0 (2020-06-03)
 
 ### Added
 
